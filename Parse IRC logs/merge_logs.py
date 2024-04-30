@@ -100,7 +100,7 @@ def generate_index_html(session_files, output_file, title="IRC Sessions Index"):
             file.write(f"<h2>{month_year}</h2>\n")
             for day, sessions in sorted(days.items()):
                 day_number_name = datetime.strptime(day, "%d").strftime("%d (%A)")
-                file.write(f"<h3>{day_number_name}</h3>\n<ul>\n")
+                file.write(f"<h3>{month_year}-{day_number_name}</h3>\n<ul>\n")
 
                 for date, filename, nickname in sorted(sessions):
                     # Extract relative path from filename
