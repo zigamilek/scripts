@@ -103,7 +103,10 @@ def generate_index_html(session_files, output_file, title="IRC Sessions Index"):
         for month_year, days in grouped_sessions.items():
             file.write(f"<h2>{month_year}</h2>\n")
             for day, sessions in sorted(days.items()):
-                day_number_name = datetime.strptime(day, "%d").strftime("%d (%A)")
+                # Parse the full date to get the correct day name
+                full_date_str = f"{month_year}-{day}"
+                full_date = datetime.strptime(full_date_str, "%Y-%m-%d")
+                day_number_name = full_date.strftime("%d (%A)")
                 file.write(f"<h3>{month_year}-{day_number_name}</h3>\n<ul>\n")
 
                 for date, filename, nickname in sorted(sessions):
