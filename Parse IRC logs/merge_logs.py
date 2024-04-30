@@ -56,7 +56,7 @@ def combine_sessions(file_paths):
     return all_sessions
 
 # Helper function to write individual session HTML files
-def output_session_html(sessions, output_dir):
+def output_session_html(sessions, output_dir, person_name=None):
     session_html_dir = os.path.join(output_dir, 'session_htmls')
     if not os.path.exists(session_html_dir):
         os.makedirs(session_html_dir)
@@ -71,8 +71,8 @@ def output_session_html(sessions, output_dir):
         session_files.append((session_date, session_filename, nickname))
 
         with open(session_filename, 'w', encoding='utf-8') as file:
-            file.write(f"<html><head><title>IRC Session {session_date.strftime('%Y-%m-%d')}</title></head><body>")
-            file.write(f"<h2>IRC Session - {session_date.strftime('%Y-%m-%d %H:%M')}</h2><ul>")
+            file.write(f"<html><head><title>{person_name} {session_date.strftime('%Y-%m-%d')}</title></head><body>")
+            file.write(f"<h2>{person_name} - {session_date.strftime('%Y-%m-%d %H:%M')}</h2><ul>")
 
             for timestamp, user, msg in session_messages:
                 # Escape angle brackets in user and msg
@@ -158,7 +158,7 @@ def main():
 
     # Generate index HTML for each person
     for person_name, files in person_sessions.items():
-        person_session_files = output_session_html(combine_sessions(files), output_directory)
+        person_session_files = output_session_html(combine_sessions(files), output_directory, person_name)
         person_index_file = os.path.join(output_directory, f"{person_name}.html")
         generate_index_html(person_session_files, person_index_file, f"IRC Sessions Index - {person_name}")
 
