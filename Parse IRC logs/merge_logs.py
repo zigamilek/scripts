@@ -94,7 +94,9 @@ def generate_index_html(session_files, output_file):
 
             for date, filename, nickname in sessions:
                 day_name = date.strftime("%A")
-                file.write(f'<li><a href="{filename}" target="_blank">{date.strftime("%Y-%m-%d")} ({day_name}) ({nickname})</a> - {date.strftime("%H:%M")}</li>')
+                # Extract relative path from filename
+                relative_path = os.path.relpath(filename, os.path.dirname(output_file))
+                file.write(f"<li><a href=\"{relative_path}\" target=\"_blank\">{date.strftime('%Y-%m-%d')} ({day_name}) ({nickname})</a> - {date.strftime('%H:%M')}</li>")
 
             file.write("</ul>")
 
