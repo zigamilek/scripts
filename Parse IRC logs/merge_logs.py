@@ -105,7 +105,7 @@ def generate_index_html(session_files, output_file):
                 for date, filename, nickname in sorted(sessions):
                     # Extract relative path from filename
                     relative_path = os.path.relpath(filename, os.path.dirname(output_file))
-                    file.write(f"  <li><a href=\"{relative_path}\" target=\"_blank\">{date.strftime('%Y-%m-%d')} ({nickname})</a> - {date.strftime('%H:%M')}</li>\n")
+                    file.write(f"  <li><a href=\"{relative_path}\" target=\"_blank\">{date.strftime('%H:%M')} - {nickname}</a></li>\n")
 
                 file.write("</ul>\n")
 
