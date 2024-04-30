@@ -9,7 +9,7 @@ def parse_log_file(file_path):
     sessions = []
     session_date = None
     session_messages = []
-    timestamp_regex = re.compile(r"\((\d{2}:\d{2})\) (?:<([^>]+)>|\(([^)]+)\)) (.+)")    
+    timestamp_regex = re.compile(r"(?:\((\d{2}:\d{2})\))? ?(?:<([^>]+)>|\(([^)]+)\)) (.+)")
 
     with open(file_path, 'r', encoding='cp1250', errors='replace') as file:
         lines = file.readlines()
@@ -29,7 +29,10 @@ def parse_log_file(file_path):
         if match:
             time_str, user1, user2, msg = match.groups()
             user = user1 if user1 else user2
-            full_timestamp = datetime.combine(session_date.date(), datetime.strptime(time_str, "%H:%M").time())
+            if time_str and session_date:
+                full_timestamp = datetime.combine(session_date.date(), datetime.strptime(time_str, "%H:%M").time())
+            else:
+                full_timestamp = None
             session_messages.append((full_timestamp, user, msg))
 
     # Add last session if exists
@@ -75,7 +78,8 @@ def output_session_html(sessions, output_dir):
                 # Escape angle brackets in user and msg
                 user_escaped = user.replace("<", "&lt;").replace(">", "&gt;")
                 msg_escaped = msg.replace("<", "&lt;").replace(">", "&gt;")
-                file.write(f"<li>{timestamp.strftime('%H:%M')} <strong>{user_escaped}:</strong> {msg_escaped}</li>")
+                timestamp_str = timestamp.strftime('%H:%M') if timestamp else "Unknown Time"
+                file.write(f"<li>{timestamp_str} <strong>{user_escaped}:</strong> {msg_escaped}</li>")
 
             file.write("</ul></body></html>")
 
