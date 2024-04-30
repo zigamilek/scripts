@@ -82,7 +82,7 @@ def output_session_html(sessions, output_dir):
     return session_files
 
 # Helper function to generate index HTML page
-def generate_index_html(session_files, output_file):
+def generate_index_html(session_files, output_file, title="IRC Sessions Index"):
     # Group sessions by month-year and then by day
     grouped_sessions = defaultdict(lambda: defaultdict(list))
 
@@ -93,8 +93,8 @@ def generate_index_html(session_files, output_file):
 
     # Write index HTML page
     with open(output_file, 'w', encoding='utf-8') as file:
-        file.write("<html><head><title>IRC Sessions Index</title></head><body>")
-        file.write("<h1>IRC Sessions Index</h1>\n")
+        file.write(f"<html><head><title>{title}</title></head><body>")
+        file.write(f"<h1>{title}</h1>\n")
 
         for month_year, days in grouped_sessions.items():
             file.write(f"<h2>{month_year}</h2>\n")
@@ -125,10 +125,16 @@ def main():
 
     # List all .log files in the directory and subdirectories, case-insensitive
     log_files = []
+    person_sessions = defaultdict(list)
     for root, dirs, files in os.walk(log_directory):
         for file in files:
             if file.lower().endswith('.log'):
-                log_files.append(os.path.join(root, file))
+                full_path = os.path.join(root, file)
+                log_files.append(full_path)
+                # Assuming the person's name is the name of the subdirectory within log_directory
+                sub_dir = os.path.relpath(root, log_directory)
+                person_name = os.path.basename(sub_dir)
+                person_sessions[person_name].append(full_path)
 
     # Combine and sort sessions
     sessions = combine_sessions(log_files)
@@ -136,9 +142,16 @@ def main():
     # Output sessions to individual HTML files
     session_files = output_session_html(sessions, output_directory)
 
-    # Generate index HTML
-    index_file = os.path.join(output_directory, "index.html")
+    # Generate main index HTML
+    index_file = os.path.join(output_directory, "0_index.html")
     generate_index_html(session_files, index_file)
+
+    # Generate index HTML for each person
+    for person_name, files in person_sessions.items():
+        if person_name != '.':  # Exclude the root directory
+            person_session_files = output_session_html(combine_sessions(files), output_directory)
+            person_index_file = os.path.join(output_directory, f"{person_name}.html")
+            generate_index_html(person_session_files, person_index_file, f"IRC Sessions Index - {person_name}")
 
 if __name__ == "__main__":
     main()
