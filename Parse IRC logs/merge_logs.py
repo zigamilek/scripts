@@ -72,8 +72,27 @@ def output_session_html(sessions, output_dir, person_name=None):
 
         with open(session_filename, 'w', encoding='utf-8') as file:
             file.write(f"<html><head><title>{person_name} {session_date.strftime('%Y-%m-%d')}</title></head><body>")
-            file.write(f"<h2>{person_name} - {session_date.strftime('%Y-%m-%d %H:%M')}</h2><ul>")
+            file.write(f"<h2>{person_name} - {session_date.strftime('%Y-%m-%d %H:%M')}</h2>")
 
+            # Add navigation links
+            if i > 0:
+                prev_session_date, prev_session_filename, _ = session_files[i-1]
+                prev_relative_path = os.path.relpath(prev_session_filename, session_html_dir)
+                prev_link_text = prev_session_date.strftime('%Y-%m-%d %H:%M')
+                file.write(f'<a href="{prev_relative_path}">({prev_link_text}) Previous Session</a> | ')
+            else:
+                file.write('Previous Session | ')
+
+            if i < len(sessions) - 1:
+                _, next_session_date, _ = sessions[i+1]
+                next_session_filename = f"{session_html_dir}/{next_session_date.strftime('%Y-%m-%d')}_{i+1}.html"
+                next_relative_path = os.path.relpath(next_session_filename, session_html_dir)
+                next_link_text = next_session_date.strftime('%Y-%m-%d %H:%M')
+                file.write(f'<a href="{next_relative_path}">({next_link_text}) Next Session</a><br><br>\n')
+            else:
+                file.write('Next Session<br><br>\n')
+
+            file.write("<ul>")
             for timestamp, user, msg in session_messages:
                 # Escape angle brackets in user and msg
                 user_escaped = user.replace("<", "&lt;").replace(">", "&gt;")
