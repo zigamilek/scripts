@@ -83,28 +83,31 @@ def output_session_html(sessions, output_dir):
 
 # Helper function to generate index HTML page
 def generate_index_html(session_files, output_file):
-    # Group sessions by month-year
-    grouped_sessions = defaultdict(list)
+    # Group sessions by month-year and then by day
+    grouped_sessions = defaultdict(lambda: defaultdict(list))
 
     for date, filename, nickname in session_files:
-        key = date.strftime("%Y-%m")
-        grouped_sessions[key].append((date, filename, nickname))
+        month_year_key = date.strftime("%Y-%m")
+        day_key = date.strftime("%d")
+        grouped_sessions[month_year_key][day_key].append((date, filename, nickname))
 
     # Write index HTML page
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write("<html><head><title>IRC Sessions Index</title></head><body>")
-        file.write("<h1>IRC Sessions Index</h1>")
+        file.write("<h1>IRC Sessions Index</h1>\n")
 
-        for month_year, sessions in grouped_sessions.items():
-            file.write(f"<h2>{month_year}</h2><ul>")
+        for month_year, days in grouped_sessions.items():
+            file.write(f"<h2>{month_year}</h2>\n")
+            for day, sessions in sorted(days.items()):
+                day_number_name = datetime.strptime(day, "%d").strftime("%d (%A)")
+                file.write(f"<h3>{day_number_name}</h3>\n<ul>\n")
 
-            for date, filename, nickname in sessions:
-                day_name = date.strftime("%A")
-                # Extract relative path from filename
-                relative_path = os.path.relpath(filename, os.path.dirname(output_file))
-                file.write(f"<li><a href=\"{relative_path}\" target=\"_blank\">{date.strftime('%Y-%m-%d')} ({day_name}) ({nickname})</a> - {date.strftime('%H:%M')}</li>")
+                for date, filename, nickname in sorted(sessions):
+                    # Extract relative path from filename
+                    relative_path = os.path.relpath(filename, os.path.dirname(output_file))
+                    file.write(f"  <li><a href=\"{relative_path}\" target=\"_blank\">{date.strftime('%Y-%m-%d')} ({nickname})</a> - {date.strftime('%H:%M')}</li>\n")
 
-            file.write("</ul>")
+                file.write("</ul>\n")
 
         file.write("</body></html>")
 
