@@ -9,7 +9,7 @@ def parse_log_file(file_path):
     sessions = []
     session_date = None
     session_messages = []
-    timestamp_regex = re.compile(r"\((\d{2}:\d{2})\) \(([^)]+)\) (.+)")
+    timestamp_regex = re.compile(r"\((\d{2}:\d{2})\) (?:<([^>]+)>|\(([^)]+)\)) (.+)")    
 
     with open(file_path, 'r', encoding='cp1250', errors='replace') as file:
         lines = file.readlines()
@@ -27,7 +27,8 @@ def parse_log_file(file_path):
         # Extract messages with timestamps
         match = timestamp_regex.match(line)
         if match:
-            time_str, user, msg = match.groups()
+            time_str, user1, user2, msg = match.groups()
+            user = user1 if user1 else user2
             full_timestamp = datetime.combine(session_date.date(), datetime.strptime(time_str, "%H:%M").time())
             session_messages.append((full_timestamp, user, msg))
 
