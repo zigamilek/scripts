@@ -54,8 +54,9 @@ def combine_sessions(file_paths):
 
 # Helper function to write individual session HTML files
 def output_session_html(sessions, output_dir):
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+    session_html_dir = os.path.join(output_dir, 'session_htmls')
+    if not os.path.exists(session_html_dir):
+        os.makedirs(session_html_dir)
 
     session_files = []
 
@@ -63,7 +64,7 @@ def output_session_html(sessions, output_dir):
         # Get the nickname from the log file's filename
         nickname = os.path.splitext(os.path.basename(log_file))[0]
 
-        session_filename = f"{output_dir}/{session_date.strftime('%Y-%m-%d')}_{i}.html"
+        session_filename = f"{session_html_dir}/{session_date.strftime('%Y-%m-%d')}_{i}.html"
         session_files.append((session_date, session_filename, nickname))
 
         with open(session_filename, 'w', encoding='utf-8') as file:
@@ -111,26 +112,25 @@ def generate_index_html(session_files, output_file):
 def main():
     import sys
 
-    # Check for directory argument
-    if len(sys.argv) < 2:
-        print("Usage: python merge_logs.py <log_directory>")
+    # Check for directory arguments
+    if len(sys.argv) < 3:
+        print("Usage: python merge_logs.py <log_directory> <output_directory>")
         return
 
     log_directory = sys.argv[1]
+    output_directory = sys.argv[2]
 
     # List all .log files in the directory, case-insensitive
     log_files = [os.path.join(log_directory, f) for f in os.listdir(log_directory) if f.lower().endswith('.log')]
-    print(log_files)
 
     # Combine and sort sessions
     sessions = combine_sessions(log_files)
 
     # Output sessions to individual HTML files
-    output_dir = os.path.join(log_directory, "sessions_html")
-    session_files = output_session_html(sessions, output_dir)
+    session_files = output_session_html(sessions, output_directory)
 
     # Generate index HTML
-    index_file = os.path.join(log_directory, "index.html")
+    index_file = os.path.join(output_directory, "index.html")
     generate_index_html(session_files, index_file)
 
 if __name__ == "__main__":
