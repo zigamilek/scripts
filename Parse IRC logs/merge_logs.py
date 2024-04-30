@@ -11,7 +11,7 @@ def parse_log_file(file_path):
     session_messages = []
     timestamp_regex = re.compile(r"\((\d{2}:\d{2})\) \(([^)]+)\) (.+)")
 
-    with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
+    with open(file_path, 'r', encoding='cp1250', errors='replace') as file:
         lines = file.readlines()
 
     for line in lines:
