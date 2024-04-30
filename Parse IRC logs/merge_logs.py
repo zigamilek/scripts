@@ -120,8 +120,12 @@ def main():
     log_directory = sys.argv[1]
     output_directory = sys.argv[2]
 
-    # List all .log files in the directory, case-insensitive
-    log_files = [os.path.join(log_directory, f) for f in os.listdir(log_directory) if f.lower().endswith('.log')]
+    # List all .log files in the directory and subdirectories, case-insensitive
+    log_files = []
+    for root, dirs, files in os.walk(log_directory):
+        for file in files:
+            if file.lower().endswith('.log'):
+                log_files.append(os.path.join(root, file))
 
     # Combine and sort sessions
     sessions = combine_sessions(log_files)
