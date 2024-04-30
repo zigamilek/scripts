@@ -135,10 +135,13 @@ def main():
             if file.lower().endswith('.log'):
                 full_path = os.path.join(root, file)
                 log_files.append(full_path)
-                # Assuming the person's name is the name of the subdirectory within log_directory
+                # Assuming the person's name is the name of the top-level subdirectory within log_directory
                 sub_dir = os.path.relpath(root, log_directory)
-                person_name = os.path.basename(sub_dir)
-                person_sessions[person_name].append(full_path)
+                # Split the sub_dir to get the top-level directory which is the person's name
+                person_name = sub_dir.split(os.sep)[0]
+                # Check if the sub_dir is not the log_directory itself
+                if sub_dir != '.':
+                    person_sessions[person_name].append(full_path)
 
     # Combine and sort sessions
     sessions = combine_sessions(log_files)
@@ -152,10 +155,9 @@ def main():
 
     # Generate index HTML for each person
     for person_name, files in person_sessions.items():
-        if person_name != '.':  # Exclude the root directory
-            person_session_files = output_session_html(combine_sessions(files), output_directory)
-            person_index_file = os.path.join(output_directory, f"{person_name}.html")
-            generate_index_html(person_session_files, person_index_file, f"IRC Sessions Index - {person_name}")
+        person_session_files = output_session_html(combine_sessions(files), output_directory)
+        person_index_file = os.path.join(output_directory, f"{person_name}.html")
+        generate_index_html(person_session_files, person_index_file, f"IRC Sessions Index - {person_name}")
 
 if __name__ == "__main__":
     main()
