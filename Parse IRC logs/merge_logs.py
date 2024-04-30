@@ -70,7 +70,10 @@ def output_session_html(sessions, output_dir):
             file.write(f"<h2>IRC Session - {session_date.strftime('%Y-%m-%d %H:%M')}</h2><ul>")
 
             for timestamp, user, msg in session_messages:
-                file.write(f"<li>{timestamp.strftime('%H:%M')} <strong>{user}:</strong> {msg}</li>")
+                # Escape angle brackets in user and msg
+                user_escaped = user.replace("<", "&lt;").replace(">", "&gt;")
+                msg_escaped = msg.replace("<", "&lt;").replace(">", "&gt;")
+                file.write(f"<li>{timestamp.strftime('%H:%M')} <strong>{user_escaped}:</strong> {msg_escaped}</li>")
 
             file.write("</ul></body></html>")
 
