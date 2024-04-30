@@ -9,12 +9,32 @@ def parse_log_file(file_path):
     sessions = []
     session_date = None
     session_messages = []
-    timestamp_regex = re.compile(r"(?:\((\d{2}:\d{2})\))? ?(?:<([^>]+)>|\(([^)]+)\)) (.+)")
+    # Updated regex to match both formats
+    timestamp_regex = re.compile(
+        r"(?:\((\d{2}:\d{2})\))? ?(?:<([^>]+)>|\(([^)]+)\)) (.+)|"
+        r"\[(\d{2}:\d{2}:\d{2})\] \(([^)]+)\) (.+)"
+    )
+
+    control_char_regex = re.compile(r'[\x00-\x1f\x7f-\x9f]')
+
+    custom_replacements = {
+        r'12\[1 ': '[',
+        r' 12\]': ']',
+        r'02\(': '(',
+        r'02\)': ')',
+        r'\)02': ')'
+    }
 
     with open(file_path, 'r', encoding='cp1250', errors='replace') as file:
         lines = file.readlines()
 
     for line in lines:
+        # Strip control characters
+        line = control_char_regex.sub('', line)
+
+        # Apply custom replacements
+        for pattern, replacement in custom_replacements.items():
+            line = re.sub(pattern, replacement, line)
         # Check for session start date
         if line.startswith("Session Start:"):
             if session_messages:
@@ -27,10 +47,14 @@ def parse_log_file(file_path):
         # Extract messages with timestamps
         match = timestamp_regex.match(line)
         if match:
-            time_str, user1, user2, msg = match.groups()
-            user = user1 if user1 else user2
+            # Updated to handle the new capturing groups
+            time_str, user1, user2, msg, new_time_str, new_user, new_msg = match.groups()
+            user = user1 if user1 else (user2 if user2 else new_user)
+            msg = msg if msg else new_msg
             if time_str and session_date:
                 full_timestamp = datetime.combine(session_date.date(), datetime.strptime(time_str, "%H:%M").time())
+            elif new_time_str:
+                full_timestamp = datetime.strptime(new_time_str, "%H:%M:%S").time()
             else:
                 full_timestamp = None
             session_messages.append((full_timestamp, user, msg))
