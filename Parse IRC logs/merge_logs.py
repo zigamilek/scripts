@@ -5,10 +5,11 @@ from collections import defaultdict
 
 # Helper function to parse a single log file
 def parse_log_file(file_path):
+    print(f"Working on {file_path}")
     sessions = []
     session_date = None
     session_messages = []
-    timestamp_regex = re.compile(r"\((\d{2}:\d{2})\) <([^>]+)> (.+)")
+    timestamp_regex = re.compile(r"\((\d{2}:\d{2})\) \(([^)]+)\) (.+)")
 
     with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
         lines = file.readlines()
@@ -115,6 +116,7 @@ def main():
 
     # List all .log files in the directory, case-insensitive
     log_files = [os.path.join(log_directory, f) for f in os.listdir(log_directory) if f.lower().endswith('.log')]
+    print(log_files)
 
     # Combine and sort sessions
     sessions = combine_sessions(log_files)
