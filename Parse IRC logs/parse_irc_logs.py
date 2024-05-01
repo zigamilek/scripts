@@ -15,7 +15,7 @@ def parse_log_file(file_path):
         r"(?:"
         r"\(\s*(\d{2}:\d{2}(?::\d{2})?)\s*\)"  # Matches time in parentheses (HH:MM or HH:MM:SS)
         r"|\[\s*(\d{2}:\d{2}(?::\d{2})?)\s*\]"  # Matches time in square brackets [HH:MM or HH:MM:SS]
-        r")"
+        r")?"
         r"\s*"  # Optional space after the timestamp
         r"(?:"
         r"<([^>]+)>"  # Matches username in angle brackets <username>
@@ -63,7 +63,7 @@ def parse_log_file(file_path):
             time_str = time_str if time_str else new_time_str
             user = user1 if user1 else (user2 if user2 else user3)
 
-            if session_date:
+            if time_str and session_date:
                 # Parse timestamp into a datetime object
                 try:
                     # Try to parse with seconds
@@ -74,7 +74,7 @@ def parse_log_file(file_path):
                 
                 session_messages.append((full_timestamp, user, msg))
             else:
-                # If no session date, just store the raw message
+                # If no timestamp or session date, just store the raw message
                 session_messages.append((None, user, msg))
 
     # Add last session if exists
@@ -139,7 +139,7 @@ def output_session_html(sessions, output_dir, person_name=None):
                 # Escape angle brackets in user and msg
                 user_escaped = user.replace("<", "&lt;").replace(">", "&gt;")
                 msg_escaped = msg.replace("<", "&lt;").replace(">", "&gt;")
-                timestamp_str = timestamp.strftime('%H:%M') if timestamp else "Unknown Time"
+                timestamp_str = timestamp.strftime('%H:%M') if timestamp else ""
                 file.write(f"<li>{timestamp_str} <strong>{user_escaped}:</strong> {msg_escaped}</li>")
 
             file.write("</ul></body></html>")
