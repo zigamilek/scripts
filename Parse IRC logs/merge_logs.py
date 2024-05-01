@@ -95,8 +95,8 @@ def output_session_html(sessions, output_dir, person_name=None):
         session_files.append((session_date, session_filename, nickname))
 
         with open(session_filename, 'w', encoding='utf-8') as file:
-            file.write(f"<html><head><title>{person_name} {session_date.strftime('%Y-%m-%d')}</title></head><body>")
-            file.write(f"<h2>{person_name} - {session_date.strftime('%Y-%m-%d %H:%M')}</h2>")
+            file.write(f"<html><head><title>{person_name} - {session_date.strftime('%Y-%m-%d (%A)')}</title></head><body>")
+            file.write(f"<h2>{person_name} - {session_date.strftime('%Y-%m-%d %H:%M (%A)')}</h2>")
 
             # Add navigation links
             if i > 0:
