@@ -9,11 +9,22 @@ def parse_log_file(file_path):
     sessions = []
     session_date = None
     session_messages = []
-    # Updated regex to match both formats
+
+    # Updated regex to match the specified formats
     timestamp_regex = re.compile(
-        r"(?:\((\d{2}:\d{2})\))? ?(?:<([^>]+)>|\(([^)]+)\)) (.+)|"
-        r"\[(\d{2}:\d{2})(?::\d{2})?\] <([^>]+)> (.+)"
+        r"(?:"
+        r"\(\s*(\d{2}:\d{2}(?::\d{2})?)\s*\)"  # Matches time in parentheses (HH:MM or HH:MM:SS)
+        r"|\[\s*(\d{2}:\d{2}(?::\d{2})?)\s*\]"  # Matches time in square brackets [HH:MM or HH:MM:SS]
+        r")"
+        r"\s*"  # Optional space after the timestamp
+        r"(?:"
+        r"<([^>]+)>"  # Matches username in angle brackets <username>
+        r"|\[([^]]+)\]"  # Matches username in square brackets [username]
+        r"|\(([^)]+)\)"  # Matches username in parentheses (username)
+        r")"
+        r"\s*(.+)"  # Matches the remaining message text
     )
+
 
     control_char_regex = re.compile(r'[\x00-\x1f\x7f-\x9f]')
 
@@ -21,7 +32,7 @@ def parse_log_file(file_path):
         r'12\[1 ': '[',
         r' 12\]': ']',
         r'02\(': '(',
-        r'02\)': ')',
+        r'(?<!:)02\)': ')',  # Added negative lookbehind to ensure '02)' is not prefixed by ':'
         r'\)02': ')'
     }
 
@@ -35,6 +46,7 @@ def parse_log_file(file_path):
         # Apply custom replacements
         for pattern, replacement in custom_replacements.items():
             line = re.sub(pattern, replacement, line)
+
         # Check for session start date
         if line.startswith("Session Start:"):
             if session_messages:
@@ -47,22 +59,23 @@ def parse_log_file(file_path):
         # Extract messages with timestamps
         match = timestamp_regex.match(line)
         if match:
-            # Updated to handle the new capturing groups
-            time_str, user1, user2, msg, new_time_str, new_user, new_msg = match.groups()
-            user = user1 if user1 else (user2 if user2 else new_user)
-            msg = msg if msg else new_msg
-            if time_str and session_date:
-                full_timestamp = datetime.combine(session_date.date(), datetime.strptime(time_str, "%H:%M").time())
-            elif new_time_str:
+            time_str, new_time_str, user1, user2, user3, msg = match.groups()
+            time_str = time_str if time_str else new_time_str
+            user = user1 if user1 else (user2 if user2 else user3)
+
+            if session_date:
+                # Parse timestamp into a datetime object
                 try:
                     # Try to parse with seconds
-                    full_timestamp = datetime.strptime(new_time_str, "%H:%M:%S").time()
+                    full_timestamp = datetime.combine(session_date.date(), datetime.strptime(time_str, "%H:%M:%S").time())
                 except ValueError:
                     # If there are no seconds, parse without them
-                    full_timestamp = datetime.strptime(new_time_str, "%H:%M").time()
+                    full_timestamp = datetime.combine(session_date.date(), datetime.strptime(time_str, "%H:%M").time())
+                
+                session_messages.append((full_timestamp, user, msg))
             else:
-                full_timestamp = None
-            session_messages.append((full_timestamp, user, msg))
+                # If no session date, just store the raw message
+                session_messages.append((None, user, msg))
 
     # Add last session if exists
     if session_messages:
