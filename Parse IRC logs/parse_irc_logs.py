@@ -12,7 +12,7 @@ def parse_log_file(file_path):
     # Updated regex to match both formats
     timestamp_regex = re.compile(
         r"(?:\((\d{2}:\d{2})\))? ?(?:<([^>]+)>|\(([^)]+)\)) (.+)|"
-        r"\[(\d{2}:\d{2}:\d{2})\] \(([^)]+)\) (.+)"
+        r"\[(\d{2}:\d{2})(?::\d{2})?\] <([^>]+)> (.+)"
     )
 
     control_char_regex = re.compile(r'[\x00-\x1f\x7f-\x9f]')
@@ -54,7 +54,12 @@ def parse_log_file(file_path):
             if time_str and session_date:
                 full_timestamp = datetime.combine(session_date.date(), datetime.strptime(time_str, "%H:%M").time())
             elif new_time_str:
-                full_timestamp = datetime.strptime(new_time_str, "%H:%M:%S").time()
+                try:
+                    # Try to parse with seconds
+                    full_timestamp = datetime.strptime(new_time_str, "%H:%M:%S").time()
+                except ValueError:
+                    # If there are no seconds, parse without them
+                    full_timestamp = datetime.strptime(new_time_str, "%H:%M").time()
             else:
                 full_timestamp = None
             session_messages.append((full_timestamp, user, msg))
