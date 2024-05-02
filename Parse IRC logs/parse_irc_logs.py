@@ -86,11 +86,17 @@ def parse_log_file(file_path):
 # Helper function to combine sessions from all logs
 def combine_sessions(file_paths):
     all_sessions = []
+    seen_sessions = set()  # Set to keep track of seen session dates and messages
 
     # Parse each file and collect all sessions
     for path in file_paths:
         sessions = parse_log_file(path)
-        all_sessions.extend((path, session_date, session_messages) for session_date, session_messages in sessions)
+        for session_date, session_messages in sessions:
+            # Create a unique identifier for the session
+            session_id = (session_date, tuple(session_messages))
+            if session_id not in seen_sessions:
+                all_sessions.append((path, session_date, session_messages))
+                seen_sessions.add(session_id)  # Mark this session as seen
 
     # Sort sessions by date
     all_sessions.sort(key=lambda s: s[1])
