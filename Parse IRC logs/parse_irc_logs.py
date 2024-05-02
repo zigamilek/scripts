@@ -104,8 +104,8 @@ def combine_sessions(file_paths):
     return all_sessions
 
 # Helper function to write individual session HTML files
-def output_session_html(sessions, output_dir, person_name=None):
-    session_html_dir = os.path.join(output_dir, 'session_htmls')
+def output_session_html(sessions, output_dir, person_name=None, person_specific=False):
+    session_html_dir = os.path.join(output_dir, person_name if person_specific else '0_all')
     if not os.path.exists(session_html_dir):
         os.makedirs(session_html_dir)
 
@@ -122,7 +122,7 @@ def output_session_html(sessions, output_dir, person_name=None):
             file.write(f"<html><head><title>{person_name} - {session_date.strftime('%Y-%m-%d (%A)')}</title></head><body>")
             file.write(f"<h2>{person_name} - {session_date.strftime('%Y-%m-%d %H:%M (%A)')}</h2>")
 
-            # Add navigation links
+            # Navigation links
             if i > 0:
                 prev_session_date, prev_session_filename, _ = session_files[i-1]
                 prev_relative_path = os.path.relpath(prev_session_filename, session_html_dir)
@@ -132,7 +132,8 @@ def output_session_html(sessions, output_dir, person_name=None):
                 file.write('Previous Session | ')
 
             if i < len(sessions) - 1:
-                _, next_session_date, _ = sessions[i+1]
+                next_session_info = sessions[i+1]
+                next_session_date = next_session_info[1]  # Correctly extract the datetime object
                 next_session_filename = f"{session_html_dir}/{next_session_date.strftime('%Y-%m-%d')}_{i+1}.html"
                 next_relative_path = os.path.relpath(next_session_filename, session_html_dir)
                 next_link_text = next_session_date.strftime('%Y-%m-%d %H:%M')
@@ -216,16 +217,16 @@ def main():
     # Combine and sort sessions
     sessions = combine_sessions(log_files)
 
-    # Output sessions to individual HTML files
-    session_files = output_session_html(sessions, output_directory)
-
-    # Generate main index HTML
-    index_file = os.path.join(output_directory, "0_index.html")
-    generate_index_html(session_files, index_file)
-
-    # Generate index HTML for each person
+    # Generate individual session HTML files and the main index file
+    all_session_files = output_session_html(sessions, output_directory, "All", person_specific=False)
+    index_file = os.path.join(output_directory, "0_all.html")
+    generate_index_html(all_session_files, index_file, "IRC Sessions Index - All")
+    
+    # Generate person-specific session HTML files and index file
     for person_name, files in person_sessions.items():
-        person_session_files = output_session_html(combine_sessions(files), output_directory, person_name)
+        # Output sessions to individual session HTML files
+        person_session_files = output_session_html(combine_sessions(files), output_directory, person_name, person_specific=True)
+        # Generate index file for each person
         person_index_file = os.path.join(output_directory, f"{person_name}.html")
         generate_index_html(person_session_files, person_index_file, f"IRC Sessions Index - {person_name}")
 
