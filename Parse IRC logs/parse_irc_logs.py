@@ -1,5 +1,6 @@
 import re
 import os
+import shutil
 from datetime import datetime
 from collections import defaultdict
 
@@ -231,6 +232,14 @@ def main():
 
     log_directory = sys.argv[1]
     output_directory = sys.argv[2]
+    delete_output_dir = "-d" in sys.argv  # Check if -d parameter is present
+
+    # If -d is specified, delete the output directory
+    if delete_output_dir:
+        if os.path.exists(output_directory):
+            shutil.rmtree(output_directory)
+            print(f"Deleted the output directory: {output_directory}")
+
 
     # List all .log files in the directory and subdirectories, case-insensitive
     log_files = []
