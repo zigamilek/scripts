@@ -111,6 +111,27 @@ def output_session_html(sessions, log_directory, output_dir, person_name=None, p
 
     session_files = []
 
+    def generate_navigation_links(current_index, session_files, session_html_dir):
+        navigation_html = ""
+        if current_index > 0:
+            prev_session_date, prev_session_filename, _ = session_files[current_index-1]
+            prev_relative_path = os.path.relpath(prev_session_filename, session_html_dir)
+            prev_link_text = prev_session_date.strftime('%Y-%m-%d %H:%M')
+            navigation_html += f'<a href="{prev_relative_path}">({prev_link_text}) Previous Session</a> | '
+        else:
+            navigation_html += 'Previous Session | '
+
+        if current_index < len(sessions) - 1:
+            next_session_info = sessions[current_index+1]
+            next_session_date = next_session_info[1]
+            next_session_filename = f"{session_html_dir}/{next_session_date.strftime('%Y-%m-%d')}_{current_index+1}.html"
+            next_relative_path = os.path.relpath(next_session_filename, session_html_dir)
+            next_link_text = next_session_date.strftime('%Y-%m-%d %H:%M')
+            navigation_html += f'<a href="{next_relative_path}">({next_link_text}) Next Session</a><br><br>\n'
+        else:
+            navigation_html += 'Next Session<br><br>\n'
+        return navigation_html
+
     for i, (log_file, session_date, session_messages) in enumerate(sessions):
         # Get the nickname from the log file's filename
         nickname = os.path.splitext(os.path.basename(log_file))[0]
@@ -128,24 +149,8 @@ def output_session_html(sessions, log_directory, output_dir, person_name=None, p
             file.write(f"<html><head><title>{person_name} - {session_date.strftime('%Y-%m-%d (%A)')}</title></head><body>")
             file.write(f"<h2>{person_name} - {session_date.strftime('%Y-%m-%d %H:%M (%A)')}</h2>")
 
-            # Navigation links
-            if i > 0:
-                prev_session_date, prev_session_filename, _ = session_files[i-1]
-                prev_relative_path = os.path.relpath(prev_session_filename, session_html_dir)
-                prev_link_text = prev_session_date.strftime('%Y-%m-%d %H:%M')
-                file.write(f'<a href="{prev_relative_path}">({prev_link_text}) Previous Session</a> | ')
-            else:
-                file.write('Previous Session | ')
-
-            if i < len(sessions) - 1:
-                next_session_info = sessions[i+1]
-                next_session_date = next_session_info[1]  # Correctly extract the datetime object
-                next_session_filename = f"{session_html_dir}/{next_session_date.strftime('%Y-%m-%d')}_{i+1}.html"
-                next_relative_path = os.path.relpath(next_session_filename, session_html_dir)
-                next_link_text = next_session_date.strftime('%Y-%m-%d %H:%M')
-                file.write(f'<a href="{next_relative_path}">({next_link_text}) Next Session</a><br><br>\n')
-            else:
-                file.write('Next Session<br><br>\n')
+            # Write the navigation links at the top
+            file.write(generate_navigation_links(i, session_files, session_html_dir))
 
             file.write("<ul>")
             for timestamp, user, msg in session_messages:
@@ -154,8 +159,12 @@ def output_session_html(sessions, log_directory, output_dir, person_name=None, p
                 msg_escaped = msg.replace("<", "&lt;").replace(">", "&gt;")
                 timestamp_str = timestamp.strftime('%H:%M') if timestamp else ""
                 file.write(f"<li>{timestamp_str} <strong>{user_escaped}:</strong> {msg_escaped}</li>")
+            file.write("</ul>")
 
-            file.write("</ul></body></html>")
+            # Write the navigation links at the bottom
+            file.write(generate_navigation_links(i, session_files, session_html_dir))
+
+            file.write("</body></html>")
 
     return session_files
 
