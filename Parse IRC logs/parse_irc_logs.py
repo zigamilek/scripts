@@ -112,19 +112,18 @@ def output_session_html(sessions, log_directory, output_dir, person_name=None, p
     session_files = []
 
     def generate_navigation_links(current_index, session_files, session_html_dir, person_name=None):
-        navigation_html = ""
+        navigation_html = '<div class="nav-links">'
         index_file_name = f"{person_name}.html" if person_name else "0_all.html"
-        #index_relative_path = os.path.relpath(os.path.join(session_html_dir, index_file_name), session_html_dir)
         index_relative_path = os.path.relpath(os.path.join(output_dir, index_file_name), session_html_dir)
-        navigation_html += f'<a href="{index_relative_path}">All Sessions</a> | '
+        navigation_html += f'<div><a href="{index_relative_path}">All Sessions</a></div>'
 
         if current_index > 0:
             prev_session_date, prev_session_filename, _ = session_files[current_index-1]
             prev_relative_path = os.path.relpath(prev_session_filename, session_html_dir)
             prev_link_text = prev_session_date.strftime('%Y-%m-%d %H:%M')
-            navigation_html += f'<a href="{prev_relative_path}">({prev_link_text}) Previous Session</a> | '
+            navigation_html += f'<div><a href="{prev_relative_path}">({prev_link_text}) Previous Session</a></div>'
         else:
-            navigation_html += 'Previous Session | '
+            navigation_html += '<div>Previous Session</div>'
 
         if current_index < len(sessions) - 1:
             next_session_info = sessions[current_index+1]
@@ -132,9 +131,11 @@ def output_session_html(sessions, log_directory, output_dir, person_name=None, p
             next_session_filename = f"{session_html_dir}/{next_session_date.strftime('%Y-%m-%d')}_{current_index+1}.html"
             next_relative_path = os.path.relpath(next_session_filename, session_html_dir)
             next_link_text = next_session_date.strftime('%Y-%m-%d %H:%M')
-            navigation_html += f'<a href="{next_relative_path}">({next_link_text}) Next Session</a><br><br>\n'
+            navigation_html += f'<div><a href="{next_relative_path}">({next_link_text}) Next Session</a></div>'
         else:
-            navigation_html += 'Next Session<br><br>\n'
+            navigation_html += '<div>Next Session</div>'
+
+        navigation_html += '</div>'
         return navigation_html
 
     for i, (log_file, session_date, session_messages) in enumerate(sessions):
@@ -151,7 +152,19 @@ def output_session_html(sessions, log_directory, output_dir, person_name=None, p
         session_files.append((session_date, session_filename, nickname))
 
         with open(session_filename, 'w', encoding='utf-8') as file:
-            file.write(f"<html><head><meta charset='UTF-8'><title>{person_name} - {session_date.strftime('%Y-%m-%d (%A)')}</title></head><body>")
+            file.write(f"""
+            <html>
+            <head>
+            <meta charset='UTF-8'>
+            <title>{person_name} - {session_date.strftime('%Y-%m-%d (%A)')}</title>
+            <style>
+                .nav-links div {{
+                    line-height: 32px; /* Increases the line height for better touch target */
+                }}
+            </style>
+            </head>
+            <body>
+            """)
             file.write(f"<h2>{person_name} - {session_date.strftime('%Y-%m-%d %H:%M (%A)')}</h2>")
 
             # Write the navigation links at the top
