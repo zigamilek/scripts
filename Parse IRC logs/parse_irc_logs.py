@@ -111,8 +111,13 @@ def output_session_html(sessions, log_directory, output_dir, person_name=None, p
 
     session_files = []
 
-    def generate_navigation_links(current_index, session_files, session_html_dir):
+    def generate_navigation_links(current_index, session_files, session_html_dir, person_name=None):
         navigation_html = ""
+        index_file_name = f"{person_name}.html" if person_name else "0_all.html"
+        #index_relative_path = os.path.relpath(os.path.join(session_html_dir, index_file_name), session_html_dir)
+        index_relative_path = os.path.relpath(os.path.join(output_dir, index_file_name), session_html_dir)
+        navigation_html += f'<a href="{index_relative_path}">All Sessions</a> | '
+
         if current_index > 0:
             prev_session_date, prev_session_filename, _ = session_files[current_index-1]
             prev_relative_path = os.path.relpath(prev_session_filename, session_html_dir)
@@ -146,11 +151,11 @@ def output_session_html(sessions, log_directory, output_dir, person_name=None, p
         session_files.append((session_date, session_filename, nickname))
 
         with open(session_filename, 'w', encoding='utf-8') as file:
-            file.write(f"<html><head><title>{person_name} - {session_date.strftime('%Y-%m-%d (%A)')}</title></head><body>")
+            file.write(f"<html><head><meta charset='UTF-8'><title>{person_name} - {session_date.strftime('%Y-%m-%d (%A)')}</title></head><body>")
             file.write(f"<h2>{person_name} - {session_date.strftime('%Y-%m-%d %H:%M (%A)')}</h2>")
 
             # Write the navigation links at the top
-            file.write(generate_navigation_links(i, session_files, session_html_dir))
+            file.write(generate_navigation_links(i, session_files, session_html_dir, person_name if person_specific else None))
 
             file.write("<ul>")
             for timestamp, user, msg in session_messages:
@@ -162,7 +167,7 @@ def output_session_html(sessions, log_directory, output_dir, person_name=None, p
             file.write("</ul>")
 
             # Write the navigation links at the bottom
-            file.write(generate_navigation_links(i, session_files, session_html_dir))
+            file.write(generate_navigation_links(i, session_files, session_html_dir, person_name if person_specific else None))
 
             file.write("</body></html>")
 
@@ -180,8 +185,9 @@ def generate_index_html(session_files, output_file, title="IRC Sessions Index"):
 
     # Write index HTML page
     with open(output_file, 'w', encoding='utf-8') as file:
-        file.write(f"<html><head><title>{title}</title></head><body>")
+        file.write(f"<html><head><meta charset='UTF-8'><title>{title}</title></head><body>")
         file.write(f"<h1>{title}</h1>\n")
+        file.write('<a href="./">Up</a><br>\n')
 
         for month_year, days in grouped_sessions.items():
             file.write(f"<h2>{month_year}</h2>\n")
@@ -195,7 +201,7 @@ def generate_index_html(session_files, output_file, title="IRC Sessions Index"):
                 for date, filename, nickname in sorted(sessions):
                     # Extract relative path from filename
                     relative_path = os.path.relpath(filename, os.path.dirname(output_file))
-                    file.write(f"  <li><a href=\"{relative_path}\" target=\"_blank\">{date.strftime('%H:%M')} - {nickname}</a></li>\n")
+                    file.write(f"  <li><a href=\"{relative_path}\">{date.strftime('%H:%M')} - {nickname}</a></li>\n")
 
                 file.write("</ul>\n")
 
