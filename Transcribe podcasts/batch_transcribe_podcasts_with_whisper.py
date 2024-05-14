@@ -9,6 +9,18 @@ from pydub import AudioSegment
     # keep a txt file with filepaths that have already been transcribed
     # add timestamps, segments, whatever?
 
+def load_transcribed_files(input_folder):
+    transcribed_file_path = os.path.join(input_folder, 'transcribed.txt')
+    if os.path.exists(transcribed_file_path):
+        with open(transcribed_file_path, 'r') as f:
+            return set(f.read().splitlines())
+    return set()
+
+def save_transcribed_file(input_folder, file_path):
+    transcribed_file_path = os.path.join(input_folder, 'transcribed.txt')
+    with open(transcribed_file_path, 'a') as f:
+        f.write(file_path + '\n')
+
 def transcribe_audio_files_local(input_folder, model_name='base.en'):
     # Load Whisper model
     print(f"Loading Whisper model: {model_name}\n")
@@ -19,13 +31,21 @@ def transcribe_audio_files_local(input_folder, model_name='base.en'):
     os.makedirs(output_folder, exist_ok=True)
     print(f"Output folder created at: {output_folder}\n")
 
+    # Load already transcribed files
+    transcribed_files = load_transcribed_files(input_folder)
+
     # Iterate over all files in the input folder
     for filename in os.listdir(input_folder):
         if filename.endswith('.mp3'):
             file_path = os.path.join(input_folder, filename)
             
-            # Transcribe audio file
             print(f"Transcribing {file_path}...")
+
+            if file_path in transcribed_files:
+                print(f"    Already transcribed. Skipping {file_path}...\n")
+                continue
+
+            # Transcribe audio file
             result = model.transcribe(file_path, verbose=False, fp16=False, language='English')
             transcription = result['text']
 
@@ -36,6 +56,9 @@ def transcribe_audio_files_local(input_folder, model_name='base.en'):
                 f.write(transcription)
 
             print(f"    Finished {output_file_path}\n")
+
+            # Save the file path to transcribed.txt
+            save_transcribed_file(input_folder, file_path)
 
 def split_audio_file(file_path, segment_length=10*60*1000):
     print(f"Splitting file: {file_path} into segments of {segment_length // 60000} minutes each\n")
@@ -63,10 +86,18 @@ def transcribe_audio_files_api(input_folder):
     os.makedirs(output_folder, exist_ok=True)
     print(f"Output folder created at: {output_folder}\n")
 
+    # Load already transcribed files
+    transcribed_files = load_transcribed_files(input_folder)
+
     # Iterate over all files in the input folder
     for filename in os.listdir(input_folder):
         if filename.endswith('.mp3'):
             file_path = os.path.join(input_folder, filename)
+            
+            if file_path in transcribed_files:
+                print(f"    Already transcribed. Skipping {file_path}...\n")
+                continue
+
             print(f"Processing file: {file_path}\n")
             
             # Split the audio file into 10-minute segments
@@ -98,6 +129,9 @@ def transcribe_audio_files_api(input_folder):
                 f.write(transcription)
 
             print(f"    Finished {output_file_path}\n")
+
+            # Save the file path to transcribed.txt
+            save_transcribed_file(input_folder, file_path)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Batch transcribe MP3 files using Whisper.')
