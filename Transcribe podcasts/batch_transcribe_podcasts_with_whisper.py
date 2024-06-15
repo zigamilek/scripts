@@ -20,39 +20,41 @@ def transcribe_audio_files_local(input_folder, model='base.en'):
     print(f"Loading Whisper model: {model}\n")
     model = whisper.load_model(model)
 
-    # Create output folder if it doesn't exist
-    output_folder = os.path.join(input_folder, 'transcriptions')
-    os.makedirs(output_folder, exist_ok=True)
-    print(f"Output folder created at: {output_folder}\n")
-
     # Load already transcribed files
     transcribed_files = load_transcribed_files(input_folder)
 
-    # Iterate over all files in the input folder
-    for filename in os.listdir(input_folder):
-        if filename.endswith('.mp3'):
-            file_path = os.path.join(input_folder, filename)
-            
-            print(f"Transcribing {file_path}...")
+    # Iterate over all files in the input folder and subfolders
+    for root, _, files in os.walk(input_folder):
+        for filename in files:
+            if filename.endswith('.mp3'):
+                file_path = os.path.join(root, filename)
+                relative_file_path = os.path.relpath(file_path, input_folder)
+                
+                print(f"Transcribing {file_path}...")
 
-            if file_path in transcribed_files:
-                print(f"    Already transcribed. Skipping {file_path}...\n")
-                continue
+                if relative_file_path in transcribed_files:
+                    print(f"    Already transcribed. Skipping {file_path}...\n")
+                    continue
 
-            # Transcribe audio file
-            result = model.transcribe(file_path, verbose=False, fp16=False, language='English')
-            transcription = result['text']
+                # Transcribe audio file
+                result = model.transcribe(file_path, verbose=False, fp16=False, language='English')
+                transcription = result['text']
 
-            # Save transcription to a text file
-            output_filename = f"{os.path.splitext(filename)[0]}-transcription.txt"
-            output_file_path = os.path.join(output_folder, output_filename)
-            with open(output_file_path, 'w') as f:
-                f.write(transcription)
+                # Create output folder in the same directory as the MP3 file
+                output_folder = os.path.join(root, 'transcriptions')
+                os.makedirs(output_folder, exist_ok=True)
+                print(f"Output folder created at: {output_folder}\n")
 
-            print(f"    Finished {output_file_path}\n")
+                # Save transcription to a text file
+                output_filename = f"{os.path.splitext(filename)[0]}-transcription.txt"
+                output_file_path = os.path.join(output_folder, output_filename)
+                with open(output_file_path, 'w') as f:
+                    f.write(transcription)
 
-            # Save the file path to already_transcribed.txt file
-            save_transcribed_file(input_folder, file_path)
+                print(f"    Finished {output_file_path}\n")
+
+                # Save the file path to already_transcribed.txt file
+                save_transcribed_file(input_folder, file_path)
 
 def main():
     parser = argparse.ArgumentParser(description='Batch transcribe MP3 files using Whisper.')
