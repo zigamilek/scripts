@@ -11,8 +11,9 @@ def load_transcribed_files(input_folder):
 
 def save_transcribed_file(input_folder, file_path):
     transcribed_file_path = os.path.join(input_folder, 'already_transcribed.txt')
+    relative_path = os.path.relpath(file_path, input_folder)
     with open(transcribed_file_path, 'a') as f:
-        f.write(file_path + '\n')
+        f.write(relative_path + '\n')
 
 def transcribe_audio_files_local(input_folder, model='base.en'):
     # Load Whisper model
