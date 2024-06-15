@@ -2,18 +2,15 @@ import os
 import argparse
 import whisper
 
-## todo:
-    # add timestamps, segments, whatever?
-
 def load_transcribed_files(input_folder):
-    transcribed_file_path = os.path.join(input_folder, 'transcribed.txt')
+    transcribed_file_path = os.path.join(input_folder, 'already_transcribed.txt')
     if os.path.exists(transcribed_file_path):
         with open(transcribed_file_path, 'r') as f:
             return set(f.read().splitlines())
     return set()
 
 def save_transcribed_file(input_folder, file_path):
-    transcribed_file_path = os.path.join(input_folder, 'transcribed.txt')
+    transcribed_file_path = os.path.join(input_folder, 'already_transcribed.txt')
     with open(transcribed_file_path, 'a') as f:
         f.write(file_path + '\n')
 
@@ -53,7 +50,7 @@ def transcribe_audio_files_local(input_folder, model='base.en'):
 
             print(f"    Finished {output_file_path}\n")
 
-            # Save the file path to transcribed.txt
+            # Save the file path to already_transcribed.txt file
             save_transcribed_file(input_folder, file_path)
 
 def main():
