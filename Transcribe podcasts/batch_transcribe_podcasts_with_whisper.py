@@ -56,7 +56,7 @@ def transcribe_audio_files_local(input_folder, model='base.en'):
 def main():
     parser = argparse.ArgumentParser(description='Batch transcribe MP3 files using Whisper.')
     parser.add_argument('input_folder', type=str, help='Path to the input folder containing MP3 files.')
-    parser.add_argument('--model', type=str, default='base', help='Whisper model name to use (only for local mode).')
+    parser.add_argument('--model', type=str, default='medium.en', help='Whisper model to use (default: medium.en)')
 
     args = parser.parse_args()
 
