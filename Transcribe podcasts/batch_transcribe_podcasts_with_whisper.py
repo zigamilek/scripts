@@ -1,7 +1,6 @@
 import os
 import argparse
 import whisper
-import openai
 
 def load_transcribed_files(input_folder):
     transcribed_file_path = os.path.join(input_folder, 'already_transcribed.txt')
@@ -56,36 +55,6 @@ def transcribe_audio_files_local(input_folder, model='base.en'):
 
                 # Save the file path to already_transcribed.txt file
                 save_transcribed_file(input_folder, file_path)
-
-            # Generate Markdown files from transcription
-            generate_markdown_from_transcription(transcription, output_folder, os.path.splitext(filename)[0])
-
-def generate_markdown_from_transcription(transcription, output_folder, base_filename):
-    client = openai.OpenAI(
-        api_key = 'REMOVED_OPENAI_API_KEY'
-    )
-
-    system_message = {
-        "role": "system",
-        "content": "You are a helpful assistant that precisely follows the instructions. Your job is taking the content you are provided with and making it more readable and organized, without changing any of the words and sentences."
-    }
-    user_message = {
-        "role": "user",
-        "content": f"Please transform this podcast episode transcription into a nice Markdown document with headings, subheadings, etc. \n\nIt's of the utmost importance to keep the transcription text intact in its entirety! Just split it up into logical sections to make it more readable!\n\nMake absolutely sure to follow the instructions! Don't create a summary or Cliffsnotes! Don't leave any of the original text out. All of the original text must be kept! It needs to just be split into logical sections to make it more readable!\n\nEach section should have a H3 heading (### Markdown tag) and should be split into MULTIPLE paragraphs. Here it's important that you make the paragraphs in the sections SUPER SHORT! 3 to 5 sentences in each paragraph is the maximum!\n\nAgain, make absolutely sure to follow ALL of the above instructions!\n\n{transcription}"
-    }
-
-    completion = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[system_message, user_message]
-    )
-
-    md_content = completion.choices[0].message['content']
-
-    md_output_path = os.path.join(output_folder, f"{base_filename}-transcription-formatted.md")
-    with open(md_output_path, 'w') as f:
-        f.write(md_content)
-
-    print(f"    Markdown file created at: {md_output_path}\n")
 
 def main():
     parser = argparse.ArgumentParser(description='Batch transcribe MP3 files using Whisper.')
