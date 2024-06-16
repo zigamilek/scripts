@@ -45,10 +45,10 @@ def transcribe_audio_files_local(input_folder, model='base.en'):
                 os.makedirs(output_folder, exist_ok=True)
                 print(f"Output folder created at: {output_folder}\n")
 
-                # Save transcription to a text file
+                # Save transcription to a text file with UTF-8 encoding
                 output_filename = f"{os.path.splitext(filename)[0]}-transcription.txt"
                 output_file_path = os.path.join(output_folder, output_filename)
-                with open(output_file_path, 'w') as f:
+                with open(output_file_path, 'w', encoding='utf-8') as f:
                     f.write(transcription)
 
                 print(f"    Finished {output_file_path}\n")
