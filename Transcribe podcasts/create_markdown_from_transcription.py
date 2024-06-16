@@ -64,7 +64,8 @@ def generate_markdown_from_transcriptions(input_folder):
                         continue
 
                     base_filename = os.path.splitext(filename)[0]
-                    output_folder = root
+                    output_folder = os.path.join(root, 'formatted')
+                    os.makedirs(output_folder, exist_ok=True)
 
                     client = openai.OpenAI(
                         api_key='REMOVED_OPENAI_API_KEY'
