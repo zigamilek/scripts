@@ -91,6 +91,8 @@ def generate_markdown_from_transcriptions(input_folder):
                         )
 
                         #print(str(completion) + "\n\n")
+                        if completion.choices[0].finish_reason == 'length':
+                            raise RuntimeError(f"Completion for chunk {i + 1} was cut off due to length.")
 
                         chunk_md_content = completion.choices[0].message.content
 
