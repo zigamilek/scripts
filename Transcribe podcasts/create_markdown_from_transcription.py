@@ -27,13 +27,34 @@ def split_text_into_paragraphs(text, word_limit=2900):
     
     return paragraphs
 
+def load_formatted_files(input_folder):
+    transcriptions_folder = os.path.join(input_folder, 'transcriptions')
+    formatted_file_path = os.path.join(transcriptions_folder, 'already_formatted.txt')
+    if os.path.exists(formatted_file_path):
+        with open(formatted_file_path, 'r') as f:
+            return set(f.read().splitlines())
+    return set()
+
+def save_formatted_file(input_folder, filename):
+    transcriptions_folder = os.path.join(input_folder, 'transcriptions')
+    formatted_file_path = os.path.join(transcriptions_folder, 'already_formatted.txt')
+    with open(formatted_file_path, 'a') as f:
+        f.write(filename + '\n')
+
 def generate_markdown_from_transcriptions(input_folder):
+    formatted_files = load_formatted_files(input_folder)
+        
     for root, _, files in os.walk(input_folder):
         if 'transcriptions' in root:
             for filename in files:
                 if filename.endswith('-transcription.txt'):
                     file_path = os.path.join(root, filename)
+
                     print(f"Processing transcription file: {file_path}")
+                        
+                    if filename in formatted_files:
+                        print(f"    Already formatted. Skipping {file_path}...\n")
+                        continue
 
                     with open(file_path, 'r', encoding='utf-8') as f:
                         transcription = f.read()
@@ -85,6 +106,9 @@ def generate_markdown_from_transcriptions(input_folder):
                         f.write(md_content)
 
                     print(f"    Markdown file created at: {md_output_path}\n")
+
+                    # Save the filename to already_formatted.txt file
+                    save_formatted_file(input_folder, filename)
 
 def main():
     parser = argparse.ArgumentParser(description='Generate Markdown files from transcriptions.')
