@@ -77,7 +77,7 @@ def generate_markdown_from_transcriptions(input_folder):
 
                     system_message = {
                         "role": "system",
-                        "content": "You are a helpful assistant that precisely follows the instructions. Your job is to create exceptional summaries from the content you are provided."
+                        "content": "You are a helpful assistant that precisely follows the instructions. Your job is to create exceptional summaries from the content you are provided. You do not introduce your own opinions."
                     }
 
                     for i, chunk in enumerate(chunks):
@@ -85,7 +85,7 @@ def generate_markdown_from_transcriptions(input_folder):
                         
                         user_message = {
                             "role": "user",
-                            "content": f"Please create a summary of this SEGMENT of a podcast episode transcription. The summary should have a length of 5-10% of the length of the original segment.\n\n{chunk}"
+                            "content": f"Please create a summary of this SEGMENT of a podcast episode transcription. The summary should have a length of 5-10% of the length of the original segment. Do not introduce your own opinions.\n\n{chunk}"
                         }
 
                         completion = client.chat.completions.create(
@@ -106,9 +106,10 @@ def generate_markdown_from_transcriptions(input_folder):
                         "role": "user",
                         "content": "Please create a summary of this selection of summarized chunks of a podcast episode.\n\n" +
                                    "\n\n".join(summaries) +
-                                   "\n\nThen also provide a list of ALL actionable insights in the format:\n---\n### Insight:\n### Action:\n---\n### Insight:\n### Action:\nEach Insight-Action par should therefore be separated by a horizontal line ---.\n\n" +
+                                   "\n\nThen also provide a list of ALL actionable insights in the format:\n---\n### Insight:\n[insight described]\n### Action:\n[action described]\n---\n### Insight:\n[insight described]\n### Action:\n[action described]\nEach Insight-Action par should therefore be separated by a horizontal line ---.\n\n" +
                                    "Finally provide a set of detailed notes from the podcast episode.\n\n" +
                                    "Make sure to provide great details for everything! Make it twice as long and detailed as you initially wanted to do it.\n\n" +
+                                   "But also make sure you don't introduce your own opinions.\n\n" +
                                    "And make sure to format everything nicely with markdown."
                     }
 
