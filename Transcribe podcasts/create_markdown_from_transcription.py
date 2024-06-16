@@ -38,6 +38,10 @@ def generate_markdown_from_transcriptions(input_folder):
 
                     md_content = completion.choices[0].message.content
 
+                    # Remove the first line if it starts with "```markdown"
+                    if md_content.startswith("```markdown"):
+                        md_content = md_content.split('\n', 1)[1]
+
                     md_output_path = os.path.join(output_folder, f"{base_filename}-formatted.md")
                     with open(md_output_path, 'w', encoding='utf-8') as f:
                         f.write(md_content)
