@@ -56,8 +56,12 @@ def generate_markdown_from_transcriptions(input_folder):
                         print(f"    Already formatted. Skipping {file_path}...\n")
                         continue
 
-                    with open(file_path, 'r', encoding='utf-8') as f:
-                        transcription = f.read()
+                    try:
+                        with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                            transcription = f.read()
+                    except UnicodeDecodeError as e:
+                        print(f"    Error reading {file_path}: {e}")
+                        continue
 
                     base_filename = os.path.splitext(filename)[0]
                     output_folder = root
