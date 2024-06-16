@@ -45,11 +45,12 @@ def generate_markdown_from_transcriptions(input_folder):
                         api_key='REMOVED_OPENAI_API_KEY'
                     )
 
-                    print(f"    Splitting the transcription into chunks.\n")
+                    print(f"    Splitting the transcription into chunks.")
                     chunks = split_text_into_paragraphs(transcription)
                     md_content = ""
 
-                    for chunk in enumerate(chunks):
+                    for i, chunk in enumerate(chunks):
+                        print(f"    Processing chunk {i + 1} of {len(chunks)} using OpenAI API.")
                         system_message = {
                             "role": "system",
                             "content": "You are a helpful assistant that precisely follows the instructions. Your job is taking the content you are provided with and making it more readable and organized, without changing any of the words and sentences."
