@@ -148,7 +148,8 @@ def download_mp3(mp3_url, title, author, date, description, output_folder, downl
     response = requests.get(mp3_url, headers=headers, stream=True)
     if response.status_code == 200:
         sanitized_title = sanitize_filename(title)
-        file_name = f"{date} - {sanitized_title}.mp3"
+        sanitized_author = sanitize_filename(author)
+        file_name = f"{sanitized_title} ({sanitized_author}).mp3"
         file_path = os.path.join(output_folder, file_name)
         with open(file_path, 'wb') as file:
             for chunk in response.iter_content(chunk_size=1024):
