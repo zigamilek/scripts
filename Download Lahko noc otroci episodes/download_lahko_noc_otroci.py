@@ -124,7 +124,7 @@ def add_id3_tags(file_path, title, artist, album, date, description):
     ))
     audio.save(file_path)
 
-def download_mp3(mp3_url, title, date, description, output_folder, downloaded_files):
+def download_mp3(mp3_url, title, date, description, output_folder, downloaded_files, episode_link):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
     print(f"\nDownloading MP3 from {mp3_url}")
@@ -138,7 +138,7 @@ def download_mp3(mp3_url, title, date, description, output_folder, downloaded_fi
                 file.write(chunk)
         print(f"  Downloaded {file_path}")
         with open(downloaded_files, 'a') as file:
-            file.write(f"{file_path}\n")
+            file.write(f"{episode_link}\n")
             
         # Add ID3 tags
         add_id3_tags(file_path, title, "Lahko Noc Otroci", "Lahko Noc Otroci", date, description)
@@ -208,7 +208,7 @@ def main(output_folder):
     else:
         existing_links = []
 
-    # Load already downloaded files
+    # Load already downloaded links
     if os.path.exists(downloaded_files_path):
         with open(downloaded_files_path, 'r') as file:
             already_downloaded = file.read().splitlines()
@@ -244,7 +244,7 @@ def main(output_folder):
             mp3_link = extract_mp3_link_from_json(episode_soup)
                 
             if mp3_link:
-                file_path = download_mp3(mp3_link, details['title'], details['date'], details['description'], output_folder, downloaded_files_path)
+                file_path = download_mp3(mp3_link, details['title'], details['date'], details['description'], output_folder, downloaded_files_path, episode_link)
                 if file_path:
                     save_episode_details(details, file_path)
             else:
