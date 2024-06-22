@@ -9,6 +9,7 @@ import json
 import os
 import time
 import sys
+import re
 from datetime import datetime
 from mutagen import File
 from mutagen.easyid3 import EasyID3
@@ -51,6 +52,19 @@ def extract_mp3_link_from_json(soup):
         print("  The <script> tag with JSON data not found")
     return None
 
+def extract_author(description):
+    patterns = [
+        r"Napisal: (.+)\.",
+        r"Napisala: (.+)\.",
+        r"Avtor: (.+)\.",
+        r"Avtorica: (.+)\."
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, description)
+        if match:
+            return match.group(1).strip()
+    return "Unknown Author"
+
 def extract_podcast_details(soup):
     print("Extracting podcast details")
     podcast_item = soup.find('div', class_='podcast-item')
@@ -73,21 +87,24 @@ def extract_podcast_details(soup):
     description_tag = podcast_item.find('div', class_='col-md-12').find('p')
     if description_tag:
         description = description_tag.text.strip()
+        author = extract_author(description)
     else:
         print("  Description not found")
         description = "No description available"
-    
-    print(f"  Extracted details - Title: {title}, Date: {date}, Description: {description}")
+        author = "Unknown Author"
+        
+    print(f"  Extracted details - Title: {title}, Date: {date}, Description: {description}, Author: {author}")
     return {
         'title': title,
         'description': description,
-        'date': date
+        'date': date,
+        'author': author
     }
 
 def sanitize_filename(filename):
     return "".join(x for x in filename if x.isalnum() or x in "._- ")
 
-def add_id3_tags(file_path, title, artist, album, date, description):
+def add_id3_tags(file_path, title, author, date, description):
     print(f"Adding ID3 tags to {file_path}")
         
     # Load the file and add an ID3 tag if it doesn't exist
@@ -101,7 +118,7 @@ def add_id3_tags(file_path, title, artist, album, date, description):
             audio = EasyID3()
         
     audio['title'] = title
-    audio['artist'] = "Lahko noč, otroci"
+    audio['artist'] = author  # Use the extracted author
     audio['album'] = "Lahko noč, otroci"
     audio['albumartist'] = "Lahko noč, otroci"
     audio['genre'] = "Pravljice"
@@ -124,7 +141,7 @@ def add_id3_tags(file_path, title, artist, album, date, description):
     ))
     audio.save(file_path)
 
-def download_mp3(mp3_url, title, date, description, output_folder, downloaded_files, episode_link):
+def download_mp3(mp3_url, title, author, date, description, output_folder, downloaded_files, episode_link):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
     print(f"\nDownloading MP3 from {mp3_url}")
@@ -141,7 +158,7 @@ def download_mp3(mp3_url, title, date, description, output_folder, downloaded_fi
             file.write(f"{episode_link}\n")
             
         # Add ID3 tags
-        add_id3_tags(file_path, title, "Lahko Noc Otroci", "Lahko Noc Otroci", date, description)
+        add_id3_tags(file_path, title, author, date, description)
             
         return file_path
     else:
@@ -244,7 +261,7 @@ def main(output_folder):
             mp3_link = extract_mp3_link_from_json(episode_soup)
                 
             if mp3_link:
-                file_path = download_mp3(mp3_link, details['title'], details['date'], details['description'], output_folder, downloaded_files_path, episode_link)
+                file_path = download_mp3(mp3_link, details['title'], details['author'], details['date'], details['description'], output_folder, downloaded_files_path, episode_link)
                 if file_path:
                     save_episode_details(details, file_path)
             else:
