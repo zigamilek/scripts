@@ -161,6 +161,8 @@ def download_mp3(mp3_url, title, author, date, description, output_folder, downl
         with open(downloaded_files, 'a') as file:
             file.write(f"{episode_link}\n")
             
+        description = f"URL: {episode_link}\n\n{description}"
+
         # Add ID3 tags
         add_id3_tags(file_path, title, author, date, description)
             
