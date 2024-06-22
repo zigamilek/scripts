@@ -137,7 +137,7 @@ def sanitize_filename(filename):
     # Replace any character that is not alphanumeric, dot, underscore, or hyphen with an underscore
     return re.sub(r'[^a-zA-Z0-9._\- ]', '_', filename)
 
-def add_id3_tags(file_path, title, author, date, description):
+def add_id3_tags(file_path, title, author, date, description, track_number):
     print(f"Adding ID3 tags to {file_path}")
         
     # Load the file and add an ID3 tag if it doesn't exist
@@ -151,16 +151,17 @@ def add_id3_tags(file_path, title, author, date, description):
             audio = EasyID3()
         
     audio['title'] = title
-    audio['artist'] = author  # Use the extracted author
+    audio['artist'] = author
     audio['album'] = "Lahko noč, otroci"
-    audio['albumartist'] = "Lahko noč, otroci"
+    audio['albumartist'] = "Pravljice"
     audio['genre'] = "Pravljice"
     audio['date'] = date
+    audio['tracknumber'] = str(track_number)
     audio.save(file_path)
 
     # Adding a comment with the description
     audio = ID3(file_path)
-    audio.add(COMM(encoding=3, lang='eng', desc='desc', text=description))
+    audio.add(COMM(encoding=3, lang='eng', desc='description', text=description))
         
     # Adding the image
     image_url = "https://img.rtvcdn.si/_up/ava/ava_misc/show_logos/54/lo_1400px_md.jpg"
@@ -174,7 +175,7 @@ def add_id3_tags(file_path, title, author, date, description):
     ))
     audio.save(file_path)
 
-def download_mp3(mp3_url, title, author, date, description, output_folder, downloaded_files, episode_link):
+def download_mp3(mp3_url, title, author, date, description, output_folder, downloaded_files, episode_link, counter):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
     print(f"\nDownloading MP3 from {mp3_url}")
@@ -182,7 +183,7 @@ def download_mp3(mp3_url, title, author, date, description, output_folder, downl
     if response.status_code == 200:
         sanitized_title = sanitize_filename(title)
         sanitized_author = sanitize_filename(author)
-        file_name = f"{sanitized_title} ({sanitized_author}).mp3"
+        file_name = f"{counter} - {date} - {sanitized_title} ({sanitized_author}).mp3"
         file_path = os.path.join(output_folder, file_name)
         with open(file_path, 'wb') as file:
             for chunk in response.iter_content(chunk_size=1024):
@@ -194,7 +195,7 @@ def download_mp3(mp3_url, title, author, date, description, output_folder, downl
         description = f"URL: {episode_link}\n\n{description}"
 
         # Add ID3 tags
-        add_id3_tags(file_path, title, author, date, description)
+        add_id3_tags(file_path, title, author, date, description, counter)
             
         return file_path
     else:
@@ -285,7 +286,8 @@ def main(output_folder):
     with open(links_file_path, 'r') as file:
         all_links = file.read().splitlines()
     
-    for episode_link in all_links:
+    for line_number, episode_link in enumerate(all_links):
+        counter = len(all_links) - line_number
         if episode_link in already_downloaded:
             print(f"  Episode already downloaded: {episode_link}")
             continue
@@ -297,7 +299,7 @@ def main(output_folder):
             mp3_link = extract_mp3_link_from_json(episode_soup)
                 
             if mp3_link:
-                file_path = download_mp3(mp3_link, details['title'], details['author'], details['date'], details['description'], output_folder, downloaded_files_path, episode_link)
+                file_path = download_mp3(mp3_link, details['title'], details['author'], details['date'], details['description'], output_folder, downloaded_files_path, episode_link, counter)
                 if file_path:
                     save_episode_details(details, file_path)
             else:
