@@ -57,7 +57,10 @@ def extract_author(description):
         r"Napisal: (.+)\.",
         r"Napisala: (.+)\.",
         r"Avtor: (.+)\.",
-        r"Avtorica: (.+)\."
+        r"Avtorica: (.+)\.",
+        r"Napisali: (.+)\.",
+        r"Avtor besedila: (.+)\.",
+        r"Avtorica besedila: (.+)\."
     ]
     for pattern in patterns:
         match = re.search(pattern, description)
