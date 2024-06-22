@@ -54,18 +54,40 @@ def extract_mp3_link_from_json(soup):
 
 def extract_author(description):
     patterns = [
-        r"Napisal: (.+)\.",
-        r"Napisala: (.+)\.",
-        r"Avtor: (.+)\.",
-        r"Avtorica: (.+)\.",
-        r"Napisali: (.+)\.",
-        r"Avtor besedila: (.+)\.",
-        r"Avtorica besedila: (.+)\."
+        r"Napisal: (.+)[\.\n]",
+        r"Napisala: (.+)[\.\n]",
+        r"Avtor: (.+)[\.\n]",
+        r"Avtorica: (.+)[\.\n]",
+        r"Napisali: (.+)[\.\n]",
+        r"Avtorji: (.+)[\.\n]",
+        r"Avtorji besedil: (.+)[\.\n]",
+        r"Avtorji literarnih del: (.+)[\.\n]",
+        r"Avtor besedila: (.+)[\.\n]",
+        r"Avtorica besedila: (.+)[\.\n]",
+        r"Avtor literarnega dela: (.+)[\.\n]",
+        r"Avtor literarnega dela: (.+)[\.\n]"
     ]
     for pattern in patterns:
         match = re.search(pattern, description)
         if match:
-            return match.group(1).strip()
+            return match.group(1).strip().rstrip(".")
+        
+    # Check for specific strings if no author is found
+    if "Slovenska ljudska pripovedka" in description:
+        return "Slovenska ljudska pripovedka"
+    elif "Slovenska ljudska" in description:
+        return "Slovenska ljudska"
+    
+    # Check for any string ending with " pravljica"
+    pravljica_match = re.search(r"(\w+ pravljica)\.", description)
+    if pravljica_match:
+        return pravljica_match.group(1).strip()
+    
+    # Check for any string ending with " pripovedka"
+    pripovedka_match = re.search(r"(\w+ pripovedka)\.", description)
+    if pripovedka_match:
+        return pripovedka_match.group(1).strip()
+        
     return "Unknown Author"
 
 def extract_podcast_details(soup):
