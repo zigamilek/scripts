@@ -105,7 +105,15 @@ def extract_podcast_details(soup):
     }
 
 def sanitize_filename(filename):
-    return "".join(x for x in filename if x.isalnum() or x in "._- ")
+    replacements = {
+        'č': 'c', 'š': 's', 'ž': 'z', 'ć': 'c', 'đ': 'd',
+        'Č': 'C', 'Š': 'S', 'Ž': 'Z', 'Ć': 'C', 'Đ': 'D'
+    }
+    for src, target in replacements.items():
+        filename = filename.replace(src, target)
+    #return "".join(x for x in filename if x.isalnum() or x in "._- ")
+    # Replace any character that is not alphanumeric, dot, underscore, or hyphen with an underscore
+    return re.sub(r'[^a-zA-Z0-9._\- ]', '_', filename)
 
 def add_id3_tags(file_path, title, author, date, description):
     print(f"Adding ID3 tags to {file_path}")
