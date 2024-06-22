@@ -137,7 +137,7 @@ def sanitize_filename(filename):
     # Replace any character that is not alphanumeric, dot, underscore, or hyphen with an underscore
     return re.sub(r'[^a-zA-Z0-9._\- ]', '_', filename)
 
-def add_id3_tags(file_path, title, author, date, description, track_number):
+def add_id3_tags(file_path, title, author, date, description, track_number, episode_link):
     print(f"Adding ID3 tags to {file_path}")
         
     # Load the file and add an ID3 tag if it doesn't exist
@@ -162,7 +162,10 @@ def add_id3_tags(file_path, title, author, date, description, track_number):
     # Adding a comment with the description
     audio = ID3(file_path)
     audio.add(COMM(encoding=3, lang='eng', desc='description', text=description))
-        
+    
+    # Adding the episode link as FileURL
+    audio.add(COMM(encoding=3, lang='eng', desc='FileURL', text=episode_link))
+    
     # Adding the image
     image_url = "https://img.rtvcdn.si/_up/ava/ava_misc/show_logos/54/lo_1400px_md.jpg"
     image_data = requests.get(image_url).content
@@ -195,7 +198,7 @@ def download_mp3(mp3_url, title, author, date, description, output_folder, downl
         description = f"URL: {episode_link}\n\n{description}"
 
         # Add ID3 tags
-        add_id3_tags(file_path, title, author, date, description, counter)
+        add_id3_tags(file_path, title, author, date, description, counter, episode_link)
             
         return file_path
     else:
