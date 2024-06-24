@@ -65,8 +65,9 @@ def extract_author(description):
         r"Avtor besedila: (.+)[\.\n]",
         r"Avtorica besedila: (.+)[\.\n]",
         r"Avtor literarnega dela: (.+)[\.\n]",
-        r"Avtor literarnega dela: (.+)[\.\n]"
+        r"Avtorica literarnega dela: (.+)[\.\n]"
     ]
+
     for pattern in patterns:
         match = re.search(pattern, description)
         if match:
@@ -89,6 +90,29 @@ def extract_author(description):
         return pripovedka_match.group(1).strip()
         
     return "Unknown Author"
+
+def extract_narrator(description):
+    patterns = [
+        r"Pripovedovalec: (.+)[\.\n]",
+        r"Pripovedovalka: (.+)[\.\n]",
+        r"Pripovedovalci: (.+)[\.\n]",
+        r"Pripoveduje: (.+)[\.\n]",
+        r"Pripovedujeta: (.+)[\.\n]",
+        r"Pripovedujejo: (.+)[\.\n]"
+    ]
+
+    for pattern in patterns:
+        match = re.search(pattern, description)
+        if match:
+            return match.group(1).strip().rstrip(".")
+    
+    return "Unknown Narrator"
+
+def extract_year_of_recording(description):
+    match = re.search(r"Posneto.*?(\d{4})", description)
+    if match:
+        return match.group(1)
+    return "Unknown Year"
 
 def extract_podcast_details(soup):
     print("Extracting podcast details")
@@ -113,17 +137,23 @@ def extract_podcast_details(soup):
     if description_tag:
         description = description_tag.text.strip()
         author = extract_author(description)
+        narrator = extract_narrator(description)
+        year_of_recording = extract_year_of_recording(description)
     else:
         print("  Description not found")
         description = "No description available"
         author = "Unknown Author"
+        narrator = "Unknown Narrator"
+        year_of_recording = "Unknown Year"
         
-    print(f"  Extracted details - Title: {title}, Date: {date}, Description: {description}, Author: {author}")
+    print(f"  Extracted details - Title: {title}, Date: {date}, Author: {author}, Narrator: {narrator}, Year of recording: {year_of_recording}, Description: {description}")
     return {
         'title': title,
         'description': description,
         'date': date,
-        'author': author
+        'author': author,
+        'narrator': narrator,
+        'year_of_recording': year_of_recording
     }
 
 def sanitize_filename(filename):
@@ -137,7 +167,7 @@ def sanitize_filename(filename):
     # Replace any character that is not alphanumeric, dot, underscore, or hyphen with an underscore
     return re.sub(r'[^a-zA-Z0-9._\- ]', '_', filename)
 
-def add_id3_tags(file_path, title, author, date, description, track_number, episode_link):
+def add_id3_tags(file_path, date, title, author, narrator, year_of_recording, description, track_number, episode_link):
     print(f"Adding ID3 tags to {file_path}")
         
     # Load the file and add an ID3 tag if it doesn't exist
@@ -150,7 +180,7 @@ def add_id3_tags(file_path, title, author, date, description, track_number, epis
         except ID3NoHeaderError:
             audio = EasyID3()
         
-    audio['title'] = title
+    audio['title'] = f"{title} (prip. {narrator}, {year_of_recording})"
     audio['artist'] = author
     audio['album'] = "Lahko noč, otroci"
     audio['albumartist'] = "Pravljice"
@@ -178,7 +208,7 @@ def add_id3_tags(file_path, title, author, date, description, track_number, epis
     ))
     audio.save(file_path)
 
-def download_mp3(mp3_url, title, author, date, description, output_folder, downloaded_files, episode_link, counter):
+def download_mp3(mp3_url, date, title, author, narrator, year_of_recording, description, output_folder, downloaded_files, episode_link, counter):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
     print(f"\nDownloading MP3 from {mp3_url}")
@@ -186,7 +216,8 @@ def download_mp3(mp3_url, title, author, date, description, output_folder, downl
     if response.status_code == 200:
         sanitized_title = sanitize_filename(title)
         sanitized_author = sanitize_filename(author)
-        file_name = f"{counter} - {date} - {sanitized_title} ({sanitized_author}).mp3"
+        sanitized_narrator = sanitize_filename(narrator)
+        file_name = f"{counter} - {date} - {sanitized_title} (prip. {sanitized_narrator}, {year_of_recording}) ({sanitized_author}).mp3"
         file_path = os.path.join(output_folder, file_name)
         with open(file_path, 'wb') as file:
             for chunk in response.iter_content(chunk_size=1024):
@@ -198,7 +229,7 @@ def download_mp3(mp3_url, title, author, date, description, output_folder, downl
         description = f"URL: {episode_link}\n\n{description}"
 
         # Add ID3 tags
-        add_id3_tags(file_path, title, author, date, description, counter, episode_link)
+        add_id3_tags(file_path, date, title, author, narrator, year_of_recording, description, counter, episode_link)
             
         return file_path
     else:
@@ -302,7 +333,7 @@ def main(output_folder):
             mp3_link = extract_mp3_link_from_json(episode_soup)
                 
             if mp3_link:
-                file_path = download_mp3(mp3_link, details['title'], details['author'], details['date'], details['description'], output_folder, downloaded_files_path, episode_link, counter)
+                file_path = download_mp3(mp3_link, details['date'], details['title'], details['author'], details['narrator'], details['year_of_recording'], details['description'], output_folder, downloaded_files_path, episode_link, counter)
                 if file_path:
                     save_episode_details(details, file_path)
             else:
