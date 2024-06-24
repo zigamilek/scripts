@@ -82,24 +82,28 @@ def save_all_episode_links(all_links, output_folder):
 #region: Extract the details of each podcast episode
 def extract_podcast_details(soup):
     print("Extracting podcast details")
-    podcast_item = soup.find('div', class_='podcast-item')
-        
-    title_tag = podcast_item.find('h3')
+
+    title_tag = soup.find('h1', class_='page__title')
     if title_tag:
         title = title_tag.text.strip()
     else:
         print("  Title not found")
         title = "Unknown Title"
-        
-    date_tag = podcast_item.find('p', class_='media-meta')
-    if date_tag:
-        date_str = date_tag.text.strip()
-        date = datetime.strptime(date_str, "%d.%m.%Y").strftime("%Y-%m-%d")
+
+    podcast_item = soup.find('div', class_='episode')
+
+    # Extract date from the new HTML structure
+    date = "Unknown Date"
+    for li in podcast_item.find_all('li'):
+        if 'Objavljeno' in li.get_text():
+            date_str = re.search(r'\d{2}\.\d{2}\.\d{4}', li.get_text())
+            if date_str:
+                date = datetime.strptime(date_str.group(), "%d.%m.%Y").strftime("%Y-%m-%d")
+                break
     else:
         print("  Date not found")
-        date = "Unknown Date"
         
-    description_tag = podcast_item.find('div', class_='col-md-12').find('p')
+    description_tag = podcast_item.find('div', class_='large-8 cell').find('p')
     if description_tag:
         description = description_tag.text.strip()
         author = extract_author(description)
@@ -111,35 +115,24 @@ def extract_podcast_details(soup):
         author = "Unknown Author"
         narrator = "Unknown Narrator"
         year_of_recording = "Unknown Year"
-            
-    print(f"  Extracted details - Title: {title}, Date: {date}, Author: {author}, Narrator: {narrator}, Year of recording: {year_of_recording}, Description: {description}")
+
+    mp3_url = None
+    button_tag = podcast_item.find('button', {'data-audio': True})
+    if button_tag:
+        mp3_url = button_tag['data-audio'].replace("dts.podtrac.com/redirect.mp3/", "").replace("http://", "https://")
+    else:
+        print("  MP3 URL not found")
+
+    print(f"  Extracted details - Title: {title}, MP3 URL: {mp3_url}, Date: {date}, Author: {author}, Narrator: {narrator}, Year of recording: {year_of_recording}, Description: {description}")
     return {
         'title': title,
         'description': description,
         'date': date,
         'author': author,
         'narrator': narrator,
-        'year_of_recording': year_of_recording
+        'year_of_recording': year_of_recording,
+        'mp3_url': mp3_url
     }
-
-def extract_mp3_link_from_json(soup):
-    print("Extracting MP3 link from JSON data")
-    script_tag = soup.find('script', {'type': 'application/ld+json', 'id': '__jw-ld-json'})
-    if script_tag:
-        print("  Found the <script> tag with JSON data")
-        json_data = json.loads(script_tag.string)
-        if json_data and isinstance(json_data, list):
-            mp3_url = json_data[0].get('contentUrl')
-            if mp3_url:
-                print(f"  Found MP3 URL: {mp3_url}")
-                return mp3_url
-            else:
-                print("  MP3 URL not found in JSON data")
-        else:
-            print("  JSON data is empty or not in expected format")
-    else:
-        print("  The <script> tag with JSON data not found")
-    return None
 
 def extract_author(description):
     patterns = [
@@ -335,7 +328,7 @@ def main(output_folder):
     driver = init_driver()
     
     # Extract new episode links
-    episode_links = get_all_episode_links(base_url, driver, existing_links)
+    '''episode_links = get_all_episode_links(base_url, driver, existing_links)
     
     # Save the new links to the beginning of the file
     if episode_links:
@@ -343,10 +336,10 @@ def main(output_folder):
             for link in episode_links:
                 file.write(f"{link}\n")
             for link in existing_links:
-                file.write(f"{link}\n")
+                file.write(f"{link}\n")'''
     
     # Process links from the file
-    '''with open(links_file_path, 'r') as file:
+    with open(links_file_path, 'r') as file:
         all_links = file.read().splitlines()
     
     for line_number, episode_link in enumerate(all_links):
@@ -359,14 +352,13 @@ def main(output_folder):
             episode_soup = parse_html(episode_html)
                 
             details = extract_podcast_details(episode_soup)
-            mp3_link = extract_mp3_link_from_json(episode_soup)
                 
-            if mp3_link:
-                file_path = download_mp3(mp3_link, details['date'], details['title'], details['author'], details['narrator'], details['year_of_recording'], details['description'], output_folder, downloaded_files_path, episode_link, counter)
+            if details['mp3_url']:
+                file_path = download_mp3(details['mp3_url'], details['date'], details['title'], details['author'], details['narrator'], details['year_of_recording'], details['description'], output_folder, downloaded_files_path, episode_link, counter)
                 if file_path:
                     save_episode_details(details, file_path)
             else:
-                print(f"  MP3 link not found for episode: {details['title']}")'''
+                print(f"  MP3 link not found for episode: {details['title']}")
         
     driver.quit()
 
