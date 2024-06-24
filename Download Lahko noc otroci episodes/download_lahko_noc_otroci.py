@@ -1,3 +1,4 @@
+#region: Imports
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -14,7 +15,9 @@ from datetime import datetime
 from mutagen import File
 from mutagen.easyid3 import EasyID3
 from mutagen.id3 import ID3, COMM, ID3NoHeaderError, APIC
+#endregion
 
+#region: Helper functions for loading and parsing HTML
 def init_driver():
     options = Options()
     options.add_argument("--headless")
@@ -32,6 +35,92 @@ def parse_html(html):
     print("Parsing HTML content")
     soup = BeautifulSoup(html, 'html.parser')
     return soup
+#endregion
+
+#region: Extract and save all episode links
+def get_all_episode_links(base_url, driver, existing_links):
+    print("Getting all episode links")
+    all_links = []
+    page_number = 0
+    while True:
+        url = f"{base_url}?page={page_number}"
+        html = fetch_html(driver, url)
+        soup = parse_html(html)
+        episode_links = extract_episode_links(soup)
+        if not episode_links:
+            break
+        for link in episode_links:
+            if link in existing_links:
+                print(f"  Link already exists in the file: {link}")
+                return all_links
+            all_links.append(link)
+        page_number += 1
+    print(f"\nTotal episodes found: {len(all_links)}")
+    return all_links
+
+def extract_episode_links(soup):
+    print("Extracting episode links")
+    episode_links = []
+    items = soup.find_all('div', class_='podcast-item')
+    for item in items:
+        link_tag = item.find('a', href=True)
+        if link_tag:
+            link = link_tag['href']
+            if link:
+                episode_links.append("https://www.rtvslo.si" + link)
+    print(f"  Found {len(episode_links)} episode links")
+    return episode_links
+
+def save_all_episode_links(all_links, output_folder):
+    links_file_path = os.path.join(output_folder, "0_all_episode_links.txt")
+    with open(links_file_path, 'w') as file:
+        for link in all_links:
+            file.write(f"{link}\n")
+    print(f"\nSaved all episode links to {links_file_path}")
+#endregion
+
+#region: Extract the details of each podcast episode
+def extract_podcast_details(soup):
+    print("Extracting podcast details")
+    podcast_item = soup.find('div', class_='podcast-item')
+        
+    title_tag = podcast_item.find('h3')
+    if title_tag:
+        title = title_tag.text.strip()
+    else:
+        print("  Title not found")
+        title = "Unknown Title"
+        
+    date_tag = podcast_item.find('p', class_='media-meta')
+    if date_tag:
+        date_str = date_tag.text.strip()
+        date = datetime.strptime(date_str, "%d.%m.%Y").strftime("%Y-%m-%d")
+    else:
+        print("  Date not found")
+        date = "Unknown Date"
+        
+    description_tag = podcast_item.find('div', class_='col-md-12').find('p')
+    if description_tag:
+        description = description_tag.text.strip()
+        author = extract_author(description)
+        narrator = extract_narrator(description)
+        year_of_recording = extract_year_of_recording(description)
+    else:
+        print("  Description not found")
+        description = "No description available"
+        author = "Unknown Author"
+        narrator = "Unknown Narrator"
+        year_of_recording = "Unknown Year"
+            
+    print(f"  Extracted details - Title: {title}, Date: {date}, Author: {author}, Narrator: {narrator}, Year of recording: {year_of_recording}, Description: {description}")
+    return {
+        'title': title,
+        'description': description,
+        'date': date,
+        'author': author,
+        'narrator': narrator,
+        'year_of_recording': year_of_recording
+    }
 
 def extract_mp3_link_from_json(soup):
     print("Extracting MP3 link from JSON data")
@@ -113,48 +202,44 @@ def extract_year_of_recording(description):
     if match:
         return match.group(1)
     return "Unknown Year"
+#endregion
 
-def extract_podcast_details(soup):
-    print("Extracting podcast details")
-    podcast_item = soup.find('div', class_='podcast-item')
-    
-    title_tag = podcast_item.find('h3')
-    if title_tag:
-        title = title_tag.text.strip()
+#region: Download the MP3 file and add ID3 tags
+def download_mp3(mp3_url, date, title, author, narrator, year_of_recording, description, output_folder, downloaded_files, episode_link, counter):
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+    print(f"\nDownloading MP3 from {mp3_url}")
+    response = requests.get(mp3_url, headers=headers, stream=True)
+    if response.status_code == 200:
+        sanitized_title = sanitize_filename(title)
+        sanitized_author = sanitize_filename(author)
+        sanitized_narrator = sanitize_filename(narrator)
+        file_name = f"{counter} - {date} - {sanitized_title} (prip. {sanitized_narrator}, {year_of_recording}) ({sanitized_author}).mp3"
+        file_path = os.path.join(output_folder, file_name)
+            
+        # Ensure the final path does not exceed 250 characters
+        if len(file_path) > 250:
+            excess_length = len(file_path) - 250
+            # Trim the filename part, keeping the extension intact
+            file_name = file_name[:len(file_name) - excess_length - 4] + ".mp3"
+            file_path = os.path.join(output_folder, file_name)
+            
+        with open(file_path, 'wb') as file:
+            for chunk in response.iter_content(chunk_size=1024):
+                file.write(chunk)
+        print(f"  Downloaded {file_path}")
+        with open(downloaded_files, 'a') as file:
+            file.write(f"{episode_link}\n")
+            
+        description = f"URL: {episode_link}\n\n{description}"
+
+        # Add ID3 tags
+        add_id3_tags(file_path, date, title, author, narrator, year_of_recording, description, counter, episode_link)
+            
+        return file_path
     else:
-        print("  Title not found")
-        title = "Unknown Title"
-    
-    date_tag = podcast_item.find('p', class_='media-meta')
-    if date_tag:
-        date_str = date_tag.text.strip()
-        date = datetime.strptime(date_str, "%d.%m.%Y").strftime("%Y-%m-%d")
-    else:
-        print("  Date not found")
-        date = "Unknown Date"
-    
-    description_tag = podcast_item.find('div', class_='col-md-12').find('p')
-    if description_tag:
-        description = description_tag.text.strip()
-        author = extract_author(description)
-        narrator = extract_narrator(description)
-        year_of_recording = extract_year_of_recording(description)
-    else:
-        print("  Description not found")
-        description = "No description available"
-        author = "Unknown Author"
-        narrator = "Unknown Narrator"
-        year_of_recording = "Unknown Year"
-        
-    print(f"  Extracted details - Title: {title}, Date: {date}, Author: {author}, Narrator: {narrator}, Year of recording: {year_of_recording}, Description: {description}")
-    return {
-        'title': title,
-        'description': description,
-        'date': date,
-        'author': author,
-        'narrator': narrator,
-        'year_of_recording': year_of_recording
-    }
+        print(f"  Failed to download MP3 from {mp3_url} with status code {response.status_code}")
+        return None
 
 def sanitize_filename(filename):
     replacements = {
@@ -207,43 +292,9 @@ def add_id3_tags(file_path, date, title, author, narrator, year_of_recording, de
         data=image_data
     ))
     audio.save(file_path)
+#endregion
 
-def download_mp3(mp3_url, date, title, author, narrator, year_of_recording, description, output_folder, downloaded_files, episode_link, counter):
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
-    print(f"\nDownloading MP3 from {mp3_url}")
-    response = requests.get(mp3_url, headers=headers, stream=True)
-    if response.status_code == 200:
-        sanitized_title = sanitize_filename(title)
-        sanitized_author = sanitize_filename(author)
-        sanitized_narrator = sanitize_filename(narrator)
-        file_name = f"{counter} - {date} - {sanitized_title} (prip. {sanitized_narrator}, {year_of_recording}) ({sanitized_author}).mp3"
-        file_path = os.path.join(output_folder, file_name)
-            
-        # Ensure the final path does not exceed 250 characters
-        if len(file_path) > 250:
-            excess_length = len(file_path) - 250
-            # Trim the filename part, keeping the extension intact
-            file_name = file_name[:len(file_name) - excess_length - 4] + ".mp3"
-            file_path = os.path.join(output_folder, file_name)
-            
-        with open(file_path, 'wb') as file:
-            for chunk in response.iter_content(chunk_size=1024):
-                file.write(chunk)
-        print(f"  Downloaded {file_path}")
-        with open(downloaded_files, 'a') as file:
-            file.write(f"{episode_link}\n")
-            
-        description = f"URL: {episode_link}\n\n{description}"
-
-        # Add ID3 tags
-        add_id3_tags(file_path, date, title, author, narrator, year_of_recording, description, counter, episode_link)
-            
-        return file_path
-    else:
-        print(f"  Failed to download MP3 from {mp3_url} with status code {response.status_code}")
-        return None
-
+#region: Save episode details in a text file
 def save_episode_details(details, file_path):
     # Construct the initial details file path
     details_file_path = file_path.replace(".mp3", "") + f"-details"
@@ -260,46 +311,7 @@ def save_episode_details(details, file_path):
         file.write(f"Datum: {details['date']}\n")
         file.write(f"\n{details['description']}\n")
     print(f"  Saved episode details to {details_file_path}")
-
-def extract_episode_links(soup):
-    print("Extracting episode links")
-    episode_links = []
-    items = soup.find_all('div', class_='podcast-item')
-    for item in items:
-        link_tag = item.find('a', href=True)
-        if link_tag:
-            link = link_tag['href']
-            if link:
-                episode_links.append("https://www.rtvslo.si" + link)
-    print(f"  Found {len(episode_links)} episode links")
-    return episode_links
-
-def get_all_episode_links(base_url, driver, existing_links):
-    print("Getting all episode links")
-    all_links = []
-    page_number = 0
-    while True:
-        url = f"{base_url}?page={page_number}"
-        html = fetch_html(driver, url)
-        soup = parse_html(html)
-        episode_links = extract_episode_links(soup)
-        if not episode_links:
-            break
-        for link in episode_links:
-            if link in existing_links:
-                print(f"  Link already exists in the file: {link}")
-                return all_links
-            all_links.append(link)
-        page_number += 1
-    print(f"\nTotal episodes found: {len(all_links)}")
-    return all_links
-
-def save_all_episode_links(all_links, output_folder):
-    links_file_path = os.path.join(output_folder, "0_all_episode_links.txt")
-    with open(links_file_path, 'w') as file:
-        for link in all_links:
-            file.write(f"{link}\n")
-    print(f"\nSaved all episode links to {links_file_path}")
+#endregion
 
 def main(output_folder):
     base_url = 'https://www.rtvslo.si/radio/podkasti/lahko-noc-otroci/54'
