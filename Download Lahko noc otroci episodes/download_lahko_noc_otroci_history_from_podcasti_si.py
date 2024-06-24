@@ -202,7 +202,17 @@ def download_mp3(mp3_url, date, title, author, narrator, year_of_recording, desc
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
     print(f"\nDownloading MP3 from {mp3_url}")
-    response = requests.get(mp3_url, headers=headers, stream=True)
+
+    if not mp3_url:
+        print("  MP3 URL is None, skipping download.")
+        return None
+    
+    try:
+        response = requests.get(mp3_url, headers=headers, stream=True)
+    except requests.exceptions.MissingSchema as e:
+        print(f"  Invalid MP3 URL: {mp3_url}. Error: {e}")
+        return None
+
     if response.status_code == 200:
         sanitized_title = sanitize_filename(title)
         sanitized_author = sanitize_filename(author)
