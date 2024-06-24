@@ -119,7 +119,7 @@ def extract_podcast_details(soup):
     mp3_url = None
     button_tag = podcast_item.find('button', {'data-audio': True})
     if button_tag:
-        mp3_url = button_tag['data-audio'].replace("dts.podtrac.com/redirect.mp3/", "").replace("http://", "https://")
+        mp3_url = re.sub(r'dts\.podtrac\.com/redirect\.mp3/(http://)?', '', button_tag['data-audio']).replace("http://", "https://")
     else:
         print("  MP3 URL not found")
 
