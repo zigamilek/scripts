@@ -219,6 +219,14 @@ def download_mp3(mp3_url, date, title, author, narrator, year_of_recording, desc
         sanitized_narrator = sanitize_filename(narrator)
         file_name = f"{counter} - {date} - {sanitized_title} (prip. {sanitized_narrator}, {year_of_recording}) ({sanitized_author}).mp3"
         file_path = os.path.join(output_folder, file_name)
+            
+        # Ensure the final path does not exceed 250 characters
+        if len(file_path) > 250:
+            excess_length = len(file_path) - 250
+            # Trim the filename part, keeping the extension intact
+            file_name = file_name[:len(file_name) - excess_length - 4] + ".mp3"
+            file_path = os.path.join(output_folder, file_name)
+            
         with open(file_path, 'wb') as file:
             for chunk in response.iter_content(chunk_size=1024):
                 file.write(chunk)
@@ -237,7 +245,16 @@ def download_mp3(mp3_url, date, title, author, narrator, year_of_recording, desc
         return None
 
 def save_episode_details(details, file_path):
-    details_file_path = file_path.replace(".mp3", "") + "-details.txt"
+    # Construct the initial details file path
+    details_file_path = file_path.replace(".mp3", "") + f"-details"
+        
+    # Trim the path to 250 characters if it exceeds the limit
+    if len(details_file_path) > 250:
+        details_file_path = details_file_path[:250]
+        
+    # Add the .txt extension
+    details_file_path += ".txt"
+        
     with open(details_file_path, 'w') as file:
         file.write(f"Naslov: {details['title']}\n")
         file.write(f"Datum: {details['date']}\n")
