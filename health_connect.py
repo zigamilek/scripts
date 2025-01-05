@@ -96,7 +96,7 @@ def create_duckdb_table_if_needed(con, table_name: str):
 	print(f"Checking if table '{table_name}' exists in DuckDB.")
 	create_table_sql = f"""
 		CREATE TABLE IF NOT EXISTS {table_name} (
-			_id TEXT,
+			_id TEXT PRIMARY KEY,
 			data TEXT,
 			id TEXT,
 			start TIMESTAMP,
@@ -110,10 +110,6 @@ def create_duckdb_table_if_needed(con, table_name: str):
 
 
 def save_to_duckdb(df: pd.DataFrame, db_path: str = DUCKDB_PATH, table_name: str = TABLE_NAME):
-	"""
-	Insert data into DuckDB, skipping rows that have the same _id.
-	"""
-	# Connect
 	print(f"Saving data to DuckDB at path: {db_path}")
 	con = duckdb.connect(db_path)
 
@@ -133,26 +129,21 @@ def save_to_duckdb(df: pd.DataFrame, db_path: str = DUCKDB_PATH, table_name: str
 	con.register("temp_df", df)
 	print(f"Temporary table 'temp_df' registered with {len(df)} records.")
 
-	# Make sure the columns match the target table's columns
-	# We'll project them in the SELECT to be safe
-	# (Any extra columns in df will be ignored)
+	# Upsert! If the row with this _id exists, update the other columns with new values
 	insert_sql = f"""
-		INSERT INTO {table_name}
-		SELECT
-			t._id,  -- Specify the table alias 't' for temp_df
-			t.data,
-			t.id,
-			t.start,
-			t."end",  -- Enclose 'end' in double quotes
-			t.app,
-			t.method
-		FROM temp_df t
-		LEFT JOIN {table_name} h
-			ON t._id = h._id
-		WHERE h._id IS NULL
+		INSERT INTO {table_name} (_id, data, id, start, "end", app, method)
+		SELECT _id, data, id, start, "end", app, method
+		FROM temp_df
+		ON CONFLICT (_id) DO UPDATE SET
+			data = EXCLUDED.data,
+			id = EXCLUDED.id,
+			start = EXCLUDED.start,
+			"end" = EXCLUDED."end",
+			app = EXCLUDED.app,
+			method = EXCLUDED.method
 	"""
 	con.execute(insert_sql)
-	print(f"Inserted new records into '{table_name}'.")
+	print(f"Upserted records into '{table_name}'.")
 
 	# Cleanup
 	con.unregister("temp_df")
