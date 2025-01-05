@@ -37,14 +37,19 @@ def fetch_data(method: str, token: str, query_body: dict) -> pd.DataFrame:
 	POST /api/v2/fetch/{method} with a JSON body containing "queries".
 	Returns a Pandas DataFrame containing the fetched data.
 	"""
+	print(f"Fetching data for method: {method}")
 	url = f"{BASE_URL}/{METHOD}"
 	headers = {
 		"Authorization": f"Bearer {AUTH_TOKEN}",
 		"Content-Type": "application/json",
 	}
+	print(f"Request URL: {url}")
+	print(f"Request Headers: {headers}")
+	print(f"Request Body: {query_body}")
 
 	# Make the request
 	response = requests.post(url, headers=headers, data=json.dumps(query_body))
+	print(f"Response Status Code: {response.status_code}")
 	response.raise_for_status()  # Raise an error if the request failed
 
 	# The response might be a single object or a list of objects—depends on actual API
@@ -52,6 +57,8 @@ def fetch_data(method: str, token: str, query_body: dict) -> pd.DataFrame:
 	data = response.json()
     
 	# If the API returns a single object, wrap it in a list for convenience
+	print(f"Fetched Data: {data}")
+
 	if isinstance(data, dict):
 		# Check if it's an object that should be in a list
 		# If you know for sure the API always returns a list, remove this logic
@@ -68,6 +75,8 @@ def fetch_data(method: str, token: str, query_body: dict) -> pd.DataFrame:
 	
 	#print(df)
 	
+	print(f"DataFrame created with {len(df)} records.")
+    
 	return df
 
 
@@ -84,18 +93,20 @@ def create_duckdb_table_if_needed(con, table_name: str):
 	  - method (TEXT)
 	Adjust as needed based on how you want to store it.
 	"""
+	print(f"Checking if table '{table_name}' exists in DuckDB.")
 	create_table_sql = f"""
 		CREATE TABLE IF NOT EXISTS {table_name} (
 			_id TEXT,
 			data TEXT,
 			id TEXT,
 			start TIMESTAMP,
-			end TIMESTAMP,
+			"end" TIMESTAMP,
 			app TEXT,
 			method TEXT
 		);
 	"""
 	con.execute(create_table_sql)
+	print(f"Table '{table_name}' ensured in DuckDB.")
 
 
 def save_to_duckdb(df: pd.DataFrame, db_path: str = DUCKDB_PATH, table_name: str = TABLE_NAME):
@@ -103,6 +114,7 @@ def save_to_duckdb(df: pd.DataFrame, db_path: str = DUCKDB_PATH, table_name: str
 	Insert data into DuckDB, skipping rows that have the same _id.
 	"""
 	# Connect
+	print(f"Saving data to DuckDB at path: {db_path}")
 	con = duckdb.connect(db_path)
 
 	# Ensure table exists
@@ -119,6 +131,7 @@ def save_to_duckdb(df: pd.DataFrame, db_path: str = DUCKDB_PATH, table_name: str
 
 	# Register the new data as a temp table in DuckDB
 	con.register("temp_df", df)
+	print(f"Temporary table 'temp_df' registered with {len(df)} records.")
 
 	# Make sure the columns match the target table's columns
 	# We'll project them in the SELECT to be safe
@@ -126,27 +139,30 @@ def save_to_duckdb(df: pd.DataFrame, db_path: str = DUCKDB_PATH, table_name: str
 	insert_sql = f"""
 		INSERT INTO {table_name}
 		SELECT
-			_id,
-			data,
-			id,
-			start,
-			end,
-			app,
-			method
+			t._id,  -- Specify the table alias 't' for temp_df
+			t.data,
+			t.id,
+			t.start,
+			t."end",  -- Enclose 'end' in double quotes
+			t.app,
+			t.method
 		FROM temp_df t
 		LEFT JOIN {table_name} h
 			ON t._id = h._id
 		WHERE h._id IS NULL
 	"""
 	con.execute(insert_sql)
+	print(f"Inserted new records into '{table_name}'.")
 
 	# Cleanup
 	con.unregister("temp_df")
 	con.close()
+	print("Connection to DuckDB closed.")
 
 
 def main():
 	# 1. Fetch data
+	print("Starting data fetch and save process.")
 	df = fetch_data(METHOD, AUTH_TOKEN, QUERY)
 	if df.empty:
 		print(f"No data fetched for method='{METHOD}'.")
