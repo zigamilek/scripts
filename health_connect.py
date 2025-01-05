@@ -38,9 +38,9 @@ def fetch_data(method: str, token: str, query_body: dict) -> pd.DataFrame:
 	Returns a Pandas DataFrame containing the fetched data.
 	"""
 	print(f"Fetching data for method: {method}")
-	url = f"{BASE_URL}/{METHOD}"
+	url = f"{BASE_URL}/{method}"
 	headers = {
-		"Authorization": f"Bearer {AUTH_TOKEN}",
+		"Authorization": f"Bearer {token}",
 		"Content-Type": "application/json",
 	}
 	print(f"Request URL: {url}")
@@ -159,20 +159,35 @@ def save_to_duckdb(df: pd.DataFrame, db_path: str = DUCKDB_PATH, table_name: str
 	con.close()
 	print("Connection to DuckDB closed.")
 
-
-def main():
+def fetch_and_save_data(method: str):
+	print(f"Starting data fetch and save process for method: {method}")
+    
 	# 1. Fetch data
-	print("Starting data fetch and save process.")
-	df = fetch_data(METHOD, AUTH_TOKEN, QUERY)
+	df = fetch_data(method, AUTH_TOKEN, QUERY)
 	if df.empty:
-		print(f"No data fetched for method='{METHOD}'.")
+		print(f"No data fetched for method='{method}'.")
 		return
 
 	# 2. Append only new rows to DuckDB
-	save_to_duckdb(df)
+	save_to_duckdb(df, table_name=method)
+	print(f"Inserted new rows for method '{method}' (if any) into DuckDB.")
 
-	print(f"Inserted new rows for method '{METHOD}' (if any) into DuckDB.")
 
+def main():
+	methods = [
+		"activeCaloriesBurned", "basalBodyTemperature", "basalMetabolicRate", 
+		"bloodGlucose", "bloodPressure", "bodyFat", "bodyTemperature", 
+		"boneMass", "cervicalMucus", "distance", "exerciseSession", 
+		"elevationGained", "floorsClimbed", "heartRate", "height", 
+		"hydration", "leanBodyMass", "menstruationFlow", "menstruationPeriod", 
+		"nutrition", "ovulationTest", "oxygenSaturation", "power", 
+		"respiratoryRate", "restingHeartRate", "sleepSession", "speed", 
+		"steps", "stepsCadence", "totalCaloriesBurned", "vo2Max", "weight", 
+		"wheelchairPushes"
+	]
+
+	for method in methods:
+		fetch_and_save_data(method)
 
 if __name__ == "__main__":
 	main()
