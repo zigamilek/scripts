@@ -4,10 +4,35 @@ def parse_programs():
 	For each program, it includes all the fields specified:
 	  - title, description_short, program_id, subtitle, url, trainer, description_long,
 		description_overview, commitment, duration, items, level, categories, equipment_required,
-		equipment_recommended, classification, trainers, sections,
-	  - videos (stored as a dict keyed by "module_title - XX - video_title"),
-	  - files (stored as a dict keyed by resource 'title'),
-	plus a beautified JSON of the raw NEXT_DATA in Original JSONs/TRAINER - TITLE.json.
+		equipment_recommended, classification, trainers, sections
+
+	  - videos (now organized by section):
+			{
+			  "SectionTitle1": {
+				  "module_title - 01 - video_title": {
+					  "video_number": 1,
+					  "video_id": "...",
+					  ...
+				  },
+				  ...
+			  },
+			  "SectionTitle2": { ... }
+			}
+
+	  - files (stored as a dict keyed by the file 'title'):
+			{
+			  "Some File Title": {
+				  "entity_id": "...",
+				  "title": "Some File Title",
+				  "description": "...",
+				  "original_filename": "...",
+				  "url": "...",
+				  "size": 12345
+			  },
+			  ...
+			}
+
+	Also saves a beautified JSON of the raw NEXT_DATA in Original JSONs/TRAINER - TITLE.json.
 	"""
 	import requests
 	from bs4 import BeautifulSoup
@@ -28,7 +53,7 @@ def parse_programs():
 	def build_m3u8_url(video_id: str) -> str:
 		"""
 		Construct the m3u8 link, e.g.:
-			https://d197pzlrcwv1zr.cloudfront.net/VIDEOID/VIDEOID_Main_B.m3u8
+		  https://d197pzlrcwv1zr.cloudfront.net/VIDEOID/VIDEOID_Main_B.m3u8
 		"""
 		return f"https://d197pzlrcwv1zr.cloudfront.net/{video_id}/{video_id}_Main_B.m3u8"
 
@@ -72,10 +97,11 @@ def parse_programs():
 			print(f"JSON parse error for {link}")
 			continue
 
-		# We'll store this for later, to write a beautified copy
+		# Save raw data to beautified JSON
 		raw_data_for_this_program = next_data
 
-		# Usually the path is next_data["props"]["pageProps"]["reactQueryServerState"]["queries"][0]["state"]["data"]
+		# Usually the path is:
+		# next_data["props"]["pageProps"]["reactQueryServerState"]["queries"][0]["state"]["data"]
 		try:
 			queries = next_data["props"]["pageProps"]["reactQueryServerState"]["queries"]
 			top_data = queries[0]["state"]["data"]
@@ -110,23 +136,23 @@ def parse_programs():
 		commitment_data = top_data.get("commitment", {}) or {}
 		commitment_value = commitment_data.get("value", "")
 		commitment_title = commitment_data.get("title", "")
-		commitment = f"{commitment_value} {commitment_title}".strip()
+		commitment_str = f"{commitment_value} {commitment_title}".strip()
 
 		# duration.value + " " + duration.title
 		duration_data = top_data.get("duration", {}) or {}
 		duration_value = duration_data.get("value", "")
 		duration_title = duration_data.get("title", "")
-		duration_string = f"{duration_value} {duration_title}".strip()
+		duration_str = f"{duration_value} {duration_title}".strip()
 
 		# items.value + " " + items.title
 		items_data = top_data.get("itemCount", {}) or {}
 		items_value = items_data.get("value", "")
 		items_title = items_data.get("title", "")
-		items_string = f"{items_value} {items_title}".strip()
+		items_str = f"{items_value} {items_title}".strip()
 
 		# level.title
 		level_data = top_data.get("level", {}) or {}
-		level_string = level_data.get("title", "")
+		level_str = level_data.get("title", "")
 
 		# arrays
 		categories = top_data.get("categories", [])
@@ -136,8 +162,8 @@ def parse_programs():
 		trainers = top_data.get("trainers", [])
 		sections = top_data.get("sections", [])
 
-		# Prepare "videos" -> a dict, but keyed by "module_title - XX - video_title"
-		videos_dict = {}
+		# Prepare "videos" -> a dict of sections, each containing a dict of video_keys -> video data
+		videos_by_section = {}
 		# Prepare "files" -> keyed by resource's 'title'
 		files_dict = {}
 
@@ -145,6 +171,10 @@ def parse_programs():
 		for section_obj in sections:
 			section_title = section_obj.get("title", "")
 			modules = section_obj.get("modules", [])
+
+			# Ensure we have a dictionary entry for this section, even if no videos
+			if section_title not in videos_by_section:
+				videos_by_section[section_title] = {}
 
 			for mod_obj in modules:
 				module_title = mod_obj.get("title", "") or ""
@@ -181,9 +211,8 @@ def parse_programs():
 
 							# Key: "module_title - XX - video_title"
 							video_key = f"{module_title} - {video_counter:02d} - {title_str}"
-							video_counter += 1
-
-							videos_dict[video_key] = {
+							videos_by_section[section_title][video_key] = {
+								"video_number": video_counter,
 								"video_id": video_id,
 								"title": title_str,
 								"url": build_m3u8_url(video_id),
@@ -203,12 +232,14 @@ def parse_programs():
 								"trainers": video_trainers,
 								"entity_id": entity_data.get("_id", entity_id),
 							}
+							video_counter += 1
 
 					elif entity_type == "resource":
 						file_item = entity_data.get("file")
 						if file_item:
 							file_title = entity_data.get("title", "Untitled File")
 							files_dict[file_title] = {
+								"entity_id": entity_data.get("_id", entity_id),
 								"title": entity_data.get("title", ""),
 								"description": entity_data.get("description", ""),
 								"original_filename": file_item.get("originalFilename", ""),
@@ -228,18 +259,18 @@ def parse_programs():
 			"trainer": trainer_name,
 			"description_long": description_long,
 			"description_overview": description_overview,
-			"commitment": commitment,
-			"duration": duration_string,
-			"items": items_string,
-			"level": level_string,
+			"commitment": commitment_str,
+			"duration": duration_str,
+			"items": items_str,
+			"level": level_str,
 			"categories": categories,
 			"equipment_required": equipment_required,
 			"equipment_recommended": equipment_recommended,
 			"classification": classification,
 			"trainers": trainers,
 			"sections": sections,
-			"videos": videos_dict,  # keyed by "module_title - XX - video_title"
-			"files": files_dict     # keyed by resource 'title'
+			"videos": videos_by_section,  # Dict of {section_title: {video_key: {...}, ...}, ...}
+			"files": files_dict          # Keyed by file title
 		}
 
 		# Compute the top-level key as "trainer - title"
@@ -249,8 +280,7 @@ def parse_programs():
 
 		# Save raw JSON in "Original JSONs/trainer - title.json"
 		raw_json_path = os.path.join(original_json_folder, f"{top_level_key}.json")
-		# sanitize to avoid slashes, etc.
-		raw_json_path = raw_json_path.replace("/", "_")
+		raw_json_path = raw_json_path.replace("/", "_")  # sanitize in case of slashes
 		with open(raw_json_path, "w", encoding="utf-8") as raw_out:
 			json.dump(raw_data_for_this_program, raw_out, indent=2)
 
