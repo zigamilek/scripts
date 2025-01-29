@@ -1,26 +1,27 @@
 def parse_programs():
-	"""
-	Reads program links and creates a consolidated JSON with all the information needed
-	(program_name, trainer, sections, videos, files, etc.) from the NEXT_DATA script on each page.
-	"""
 	import requests
 	from bs4 import BeautifulSoup
 	import json
-	import re
 	import os
 
 	input_file = "program_links.txt"
 	output_file = "program_data.json"
-
-	# The script ID or marker used to find the __NEXT_DATA__ JSON
 	next_data_id = "__NEXT_DATA__"
 
-	all_programs_data = []
+	# Folder to store original NEXT_DATA JSONs
+	original_json_folder = "Original JSONs"
+	if not os.path.exists(original_json_folder):
+		os.makedirs(original_json_folder)
 
-	# Helper: build m3u8 link from video_id
+	final_data = {}
+
 	def build_m3u8_url(video_id: str) -> str:
-		# Example pattern: https://d197pzlrcwv1zr.cloudfront.net/BBR0037/BBR0037_Main_B.m3u8
 		return f"https://d197pzlrcwv1zr.cloudfront.net/{video_id}/{video_id}_Main_B.m3u8"
+
+	def calculate_estimated_size_mb(duration_seconds: float) -> str:
+		size_in_kbits = duration_seconds * 6000
+		size_in_mb = size_in_kbits / 8.0 / 1024.0
+		return f"{size_in_mb:.0f} MB"
 
 	with open(input_file, "r", encoding="utf-8") as file_in:
 		program_links = [line.strip() for line in file_in if line.strip()]
@@ -43,169 +44,185 @@ def parse_programs():
 			print(f"__NEXT_DATA__ script is empty for {link}")
 			continue
 
-		# Parse the JSON data
 		try:
-			json_data = json.loads(next_data_script_string)
+			next_data = json.loads(next_data_script_string)
 		except json.JSONDecodeError:
 			print(f"JSON parse error for {link}")
 			continue
 
-		# Navigate to the path "props.pageProps" in the JSON
-		page_props = json_data.get("props", {}).get("pageProps", {})
-		program_data = page_props.get("slug")  # Sometimes "slug" is program slug
-		# The actual program metadata seems to be in "reactQueryServerState.queries[0].state.data"
-		# We'll try to find that data:
-		queries = page_props.get("reactQueryServerState", {}).get("queries", [])
-		# Typically, the "data" is somewhere in queries->state->data, we find the one that references the program slug
-		relevant_data = None
-		for query_entry in queries:
-			state_data = query_entry.get("state", {}).get("data")
-			if state_data and isinstance(state_data, dict):
-				# If it has something like "_type": "program" or "slug": "barre-blend"
-				if state_data.get("_type") == "program" or state_data.get("slug") == page_props.get("slug"):
-					relevant_data = state_data
-					break
+		# We'll store this for later
+		raw_data_for_this_program = next_data
 
-		if not relevant_data:
-			print(f"Could not find relevant program data in JSON for {link}")
+		# Usually the path is next_data["props"]["pageProps"]["reactQueryServerState"]["queries"][0]["state"]["data"]
+		try:
+			queries = next_data["props"]["pageProps"]["reactQueryServerState"]["queries"]
+			top_data = queries[0]["state"]["data"]
+		except (KeyError, IndexError):
+			print(f"Couldn't navigate reactQueryServerState for {link}")
 			continue
 
-		program_title = relevant_data.get("title", "Unknown Title")
-		trainers_data = relevant_data.get("trainers", [])
-		trainer_name = ""
-		if trainers_data:
-			first_name = trainers_data[0].get("firstName", "").strip()
-			last_name = trainers_data[0].get("lastName", "").strip()
-			trainer_name = f"{first_name} {last_name}"
+		entity_map = top_data.get("entities", {})
 
-		# Grab about/stats/etc. (like you mentioned: everything for an "about" txt). 
-		# They might be in "statistics" or "commitment" or "duration" or "descriptionShort/Long"
-		# We'll bucket them into an "about" dict
-		about_data = {
-			"description_short": relevant_data.get("descriptionShort", ""),
-			"description_long": relevant_data.get("descriptionLong", ""),
-			"commitment": relevant_data.get("commitment", {}),
-			"duration": relevant_data.get("duration", {}),
-			"item_count": relevant_data.get("itemCount", {}),
-			"level": relevant_data.get("level", {}),
-			"statistics": [],
+		program_id = top_data.get("_id", "")
+		title = top_data.get("title", "")
+		description_short = top_data.get("descriptionShort", "")
+		subtitle = top_data.get("subtitle", "")
+
+		# share.url
+		share_data = top_data.get("share", {})
+		url = share_data.get("url", "")
+
+		# trainer name
+		trainers_array = top_data.get("trainers", [])
+		if trainers_array:
+			first_name = trainers_array[0].get("firstName", "")
+			last_name = trainers_array[0].get("lastName", "")
+			trainer_name = f"{first_name} {last_name}".strip()
+		else:
+			trainer_name = "Unknown Trainer"
+
+		description_long = top_data.get("descriptionLong", "")
+		description_overview = top_data.get("descriptionOverview", "")
+
+		# commitment.value + " " + commitment.title
+		commitment_data = top_data.get("commitment", {}) or {}
+		commitment_value = commitment_data.get("value", "")
+		commitment_title = commitment_data.get("title", "")
+		commitment = f"{commitment_value} {commitment_title}".strip()
+
+		# duration.value + " " + duration.title
+		duration_data = top_data.get("duration", {}) or {}
+		duration_value = duration_data.get("value", "")
+		duration_title = duration_data.get("title", "")
+		duration_string = f"{duration_value} {duration_title}".strip()
+
+		# items.value + " " + items.title
+		items_data = top_data.get("itemCount", {}) or {}
+		items_value = items_data.get("value", "")
+		items_title = items_data.get("title", "")
+		items_string = f"{items_value} {items_title}".strip()
+
+		# level.title
+		level_data = top_data.get("level", {}) or {}
+		level_string = level_data.get("title", "")
+
+		# arrays
+		categories = top_data.get("categories", [])
+		equipment_required = top_data.get("equipmentRequired", [])
+		equipment_recommended = top_data.get("equipmentRecommended", [])
+		classification = top_data.get("classification", [])
+		trainers = top_data.get("trainers", [])
+		sections = top_data.get("sections", [])
+
+		# Prepare "videos" -> object of entity_id -> {...}
+		videos_dict = {}
+		# Prepare "files" -> object of entity_id -> {...}
+		files_dict = {}
+
+		# We need to figure out which sections/modules each entity belongs to
+		for section_obj in sections:
+			section_title = section_obj.get("title", "")
+			modules = section_obj.get("modules", [])
+
+			for mod_obj in modules:
+				module_title = mod_obj.get("title", "") or ""  
+				entity_ids = mod_obj.get("entityIds", [])
+
+				for entity_id in entity_ids:
+					entity_data = entity_map.get(entity_id, {})
+					entity_type = entity_data.get("_type", "")
+
+					if entity_type in ["workout", "promo"]:
+						video_info = entity_data.get("video", {})
+						video_id = video_info.get("videoId") or entity_data.get("videoId", "")
+						if video_id:
+							title_str = entity_data.get("title", "")
+							video_trainers = entity_data.get("trainers", [])
+							if video_trainers:
+								vf_name = video_trainers[0].get("firstName", "")
+								vl_name = video_trainers[0].get("lastName", "")
+								video_trainer_name = f"{vf_name} {vl_name}".strip()
+							else:
+								video_trainer_name = ""
+
+							levels_array = entity_data.get("levels", [])
+							level_title = ""
+							if levels_array:
+								level_title = levels_array[0].get("title", "")
+
+							duration_actual = video_info.get("durationActual", 0)
+							estimated_size = calculate_estimated_size_mb(float(duration_actual))
+
+							videos_dict[entity_id] = {
+								"video_id": video_id,
+								"title": title_str,
+								"url": build_m3u8_url(video_id),
+								"section": section_title,
+								"module": module_title,
+								"level": level_title,
+								"trainer": video_trainer_name,
+								"description": entity_data.get("descriptionLong", ""),
+								"duration": duration_actual,
+								"estimated_size": estimated_size,
+								"focus_areas": entity_data.get("focusAreas", []),
+								"categories": entity_data.get("categories", []),
+								"subcategories": entity_data.get("subcategories", []),
+								"levels": levels_array,
+								"equipment_required": entity_data.get("equipmentRequired", []),
+								"equipment_recommended": entity_data.get("equipmentRecommended", []),
+								"trainers": video_trainers,
+								"entity_id": entity_data.get("_id", entity_id),
+							}
+
+					elif entity_type == "resource":
+						file_item = entity_data.get("file")
+						if file_item:
+							files_dict[entity_id] = {
+								"title": entity_data.get("title", ""),
+								"description": entity_data.get("description", ""),
+								"original_filename": file_item.get("originalFilename", ""),
+								"url": file_item.get("url", ""),
+								"size": file_item.get("size", 0)
+							}
+						else:
+							# skip or handle differently if no file
+							continue
+
+		program_object = {
+			"title": title,
+			"description_short": description_short,
+			"program_id": program_id,
+			"subtitle": subtitle,
+			"url": url,
+			"trainer": trainer_name,
+			"description_long": description_long,
+			"description_overview": description_overview,
+			"commitment": commitment,
+			"duration": duration_string,
+			"items": items_string,
+			"level": level_string,
+			"categories": categories,
+			"equipment_required": equipment_required,
+			"equipment_recommended": equipment_recommended,
+			"classification": classification,
+			"trainers": trainers,
+			"sections": sections,
+			"videos": videos_dict,
+			"files": files_dict
 		}
 
-		# Sometimes there's a "sections" or "modules" array with stats:
-		# Or a "statistics" array within the dynamicModule
-		# We'll see if there's a top-level "statistics" in relevant_data (as sometimes seen)
-		top_level_stats = relevant_data.get("statistics", [])
-		for stat in top_level_stats:
-			about_data["statistics"].append(stat)
+		top_level_key = f"{trainer_name} - {title}".strip()
+		final_data[top_level_key] = program_object
 
-		# We'll also gather "sections" and "videos" from the "sections" array
-		sections_data = relevant_data.get("sections", [])
-		sections_list = []
-		videos_list = []
-		files_list = []
+		# Save raw JSON to Original JSONs/trainer - title.json
+		raw_json_path = os.path.join(original_json_folder, f"{top_level_key}.json")
+		# replace invalid chars in filename if needed
+		raw_json_path = raw_json_path.replace("/", "_")
+		with open(raw_json_path, "w", encoding="utf-8") as raw_out:
+			json.dump(raw_data_for_this_program, raw_out, indent=2)
 
-		# We'll need a map of entity_id -> entity details, which is in "page_props['reactQueryServerState']['queries'][0]['state']['data']" as well
-		# Looking for keys like "A3jSdym3jf5hqTWanxQofJ":{"_id":"A3jSdym3jf5hqTWanxQofJ","_type":"workout", ...}
-		# Often stored in relevant_data["entities"] or similar
-		# In the sample, these are just nested under relevant_data itself (like "STf6JLOAKHfcDUeIJbo8F1" : { ... })
-		# So let's look for all top-level keys that are dict and have "_type" in them
-		entity_map = {}
-		for key, val in relevant_data.items():
-			if isinstance(val, dict) and "_type" in val:
-				entity_map[key] = val
-
-		# Extract each section
-		for section in sections_data:
-			section_title = section.get("title", "")
-			section_slug = section.get("slug", "")
-			section_dict = {
-				"section_title": section_title,
-				"slug": section_slug
-			}
-			sections_list.append(section_dict)
-
-			# Each section might contain a "modules" or "entityIds" array. 
-			# If it's a collection, we can iterate entityIds
-			modules = section.get("modules", [])
-			for module_item in modules:
-				if module_item.get("_type") == "collection":
-					entity_ids = module_item.get("entityIds", [])
-					for entity_id in entity_ids:
-						entity_data = entity_map.get(entity_id, {})
-						entity_type = entity_data.get("_type", "")
-						# If it's a "promo" or "workout", maybe it's a video
-						if entity_type in ["promo", "workout"]:
-							video_id = entity_data.get("video", {}).get("videoId")
-							if not video_id:
-								video_id = entity_data.get("videoId")  # fallback
-							if video_id:
-								new_video = {
-									"section_title": section_title,
-									"title": entity_data.get("title", ""),
-									"description": entity_data.get("descriptionLong", ""),
-									"video_id": video_id,
-									"m3u8_url": build_m3u8_url(video_id)
-								}
-								videos_list.append(new_video)
-
-						elif entity_type in ["resource"]:
-							file_data = entity_data.get("file")
-							if file_data:
-								new_file = {
-									"section_title": section_title,
-									"title": entity_data.get("title", ""),
-									"url": file_data.get("url", ""),
-									"size": file_data.get("size", 0),
-									"extension": file_data.get("extension", ""),
-								}
-								files_list.append(new_file)
-
-		# Some sections have "entityIds" at the top-level (like in the provided example)
-		for section in sections_data:
-			entity_ids = section.get("entityIds", [])
-			for entity_id in entity_ids:
-				entity_data = entity_map.get(entity_id, {})
-				entity_type = entity_data.get("_type", "")
-				if entity_type in ["promo", "workout"]:
-					video_id = entity_data.get("video", {}).get("videoId")
-					if not video_id:
-						video_id = entity_data.get("videoId")
-					if video_id:
-						new_video = {
-							"section_title": section.get("title", ""),
-							"title": entity_data.get("title", ""),
-							"description": entity_data.get("descriptionLong", ""),
-							"video_id": video_id,
-							"m3u8_url": build_m3u8_url(video_id)
-						}
-						videos_list.append(new_video)
-				elif entity_type in ["resource"]:
-					file_data = entity_data.get("file")
-					if file_data:
-						new_file = {
-							"section_title": section.get("title", ""),
-							"title": entity_data.get("title", ""),
-							"url": file_data.get("url", ""),
-							"size": file_data.get("size", 0),
-							"extension": file_data.get("extension", ""),
-						}
-						files_list.append(new_file)
-
-		program_dict = {
-			"program_name": program_title,
-			"url": link,
-			"trainer": trainer_name.strip(),
-			"about": about_data,
-			"sections": sections_list,
-			"videos": videos_list,
-			"files": files_list
-		}
-
-		all_programs_data.append(program_dict)
-
-	# Write out a single JSON file containing all programs
-	with open(output_file, "w", encoding="utf-8") as file_out:
-		json.dump({"programs": all_programs_data}, file_out, indent=2)
+	with open(output_file, "w", encoding="utf-8") as f_out:
+		json.dump(final_data, f_out, indent=2)
 	print(f"Done! Wrote data to {output_file}")
 
 
