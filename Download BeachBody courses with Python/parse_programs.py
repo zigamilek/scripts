@@ -1,20 +1,27 @@
 def parse_programs():
 	"""
 	Reads program links and creates a consolidated JSON whose top-level key is "trainer - title".
+    
 	For each program, it includes all the fields specified:
 	  - title, description_short, program_id, subtitle, url, trainer, description_long,
 		description_overview, commitment, duration, items, level, categories, equipment_required,
 		equipment_recommended, classification, trainers, sections
 
-	  - videos (now organized by section):
+	  - videos (now organized by section -> module -> video_key):
 			{
 			  "SectionTitle1": {
-				  "module_title - 01 - video_title": {
-					  "video_number": 1,
-					  "video_id": "...",
-					  ...
+				  "ModuleTitle1": {
+					  "01 - video_title1": {
+						  "video_number": 1,
+						  "video_id": "...",
+						  ...
+					  },
+					  "02 - video_title2": {
+						  "video_number": 2,
+						  ...
+					  }
 				  },
-				  ...
+				  "ModuleTitle2": { ... }
 			  },
 			  "SectionTitle2": { ... }
 			}
@@ -97,7 +104,7 @@ def parse_programs():
 			print(f"JSON parse error for {link}")
 			continue
 
-		# Save raw data to beautified JSON
+		# Save raw data for beautification
 		raw_data_for_this_program = next_data
 
 		# Usually the path is:
@@ -162,9 +169,9 @@ def parse_programs():
 		trainers = top_data.get("trainers", [])
 		sections = top_data.get("sections", [])
 
-		# Prepare "videos" -> a dict of sections, each containing a dict of video_keys -> video data
+		# Prepare "videos" -> { section_title: { module_title: { "01 - video_title": {...}, ... } } }
 		videos_by_section = {}
-		# Prepare "files" -> keyed by resource's 'title'
+		# Prepare "files" -> keyed by file 'title'
 		files_dict = {}
 
 		# Go through sections and modules
@@ -180,6 +187,10 @@ def parse_programs():
 				module_title = mod_obj.get("title", "") or ""
 				entity_ids = mod_obj.get("entityIds", [])
 
+				# Ensure we have a dictionary entry for this module
+				if module_title not in videos_by_section[section_title]:
+					videos_by_section[section_title][module_title] = {}
+
 				# We'll track how many videos we find in this module
 				video_counter = 1
 
@@ -191,7 +202,6 @@ def parse_programs():
 						video_info = entity_data.get("video", {})
 						video_id = video_info.get("videoId") or entity_data.get("videoId", "")
 						if video_id:
-							# Basic data
 							title_str = entity_data.get("title", "")
 							video_trainers = entity_data.get("trainers", [])
 							if video_trainers:
@@ -209,9 +219,9 @@ def parse_programs():
 							duration_actual = video_info.get("durationActual", 0)
 							estimated_size = calculate_estimated_size_mb(float(duration_actual))
 
-							# Key: "module_title - XX - video_title"
-							video_key = f"{module_title} - {video_counter:02d} - {title_str}"
-							videos_by_section[section_title][video_key] = {
+							# Key: "XX - video_title"
+							video_key = f"{video_counter:02d} - {title_str}"
+							videos_by_section[section_title][module_title][video_key] = {
 								"video_number": video_counter,
 								"video_id": video_id,
 								"title": title_str,
@@ -269,8 +279,8 @@ def parse_programs():
 			"classification": classification,
 			"trainers": trainers,
 			"sections": sections,
-			"videos": videos_by_section,  # Dict of {section_title: {video_key: {...}, ...}, ...}
-			"files": files_dict          # Keyed by file title
+			"videos": videos_by_section,  # {section_title: {module_title: {"01 - vid": {...}, ...}}}
+			"files": files_dict
 		}
 
 		# Compute the top-level key as "trainer - title"
@@ -280,7 +290,7 @@ def parse_programs():
 
 		# Save raw JSON in "Original JSONs/trainer - title.json"
 		raw_json_path = os.path.join(original_json_folder, f"{top_level_key}.json")
-		raw_json_path = raw_json_path.replace("/", "_")  # sanitize in case of slashes
+		raw_json_path = raw_json_path.replace("/", "_")  # sanitize for file system
 		with open(raw_json_path, "w", encoding="utf-8") as raw_out:
 			json.dump(raw_data_for_this_program, raw_out, indent=2)
 
