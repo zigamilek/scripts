@@ -1,4 +1,14 @@
 def parse_programs():
+	"""
+	Reads program links and creates a consolidated JSON whose top-level key is "trainer - title".
+	For each program, it includes all the fields specified:
+	  - title, description_short, program_id, subtitle, url, trainer, description_long,
+		description_overview, commitment, duration, items, level, categories, equipment_required,
+		equipment_recommended, classification, trainers, sections,
+	  - videos (stored as a dict keyed by "module_title - XX - video_title"),
+	  - files (stored as a dict keyed by resource 'title'),
+	plus a beautified JSON of the raw NEXT_DATA in Original JSONs/TRAINER - TITLE.json.
+	"""
 	import requests
 	from bs4 import BeautifulSoup
 	import json
@@ -16,13 +26,24 @@ def parse_programs():
 	final_data = {}
 
 	def build_m3u8_url(video_id: str) -> str:
+		"""
+		Construct the m3u8 link, e.g.:
+			https://d197pzlrcwv1zr.cloudfront.net/VIDEOID/VIDEOID_Main_B.m3u8
+		"""
 		return f"https://d197pzlrcwv1zr.cloudfront.net/{video_id}/{video_id}_Main_B.m3u8"
 
 	def calculate_estimated_size_mb(duration_seconds: float) -> str:
+		"""
+		Estimate size using a 6000 kbit/s bitrate, then converting to MB.
+		size_in_kbits = duration_seconds * 6000
+		size_in_mb = size_in_kbits / 8 / 1024
+		Returns a string, e.g. "786 MB".
+		"""
 		size_in_kbits = duration_seconds * 6000
 		size_in_mb = size_in_kbits / 8.0 / 1024.0
 		return f"{size_in_mb:.0f} MB"
 
+	# Read the program links from a file
 	with open(input_file, "r", encoding="utf-8") as file_in:
 		program_links = [line.strip() for line in file_in if line.strip()]
 
@@ -44,13 +65,14 @@ def parse_programs():
 			print(f"__NEXT_DATA__ script is empty for {link}")
 			continue
 
+		# Parse the JSON from __NEXT_DATA__
 		try:
 			next_data = json.loads(next_data_script_string)
 		except json.JSONDecodeError:
 			print(f"JSON parse error for {link}")
 			continue
 
-		# We'll store this for later
+		# We'll store this for later, to write a beautified copy
 		raw_data_for_this_program = next_data
 
 		# Usually the path is next_data["props"]["pageProps"]["reactQueryServerState"]["queries"][0]["state"]["data"]
@@ -69,7 +91,7 @@ def parse_programs():
 		subtitle = top_data.get("subtitle", "")
 
 		# share.url
-		share_data = top_data.get("share", {})
+		share_data = top_data.get("share", {}) or {}
 		url = share_data.get("url", "")
 
 		# trainer name
@@ -114,19 +136,22 @@ def parse_programs():
 		trainers = top_data.get("trainers", [])
 		sections = top_data.get("sections", [])
 
-		# Prepare "videos" -> object of entity_id -> {...}
+		# Prepare "videos" -> a dict, but keyed by "module_title - XX - video_title"
 		videos_dict = {}
-		# Prepare "files" -> object of entity_id -> {...}
+		# Prepare "files" -> keyed by resource's 'title'
 		files_dict = {}
 
-		# We need to figure out which sections/modules each entity belongs to
+		# Go through sections and modules
 		for section_obj in sections:
 			section_title = section_obj.get("title", "")
 			modules = section_obj.get("modules", [])
 
 			for mod_obj in modules:
-				module_title = mod_obj.get("title", "") or ""  
+				module_title = mod_obj.get("title", "") or ""
 				entity_ids = mod_obj.get("entityIds", [])
+
+				# We'll track how many videos we find in this module
+				video_counter = 1
 
 				for entity_id in entity_ids:
 					entity_data = entity_map.get(entity_id, {})
@@ -136,6 +161,7 @@ def parse_programs():
 						video_info = entity_data.get("video", {})
 						video_id = video_info.get("videoId") or entity_data.get("videoId", "")
 						if video_id:
+							# Basic data
 							title_str = entity_data.get("title", "")
 							video_trainers = entity_data.get("trainers", [])
 							if video_trainers:
@@ -153,7 +179,11 @@ def parse_programs():
 							duration_actual = video_info.get("durationActual", 0)
 							estimated_size = calculate_estimated_size_mb(float(duration_actual))
 
-							videos_dict[entity_id] = {
+							# Key: "module_title - XX - video_title"
+							video_key = f"{module_title} - {video_counter:02d} - {title_str}"
+							video_counter += 1
+
+							videos_dict[video_key] = {
 								"video_id": video_id,
 								"title": title_str,
 								"url": build_m3u8_url(video_id),
@@ -177,7 +207,8 @@ def parse_programs():
 					elif entity_type == "resource":
 						file_item = entity_data.get("file")
 						if file_item:
-							files_dict[entity_id] = {
+							file_title = entity_data.get("title", "Untitled File")
+							files_dict[file_title] = {
 								"title": entity_data.get("title", ""),
 								"description": entity_data.get("description", ""),
 								"original_filename": file_item.get("originalFilename", ""),
@@ -185,9 +216,9 @@ def parse_programs():
 								"size": file_item.get("size", 0)
 							}
 						else:
-							# skip or handle differently if no file
 							continue
 
+		# Build the final single object for this program
 		program_object = {
 			"title": title,
 			"description_short": description_short,
@@ -207,20 +238,23 @@ def parse_programs():
 			"classification": classification,
 			"trainers": trainers,
 			"sections": sections,
-			"videos": videos_dict,
-			"files": files_dict
+			"videos": videos_dict,  # keyed by "module_title - XX - video_title"
+			"files": files_dict     # keyed by resource 'title'
 		}
 
+		# Compute the top-level key as "trainer - title"
 		top_level_key = f"{trainer_name} - {title}".strip()
+
 		final_data[top_level_key] = program_object
 
-		# Save raw JSON to Original JSONs/trainer - title.json
+		# Save raw JSON in "Original JSONs/trainer - title.json"
 		raw_json_path = os.path.join(original_json_folder, f"{top_level_key}.json")
-		# replace invalid chars in filename if needed
+		# sanitize to avoid slashes, etc.
 		raw_json_path = raw_json_path.replace("/", "_")
 		with open(raw_json_path, "w", encoding="utf-8") as raw_out:
 			json.dump(raw_data_for_this_program, raw_out, indent=2)
 
+	# Finally, write out final_data to program_data.json
 	with open(output_file, "w", encoding="utf-8") as f_out:
 		json.dump(final_data, f_out, indent=2)
 	print(f"Done! Wrote data to {output_file}")
