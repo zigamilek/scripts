@@ -16,6 +16,7 @@ def parse_programs():
 	from bs4 import BeautifulSoup
 	import json
 	import os
+	from titlecase import titlecase
 
 	input_file = "program_links.txt"
 	output_file = "program_data.json"
@@ -147,14 +148,14 @@ def parse_programs():
 		files_dict = {}
 
 		for section_obj in sections:
-			section_title = section_obj.get("title", "")
+			section_title = titlecase(section_obj.get("title", ""))
 			modules = section_obj.get("modules", [])
 
 			# We'll build a temporary dict of modules that actually have videos
 			modules_dict_for_this_section = {}
 
 			for mod_obj in modules:
-				module_title = mod_obj.get("title", "") or ""
+				module_title = titlecase(mod_obj.get("title", "")) or ""
 				entity_ids = mod_obj.get("entityIds", [])
 
 				# Temporary dictionary for the videos in this module
@@ -169,7 +170,7 @@ def parse_programs():
 						video_info = entity_data.get("video", {})
 						video_id = video_info.get("videoId") or entity_data.get("videoId", "")
 						if video_id:
-							title_str = entity_data.get("title", "")
+							title_str = titlecase(entity_data.get("title", ""))
 							video_trainers = entity_data.get("trainers", [])
 							if video_trainers:
 								vf_name = video_trainers[0].get("firstName", "")
@@ -218,7 +219,7 @@ def parse_programs():
 							file_title = entity_data.get("title", "Untitled File")
 							files_dict[file_title] = {
 								"entity_id": entity_data.get("_id", entity_id),
-								"title": entity_data.get("title", ""),
+								"title": titlecase(entity_data.get("title", "")),
 								"description": entity_data.get("description", ""),
 								"original_filename": file_item.get("originalFilename", ""),
 								"url": file_item.get("url", ""),
