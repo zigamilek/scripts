@@ -1,45 +1,16 @@
 def parse_programs():
 	"""
 	Reads program links and creates a consolidated JSON whose top-level key is "trainer - title".
-    
-	For each program, it includes all the fields specified:
+	
+	For each program, it includes:
 	  - title, description_short, program_id, subtitle, url, trainer, description_long,
 		description_overview, commitment, duration, items, level, categories, equipment_required,
 		equipment_recommended, classification, trainers, sections
-
-	  - videos (now organized by section -> module -> video_key):
-			{
-			  "SectionTitle1": {
-				  "ModuleTitle1": {
-					  "01 - video_title1": {
-						  "video_number": 1,
-						  "video_id": "...",
-						  ...
-					  },
-					  "02 - video_title2": {
-						  "video_number": 2,
-						  ...
-					  }
-				  },
-				  "ModuleTitle2": { ... }
-			  },
-			  "SectionTitle2": { ... }
-			}
-
-	  - files (stored as a dict keyed by the file 'title'):
-			{
-			  "Some File Title": {
-				  "entity_id": "...",
-				  "title": "Some File Title",
-				  "description": "...",
-				  "original_filename": "...",
-				  "url": "...",
-				  "size": 12345
-			  },
-			  ...
-			}
-
-	Also saves a beautified JSON of the raw NEXT_DATA in Original JSONs/TRAINER - TITLE.json.
+	  - videos (organized by section → module → "XX - video_title"), 
+		but ignoring modules or sections that have zero videos.
+	  - files (keyed by file 'title', includes entity_id)
+	
+	Also saves a beautified JSON of the raw NEXT_DATA in "Original JSONs/TRAINER - TITLE.json".
 	"""
 	import requests
 	from bs4 import BeautifulSoup
@@ -59,7 +30,7 @@ def parse_programs():
 
 	def build_m3u8_url(video_id: str) -> str:
 		"""
-		Construct the m3u8 link, e.g.:
+		Construct the m3u8 link:
 		  https://d197pzlrcwv1zr.cloudfront.net/VIDEOID/VIDEOID_Main_B.m3u8
 		"""
 		return f"https://d197pzlrcwv1zr.cloudfront.net/{video_id}/{video_id}_Main_B.m3u8"
@@ -68,8 +39,8 @@ def parse_programs():
 		"""
 		Estimate size using a 6000 kbit/s bitrate, then converting to MB.
 		size_in_kbits = duration_seconds * 6000
-		size_in_mb = size_in_kbits / 8 / 1024
-		Returns a string, e.g. "786 MB".
+		size_in_mb = size_in_kbits / 8.0 / 1024.0
+		Returns a string like "786 MB".
 		"""
 		size_in_kbits = duration_seconds * 6000
 		size_in_mb = size_in_kbits / 8.0 / 1024.0
@@ -104,7 +75,7 @@ def parse_programs():
 			print(f"JSON parse error for {link}")
 			continue
 
-		# Save raw data for beautification
+		# Save raw data (beautified) for reference
 		raw_data_for_this_program = next_data
 
 		# Usually the path is:
@@ -169,29 +140,25 @@ def parse_programs():
 		trainers = top_data.get("trainers", [])
 		sections = top_data.get("sections", [])
 
-		# Prepare "videos" -> { section_title: { module_title: { "01 - video_title": {...}, ... } } }
+		# Prepare "videos" -> { section_title: { module_title: {"01 - vid_title": {...}, ...}, ... } }
+		# We will skip modules (and sections) if they have no videos
 		videos_by_section = {}
 		# Prepare "files" -> keyed by file 'title'
 		files_dict = {}
 
-		# Go through sections and modules
 		for section_obj in sections:
 			section_title = section_obj.get("title", "")
 			modules = section_obj.get("modules", [])
 
-			# Ensure we have a dictionary entry for this section, even if no videos
-			if section_title not in videos_by_section:
-				videos_by_section[section_title] = {}
+			# We'll build a temporary dict of modules that actually have videos
+			modules_dict_for_this_section = {}
 
 			for mod_obj in modules:
 				module_title = mod_obj.get("title", "") or ""
 				entity_ids = mod_obj.get("entityIds", [])
 
-				# Ensure we have a dictionary entry for this module
-				if module_title not in videos_by_section[section_title]:
-					videos_by_section[section_title][module_title] = {}
-
-				# We'll track how many videos we find in this module
+				# Temporary dictionary for the videos in this module
+				videos_dict_for_module = {}
 				video_counter = 1
 
 				for entity_id in entity_ids:
@@ -221,7 +188,8 @@ def parse_programs():
 
 							# Key: "XX - video_title"
 							video_key = f"{video_counter:02d} - {title_str}"
-							videos_by_section[section_title][module_title][video_key] = {
+
+							videos_dict_for_module[video_key] = {
 								"video_number": video_counter,
 								"video_id": video_id,
 								"title": title_str,
@@ -256,8 +224,14 @@ def parse_programs():
 								"url": file_item.get("url", ""),
 								"size": file_item.get("size", 0)
 							}
-						else:
-							continue
+
+				# Only add this module to the section if it has at least one video
+				if videos_dict_for_module:
+					modules_dict_for_this_section[module_title] = videos_dict_for_module
+
+			# Only add this section if it has at least one module with videos
+			if modules_dict_for_this_section:
+				videos_by_section[section_title] = modules_dict_for_this_section
 
 		# Build the final single object for this program
 		program_object = {
@@ -279,7 +253,7 @@ def parse_programs():
 			"classification": classification,
 			"trainers": trainers,
 			"sections": sections,
-			"videos": videos_by_section,  # {section_title: {module_title: {"01 - vid": {...}, ...}}}
+			"videos": videos_by_section,  # Only includes sections and modules with videos
 			"files": files_dict
 		}
 
@@ -290,7 +264,7 @@ def parse_programs():
 
 		# Save raw JSON in "Original JSONs/trainer - title.json"
 		raw_json_path = os.path.join(original_json_folder, f"{top_level_key}.json")
-		raw_json_path = raw_json_path.replace("/", "_")  # sanitize for file system
+		raw_json_path = raw_json_path.replace("/", "_")  # sanitize the filename
 		with open(raw_json_path, "w", encoding="utf-8") as raw_out:
 			json.dump(raw_data_for_this_program, raw_out, indent=2)
 
@@ -298,7 +272,6 @@ def parse_programs():
 	with open(output_file, "w", encoding="utf-8") as f_out:
 		json.dump(final_data, f_out, indent=2)
 	print(f"Done! Wrote data to {output_file}")
-
-
+	
 if __name__ == "__main__":
 	parse_programs()
