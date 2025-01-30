@@ -1,7 +1,7 @@
 def parse_programs():
 	"""
 	Reads program links and creates a consolidated JSON whose top-level key is "trainer - title".
-	
+    
 	For each program, it includes:
 	  - title, description_short, program_id, subtitle, url, trainer, description_long,
 		description_overview, commitment, duration, items, level, categories, equipment_required,
@@ -9,7 +9,7 @@ def parse_programs():
 	  - videos (organized by section → module → "XX - video_title"), 
 		but ignoring modules or sections that have zero videos.
 	  - files (keyed by file 'title', includes entity_id)
-	
+    
 	Also saves a beautified JSON of the raw NEXT_DATA in "Original JSONs/TRAINER - TITLE.json".
 	"""
 	import requests
@@ -99,12 +99,18 @@ def parse_programs():
 		share_data = top_data.get("share", {}) or {}
 		url = share_data.get("url", "")
 
-		# trainer name
+		# trainer name(s)
 		trainers_array = top_data.get("trainers", [])
 		if trainers_array:
-			first_name = trainers_array[0].get("firstName", "")
-			last_name = trainers_array[0].get("lastName", "")
-			trainer_name = f"{first_name} {last_name}".strip()
+			# Collect all trainer full names
+			trainer_names = []
+			for t in trainers_array:
+				first_name = t.get("firstName", "").strip()
+				last_name = t.get("lastName", "").strip()
+				if first_name or last_name:
+					trainer_names.append(f"{first_name} {last_name}".strip())
+			# Join them with " & " or default to "Unknown Trainer"
+			trainer_name = " & ".join(trainer_names) if trainer_names else "Unknown Trainer"
 		else:
 			trainer_name = "Unknown Trainer"
 
@@ -141,7 +147,7 @@ def parse_programs():
 		trainers = top_data.get("trainers", [])
 		sections = top_data.get("sections", [])
 
-		# Prepare "videos" -> { section_title: { module_title: {"01 - vid_title": {...}, ...}, ... } }
+		# Prepare "videos" -> { section_title: { module_title: {"XX - vid_title": {...}, ...}, ... } }
 		# We will skip modules (and sections) if they have no videos
 		videos_by_section = {}
 		# Prepare "files" -> keyed by file 'title'
@@ -273,6 +279,6 @@ def parse_programs():
 	with open(output_file, "w", encoding="utf-8") as f_out:
 		json.dump(final_data, f_out, indent=2)
 	print(f"Done! Wrote data to {output_file}")
-	
+    
 if __name__ == "__main__":
 	parse_programs()
