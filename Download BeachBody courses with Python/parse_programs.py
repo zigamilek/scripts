@@ -1,28 +1,30 @@
 def parse_programs():
 	"""
-	Reads program links and creates a consolidated JSON whose top-level key is "trainer - title".
+	Reads JSON filenames from 'programs_to_download.txt' and loads the corresponding
+	JSON from the 'Original JSONs' folder. Then builds a consolidated JSON whose
+	top-level key is "trainer - title".
     
 	For each program, it includes:
-	  - title, description_short, program_id, subtitle, url, trainer, description_long,
-		description_overview, commitment, duration, items, level, categories, equipment_required,
-		equipment_recommended, classification, trainers, sections
+	  - title, description_short, program_id, subtitle, url, trainer,
+		description_long, description_overview, commitment, duration,
+		items, level, categories, equipment_required, equipment_recommended,
+		classification, trainers, sections
 	  - videos (organized by section → module → "XX - video_title"), 
 		but ignoring modules or sections that have zero videos.
 	  - files (keyed by file 'title', includes entity_id)
     
-	Also saves a beautified JSON of the raw NEXT_DATA in "Original JSONs/TRAINER - TITLE.json".
+	Finally, saves the aggregated data to 'program_data.json'.
 	"""
-	import requests
-	from bs4 import BeautifulSoup
 	import json
 	import os
 	from titlecase import titlecase
 
-	input_file = "program_links.txt"
+	# File that has a list of JSON filenames, e.g.:
+	# barre-blend.json
+	# beachbody-performance.json
+	input_file = "programs_to_download.txt"
 	output_file = "program_data.json"
-	next_data_id = "__NEXT_DATA__"
 
-	# Folder to store original NEXT_DATA JSONs
 	original_json_folder = "Original JSONs"
 	if not os.path.exists(original_json_folder):
 		os.makedirs(original_json_folder)
@@ -47,37 +49,25 @@ def parse_programs():
 		size_in_mb = size_in_kbits / 8.0 / 1024.0
 		return f"{size_in_mb:.0f} MB"
 
-	# Read the program links from a file
+	# Read JSON filenames from input_file
 	with open(input_file, "r", encoding="utf-8") as file_in:
-		program_links = [line.strip() for line in file_in if line.strip()]
+		program_json_files = [line.strip() for line in file_in if line.strip()]
 
-	for link in program_links:
-		print(f"Fetching {link} ...")
-		response = requests.get(link)
-		if response.status_code != 200:
-			print(f"Failed to fetch {link}, status code: {response.status_code}")
+	# For each JSON file, load that file from the Original JSONs folder
+	for json_filename in program_json_files:
+		json_path = os.path.join(original_json_folder, json_filename)
+
+		if not os.path.exists(json_path):
+			print(f"File not found: {json_path}")
 			continue
 
-		soup = BeautifulSoup(response.text, "html.parser")
-		next_data_script = soup.find("script", {"id": next_data_id, "type": "application/json"})
-		if not next_data_script:
-			print(f"Could not find __NEXT_DATA__ script for {link}")
-			continue
-
-		next_data_script_string = next_data_script.string
-		if not next_data_script_string:
-			print(f"__NEXT_DATA__ script is empty for {link}")
-			continue
-
-		# Parse the JSON from __NEXT_DATA__
-		try:
-			next_data = json.loads(next_data_script_string)
-		except json.JSONDecodeError:
-			print(f"JSON parse error for {link}")
-			continue
-
-		# Save raw data (beautified) for reference
-		raw_data_for_this_program = next_data
+		# Load the raw data (equivalent to what next_data would have been)
+		with open(json_path, "r", encoding="utf-8") as raw_file:
+			try:
+				next_data = json.load(raw_file)
+			except json.JSONDecodeError:
+				print(f"JSON parse error for {json_path}")
+				continue
 
 		# Usually the path is:
 		# next_data["props"]["pageProps"]["reactQueryServerState"]["queries"][0]["state"]["data"]
@@ -85,7 +75,7 @@ def parse_programs():
 			queries = next_data["props"]["pageProps"]["reactQueryServerState"]["queries"]
 			top_data = queries[0]["state"]["data"]
 		except (KeyError, IndexError):
-			print(f"Couldn't navigate reactQueryServerState for {link}")
+			print(f"Could not parse the expected structure in {json_path}")
 			continue
 
 		entity_map = top_data.get("entities", {})
@@ -272,14 +262,7 @@ def parse_programs():
 
 		# Compute the top-level key as "trainer - title"
 		top_level_key = f"{trainer_name} - {title}".strip()
-
 		final_data[top_level_key] = program_object
-
-		# Save raw JSON in "Original JSONs/trainer - title.json"
-		raw_json_path = os.path.join(original_json_folder, f"{top_level_key}.json")
-		raw_json_path = raw_json_path.replace("/", "_")  # sanitize the filename
-		with open(raw_json_path, "w", encoding="utf-8") as raw_out:
-			json.dump(raw_data_for_this_program, raw_out, indent=2)
 
 	# Finally, write out final_data to program_data.json
 	with open(output_file, "w", encoding="utf-8") as f_out:
