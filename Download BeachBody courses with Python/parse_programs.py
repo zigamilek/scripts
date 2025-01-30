@@ -147,8 +147,7 @@ def parse_programs():
 		trainers = top_data.get("trainers", [])
 		sections = top_data.get("sections", [])
 
-		# Prepare "videos" -> { section_title: { module_title: {"XX - vid_title": {...}, ...}, ... } }
-		# We will skip modules (and sections) if they have no videos
+		# Prepare "videos" -> { section_title: { "XX - module_title": {"XX - vid_title": {...}} } }
 		videos_by_section = {}
 		# Prepare "files" -> keyed by file 'title'
 		files_dict = {}
@@ -160,11 +159,15 @@ def parse_programs():
 			# We'll build a temporary dict of modules that actually have videos
 			modules_dict_for_this_section = {}
 
+			# Start counter for modules within this section
+			module_counter = 1
+
 			for mod_obj in modules:
 				module_title = titlecase(mod_obj.get("title", "")) or ""
-				entity_ids = mod_obj.get("entityIds", [])
+				# Add a counter prefix to module_title
+				module_title = f"{module_counter:02d} - {module_title}"
 
-				# Temporary dictionary for the videos in this module
+				entity_ids = mod_obj.get("entityIds", [])
 				videos_dict_for_module = {}
 				video_counter = 1
 
@@ -235,6 +238,9 @@ def parse_programs():
 				# Only add this module to the section if it has at least one video
 				if videos_dict_for_module:
 					modules_dict_for_this_section[module_title] = videos_dict_for_module
+
+				# Increment module counter after each module
+				module_counter += 1
 
 			# Only add this section if it has at least one module with videos
 			if modules_dict_for_this_section:
