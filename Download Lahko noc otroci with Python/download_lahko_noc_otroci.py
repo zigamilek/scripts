@@ -19,11 +19,7 @@ from mutagen.easyid3 import EasyID3
 from mutagen.id3 import ID3, COMM, ID3NoHeaderError, APIC
 import argparse
 import logging
-import requests  # for scraping podcasti.si
-try:
-    import requests
-except ImportError:
-    sys.exit("Error: requests library not found. Please install dependencies with `pip install -r requirements.txt`.")
+import requests
 
 # Single HTTP session for podcasti.si
 session = requests.Session()
