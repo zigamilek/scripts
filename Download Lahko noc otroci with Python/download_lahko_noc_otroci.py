@@ -15,6 +15,8 @@ from datetime import datetime
 from mutagen import File
 from mutagen.easyid3 import EasyID3
 from mutagen.id3 import ID3, COMM, ID3NoHeaderError, APIC
+import argparse
+import logging
 #endregion
 
 #region: Helper functions for loading and parsing HTML
@@ -26,49 +28,55 @@ def init_driver():
     return driver
 
 def fetch_html(driver, url):
-    print(f"\nFetching HTML for {url}")
+    logging.info(f"Fetching HTML for {url}")
     driver.get(url)
     time.sleep(3)  # Wait for JavaScript to load
     return driver.page_source
 
 def parse_html(html):
-    print("Parsing HTML content")
+    logging.debug("Parsing HTML content")
     soup = BeautifulSoup(html, 'html.parser')
     return soup
 #endregion
 
 #region: Extract and save all episode links
 def get_all_episode_links(base_url, driver, existing_links):
-    print("Getting all episode links")
+    logging.debug("Getting all episode links")
     all_links = []
-    page_number = 0
+    page_number = 1
     while True:
-        url = f"{base_url}?page={page_number}"
+        url = f"{base_url}?p={page_number}"
+        logging.debug(f"Fetching page {page_number}: {url}")
         html = fetch_html(driver, url)
         soup = parse_html(html)
         episode_links = extract_episode_links(soup)
         if not episode_links:
+            logging.debug(f"No episode links found on page {page_number}, stopping pagination")
             break
         for link in episode_links:
-            if link in existing_links:
-                print(f"  Link already exists in the file: {link}")
+            full_link = link
+            logging.debug(f"Processing link: {full_link}")
+            if full_link in existing_links:
+                logging.debug(f"Link already exists: {full_link}")
                 return all_links
-            all_links.append(link)
+            all_links.append(full_link)
         page_number += 1
-    print(f"\nTotal episodes found: {len(all_links)}")
+    logging.debug(f"Total episodes found: {len(all_links)}")
     return all_links
 
 def extract_episode_links(soup):
-    print("Extracting episode links")
+    logging.debug("Extracting episode links")
     episode_links = []
     items = soup.find_all('div', class_='podcast-item')
     for item in items:
         link_tag = item.find('a', href=True)
         if link_tag:
-            link = link_tag['href']
-            if link:
-                episode_links.append("https://www.rtvslo.si" + link)
-    print(f"  Found {len(episode_links)} episode links")
+            rel_link = link_tag['href']
+            if rel_link:
+                full_link = "https://365.rtvslo.si" + rel_link
+                logging.debug(f"Found episode href: {rel_link}, full URL: {full_link}")
+                episode_links.append(full_link)
+    logging.debug(f"Found {len(episode_links)} episode links in extract_episode_links")
     return episode_links
 
 def save_all_episode_links(all_links, output_folder):
@@ -76,19 +84,19 @@ def save_all_episode_links(all_links, output_folder):
     with open(links_file_path, 'w') as file:
         for link in all_links:
             file.write(f"{link}\n")
-    print(f"\nSaved all episode links to {links_file_path}")
+    logging.info(f"Saved all episode links to {links_file_path}")
 #endregion
 
 #region: Extract the details of each podcast episode
 def extract_podcast_details(soup):
-    print("Extracting podcast details")
+    logging.debug("Extracting podcast details")
     podcast_item = soup.find('div', class_='podcast-item')
         
     title_tag = podcast_item.find('h3')
     if title_tag:
         title = title_tag.text.strip()
     else:
-        print("  Title not found")
+        logging.warning("Title not found in HTML")
         title = "Unknown Title"
         
     date_tag = podcast_item.find('p', class_='media-meta')
@@ -96,7 +104,7 @@ def extract_podcast_details(soup):
         date_str = date_tag.text.strip()
         date = datetime.strptime(date_str, "%d.%m.%Y").strftime("%Y-%m-%d")
     else:
-        print("  Date not found")
+        logging.warning("Date not found in HTML")
         date = "Unknown Date"
         
     description_tag = podcast_item.find('div', class_='col-md-12').find('p')
@@ -106,13 +114,13 @@ def extract_podcast_details(soup):
         narrator = extract_narrator(description)
         year_of_recording = extract_year_of_recording(description)
     else:
-        print("  Description not found")
+        logging.warning("Description not found in HTML")
         description = "No description available"
         author = "Unknown Author"
         narrator = "Unknown Narrator"
         year_of_recording = "Unknown Year"
             
-    print(f"  Extracted details - Title: {title}, Date: {date}, Author: {author}, Narrator: {narrator}, Year of recording: {year_of_recording}, Description: {description}")
+    logging.info(f"Extracted details: Title='{title}', Date={date}, Author={author}, Narrator={narrator}, Year={year_of_recording}")
     return {
         'title': title,
         'description': description,
@@ -123,22 +131,26 @@ def extract_podcast_details(soup):
     }
 
 def extract_mp3_link_from_json(soup):
-    print("Extracting MP3 link from JSON data")
+    logging.debug("Extracting MP3 link from JSON data")
     script_tag = soup.find('script', {'type': 'application/ld+json', 'id': '__jw-ld-json'})
     if script_tag:
-        print("  Found the <script> tag with JSON data")
+        logging.debug("Found the <script> tag with JSON data")
         json_data = json.loads(script_tag.string)
-        if json_data and isinstance(json_data, list):
+        # Handle both list and object JSON formats
+        if isinstance(json_data, list):
             mp3_url = json_data[0].get('contentUrl')
-            if mp3_url:
-                print(f"  Found MP3 URL: {mp3_url}")
-                return mp3_url
-            else:
-                print("  MP3 URL not found in JSON data")
+        elif isinstance(json_data, dict):
+            mp3_url = json_data.get('contentUrl')
         else:
-            print("  JSON data is empty or not in expected format")
+            logging.warning("JSON data is empty or not in expected format")
+            return None
+        if mp3_url:
+            logging.debug(f"Found MP3 URL: {mp3_url}")
+            return mp3_url
+        else:
+            logging.warning("MP3 URL not found in JSON data")
     else:
-        print("  The <script> tag with JSON data not found")
+        logging.warning("The <script> tag with JSON data not found")
     return None
 
 def extract_author(description):
@@ -208,7 +220,7 @@ def extract_year_of_recording(description):
 def download_mp3(mp3_url, date, title, author, narrator, year_of_recording, description, output_folder, downloaded_files, episode_link, counter):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
-    print(f"\nDownloading MP3 from {mp3_url}")
+    logging.info(f"Downloading MP3 from {mp3_url}")
     response = requests.get(mp3_url, headers=headers, stream=True)
     if response.status_code == 200:
         sanitized_title = sanitize_filename(title)
@@ -227,7 +239,7 @@ def download_mp3(mp3_url, date, title, author, narrator, year_of_recording, desc
         with open(file_path, 'wb') as file:
             for chunk in response.iter_content(chunk_size=1024):
                 file.write(chunk)
-        print(f"  Downloaded {file_path}")
+        logging.info(f"Downloaded {file_path}")
         with open(downloaded_files, 'a') as file:
             file.write(f"{episode_link}\n")
             
@@ -238,7 +250,7 @@ def download_mp3(mp3_url, date, title, author, narrator, year_of_recording, desc
             
         return file_path
     else:
-        print(f"  Failed to download MP3 from {mp3_url} with status code {response.status_code}")
+        logging.warning(f"Failed to download MP3 ({response.status_code}): {mp3_url}")
         return None
 
 def sanitize_filename(filename):
@@ -253,7 +265,7 @@ def sanitize_filename(filename):
     return re.sub(r'[^a-zA-Z0-9._\- ,]', '_', filename)
 
 def add_id3_tags(file_path, date, title, author, narrator, year_of_recording, description, track_number, episode_link):
-    print(f"Adding ID3 tags to {file_path}")
+    logging.info(f"Adding ID3 tags to {file_path}")
         
     # Load the file and add an ID3 tag if it doesn't exist
     audio = File(file_path, easy=True)
@@ -310,13 +322,15 @@ def save_episode_details(details, file_path):
         file.write(f"Naslov: {details['title']}\n")
         file.write(f"Datum: {details['date']}\n")
         file.write(f"\n{details['description']}\n")
-    print(f"  Saved episode details to {details_file_path}")
+    logging.info(f"Saved episode details to {details_file_path}")
 #endregion
 
-def main(output_folder):
-    base_url = 'https://www.rtvslo.si/radio/podkasti/lahko-noc-otroci/54'
-    links_file_path = os.path.join(output_folder, "0_all_episode_links.txt")
-    downloaded_files_path = os.path.join(output_folder, "0_already_downloaded.txt")
+def main(output_folder, dry_run=False):
+    base_url = 'https://365.rtvslo.si/oddaja/lahko-noc-otroci/54'
+    # Store episode links and downloaded-record in script's directory
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    links_file_path = os.path.join(script_dir, "0_all_episode_links.txt")
+    downloaded_files_path = os.path.join(script_dir, "0_already_downloaded.txt")
 
     # Load existing links
     if os.path.exists(links_file_path):
@@ -339,11 +353,15 @@ def main(output_folder):
     
     # Save the new links to the beginning of the file
     if episode_links:
-        with open(links_file_path, 'w') as file:
-            for link in episode_links:
-                file.write(f"{link}\n")
-            for link in existing_links:
-                file.write(f"{link}\n")
+        if dry_run:
+            logging.info(f"Dry run: would write {len(episode_links)} new links to {links_file_path}")
+        else:
+            with open(links_file_path, 'w') as file:
+                for link in episode_links:
+                    file.write(f"{link}\n")
+                for link in existing_links:
+                    file.write(f"{link}\n")
+            logging.info(f"Saved all episode links to {links_file_path}")
     
     # Process links from the file
     with open(links_file_path, 'r') as file:
@@ -352,7 +370,7 @@ def main(output_folder):
     for line_number, episode_link in enumerate(all_links):
         counter = len(all_links) - line_number
         if episode_link in already_downloaded:
-            print(f"  Episode already downloaded: {episode_link}")
+            #logging.debug(f"Episode already downloaded: {episode_link}")
             continue
         episode_html = fetch_html(driver, episode_link)
         if episode_html:
@@ -362,19 +380,27 @@ def main(output_folder):
             mp3_link = extract_mp3_link_from_json(episode_soup)
                 
             if mp3_link:
-                file_path = download_mp3(mp3_link, details['date'], details['title'], details['author'], details['narrator'], details['year_of_recording'], details['description'], output_folder, downloaded_files_path, episode_link, counter)
-                if file_path:
-                    save_episode_details(details, file_path)
+                if dry_run:
+                    logging.info(f"Dry run: would download MP3 from {mp3_link} for episode '{details['title']}'")
+                else:
+                    file_path = download_mp3(mp3_link, details['date'], details['title'], details['author'], details['narrator'], details['year_of_recording'], details['description'], output_folder, downloaded_files_path, episode_link, counter)
+                    if file_path:
+                        save_episode_details(details, file_path)
             else:
-                print(f"  MP3 link not found for episode: {details['title']}")
+                logging.warning(f"MP3 link not found for episode: {details['title']}")
         
     driver.quit()
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python script.py <output_folder>")
-    else:
-        output_folder = sys.argv[1]
-        if not os.path.exists(output_folder):
-            os.makedirs(output_folder)
-        main(output_folder)
+    parser = argparse.ArgumentParser(description="Download 'Lahko noč, otroci' podcast episodes")
+    parser.add_argument("-o", "--output-folder", dest="output_folder", required=True, help="Folder to save downloaded MP3 files")
+    parser.add_argument("--dry-run", action="store_true", dest="dry_run", help="Perform a dry run without downloading or writing files")
+    parser.add_argument("-l", "--log-level", dest="log_level", default="INFO", choices=["DEBUG","INFO","WARNING","ERROR","CRITICAL"], help="Set logging level")
+    args = parser.parse_args()
+    # Configure logging according to user-specified level
+    logging.basicConfig(level=getattr(logging, args.log_level), format='%(asctime)s %(levelname)s:%(message)s')
+    output_folder = args.output_folder
+    dry_run = args.dry_run
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+    main(output_folder, dry_run)
