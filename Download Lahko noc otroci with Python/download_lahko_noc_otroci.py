@@ -64,19 +64,18 @@ def get_all_episode_links(base_url, driver, existing_links):
     logging.debug(f"Total episodes found: {len(all_links)}")
     return all_links
 
+# Replace extract_episode_links to find all anchor tags matching /podkast/lahko-noc-otroci/<id>
 def extract_episode_links(soup):
     logging.debug("Extracting episode links")
-    episode_links = []
-    items = soup.find_all('div', class_='podcast-item')
-    for item in items:
-        link_tag = item.find('a', href=True)
-        if link_tag:
-            rel_link = link_tag['href']
-            if rel_link:
-                full_link = "https://365.rtvslo.si" + rel_link
-                logging.debug(f"Found episode href: {rel_link}, full URL: {full_link}")
-                episode_links.append(full_link)
-    logging.debug(f"Found {len(episode_links)} episode links in extract_episode_links")
+    episode_links_set = set()
+    # Find anchors linking to individual podcast episodes
+    for a in soup.find_all('a', href=re.compile(r'^/podkast/lahko-noc-otroci/\d+')):
+        rel_link = a.get('href')
+        full_link = "https://365.rtvslo.si" + rel_link
+        logging.debug(f"Found link pattern: {rel_link} -> {full_link}")
+        episode_links_set.add(full_link)
+    episode_links = list(episode_links_set)
+    logging.debug(f"Found {len(episode_links)} unique episode links in extract_episode_links")
     return episode_links
 
 def save_all_episode_links(all_links, output_folder):
