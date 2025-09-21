@@ -653,7 +653,7 @@ def enrich_rtvslo_listing(driver, episodes, downloaded_set, force_enrich, limit=
         # Check if all details are correct
         unknowns = ['Unknown', 'No description available']
         values = [ep.get('title',''), ep.get('date',''), ep.get('description',''), str(ep.get('year_of_recording',''))]
-        ep['all_details_correct'] = not any(any(u in v for u in unknowns) for v in values)
+        ep['all_details_known'] = not any(any(u in v for u in unknowns) for v in values)
         enriched.append(ep)
     # Write back enriched JSON (including untouched episodes)
     try:
