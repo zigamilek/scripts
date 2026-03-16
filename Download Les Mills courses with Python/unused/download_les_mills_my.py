@@ -1,3 +1,4 @@
+import os
 import time
 import json
 from selenium import webdriver
@@ -9,8 +10,11 @@ from selenium.webdriver.support import expected_conditions as EC
 # ------------------------ Configuration ------------------------ #
 
 # User credentials
-EMAIL = "ziga.milek@gmail.com"
-PASSWORD = "REMOVED_LES_MILLS_PASSWORD"
+EMAIL = os.getenv("LES_MILLS_EMAIL")
+PASSWORD = os.getenv("LES_MILLS_PASSWORD")
+
+if not EMAIL or not PASSWORD:
+	raise RuntimeError("Missing LES_MILLS_EMAIL or LES_MILLS_PASSWORD environment variable.")
 
 # URLs
 BASE_URL = "https://my.lesmillsondemand.com"

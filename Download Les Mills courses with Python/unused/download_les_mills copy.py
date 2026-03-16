@@ -18,8 +18,11 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 ################################################################################
 # Update these variables to your Les Mills On Demand credentials
-EMAIL = "ziga.milek@gmail.com"
-PASSWORD = "REMOVED_LES_MILLS_PASSWORD"
+EMAIL = os.getenv("LES_MILLS_EMAIL")
+PASSWORD = os.getenv("LES_MILLS_PASSWORD")
+
+if not EMAIL or not PASSWORD:
+	raise RuntimeError("Missing LES_MILLS_EMAIL or LES_MILLS_PASSWORD environment variable.")
 ################################################################################
 
 logging.basicConfig(
