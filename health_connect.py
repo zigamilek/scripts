@@ -4,6 +4,23 @@ import requests
 import duckdb
 import pandas as pd
 from datetime import datetime
+from dotenv import load_dotenv
+
+
+def load_repo_dotenv():
+	current_dir = os.path.dirname(os.path.abspath(__file__))
+	while True:
+		env_file = os.path.join(current_dir, ".env")
+		if os.path.exists(env_file):
+			load_dotenv(env_file)
+			return
+		parent_dir = os.path.dirname(current_dir)
+		if parent_dir == current_dir:
+			return
+		current_dir = parent_dir
+
+
+load_repo_dotenv()
 
 # -------------------------------------------------------------------------
 # CONFIGURATION

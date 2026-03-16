@@ -51,6 +51,22 @@ import json
 from dotenv import load_dotenv
 
 
+def load_repo_dotenv():
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    while True:
+        env_file = os.path.join(current_dir, ".env")
+        if os.path.exists(env_file):
+            load_dotenv(env_file)
+            return
+        parent_dir = os.path.dirname(current_dir)
+        if parent_dir == current_dir:
+            return
+        current_dir = parent_dir
+
+
+load_repo_dotenv()
+
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Translate or inject translations into an EPUB.")
     parser.add_argument("-i", "--input_epub", required=True, help="Path to the input EPUB file")
@@ -245,7 +261,6 @@ def main():
 
     # Prepare API for live or postprocess
     if not inject:
-        load_dotenv()
         if args.provider == "google":
             # Use Google Gemini endpoint and env var
             key = os.getenv("GOOGLE_API_KEY")
