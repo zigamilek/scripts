@@ -8,6 +8,7 @@ import requests
 import logging
 import argparse
 import subprocess
+from dotenv import load_dotenv
 
 from seleniumwire import webdriver
 from selenium.webdriver.common.by import By
@@ -24,8 +25,26 @@ from selenium.common.exceptions import (
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
 
-BOD_EMAIL = "ziga.milek@gmail.com"
-BOD_PASSWORD = "REMOVED_BOD_PASSWORD"
+def load_repo_dotenv():
+	current_dir = os.path.dirname(os.path.abspath(__file__))
+	while True:
+		env_file = os.path.join(current_dir, ".env")
+		if os.path.exists(env_file):
+			load_dotenv(env_file)
+			return
+		parent_dir = os.path.dirname(current_dir)
+		if parent_dir == current_dir:
+			return
+		current_dir = parent_dir
+
+
+load_repo_dotenv()
+
+BOD_EMAIL = os.getenv("BOD_EMAIL")
+BOD_PASSWORD = os.getenv("BOD_PASSWORD")
+
+if not BOD_EMAIL or not BOD_PASSWORD:
+	raise RuntimeError("Missing BOD_EMAIL or BOD_PASSWORD environment variable.")
 
 # Global set to track downloaded .m3u8 filenames
 downloaded_m3u8 = set()
