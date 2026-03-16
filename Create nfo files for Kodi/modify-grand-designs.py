@@ -1,7 +1,11 @@
 # By Ziga Milek, 26.2.2020
+import os
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 from random import randint
+
+SERIES_ROOT = os.getenv("KODI_SERIES_ROOT", "/Volumes/eulerShare/Series").rstrip("/")
+LEGACY_SERIES_ROOT = "/Volumes/eulerShare/Series/"
 
 file_paths = [
     "/Volumes/eulerShare/Series/Grand Designs/Season 01/Grand.Designs.S01.DVDRip.AC3.2.0.x264-BTN/Grand.Designs.S01E01.Newhaven.The.Timber.Frame.Kit.House.DVDRip.AC3.2.0.x264-BTN.nfo",
@@ -185,6 +189,13 @@ file_paths = [
     "/Volumes/eulerShare/Series/Grand Designs/Season 18/Grand.Designs.S18.1080p.HDTV.AAC2.0.x264-PLUTONiUM/grand.designs.s18e06.1080p.hdtv.h264-plutonium.nfo",
     "/Volumes/eulerShare/Series/Grand Designs/Season 18/Grand.Designs.S18.1080p.HDTV.AAC2.0.x264-PLUTONiUM/grand.designs.s18e07.1080p.hdtv.h264-plutonium.nfo",
     "/Volumes/eulerShare/Series/Grand Designs/Season 18/Grand.Designs.S18.1080p.HDTV.AAC2.0.x264-PLUTONiUM/grand.designs.s18e08.1080p.hdtv.h264-plutonium.nfo"
+]
+
+file_paths = [
+    path.replace(LEGACY_SERIES_ROOT, f"{SERIES_ROOT}/", 1)
+    if path.startswith(LEGACY_SERIES_ROOT)
+    else path
+    for path in file_paths
 ]
 
 for file_path in file_paths:
