@@ -8,7 +8,7 @@ echo "/home/ziga/share/Logs
 # || [[ ... ]] dodas, da prebere tudi zadnjo vrstico.
 # source: http://stackoverflow.com/questions/15485555/read-last-line-of-file-in-bash-script-when-reading-file-line-by-line
 while read f || [[ -n "$f" ]]; do
-	bash "/home/ziga/Zigec/Racunalnik/Linux/_Scripts/RepairPermissions.sh" "$f"
+	bash "/home/ziga/git/scripts/RepairPermissions.sh" "$f"
 done < "$tempfile"
 
 # Zbrisemo temp file

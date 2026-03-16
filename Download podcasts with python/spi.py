@@ -3,9 +3,11 @@ from bs4 import BeautifulSoup
 import datetime
 import re
 import json
+import os
 from download_podcasts_from_rss import download_podcast, slugify
 
-links = "/home/ziga/Zigec/Racunalnik/Linux/_Scripts/Download podcasts with python/spi-links.txt"
+script_folder = os.path.dirname(os.path.abspath(__file__))
+links = os.path.join(script_folder, "spi-links.txt")
 download_path = "/home/ziga/share/Downloads/Podcasts/Pat Flynn - Smart Passive Income/"
 
 

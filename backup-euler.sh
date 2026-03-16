@@ -61,6 +61,7 @@ export BackupThis="
 # Where to backup to
 #export BackupTo="/home/ziga/Zigec/Racunalnik/Nastavitve/Linux/Euler/"
 export BackupTo="/home/ziga/git/homelab/configurations/linhartova/euler/"
+mkdir -p "$BackupTo"
 
 # rsync backup (keep the directory structure = '-R' option; ce so symlinki, prenesi doticne fajle = '-L' option)
 #rsync -RazvLh --delete --info=progress2 --no-inc-recursive --ignore-errors --exclude-from=$ExcludeFile --log-file=$log $BackupThis $BackupTo
@@ -69,7 +70,7 @@ rsync -RazvLh --delete --info=progress2 --no-inc-recursive --log-file=$logconf $
 # Ce ga se ni za trenutni mesec, naredi popoln system backup
 if ! [ -f "$log" ]; then
 	# Exclude file
-	export ExcludeFileTar="/home/ziga/Zigec/Racunalnik/Linux/_Scripts/backup-exclude-tar.txt"
+	export ExcludeFileTar="/home/ziga/git/scripts/backup-exclude-tar.txt"
 	# Remove files, older than 32 days
     find "/home/ziga/share/Backups/System" -mtime +32 -exec rm {} \;
     find "/home/ziga/share/Backups/MySQL" -mtime +32 -exec rm {} \;

@@ -2,9 +2,11 @@ import urllib.request
 from bs4 import BeautifulSoup
 import datetime
 import re
+import os
 from download_podcasts_from_rss import download_podcast, slugify
 
-links = "/home/ziga/Zigec/Racunalnik/Linux/_Scripts/Download podcasts with python/rmrb-links.txt"
+script_folder = os.path.dirname(os.path.abspath(__file__))
+links = os.path.join(script_folder, "rmrb-links.txt")
 download_path = "/home/ziga/share/Downloads/Podcasts/Empire Flippers - Real Money Real Business/"
 
 

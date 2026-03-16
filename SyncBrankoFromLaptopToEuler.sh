@@ -23,7 +23,7 @@ echo "----------" >> "$log"
 # Downloadamo zadnjo verzijo SyncBrankoFromLaptopToEuler.sh skripte iz cauchya
 echo "$thetime Downloading the latest version of SyncBrankoFromLaptopToEuler.sh script from euler..." >> "$log"
 # What to sync
-export SyncThis2="ziga@linhartova.zigamilek.com:/home/ziga/share/Zigec/Racunalnik/Linux/_Scripts/SyncBrankoFromLaptopToEuler.sh";
+export SyncThis2="ziga@linhartova.zigamilek.com:/home/ziga/git/scripts/SyncBrankoFromLaptopToEuler.sh";
 # Where to sync to
 export SyncTo2="/cygdrive/d/Temp/";
 
