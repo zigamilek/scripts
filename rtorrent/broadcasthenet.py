@@ -7,6 +7,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from datetime import datetime
 from dataclasses import dataclass
 from http.cookiejar import MozillaCookieJar
 from pathlib import Path
@@ -107,7 +108,7 @@ class FetchedDB:
         return self.config["fetched"].get(filename) is not None
 
     def add(self, filename: str) -> None:
-        self.config["fetched"][filename] = str(int(time.time()))
+        self.config["fetched"][filename] = datetime.now().astimezone().isoformat(timespec="seconds")
         self.save()
 
     def save(self) -> None:
