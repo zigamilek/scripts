@@ -1,0 +1,116 @@
+import urllib.request
+from bs4 import BeautifulSoup
+import datetime
+import re
+import json
+
+links = "/home/ziga/Zigec/Racunalnik/Linux/_Scripts/Download podcasts with python/spi-links.txt"
+download_path = "/home/ziga/share/Downloads/Podcasts/Pat Flynn - Smart Passive Income/"
+
+
+def main():
+    with open(links, "r") as links_file:
+        for link in links_file:
+            link = link.strip()
+
+            print('Scraping article ' + link)
+
+            page = simple_get(link)
+
+            # parse the html using beautiful soup and store in variable 'soup'
+            soup = BeautifulSoup(page, "html.parser")
+
+            # title
+            title = soup.find('h1', attrs={'class': 'entry-title'}).text
+
+            # date
+            date_json = json.loads(
+                soup.find('script', attrs={'class': 'yoast-schema-graph'}).contents[0])
+            date = date_json['@graph'][3]['datePublished'][:10]
+
+            filename = date + " - " + slugify(title) + ".mp3"
+
+            file_path = download_path + filename
+
+            scripts = soup.find_all('script')
+            
+            for script in scripts:
+                print(scripts)
+                if 'mp3' in script.contents:
+                    print(script.contents)
+                    quit()
+
+            file_url = soup.find("mp3")
+
+            print(file_url)
+            quit()
+
+            already_downloaded = download_path + '0_downloaded.txt'
+
+            try:
+                with open(already_downloaded, 'r') as f:
+                    downloaded_links = f.read().splitlines()
+            except FileNotFoundError:
+                downloaded_links = []
+
+            # check if we already downloaded this mp3
+            if file_url in downloaded_links:
+                print("  Already downloaded.")
+                continue
+
+            # download the mp3
+            opener = urllib.request.build_opener()
+            opener.addheaders = [('User-agent', 'Mozilla/5.0')]
+            urllib.request.install_opener(opener)
+            urllib.request.urlretrieve(file_url, file_path)
+
+            # write the link to already_downloaded file
+            with open(already_downloaded, 'a+') as f:
+                f.write(file_url + "\n")
+            # quit()
+
+
+def simple_get(url):
+    opener = urllib.request.build_opener()
+    opener.addheaders = [('User-agent', 'Mozilla/5.0')]
+    urllib.request.install_opener(opener)
+    return urllib.request.urlopen(url)
+
+
+def is_good_response(resp):
+    """
+    Returns True if the response seems to be HTML, False otherwise.
+    """
+    content_type = resp.headers['Content-Type'].lower()
+    return (resp.status_code == 200
+            and content_type is not None
+            and content_type.find('html') > -1)
+
+
+def log_error(e):
+    """
+    It is always a good idea to log errors.
+    This function just prints them, but you can
+    make it do anything.
+    """
+    print(e)
+
+
+# source: https://stackoverflow.com/a/295466/1199569
+def slugify(value):
+    """
+    Normalizes string, converts to lowercase, removes non-alpha characters,
+    and converts spaces to hyphens.
+    """
+    import unicodedata
+    value = unicodedata.normalize('NFKD', value).encode(
+        'ascii', 'ignore').decode('utf-8')
+    value = str(re.sub('[^\w\s-]', '', value).strip().lower())
+    value = str(re.sub('[-\s]+', '-', value))
+    # ...
+    return value
+
+
+if __name__ == "__main__":
+    """ This is executed when run from the command line """
+    main()

@@ -1,0 +1,2671 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "ten-minute-time-machine",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "r3WJFP7OosVP86eK2CSyb5",
+                "_type": "program",
+                "slug": "ten-minute-time-machine",
+                "title": "10 Minute Time Machine",
+                "subtitle": null,
+                "brandCode": "10MTM",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JustinFlexen-JennyJaucian-JaredSklar-EsmeyLeon-ShantaniMoore"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "10 Minute Time Machine | BODi",
+                  "description": "Combine cycling workouts with strength and core training on off-bike days for a workout to keep you active and mobile no matter your age.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df4f3e575f23ead5c40da973ae01eb649350204f-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Justin",
+                    "lastName": "Flexen",
+                    "bioBodi": "Justin is a NASM CPT and former dancer with passion for body mechanics, proper form, and self-care. You'll have so much fun in his cycling and strength workouts that you won't realize he is putting you to WORK! Justin is a certified specialist in Corrective Exercise, Weight Loss, and Heart Rate Performance, Schwinn Cycling and Kettlebell Concepts.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dea87b812d8cbc720e3efd3731d76498b2bad8ec-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Jenny",
+                    "lastName": "Jaucian",
+                    "bioBodi": "Known for her infectious energy and motivational training style, Jenny will quickly become one of your go-to instructors. Her certifications include personal trainer (NASM), group fitness instructor (ACE), and indoor cycling instructor (Schwinn). If you\u2019re interested in strength training, cardio, or cycling, you don\u2019t want to miss her live classes.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/539202fbdd4a8b4bb4bad6fddc1699f791fed861-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Jared",
+                    "lastName": "Sklar",
+                    "bioBodi": "Jared is a triathlete and certified indoor cycling instructor who is constantly exploring new ways to innovate bike training and help his students blow past their goals. When you join Jared\u2019s class, you can expect a ton of energy, hype playlists, heavy hills, heart-pounding sprints, and to always leave sweaty and smiling.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dbe5fdc94bd1d2cf151b35cf893882c02b0e038e-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Esmey",
+                    "lastName": "Leon",
+                    "bioBodi": "Esmey is a Los Angeles based personal trainer and digital fitness instructor who has helped people achieve their goals and live their best lives for nearly 20 years. She holds NASM personal training and group fitness certifications and is also a Mad Dogg Athletics certified spinning instructor.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/343f569b09d4f3493e25effd52a72d6508c91b32-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Shantani",
+                    "lastName": "Moore",
+                    "bioBodi": "Born and raised in Southern California, Shantani was a professional dancer before launching a career in fitness that has seen her train people all over the world and partner with such brands as lululemon and Mirror. Whether she\u2019s leading a cycling class or guiding a sound bath, Shantani inspires people to live their best lives and tap into what makes them hype.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/03cd5a83d3b60e2cdbe4782f1dadc5755b13eea1-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "",
+                "colorPrimaryOptions": {
+                  "argb": "",
+                  "rgba": ""
+                },
+                "descriptionShort": "Rewind the clock in 10 minutes a day. Fast-forward to a stronger, youthful you.",
+                "descriptionLong": "Rewind time in 4 weeks. All it takes is 10 minutes/day. Build muscle, boost cardio, and tighten your core with 20 strength and cycle workouts\u2014and feel like your youngest self.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/ten-minute-time-machine"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "10"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "20"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "20"
+                },
+                "commerce": {
+                  "title": "BODi Membership Required",
+                  "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                  "purchaseAction": {
+                    "title": "Learn More",
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JustinFlexen-JennyJaucian-JaredSklar-EsmeyLeon-ShantaniMoore"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Bike"
+                  },
+                  {
+                    "title": "Dumbbells"
+                  }
+                ],
+                "equipmentRecommended": null,
+                "categories": [
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Strength"
+                  },
+                  {
+                    "title": "Core"
+                  },
+                  {
+                    "title": "Low Impact"
+                  }
+                ],
+                "level": {
+                  "title": "All Levels",
+                  "slug": "all-levels",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0f78de390a8d20c4fda66d7bedbd668d31b3b5ca-1000x308.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0f78de390a8d20c4fda66d7bedbd668d31b3b5ca-1000x308.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/139a5cdf4b7ea619e74069f3b71383516abfb210-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/517f607a0c47ef61034f6e8f27cf6e33ddf77720-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d62ce8149f5ed9096a6eb71faf6f397a704714d0-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8b635242a5094e2403c3788e0ec0b0403089efdd-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df4f3e575f23ead5c40da973ae01eb649350204f-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df4f3e575f23ead5c40da973ae01eb649350204f-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Workouts",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Bike, Dumbbells",
+                        "categories": "Cardio, Strength, Core, Low Impact",
+                        "colorPrimary": "",
+                        "colorPrimaryOptions": {
+                          "argb": "",
+                          "rgba": ""
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-0c2250072fabe4b3e8b979d51c92c7015ac05bbb-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0c2250072fabe4b3e8b979d51c92c7015ac05bbb-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "20"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "10"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                            },
+                            "title": "All Levels"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "2HAefygumbFccKGNHOGg1C",
+                        "_type": "collection",
+                        "slug": "10mtm-week-1",
+                        "title": "Week 1",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "5ONdsGSsS89HPMZcsg1YF8",
+                          "5ONdsGSsS89HPMZcsg1XOO",
+                          "5ONdsGSsS89HPMZcsg1Oeu",
+                          "2HAefygumbFccKGNHLNXeG",
+                          "r3WJFP7OosVP86eK2C7PWN"
+                        ]
+                      },
+                      {
+                        "_id": "2HAefygumbFccKGNHOGgCE",
+                        "_type": "collection",
+                        "slug": "10mtm-week-2",
+                        "title": "Week 2",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "2HAefygumbFccKGNHLNUCy",
+                          "2HAefygumbFccKGNHLNSoY",
+                          "2HAefygumbFccKGNHLNS2k",
+                          "2HAefygumbFccKGNHLNRMS",
+                          "2HAefygumbFccKGNHLNND2"
+                        ]
+                      },
+                      {
+                        "_id": "r3WJFP7OosVP86eK2CSyKx",
+                        "_type": "collection",
+                        "slug": "10mtm-week-3",
+                        "title": "Week 3",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "2HAefygumbFccKGNHLNMUu",
+                          "5ONdsGSsS89HPMZcsg0ynY",
+                          "2HAefygumbFccKGNHOGOQq",
+                          "2HAefygumbFccKGNHOGQMM",
+                          "2HAefygumbFccKGNHOGRW4"
+                        ]
+                      },
+                      {
+                        "_id": "r3WJFP7OosVP86eK2CSyNX",
+                        "_type": "collection",
+                        "slug": "10mtm-week-4",
+                        "title": "Week 4",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "r3WJFP7OosVP86eK2CSxhb",
+                          "5ONdsGSsS89HPMZcsjpCfO",
+                          "r3WJFP7OosVP86eK2CSy67",
+                          "2HAefygumbFccKGNHOGe3q",
+                          "2HAefygumbFccKGNHOGeyq"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2HAefygumbFccKGNHLNMUu": {
+                    "_id": "2HAefygumbFccKGNHLNMUu",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-hills-ride-5-10mtm0011",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JaredSklar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JaredSklar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Hills Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/91e10069306e238190a556b0a8e2853596281605-730x496.jpg"
+                    },
+                    "descriptionLong": "Get ready to climb through time with this exhilarating 10-minute hills ride. This high-intensity workout will challenge your entire lower body and build strength and endurance as you conquer these hills!",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jared-sklar",
+                        "firstName": "Jared",
+                        "lastName": "Sklar",
+                        "bio": "Jared is a triathlete and certified indoor cycling instructor who is constantly exploring new ways to innovate bike training and help his students blow past their goals. When you join Jared\u2019s class, you can expect a ton of energy, hype playlists, heavy hills, heart-pounding sprints, and to always leave sweaty and smiling.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0011",
+                      "durationActual": 628,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "2HAefygumbFccKGNHLNND2": {
+                    "_id": "2HAefygumbFccKGNHLNND2",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-hiit-it-ride-2-10mtm0010",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JustinFlexen"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JustinFlexen"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: HIIT It! Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b6edcc0b1a76358bed7313989887db129becfe2e-730x496.jpg"
+                    },
+                    "descriptionLong": "Let\u2019s turn back the clock by cranking up your calorie furnace! This ride will improve your speed and stamina as you crush each heart-pumping interval. It\u2019s only 10 minutes from start to finish, so HIIT it hard and hold nothing back!",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "justin-flexen",
+                        "firstName": "Justin",
+                        "lastName": "Flexen",
+                        "bio": "Justin is a NASM CPT and former dancer with a passion for health, wellness and positivity. Certified in Schwinn cycling, heart rate performance, and corrective exercise, he emphasizes good form and a good time in his workouts.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d03a111dbfa128f3659253da19464b6e65b07636-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0010",
+                      "durationActual": 622,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "2HAefygumbFccKGNHLNRMS": {
+                    "_id": "2HAefygumbFccKGNHLNRMS",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-lower-body-strength-core-2-10mtm0009",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=EsmeyLeon"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=EsmeyLeon"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Lower Body Strength & Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29c2323e7ad9138210e71b54eff2196fc7d194d9-730x496.jpg"
+                    },
+                    "descriptionLong": "Turn back the time with this lower body sculpting workout. This 10-minute routine builds strength and stability in your legs, glutes, and core to give you a strong and balanced base from the ground up.",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "esmey-leon",
+                        "firstName": "Esmey",
+                        "lastName": "Leon",
+                        "bio": "Esmey is a Los Angeles based personal trainer and digital fitness instructor who has helped people achieve their goals and live their best lives for nearly 20 years. She holds NASM personal training and group fitness certifications and is also a Mad Dogg Athletics certified spinning instructor.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bf7bcedc1d2a20eb3037f4e7093049edbfbcfd4f-684x1088.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0009",
+                      "durationActual": 613,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "2HAefygumbFccKGNHLNS2k": {
+                    "_id": "2HAefygumbFccKGNHLNS2k",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-burn-ride-10mtm0008",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JaredSklar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JaredSklar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Burn Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/456b451812021b3a6dc70ddf120866fda62bd54f-730x496.jpg"
+                    },
+                    "descriptionLong": "Fire up your calorie burn and boost your speed and endurance with this high-intensity intervals session. In just 10 minutes, you'll turn back time as you improve speed and build stamina. HIIT it hard and give it your all from start to finish!",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jared-sklar",
+                        "firstName": "Jared",
+                        "lastName": "Sklar",
+                        "bio": "Jared is a triathlete and certified indoor cycling instructor who is constantly exploring new ways to innovate bike training and help his students blow past their goals. When you join Jared\u2019s class, you can expect a ton of energy, hype playlists, heavy hills, heart-pounding sprints, and to always leave sweaty and smiling.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0008",
+                      "durationActual": 606,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "2HAefygumbFccKGNHLNSoY": {
+                    "_id": "2HAefygumbFccKGNHLNSoY",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-upper-body-strength-core-2-10mtm0007",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShantaniMoore"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=ShantaniMoore"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Upper Body Strength & Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/55294faaad666628f25324fe39073aed44e00a0c-730x496.jpg"
+                    },
+                    "descriptionLong": "Travel through time by transforming your upper body with this focused 10-minute workout. This routine will build both strength and stability in your arms, shoulders, and core, giving you the upper body gains you deserve.",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shantani-moore",
+                        "firstName": "Shantani",
+                        "lastName": "Moore",
+                        "bio": "Born and raised in Southern California, Shantani was a professional dancer before launching a career in fitness that has seen her train people all over the world and partner with such brands as lululemon and Mirror. Whether she\u2019s leading a cycling class or guiding a sound bath, Shantani inspires people to live their best lives and tap into what makes them hype.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f448c3bf7a764ddbf8f7fa518dc599fc4938fea-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0007",
+                      "durationActual": 615,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "2HAefygumbFccKGNHLNUCy": {
+                    "_id": "2HAefygumbFccKGNHLNUCy",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-hills-ride-2-10mtm0006",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JennyJaucian"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JennyJaucian"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Hills Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/343a834ffe1ea591855dbf110fb74c47ee72bd34-730x496.jpg"
+                    },
+                    "descriptionLong": "Get ready to climb through time with this exhilarating 10-minute hills ride. This high-intensity workout will challenge your entire lower body and build strength and endurance as you conquer these hills!",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jenny-jaucian",
+                        "firstName": "Jenny",
+                        "lastName": "Jaucian",
+                        "bio": "Known for her infectious energy and motivational training style, Jenny will quickly become one of your go-to instructors. Her certifications include personal trainer (NASM), group fitness instructor (ACE), and indoor cycling instructor (Schwinn). If you\u2019re interested in strength training, cardio, or cycling, you don\u2019t want to miss her live classes.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0006",
+                      "durationActual": 625,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "2HAefygumbFccKGNHLNXeG": {
+                    "_id": "2HAefygumbFccKGNHLNXeG",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-lower-body-strength-core-10mtm0004",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=EsmeyLeon"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=EsmeyLeon"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Lower Body Strength & Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/debce787ab6e0ff15b8ce2db650395a793ef0519-730x496.jpg"
+                    },
+                    "descriptionLong": "Turn back the time with this lower body sculpting workout. This 10-minute routine builds strength and stability in your legs, glutes, and core to give you a strong and balanced base from the ground up.",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "esmey-leon",
+                        "firstName": "Esmey",
+                        "lastName": "Leon",
+                        "bio": "Esmey is a Los Angeles based personal trainer and digital fitness instructor who has helped people achieve their goals and live their best lives for nearly 20 years. She holds NASM personal training and group fitness certifications and is also a Mad Dogg Athletics certified spinning instructor.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bf7bcedc1d2a20eb3037f4e7093049edbfbcfd4f-684x1088.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0004",
+                      "durationActual": 619,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "2HAefygumbFccKGNHOGOQq": {
+                    "_id": "2HAefygumbFccKGNHOGOQq",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-power-up-ride-10mtm0013",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JaredSklar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JaredSklar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Power Up Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c02303e4c49df70eda376cc52bd0dfd505b0350b-730x496.jpg"
+                    },
+                    "descriptionLong": "Rewind time in this ultimate Power Up challenge ride! In just 10 minutes, this intervals ride will fire up your metabolism, strengthen your cardiovascular system, and supercharge your mindset.",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jared-sklar",
+                        "firstName": "Jared",
+                        "lastName": "Sklar",
+                        "bio": "Jared is a triathlete and certified indoor cycling instructor who is constantly exploring new ways to innovate bike training and help his students blow past their goals. When you join Jared\u2019s class, you can expect a ton of energy, hype playlists, heavy hills, heart-pounding sprints, and to always leave sweaty and smiling.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0013",
+                      "durationActual": 605,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "2HAefygumbFccKGNHOGQMM": {
+                    "_id": "2HAefygumbFccKGNHOGQMM",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-lower-body-strength-core-5-10mtm0014",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShantaniMoore"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=ShantaniMoore"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Lower Body Strength & Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/74655087da4111c10a862f2191aca167419fe6f1-730x496.jpg"
+                    },
+                    "descriptionLong": "Turn back the time with this lower body sculpting workout. This 10-minute routine builds strength and stability in your legs, glutes, and core to give you a strong and balanced base from the ground up.",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shantani-moore",
+                        "firstName": "Shantani",
+                        "lastName": "Moore",
+                        "bio": "Born and raised in Southern California, Shantani was a professional dancer before launching a career in fitness that has seen her train people all over the world and partner with such brands as lululemon and Mirror. Whether she\u2019s leading a cycling class or guiding a sound bath, Shantani inspires people to live their best lives and tap into what makes them hype.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f448c3bf7a764ddbf8f7fa518dc599fc4938fea-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0014",
+                      "durationActual": 605,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "2HAefygumbFccKGNHOGRW4": {
+                    "_id": "2HAefygumbFccKGNHOGRW4",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-hiit-it-ride-5-10mtm0015",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=EsmeyLeon"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=EsmeyLeon"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: HIIT It! Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eb2392f4d23d29f4e628f0dbabc9e5b9cd0f9c02-730x496.jpg"
+                    },
+                    "descriptionLong": "Let\u2019s turn back the clock by cranking up your calorie furnace! This ride will improve your speed and stamina as you crush each heart-pumping interval. It\u2019s only 10 minutes from start to finish, so HIIT it hard and hold nothing back!",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "esmey-leon",
+                        "firstName": "Esmey",
+                        "lastName": "Leon",
+                        "bio": "Esmey is a Los Angeles based personal trainer and digital fitness instructor who has helped people achieve their goals and live their best lives for nearly 20 years. She holds NASM personal training and group fitness certifications and is also a Mad Dogg Athletics certified spinning instructor.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bf7bcedc1d2a20eb3037f4e7093049edbfbcfd4f-684x1088.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0015",
+                      "durationActual": 620,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "2HAefygumbFccKGNHOGe3q": {
+                    "_id": "2HAefygumbFccKGNHOGe3q",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-lower-body-strength-core-8-10mtm0019",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JennyJaucian"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JennyJaucian"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Lower Body Strength & Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4021f087e64a532ca3cc05aca557166cbfbc0f4b-730x496.jpg"
+                    },
+                    "descriptionLong": "Turn back the time with this lower body sculpting workout. This 10-minute routine builds strength and stability in your legs, glutes, and core to give you a strong and balanced base from the ground up.",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "jenny-jaucian",
+                        "firstName": "Jenny",
+                        "lastName": "Jaucian",
+                        "bio": "Known for her infectious energy and motivational training style, Jenny will quickly become one of your go-to instructors. Her certifications include personal trainer (NASM), group fitness instructor (ACE), and indoor cycling instructor (Schwinn). If you\u2019re interested in strength training, cardio, or cycling, you don\u2019t want to miss her live classes.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0019",
+                      "durationActual": 606,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "2HAefygumbFccKGNHOGeyq": {
+                    "_id": "2HAefygumbFccKGNHOGeyq",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-hiit-it-ride-8-10mtm0020",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShantaniMoore"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=ShantaniMoore"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: HIIT It! Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dba0c945bc4a99447c1cab5be9873e6f991b372b-730x496.jpg"
+                    },
+                    "descriptionLong": "Let\u2019s turn back the clock by cranking up your calorie furnace! This ride will improve your speed and stamina as you crush each heart-pumping interval. It\u2019s only 10 minutes from start to finish, so HIIT it hard and hold nothing back!",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shantani-moore",
+                        "firstName": "Shantani",
+                        "lastName": "Moore",
+                        "bio": "Born and raised in Southern California, Shantani was a professional dancer before launching a career in fitness that has seen her train people all over the world and partner with such brands as lululemon and Mirror. Whether she\u2019s leading a cycling class or guiding a sound bath, Shantani inspires people to live their best lives and tap into what makes them hype.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f448c3bf7a764ddbf8f7fa518dc599fc4938fea-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0020",
+                      "durationActual": 622,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "5ONdsGSsS89HPMZcsg0ynY": {
+                    "_id": "5ONdsGSsS89HPMZcsg0ynY",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-upper-body-strength-core-5-10mtm0012",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JustinFlexen"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JustinFlexen"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Upper Body Strength & Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5c66e8b85527f55f505a51ad8d0b868cfcbf1703-730x496.jpg"
+                    },
+                    "descriptionLong": "Travel through time by transforming your upper body with this focused 10-minute workout. This routine will build both strength and stability in your arms, shoulders, and core, giving you the upper body gains you deserve.",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "justin-flexen",
+                        "firstName": "Justin",
+                        "lastName": "Flexen",
+                        "bio": "Justin is a NASM CPT and former dancer with a passion for health, wellness and positivity. Certified in Schwinn cycling, heart rate performance, and corrective exercise, he emphasizes good form and a good time in his workouts.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d03a111dbfa128f3659253da19464b6e65b07636-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0012",
+                      "durationActual": 612,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "5ONdsGSsS89HPMZcsg1Oeu": {
+                    "_id": "5ONdsGSsS89HPMZcsg1Oeu",
+                    "_type": "workout",
+                    "slug": "ten-minute-time-machine-power-up-ride-10mtm0003",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JaredSklar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JaredSklar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Power Up Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/267807a4f60b20f8a3a03539de3fc083a9bd5226-730x496.jpg"
+                    },
+                    "descriptionLong": "Rewind time in this ultimate Power Up challenge ride! In just 10 minutes, this intervals ride will fire up your metabolism, strengthen your cardiovascular system, and supercharge your mindset.",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jared-sklar",
+                        "firstName": "Jared",
+                        "lastName": "Sklar",
+                        "bio": "Jared is a triathlete and certified indoor cycling instructor who is constantly exploring new ways to innovate bike training and help his students blow past their goals. When you join Jared\u2019s class, you can expect a ton of energy, hype playlists, heavy hills, heart-pounding sprints, and to always leave sweaty and smiling.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0003",
+                      "durationActual": 627,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "5ONdsGSsS89HPMZcsg1XOO": {
+                    "_id": "5ONdsGSsS89HPMZcsg1XOO",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-upper-body-strength-core-10mtm0002",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JennyJaucian"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JennyJaucian"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Upper Body Strength & Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/48befff045952a4143bb77ad174cd1e669ec1609-730x496.jpg"
+                    },
+                    "descriptionLong": "Travel through time by transforming your upper body with this focused 10-minute workout. This routine will build both strength and stability in your arms, shoulders, and core, giving you the upper body gains you deserve.",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "jenny-jaucian",
+                        "firstName": "Jenny",
+                        "lastName": "Jaucian",
+                        "bio": "Known for her infectious energy and motivational training style, Jenny will quickly become one of your go-to instructors. Her certifications include personal trainer (NASM), group fitness instructor (ACE), and indoor cycling instructor (Schwinn). If you\u2019re interested in strength training, cardio, or cycling, you don\u2019t want to miss her live classes.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0002",
+                      "durationActual": 609,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "5ONdsGSsS89HPMZcsg1YF8": {
+                    "_id": "5ONdsGSsS89HPMZcsg1YF8",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-hills-ride-10mtm0001",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JustinFlexen"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JustinFlexen"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Hills Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a2e929e9d9cf6878db5d7c656ede3bd1e9186972-730x496.jpg"
+                    },
+                    "descriptionLong": "Get ready to climb through time with this exhilarating 10-minute hills ride. This high-intensity workout will challenge your entire lower body and build strength and endurance as you conquer these hills!",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "justin-flexen",
+                        "firstName": "Justin",
+                        "lastName": "Flexen",
+                        "bio": "Justin is a NASM CPT and former dancer with a passion for health, wellness and positivity. Certified in Schwinn cycling, heart rate performance, and corrective exercise, he emphasizes good form and a good time in his workouts.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d03a111dbfa128f3659253da19464b6e65b07636-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0001",
+                      "durationActual": 614,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "5ONdsGSsS89HPMZcsjpCfO": {
+                    "_id": "5ONdsGSsS89HPMZcsjpCfO",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-upper-body-strength-core-8-10mtm0017",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=EsmeyLeon"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=EsmeyLeon"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Upper Body Strength & Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dda2f1bc90f78b82b2a90d3561f284985bcd9442-730x496.jpg"
+                    },
+                    "descriptionLong": "Travel through time by transforming your upper body with this focused 10-minute workout. This routine will build both strength and stability in your arms, shoulders, and core, giving you the upper body gains you deserve.",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "esmey-leon",
+                        "firstName": "Esmey",
+                        "lastName": "Leon",
+                        "bio": "Esmey is a Los Angeles based personal trainer and digital fitness instructor who has helped people achieve their goals and live their best lives for nearly 20 years. She holds NASM personal training and group fitness certifications and is also a Mad Dogg Athletics certified spinning instructor.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bf7bcedc1d2a20eb3037f4e7093049edbfbcfd4f-684x1088.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0017",
+                      "durationActual": 606,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "r3WJFP7OosVP86eK2C7PWN": {
+                    "_id": "r3WJFP7OosVP86eK2C7PWN",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-hiit-it-ride-10mtm0005",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JennyJaucian"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JennyJaucian"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: HIIT It! Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e4d91338b397f4052142cf2135fc53220e8f588e-730x496.jpg"
+                    },
+                    "descriptionLong": "Let\u2019s turn back the clock by cranking up your calorie furnace! This ride will improve your speed and stamina as you crush each heart-pumping interval. It\u2019s only 10 minutes from start to finish, so HIIT it hard and hold nothing back!",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jenny-jaucian",
+                        "firstName": "Jenny",
+                        "lastName": "Jaucian",
+                        "bio": "Known for her infectious energy and motivational training style, Jenny will quickly become one of your go-to instructors. Her certifications include personal trainer (NASM), group fitness instructor (ACE), and indoor cycling instructor (Schwinn). If you\u2019re interested in strength training, cardio, or cycling, you don\u2019t want to miss her live classes.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0005",
+                      "durationActual": 612,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "r3WJFP7OosVP86eK2CSxhb": {
+                    "_id": "r3WJFP7OosVP86eK2CSxhb",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-hills-ride-8-10mtm0016",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShantaniMoore"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=ShantaniMoore"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Hills Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8a8720af903b5de1f3975375610fea1fac94dc9b-730x496.jpg"
+                    },
+                    "descriptionLong": "Get ready to climb through time with this exhilarating 10-minute hills ride. This high-intensity workout will challenge your entire lower body and build strength and endurance as you conquer these hills!",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shantani-moore",
+                        "firstName": "Shantani",
+                        "lastName": "Moore",
+                        "bio": "Born and raised in Southern California, Shantani was a professional dancer before launching a career in fitness that has seen her train people all over the world and partner with such brands as lululemon and Mirror. Whether she\u2019s leading a cycling class or guiding a sound bath, Shantani inspires people to live their best lives and tap into what makes them hype.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f448c3bf7a764ddbf8f7fa518dc599fc4938fea-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0016",
+                      "durationActual": 600,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "r3WJFP7OosVP86eK2CSy67": {
+                    "_id": "r3WJFP7OosVP86eK2CSy67",
+                    "_type": "workout",
+                    "slug": "10mtm-ten-minute-time-machine-burn-ride-2-10mtm0018",
+                    "brandCode": "10MTM",
+                    "primaryParent": {
+                      "_id": "r3WJFP7OosVP86eK2CSyb5",
+                      "_type": "program",
+                      "slug": "ten-minute-time-machine"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JaredSklar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=10MTM&locale=en_us&trainerName=JaredSklar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ten Minute Time Machine: Burn Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c782bcaa28b13e918220e4209210daec7d7d6c20-730x496.jpg"
+                    },
+                    "descriptionLong": "Fire up your calorie burn and boost your speed and endurance with this high-intensity intervals session. In just 10 minutes, you'll turn back time as you improve speed and build stamina. HIIT it hard and give it your all from start to finish!",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jared-sklar",
+                        "firstName": "Jared",
+                        "lastName": "Sklar",
+                        "bio": "Jared is a triathlete and certified indoor cycling instructor who is constantly exploring new ways to innovate bike training and help his students blow past their goals. When you join Jared\u2019s class, you can expect a ton of energy, hype playlists, heavy hills, heart-pounding sprints, and to always leave sweaty and smiling.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "10MTM0018",
+                      "durationActual": 623,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223278645,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "ten-minute-time-machine",
+              "en-US"
+            ],
+            "queryHash": "[\"ten-minute-time-machine\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/ten-minute-time-machine/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "ten-minute-time-machine",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

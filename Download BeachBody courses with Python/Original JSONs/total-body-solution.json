@@ -1,0 +1,1663 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "total-body-solution",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "Q6j5eG7tj3PSUghmZKoreR",
+                "_type": "program",
+                "slug": "total-body-solution",
+                "title": "Total Body Solution",
+                "subtitle": null,
+                "brandCode": "TB",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=TB&locale=en_us&trainerName=DebbieSiebers"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Total Body Solution Program Overview: Start Your Journey Here",
+                  "description": "Forget the gym and get results with Total Body Solution. See what the program includes, any equipment needed, and meet your trainer here.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/13939e2e78583f280711158291e17e1d19b83e8c-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Debbie",
+                    "lastName": "Siebers",
+                    "bioBodi": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0d7bd08f3996f914ddbab496bb30c69502af2d93-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "",
+                "colorPrimaryOptions": {
+                  "argb": "",
+                  "rgba": ""
+                },
+                "descriptionShort": "The TOTAL BODY SOLUTION relieves pain and prevents strain in just 15 minutes.",
+                "descriptionLong": "Burn more fat in half the time with Total Body Solution. This highly-intense cardio conditioning program will help you forget the gym. You\u2019ll get leaner as the hottest fitness classes come to you.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/total-body-solution"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "10-20"
+                },
+                "duration": null,
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "5"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Yoga Mat"
+                  },
+                  {
+                    "title": "Sturdy Chair"
+                  },
+                  {
+                    "title": "Resistance Bands"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Stability Ball"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Mobility & Flexibility"
+                  },
+                  {
+                    "title": "Core"
+                  },
+                  {
+                    "title": "Low Impact"
+                  },
+                  {
+                    "title": "Recovery"
+                  }
+                ],
+                "level": {
+                  "title": "Beginner",
+                  "slug": "beginner",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/66c3212f2a99ab291c41719a9750130e4f5b4bc3-738x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/66c3212f2a99ab291c41719a9750130e4f5b4bc3-738x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4ac72fd904a785e59c778e2f65c5074ea468e451-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/086841ba6f7cf323e4fe3a40d03deb86e5d6176b-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/45e3c2b186145699dfb6450b52af5a555752b4e1-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c8117456dd00f4fd0089fbcd3642f4c7ba57a8f0-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/13939e2e78583f280711158291e17e1d19b83e8c-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/13939e2e78583f280711158291e17e1d19b83e8c-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Yoga Mat, Sturdy Chair, Resistance Bands, Stability Ball*",
+                        "categories": "Mobility & Flexibility, Core, Low Impact, Recovery",
+                        "colorPrimary": "",
+                        "colorPrimaryOptions": {
+                          "argb": "",
+                          "rgba": ""
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-6535403964a6caba5d80d664548155ade16de7d6-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6535403964a6caba5d80d664548155ade16de7d6-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "5"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "10-20"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                            },
+                            "title": "Beginner"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7w1Ldm",
+                        "_type": "collection",
+                        "slug": "total-body-solution-featured-guides",
+                        "title": "Featured Guide",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvQklS4"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvQklb6",
+                        "_type": "editorial",
+                        "slug": "total-body-solution-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "Beachbody\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.teambeachbody.com/micro-site/nutrition-plus/index.html#/en"
+                        }
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe5Csb",
+                        "_type": "collection",
+                        "slug": "total-body-solution-related-content-2",
+                        "title": "Total Body Solution Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "2Y1ZDDXEx3aLPbgAHe2KZ7",
+                          "vKPPpbqN0JH0WMoJVD7bRG",
+                          "vKPPpbqN0JH0WMoJVD7bbe"
+                        ]
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Debbie",
+                            "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0d7bd08f3996f914ddbab496bb30c69502af2d93-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/debsiebers/",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.Instagram.com/debbiesiebers",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.twitter.com/debbiesiebers",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.youtube.com/debbiesiebers",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f06acc8786ecf26616838c26162235cfcce4108-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD6SBm",
+                        "_type": "collection",
+                        "slug": "total-body-solution-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvOl1EW",
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "NWOt1I2xWP7xm05A7tYnEi",
+                          "BoGK5VlBLllbPFYTvPKzQe"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7w1LbD",
+                        "_type": "collection",
+                        "slug": "total-body-solution",
+                        "title": "Total Body Solution",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7w1L31",
+                          "BoGK5VlBLllbPFYTvQkkyG",
+                          "BoGK5VlBLllbPFYTvQkl1s",
+                          "NWOt1I2xWP7xm05A7w1LPF",
+                          "Q6j5eG7tj3PSUghmZKooP9"
+                        ]
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD6SBm",
+                        "_type": "collection",
+                        "slug": "total-body-solution-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvOl1EW",
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "NWOt1I2xWP7xm05A7tYnEi",
+                          "BoGK5VlBLllbPFYTvPKzQe"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe2KZ7": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2KZ7",
+                    "_type": "linkItem",
+                    "slug": "how-a-positive-self-image-could-improve-your-health",
+                    "title": "How a Positive Self-Image Could Improve Your Health",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d89b8fed3181a333079c6f9b31b9ad4f46dfdcba-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/how-a-postive-self-image-could-improve-your-health?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=youv2",
+                    "isFavoritable": false
+                  },
+                  "BoGK5VlBLllbPFYTvOl1EW": {
+                    "_id": "BoGK5VlBLllbPFYTvOl1EW",
+                    "_type": "program",
+                    "slug": "beachbody-yoga-studio",
+                    "brandCode": "BYS",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-10-18",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BYS&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Beachbody Yoga Studio",
+                    "description": "Improve strength and flexibility with a collection of yoga classes",
+                    "descriptionShort": "Improve strength and flexibility with a collection of yoga classes",
+                    "descriptionLong": "Improve strength and flexibility with a collection of yoga classes featuring Beachbody Super Trainers and Yoga Experts. Find the class that\u2019s right for you!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a336bf2f8a0f162ff79e5e0980fa60c91e80f9d-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ff71df312a02225595ed31d611cdbe5f31d9f5c0-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ff71df312a02225595ed31d611cdbe5f31d9f5c0-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a336bf2f8a0f162ff79e5e0980fa60c91e80f9d-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a336bf2f8a0f162ff79e5e0980fa60c91e80f9d-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c11488451d9203263eab6e3594409b28713436b2-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/98a33009f6b24474d539134219107bb0833d3f2a-580x100.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-90"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "114"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "94"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Yoga Strap or Towel"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKzQe": {
+                    "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                    "_type": "program",
+                    "slug": "slim-in-6",
+                    "brandCode": "SL6",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2001-03-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Slim in 6",
+                    "description": "Slim in 6 is a low-impact program anyone can do to get slim in just 6 weeks.",
+                    "descriptionShort": "Slim in 6 is a low-impact program anyone can do to get slim in just 6 weeks.",
+                    "descriptionLong": "Slim in 6 is more effective at helping you lose weight than those super-intense, high-impact workouts. You\u2019ll watch the fat melt away as you tone lean muscle and get body-shaping results even faster.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/73ec86b0aa3b55a52d7a4de4fe618033bd09690a-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5f4ba78f1bbeb3fd774bbc5d5fba5d540e25598a-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5f4ba78f1bbeb3fd774bbc5d5fba5d540e25598a-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/73ec86b0aa3b55a52d7a4de4fe618033bd09690a-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/73ec86b0aa3b55a52d7a4de4fe618033bd09690a-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3940d0df5ba04e2a20a2e296abee42a208c54e1e-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2830c8c8448bd7a6dec14d19089a2d3b327c2e40-362x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "25-60"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "6"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "16"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQkkyG": {
+                    "_id": "BoGK5VlBLllbPFYTvQkkyG",
+                    "_type": "workout",
+                    "slug": "shoulders-tbs194982b02",
+                    "brandCode": "TB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZKoreR",
+                      "_type": "program",
+                      "slug": "total-body-solution"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=TB&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Shoulders",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7ab2e23ee34f9e705010cd686eafa1ba62aa4d54-398x224.jpg"
+                    },
+                    "descriptionLong": "Restore range of motion and strength. (Includes shoulder assessment.)",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Stability Ball"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "TBS194982B02",
+                      "durationActual": 939,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQkl1s": {
+                    "_id": "BoGK5VlBLllbPFYTvQkl1s",
+                    "_type": "workout",
+                    "slug": "abs-core-tbs194983b03",
+                    "brandCode": "TB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZKoreR",
+                      "_type": "program",
+                      "slug": "total-body-solution"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=TB&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Abs & Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f37d70dfe4b8c82b142674d2feb3bfcff131fc87-398x224.jpg"
+                    },
+                    "descriptionLong": "Stretch and strengthen the entire core for maximum relief. (Includes core assessment.)",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "TBS194983B03",
+                      "durationActual": 925,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQklS4": {
+                    "_id": "BoGK5VlBLllbPFYTvQklS4",
+                    "_type": "resource",
+                    "slug": "total-body-solution-quick-start-guide-to-nutrition-3609345",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZKoreR",
+                      "_type": "program",
+                      "slug": "total-body-solution"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Quick Start Guide to Nutrition",
+                    "categories": null,
+                    "description": "Keep your body fueled for total success and your best results. This guide helps you upgrade your eating habits to optimize your workout performance and create healthier habits throughout this program\u2013\u2013and beyond.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/406ed9a38e1f9b9cf74e531e7686290aa20a234a-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "TB-EN-Nutrition-1.11.2020-QuickStart.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/04033e894d2a6b0b81d4ad54db5735fa2c344e94.pdf?file=TB-EN-Nutrition-1.11.2020-QuickStart.pdf",
+                      "size": 20608287
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7tYnEi": {
+                    "_id": "NWOt1I2xWP7xm05A7tYnEi",
+                    "_type": "program",
+                    "slug": "piyo",
+                    "brandCode": "BBPIYO",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2014-06-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBPIYO&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "PiYo",
+                    "description": "Define yourself with PiYo. No weights, no jumps, just hardcore results.",
+                    "descriptionShort": "Define yourself with PiYo. No weights, no jumps, just hardcore results.",
+                    "descriptionLong": "PiYo combines the muscle-sculpting, core-firming benefits of Pilates with the strength and flexibility benefits of yoga. It's a true fat-burning, low-impact program that'll get you incredibly defined.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/26f0729d2c3cdf40090a51b60d7222c90207208a-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eb3530c036d9d4b1a07e0da99fcfe3df444003ed-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eb3530c036d9d4b1a07e0da99fcfe3df444003ed-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/26f0729d2c3cdf40090a51b60d7222c90207208a-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/26f0729d2c3cdf40090a51b60d7222c90207208a-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b395265e944ca36aa52f17b04e147f8d70e944c5-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/188b243ae6299b8dd04557a40808c2ed4d2cfe90-998x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20-45"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "60"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "22"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Strength Slides"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Sturdy Chair"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w1L31": {
+                    "_id": "NWOt1I2xWP7xm05A7w1L31",
+                    "_type": "workout",
+                    "slug": "neck-tbs194981b01",
+                    "brandCode": "TB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZKoreR",
+                      "_type": "program",
+                      "slug": "total-body-solution"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=TB&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Neck",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e434fee23f3ac1563039af0e73afd565abb64a74-398x224.jpg"
+                    },
+                    "descriptionLong": "Relieve pain and stiffness from stress or injuries. (Includes neck assessment.)",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Sturdy Chair"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "TBS194981B01",
+                      "durationActual": 762,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w1LPF": {
+                    "_id": "NWOt1I2xWP7xm05A7w1LPF",
+                    "_type": "workout",
+                    "slug": "lower-back-tbs194984b04",
+                    "brandCode": "TB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZKoreR",
+                      "_type": "program",
+                      "slug": "total-body-solution"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=TB&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Lower Back",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2f7c5eba375b4d117a0fa5a29c1ce2b517b1e85d-398x224.jpg"
+                    },
+                    "descriptionLong": "Strengthen your muscles to alleviate pain and stiffness. (Includes low back assessment.)",
+                    "durationEstimate": 1200,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "TBS194984B04",
+                      "durationActual": 1313,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZDbc5D": {
+                    "_id": "Q6j5eG7tj3PSUghmZDbc5D",
+                    "_type": "program",
+                    "slug": "3-week-yoga-retreat",
+                    "brandCode": "3YR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-08-31",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3YR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "3 Week Yoga Retreat",
+                    "description": "Want to learn Yoga? Master the fundamentals of yoga at home in just 21 days.",
+                    "descriptionShort": "Want to learn Yoga? Master the fundamentals of yoga at home in just 21 days.",
+                    "descriptionLong": "Created with beginners in mind, 3 Week Yoga Retreat will teach you simple, pure yoga for life-changing results. You'll build the skills you need to take any yoga class after these three weeks.\u200b",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5cbdbb898516c50bbaaceb8062c936fef4d548f-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5cbdbb898516c50bbaaceb8062c936fef4d548f-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2770051c67445d05d085fbc573916e487f464040-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1c5fcef36727497e17ad2cbbb770656baa6ae37c-480x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-32"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "3"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "39"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Yoga Strap"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Pillow"
+                      },
+                      {
+                        "title": "Yoga Blanket"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKooP9": {
+                    "_id": "Q6j5eG7tj3PSUghmZKooP9",
+                    "_type": "workout",
+                    "slug": "knee-tbs194985b05",
+                    "brandCode": "TB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZKoreR",
+                      "_type": "program",
+                      "slug": "total-body-solution"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=TB&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Knee",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c004c5314da35001adfbd86b319136797cc83382-398x224.jpg"
+                    },
+                    "descriptionLong": "Rehabilitate injuries, protect and prevent future injuries. (Includes knee assessment.)",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Sturdy Chair"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "TBS194985B05",
+                      "durationActual": 991,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "vKPPpbqN0JH0WMoJVD7bRG": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7bRG",
+                    "_type": "linkItem",
+                    "slug": "is-exercise-the-antidote-to-aging",
+                    "title": "Is Exercise the Antidote to Aging?",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/20949e9a24bf61ce99c5d2cf66dc8d3c4b7d419e-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/is-exercise-the-antidote-to-aging?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=youv2",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7bbe": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7bbe",
+                    "_type": "linkItem",
+                    "slug": "15-small-changes-for-big-results",
+                    "title": "15 Small Changes for Big Results",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/30ff6e9a8e802678bf8be980d53f20f386fbd4b5-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/make-15-small-changes-see-big-results?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=youv2",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223263945,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "total-body-solution",
+              "en-US"
+            ],
+            "queryHash": "[\"total-body-solution\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/total-body-solution/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "total-body-solution",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

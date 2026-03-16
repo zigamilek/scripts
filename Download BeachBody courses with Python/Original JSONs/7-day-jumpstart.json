@@ -1,0 +1,2489 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "7-day-jumpstart",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "Q6j5eG7tj3PSUghmZLMsyl",
+                "_type": "program",
+                "slug": "7-day-jumpstart",
+                "title": "7 Day Jumpstart",
+                "subtitle": null,
+                "brandCode": "7DJ",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=7DJ&locale=en_us&trainerName=JustinFlexen-MiriamAlicea-DavannaLaw-ChristinaLaGrega-DyanTsiumis-ShaunTubbs-JesseBarton"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "7 Day Jumpstart",
+                  "description": "Get moving ON and OFF the bike in just 7 days!",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2f82c9047a1b2960ecb9a2e5d9c6c6a0eaa3b696-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Justin",
+                    "lastName": "Flexen",
+                    "bioBodi": "Justin is a NASM CPT and former dancer with passion for body mechanics, proper form, and self-care. You'll have so much fun in his cycling and strength workouts that you won't realize he is putting you to WORK! Justin is a certified specialist in Corrective Exercise, Weight Loss, and Heart Rate Performance, Schwinn Cycling and Kettlebell Concepts.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dea87b812d8cbc720e3efd3731d76498b2bad8ec-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Miriam",
+                    "lastName": "Alicea",
+                    "bioBodi": "If you love to learn about the body, Miriam is for you. Hailing from Puerto Rico, she is a NASM CPT, Corrective Exercise Specialist, and cardiac exercise physiologist with an MS in Exercise Science. Miriam's hip hop and Latin vibes keep her classes spicy, and her passion for building community through movement fuels her knowledge-is-power approach.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6021af0d210f74947c3f8cc134e1433d2b4ee53c-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Davanna",
+                    "lastName": "Law",
+                    "bioBodi": "The fitness bug bit Davanna when she became a cycling instructor, but for this professional dancer and NFL cheerleader, other formats like cardio, HIIT, strength training and recovery work come just as naturally. Davanna believes movement heals, and her workouts are infused with tough southern love. If you need someone to believe in you, she does!",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f07aca61e7f1d00902d7a6dab59eccbef902fdc-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Christina",
+                    "lastName": "LaGrega",
+                    "bioBodi": "Christina is a NASM CPT who has traveled the U.S. as a Master Trainer for the world's top fitness companies. She believes that growth comes from discomfort and will guide you through doubt, right across the finish line! Also certified in Schwinn cycling and a heart rate specialist, Christina loves being home with her husband, 4 kids, and 2 pups.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/71ce02bad2347366c1ba4b3eb3e40060e6a278ee-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Dyan",
+                    "lastName": "Tsiumis",
+                    "bioBodi": "Dyan is living her dream of bringing health to people of all ages through movement. With several nationally recognized certifications and a B.S. in Athletic Training, she knows the struggle with weight loss, as she changed her own lifestyle to lose over 90 pounds! Dyan's workouts are challenge packed, tons of fun and filled with inspiration.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/64d709f1e2e3657a5eb59959a93661634312f379-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Shaun",
+                    "lastName": "Tubbs",
+                    "bioBodi": "From your first workout with Shaun, you can tell he is dedicated. Shaun is a Cleveland born runner, actor and director who followed his passion for fitness to become an NASM CPT and Schwinn cycling instructor. He feels fortunate to guide people on the road to health and will remind you that it's not how far you go, but how you commit to each step.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a1800f50d682ac5201d9f9ba811c8cd1f755a7fe-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Jesse",
+                    "lastName": "Barton",
+                    "bioBodi": "Jesse is a one-of-a-kind combo of laid back and hardcore. A NASM CPT, Schwinn Certified Cycling Instructor, and 200 RTY, Jesse is also a devoted Mom and former model with an MA in Psychology, and an avid runner with many half and full marathons under her belt. She knows the value of hard work and will share that fire with you in every workout!",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1b89ec9af447b0da13024a8e33478cf85952df59-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#64aeff",
+                "colorPrimaryOptions": {
+                  "argb": "#64aeff",
+                  "rgba": "#64aeff"
+                },
+                "descriptionShort": "Get moving ON and OFF the bike in just 7 days!",
+                "descriptionLong": "This ride and cross training program is all you need to start burning calories and jump start your goals with your bike.  Seven different trainers to motivate you and the perfect combo of cardio, strength, and recovery.",
+                "sampleWorkoutId": "gAjyjR8IcIqVjU7DkPrhBI",
+                "trailerId": "A3jSdym3jf5hqTWanxQY3O",
+                "videoOverviewId": "gAjyjR8IcIqVjU7DkPrhBI",
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/7-day-jumpstart"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "20-60"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Days",
+                  "value": "7"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "7"
+                },
+                "commerce": {
+                  "title": "BODi Membership Required",
+                  "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                  "purchaseAction": {
+                    "title": "Learn More",
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JustinFlexen-MiriamAlicea-DavannaLaw-ChristinaLaGrega-DyanTsiumis-ShaunTubbs-JesseBarton"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Bike"
+                  },
+                  {
+                    "title": "Heart Rate Monitor"
+                  },
+                  {
+                    "title": "Dumbbells"
+                  },
+                  {
+                    "title": "Foam Roller"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Mat"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Low Impact"
+                  },
+                  {
+                    "title": "Bootcamp"
+                  }
+                ],
+                "level": {
+                  "title": "All Levels",
+                  "slug": "all-levels",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "light",
+                  "gradientOpacity": 70,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/907b664fb9179cedcbfc87427389bb7e35429d04-1233x370.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/74606eb50c75a90ed971fb0f159c210efd10678e-1233x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/01193d304c374a269cdfe310d0a5c854145d5bf0.mp4"
+                  },
+                  "loopingVideoPortrait": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/79c0d6956ee80558bd380464aef3b021641c5bd8.mp4"
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/497ee70c879fac34023b574a9703d2b7f316cfb5-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7b751ba991dfb9e618b2ff2088dfc16b7ddefe19-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0965dc87e0f52456073e270bc90209b4584b138f-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0aff5967d4d3493688e6b18d3523986cf92e7218-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2f82c9047a1b2960ecb9a2e5d9c6c6a0eaa3b696-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2f82c9047a1b2960ecb9a2e5d9c6c6a0eaa3b696-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Bike, Heart Rate Monitor, Dumbbells, Foam Roller, Mat*",
+                        "categories": "Cardio, Low Impact, Bootcamp",
+                        "colorPrimary": "#64aeff",
+                        "colorPrimaryOptions": {
+                          "argb": "#64aeff",
+                          "rgba": "#64aeff"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "gAjyjR8IcIqVjU7DkPrhBI",
+                          "_type": "workout",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fa271e540166d65857d508192cd213c9c43af01a-1344x718.jpg"
+                          },
+                          "videoId": "7DJ001SW",
+                          "title": "Sample Workout: Day 1- Jumpstart With Justin",
+                          "subtitle": "21m",
+                          "catalog": "bod"
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "7"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "20-60"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                            },
+                            "title": "All Levels"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "7P18BcAC9wsBBw6BhUua9N",
+                        "_type": "collection",
+                        "slug": "7-day-jumpstart-get-started",
+                        "title": "Get Started",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "gAjyjR8IcIqVjU7DkPrhBI"
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7wCv6A",
+                        "_type": "collection",
+                        "slug": "7-day-jumpstart-featured-guides",
+                        "title": "Workout Calendar",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvQwxfc"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZLMo4J",
+                        "_type": "editorial",
+                        "slug": "7-day-jumpstart-is-7-day-jumpstart-right-for-me",
+                        "title": "Is 7 Day Jumpstart Right For Me?",
+                        "subtitle": null,
+                        "content": "Whether you're a new bike owner or getting back in the groove after a hiatus, you'll love this all-level program featuring seven different trainers and class types.  Each workout is unique, and you'll learn how to use your bike for cardio, strength and recovery too. In 7 days you'll be motivated and inspired to continue!",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7bb1ccefa2eb1df20afe1998fd147eb9ca364151-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7wCuMr",
+                        "_type": "editorial",
+                        "slug": "7-day-jumpstart-what-are-the-workouts-like",
+                        "title": "What Are The Workouts Like?",
+                        "subtitle": null,
+                        "content": "Each workout features a different trainer who will motivate you with a unique focus and workout style. You'll learn about heart rate zones and their benefits while exploring different ride types, from rhythm rides to climbs. You'll also incorporate strength and recovery work off the bike for a balanced total body experience. Workouts range from 20-60 minutes.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e6b30f898f0816e860e16983be38ba31119d243e-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Workouts",
+                          "url": "https://www.beachbodyondemand.com/programs/7-day-jumpstart/workouts"
+                        }
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvQwxu4",
+                        "_type": "editorial",
+                        "slug": "7-day-jumpstart-tools-equipment",
+                        "title": "Tools + Equipment",
+                        "subtitle": null,
+                        "content": "You'll definitely need your bike and heart rate monitor, but don't forget your dumbbells! 2 sets of varying weights is ideal. You'll also want your foam roller for recovery, and a mat is recommended for floor work.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/720900f4a61de403b6d28fba5f732abfb539c44c-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZLMp7j",
+                        "_type": "editorial",
+                        "slug": "7-day-jumpstart-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "Beachbody\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.beachbodyondemand.com/programs/introduction-to-nutrition"
+                        }
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Justin",
+                            "bio": "Justin is a NASM CPT and former dancer with passion for body mechanics, proper form, and self-care. You'll have so much fun in his cycling and strength workouts that you won't realize he is putting you to WORK! Justin is a certified specialist in Corrective Exercise, Weight Loss, and Heart Rate Performance, Schwinn Cycling and Kettlebell Concepts.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dea87b812d8cbc720e3efd3731d76498b2bad8ec-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://m.facebook.com/Justin-Flexen-284360295664760/",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/JUSTINFLEXEN/",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              }
+                            ]
+                          },
+                          {
+                            "intro": "Meet Miriam",
+                            "bio": "If you love to learn about the body, Miriam is for you. Hailing from Puerto Rico, she is a NASM CPT, Corrective Exercise Specialist, and cardiac exercise physiologist with an MS in Exercise Science. Miriam's hip hop and Latin vibes keep her classes spicy, and her passion for building community through movement fuels her knowledge-is-power approach.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6021af0d210f74947c3f8cc134e1433d2b4ee53c-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.instagram.com/mimialicea",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              }
+                            ]
+                          },
+                          {
+                            "intro": "Meet Davanna",
+                            "bio": "The fitness bug bit Davanna when she became a cycling instructor, but for this professional dancer and NFL cheerleader, other formats like cardio, HIIT, strength training and recovery work come just as naturally. Davanna believes movement heals, and her workouts are infused with tough southern love. If you need someone to believe in you, she does!",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f07aca61e7f1d00902d7a6dab59eccbef902fdc-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.instagram.com/davanna__",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              }
+                            ]
+                          },
+                          {
+                            "intro": "Meet Christina",
+                            "bio": "Christina is a NASM CPT who has traveled the U.S. as a Master Trainer for the world's top fitness companies. She believes that growth comes from discomfort and will guide you through doubt, right across the finish line! Also certified in Schwinn cycling and a heart rate specialist, Christina loves being home with her husband, 4 kids, and 2 pups.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/71ce02bad2347366c1ba4b3eb3e40060e6a278ee-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.instagram.com/christina.lagrega",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              }
+                            ]
+                          },
+                          {
+                            "intro": "Meet Dyan",
+                            "bio": "Dyan is living her dream of bringing health to people of all ages through movement. With several nationally recognized certifications and a B.S. in Athletic Training, she knows the struggle with weight loss, as she changed her own lifestyle to lose over 90 pounds! Dyan's workouts are challenge packed, tons of fun and filled with inspiration.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/64d709f1e2e3657a5eb59959a93661634312f379-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/dyan.tsiumis",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/dfierce/",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              }
+                            ]
+                          },
+                          {
+                            "intro": "Meet Shaun",
+                            "bio": "From your first workout with Shaun, you can tell he is dedicated. Shaun is a Cleveland born runner, actor and director who followed his passion for fitness to become an NASM CPT and Schwinn cycling instructor. He feels fortunate to guide people on the road to health and will remind you that it's not how far you go, but how you commit to each step.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a1800f50d682ac5201d9f9ba811c8cd1f755a7fe-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/shaunpatricktubbs",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/shaunpatricktubbs",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://twitter.com/an_actor",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              }
+                            ]
+                          },
+                          {
+                            "intro": "Meet Jesse",
+                            "bio": "Jesse is a one-of-a-kind combo of laid back and hardcore. A NASM CPT, Schwinn Certified Cycling Instructor, and 200 RTY, Jesse is also a devoted Mom and former model with an MA in Psychology, and an avid runner with many half and full marathons under her belt. She knows the value of hard work and will share that fire with you in every workout!",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1b89ec9af447b0da13024a8e33478cf85952df59-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://facebook.com/jesseallowaybarton",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/fit_jab/",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFSidc",
+                        "_type": "collection",
+                        "slug": "7-day-jumpstart-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7wECty",
+                          "NWOt1I2xWP7xm05A7w531j",
+                          "NWOt1I2xWP7xm05A7uGA3w",
+                          "NWOt1I2xWP7xm05A7uFR1B"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvQwxjE",
+                        "_type": "collection",
+                        "slug": "7dj-jumpstart-week",
+                        "title": "Jumpstart Week",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvQwtq4",
+                          "BoGK5VlBLllbPFYTvQwuhM",
+                          "BoGK5VlBLllbPFYTvQww4G",
+                          "NWOt1I2xWP7xm05A7wCsp7",
+                          "NWOt1I2xWP7xm05A7wCtV0",
+                          "NWOt1I2xWP7xm05A7wCu6c",
+                          "BoGK5VlBLllbPFYTvQwxaC"
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFSidc",
+                        "_type": "collection",
+                        "slug": "7-day-jumpstart-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7wECty",
+                          "NWOt1I2xWP7xm05A7w531j",
+                          "NWOt1I2xWP7xm05A7uGA3w",
+                          "NWOt1I2xWP7xm05A7uFR1B"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workout Calendar",
+                    "slug": "workout-calendar",
+                    "modules": [
+                      {
+                        "_id": "cZChE2RoIaPtOnTrLfjyd6",
+                        "_type": "collection",
+                        "slug": "7dj-workout-calendar",
+                        "title": "Workout Calendar",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvQwxfc"
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFSidc",
+                        "_type": "collection",
+                        "slug": "7-day-jumpstart-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7wECty",
+                          "NWOt1I2xWP7xm05A7w531j",
+                          "NWOt1I2xWP7xm05A7uGA3w",
+                          "NWOt1I2xWP7xm05A7uFR1B"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "A3jSdym3jf5hqTWanxQY3O": {
+                    "_id": "A3jSdym3jf5hqTWanxQY3O",
+                    "_type": "promo",
+                    "slug": "7dj-seven-day-jumpstart-sizzle-7dj00gs08",
+                    "brandCode": "7DJ",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZLMsyl",
+                      "_type": "program",
+                      "slug": "7-day-jumpstart"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2564165b7c411bf95e488c1af60fea2313ca0574-1306x888.jpg"
+                    },
+                    "title": "Introducing Seven Day Jumpstart",
+                    "descriptionLong": "Meet your trainers and learn what to expect for the next 7 days!",
+                    "trainers": [
+                      {
+                        "slug": "justin-flexen",
+                        "firstName": "Justin",
+                        "lastName": "Flexen",
+                        "bio": "Justin is a NASM CPT and former dancer with a passion for health, wellness and positivity. Certified in Schwinn cycling, heart rate performance, and corrective exercise, he emphasizes good form and a good time in his workouts.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d03a111dbfa128f3659253da19464b6e65b07636-860x1164.png"
+                          }
+                        }
+                      },
+                      {
+                        "slug": "miriam-alicea",
+                        "firstName": "Miriam",
+                        "lastName": "Alicea",
+                        "bio": "Miriam is a NASM CPT, corrective exercise specialist, and cardiac exercise physiologist with an MS in exercise science. Her passion for building community through movement fuels her approach.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/46789fe1372fcf0a2b78cadd8db3330be2944ea2-860x1164.png"
+                          }
+                        }
+                      },
+                      {
+                        "slug": "davanna-law",
+                        "firstName": "Davanna",
+                        "lastName": "Law",
+                        "bio": "Davanna is a NASM CPT, professional dancer and NFL cheerleader who teaches cardio, HIIT, and strength training. Davanna believes movement heals, and her workouts are infused with tough southern love.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5935b340a299d1ef9df64e01ad4e1ad569c29120-860x1164.png"
+                          }
+                        }
+                      },
+                      {
+                        "slug": "dyan-tsiumis",
+                        "firstName": "Dyan",
+                        "lastName": "Tsiumis",
+                        "bio": "Dyan is a NASM CPT with several nationally recognized certs and a B.S. in Athletic Training. She knows the struggle with weight loss, as she changed her own lifestyle to lose over 90 pounds.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1ebfab384b7784458adfa1c18cff674c9cafb9f2-860x1164.png"
+                          }
+                        }
+                      },
+                      {
+                        "slug": "christina-lagrega",
+                        "firstName": "Christina",
+                        "lastName": "LaGrega",
+                        "bio": "Christina is a NASM CPT who traveled the U.S. as a Master Trainer for the world's top fitness companies. Certified in Schwinn cycling and more, she loves being home with her husband, 4 kids, and 2 pups.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/74434b9be2fca58deba5befbd77a6fc301c48b20-860x1164.png"
+                          }
+                        }
+                      },
+                      {
+                        "slug": "shaun-tubbs",
+                        "firstName": "Shaun",
+                        "lastName": "Tubbs",
+                        "bio": "Also a runner, actor and director, Shaun is an NASM CPT and Schwinn cycling instructor. He will remind you that it's not how far you go, but how you commit to each step, that matters.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7ebd9c74f3c6dda56468d4933cfc439932e09c44-860x1164.png"
+                          }
+                        }
+                      },
+                      {
+                        "slug": "jesse-barton",
+                        "firstName": "Jesse",
+                        "lastName": "Barton",
+                        "bio": "Jesse is a NASM CPT and yoga certified trainer with an M.A. in psychology. Jesse is also an avid runner, but her most important role is that of Mama to her son Ollie.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/758b7814499413cb79096c1cfc2630cf743fe58b-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "7DJ00GS08",
+                      "durationActual": 121,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQwtq4": {
+                    "_id": "BoGK5VlBLllbPFYTvQwtq4",
+                    "_type": "workout",
+                    "slug": "7dj-day-1-jumpstart-with-justin-7dj001",
+                    "brandCode": "7DJ",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZLMsyl",
+                      "_type": "program",
+                      "slug": "7-day-jumpstart"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JustinFlexen"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=7DJ&locale=en_us&trainerName=JustinFlexen"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 1: Jumpstart With Justin",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3c51b3022cf588e765670d94ad71af88d2607b9c-730x496.jpg"
+                    },
+                    "descriptionLong": "Whether it's your first time on the bike or getting back on after a little break, Justin recaps the fundamentals, focusing on heart rate and cadence to maximize your workout.",
+                    "durationEstimate": 1260,
+                    "focusAreas": [
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Heart Rate Monitor"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "justin-flexen",
+                        "firstName": "Justin",
+                        "lastName": "Flexen",
+                        "bio": "Justin is a NASM CPT and former dancer with a passion for health, wellness and positivity. Certified in Schwinn cycling, heart rate performance, and corrective exercise, he emphasizes good form and a good time in his workouts.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d03a111dbfa128f3659253da19464b6e65b07636-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "7DJ001",
+                      "durationActual": 1254,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQwuhM": {
+                    "_id": "BoGK5VlBLllbPFYTvQwuhM",
+                    "_type": "workout",
+                    "slug": "7dj-day-2-sweat-sculpt-with-miriam-7dj002",
+                    "brandCode": "7DJ",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZLMsyl",
+                      "_type": "program",
+                      "slug": "7-day-jumpstart"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=MiriamAlicea"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=7DJ&locale=en_us&trainerName=MiriamAlicea"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 2: Sweat + Sculpt With Miriam",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/35a50ddff560fd0567c12f01b440983abdf42bf4-730x496.jpg"
+                    },
+                    "descriptionLong": "In this total body cross training workout, Miriam will warm you up on the bike and then take you through an upper body sculpt session with a core focused finisher.",
+                    "durationEstimate": 2880,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      },
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Heart Rate Monitor"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "miriam-alicea",
+                        "firstName": "Miriam",
+                        "lastName": "Alicea",
+                        "bio": "Miriam is a NASM CPT, corrective exercise specialist, and cardiac exercise physiologist with an MS in exercise science. Her passion for building community through movement fuels her approach.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/46789fe1372fcf0a2b78cadd8db3330be2944ea2-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "7DJ002",
+                      "durationActual": 2876,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQww4G": {
+                    "_id": "BoGK5VlBLllbPFYTvQww4G",
+                    "_type": "workout",
+                    "slug": "7dj-day-3-dance-party-with-davanna-7dj003",
+                    "brandCode": "7DJ",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZLMsyl",
+                      "_type": "program",
+                      "slug": "7-day-jumpstart"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DavannaLaw"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=7DJ&locale=en_us&trainerName=DavannaLaw"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 3: Dance Party With Davanna",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b87a3a6d616e0c65176c9ad380d5470f768ddad7-730x496.jpg"
+                    },
+                    "descriptionLong": "Nothing feels as good as riding to the beat! In this Rhythm Ride, you'll work in all three heart rate zones and match your cadence to the music to make the time fly by.",
+                    "durationEstimate": 1860,
+                    "focusAreas": [
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Heart Rate Monitor"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "davanna-law",
+                        "firstName": "Davanna",
+                        "lastName": "Law",
+                        "bio": "Davanna is a NASM CPT, professional dancer and NFL cheerleader who teaches cardio, HIIT, and strength training. Davanna believes movement heals, and her workouts are infused with tough southern love.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5935b340a299d1ef9df64e01ad4e1ad569c29120-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "7DJ003",
+                      "durationActual": 1858,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQwxaC": {
+                    "_id": "BoGK5VlBLllbPFYTvQwxaC",
+                    "_type": "workout",
+                    "slug": "day-7-total-body-cross-train-with-jesse-7dj007",
+                    "brandCode": "7DJ",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZLMsyl",
+                      "_type": "program",
+                      "slug": "7-day-jumpstart"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JesseBarton"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=7DJ&locale=en_us&trainerName=JesseBarton"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 7: Total Body Cross Train With Jesse",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/10e204c834a612f9d184bd50fc2c63d4cf05b115-730x496.jpg"
+                    },
+                    "descriptionLong": "Make the most of your equipment and your time by getting it ALL done in one super-charged workout. Start with cardio on the bike and a weights focused strength session, and finish with foam roll and mobility that will leave you ready to push play on this program all over again!",
+                    "durationEstimate": 3600,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      },
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Foam Roller"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Heart Rate Monitor"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "jesse-barton",
+                        "firstName": "Jesse",
+                        "lastName": "Barton",
+                        "bio": "Jesse is a NASM CPT and yoga certified trainer with an M.A. in psychology. Jesse is also an avid runner, but her most important role is that of Mama to her son Ollie.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/758b7814499413cb79096c1cfc2630cf743fe58b-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "7DJ007",
+                      "durationActual": 3609,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQwxfc": {
+                    "_id": "BoGK5VlBLllbPFYTvQwxfc",
+                    "_type": "resource",
+                    "slug": "7dj-7-day-jumpstart-calendar-3658877",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZLMsyl",
+                      "_type": "program",
+                      "slug": "7-day-jumpstart"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "7-Day Jumpstart Calendar",
+                    "categories": null,
+                    "description": "Follow this calendar to get the jumpstart you need and earn a badge!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c35f75bbcc00a6d5d1dabed17b21d7822cd9b9e-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "7DJS_EN_US-7_Day_Calendar-06.03.22.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/5138888866e7570976b18ac70ce88268f4361df2.pdf?file=7DJS_EN_US-7_Day_Calendar-06.03.22.pdf",
+                      "size": 388538
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uFR1B": {
+                    "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                    "_type": "program",
+                    "slug": "clean-week",
+                    "brandCode": "CW",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2017-08-31",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "Clean Week",
+                    "description": "Clean Week helps you create healthy nutrition and fitness habits in just 7 days.",
+                    "descriptionShort": "Clean Week helps you create healthy nutrition and fitness habits in just 7 days.",
+                    "descriptionLong": "Clean Week\u2122 is a seven-day fitness and nutrition program designed to help you kick-start healthy habits that get real results and can lead to a lifestyle change that sticks!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/01e7fb3fb027f45f212c7c6ad0d381d5d742b930-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f28850051a3f345784c9432ca772af926cdcd94b-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f28850051a3f345784c9432ca772af926cdcd94b-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/01e7fb3fb027f45f212c7c6ad0d381d5d742b930-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/01e7fb3fb027f45f212c7c6ad0d381d5d742b930-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3e7bcceef246715c1943cec6f530158d434c82ca-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/311b8c85e918b953fe6d36f912ffd1a2d3e69b28-879x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Week",
+                      "value": "1"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "7"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Push-Up Stands"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uGA3w": {
+                    "_id": "NWOt1I2xWP7xm05A7uGA3w",
+                    "_type": "program",
+                    "slug": "4-weeks-for-every-body",
+                    "brandCode": "4WEB",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2022-02-27",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=4WEB&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJkEr",
+                        "slug": "po-4WEB_PERM",
+                        "title": "4 Weeks for Every Body Program Entitlement",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=4WEB&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "4 Weeks for Every Body",
+                    "description": "No-Impact, just 4 days a week. (Great with The 4 Week Gut Protocol)",
+                    "descriptionShort": "No-Impact, just 4 days a week. (Great with The 4 Week Gut Protocol)",
+                    "descriptionLong": "No-impact, 30 min. a day, just 4 days a week with amazing results for every body! It\u2019s easy on the joints and great for the gut when used with The 4 Week Gut Protocol.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/20cf2ab874a37f1d48f28b6366cb0ac96472b5a3-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ae98f5b4f28e975e59f0e23f89d74185c19a0f5b-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ae98f5b4f28e975e59f0e23f89d74185c19a0f5b-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/20cf2ab874a37f1d48f28b6366cb0ac96472b5a3-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/20cf2ab874a37f1d48f28b6366cb0ac96472b5a3-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7e067b5f4728e7f1b1c39e9a17dd8b59eebea031-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b205eb961249405656a8cc4cc53f9882e6cdaa09-1001x449.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "4"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "16"
+                    },
+                    "level": {
+                      "title": "All Levels",
+                      "slug": "all-levels",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Core Ball"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w531j": {
+                    "_id": "NWOt1I2xWP7xm05A7w531j",
+                    "_type": "program",
+                    "slug": "job-1-hybrid",
+                    "brandCode": "JB1H",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2022-01-14",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=JB1H&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Job 1 Hybrid",
+                    "description": "20 minutes of strength training and cycling in one workout.",
+                    "descriptionShort": "20 minutes of strength training and cycling in one workout.",
+                    "descriptionLong": "Get both resistance training and cycling in these five Job 1 Hybrid workouts. Start with 10 minutes of targeted strength building, and then hop on your bike for a 10-minute ride that helps torch major calories.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/32e9dfe44b7783ce086ffe8c65c37b9560a3f5ae-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/206f41458c4ce948aad2a8d74e01f93d70379cd5-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/206f41458c4ce948aad2a8d74e01f93d70379cd5-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/32e9dfe44b7783ce086ffe8c65c37b9560a3f5ae-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/32e9dfe44b7783ce086ffe8c65c37b9560a3f5ae-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4159926ba59e06eb3632cb7487ab012b19033dc7-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5d18d18acf92a9f88b68a490a7143ab05b8fe7ee-638x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "5"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "5"
+                    },
+                    "level": {
+                      "title": "All Levels",
+                      "slug": "all-levels",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Stationary Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7wCsp7": {
+                    "_id": "NWOt1I2xWP7xm05A7wCsp7",
+                    "_type": "workout",
+                    "slug": "7dj-day-4-ride-recover-with-dyan-7dj004",
+                    "brandCode": "7DJ",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZLMsyl",
+                      "_type": "program",
+                      "slug": "7-day-jumpstart"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DyanTsiumis"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=7DJ&locale=en_us&trainerName=DyanTsiumis"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 4: Ride + Recover With Dyan",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b14d1b99a12792328a6b9e4b1b6650b994f22c92-730x496.jpg"
+                    },
+                    "descriptionLong": "Dyan will tap you into Zone 3 in this heart pumping High Intensity Interval Training ride. Then you'll hit the mat for a yoga-inspired lower body recovery for total body balance.",
+                    "durationEstimate": 1920,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Heart Rate Monitor"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "dyan-tsiumis",
+                        "firstName": "Dyan",
+                        "lastName": "Tsiumis",
+                        "bio": "Dyan is a NASM CPT with several nationally recognized certs and a B.S. in Athletic Training. She knows the struggle with weight loss, as she changed her own lifestyle to lose over 90 pounds.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1ebfab384b7784458adfa1c18cff674c9cafb9f2-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "7DJ004",
+                      "durationActual": 1920,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7wCtV0": {
+                    "_id": "NWOt1I2xWP7xm05A7wCtV0",
+                    "_type": "workout",
+                    "slug": "7dj-day-5-80s-rock-ride-with-christina-7dj005",
+                    "brandCode": "7DJ",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZLMsyl",
+                      "_type": "program",
+                      "slug": "7-day-jumpstart"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ChristinaLaGrega"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=7DJ&locale=en_us&trainerName=ChristinaLaGrega"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 5: '80s Rock Ride With Christina",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6b7a4048cee6bb7d0e8b9fd353c91af5a35f73fb-730x496.jpg"
+                    },
+                    "descriptionLong": "Add resistance to climb with Christina and strengthen your legs and glutes for rockin' results.",
+                    "durationEstimate": 1860,
+                    "focusAreas": [
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Heart Rate Monitor"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "christina-lagrega",
+                        "firstName": "Christina",
+                        "lastName": "LaGrega",
+                        "bio": "Christina is a NASM CPT who traveled the U.S. as a Master Trainer for the world's top fitness companies. Certified in Schwinn cycling and more, she loves being home with her husband, 4 kids, and 2 pups.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/74434b9be2fca58deba5befbd77a6fc301c48b20-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "7DJ005",
+                      "durationActual": 1874,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7wCu6c": {
+                    "_id": "NWOt1I2xWP7xm05A7wCu6c",
+                    "_type": "workout",
+                    "slug": "7dj-day-6-recovery-ride-with-shaun-7dj006",
+                    "brandCode": "7DJ",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZLMsyl",
+                      "_type": "program",
+                      "slug": "7-day-jumpstart"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunTubbs"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=7DJ&locale=en_us&trainerName=ShaunTubbs"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 6: Recovery Ride With Shaun",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e9cd75d2ce460848f90bc054832e8a3e62188b68-730x496.jpg"
+                    },
+                    "descriptionLong": "This ride is all about active recovery. Light resistance and moderate tempos will give your legs and booty a break, plus help ease tension and muscle soreness.",
+                    "durationEstimate": 1260,
+                    "focusAreas": [
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Heart Rate Monitor"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-tubbs",
+                        "firstName": "Shaun",
+                        "lastName": "Tubbs",
+                        "bio": "Also a runner, actor and director, Shaun is an NASM CPT and Schwinn cycling instructor. He will remind you that it's not how far you go, but how you commit to each step, that matters.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7ebd9c74f3c6dda56468d4933cfc439932e09c44-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "7DJ006",
+                      "durationActual": 1276,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7wECty": {
+                    "_id": "NWOt1I2xWP7xm05A7wECty",
+                    "_type": "program",
+                    "slug": "hiit-your-goals",
+                    "brandCode": "HYG",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2022-07-11",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HYG&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "HIIT Your Goals",
+                    "description": "3 weeks of HIIT and strength training, on and off the bike.",
+                    "descriptionShort": "3 weeks of HIIT and strength training, on and off the bike.",
+                    "descriptionLong": "A fun, challenging 3-Week HIIT training program on and off the bike to help you get stronger, fitter and see total body results.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ef5b626ffc1095b1e5ccaf5588c4517e63e9e1cb-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87fe46fd9f8fb0b2db4f7ce027fabdcd52b16617-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87fe46fd9f8fb0b2db4f7ce027fabdcd52b16617-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ef5b626ffc1095b1e5ccaf5588c4517e63e9e1cb-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ef5b626ffc1095b1e5ccaf5588c4517e63e9e1cb-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/484edaf74fa7b5baf13d1133cfde458603124639-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2c0023a6cb3fb8cfa4485e23856fb1575181c77d-780x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20-45"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "3"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "15"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "HIIT",
+                        "slug": "hiit"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      },
+                      {
+                        "title": "Heart Rate Monitor"
+                      },
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "gAjyjR8IcIqVjU7DkPrhBI": {
+                    "_id": "gAjyjR8IcIqVjU7DkPrhBI",
+                    "_type": "workout",
+                    "slug": "7dj-sample-workout-day-1-jumpstart-with-justin-7dj001sw",
+                    "brandCode": "7DJ",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZLMsyl",
+                      "_type": "program",
+                      "slug": "7-day-jumpstart"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Sample Workout: Day 1- Jumpstart With Justin",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f21d64fa92442276a935916e8ff8c64f79c9ed0d-1310x698.jpg"
+                    },
+                    "descriptionLong": "Whether it's your first time on the bike or getting back on after a little break, Justin recaps the fundamentals, focusing on heart rate and cadence to maximize your workout.",
+                    "durationEstimate": 1260,
+                    "focusAreas": [
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Heart Rate Monitor"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "justin-flexen",
+                        "firstName": "Justin",
+                        "lastName": "Flexen",
+                        "bio": "Justin is a NASM CPT and former dancer with a passion for health, wellness and positivity. Certified in Schwinn cycling, heart rate performance, and corrective exercise, he emphasizes good form and a good time in his workouts.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d03a111dbfa128f3659253da19464b6e65b07636-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "7DJ001SW",
+                      "durationActual": 1254,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223546547,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "7-day-jumpstart",
+              "en-US"
+            ],
+            "queryHash": "[\"7-day-jumpstart\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/7-day-jumpstart/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "7-day-jumpstart",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

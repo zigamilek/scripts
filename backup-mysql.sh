@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/bin/mysqldump -u root -p"LO#4pnMr1FC5-V" --databases $(/usr/bin/mysql -u root -p"LO#4pnMr1FC5-V" -N information_schema -e "SELECT DISTINCT(TABLE_SCHEMA) FROM tables WHERE TABLE_SCHEMA LIKE '%Music%' OR TABLE_SCHEMA LIKE '%Videos%' OR TABLE_SCHEMA LIKE '%ziga%'")| /bin/gzip > /home/ziga/share/Backups/MySQL/euler_kodi_and_ziga_databases_`date +\%Y\%m\%d`.sql.gz

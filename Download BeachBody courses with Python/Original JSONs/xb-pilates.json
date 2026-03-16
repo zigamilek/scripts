@@ -1,0 +1,3640 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "xb-pilates",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                "_type": "program",
+                "slug": "xb-pilates",
+                "title": "XB Pilates",
+                "subtitle": null,
+                "brandCode": "XBP",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "XB Pilates - Bodyweight Workout Program",
+                  "description": "Tone up without bulking up with XB Pilates. Develop the functional strength, body control, and body awareness in the comfort of your home with trainer Andrea Rogers.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/081c570bff0a4ac30396512682f7863b39355c70-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Andrea",
+                    "lastName": "Rogers",
+                    "bioBodi": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cb24c0d8b6fc20b9278dd920c58cdd99597857f7-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#b9a5cf",
+                "colorPrimaryOptions": {
+                  "argb": "#b9a5cf",
+                  "rgba": "#b9a5cf"
+                },
+                "descriptionShort": "Get a Pilates body in 21 days!",
+                "descriptionLong": "XB Pilates pairs traditional mat moves with reformer-inspired cardio sequences to sculpt your abs, tighten your booty, and build strength from head to toe.",
+                "sampleWorkoutId": "gAjyjR8IcIqVjU7DkPrDsy",
+                "trailerId": "gAjyjR8IcIqVjU7DkPqTWO",
+                "videoOverviewId": "gAjyjR8IcIqVjU7DkPrDsy",
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/xb-pilates"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "30"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Days",
+                  "value": "21"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Days",
+                  "value": "21"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Mat"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Strength Slides"
+                  },
+                  {
+                    "title": "Resistance Loops"
+                  },
+                  {
+                    "title": "Dumbbells (Light)"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Pilates"
+                  },
+                  {
+                    "title": "Barre"
+                  },
+                  {
+                    "title": "Low Impact"
+                  },
+                  {
+                    "title": "Slim & Sculpt"
+                  },
+                  {
+                    "title": "Weight Loss"
+                  }
+                ],
+                "level": {
+                  "title": "Intermediate",
+                  "slug": "intermediate",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "light",
+                  "gradientOpacity": 70,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/49d524e8c3d7fb258b5cddf276f7ce9e74424272-480x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/960550b28b0399027d2d3092d6298892b7fcdb23-480x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/73fa802e6d058fe39709c0c9db92b060aad03d7a.mp4"
+                  },
+                  "loopingVideoPortrait": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/20cf1349af211dd7600d7ef8e019f9bbd5caca16.mp4"
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f8340a604f8e8d193ccec32cc000a24325d2efa-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31adc8ec91d78fde648623a406470044c4d57b1e-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eb95bfdc79957cfcc88e2fe73b9cf48fe120b9cc-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/abbfc91d7de3e97cd10f7e1cc9db8034d6efe1bb-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/081c570bff0a4ac30396512682f7863b39355c70-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/081c570bff0a4ac30396512682f7863b39355c70-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Mat, Strength Slides*, Resistance Loops*, Dumbbells (Light)*",
+                        "categories": "Pilates, Barre, Low Impact, Slim & Sculpt, Weight Loss",
+                        "colorPrimary": "#b9a5cf",
+                        "colorPrimaryOptions": {
+                          "argb": "#b9a5cf",
+                          "rgba": "#b9a5cf"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "gAjyjR8IcIqVjU7DkPrDsy",
+                          "_type": "workout",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a528627a5b74e8adb6895f8506f51f4ded6da9d4-1310x698.jpg"
+                          },
+                          "videoId": "XBP00BODSW",
+                          "title": "Sample Workout - Hit the Mat 1",
+                          "subtitle": "30m",
+                          "catalog": "bod"
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Days",
+                            "value": "21"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "30"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                            },
+                            "title": "Intermediate"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPZNTs",
+                        "_type": "collection",
+                        "slug": "xb-pilates-get-started",
+                        "title": "Get Started",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "gAjyjR8IcIqVjU7DkPrDsy",
+                          "BoGK5VlBLllbPFYTvPZDkW",
+                          "BoGK5VlBLllbPFYTvPZDwG",
+                          "NWOt1I2xWP7xm05A7utdpA"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPZNvs",
+                        "_type": "collection",
+                        "slug": "xb-pilates-featured-guides",
+                        "title": "Calendars",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7utkgs",
+                          "Q6j5eG7tj3PSUghmZHUNs3",
+                          "NWOt1I2xWP7xm05A7utl36",
+                          "Q6j5eG7tj3PSUghmZHTQ3H"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPZNhQ",
+                        "_type": "editorial",
+                        "slug": "xb-pilates-is-xb-pilates-right-for-me",
+                        "title": "Is XB Pilates Right For Me?",
+                        "subtitle": null,
+                        "content": "XB Pilates is for anyone looking to tighten and sculpt their bodies without enduring high-intensity, high-impact workouts. You can do XB Pilates in the comfort of your home, so you don\u2019t have to take crowded, intimidating Pilates classes to reach your goals. XB Pilates is for all fitness levels, so if you\u2019re advanced follow Andrea and if you\u2019re just starting out follow the modifier.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0c7199c28da318154b94ffdec95c6e676d364166-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPZNl2",
+                        "_type": "editorial",
+                        "slug": "xb-pilates-what-are-the-workouts-like",
+                        "title": "What Are The Workouts Like?",
+                        "subtitle": null,
+                        "content": "Andrea presents Pilates in a fun, modern way and combines cardio, targeted abs and booty exercises, total-body strength and mobility work so you have everything you need to develop a tight, lean body. Andrea keeps things moving and her nonstop energy is infectious. It feels like you\u2019re working out with her one-on-one so you want to come back day after day.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b495802da6619be0a1e8a8ac760d9ee2ee01c18d-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Go to Workouts",
+                          "url": "https://www.beachbodyondemand.com/programs/xb-pilates/workouts"
+                        }
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7utmzd",
+                        "_type": "editorial",
+                        "slug": "xb-pilates-tools-equipment",
+                        "title": "Tools + Equipment",
+                        "subtitle": null,
+                        "content": "Andrea and the rest of the cast frequently use light dumbbells, resistance loops and strength slides, but there is always one person on-screen showing you how to do the moves with no equipment, so the choice is entirely up to you.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4063330f749bbfbb4e4b3d72be58df8d4866b515-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7utnCS",
+                        "_type": "editorial",
+                        "slug": "xb-pilates-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "Beachbody\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.beachbodyondemand.com/programs/introduction-to-nutrition/starthere"
+                        }
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Andrea",
+                            "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cb24c0d8b6fc20b9278dd920c58cdd99597857f7-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/andrealeighrogers",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/andrealeighrogers/?hl=en",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD1lac",
+                        "_type": "successStory",
+                        "slug": "success-story-xbp-kacie-o",
+                        "title": "Kacie O. lost 24 pounds doing XB Pilates.",
+                        "authorName": "Kacie O.",
+                        "testimonial": "I knew that I could do anything for just 30 minutes, so there was no excuse to not just hit play!",
+                        "images": [
+                          {
+                            "title": "Before",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/91f23c6f4b1af2f9b95f6c54096bcd4be0a41bb1-486x636.jpg"
+                            }
+                          },
+                          {
+                            "title": "After",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3665530c31054d27167d3021cb0adcb6b1b6cd37-486x636.jpg"
+                            }
+                          }
+                        ],
+                        "disclaimer": "Results vary based on starting point and effort. Results achieved in 3.5 months with XB Pilates."
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdxjmr",
+                        "_type": "collection",
+                        "slug": "xb-pilates-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7w57uL",
+                          "NWOt1I2xWP7xm05A7utW0T",
+                          "NWOt1I2xWP7xm05A7tYnEi",
+                          "Q6j5eG7tj3PSUghmZBym4R"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZHUS3D",
+                        "_type": "collection",
+                        "slug": "xb-pilates-week-1",
+                        "title": "Week 1 - Level 1",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZHU2CR",
+                          "NWOt1I2xWP7xm05A7utebt",
+                          "Q6j5eG7tj3PSUghmZHU44B",
+                          "NWOt1I2xWP7xm05A7utfXA",
+                          "NWOt1I2xWP7xm05A7utg8m"
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7utmf7",
+                        "_type": "collection",
+                        "slug": "xb-pilates-week-2",
+                        "title": "Week 2 - Level 2",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPZHEO",
+                          "NWOt1I2xWP7xm05A7utigv",
+                          "Q6j5eG7tj3PSUghmZHUFE7",
+                          "NWOt1I2xWP7xm05A7utjNf",
+                          "NWOt1I2xWP7xm05A7utjbL"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPZNNY",
+                        "_type": "collection",
+                        "slug": "xb-pilates-week-3",
+                        "title": "Week 3 - Level 3",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPZKI4",
+                          "BoGK5VlBLllbPFYTvPZKa8",
+                          "BoGK5VlBLllbPFYTvPZKpU",
+                          "NWOt1I2xWP7xm05A7utkMM"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdxjmr",
+                        "_type": "collection",
+                        "slug": "xb-pilates-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7w57uL",
+                          "NWOt1I2xWP7xm05A7utW0T",
+                          "NWOt1I2xWP7xm05A7tYnEi",
+                          "Q6j5eG7tj3PSUghmZBym4R"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workout Calendars",
+                    "slug": "workout-calendars",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPZNCi",
+                        "_type": "collection",
+                        "slug": "xb-pilates-workout-calendars",
+                        "title": "Workout Calendars",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7utkgs",
+                          "Q6j5eG7tj3PSUghmZHUNs3",
+                          "NWOt1I2xWP7xm05A7utl36",
+                          "Q6j5eG7tj3PSUghmZHTQ3H"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdxjmr",
+                        "_type": "collection",
+                        "slug": "xb-pilates-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7w57uL",
+                          "NWOt1I2xWP7xm05A7utW0T",
+                          "NWOt1I2xWP7xm05A7tYnEi",
+                          "Q6j5eG7tj3PSUghmZBym4R"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "BoGK5VlBLllbPFYTvPZDkW": {
+                    "_id": "BoGK5VlBLllbPFYTvPZDkW",
+                    "_type": "promo",
+                    "slug": "xb-pilates-welcome-to-xb-pilates-xbp00bod1",
+                    "brandCode": "XBP",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/747c71753e8e2b0c50bc7d6dd529d9f2c552ce4f-730x496.jpg"
+                    },
+                    "title": "Welcome to XB Pilates",
+                    "descriptionLong": "Andrea welcomes you to the program and shows you how to get started with XB Pilates!",
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD1",
+                      "durationActual": 111,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPZDwG": {
+                    "_id": "BoGK5VlBLllbPFYTvPZDwG",
+                    "_type": "promo",
+                    "slug": "xb-pilates-equipment-video-xbp00bod2",
+                    "brandCode": "XBP",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a3d69e042da62cb792b56186a6a5ced486ff259f-730x496.jpg"
+                    },
+                    "title": "Equipment Video",
+                    "descriptionLong": "This 2-minute video shows you the equipment you\u2019ll use throughout the program.",
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD2",
+                      "durationActual": 141,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPZHEO": {
+                    "_id": "BoGK5VlBLllbPFYTvPZHEO",
+                    "_type": "workout",
+                    "slug": "xb-pilates-cardio-fusion-2-xbp00bod8",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cardio Fusion 2",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/05060608d23241ffe2aa3f5e7d0c464e01e0e495-730x496.jpg"
+                    },
+                    "descriptionLong": "This cardio sweat session incorporates popular Xtend Barre movements along with reformer-inspired cardio moves to help you maximize your calorie burn.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Strength Slides"
+                      },
+                      {
+                        "title": "Dumbbells (Light)"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD8",
+                      "durationActual": 1746,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPZKI4": {
+                    "_id": "BoGK5VlBLllbPFYTvPZKI4",
+                    "_type": "workout",
+                    "slug": "xb-pilates-sculpt-define-3-xbp00bod13",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Sculpt & Define 3",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6362f511c1a63af385592edad494293ecab135ed-730x496.jpg"
+                    },
+                    "descriptionLong": "Sculpt a long, lean physique with this upper-body focused workout that emphasizes strength, flexibility, and alignment.",
+                    "durationEstimate": 1620,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Sliding Discs"
+                      },
+                      {
+                        "title": "Dumbbells (Light)"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD13",
+                      "durationActual": 1579,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPZKa8": {
+                    "_id": "BoGK5VlBLllbPFYTvPZKa8",
+                    "_type": "workout",
+                    "slug": "xb-pilates-cardio-fusion-3-xbp00bod14",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cardio Fusion 3",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/79c3e9cf46b906a3c8238485bdc929fdfd8f72cb-730x496.jpg"
+                    },
+                    "descriptionLong": "This cardio sweat session incorporates popular Xtend Barre movements along with reformer-inspired cardio moves to help you maximize your calorie burn.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD14",
+                      "durationActual": 1781,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPZKpU": {
+                    "_id": "BoGK5VlBLllbPFYTvPZKpU",
+                    "_type": "workout",
+                    "slug": "xb-pilates-hit-the-mat-3-xbp00bod15",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Hit The Mat 3",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/92ba146537d0cf1ef3c1ea80d1b97d1d87742aac-730x496.jpg"
+                    },
+                    "descriptionLong": "Precision and control are key in this mat class that uses classic Pilates exercises to help you sculpt and strengthen your core, glutes, and legs.",
+                    "durationEstimate": 1680,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD15",
+                      "durationActual": 1664,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7tYnEi": {
+                    "_id": "NWOt1I2xWP7xm05A7tYnEi",
+                    "_type": "program",
+                    "slug": "piyo",
+                    "brandCode": "BBPIYO",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2014-06-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBPIYO&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "PiYo",
+                    "description": "Define yourself with PiYo. No weights, no jumps, just hardcore results.",
+                    "descriptionShort": "Define yourself with PiYo. No weights, no jumps, just hardcore results.",
+                    "descriptionLong": "PiYo combines the muscle-sculpting, core-firming benefits of Pilates with the strength and flexibility benefits of yoga. It's a true fat-burning, low-impact program that'll get you incredibly defined.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/26f0729d2c3cdf40090a51b60d7222c90207208a-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eb3530c036d9d4b1a07e0da99fcfe3df444003ed-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eb3530c036d9d4b1a07e0da99fcfe3df444003ed-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/26f0729d2c3cdf40090a51b60d7222c90207208a-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/26f0729d2c3cdf40090a51b60d7222c90207208a-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b395265e944ca36aa52f17b04e147f8d70e944c5-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/188b243ae6299b8dd04557a40808c2ed4d2cfe90-998x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20-45"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "60"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "22"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Strength Slides"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Sturdy Chair"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utW0T": {
+                    "_id": "NWOt1I2xWP7xm05A7utW0T",
+                    "_type": "program",
+                    "slug": "xtend-barre",
+                    "brandCode": "XTB",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2022-04-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XTB&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "Xtend Barre",
+                    "description": "Small movements. Big results",
+                    "descriptionShort": "Small movements. Big results",
+                    "descriptionLong": "Xtend Barre combines dance and Pilates fundamentals with high energy cardio to sculpt a strong, lean body while working up an amazing sweat \u2014 no barre required.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c321e20e5dca397e4f27130ef9f760d6bc82608f-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/27c70808c1004ccf31b16b8f3478eeb7261e989d-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/27c70808c1004ccf31b16b8f3478eeb7261e989d-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c321e20e5dca397e4f27130ef9f760d6bc82608f-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c321e20e5dca397e4f27130ef9f760d6bc82608f-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ce4ab87fc35af22806ea57f0a88344d22e1006df-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4135926f114ce319ef325456d771f50763bffdcf-1001x395.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "30"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "30"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Sturdy Chair or Ballet Barre"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Dumbbells (Light)"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utdpA": {
+                    "_id": "NWOt1I2xWP7xm05A7utdpA",
+                    "_type": "promo",
+                    "slug": "copy-of-xtend-barre-meet-andrea-xbp00bod17",
+                    "brandCode": "XBP",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "durationEstimate": 180,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/19b46b804dcb79637d37bdc151ee3ff6fd8ff214-730x496.jpg"
+                    },
+                    "title": "Meet Andrea",
+                    "descriptionLong": "Get to know Andrea Rogers, creator of Xtend Barre and learn how she got into dance and created this groundbreaking at-home barre workout.",
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD17",
+                      "durationActual": 163,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utebt": {
+                    "_id": "NWOt1I2xWP7xm05A7utebt",
+                    "_type": "workout",
+                    "slug": "cardio-fusion-1-xbp00bod4",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cardio Fusion 1",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/74aa1caad61c16bbd9da6437f38b9e56290d5f0e-730x496.jpg"
+                    },
+                    "descriptionLong": "This cardio sweat session incorporates popular Xtend Barre movements along with reformer-inspired cardio moves to help you maximize your calorie burn.",
+                    "durationEstimate": 1740,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Strength Slides"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD4",
+                      "durationActual": 1710,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utfXA": {
+                    "_id": "NWOt1I2xWP7xm05A7utfXA",
+                    "_type": "workout",
+                    "slug": "xb-pilates-abs-booty-1-xbp00bod6",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Abs & Booty 1",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4599cdc3f5393fe2347108d0682ab68cffc0d505-730x496.jpg"
+                    },
+                    "descriptionLong": "Your core and glutes will burn by the time you finish this challenging workout\u2014but the results you'll see in the mirror will be worth it.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD6",
+                      "durationActual": 1776,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utg8m": {
+                    "_id": "NWOt1I2xWP7xm05A7utg8m",
+                    "_type": "workout",
+                    "slug": "xb-pilates-express-abs-xbp00bod7",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Express Abs",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7ac194e20501c5ba57287b1ddbcb459e9dafc8a5-730x496.jpg"
+                    },
+                    "descriptionLong": "Start sculpting abs that pop in less than 10 minutes with a handful of Andrea's favorite Pilates moves.",
+                    "durationEstimate": 540,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD7",
+                      "durationActual": 511,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utigv": {
+                    "_id": "NWOt1I2xWP7xm05A7utigv",
+                    "_type": "workout",
+                    "slug": "xb-pilates-hit-the-mat-2-xbp00bod9",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Hit The Mat 2",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eb3c523ae680bd52174703eb31efd66013864d75-730x496.jpg"
+                    },
+                    "descriptionLong": "Precision and control are key in this mat class that uses classic Pilates exercises to help you sculpt and strengthen your core, glutes, and legs.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD9",
+                      "durationActual": 1752,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utjNf": {
+                    "_id": "NWOt1I2xWP7xm05A7utjNf",
+                    "_type": "workout",
+                    "slug": "xb-pilates-sculpt-define-2-xbp00bod11",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Sculpt & Define 2",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cc26b99331ba8dcd3ad2954e3247113110697427-730x496.jpg"
+                    },
+                    "descriptionLong": "Sculpt a long, lean physique with this upper-body focused workout that emphasizes strength, flexibility, and alignment.",
+                    "durationEstimate": 1680,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD11",
+                      "durationActual": 1729,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utjbL": {
+                    "_id": "NWOt1I2xWP7xm05A7utjbL",
+                    "_type": "workout",
+                    "slug": "stretch-session-xbp00bod12",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Stretch Session",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bc857bab99ddf032989602492f112a32eec1e65d-730x496.jpg"
+                    },
+                    "descriptionLong": "Add this short stretching routine to the end of any workout (or perform it on its own) to enhance your recovery as you ease muscle tension and boost mobility from head to toe.",
+                    "durationEstimate": 540,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD12",
+                      "durationActual": 531,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utkMM": {
+                    "_id": "NWOt1I2xWP7xm05A7utkMM",
+                    "_type": "workout",
+                    "slug": "xb-pilates-abs-booty-3-xbp00bod16",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Abs & Booty 3",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ad974b3f8ce66c54b5205031b89b77cd9afe3c3a-730x496.jpg"
+                    },
+                    "descriptionLong": "Your core and glutes will burn by the time you finish this challenging workout\u2014but the results you'll see in the mirror will be worth it.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD16",
+                      "durationActual": 1767,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utkgs": {
+                    "_id": "NWOt1I2xWP7xm05A7utkgs",
+                    "_type": "resource",
+                    "slug": "xb-pilates-xb-pilates-21-day-calendar-3647204",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "XB Pilates 21-Day Calendar",
+                    "categories": null,
+                    "description": "Follow this 21-Day Calendar for maximum results!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c85d2519361348fe2f45fd4fd8df50b7da02530d-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "XTPI_Calendar_21-Days_BOD_022522.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/162463d0ac7433f369d6dda005ff091dd1d0579f.pdf?file=XTPI_Calendar_21-Days_BOD_022522.pdf",
+                      "size": 54694
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utl36": {
+                    "_id": "NWOt1I2xWP7xm05A7utl36",
+                    "_type": "resource",
+                    "slug": "copy-of-xtend-barre-hybrid-calendar-2-3650097",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Xtend Barre + XB Pilates 30-Day Hybrid Calendar",
+                    "categories": null,
+                    "description": "This blended Xtend Barre + XB Pilates 30-Day Workout Calendar will give you the results you want!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ec099a15d67b53667465e36a7ed003e4c667633c-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "XTBR_30-Day_Hybrid_Calendar_en.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/07b714e02bb0ece6e36a7593e53610770774c1f9.pdf?file=XTBR_30-Day_Hybrid_Calendar_en.pdf",
+                      "size": 79213
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w57uL": {
+                    "_id": "NWOt1I2xWP7xm05A7w57uL",
+                    "_type": "program",
+                    "slug": "beginner-pilates-with-lisa-hubbard",
+                    "brandCode": "PBLH",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2022-07-11",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=PBLH&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Beginner Pilates with Lisa Hubbard",
+                    "description": "Learn Pilates in 3 short weeks!",
+                    "descriptionShort": "Learn Pilates in 3 short weeks!",
+                    "descriptionLong": "Learn Pilates in 3 short weeks with this mat-based program specifically designed for Pilates newbies. Get slim and toned without expensive equipment or a fancy studio.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1fe31eecd976d79fc90e81b09c45526e5ca07ec9-1125x750.png"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8b1a4396c84f81fd600181bf91b36c4a1b569630-540x671.png"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8b1a4396c84f81fd600181bf91b36c4a1b569630-540x671.png"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1fe31eecd976d79fc90e81b09c45526e5ca07ec9-1125x750.png"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1fe31eecd976d79fc90e81b09c45526e5ca07ec9-1125x750.png"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8517d07380cf3c6b9c9ce21c987440e34d6fc6f1-1600x1600.png"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7406ecc9df56e69c84aa4624092d0aae256fb57e-1543x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-40"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "3"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "14"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBym4R": {
+                    "_id": "Q6j5eG7tj3PSUghmZBym4R",
+                    "_type": "program",
+                    "slug": "barre-blend",
+                    "brandCode": "BBR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-11-25",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Barre Blend",
+                    "description": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionShort": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionLong": "Create a lean, toned physique through a fun fusion of ballet barre, Pilates, and cardio interval training. Feel the burn as you sweat, stretch, and strengthen to energize your entire body.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/40c285dad368b07f5b7b9034d1b5ebb8b7916ff8-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/636e5ddbe6d6bf30e8adeb2a3641650e75f24f1c-880x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-40"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "8"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "66"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Sturdy Chair or Ballet Barre"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHTQ3H": {
+                    "_id": "Q6j5eG7tj3PSUghmZHTQ3H",
+                    "_type": "resource",
+                    "slug": "copy-of-xbs-xtend-barre-xb-pilates-xb-stretch-30-day-calendar-3652259",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Xtend Barre + XB Pilates + XB Stretch 30-Day Calendar",
+                    "categories": null,
+                    "description": "This blended Xtend Barre + XB Pilates + XB Stretch 30-Day Calendar will help you slim, sculpt and stretch!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0edf45aba07ccb96bb84bdb875fd27502b163875-400x260.png"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "OPF_XTST_Hybrid-Calendar_04062022.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/73cea8706b28857311fae5ba3cc7324667a9d950.pdf?file=OPF_XTST_Hybrid-Calendar_04062022.pdf",
+                      "size": 91919
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHU2CR": {
+                    "_id": "Q6j5eG7tj3PSUghmZHU2CR",
+                    "_type": "workout",
+                    "slug": "hit-the-mat-1-xbp00bod3",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Hit The Mat 1",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d1e85dfbffb889d52cd2495bb27a73851f0c8801-730x496.jpg"
+                    },
+                    "descriptionLong": "Precision and control are key in this mat class that uses classic Pilates exercises to help you sculpt and strengthen your core, glutes, and legs.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD3",
+                      "durationActual": 1775,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHU44B": {
+                    "_id": "Q6j5eG7tj3PSUghmZHU44B",
+                    "_type": "workout",
+                    "slug": "xb-pilates-sculpt-define-1-xbp00bod5",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Sculpt & Define 1",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d0755e137e64963592293277230051972f9f65b6-730x496.jpg"
+                    },
+                    "descriptionLong": "Sculpt a long, lean physique with this upper-body focused workout that emphasizes strength, flexibility, and alignment.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Strength Slides"
+                      },
+                      {
+                        "title": "Dumbbells (Light)"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD5",
+                      "durationActual": 1789,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHUFE7": {
+                    "_id": "Q6j5eG7tj3PSUghmZHUFE7",
+                    "_type": "workout",
+                    "slug": "xb-pilates-abs-booty-2-xbp00bod10",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Abs & Booty 2",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c149c831d5a2841dba38ce9da4f070694d667c7b-730x496.jpg"
+                    },
+                    "descriptionLong": "Your core and glutes will burn by the time you finish this challenging workout\u2014but the results you'll see in the mirror will be worth it.",
+                    "durationEstimate": 1740,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD10",
+                      "durationActual": 1708,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHUNs3": {
+                    "_id": "Q6j5eG7tj3PSUghmZHUNs3",
+                    "_type": "resource",
+                    "slug": "xb-pilates-xb-pilates-21-day-amplified-calendar-3660289",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "XB Pilates 21-Day Amplified Calendar",
+                    "categories": null,
+                    "description": "Ready to kick things up a notch? Try this more challenging 30-day amplified calendar!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/75cb2ab5b030c43f56fa4455b4a35b6cebbd33c0-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "XTBP_EN_US-21_Day_Amp_Calender-06.16.22.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/f94cb81a5479a0aad9e6374f4ae16abe94e0ff03.pdf?file=XTBP_EN_US-21_Day_Amp_Calender-06.16.22.pdf",
+                      "size": 57898
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "gAjyjR8IcIqVjU7DkPqTWO": {
+                    "_id": "gAjyjR8IcIqVjU7DkPqTWO",
+                    "_type": "promo",
+                    "slug": "xb-pilates-xb-pilates-sizzle-xbp00bod18",
+                    "brandCode": "XBP",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "durationEstimate": 60,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b45987b7c1d6a7bff0f3328f23308939f360c46b-730x496.jpg"
+                    },
+                    "title": "Introducing XB Pilates",
+                    "descriptionLong": null,
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BOD18",
+                      "durationActual": 100,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "gAjyjR8IcIqVjU7DkPrDsy": {
+                    "_id": "gAjyjR8IcIqVjU7DkPrDsy",
+                    "_type": "workout",
+                    "slug": "xb-pilates-hit-the-mat-1-xbp00bodsw",
+                    "brandCode": "XBP",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                      "_type": "program",
+                      "slug": "xb-pilates"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Sample Workout - Hit the Mat 1",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d1e85dfbffb889d52cd2495bb27a73851f0c8801-730x496.jpg"
+                    },
+                    "descriptionLong": "Precision and control are key in this mat class that uses classic Pilates exercises to help you sculpt and strengthen your core, glutes, and legs.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBP00BODSW",
+                      "durationActual": 1775,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223242828,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "xb-pilates",
+              "en-US"
+            ],
+            "queryHash": "[\"xb-pilates\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/xb-pilates/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "xb-pilates",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

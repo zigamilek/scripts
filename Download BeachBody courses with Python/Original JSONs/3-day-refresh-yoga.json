@@ -1,0 +1,1615 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "3-day-refresh-yoga",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "BoGK5VlBLllbPFYTvPL2Yq",
+                "_type": "program",
+                "slug": "3-day-refresh-yoga",
+                "title": "3-Day Refresh Yoga",
+                "subtitle": null,
+                "brandCode": "3DR",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=3DR&locale=en_us&trainerName=EliseJoan-TedMcDonald-VytasBaskauskas"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "3 Day Refresh Yoga Program Overview: Start Your Journey Here",
+                  "description": "Get a fast, clean break with 3 Day Refresh Yoga. See what the program includes, any equipment needed and meet your trainers here.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/56ba88352f66332687c07428ebc84e75c9c0ef69-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Elise",
+                    "lastName": "Joan",
+                    "bioBodi": "Barre Blend\u2122 creator Elise Joan is a former professional dancer and has created programming in all genres of fitness\u2014from barre and yoga to cycling and strength. She is also the creator of Pre-/Postnatal Barre Blend and the \u201cI Am\u201d meditation series on Beachbody On Demand\u00ae. Deepen your mind/body connection and build a lean, shredded dancer\u2019s physique with her barre, strength, yoga, and other live classes on BODi\u2122.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e089c917e521f0aebd0d208268be7f22a4a392e1-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Ted",
+                    "lastName": "McDonald",
+                    "bioBodi": "A lifelong athlete, Ted approaches yoga with total commitment and focus. He believes in the power of meditation and restorative yoga, which strengthens muscles, builds stamina and prevents injuries. His versatility and knowledge allow him to teach a wide range of students and a variety of styles.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/faacd84cd13c95fcdee936928bab5c0d07090cf6-860x963.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Vytas",
+                    "lastName": "Baskauskas",
+                    "bioBodi": "Originally a mathematician, Vytas has been a pioneer in the modern yoga movement for more than 15 years, bringing precision and expert instruction to everything he does. Today, he\u2019s one of the most sought-after instructors in the world\u2014but you can experience his transformative classes live on BODi from the comfort of home.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e3fbfc3fbc5d0d91c6a8893fed2e0d2882870916-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#cad727",
+                "colorPrimaryOptions": {
+                  "argb": "#cad727",
+                  "rgba": "#cad727"
+                },
+                "descriptionShort": "3 Yoga workouts designed for each day of your 3-Day Refresh.",
+                "descriptionLong": "These simple and effective yoga routines, led by Elise, Ted and Vytas of the 3 Week Yoga Retreat, help to challenge your body the right amount each day to get the most out of your 3-Day Refresh",
+                "sampleWorkoutId": "A3jSdym3jf5hqTWanxKqoW",
+                "trailerId": "A3jSdym3jf5hqTWanxKqoW",
+                "videoOverviewId": "A3jSdym3jf5hqTWanxKqoW",
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/3-day-refresh-yoga"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "30"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Days",
+                  "value": "3"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "3"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=EliseJoan-TedMcDonald-VytasBaskauskas"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Yoga Mat"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Yoga Blocks"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Yoga"
+                  },
+                  {
+                    "title": "Mobility & Flexibility"
+                  }
+                ],
+                "level": {
+                  "title": "Beginner",
+                  "slug": "beginner",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1829ef2ccdea0c911b310be60ce58950ca310945-479x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1829ef2ccdea0c911b310be60ce58950ca310945-479x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/778fab0b75490f2a883b2f4d29cb8db54662b8de-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/046a31292d0fd57df7234db116e2b6d842db41d3-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b6509df4c964d073a8479284962d3bc12abb35d2-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f1905c0e072317a05dcee3290753bbee5ffe7986-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/56ba88352f66332687c07428ebc84e75c9c0ef69-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/56ba88352f66332687c07428ebc84e75c9c0ef69-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Yoga Mat, Yoga Blocks*",
+                        "categories": "Yoga, Mobility & Flexibility",
+                        "colorPrimary": "#cad727",
+                        "colorPrimaryOptions": {
+                          "argb": "#cad727",
+                          "rgba": "#cad727"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "A3jSdym3jf5hqTWanxKqoW",
+                          "_type": "promo",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d95d01c0726c2448163bb1a23ece8c90c519de19-1310x698.jpg"
+                          },
+                          "videoId": "AD-3DR001",
+                          "title": "Introducing 3 Day Refresh Yoga",
+                          "subtitle": "1m",
+                          "catalog": "bod"
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "3"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "30"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                            },
+                            "title": "Beginner"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7ugHSS",
+                        "_type": "editorial",
+                        "slug": "3-day-refresh-yoga-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "Beachbody\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.teambeachbody.com/micro-site/nutrition-plus/index.html#/en"
+                        }
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe5CRV",
+                        "_type": "collection",
+                        "slug": "3-day-refresh-yoga-related-content",
+                        "title": "3-Day Refresh Yoga Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "UqWqrADNH9eso22jUFVwDJ",
+                          "2Y1ZDDXEx3aLPbgAHe2I4f",
+                          "2Y1ZDDXEx3aLPbgAHe2ICn"
+                        ]
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Elise",
+                            "bio": "Barre Blend\u2122 creator Elise Joan is a former professional dancer and has created programming in all genres of fitness\u2014from barre and yoga to cycling and strength. She is also the creator of Pre-/Postnatal Barre Blend and the \u201cI Am\u201d meditation series on Beachbody On Demand\u00ae. Deepen your mind/body connection and build a lean, shredded dancer\u2019s physique with her barre, strength, yoga, and other live classes on BODi\u2122.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e089c917e521f0aebd0d208268be7f22a4a392e1-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/elisejoanfitness",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/elisejoanfitness",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://twitter.com/elisejoanfitnes",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              }
+                            ]
+                          },
+                          {
+                            "intro": "Meet Ted",
+                            "bio": "A lifelong athlete, Ted approaches yoga with total commitment and focus. He believes in the power of meditation and restorative yoga, which strengthens muscles, builds stamina and prevents injuries. His versatility and knowledge allow him to teach a wide range of students and a variety of styles.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/faacd84cd13c95fcdee936928bab5c0d07090cf6-860x963.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/tedmcdonald3000",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.Instagram.com/teddymcdonald",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.twitter.com/teddymcdonald",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.youtube.com/teddymcdonald1",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f06acc8786ecf26616838c26162235cfcce4108-240x240.svg"
+                              }
+                            ]
+                          },
+                          {
+                            "intro": "Meet Vytas",
+                            "bio": "Originally a mathematician, Vytas has been a pioneer in the modern yoga movement for more than 15 years, bringing precision and expert instruction to everything he does. Today, he\u2019s one of the most sought-after instructors in the world\u2014but you can experience his transformative classes live on BODi from the comfort of home.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e3fbfc3fbc5d0d91c6a8893fed2e0d2882870916-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/VytasYoga",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.Instagram.com/vytasyoga",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.twitter.com/vytasyoga",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD6k5i",
+                        "_type": "collection",
+                        "slug": "3-day-refresh-yoga-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "BoGK5VlBLllbPFYTvOl1EW",
+                          "NWOt1I2xWP7xm05A7urbQ0"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvOkzGa",
+                        "_type": "collection",
+                        "slug": "3-day-refresh-yoga",
+                        "title": "3-Day Refresh Yoga",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvOhmSG",
+                          "Q6j5eG7tj3PSUghmZF6fgl",
+                          "Q6j5eG7tj3PSUghmZF6g0t"
+                        ]
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD6k5i",
+                        "_type": "collection",
+                        "slug": "3-day-refresh-yoga-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "BoGK5VlBLllbPFYTvOl1EW",
+                          "NWOt1I2xWP7xm05A7urbQ0"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "vp53z6XDYJoQbuiHZ8iwnQ",
+                        "_type": "collection",
+                        "slug": "3-day-refresh-yoga-program-materials",
+                        "title": "Program Materials",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPL1hY",
+                          "BoGK5VlBLllbPFYTvPL1m4"
+                        ]
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD6k5i",
+                        "_type": "collection",
+                        "slug": "3-day-refresh-yoga-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "BoGK5VlBLllbPFYTvOl1EW",
+                          "NWOt1I2xWP7xm05A7urbQ0"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe2I4f": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2I4f",
+                    "_type": "linkItem",
+                    "slug": "8-yoga-moves-to-strengthen-knees",
+                    "title": "8 Yoga Moves to Strengthen Knees",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7410cb96efe36a83f38de26fa71cc6dfdb07100c-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/8-yoga-moves-to-strengthen-knees?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=BYS",
+                    "isFavoritable": false
+                  },
+                  "2Y1ZDDXEx3aLPbgAHe2ICn": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2ICn",
+                    "_type": "linkItem",
+                    "slug": "tony-hortons-daily-yoga-routine",
+                    "title": "Tony Hortons Daily Yoga Routine",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4b1d5fc6869dbe8cc9a445ed9be8f9175734c545-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/tony-hortons-daily-yoga-routine?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=BYS",
+                    "isFavoritable": false
+                  },
+                  "A3jSdym3jf5hqTWanxKqoW": {
+                    "_id": "A3jSdym3jf5hqTWanxKqoW",
+                    "_type": "promo",
+                    "slug": "3-day-refresh-yoga-post-roll-ad-3dr001",
+                    "brandCode": "3DR",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPL2Yq",
+                      "_type": "program",
+                      "slug": "3-day-refresh-yoga"
+                    },
+                    "durationEstimate": 60,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9e1cf9f0ec9fd358688bdb63f047aa9e29cc42a5-730x496.jpg"
+                    },
+                    "title": "Introducing 3 Day Refresh Yoga",
+                    "descriptionLong": "Introducing 3 Day Refresh Yoga",
+                    "trainers": null,
+                    "video": {
+                      "videoId": "AD-3DR001",
+                      "durationActual": 37,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOhmSG": {
+                    "_id": "BoGK5VlBLllbPFYTvOhmSG",
+                    "_type": "workout",
+                    "slug": "day-1-chill-flow-3dr001",
+                    "brandCode": "3DR",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPL2Yq",
+                      "_type": "program",
+                      "slug": "3-day-refresh-yoga"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=EliseJoan"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DR&locale=en_us&trainerName=EliseJoan"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 1: Chill Flow",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c910b7a208c4cc878e4dc63b0310c5ae3f495c8a-398x224.jpg"
+                    },
+                    "descriptionLong": "A gentle flow class focused on balance, flexibility, and relaxation, with a short guided meditation on intention.",
+                    "durationEstimate": 2100,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "elise",
+                        "firstName": "Elise",
+                        "lastName": "Joan",
+                        "bio": "\"Super Trainer Elise Joan is the creator of the fitness programs BODi LAVA, Barre Blend, Pre & Post Natal Barre Blend, and co-creator of 3 Week Yoga Retreat and FIRE AND FLOW. She\u2019s a former professional dancer and has created programming in all genres of fitness\u2014from barre and yoga to cycling and strength. In addition to being certified in the Science of Well-Being through Yale University, Elise prioritizes mental health and internal wellness, along with the physical results she\u2019s known for.\n\"",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/db09c2695606231f3e1bcad780ec727f8d207a79-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DR001",
+                      "durationActual": 2312,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOl1EW": {
+                    "_id": "BoGK5VlBLllbPFYTvOl1EW",
+                    "_type": "program",
+                    "slug": "beachbody-yoga-studio",
+                    "brandCode": "BYS",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-10-18",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BYS&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Beachbody Yoga Studio",
+                    "description": "Improve strength and flexibility with a collection of yoga classes",
+                    "descriptionShort": "Improve strength and flexibility with a collection of yoga classes",
+                    "descriptionLong": "Improve strength and flexibility with a collection of yoga classes featuring Beachbody Super Trainers and Yoga Experts. Find the class that\u2019s right for you!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a336bf2f8a0f162ff79e5e0980fa60c91e80f9d-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ff71df312a02225595ed31d611cdbe5f31d9f5c0-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ff71df312a02225595ed31d611cdbe5f31d9f5c0-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a336bf2f8a0f162ff79e5e0980fa60c91e80f9d-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a336bf2f8a0f162ff79e5e0980fa60c91e80f9d-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c11488451d9203263eab6e3594409b28713436b2-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/98a33009f6b24474d539134219107bb0833d3f2a-580x100.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-90"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "114"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "94"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Yoga Strap or Towel"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPL1hY": {
+                    "_id": "BoGK5VlBLllbPFYTvPL1hY",
+                    "_type": "resource",
+                    "slug": "3-day-refresh-program-and-maintenance-guide-new-3636902",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPL2Yq",
+                      "_type": "program",
+                      "slug": "3-day-refresh-yoga"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "3-Day Refresh Program and Maintenance Guide",
+                    "categories": null,
+                    "description": "Learn more about the healthy cleanse program 3-Day Refresh.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/72efbcd502679912bf5ba9cb6fbc2567581db911-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "3DINS1105_3DR_Program-Maintenance-Guide_052421_US_en.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/0f034b39b6972e7046015d836ab39857a4cba1ac.pdf?file=3DINS1105_3DR_Program-Maintenance-Guide_052421_US_en.pdf",
+                      "size": 4190528
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPL1m4": {
+                    "_id": "BoGK5VlBLllbPFYTvPL1m4",
+                    "_type": "resource",
+                    "slug": "3-day-refresh-program-and-maintenance-guide-english_canada-3641296",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPL2Yq",
+                      "_type": "program",
+                      "slug": "3-day-refresh-yoga"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "3-Day Refresh Program and Maintenance Guide English_Canada",
+                    "categories": null,
+                    "description": "Reference this Program & Maintenance Guide to complete your 3-Day Refresh.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/72efbcd502679912bf5ba9cb6fbc2567581db911-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "326336_326336_3DINS1105CA_p1-24_CA-EN.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/6fe94e79c8e7b46520ca4b4ab0d0d8b10c9ef256.pdf?file=326336_326336_3DINS1105CA_p1-24_CA-EN.pdf",
+                      "size": 6047877
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7urbQ0": {
+                    "_id": "NWOt1I2xWP7xm05A7urbQ0",
+                    "_type": "program",
+                    "slug": "tai-cheng",
+                    "brandCode": "TC",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2012-03-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=TC&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Tai Cheng",
+                    "description": "Tai Cheng helps improve your balance, reduce pain, and feel younger, fast!",
+                    "descriptionShort": "Tai Cheng helps improve your balance, reduce pain, and feel younger, fast!",
+                    "descriptionLong": "How much more would you enjoy life if you could do away with pain and immobility? Tai Cheng gives you confidence in your body to do the things you love, become independent and master your own life.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0c452e6d7f6487489269a1d039636d5df28cc270-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/feb4763b4c2baecc7b3c9028299529f2bf0fd0d2-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/feb4763b4c2baecc7b3c9028299529f2bf0fd0d2-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0c452e6d7f6487489269a1d039636d5df28cc270-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0c452e6d7f6487489269a1d039636d5df28cc270-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/45118a7fc7e70ca241e5a316489ae5ba8a687eea-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/75d284935f084072148764383a23f2e28451c18d-1804x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "25-80"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "13"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "42"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Foam Roller"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Sturdy Chair"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Tape"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBym4R": {
+                    "_id": "Q6j5eG7tj3PSUghmZBym4R",
+                    "_type": "program",
+                    "slug": "barre-blend",
+                    "brandCode": "BBR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-11-25",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Barre Blend",
+                    "description": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionShort": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionLong": "Create a lean, toned physique through a fun fusion of ballet barre, Pilates, and cardio interval training. Feel the burn as you sweat, stretch, and strengthen to energize your entire body.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/40c285dad368b07f5b7b9034d1b5ebb8b7916ff8-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/636e5ddbe6d6bf30e8adeb2a3641650e75f24f1c-880x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-40"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "8"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "66"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Sturdy Chair or Ballet Barre"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZDbc5D": {
+                    "_id": "Q6j5eG7tj3PSUghmZDbc5D",
+                    "_type": "program",
+                    "slug": "3-week-yoga-retreat",
+                    "brandCode": "3YR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-08-31",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3YR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "3 Week Yoga Retreat",
+                    "description": "Want to learn Yoga? Master the fundamentals of yoga at home in just 21 days.",
+                    "descriptionShort": "Want to learn Yoga? Master the fundamentals of yoga at home in just 21 days.",
+                    "descriptionLong": "Created with beginners in mind, 3 Week Yoga Retreat will teach you simple, pure yoga for life-changing results. You'll build the skills you need to take any yoga class after these three weeks.\u200b",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5cbdbb898516c50bbaaceb8062c936fef4d548f-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5cbdbb898516c50bbaaceb8062c936fef4d548f-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2770051c67445d05d085fbc573916e487f464040-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1c5fcef36727497e17ad2cbbb770656baa6ae37c-480x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-32"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "3"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "39"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Yoga Strap"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Pillow"
+                      },
+                      {
+                        "title": "Yoga Blanket"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZF6fgl": {
+                    "_id": "Q6j5eG7tj3PSUghmZF6fgl",
+                    "_type": "workout",
+                    "slug": "day-2-restore-stretch-3dr002",
+                    "brandCode": "3DR",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPL2Yq",
+                      "_type": "program",
+                      "slug": "3-day-refresh-yoga"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=TedMcDonald"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DR&locale=en_us&trainerName=TedMcDonald"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 2: Restore & Stretch",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bbc7768d5cc2f903ac7f5f48d4fb8d933a5d851c-398x224.jpg"
+                    },
+                    "descriptionLong": "A restorative class to improve mobility and restore and reset your nervous system with a short guided meditation on gratitude.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "ted",
+                        "firstName": "Ted",
+                        "lastName": "McDonald",
+                        "bio": "A lifelong athlete, Ted approaches yoga with total commitment and focus. He believes in the power of meditation and restorative yoga, which strengthens muscles, builds stamina and prevents injuries. His versatility and knowledge allow him to teach a wide range of students and a variety of styles.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/805a6e8a132c3b497a2408fc84e3e8ed42695818-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DR002",
+                      "durationActual": 1850,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZF6g0t": {
+                    "_id": "Q6j5eG7tj3PSUghmZF6g0t",
+                    "_type": "workout",
+                    "slug": "day-3-deep-focus-3dr003",
+                    "brandCode": "3DR",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPL2Yq",
+                      "_type": "program",
+                      "slug": "3-day-refresh-yoga"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=VytasBaskauskas"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DR&locale=en_us&trainerName=VytasBaskauskas"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 3: Deep Focus",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f7ab0b3da53858630c4fd184dcef54431dab638e-398x224.jpg"
+                    },
+                    "descriptionLong": "A strength-based flexibility class, focusing the user for the final day with a short guided meditation on grounding.",
+                    "durationEstimate": 2160,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "vytas",
+                        "firstName": "Vytas",
+                        "lastName": "Baskauskas",
+                        "bio": "He\u2019s one of the most influential yoga teachers in L.A., and one of the most sought-after instructors in the world. He\u2019s been practicing yoga for 15+ years and is a pioneer in the modern yoga movement. A mathematician by training, he mixes precision and exactness in everything he does.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0eef92dbc5d3a44356a2dd2788b3fc7bc23296b3-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DR003",
+                      "durationActual": 2184,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "UqWqrADNH9eso22jUFVwDJ": {
+                    "_id": "UqWqrADNH9eso22jUFVwDJ",
+                    "_type": "linkItem",
+                    "slug": "9-yoga-stretches-for-hip-and-back-pain",
+                    "title": "9 Yoga Stretches to Increase Flexibility",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b43ca5a8db4f5ee8df63ca7719d6f041587bc6d8-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/9-yoga-stretches-for-flexibility?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=BYS",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223587111,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "3-day-refresh-yoga",
+              "en-US"
+            ],
+            "queryHash": "[\"3-day-refresh-yoga\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/3-day-refresh-yoga/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "3-day-refresh-yoga",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

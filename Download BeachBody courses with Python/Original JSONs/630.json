@@ -1,0 +1,2198 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "630",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "Q6j5eG7tj3PSUghmZJ0CGh",
+                "_type": "program",
+                "slug": "630",
+                "title": "630",
+                "subtitle": null,
+                "brandCode": "630AW",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=630AW&locale=en_us&trainerName=AmoilaCesar"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "630 Full Body Workout with Trainer Amolia Cesar",
+                  "description": "Build strength and power in just 30 minutes a day with the 630 full body workout. Take the first step in changing your fitness and sign up today!",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/60b2a0b1131e1bfe8edab4fb5fa27cf9506ae308-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Amoila",
+                    "lastName": "Cesar",
+                    "bioBodi": "Amoila is an NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape\u2014and his live strength, HIIT, and core workouts can do the same for you. In addition to his classes on BODi, Amoila is the creator of 645\u2122, 6 Weeks of THE WORK\u00ae, and 4 Weeks of THE PREP\u2122, available on Beachbody On Demand.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5bac58024f8ff618d98050a841e44f5974d0bf3e-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#FEDA24",
+                "colorPrimaryOptions": {
+                  "argb": "#FEDA24",
+                  "rgba": "#FEDA24"
+                },
+                "descriptionShort": "Crush these total-body strength, mobility, & cardio workouts based on 645.",
+                "descriptionLong": "Build strength, power and endurance with six thirty-minute total-body workouts packed with similar moves, cues, and the energy you love from 645. Give Amoila everything, and he'll give you the most productive 30 minutes of your day.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/630"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "30"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Days",
+                  "value": "6"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "6"
+                },
+                "commerce": {
+                  "title": "BODi Membership Required",
+                  "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                  "purchaseAction": {
+                    "title": "Learn More",
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Power Loops"
+                  },
+                  {
+                    "title": "Dumbbells"
+                  }
+                ],
+                "equipmentRecommended": null,
+                "categories": [
+                  {
+                    "title": "Strength"
+                  },
+                  {
+                    "title": "Mobility & Flexibility"
+                  },
+                  {
+                    "title": "Athletic Training"
+                  },
+                  {
+                    "title": "Weight Loss"
+                  }
+                ],
+                "level": {
+                  "title": "Intermediate",
+                  "slug": "intermediate",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3e5dcd9674199bce0562b837261eaa1f84ec2905-739x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3e5dcd9674199bce0562b837261eaa1f84ec2905-739x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/402d6ab1455820be62430a03870d1e2cf860e143.mp4"
+                  },
+                  "loopingVideoPortrait": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/5b941e8137c85514f7f4d3d54c133b17a69f048d.mp4"
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7b669b738d1e4827911ecdde8e514ebb44551b62-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f5505eac13d1f8a8a3bcde4ac01e4e312a859fd4-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/20827544c2ffce818c993b569fdbeb71ffb86cdd-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/738a6b915d42f0c383c34d6e4a44fbfd24d2f625-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/60b2a0b1131e1bfe8edab4fb5fa27cf9506ae308-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/60b2a0b1131e1bfe8edab4fb5fa27cf9506ae308-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Power Loops, Dumbbells",
+                        "categories": "Strength, Mobility & Flexibility, Athletic Training, Weight Loss",
+                        "colorPrimary": "#FEDA24",
+                        "colorPrimaryOptions": {
+                          "argb": "#FEDA24",
+                          "rgba": "#FEDA24"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-d9bf76c4f02f31006a501abce40728ea0e0f8135-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d9bf76c4f02f31006a501abce40728ea0e0f8135-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "6"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "30"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                            },
+                            "title": "Intermediate"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7vPAxr",
+                        "_type": "collection",
+                        "slug": "630-getting-started",
+                        "title": "Getting Started",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvQ5TdY"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvQ6TRw",
+                        "_type": "collection",
+                        "slug": "630-featured-guides",
+                        "title": "Featured Guides",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7vOl1u",
+                          "Q6j5eG7tj3PSUghmZIya1r"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZIzvNz",
+                        "_type": "editorial",
+                        "slug": "630-what-are-the-workouts-like",
+                        "title": "What Are the Workouts Like?",
+                        "subtitle": null,
+                        "content": "These six 30-minute workouts feature similar moves, and follow the same format, pace, and intensity, as 645. There are 4 total-body strength workouts, 1 mobility workout that will improve your range of motion and recovery, and 1 cardio workout that will leave you dripping with sweat. Each workout starts with an active warm-up that will get your body ready for the work to come. Give Amoila everything, and he\u2019ll give you the most productive 30 minutes of your day. 630 can be done by itself, or added to your 645 commitment.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/044b1c43e8e299e516fc9109403134615d3d7c3d-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "VIEW WORKOUTS",
+                          "url": "https://www.beachbodyondemand.com/programs/630/workouts"
+                        }
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Amoila",
+                            "bio": "Amoila is an NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape\u2014and his live strength, HIIT, and core workouts can do the same for you. In addition to his classes on BODi, Amoila is the creator of 645\u2122, 6 Weeks of THE WORK\u00ae, and 4 Weeks of THE PREP\u2122, available on Beachbody On Demand.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5bac58024f8ff618d98050a841e44f5974d0bf3e-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/amoila.cesar",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/amoila_cesar",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.twitter.com/AmoilaC",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.youtube.com/channel/UChMyno8_16aD3s2SseURkjg",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f06acc8786ecf26616838c26162235cfcce4108-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFXjdy",
+                        "_type": "collection",
+                        "slug": "630-related-content",
+                        "title": "630 Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "UqWqrADNH9eso22jUFVcHG",
+                          "2Y1ZDDXEx3aLPbgAHe1yXR",
+                          "UqWqrADNH9eso22jUFVcr7"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdy0Wf",
+                        "_type": "collection",
+                        "slug": "630-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7tQZds",
+                          "BoGK5VlBLllbPFYTvOZgfY",
+                          "BoGK5VlBLllbPFYTvd00vg",
+                          "BoGK5VlBLllbPFYTvNVtQO"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7vPA7i",
+                        "_type": "collection",
+                        "slug": "630-workouts",
+                        "title": "Workouts",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvQ5Y0W",
+                          "BoGK5VlBLllbPFYTvQ5c1o",
+                          "NWOt1I2xWP7xm05A7vOUtk",
+                          "NWOt1I2xWP7xm05A7vOYGK",
+                          "BoGK5VlBLllbPFYTvQ5kPA",
+                          "BoGK5VlBLllbPFYTvQ5oym"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdy0Wf",
+                        "_type": "collection",
+                        "slug": "630-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7tQZds",
+                          "BoGK5VlBLllbPFYTvOZgfY",
+                          "BoGK5VlBLllbPFYTvd00vg",
+                          "BoGK5VlBLllbPFYTvNVtQO"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Nutrition",
+                    "slug": "nutrition",
+                    "modules": [
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7vP6Ut",
+                        "_type": "collection",
+                        "slug": "630-nutrition",
+                        "title": "Nutrition",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "T405szsSamzin6dj7R7Q0c",
+                          "T405szsSamzin6dj7R7QNb"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdy0Wf",
+                        "_type": "collection",
+                        "slug": "630-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7tQZds",
+                          "BoGK5VlBLllbPFYTvOZgfY",
+                          "BoGK5VlBLllbPFYTvd00vg",
+                          "BoGK5VlBLllbPFYTvNVtQO"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvQ6HQm",
+                        "_type": "collection",
+                        "slug": "630-program-materials",
+                        "title": "Program Materials",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7vOl1u"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdy0Wf",
+                        "_type": "collection",
+                        "slug": "630-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7tQZds",
+                          "BoGK5VlBLllbPFYTvOZgfY",
+                          "BoGK5VlBLllbPFYTvd00vg",
+                          "BoGK5VlBLllbPFYTvNVtQO"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe1yXR": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe1yXR",
+                    "_type": "linkItem",
+                    "slug": "630-20-things-you-dont-know-about-amoila-cesar",
+                    "title": "20 Things You Don\u2019t Know About Amoila Cesar",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ada1c6d5cf958b0638947663199995b0a269be12-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/amoila-cesar-beachbody-trainer",
+                    "isFavoritable": false
+                  },
+                  "BoGK5VlBLllbPFYTvNVtQO": {
+                    "_id": "BoGK5VlBLllbPFYTvNVtQO",
+                    "_type": "program",
+                    "slug": "mbf",
+                    "brandCode": "MBF",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2020-06-26",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=MBF&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "#mbf",
+                    "description": "Build muscle and burn fat with daily strength-training and cardio workouts.",
+                    "descriptionShort": "Build muscle and burn fat with daily strength-training and cardio workouts.",
+                    "descriptionLong": "Get leaner, get stronger, get healthier as you ignite your metabolism and incinerate fat. For three weeks, you'll follow weightlifting and cardio workouts that are set to the music beat, so you know the intensity you\u2019ll need to get maximum results.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7415ae12b93868be4d529668840e2833ef97e0de-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/520bbdd5b1b735957edc297279654e2beff1e3c9-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/520bbdd5b1b735957edc297279654e2beff1e3c9-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7415ae12b93868be4d529668840e2833ef97e0de-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7415ae12b93868be4d529668840e2833ef97e0de-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/900d56ede52f58c3e8060dd3cf9765a41ed4e15f-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/49fed6610211da9ab4794353b225ead6bec65b01-786x361.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "25-35"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "3"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "21"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "BOD Rope"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOZgfY": {
+                    "_id": "BoGK5VlBLllbPFYTvOZgfY",
+                    "_type": "program",
+                    "slug": "6-weeks-of-the-work",
+                    "brandCode": "6WW",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-09-29",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=6WW&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "6 Weeks of THE WORK",
+                    "description": "Relentless functional training to achieve results you\u2019ve never experienced.",
+                    "descriptionShort": "Relentless functional training to achieve results you\u2019ve never experienced.",
+                    "descriptionLong": "Leave your excuses at the door. For six intense weeks, you\u2019ll take on relentless functional training to help you gain muscle, drop body fat, and achieve results you\u2019ve never experienced before.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/294f3830552072ff4177c2c2a6ff0f6f602718c5-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e066fa43026d30dbe0c4bbd280e5083277d2f23c-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e066fa43026d30dbe0c4bbd280e5083277d2f23c-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/294f3830552072ff4177c2c2a6ff0f6f602718c5-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/294f3830552072ff4177c2c2a6ff0f6f602718c5-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9a957120fdf4a5c6ae23e945402cffdadb78ddf8-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5b9cafe8247ae149cf57cd7b277b3fb845fa18e8-1005x399.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20-45"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "6"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "36"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      },
+                      {
+                        "title": "Explicit",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#161819",
+                          "foregroundOptions": {
+                            "argb": "#161819",
+                            "rgba": "#161819"
+                          },
+                          "background": "#D8D8D8FF",
+                          "backgroundOptions": {
+                            "argb": "#FFD8D8D8",
+                            "rgba": "#D8D8D8FF"
+                          },
+                          "stroke": "#D8D8D8FF",
+                          "strokeOptions": {
+                            "argb": "#FFD8D8D8",
+                            "rgba": "#D8D8D8FF"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Athletic Training",
+                        "slug": "athletic-training"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Strength Slides"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Chin-Up Bar"
+                      },
+                      {
+                        "title": "Chin-Up Max"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQ5TdY": {
+                    "_id": "BoGK5VlBLllbPFYTvQ5TdY",
+                    "_type": "promo",
+                    "slug": "630-meet-amoila-cesar-630aw007",
+                    "brandCode": "630AW",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZJ0CGh",
+                      "_type": "program",
+                      "slug": "630"
+                    },
+                    "durationEstimate": 420,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0d1da8b87adcf61b546ac0e70fd6f9c1ad812e47-730x496.jpg"
+                    },
+                    "title": "Meet Amoila Cesar",
+                    "descriptionLong": "Get to know Super Trainer Amoila Cesar as he shares his story.",
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "630AW007",
+                      "durationActual": 447,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQ5Y0W": {
+                    "_id": "BoGK5VlBLllbPFYTvQ5Y0W",
+                    "_type": "workout",
+                    "slug": "630-lower-body-strength-630aw001",
+                    "brandCode": "630AW",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZJ0CGh",
+                      "_type": "program",
+                      "slug": "630"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=630AW&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Lower Body Strength",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a0b94498f73569d100271ca321a3d32ff879d370-730x496.jpg"
+                    },
+                    "descriptionLong": "Supersets and targeted EMOM (every minute on the minute) training will make sure you feel the burn from head to toe\u2014especially in your legs\u2014in just 30 minutes.",
+                    "durationEstimate": 1860,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells (Light, Medium, Heavy)"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "630AW001",
+                      "durationActual": 1831,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQ5c1o": {
+                    "_id": "BoGK5VlBLllbPFYTvQ5c1o",
+                    "_type": "workout",
+                    "slug": "630-total-body-power-630aw002",
+                    "brandCode": "630AW",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZJ0CGh",
+                      "_type": "program",
+                      "slug": "630"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=630AW&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Total Body Power",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c96ba615a94e8768f89ad13b2aad8d90a7175be4-730x496.jpg"
+                    },
+                    "descriptionLong": "The five exercises in this workout will help you build two key elements of a fit, athletic body: dynamic stability and explosive power.",
+                    "durationEstimate": 1860,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Power Loops"
+                      },
+                      {
+                        "title": "Dumbbells (Light, Medium, Heavy)"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "630AW002",
+                      "durationActual": 1831,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQ5kPA": {
+                    "_id": "BoGK5VlBLllbPFYTvQ5kPA",
+                    "_type": "workout",
+                    "slug": "630-total-body-tempo-630aw005",
+                    "brandCode": "630AW",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZJ0CGh",
+                      "_type": "program",
+                      "slug": "630"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=630AW&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Total Body Tempo",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6aa4904757907e2438a941e28e00c14ea7d0ce04-730x496.jpg"
+                    },
+                    "descriptionLong": "In this comprehensive workout, you'll focus on the eccentric (lowering) phase of most exercises to enhance a key muscle growth stimulus: time under tension.",
+                    "durationEstimate": 1860,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells (Light, Medium, Heavy)"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "630AW005",
+                      "durationActual": 1888,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQ5oym": {
+                    "_id": "BoGK5VlBLllbPFYTvQ5oym",
+                    "_type": "workout",
+                    "slug": "630-cardio-30-630aw006",
+                    "brandCode": "630AW",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZJ0CGh",
+                      "_type": "program",
+                      "slug": "630"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=630AW&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cardio 30",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a1aa9a244f5d227b8a066bfb712b556dd64b2cef-730x496.jpg"
+                    },
+                    "descriptionLong": "This circuit-training session uses 45-second work intervals and minimal rest to make sure you break a sweat and torch tons of calories in just 30 minutes.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Power Loops"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "630AW006",
+                      "durationActual": 1810,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvd00vg": {
+                    "_id": "BoGK5VlBLllbPFYTvd00vg",
+                    "_type": "program",
+                    "slug": "4-weeks-of-the-prep",
+                    "brandCode": "4WP",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2020-01-02",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=4WP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "4 Weeks of THE PREP",
+                    "description": "Prepare for 6 Weeks of THE WORK or any advanced Beachbody program.",
+                    "descriptionShort": "Prepare for 6 Weeks of THE WORK or any advanced Beachbody program.",
+                    "descriptionLong": "Challenge yourself with 4 Weeks of THE PREP, a series of functional training workouts designed to help get your body and mind ready for 6 Weeks of THE WORK or any advanced BODi program.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ccddee7f4e23d381afff4102ce5dca4dba6efab7-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec2d9f56c5bb6b0b291fa051df2895464cbd4ea-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec2d9f56c5bb6b0b291fa051df2895464cbd4ea-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ccddee7f4e23d381afff4102ce5dca4dba6efab7-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ccddee7f4e23d381afff4102ce5dca4dba6efab7-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c95586e6e8ba6adb9eaa1f6e8f5b6443f935c8d1-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5b549f107f939151377a4c7d753d6290dd9921f1-1005x438.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-40"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "4"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "12"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Explicit",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#161819",
+                          "foregroundOptions": {
+                            "argb": "#161819",
+                            "rgba": "#161819"
+                          },
+                          "background": "#D8D8D8FF",
+                          "backgroundOptions": {
+                            "argb": "#FFD8D8D8",
+                            "rgba": "#D8D8D8FF"
+                          },
+                          "stroke": "#D8D8D8FF",
+                          "strokeOptions": {
+                            "argb": "#FFD8D8D8",
+                            "rgba": "#D8D8D8FF"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Athletic Training",
+                        "slug": "athletic-training"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Strength Slides"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Chin-Up Bar"
+                      },
+                      {
+                        "title": "Chin-Up Max"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7tQZds": {
+                    "_id": "NWOt1I2xWP7xm05A7tQZds",
+                    "_type": "program",
+                    "slug": "645",
+                    "brandCode": "645AW",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2021-06-27",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=645AW&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "645",
+                    "description": "Reach your peak with strength training, cardio, and mobility work.",
+                    "descriptionShort": "Reach your peak with strength training, cardio, and mobility work.",
+                    "descriptionLong": "THE COMMITMENT THAT CHANGES EVERYTHING: Training that respects the body. Strength. Power. Visible results. 6 days a week, 45 mins a day to reach your peak in 13 weeks.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f3f38a4af2c5e8a7b80df071721f832321f7b17d-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2debd75614d9121c813090d15125b023af4a37c0-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2debd75614d9121c813090d15125b023af4a37c0-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f3f38a4af2c5e8a7b80df071721f832321f7b17d-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f3f38a4af2c5e8a7b80df071721f832321f7b17d-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/43947653c6559d611a1f2bae25e3ba43d8fbcc01-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8abcdcd93a15bf82c7ed88d71aeb7cf266481fa6-739x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Minutes",
+                      "value": "45"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "13"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "13"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Athletic Training",
+                        "slug": "athletic-training"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Power Loops"
+                      },
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7vOUtk": {
+                    "_id": "NWOt1I2xWP7xm05A7vOUtk",
+                    "_type": "workout",
+                    "slug": "630-mobility-stability-630aw003",
+                    "brandCode": "630AW",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZJ0CGh",
+                      "_type": "program",
+                      "slug": "630"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=630AW&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Mobility & Stability",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba9ae5d27a76f7845d0db333d539a3572f624784-730x496.jpg"
+                    },
+                    "descriptionLong": "Calm your mind, increase joint stability, and enhance your recovery with breathing, stretching, and mobility drills focusing on your thoracic and hips.",
+                    "durationEstimate": 1860,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Power Loops"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "630AW003",
+                      "durationActual": 1839,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7vOYGK": {
+                    "_id": "NWOt1I2xWP7xm05A7vOYGK",
+                    "_type": "workout",
+                    "slug": "upper-body-strength-630aw004",
+                    "brandCode": "630AW",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZJ0CGh",
+                      "_type": "program",
+                      "slug": "630"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=630AW&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Upper Body Strength",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3de2c049f423770f1bc4e7a7df04ce9fc97b47d4-730x496.jpg"
+                    },
+                    "descriptionLong": "Sculpt sleeve-busting strength in just 30 minutes with this upper-body-focused resistance training.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells (Light, Medium, Heavy)"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "630AW004",
+                      "durationActual": 1829,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7vOl1u": {
+                    "_id": "NWOt1I2xWP7xm05A7vOl1u",
+                    "_type": "resource",
+                    "slug": "630-630-workout-calendar-dumbbell-tracker-3623046",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZJ0CGh",
+                      "_type": "program",
+                      "slug": "630"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "630 Workout Calendar & Dumbbell Tracker",
+                    "categories": null,
+                    "description": "Use the calendar to see which workout is for each day as well as track your progress with your weight selection for the strength workouts.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/30fa4d5ef5f22c79d9b283c5a72ca049f0db26be-400x260.png"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "630-EN-WorkoutCalendarandDumbbellTracker-7.6.21-ProgramMaterials.pdf.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/1157a16180051baa4ade1dae1e6329d2c47bfe1b.pdf?file=630-EN-WorkoutCalendarandDumbbellTracker-7.6.21-ProgramMaterials.pdf.pdf",
+                      "size": 126167
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZIya1r": {
+                    "_id": "Q6j5eG7tj3PSUghmZIya1r",
+                    "_type": "resource",
+                    "slug": "630-quick-start-nutrition-guide-3623079",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZJ0CGh",
+                      "_type": "program",
+                      "slug": "630"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Quick Start Nutrition Guide - US",
+                    "categories": null,
+                    "description": "Keep your body fueled for total success and your best results. This guide helps you upgrade your eating habits to optimize your workout performance and create healthier habits for the next 30 days\u2013\u2013and beyond.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/406ed9a38e1f9b9cf74e531e7686290aa20a234a-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "BB_Quick-Start-Nutrition-Guide_EN-US_122021_BOD.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/22cef2eb6ad22673ed76c95767f2ea168b3689da.pdf?file=BB_Quick-Start-Nutrition-Guide_EN-US_122021_BOD.pdf",
+                      "size": 19188434
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "T405szsSamzin6dj7R7Q0c": {
+                    "_id": "T405szsSamzin6dj7R7Q0c",
+                    "_type": "resource",
+                    "slug": "8-24-2b-mindset-quick-start-guide-3738082",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZsFUwl",
+                      "_type": "program",
+                      "slug": "2b-mindset"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjF1",
+                        "slug": "po-TURBOFIRE_PERM",
+                        "title": "Turbo Fire Program Entitlement",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "2B Mindset Quick Start Guide",
+                    "categories": null,
+                    "description": "Follow these simple steps to help you get started with the 2B Mindset Eating Plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fc830646876650f0c706e8d4f27e1ef82b5bf8f4-400x259.png"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "T25_2BM-EN_US-Quick_Start_Guide-05.01.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/3142abba459ac710b14101deddd5e271c655472e.pdf?file=T25_2BM-EN_US-Quick_Start_Guide-05.01.23.pdf",
+                      "size": 1268671
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "T405szsSamzin6dj7R7QNb": {
+                    "_id": "T405szsSamzin6dj7R7QNb",
+                    "_type": "resource",
+                    "slug": "8-24-portion-fix-quick-start-guide-3738071",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvO2z4a",
+                      "_type": "program",
+                      "slug": "10-rounds"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjF1",
+                        "slug": "po-TURBOFIRE_PERM",
+                        "title": "Turbo Fire Program Entitlement",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Portion Fix Quick Start Guide",
+                    "categories": null,
+                    "description": "Follow these simple steps to help you get started with the Portion Fix Eating Plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/55da31ae6e732a8be0555f65722d03284cb0d676-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "PFX-BODi-EN_US-Quick_Start_Guide-01.24.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/21a36e00574225075e031b582292928c74cdb1c4.pdf?file=PFX-BODi-EN_US-Quick_Start_Guide-01.24.23.pdf",
+                      "size": 341753
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "UqWqrADNH9eso22jUFVcHG": {
+                    "_id": "UqWqrADNH9eso22jUFVcHG",
+                    "_type": "linkItem",
+                    "slug": "630-coming-soon-645-with-amoila-cesar",
+                    "title": "NOW AVAILABLE: 645 with Amoila Cesar",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/55c01c09e24f8e3d36de01a9df268e59602563d8-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/645-amoila-cesar",
+                    "isFavoritable": false
+                  },
+                  "UqWqrADNH9eso22jUFVcr7": {
+                    "_id": "UqWqrADNH9eso22jUFVcr7",
+                    "_type": "linkItem",
+                    "slug": "630-understanding-the-nutrition-membership",
+                    "title": "Understanding the Nutrition+ Membership",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eacc72c532f5c8d55ee14c8391c8f93509f6b97b-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/beachbody-nutrition-membership?referringrepid=411888",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223552216,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "630",
+              "en-US"
+            ],
+            "queryHash": "[\"630\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/630/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "630",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

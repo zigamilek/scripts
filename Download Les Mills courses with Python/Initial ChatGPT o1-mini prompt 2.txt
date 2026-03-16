@@ -1,0 +1,46 @@
+please write a script that will open a JSON file and use yt-dlp to download videos from the urls provided in the file.
+
+the script should use the cookies.txt file next to the script to pass it to yt-dlp as the --cookies parameter. it should also pass --external-downloader aria2c to yt-dlp.
+
+the script should also take --output-folder as the command line parameter
+
+here's an example json file:
+{
+    "LES MILLS PILATES": {
+        "description_short": "Pilates Reimagined",
+        "url": "https://my.lesmillsondemand.com/program/les-mills-pilates",
+        "description_long": "Introducing traditional Pilates with a Les Mills twist. Science-backed movements to improve strength and mobility, modern breathwork and beautiful beats. These 45-minute workouts will leave you feeling strong, uplifted and calm.",
+        "number_of_workouts": 6,
+        "workouts": {
+            "LES MILLS PILATES #01 45 min": {
+                "url": "https://watch.lesmillsondemand.com/les-mills-pilates/season:1/videos/les-mills-pilates-01-45-min",
+                "duration": "46:11"
+            },
+            "LES MILLS PILATES #02 45 min": {
+                "url": "https://watch.lesmillsondemand.com/les-mills-pilates/season:1/videos/les-mills-pilates-02-45-min",
+                "duration": "44:18"
+            },
+            "LES MILLS PILATES #03 45 min": {
+                "url": "https://watch.lesmillsondemand.com/les-mills-pilates/season:1/videos/les-mills-pilates-03-45-min",
+                "duration": "40:59"
+            },
+            "LES MILLS PILATES #04 45 min": {
+                "url": "https://watch.lesmillsondemand.com/les-mills-pilates/season:1/videos/les-mills-pilates-04-45-min",
+                "duration": "43:06"
+            },
+            "LES MILLS PILATES #05 45 min": {
+                "url": "https://watch.lesmillsondemand.com/les-mills-pilates/season:1/videos/les-mills-pilates-05-45-min",
+                "duration": "42:06"
+            },
+            "LES MILLS PILATES #06 45 min": {
+                "url": "https://watch.lesmillsondemand.com/les-mills-pilates/season:1/videos/les-mills-pilates-06-45-min",
+                "duration": "44:12"
+            }
+        }
+    }
+    {...}
+}
+
+the top-level key is a program. this is a folder that should be created in the output folder. The workout videos should then be saved inside each program folder.
+
+the video filenames should be sanitized workout keys. Before doing your typical sanitizing, remove the # character.

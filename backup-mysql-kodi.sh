@@ -1,0 +1,3 @@
+#!/bin/bash
+# This dumps selected databases localy and sends them to euler through ssh to the correct directory
+$(which mariadb-dump) -u root --databases $($(which mariadb) -u root -N information_schema -e 'SELECT DISTINCT(TABLE_SCHEMA) FROM tables WHERE TABLE_SCHEMA LIKE "%Music%" OR TABLE_SCHEMA LIKE "%Videos%" OR TABLE_SCHEMA LIKE "%ziga%"') | $(which gzip) | ssh ziga@192.168.111.2 -p50002 "cat > /home/ziga/share/Backups/MySQL/euler_kodi_and_ziga_databases_$(date +\%Y\%m\%d).sql.gz"

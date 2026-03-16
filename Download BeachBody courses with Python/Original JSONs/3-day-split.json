@@ -1,0 +1,2149 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "3-day-split",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                "_type": "program",
+                "slug": "3-day-split",
+                "title": "3-Day Split",
+                "subtitle": null,
+                "brandCode": "3DS",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "22def777-a7a6-44ae-83a8-411a52e0e132",
+                    "slug": "3DAYSPLIT_PERM",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=3DS&locale=en_us&trainerName=AutumnCalabrese"
+                    },
+                    "purchasePath": "subscription"
+                  },
+                  {
+                    "_id": "purchase-option-standalone",
+                    "slug": "po-standalone",
+                    "title": "Standalone",
+                    "subtitle": null,
+                    "purchaseAction": null,
+                    "purchasePath": "standalone"
+                  }
+                ],
+                "seo": {
+                  "title": "3-Day Split",
+                  "description": "Torch fat. Increase strength. 3 workouts a week.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/81118d5e9effc0b2a3556776b552d9cd159b4c90-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Autumn",
+                    "lastName": "Calabrese",
+                    "bioBodi": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df65911fe5d2c1e8233b295310ac0fa73fc8dc23-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "",
+                "colorPrimaryOptions": {
+                  "argb": "",
+                  "rgba": ""
+                },
+                "descriptionShort": "Torch fat. Increase strength. 3 workouts a week.",
+                "descriptionLong": "Torch fat, increase total-body strength, and build stamina with 30-50 minute workouts just 3 days a week for 4 weeks.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/3-day-split"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Minutes",
+                  "value": "30-50"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "12"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "12"
+                },
+                "commerce": {
+                  "title": "BODi Membership Required",
+                  "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                  "purchaseAction": {
+                    "title": "Learn More",
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells"
+                  }
+                ],
+                "equipmentRecommended": null,
+                "categories": [
+                  {
+                    "title": "Strength"
+                  },
+                  {
+                    "title": "Muscle Building"
+                  },
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Athletic Training"
+                  },
+                  {
+                    "title": "Weight Loss"
+                  }
+                ],
+                "level": {
+                  "title": "Intermediate",
+                  "slug": "intermediate",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ae9a1ee6db55b06e824a870dc06413237e045813-983x590.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ae9a1ee6db55b06e824a870dc06413237e045813-983x590.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f3b450100d9b43db69a11a8bf6d936cd770263b-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e5170f01a80375aa0092b4d32e60126a00d1ee22-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/99917122d6465f8330114b960007747b58d9f2c3-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/219a4de51c332a026afff86a8b744ffcecffbc3f-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/81118d5e9effc0b2a3556776b552d9cd159b4c90-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/81118d5e9effc0b2a3556776b552d9cd159b4c90-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Dumbbells",
+                        "categories": "Strength, Muscle Building, Cardio, Athletic Training, Weight Loss",
+                        "colorPrimary": "",
+                        "colorPrimaryOptions": {
+                          "argb": "",
+                          "rgba": ""
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-f4ff300fa395d22e74bd655c96d592b827264f91-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f4ff300fa395d22e74bd655c96d592b827264f91-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "12"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Minutes",
+                            "value": "30-50"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                            },
+                            "title": "Intermediate"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "P7K7CniZiEpyz6U6gmP3pU",
+                        "_type": "collection",
+                        "slug": "3ds-getting-started",
+                        "title": "Getting Started",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "79b13014-bf12-44c3-aba8-3d7b6a10411c"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "crT43t8pxEsbim6kYBEdLX",
+                        "_type": "collection",
+                        "slug": "3ds-week-1",
+                        "title": "Week 1",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "u6zImP1BaNTesB1CJViF3u",
+                          "axEdta4kzsrcdbvqPJr9fL",
+                          "u6zImP1BaNTesB1CJVi3RK"
+                        ]
+                      },
+                      {
+                        "_id": "axEdta4kzsrcdbvqPRiQ46",
+                        "_type": "collection",
+                        "slug": "3ds-week-2",
+                        "title": "Week 2",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "u6zImP1BaNTesB1CJViGoE",
+                          "u6zImP1BaNTesB1CJVi29G",
+                          "u6zImP1BaNTesB1CJVi0hm"
+                        ]
+                      },
+                      {
+                        "_id": "crT43t8pxEsbim6kYBEdAw",
+                        "_type": "collection",
+                        "slug": "3ds-week-3",
+                        "title": "Week 3",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "u6zImP1BaNTesB1CJVhvXW",
+                          "crT43t8pxEsbim6kYBEb0i",
+                          "crT43t8pxEsbim6kYBEanl"
+                        ]
+                      },
+                      {
+                        "_id": "crT43t8pxEsbim6kYBEd7P",
+                        "_type": "collection",
+                        "slug": "3ds-week-4",
+                        "title": "Week 4",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "axEdta4kzsrcdbvqPRiJ3Q",
+                          "axEdta4kzsrcdbvqPRiHpD",
+                          "crT43t8pxEsbim6kYBEa0J"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "kv3DnWIcy05RCWtHYDWlxj",
+                        "_type": "collection",
+                        "slug": "3ds-calendar",
+                        "title": "Calendar",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "crT43t8pxEsbim6kYBEZnM"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "79b13014-bf12-44c3-aba8-3d7b6a10411c": {
+                    "_id": "79b13014-bf12-44c3-aba8-3d7b6a10411c",
+                    "_type": "promo",
+                    "slug": "3ds-meet-autumn-3ds0013",
+                    "brandCode": "3DS",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "durationEstimate": 240,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/17f292038feaec22763ed779dfc5998fd9a6344a-730x496.jpg"
+                    },
+                    "title": "Meet Autumn",
+                    "descriptionLong": "In this heartwarming video, get to know your Super Trainer Autumn Calabrese as she highlights pivotal moments of her life leading up to her 10th Beachbody program 9 Week Control Freak, and how all of her expertise can help you take control of your health, nutrition, fitness, and sleep.",
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0013",
+                      "durationActual": 247,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "axEdta4kzsrcdbvqPJr9fL": {
+                    "_id": "axEdta4kzsrcdbvqPJr9fL",
+                    "_type": "workout",
+                    "slug": "3ds-base-camp-3ds0002",
+                    "brandCode": "3DS",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DS&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Base Camp",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/81d19c1546a83411abda256d9ee7fdc979c1cb50-730x496.png"
+                    },
+                    "descriptionLong": "Just 5 moves and 3 rounds to target your glutes, hamstrings, quads, and calves. Get ready for your base to burn.",
+                    "durationEstimate": 2880,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Hips",
+                        "slug": "hips"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0002",
+                      "durationActual": 2917,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "axEdta4kzsrcdbvqPRiHpD": {
+                    "_id": "axEdta4kzsrcdbvqPRiHpD",
+                    "_type": "workout",
+                    "slug": "3ds-high-5s-cardio-3-day-split-2-3ds0011",
+                    "brandCode": "3DS",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DS&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "High 5's Cardio",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4f9e3b805dcceca704812e1596c4de9687c64d7d-730x496.png"
+                    },
+                    "descriptionLong": "Put your dumbbells aside for this bodyweight-only cardio session. Two circuits of five moves will leave you sweaty, smiling, and feeling stronger than ever.",
+                    "durationEstimate": 1920,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0011",
+                      "durationActual": 1934,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "axEdta4kzsrcdbvqPRiJ3Q": {
+                    "_id": "axEdta4kzsrcdbvqPRiJ3Q",
+                    "_type": "workout",
+                    "slug": "3ds-front-focused-3-day-split-2-3ds0010",
+                    "brandCode": "3DS",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DS&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Front Focused",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3c7e0b899a61a2e7d3007bf7a9ce9a40dc48e6ae-730x496.png"
+                    },
+                    "descriptionLong": "Heavier weights target your front-facing muscles\u2014especially your pecs, biceps, and quads\u2014before ending with a core-carving finisher.",
+                    "durationEstimate": 2940,
+                    "focusAreas": [
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Biceps",
+                        "slug": "biceps"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0010",
+                      "durationActual": 2596,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "crT43t8pxEsbim6kYBEZnM": {
+                    "_id": "crT43t8pxEsbim6kYBEZnM",
+                    "_type": "resource",
+                    "slug": "3ds-3-day-split-workout-calendar-3747632",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "3 Day Split Workout Calendar",
+                    "categories": null,
+                    "description": "Use this 4-week calendar to track your completed workouts.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/12fa59d87b6f7ef3f0a53e390450dec0b8646a28-792x612.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "3DSP-BOD-4-Week-Calendar-031324.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/1b6ae03c24288db27f4b42a6b5ee6480c4e76fb8.pdf?file=3DSP-BOD-4-Week-Calendar-031324.pdf",
+                      "size": 95638
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "crT43t8pxEsbim6kYBEa0J": {
+                    "_id": "crT43t8pxEsbim6kYBEa0J",
+                    "_type": "workout",
+                    "slug": "3ds-power-sculpt-3-day-split-3ds0012",
+                    "brandCode": "3DS",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DS&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Power Sculpt",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bb84f1ad8ca20beafbf88ad61180128b15599c94-730x496.png"
+                    },
+                    "descriptionLong": "The combo moves in this workout engage multiple muscles across multiple joints. The result: a total-body resistance class that revs your metabolism while building strength all over.",
+                    "durationEstimate": 2580,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0012",
+                      "durationActual": 3048,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "crT43t8pxEsbim6kYBEanl": {
+                    "_id": "crT43t8pxEsbim6kYBEanl",
+                    "_type": "workout",
+                    "slug": "3ds-base-camp-3-day-split-3ds0009",
+                    "brandCode": "3DS",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DS&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Base Camp",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/81d19c1546a83411abda256d9ee7fdc979c1cb50-730x496.png"
+                    },
+                    "descriptionLong": "Just 5 moves and 3 rounds to target your glutes, hamstrings, quads, and calves. Get ready for your base to burn.",
+                    "durationEstimate": 2700,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Hips",
+                        "slug": "hips"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0009",
+                      "durationActual": 2917,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "crT43t8pxEsbim6kYBEb0i": {
+                    "_id": "crT43t8pxEsbim6kYBEb0i",
+                    "_type": "workout",
+                    "slug": "3ds-build-up-3-day-split-2-3ds0008",
+                    "brandCode": "3DS",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DS&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Build Up",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e57f84ed6d078a03efd2e542e666809199a33b27-730x496.png"
+                    },
+                    "descriptionLong": "Focus on your shoulders, arms, chest, and back, plus active cardio recovery intervals, to optimize muscle growth and endurance.",
+                    "durationEstimate": 2880,
+                    "focusAreas": [
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Biceps",
+                        "slug": "biceps"
+                      },
+                      {
+                        "title": "Triceps",
+                        "slug": "triceps"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0008",
+                      "durationActual": 2940,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "u6zImP1BaNTesB1CJVhvXW": {
+                    "_id": "u6zImP1BaNTesB1CJVhvXW",
+                    "_type": "workout",
+                    "slug": "3ds-rear-view-3-day-split-3ds0007",
+                    "brandCode": "3DS",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DS&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Rear View",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87aaec5cf74b90003879d2793266070a0cd63fde-730x496.png"
+                    },
+                    "descriptionLong": "It\u2019s time to shift your focus to the backside of your body with exercises that spotlight your \u201cposterior chain,\u201d helping you build strength, power, and stability that translate far beyond your workouts.",
+                    "durationEstimate": 3000,
+                    "focusAreas": [
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Triceps",
+                        "slug": "triceps"
+                      },
+                      {
+                        "title": "Fessier",
+                        "slug": "glutes-es"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0007",
+                      "durationActual": 2718,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "u6zImP1BaNTesB1CJVi0hm": {
+                    "_id": "u6zImP1BaNTesB1CJVi0hm",
+                    "_type": "workout",
+                    "slug": "3ds-front-focused-3-day-split-3ds0006",
+                    "brandCode": "3DS",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DS&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Front Focused",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3c7e0b899a61a2e7d3007bf7a9ce9a40dc48e6ae-730x496.png"
+                    },
+                    "descriptionLong": "Heavier weights target your front-facing muscles\u2014especially your pecs, biceps, and quads\u2014before ending with a core-carving finisher.",
+                    "durationEstimate": 2580,
+                    "focusAreas": [
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Biceps",
+                        "slug": "biceps"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0006",
+                      "durationActual": 2596,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "u6zImP1BaNTesB1CJVi29G": {
+                    "_id": "u6zImP1BaNTesB1CJVi29G",
+                    "_type": "workout",
+                    "slug": "3ds-high-5s-cardio-3-day-split-3ds0005",
+                    "brandCode": "3DS",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DS&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "High 5's Cardio",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4f9e3b805dcceca704812e1596c4de9687c64d7d-730x496.png"
+                    },
+                    "descriptionLong": "Put your dumbbells aside for this bodyweight-only cardio session. Two circuits of five moves will leave you sweaty, smiling, and feeling stronger than ever.",
+                    "durationEstimate": 1920,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0005",
+                      "durationActual": 1934,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "u6zImP1BaNTesB1CJVi3RK": {
+                    "_id": "u6zImP1BaNTesB1CJVi3RK",
+                    "_type": "workout",
+                    "slug": "3ds-rear-view-3ds0003",
+                    "brandCode": "3DS",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DS&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Rear View",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87aaec5cf74b90003879d2793266070a0cd63fde-730x496.png"
+                    },
+                    "descriptionLong": "It\u2019s time to shift your focus to the backside of your body with exercises that spotlight your \u201cposterior chain,\u201d helping you build strength, power, and stability that translate far beyond your workouts.",
+                    "durationEstimate": 2700,
+                    "focusAreas": [
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Triceps",
+                        "slug": "triceps"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0003",
+                      "durationActual": 2718,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "u6zImP1BaNTesB1CJViF3u": {
+                    "_id": "u6zImP1BaNTesB1CJViF3u",
+                    "_type": "workout",
+                    "slug": "3ds-power-sculpt-3ds0001",
+                    "brandCode": "3DS",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Power Sculpt",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bb84f1ad8ca20beafbf88ad61180128b15599c94-730x496.png"
+                    },
+                    "descriptionLong": "The combo moves in this workout engage multiple muscles across multiple joints. The result: a total-body resistance class that revs your metabolism while building strength all over.",
+                    "durationEstimate": 3000,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0001",
+                      "durationActual": 3048,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "u6zImP1BaNTesB1CJViGoE": {
+                    "_id": "u6zImP1BaNTesB1CJViGoE",
+                    "_type": "workout",
+                    "slug": "3ds-build-up-3-day-split-3ds0004",
+                    "brandCode": "3DS",
+                    "primaryParent": {
+                      "_id": "LZhKrzN7Yhbpw4ZJgxm5iR",
+                      "_type": "program",
+                      "slug": "3-day-split"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3DS&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Build Up",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e57f84ed6d078a03efd2e542e666809199a33b27-730x496.png"
+                    },
+                    "descriptionLong": "Focus on your shoulders, arms, chest, and back, plus active cardio recovery intervals, to optimize muscle growth and endurance.",
+                    "durationEstimate": 2940,
+                    "focusAreas": [
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Biceps",
+                        "slug": "biceps"
+                      },
+                      {
+                        "title": "Triceps",
+                        "slug": "triceps"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "3DS0004",
+                      "durationActual": 2940,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223584001,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "3-day-split",
+              "en-US"
+            ],
+            "queryHash": "[\"3-day-split\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/3-day-split/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "3-day-split",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>TickTick MVP</title>
+  </head>
+  <body>
+    <h1>Tasks</h1>
+    <ul id="tasks"></ul>
+    <input type="text" id="new-task" placeholder="New task" />
+    <button id="add-btn">Add</button>
+    <script>
+      const API = 'http://localhost:8000';
+
+      async function loadTasks() {
+        const res = await fetch(`${API}/tasks`);
+        const tasks = await res.json();
+        const ul = document.getElementById('tasks');
+        ul.innerHTML = '';
+        tasks.forEach((t) => {
+          const li = document.createElement('li');
+          li.textContent = t.title + (t.completed ? ' ✅' : '');
+          ul.appendChild(li);
+        });
+      }
+
+      document.getElementById('add-btn').onclick = async () => {
+        const input = document.getElementById('new-task');
+        await fetch(`${API}/tasks`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ title: input.value }),
+        });
+        input.value = '';
+        loadTasks();
+      };
+
+      loadTasks();
+    </script>
+  </body>
+</html>
+

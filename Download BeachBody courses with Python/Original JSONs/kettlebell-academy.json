@@ -1,0 +1,1536 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "kettlebell-academy",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "xWgjt0RnNiL4VWepX3wlUR",
+                "_type": "program",
+                "slug": "kettlebell-academy",
+                "title": "Kettlebell Academy",
+                "subtitle": null,
+                "brandCode": "KBA",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=KBA&locale=en_us&trainerName=AmoilaCesar"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Kettlebell Academy | BODi",
+                  "description": "Kettlebell Academy is a series divided into three training blocks, each with three distinct workouts, setting you up to successfully and safely train with a Kettlebell.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/69a6f3c2f8a600101c8bda3feaaa421c285f208b-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Amoila",
+                    "lastName": "Cesar",
+                    "bioBodi": "Amoila is an NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape\u2014and his live strength, HIIT, and core workouts can do the same for you. In addition to his classes on BODi, Amoila is the creator of 645\u2122, 6 Weeks of THE WORK\u00ae, and 4 Weeks of THE PREP\u2122, available on Beachbody On Demand.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5bac58024f8ff618d98050a841e44f5974d0bf3e-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "",
+                "colorPrimaryOptions": {
+                  "argb": "",
+                  "rgba": ""
+                },
+                "descriptionShort": "Master the basics and take your fitness to the next level.",
+                "descriptionLong": "Master the fundamentals of kettlebell training with elite athlete Amoila Cesar. Three training blocks safely build up your skills until you can perform advanced exercises with confidence.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/kettlebell-academy"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "30-35"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "9"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "9"
+                },
+                "commerce": {
+                  "title": "BODi Membership Required",
+                  "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                  "purchaseAction": {
+                    "title": "Learn More",
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Kettlebell"
+                  }
+                ],
+                "equipmentRecommended": null,
+                "categories": [
+                  {
+                    "title": "Athletic Training"
+                  },
+                  {
+                    "title": "Muscle Building"
+                  },
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Low Impact"
+                  }
+                ],
+                "level": {
+                  "title": "All Levels",
+                  "slug": "all-levels",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1614faeeae70e2c7d80143e89afae8ba0c6a2064-1975x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1614faeeae70e2c7d80143e89afae8ba0c6a2064-1975x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d2c996b55431c1bdd50ab0b31fed306da621390-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/04d1403bd9386dcd365bb36ec6b542c6fbebf68d-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cd363fc24f23ef589b6de431ea75dbeccc1c6494-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ae20fe80a37d9fe07df56b0c9ee81dc807cd9a38-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/69a6f3c2f8a600101c8bda3feaaa421c285f208b-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/69a6f3c2f8a600101c8bda3feaaa421c285f208b-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Workouts",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Kettlebell",
+                        "categories": "Athletic Training, Muscle Building, Cardio, Low Impact",
+                        "colorPrimary": "",
+                        "colorPrimaryOptions": {
+                          "argb": "",
+                          "rgba": ""
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-e9ab907f54d12af315abc8963077e964e5f1e5da-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e9ab907f54d12af315abc8963077e964e5f1e5da-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "9"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "30-35"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                            },
+                            "title": "All Levels"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "cexXmUzqqOjSkM5iAZ56AM",
+                        "_type": "collection",
+                        "slug": "kettlebell-swings-foundations",
+                        "title": "Swings",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "cexXmUzqqOjSkM5iAZ4sMO",
+                          "131Ysx6vGIxsPsdQVteKgz",
+                          "131Ysx6vGIxsPsdQVteL57"
+                        ]
+                      },
+                      {
+                        "_id": "131Ysx6vGIxsPsdQVteN8L",
+                        "_type": "collection",
+                        "slug": "kettlebell-cleans",
+                        "title": "Cleans",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "131Ysx6vGIxsPsdQVteJNp",
+                          "131Ysx6vGIxsPsdQVteJWb",
+                          "131Ysx6vGIxsPsdQVteJ8T"
+                        ]
+                      },
+                      {
+                        "_id": "131Ysx6vGIxsPsdQVteN1l",
+                        "_type": "collection",
+                        "slug": "kba-kettlebell-snatches",
+                        "title": "Snatches",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "cexXmUzqqOjSkM5iAZ4orw",
+                          "131Ysx6vGIxsPsdQVteIXB",
+                          "131Ysx6vGIxsPsdQVteIOP"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "131Ysx6vGIxsPsdQVteIOP": {
+                    "_id": "131Ysx6vGIxsPsdQVteIOP",
+                    "_type": "workout",
+                    "slug": "kettlebell-snatches-drills-kba0009",
+                    "brandCode": "KBA",
+                    "primaryParent": {
+                      "_id": "xWgjt0RnNiL4VWepX3wlUR",
+                      "_type": "program",
+                      "slug": "kettlebell-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KBA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Kettlebell Snatches: Drills",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/672354aed29080988bc40ecf5e523f0215e5d236-730x496.jpg"
+                    },
+                    "descriptionLong": "This EMOM (every minute on the minute) workout will put your body to the test and leave you breathless. Be sure to choose an appropriate weight!",
+                    "durationEstimate": 1920,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Kettlebell"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Water Bottle"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KBA0009",
+                      "durationActual": 1920,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "131Ysx6vGIxsPsdQVteIXB": {
+                    "_id": "131Ysx6vGIxsPsdQVteIXB",
+                    "_type": "workout",
+                    "slug": "kettlebell-snatches-skills-kba0008",
+                    "brandCode": "KBA",
+                    "primaryParent": {
+                      "_id": "xWgjt0RnNiL4VWepX3wlUR",
+                      "_type": "program",
+                      "slug": "kettlebell-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KBA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Kettlebell Snatches: Skills",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/aecafe7e62af15ab2ed37a8d457731e3e99bb271-730x496.jpg"
+                    },
+                    "descriptionLong": "Challenge yourself with both single arm and double arm snatches. Before you know it, every muscle in your body will feel the burn.",
+                    "durationEstimate": 1920,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Kettlebell"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Water Bottle"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KBA0008",
+                      "durationActual": 1920,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "131Ysx6vGIxsPsdQVteJ8T": {
+                    "_id": "131Ysx6vGIxsPsdQVteJ8T",
+                    "_type": "workout",
+                    "slug": "kettlebell-cleans-drills-kba0006",
+                    "brandCode": "KBA",
+                    "primaryParent": {
+                      "_id": "xWgjt0RnNiL4VWepX3wlUR",
+                      "_type": "program",
+                      "slug": "kettlebell-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KBA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Kettlebell Cleans: Drills",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d393ac069dc4ba4157758a9a36f75bb034d8787a-730x496.jpg"
+                    },
+                    "descriptionLong": "Get sweaty in this high-volume workout where you'll utilize multiple drills to improve your cleans like a pro.",
+                    "durationEstimate": 2040,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Kettlebell"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Water Bottle"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KBA0006",
+                      "durationActual": 2040,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "131Ysx6vGIxsPsdQVteJNp": {
+                    "_id": "131Ysx6vGIxsPsdQVteJNp",
+                    "_type": "workout",
+                    "slug": "kettlebell-cleans-foundations-kba0004",
+                    "brandCode": "KBA",
+                    "primaryParent": {
+                      "_id": "xWgjt0RnNiL4VWepX3wlUR",
+                      "_type": "program",
+                      "slug": "kettlebell-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KBA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Kettlebell Cleans: Foundations",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/24d9d14f92506a66f4c17a2411df8020aa18a4f8-730x496.jpg"
+                    },
+                    "descriptionLong": "Practicing the rack hold and \"\"finding the grip\"\" will help you master the key components of a kettlebell clean.",
+                    "durationEstimate": 2040,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Kettlebell"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Water Bottle"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KBA0004",
+                      "durationActual": 2040,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "131Ysx6vGIxsPsdQVteJWb": {
+                    "_id": "131Ysx6vGIxsPsdQVteJWb",
+                    "_type": "workout",
+                    "slug": "kettlebell-cleans-skills-kba0005",
+                    "brandCode": "KBA",
+                    "primaryParent": {
+                      "_id": "xWgjt0RnNiL4VWepX3wlUR",
+                      "_type": "program",
+                      "slug": "kettlebell-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KBA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Kettlebell Cleans: Skills",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/92ffbe1b79933aa7f3ceeb9f5cca44a8eefd293e-730x496.jpg"
+                    },
+                    "descriptionLong": "Begin this skills training with dead cleans before progressing to conventional single and double arm kettlebell cleans.",
+                    "durationEstimate": 2040,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Kettlebell"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Water Bottle"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KBA0005",
+                      "durationActual": 2040,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "131Ysx6vGIxsPsdQVteKgz": {
+                    "_id": "131Ysx6vGIxsPsdQVteKgz",
+                    "_type": "workout",
+                    "slug": "kettlebell-swings-skills-kba0002",
+                    "brandCode": "KBA",
+                    "primaryParent": {
+                      "_id": "xWgjt0RnNiL4VWepX3wlUR",
+                      "_type": "program",
+                      "slug": "kettlebell-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KBA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Kettlebell Swings: Skills",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cc9962ae7213f9d201e288151f0a200d66b1a5f2-730x496.jpg"
+                    },
+                    "descriptionLong": "Get ready to apply power and momentum as you learn double arm and single arm swings.",
+                    "durationEstimate": 1860,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Kettlebell"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Water Bottle"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KBA0002",
+                      "durationActual": 1860,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "131Ysx6vGIxsPsdQVteL57": {
+                    "_id": "131Ysx6vGIxsPsdQVteL57",
+                    "_type": "workout",
+                    "slug": "kettlebell-swings-drills-kba0003",
+                    "brandCode": "KBA",
+                    "primaryParent": {
+                      "_id": "xWgjt0RnNiL4VWepX3wlUR",
+                      "_type": "program",
+                      "slug": "kettlebell-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KBA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Kettlebell Swings: Drills",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9e518fba440289cc1d25f212025d4a1d06c3a409-730x496.jpg"
+                    },
+                    "descriptionLong": "Take your swings to the next level with drills like the time ladder drill, park and go breath ladder, and more.",
+                    "durationEstimate": 2100,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Kettlebell"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Water Bottle"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KBA0003",
+                      "durationActual": 2100,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "cexXmUzqqOjSkM5iAZ4orw": {
+                    "_id": "cexXmUzqqOjSkM5iAZ4orw",
+                    "_type": "workout",
+                    "slug": "kettlebell-snatches-foundations-kba0007",
+                    "brandCode": "KBA",
+                    "primaryParent": {
+                      "_id": "xWgjt0RnNiL4VWepX3wlUR",
+                      "_type": "program",
+                      "slug": "kettlebell-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KBA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Kettlebell Snatches: Foundations",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cddace2b8a1e07a833e4d9e125683331550cb04b-730x496.jpg"
+                    },
+                    "descriptionLong": "Expand your grip knowledge with the goose neck grip to get comfortable with the overhead hold position, which is essential for a kettlebell snatch.",
+                    "durationEstimate": 1980,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Kettlebell"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Water Bottle"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KBA0007",
+                      "durationActual": 1980,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "cexXmUzqqOjSkM5iAZ4sMO": {
+                    "_id": "cexXmUzqqOjSkM5iAZ4sMO",
+                    "_type": "workout",
+                    "slug": "kettlebell-swings-foundations-kba0001",
+                    "brandCode": "KBA",
+                    "primaryParent": {
+                      "_id": "xWgjt0RnNiL4VWepX3wlUR",
+                      "_type": "program",
+                      "slug": "kettlebell-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KBA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Kettlebell Swings: Foundations",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1ef854555cf40da8bc56c7dd237f7347e643b72c-730x496.jpg"
+                    },
+                    "descriptionLong": "Learn the foundational movements that build you up to a kettlebell swing. Practice the hinge utilizing the glutes to the wall method before testing your timing and coordination with air swings.",
+                    "durationEstimate": 1980,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Kettlebell"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Water Bottle"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KBA0001",
+                      "durationActual": 1980,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223394730,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "kettlebell-academy",
+              "en-US"
+            ],
+            "queryHash": "[\"kettlebell-academy\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/kettlebell-academy/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "kettlebell-academy",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

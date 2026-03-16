@@ -1,0 +1,720 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "for-beginners-only-super-block",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "kj07naej4H0wqjkuAQgWMb",
+                "_type": "program",
+                "slug": "for-beginners-only-super-block",
+                "title": "For Beginners Only",
+                "subtitle": null,
+                "brandCode": "FBO",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=FBO&locale=en_us&trainerName=LaceeGreen"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "For Beginners Only Super Block - Low-Impact Full Body Workouts",
+                  "description": "For Beginners Only Super Block is designed specifically for those new to fitness, offering easy-to-follow low-impact exercises to help you reach your goals.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e6c2d66bc42ed675fbaf954caef8dd02033ebfe9-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Lacee",
+                    "lastName": "Green",
+                    "bioBodi": "A fitness entrepreneur, AFAA certified personal trainer, NASM certified group fitness instructor, model, and proud mom, Lacee is committed to showing that fitness comes in every shape, size, and color, and that every body is beautiful. Sign up for her strength and cardio classes today to discover what you are capable of\u2014and how fit you can become.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cfa2fc1e0eddd3b02043adc94c49d9e954961e5d-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "",
+                "colorPrimaryOptions": {
+                  "argb": "",
+                  "rgba": ""
+                },
+                "descriptionShort": "Build your foundation. Start your journey.",
+                "descriptionLong": "Finally, a way into exercise for beginners. Ease into low-impact cardio, strength, core, and mobility workouts and feel great as soon as you get started. With simplified, supportive training, this is your path to a new kind of fitness.",
+                "sampleWorkoutId": "R1lQVXW7BqCA6PpJmmQYrn",
+                "trailerId": "88c786b1-5108-4787-8125-e6e4800ceb66",
+                "videoOverviewId": "R1lQVXW7BqCA6PpJmmQYrn",
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/for-beginners-only-super-block"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Minutes",
+                  "value": "30"
+                },
+                "duration": null,
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "15"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LaceeGreen"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells"
+                  },
+                  {
+                    "title": "Resistance Loops"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Mat"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Low Impact"
+                  },
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Slim & Sculpt"
+                  },
+                  {
+                    "title": "Weight Loss"
+                  },
+                  {
+                    "title": "Core"
+                  }
+                ],
+                "level": {
+                  "title": "Beginner",
+                  "slug": "beginner",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4041dd9efd931e18896c7a8c97448c91e1a7cf84-993x565.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4041dd9efd931e18896c7a8c97448c91e1a7cf84-993x565.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/546704460984de2456d4f549ffce4f5263db716e.mp4"
+                  },
+                  "loopingVideoPortrait": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/ef94c7af23dd452acbef9655d9b9dc484ae81a41.mp4"
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fea952df202d29d5d3152ec5ca90a623cb23afc2-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/65e12e5d2a14ce14469a8096c77cff1ab01f8119-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0efb29c863d2583119c72973eddb8b84c817df21-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87ed30bd0a87904163918f776abba069979face6-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e6c2d66bc42ed675fbaf954caef8dd02033ebfe9-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e6c2d66bc42ed675fbaf954caef8dd02033ebfe9-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "For Beginners Only",
+                    "slug": "for-beginners-only",
+                    "modules": [
+                      {
+                        "_id": "54b5f527-34c9-4587-8e21-51f4b6281af1",
+                        "_type": "collection",
+                        "slug": "fbo-start-now",
+                        "title": "Start Now!",
+                        "entityType": null,
+                        "collectionType": "bodiBlock",
+                        "entityIds": [
+                          "9be7ae32-73db-4219-92ab-d1e4a7558d46"
+                        ]
+                      },
+                      {
+                        "_id": "e07348cc-5cc7-4535-b9ce-1cc87f0ae796",
+                        "_type": "editorial",
+                        "slug": "fbo-hiw-1-what-is-a-super-block",
+                        "title": "What Is a Super Block?",
+                        "subtitle": null,
+                        "content": "An incredible program made into a fresh and new BODi Block for you by our Super Trainers\u2014that\u2019s a Super Block. Reach your goals with 5 workouts a week for 3 weeks followed by an UP week to reset. It\u2019s all about block periodization\u2014the perfect balance of exercise, recovery, and training variation. Start the first Monday of the month or whatever day works best for you.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1752078d2495175947be5d26a5817014f5837171-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "c77e1e41-a11d-4b26-8a1a-12db6259e892",
+                        "_type": "editorial",
+                        "slug": "fbo-hiw-2-is-for-beginners-only-right-for-me",
+                        "title": "Is \u201cFor Beginners Only\u201d Right for Me?",
+                        "subtitle": null,
+                        "content": "This is for you if you need to learn exercise fundamentals and want to fast-track your progress. By the end, you\u2019ll be ready for another round or excited to take on a different program. Super Trainer Lacee Green walks you through the basics with precision and patience but always keeps it fun and positive as she guides your cardio, strength, core, and mobility workouts. Feel empowered with moves you can master, supported by a trainer who shows you anything is possible.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f6f5934c7bc06331d879fcfb613be51b6119086d-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "7815126b-a07b-48de-ade1-3793d0d5676a",
+                        "_type": "editorial",
+                        "slug": "fbo-hiw-3-what-are-the-workouts-like",
+                        "title": "What Are the Workouts Like?",
+                        "subtitle": null,
+                        "content": "Lacee builds you up from your very first workout with expert cues and encouraging words to guide you safely and effectively through a range of exercises. As you progress into Week 2, she introduces more intensity\u2014but still at your pace\u2014with precise coaching in every move. You\u2019ll build off these first weeks by taking all the movements you\u2019ve learned and combining them in Week 3. You can repeat this Super Block with Lacee as many times as you want, or plug into a new BODi Block of For Beginners Only each month.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7ea14c2764a7ace951b396b3f202d8ad15b43a6e-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "VIEW WORKOUTS",
+                          "url": "https://beachbodyondemand.com/blocks/for-beginners-only/workouts"
+                        }
+                      },
+                      {
+                        "_id": "9d3d1d63-76d1-45a9-9aae-7f3cb489014e",
+                        "_type": "editorial",
+                        "slug": "fbo-hiw-4-up-week-for-unconditional-progress",
+                        "title": "UP Week for Unconditional Progress",
+                        "subtitle": null,
+                        "content": "The fourth week of your Super Block is your UP Week, which stands for Unconditional Progress. This is the week your body recovers\u2014take time off or do the 2 optional workouts to keep up your progress while giving your body time to repair. You can also explore other BODi classes or watch Monthly Mindset Master Classes from guest presenters. These options are designed to strengthen your inner motivation and mindset as you look ahead to new goals and build on this moment of feeling incredible.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bd6d293ec47d46621a94598f3df677cafa138c83-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "494de3c8-6f7a-4de7-9125-21f69dc8564f",
+                        "_type": "editorial",
+                        "slug": "fbo-hiw-4-nourish-your-body",
+                        "title": "Nourish Your Body",
+                        "subtitle": null,
+                        "content": "Make your Health Esteem routine complete with one of our healthy eating plans, 2B Mindset or Portion Fix, and access over 1,000 yummy recipes to get you started.\n\nFuel your body and get the most from your workouts with a delicious superfood shake and clean pre-workout energy. Shakeology tastes like a gourmet dessert with whole-food-based ingredients to help support healthy digestion, energy, and lean muscle.** Energize is a clean pre-workout formula that gives you a boost of energy and helps sharpen your focus so you can push through every workout with more endurance.*",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a96be43b0d03eb43a6d1ea35b25c34d3228f584c-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "28093c8f-d418-4635-b8f4-f16c750a194f",
+                        "_type": "editorial",
+                        "slug": "fbo-hiw-6-get-the-support-you-need",
+                        "title": "Get the Support You Need",
+                        "subtitle": null,
+                        "content": "Connect with your Accountability Partner to join their accountability group and get a support system you can count on. You\u2019ll find friends to celebrate your wins and cheer you on when you need it most\u2014or welcome you back with gentle accountability when life gets in the way. It\u2019s your community of like-minded people who always have your back and keep you moving forward.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f4d1fe46fc85632a2cde9e57bd4502b79f57c539-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Lacee",
+                            "bio": "A fitness entrepreneur, AFAA certified personal trainer, NASM certified group fitness instructor, model, and proud mom, Lacee is committed to showing that fitness comes in every shape, size, and color, and that every body is beautiful. Sign up for her strength and cardio classes today to discover what you are capable of\u2014and how fit you can become.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cfa2fc1e0eddd3b02043adc94c49d9e954961e5d-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/lacee.green.1",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/thecurvygirltrainer/",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "88c786b1-5108-4787-8125-e6e4800ceb66": {
+                    "_id": "88c786b1-5108-4787-8125-e6e4800ceb66",
+                    "_type": "promo",
+                    "slug": "for-beginners-only-sizzle-fbo0003",
+                    "brandCode": "FBO",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "kj07naej4H0wqjkuAQgWMb",
+                      "_type": "program",
+                      "slug": "for-beginners-only-super-block"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3d3b241e23e6a3f31e37e65e8478e53cdf940409-730x496.jpg"
+                    },
+                    "title": "Introducing For Beginners Only",
+                    "descriptionLong": null,
+                    "trainers": [
+                      {
+                        "slug": "lacee-green",
+                        "firstName": "Lacee",
+                        "lastName": "Green",
+                        "bio": "Build strength, endurance, and indoor cycling skill across five rides, culminating in 30 minutes of sweaty, calorie-burning fun. By the end, you\u2019ll be ready for any ride in our library.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d6670171c84d8918578add2407da59270859025d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "FBO0003",
+                      "durationActual": 106,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "9be7ae32-73db-4219-92ab-d1e4a7558d46": {
+                    "_id": "9be7ae32-73db-4219-92ab-d1e4a7558d46",
+                    "_type": "bodiBlock",
+                    "slug": "for-beginners-only",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=FBO&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": "FBO"
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjBa",
+                        "slug": "po-FBOSB_PERM",
+                        "title": "For Beginners Only Super Block Program Entitlement",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "brandCode": null,
+                    "title": "For Beginners Only",
+                    "description": "Build your foundation. Start your journey.",
+                    "descriptionShort": "Build your foundation. Start your journey.",
+                    "descriptionLong": "Finally, a way into exercise for beginners. Ease into low-impact cardio, strength, core, and mobility workouts and feel great as soon as you get started. With simplified, supportive training, this is your path to a new kind of fitness.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/891db724d2efd0eb5a5aad0c8d9ce6d0d79d960f-776x964.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/891db724d2efd0eb5a5aad0c8d9ce6d0d79d960f-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87ed30bd0a87904163918f776abba069979face6-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a46329bfff55ced313573f5b100a28386ec5ea29-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e6c2d66bc42ed675fbaf954caef8dd02033ebfe9-1125x750.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/424fe5d6b82c416ca8391d50965111cb492fd169-993x565.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Minutes",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "4"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "15"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "dateStart": "2023-04-03T09:15:00.000Z",
+                    "dateEnd": "2023-04-29T06:45:00.000Z",
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isJoined": false,
+                      "joinedAt": null,
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "R1lQVXW7BqCA6PpJmmQYrn": {
+                    "_id": "R1lQVXW7BqCA6PpJmmQYrn",
+                    "_type": "workout",
+                    "slug": "for-beginners-only-sample-workout-bodi_xgbcu76cq08_01162023",
+                    "brandCode": null,
+                    "primaryParent": {
+                      "_id": "9be7ae32-73db-4219-92ab-d1e4a7558d46",
+                      "_type": "bodiBlock",
+                      "slug": "for-beginners-only"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bodi",
+                    "title": "For Beginners Only Sample Workout",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/76f45266b361b99180e59ae2605a3478a8876ce6-1920x1080.jpg"
+                    },
+                    "descriptionLong": "Wondering whether For Beginners Only is right for you? Click play on this fun-filled mashup of exercises from the entire Super Block to get a taste of the workouts and discover how Super Trainer Lacee Green puts any goal within reach.",
+                    "durationEstimate": 2254,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength-2"
+                      }
+                    ],
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Heart Rate Monitor"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "lacee-green",
+                        "firstName": "Lacee",
+                        "lastName": "Green",
+                        "bio": "A fitness entrepreneur, AFAA certified personal trainer, NASM certified group fitness instructor, model, and proud mom, Lacee is committed to showing that fitness comes in every shape, size, and color, and that every body is beautiful. Sign up for her strength and cardio classes today to discover what you are capable of\u2014and how fit you can become.",
+                        "images": {
+                          "bodiCutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f5602ddae2e1adb2bb80867b6d91b5ef474289da-684x1088.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "bodi_xgbCU76cQ08_01162023",
+                      "durationActual": 2254,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223442474,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "for-beginners-only-super-block",
+              "en-US"
+            ],
+            "queryHash": "[\"for-beginners-only-super-block\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/for-beginners-only-super-block/for-beginners-only",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "for-beginners-only-super-block",
+      "for-beginners-only"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

@@ -1,0 +1,3103 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "a-little-more-obsessed",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                "_type": "program",
+                "slug": "a-little-more-obsessed",
+                "title": "A Little More Obsessed",
+                "subtitle": null,
+                "brandCode": "ALMO",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=ALMO&locale=en_us&trainerName=AutumnCalabrese"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "A Little More Obsessed Program Overview: Start Your Journey Here",
+                  "description": "Get more intense workouts and results in less time with A Little More Obsessed. See what the program includes, any equipment needed and meet your trainer here.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4a28686c39d74b166dc2b9353b2fed4c92316eda-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Autumn",
+                    "lastName": "Calabrese",
+                    "bioBodi": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df65911fe5d2c1e8233b295310ac0fa73fc8dc23-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#2792ff",
+                "colorPrimaryOptions": {
+                  "argb": "#2792ff",
+                  "rgba": "#2792ff"
+                },
+                "descriptionShort": "The Obsession continues with six more workouts focusing on abs and booty.",
+                "descriptionLong": "A little more intensity in a little less time. Autumn challenges you with all-new moves and a new cardio flow routine that will work your entire body with extra attention to your booty and core.",
+                "sampleWorkoutId": "gAjyjR8IcIqVjU7DkPqvdw",
+                "trailerId": "gAjyjR8IcIqVjU7DkPqvdw",
+                "videoOverviewId": "gAjyjR8IcIqVjU7DkPqvdw",
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/a-little-more-obsessed"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "45"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Days",
+                  "value": "6"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "6"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells"
+                  },
+                  {
+                    "title": "Resistance Loops"
+                  },
+                  {
+                    "title": "Strength Slides"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Core Comfort Mat"
+                  },
+                  {
+                    "title": "BOD Rope"
+                  },
+                  {
+                    "title": "Push-Up Stands"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Strength"
+                  },
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Bodyweight Training"
+                  },
+                  {
+                    "title": "Core"
+                  }
+                ],
+                "level": {
+                  "title": "Advanced",
+                  "slug": "advanced",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4bee071fe208f857d4cb329e7d23fd5cb4239ad9-361x361.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4bee071fe208f857d4cb329e7d23fd5cb4239ad9-361x361.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/9f756c0e2ca79413352944767ff801861159f753.mp4"
+                  },
+                  "loopingVideoPortrait": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/ffcece22b0c313d7e744f5d1e49b64d45cf83c79.mp4"
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e4cef5c5b956bb22fd2028bc5cd24e561e71919c-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3e87abc7bde4e3cadc9c7f45eee5e7f4ed423f61-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/38054740b198807acb9687b8dfc82309f90927ea-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/13b6d49a4cb75b133c48c1e1623cd5c914d1c79f-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4a28686c39d74b166dc2b9353b2fed4c92316eda-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4a28686c39d74b166dc2b9353b2fed4c92316eda-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Dumbbells, Resistance Loops, Strength Slides, Core Comfort Mat*, BOD Rope*, Push-Up Stands*",
+                        "categories": "Strength, Cardio, Bodyweight Training, Core",
+                        "colorPrimary": "#2792ff",
+                        "colorPrimaryOptions": {
+                          "argb": "#2792ff",
+                          "rgba": "#2792ff"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "gAjyjR8IcIqVjU7DkPqvdw",
+                          "_type": "promo",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f1a70e937a156eff7aac8bb62a00a832ae27ead5-1310x698.jpg"
+                          },
+                          "videoId": "AD-ALMO32100",
+                          "title": "Introducing A Little More Obsessed!",
+                          "subtitle": "1m",
+                          "catalog": "bod"
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "6"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "45"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                            },
+                            "title": "Advanced"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZGrEXL",
+                        "_type": "editorial",
+                        "slug": "a-little-more-obsessed-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "BODi's nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.teambeachbody.com/micro-site/nutrition-plus/index.html#/en"
+                        }
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe5Bc1",
+                        "_type": "collection",
+                        "slug": "a-little-more-obsessed-related-content",
+                        "title": "A Little More Obsessed Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "UqWqrADNH9eso22jUFVuIQ",
+                          "2Y1ZDDXEx3aLPbgAHe2GHZ",
+                          "UqWqrADNH9eso22jUFVuZP"
+                        ]
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Autumn",
+                            "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df65911fe5d2c1e8233b295310ac0fa73fc8dc23-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/autumn.calabrese.3",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.Instagram.com/autumncalabrese",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.twitter.com/autumncalabrese",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.youtube.com/autumnfitness",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f06acc8786ecf26616838c26162235cfcce4108-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0XYX",
+                        "_type": "collection",
+                        "slug": "a-little-more-obsessed-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZBmn7f",
+                          "TLO8WWQ85YuM6DeBHIhYl9",
+                          "BoGK5VlBLllbPFYTvNCwE4",
+                          "BoGK5VlBLllbPFYTvNjSp6"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZGrDj1",
+                        "_type": "collection",
+                        "slug": "a-little-more-obsessed",
+                        "title": "A Little More Obsessed",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7ugIXz",
+                          "Q6j5eG7tj3PSUghmZGquoV",
+                          "NWOt1I2xWP7xm05A7ugIsV",
+                          "NWOt1I2xWP7xm05A7ugJ6B",
+                          "NWOt1I2xWP7xm05A7ugJDs",
+                          "NWOt1I2xWP7xm05A7ugJfE",
+                          "Q6j5eG7tj3PSUghmZGqxFT"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0XYX",
+                        "_type": "collection",
+                        "slug": "a-little-more-obsessed-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZBmn7f",
+                          "TLO8WWQ85YuM6DeBHIhYl9",
+                          "BoGK5VlBLllbPFYTvNCwE4",
+                          "BoGK5VlBLllbPFYTvNjSp6"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Episodes",
+                    "slug": "episodes",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPLC1w",
+                        "_type": "collection",
+                        "slug": "weekly-obsession-2",
+                        "title": "Weekly Obsession",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7ugPl4"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0XYX",
+                        "_type": "collection",
+                        "slug": "a-little-more-obsessed-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZBmn7f",
+                          "TLO8WWQ85YuM6DeBHIhYl9",
+                          "BoGK5VlBLllbPFYTvNCwE4",
+                          "BoGK5VlBLllbPFYTvNjSp6"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "RpXul1yMTKSy2WJV8WUvvT",
+                        "_type": "collection",
+                        "slug": "a-little-more-obsessed-calendar-and-tracking",
+                        "title": "Calendar and Tracking",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGqxtj",
+                          "BoGK5VlBLllbPFYTvPL5Y0"
+                        ]
+                      },
+                      {
+                        "_id": "3Au36TACh8j41B2g72cEFF",
+                        "_type": "collection",
+                        "slug": "a-little-more-obsessed-nutrition",
+                        "title": "Nutrition",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGqyaV",
+                          "BoGK5VlBLllbPFYTvPL5ua",
+                          "NWOt1I2xWP7xm05A7ugKXw",
+                          "Q6j5eG7tj3PSUghmZGqzCF",
+                          "BoGK5VlBLllbPFYTvPL6DY",
+                          "NWOt1I2xWP7xm05A7ugKju",
+                          "BoGK5VlBLllbPFYTvPL6Su",
+                          "Q6j5eG7tj3PSUghmZGr087",
+                          "NWOt1I2xWP7xm05A7ugKwj",
+                          "BoGK5VlBLllbPFYTvPL6iG",
+                          "Q6j5eG7tj3PSUghmZGr16V",
+                          "BoGK5VlBLllbPFYTvPL6wi",
+                          "BoGK5VlBLllbPFYTvPL73w"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0XYX",
+                        "_type": "collection",
+                        "slug": "a-little-more-obsessed-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZBmn7f",
+                          "TLO8WWQ85YuM6DeBHIhYl9",
+                          "BoGK5VlBLllbPFYTvNCwE4",
+                          "BoGK5VlBLllbPFYTvNjSp6"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe2GHZ": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2GHZ",
+                    "_type": "linkItem",
+                    "slug": "meal-prep-for-a-little-more-obsessed",
+                    "title": "Meal Prep for A Little More Obsessed",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/aebea90e99433a2d45b2c55384907c3097d09068-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/a-little-more-obsessed-meal-prep",
+                    "isFavoritable": false
+                  },
+                  "BoGK5VlBLllbPFYTvNCwE4": {
+                    "_id": "BoGK5VlBLllbPFYTvNCwE4",
+                    "_type": "program",
+                    "slug": "80-day-obsession",
+                    "brandCode": "80DO",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2018-01-11",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=80DO&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "80 Day Obsession",
+                    "description": "Get the abs and booty you\u2019ve always wanted in 80 Days.",
+                    "descriptionShort": "Get the abs and booty you\u2019ve always wanted in 80 Days.",
+                    "descriptionLong": "Lift your butt, sculpt your core, and get an incredible total body transformation with 80 unique \u201creal-time\u201d workouts and a Timed-Nutrition Eating Plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/275399f8b8f90855c756744edac0d577351938c5-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/693a287c92340f3886e33dcfc8ef5d7a08f56f85-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/693a287c92340f3886e33dcfc8ef5d7a08f56f85-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/275399f8b8f90855c756744edac0d577351938c5-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/275399f8b8f90855c756744edac0d577351938c5-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d3fa17e570c33aa0e4b93a330ed90a660610c97b-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ee44abe974b7774775915f89281e973aaf017b6b-541x361.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-60"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "80"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "80"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Strength Slides"
+                      },
+                      {
+                        "title": "Foam Roller"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      },
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Sturdy Chair"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvNjSp6": {
+                    "_id": "BoGK5VlBLllbPFYTvNjSp6",
+                    "_type": "program",
+                    "slug": "transform-20",
+                    "brandCode": "TF20",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-04-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=TF20&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Transform :20",
+                    "description": "Step up the intensity in just 20 minutes a day with dynamic cardio moves.",
+                    "descriptionShort": "Step up the intensity in just 20 minutes a day with dynamic cardio moves.",
+                    "descriptionLong": "Transform :20 is a high-intensity, six-week workout and nutrition program that will help transform your body and mind in just 20 minutes a day.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a797e2e31cf392dacb57e65e4cb4549a0a0201c1-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8de1b90561870c6e9f302adf592b34f16b064aec-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8de1b90561870c6e9f302adf592b34f16b064aec-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a797e2e31cf392dacb57e65e4cb4549a0a0201c1-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a797e2e31cf392dacb57e65e4cb4549a0a0201c1-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96d9bf35f6786ac60f44e4fe098035349a534339-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8db9e43dca395098bf317acd7319dbddf453a95c-555x361.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "6"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "50"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Step"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPL5Y0": {
+                    "_id": "BoGK5VlBLllbPFYTvPL5Y0",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-a-little-more-obsessed-tracker-sheets-2911917",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "A Little More Obsessed Tracker Sheets",
+                    "categories": null,
+                    "description": "Keep track of your workout performance.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/36214af7336bb3932f9feb50fa8345b8d1fc8591-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "ALMO_TrackerSheets_091118.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/6239d4e154e070726de5f01eb1c58012b32a9123.pdf?file=ALMO_TrackerSheets_091118.pdf",
+                      "size": 109399
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPL5ua": {
+                    "_id": "BoGK5VlBLllbPFYTvPL5ua",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-80-day-obsession-eating-plan-a-2904783",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "80 Day Obsession Eating Plan A",
+                    "categories": null,
+                    "description": "Get all of the details about Timed-Nutrition for Plan A and how it can help you maximize your results. See examples of meal timing and sample meal plans, plus get printable menu planners to make meal prep easier.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7a16fa32be212e1a9fde687aef7532fa89b7968c-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "80DO_EATING_PLAN_A_020718.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/8c7880f63f2d36d87306999a43d97fab1a02743a.pdf?file=80DO_EATING_PLAN_A_020718.pdf",
+                      "size": 427391
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPL6DY": {
+                    "_id": "BoGK5VlBLllbPFYTvPL6DY",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-80-day-obsession-eating-plan-d-2906553",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "80 Day Obsession Eating Plan D",
+                    "categories": null,
+                    "description": "Get all of the details about Timed-Nutrition for Plan D and how it can help you maximize your results. See examples of meal timing and sample meal plans, plus get printable menu planners to make meal prep easier.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9a00954d3957da3fabda598294b33e8a4e0fac58-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "80DO_EATING_PLAN_D_021218.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/df73bf2a0c2268651b354da4a59d146a700ba8ca.pdf?file=80DO_EATING_PLAN_D_021218.pdf",
+                      "size": 433680
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPL6Su": {
+                    "_id": "BoGK5VlBLllbPFYTvPL6Su",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-80-day-obsession-eating-plan-f-2907738",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "80 Day Obsession Eating Plan F",
+                    "categories": null,
+                    "description": "Get all of the details about Timed-Nutrition for Plan F and how it can help you maximize your results. See examples of meal timing and sample meal plans, plus get printable menu planners to make meal prep easier.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/527eee511729ff52b3f6c54a7b50f489f63d6df0-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "80DO_EATING_PLAN_F_021218.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/23bbdb8b29c06ddae73ae1b7ad74b2e790cab804.pdf?file=80DO_EATING_PLAN_F_021218.pdf",
+                      "size": 436298
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPL6iG": {
+                    "_id": "BoGK5VlBLllbPFYTvPL6iG",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-80-day-obsession-vegan-eating-plan-c-2909523",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "80 Day Obsession Vegan Eating Plan C",
+                    "categories": null,
+                    "description": "Get all of the details about Timed-Nutrition for Vegan Plan C and how to incorporate it into your vegan lifestyle. See examples of meal timing and sample meal plans, plus get printable menu planners to make meal prep easier.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/74cc2f7b358cbfabce680d800c4d9c9977b3ac94-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "80DO_EATING_PLAN_C_Vegan_021218.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/1961fa2dcf5527a50d512b108cf12e53bf121810.pdf?file=80DO_EATING_PLAN_C_Vegan_021218.pdf",
+                      "size": 543893
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPL6wi": {
+                    "_id": "BoGK5VlBLllbPFYTvPL6wi",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-80-day-obsession-vegan-eating-plan-e-2910718",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "80 Day Obsession Vegan Eating Plan E",
+                    "categories": null,
+                    "description": "Get all of the details about Timed-Nutrition for Vegan Plan E and how to incorporate it into your vegan lifestyle. See examples of meal timing and sample meal plans, plus get printable menu planners to make meal prep easier.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a19df7b1da5bbca34e3e6b6e037704da77a64504-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "80DO_EATING_PLAN_E_Vegan_021218.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/fd71bc75aab39fd2a9a1e91f55f066b8bd2e3869.pdf?file=80DO_EATING_PLAN_E_Vegan_021218.pdf",
+                      "size": 545465
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPL73w": {
+                    "_id": "BoGK5VlBLllbPFYTvPL73w",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-80-day-obsession-vegan-eating-plan-f-2911317",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "80 Day Obsession Vegan Eating Plan F",
+                    "categories": null,
+                    "description": "Get all of the details about Timed-Nutrition for Vegan Plan F and how to incorporate it into your vegan lifestyle. See examples of meal timing and sample meal plans, plus get printable menu planners to make meal prep easier.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5ac390a959bdc1949d8892146d0e1cfae4388e3b-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "80DO_EATING_PLAN_F_Vegan_021218.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/6fb8ecd35ac6243239b27e16e6c05aa1b9949c47.pdf?file=80DO_EATING_PLAN_F_Vegan_021218.pdf",
+                      "size": 548090
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugIXz": {
+                    "_id": "NWOt1I2xWP7xm05A7ugIXz",
+                    "_type": "workout",
+                    "slug": "day-1-total-body-core-3-almo32100",
+                    "brandCode": "ALMO",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ALMO&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 1: Total Body Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4c4923f144fe76ade22abde627ab101dc4314877-398x225.jpg"
+                    },
+                    "descriptionLong": "Burn fat and build muscle from head to toe with this comprehensive workout that gives special attention to your core.",
+                    "durationEstimate": 2640,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Push-Up Stands"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "ALMO32100",
+                      "durationActual": 2640,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugIsV": {
+                    "_id": "NWOt1I2xWP7xm05A7ugIsV",
+                    "_type": "workout",
+                    "slug": "day-3-cardio-core-2-almo32102",
+                    "brandCode": "ALMO",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ALMO&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 3: Cardio Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b6f9d738e1b9cca72c8b45c3220cf3d1cc9e98e1-398x225.jpg"
+                    },
+                    "descriptionLong": "Get ready to sweat and burn calories with 3-minute intervals of cardio and plyometrics, followed by a core-shredding active recovery.",
+                    "durationEstimate": 2460,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Strength Slides"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Push-Up Stands"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "ALMO32102",
+                      "durationActual": 2438,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugJ6B": {
+                    "_id": "NWOt1I2xWP7xm05A7ugJ6B",
+                    "_type": "workout",
+                    "slug": "day-4-aaa-2-almo32103",
+                    "brandCode": "ALMO",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ALMO&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 4: AAA",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/422d43a1201b9af65be4395855b9f5aa28c1fb44-398x225.jpg"
+                    },
+                    "descriptionLong": "\u201cTriple A\u201d emphasizes the eccentric phase of each exercise to keep the muscle under tension for an extended period of time while training. This will help you redefine your arms, abs, and (ahem) a**.",
+                    "durationEstimate": 2700,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "ALMO32103",
+                      "durationActual": 2717,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugJDs": {
+                    "_id": "NWOt1I2xWP7xm05A7ugJDs",
+                    "_type": "workout",
+                    "slug": "day-5-booty-almo32104",
+                    "brandCode": "ALMO",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ALMO&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 5: Booty",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8675514df27f21a08d06c5f8923ed19b1b06f6b5-398x225.jpg"
+                    },
+                    "descriptionLong": "You\u2019ll target your glutes and hamstrings with this lower-body workout that\u2019s designed to help you sculpt a stronger, firmer backside.",
+                    "durationEstimate": 2700,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Strength Slides"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "ALMO32104",
+                      "durationActual": 2735,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugJfE": {
+                    "_id": "NWOt1I2xWP7xm05A7ugJfE",
+                    "_type": "workout",
+                    "slug": "breakdown-cardio-flow-almo32105",
+                    "brandCode": "ALMO",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ALMO&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Breakdown: Cardio Flow",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1ad1f2a06e496c14ddeb1725150aa30d057abe9c-398x225.jpg"
+                    },
+                    "descriptionLong": "Break down each move in the Cardio Flow workout with Autumn.",
+                    "durationEstimate": 300,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Push-Up Stands"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "ALMO32105",
+                      "durationActual": 308,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugKXw": {
+                    "_id": "NWOt1I2xWP7xm05A7ugKXw",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-80-day-obsession-eating-plan-b-2905372",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "80 Day Obsession Eating Plan B",
+                    "categories": null,
+                    "description": "Get all of the details about Timed-Nutrition for Plan B and how it can help you maximize your results. See examples of meal timing and sample meal plans, plus get printable menu planners to make meal prep easier.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9d0fd14984e48ea866619be040a9024180c0c00e-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "80DO_EATING_PLAN_B_021218.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/4b0a2a74602cee97201894376421975f62a94e39.pdf?file=80DO_EATING_PLAN_B_021218.pdf",
+                      "size": 429114
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugKju": {
+                    "_id": "NWOt1I2xWP7xm05A7ugKju",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-80-day-obsession-eating-plan-e-2907145",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "80 Day Obsession Eating Plan E",
+                    "categories": null,
+                    "description": "Get all of the details about Timed-Nutrition for Plan E and how it can help you maximize your results. See examples of meal timing and sample meal plans, plus get printable menu planners to make meal prep easier.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9eea6e53fa65fe55b03ec85d1323b10a719af972-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "80DO_EATING_PLAN_E_021218.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/006363377f128f8e60ba493b7f201cdb56336d0d.pdf?file=80DO_EATING_PLAN_E_021218.pdf",
+                      "size": 435223
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugKwj": {
+                    "_id": "NWOt1I2xWP7xm05A7ugKwj",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-80-day-obsession-vegan-eating-plan-b-2908927",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "80 Day Obsession Vegan Eating Plan B",
+                    "categories": null,
+                    "description": "Get all of the details about Timed-Nutrition for Vegan Plan B and how to incorporate it into your vegan lifestyle. See examples of meal timing and sample meal plans, plus get printable menu planners to make meal prep easier.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1772b424254398aede113398f0ad4d903e34c916-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "80DO_EATING_PLAN_B_Vegan_021218.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/32fd63244abc0076029647b3d8b735f51ab971e0.pdf?file=80DO_EATING_PLAN_B_Vegan_021218.pdf",
+                      "size": 542103
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugPl4": {
+                    "_id": "NWOt1I2xWP7xm05A7ugPl4",
+                    "_type": "episode",
+                    "slug": "a-little-more-weekly-obsession-almo32107",
+                    "brandCode": "ALMO",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ALMO&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "A Little More Weekly Obsession",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0771343e06c9c6c63d96d1f8ea90d50688139ce3-398x225.jpg"
+                    },
+                    "descriptionLong": "Stay connected to all the fun, behind-the-scenes action happening between Autumn and the cast with this quick preview into a week of A Little More Obsessed.",
+                    "durationEstimate": 840,
+                    "categories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "ALMO32107",
+                      "durationActual": 846,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBmn7f": {
+                    "_id": "Q6j5eG7tj3PSUghmZBmn7f",
+                    "_type": "program",
+                    "slug": "21-day-fix-real-time",
+                    "brandCode": "21DRT",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-05-01",
+                    "commerce": {
+                      "title": "Try Portion Fix Today!",
+                      "subtitle": "(Not included in regular BOD membership)",
+                      "purchaseAction": {
+                        "title": "Shop Now",
+                        "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=UPF&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": "UPF"
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=21DRT&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21DRT&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "21 Day Fix Real Time",
+                    "description": "21 simple 30-minute workouts. Simple portion control. Fast results.",
+                    "descriptionShort": "21 simple 30-minute workouts. Simple portion control. Fast results.",
+                    "descriptionLong": "Get a major calorie burn, tone your muscles, and lose up to 15 pounds in 21 days with a different 30-minute real-time workout every day. Build on the moves weekly to get total-body results, faster.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b35648b056e60eb094f59e512509ad17bae37f43-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7de8289ae48744ee78b325a3b705b73fcdb0a6ad-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7de8289ae48744ee78b325a3b705b73fcdb0a6ad-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b35648b056e60eb094f59e512509ad17bae37f43-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b35648b056e60eb094f59e512509ad17bae37f43-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df0c697cac7ec8fcec41a15e715be1be788f527f-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bd6b89c162b6b89552ad2faf298c636ee15a5381-980x1008.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "21"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "28"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGquoV": {
+                    "_id": "Q6j5eG7tj3PSUghmZGquoV",
+                    "_type": "workout",
+                    "slug": "day-2-legs-2-almo32101",
+                    "brandCode": "ALMO",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ALMO&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 2: Legs",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/89bbf0543154a72b9cfc047784a55fa1543af96b-398x225.jpg"
+                    },
+                    "descriptionLong": "You\u2019ve never experienced a leg day like this one before. Multiple rounds of lower-body exercises will help strengthen and sculpt every muscle from your hips to your toes.",
+                    "durationEstimate": 2520,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Strength Slides"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Push-Up Stands"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "ALMO32101",
+                      "durationActual": 2545,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGqxFT": {
+                    "_id": "Q6j5eG7tj3PSUghmZGqxFT",
+                    "_type": "workout",
+                    "slug": "day-6-cardio-flow-3-almo32106",
+                    "brandCode": "ALMO",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ALMO&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 6: Cardio Flow",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31de77c1ccfa490eed2fb84ed1aa9417fca03e92-398x225.jpg"
+                    },
+                    "descriptionLong": "This dynamic endurance workout uses progressively more intense rounds of movement patterns to challenge your mind, muscles, and stamina.",
+                    "durationEstimate": 2580,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Push-Up Stands"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "ALMO32106",
+                      "durationActual": 2605,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGqxtj": {
+                    "_id": "Q6j5eG7tj3PSUghmZGqxtj",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-a-little-more-obsessed-workout-calendar-2912518",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "A Little More Obsessed Workout Calendar",
+                    "categories": null,
+                    "description": "A schedule of Autumn\u2019s six 45-minute workouts.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d530a608db8e8ff91fdcf7f6d5aed3787b76129d-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "ALMO_Workout_Calendar_EN_10.17.18.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/92e4ad67a2999c67a8a9d9407a4313b914236ebf.pdf?file=ALMO_Workout_Calendar_EN_10.17.18.pdf",
+                      "size": 1468058
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGqyaV": {
+                    "_id": "Q6j5eG7tj3PSUghmZGqyaV",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-a-little-more-obsessed-nutrition-guide-2904195",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "A Little More Obsessed Nutrition Guide",
+                    "categories": null,
+                    "description": "This guide will help you determine which plan works best for you in just a few easy steps",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/65d3179cb863afe2c8bb41ac8dcca8617b28ac7d-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "ALMO_Nutrition_Guide_EN_10.17.18.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/bb31b09909d4872b623f3eb255e8e84422dcf49a.pdf?file=ALMO_Nutrition_Guide_EN_10.17.18.pdf",
+                      "size": 1669531
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGqzCF": {
+                    "_id": "Q6j5eG7tj3PSUghmZGqzCF",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-80-day-obsession-eating-plan-c-2905962",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "80 Day Obsession Eating Plan C",
+                    "categories": null,
+                    "description": "Get all of the details about Timed-Nutrition for Plan C and how it can help you maximize your results. See examples of meal timing and sample meal plans, plus get printable menu planners to make meal prep easier.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/647905fa6ff3db7488e02ca2b4ba5a9a0aff231a-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "80DO_EATING_PLAN_C_021218.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/6be344c72e9cd260ab7648bc045f5b5208aafd0d.pdf?file=80DO_EATING_PLAN_C_021218.pdf",
+                      "size": 430699
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGr087": {
+                    "_id": "Q6j5eG7tj3PSUghmZGr087",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-80-day-obsession-vegan-eating-plan-a-2908332",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "80 Day Obsession Vegan Eating Plan A",
+                    "categories": null,
+                    "description": "Get all of the details about Timed-Nutrition for Vegan Plan A and how to incorporate it into your vegan lifestyle. See examples of meal timing and sample meal plans, plus get printable menu planners to make meal prep easier.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d28881e2140828e7b25a56b827cd3c995425cc64-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "80DO_EATING_PLAN_A_Vegan_021218.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/90d85e181579428ef5e2831fd712e7cb15d9bdc8.pdf?file=80DO_EATING_PLAN_A_Vegan_021218.pdf",
+                      "size": 541468
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGr16V": {
+                    "_id": "Q6j5eG7tj3PSUghmZGr16V",
+                    "_type": "resource",
+                    "slug": "a-little-more-obsessed-80-day-obsession-vegan-eating-plan-d-2910120",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "80 Day Obsession Vegan Eating Plan D",
+                    "categories": null,
+                    "description": "Get all of the details about Timed-Nutrition for Vegan Plan D and how to incorporate it into your vegan lifestyle. See examples of meal timing and sample meal plans, plus get printable menu planners to make meal prep easier.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0bff0d4700a89cc22c1f665533361eba0b8fe4ea-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "80DO_EATING_PLAN_D_Vegan_021218.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/0078a649ee684a8bb0491c3fb9b27fd8c909461a.pdf?file=80DO_EATING_PLAN_D_Vegan_021218.pdf",
+                      "size": 544421
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "TLO8WWQ85YuM6DeBHIhYl9": {
+                    "_id": "TLO8WWQ85YuM6DeBHIhYl9",
+                    "_type": "program",
+                    "slug": "21-day-fix-extreme-real-time",
+                    "brandCode": "21XRT",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-05-30",
+                    "commerce": {
+                      "title": "Try Portion Fix Today!",
+                      "subtitle": "(Not included in regular BOD membership)",
+                      "purchaseAction": {
+                        "title": "Shop Now",
+                        "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=UPF&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": "UPF"
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=21XRT&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21XRT&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "21 Day Fix EXTREME Real Time",
+                    "description": "Get serious results with daily 30-min. workouts & portion control",
+                    "descriptionShort": "Get serious results with daily 30-min. workouts & portion control",
+                    "descriptionLong": "21 Day Fix EXTREME Real Time helps you get serious results in 21 days with portion control and intense 30-minute workouts that progress from week to week for faster results",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eb3bbcad7c272f857cbce356c1e55dc21b9e196-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7fd9380ad6882bd7e2f99ef26b171f2ad887d5f0-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7fd9380ad6882bd7e2f99ef26b171f2ad887d5f0-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eb3bbcad7c272f857cbce356c1e55dc21b9e196-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eb3bbcad7c272f857cbce356c1e55dc21b9e196-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/42fdf31aa9847d0eb01bc0a850888db3a2bfce04-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/06c48fdd36797a6f67cf334d705441eabc6b1631-354x374.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "21"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "30"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Yoga Blocks"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "UqWqrADNH9eso22jUFVuIQ": {
+                    "_id": "UqWqrADNH9eso22jUFVuIQ",
+                    "_type": "linkItem",
+                    "slug": "introducing-a-little-more-obsessed",
+                    "title": "Introducing A Little More Obsessed!",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/637e37db5f4b4905ecbeea93ce609f0122a9841c-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/a-little-more-obsessed",
+                    "isFavoritable": false
+                  },
+                  "UqWqrADNH9eso22jUFVuZP": {
+                    "_id": "UqWqrADNH9eso22jUFVuZP",
+                    "_type": "linkItem",
+                    "slug": "beachbody-performance-supplements-that-could-transform-your-workout",
+                    "title": "BODi Performance: Supplements That Could Transform Your Workout",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b2f7babdce95742121974f15ae9783781f64bd84-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/beachbody-performance-line",
+                    "isFavoritable": false
+                  },
+                  "gAjyjR8IcIqVjU7DkPqvdw": {
+                    "_id": "gAjyjR8IcIqVjU7DkPqvdw",
+                    "_type": "promo",
+                    "slug": "a-little-more-obsessed-sizzle-ad-almo32100",
+                    "brandCode": "ALMO",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrFkp",
+                      "_type": "program",
+                      "slug": "a-little-more-obsessed"
+                    },
+                    "durationEstimate": 60,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d1e050a064c13018758f0c3aa3cdcbcf518dcd32-730x496.jpg"
+                    },
+                    "title": "Introducing A Little More Obsessed!",
+                    "descriptionLong": "Introducing A Little More Obsessed!",
+                    "trainers": null,
+                    "video": {
+                      "videoId": "AD-ALMO32100",
+                      "durationActual": 143,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223539176,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "a-little-more-obsessed",
+              "en-US"
+            ],
+            "queryHash": "[\"a-little-more-obsessed\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/a-little-more-obsessed/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "a-little-more-obsessed",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

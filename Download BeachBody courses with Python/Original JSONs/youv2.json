@@ -1,0 +1,2950 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "youv2",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                "_type": "program",
+                "slug": "youv2",
+                "title": "YOUv2",
+                "subtitle": null,
+                "brandCode": "YV2",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us&trainerName=LeandroCarvalho"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "YOUv2 Program Overview: Start Your Journey Here",
+                  "description": "Start a fun and easy health and fitness program with YOUv2. See what the program includes, any equipment needed, and meet your trainer here.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5a90e23524b8d13fed8e558d17637ff746224494-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Leandro",
+                    "lastName": "Carvalho",
+                    "bioBodi": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9abae53b7151612f51f496c2c664f1a13dbe8161-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#69d1cd",
+                "colorPrimaryOptions": {
+                  "argb": "#69d1cd",
+                  "rgba": "#69d1cd"
+                },
+                "descriptionShort": "Get moving to feel-good party tunes to create the new version of you!",
+                "descriptionLong": "Get moving again with this fun and easy health and fitness program. Rock out to feel-good party songs from the 80's and 90's develop healthy habits, and finally lose the weight.",
+                "sampleWorkoutId": null,
+                "trailerId": "A3jSdym3jf5hqTWanxQV03",
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/youv2"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "30"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Weeks",
+                  "value": "4"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "6"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LeandroCarvalho"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Core Comfort Mat"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Weighted Gloves"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Dance"
+                  },
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Slim & Sculpt"
+                  },
+                  {
+                    "title": "Bodyweight Training"
+                  }
+                ],
+                "level": {
+                  "title": "Beginner",
+                  "slug": "beginner",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/846c24df8966ae57fc54d9f353e8d214e524ef8f-1072x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/846c24df8966ae57fc54d9f353e8d214e524ef8f-1072x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/a199084004cf2be512359ecacfffe334799e26ab.mp4"
+                  },
+                  "loopingVideoPortrait": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/cc590203e4aa10681b736ffe429a25813c2f2cd1.mp4"
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cdc2d2111b02a760a91cb1b68f9e6bce48f97d3-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/47a2cab14d3c18689a4b77d79d96f808a1dab53f-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0f97cff12cd693b4c36dbc285eb3eb22a1acfd8f-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a5f2575ef3cbfb486243b4496e7bbf35f2e01b24-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5a90e23524b8d13fed8e558d17637ff746224494-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5a90e23524b8d13fed8e558d17637ff746224494-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Core Comfort Mat, Weighted Gloves*",
+                        "categories": "Dance, Cardio, Slim & Sculpt, Bodyweight Training",
+                        "colorPrimary": "#69d1cd",
+                        "colorPrimaryOptions": {
+                          "argb": "#69d1cd",
+                          "rgba": "#69d1cd"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-f5e410fd7bea0b231c9ac12aa347f80eacb770dc-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f5e410fd7bea0b231c9ac12aa347f80eacb770dc-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "6"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "30"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                            },
+                            "title": "Beginner"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZGrzr9",
+                        "_type": "editorial",
+                        "slug": "youv2-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "Beachbody\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.teambeachbody.com/micro-site/nutrition-plus/index.html#/en"
+                        }
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe5Dkn",
+                        "_type": "collection",
+                        "slug": "total-body-solution-related-content",
+                        "title": "YOUv2 Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "UqWqrADNH9eso22jUFW5A7",
+                          "vKPPpbqN0JH0WMoJVD7ePG",
+                          "2Y1ZDDXEx3aLPbgAHe2QFN"
+                        ]
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Leandro",
+                            "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9abae53b7151612f51f496c2c664f1a13dbe8161-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/pages/category/Public-Figure/Leandro-Carvalho-336263867087/",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/leandrofitness",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFUQFq",
+                        "_type": "collection",
+                        "slug": "youv2-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7ugawL",
+                          "Q6j5eG7tj3PSUghmZBkcQd",
+                          "Q6j5eG7tj3PSUghmZFHalr",
+                          "Q6j5eG7tj3PSUghmZF5Izb",
+                          "Q6j5eG7tj3PSUghmZGrZ1z"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7uggPi",
+                        "_type": "collection",
+                        "slug": "youv2",
+                        "title": "YOUv2",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGrppf",
+                          "Q6j5eG7tj3PSUghmZGrq4l",
+                          "NWOt1I2xWP7xm05A7ugcPo",
+                          "NWOt1I2xWP7xm05A7ugcXV",
+                          "BoGK5VlBLllbPFYTvPLPfM",
+                          "NWOt1I2xWP7xm05A7ugcqJ"
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7uggSH",
+                        "_type": "collection",
+                        "slug": "youv2-kids-channel",
+                        "title": "YOUv2 Kids Channel",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7ugd8G",
+                          "NWOt1I2xWP7xm05A7ugdJN",
+                          "Q6j5eG7tj3PSUghmZGrssN",
+                          "NWOt1I2xWP7xm05A7ugdd2",
+                          "Q6j5eG7tj3PSUghmZGrtP5",
+                          "Q6j5eG7tj3PSUghmZGru0p"
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFUQFq",
+                        "_type": "collection",
+                        "slug": "youv2-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7ugawL",
+                          "Q6j5eG7tj3PSUghmZBkcQd",
+                          "Q6j5eG7tj3PSUghmZFHalr",
+                          "Q6j5eG7tj3PSUghmZF5Izb",
+                          "Q6j5eG7tj3PSUghmZGrZ1z"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "3Au36TACh8j41B2g6LTCEf",
+                        "_type": "collection",
+                        "slug": "youv2-program-materials",
+                        "title": "Program Materials",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGruKx",
+                          "Q6j5eG7tj3PSUghmZGrua3",
+                          "T405szsSamzin6dj7R7Q0c",
+                          "T405szsSamzin6dj7R7QNb",
+                          "Q6j5eG7tj3PSUghmZGruwh",
+                          "Q6j5eG7tj3PSUghmZGrvEJ",
+                          "NWOt1I2xWP7xm05A7ugel8"
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFUQFq",
+                        "_type": "collection",
+                        "slug": "youv2-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7ugawL",
+                          "Q6j5eG7tj3PSUghmZBkcQd",
+                          "Q6j5eG7tj3PSUghmZFHalr",
+                          "Q6j5eG7tj3PSUghmZF5Izb",
+                          "Q6j5eG7tj3PSUghmZGrZ1z"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe2QFN": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2QFN",
+                    "_type": "linkItem",
+                    "slug": "advice-from-the-cast-of-beachbodys-youv2",
+                    "title": "Advice From the Cast of Beachbody's YOUv2",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e319bbc07ff6feb5e93b9704ef3195b9b150b1a0-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/how-to-start-losing-weight-advice-from-the-cast-of-beachbodys-youv2?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=youv2",
+                    "isFavoritable": false
+                  },
+                  "A3jSdym3jf5hqTWanxQV03": {
+                    "_id": "A3jSdym3jf5hqTWanxQV03",
+                    "_type": "promo",
+                    "slug": "youv2-sizzle-ad1247post61",
+                    "brandCode": "AD",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4198396d79e21bbb12bd6ff5d5e7e1038764e460-398x224.jpg"
+                    },
+                    "title": "Introducing YOUv2",
+                    "descriptionLong": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "AD1247POST61",
+                      "durationActual": 173,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPLPfM": {
+                    "_id": "BoGK5VlBLllbPFYTvPLPfM",
+                    "_type": "workout",
+                    "slug": "sweat-sensation-yv21000b13",
+                    "brandCode": "YV2",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LeandroCarvalho"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us&trainerName=LeandroCarvalho"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Sweat Sensation",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4fbec171b6a4bb8353dc5f34264756f98a8c7795-398x224.jpg"
+                    },
+                    "descriptionLong": "It's time for you to shine and party like it's 1991 to \"Good Vibrations,\" originally recorded by Marky Mark and the Funky Bunch featuring Loleatta Holloway",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "leandro-carvalho",
+                        "firstName": "Leandro",
+                        "lastName": "Carvalho",
+                        "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed0bea42573945845f50edd321ae195b61bc406d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YV21000B13",
+                      "durationActual": 1662,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugawL": {
+                    "_id": "NWOt1I2xWP7xm05A7ugawL",
+                    "_type": "program",
+                    "slug": "brazil-butt-lift",
+                    "brandCode": "BBL",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2009-12-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBL&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Brazil Butt Lift",
+                    "description": "You can get supermodel sexy and whip your booty into shape in just 60 days.",
+                    "descriptionShort": "You can get supermodel sexy and whip your booty into shape in just 60 days.",
+                    "descriptionLong": "This super-focused, hardcore workout will reshape your booty\u2014lifting, firming, and rounding it with strategic, targeted sculpting routines. It\u2019s so much fun you\u2019ll forget you're working your butt off.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/67f9258143ae9e5a553412b1c7a8c4add851b0a5-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ce4590172872065ca0af3339947c2606752ce36d-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ce4590172872065ca0af3339947c2606752ce36d-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/67f9258143ae9e5a553412b1c7a8c4add851b0a5-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/67f9258143ae9e5a553412b1c7a8c4add851b0a5-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ce70d93355fd937cd9af993e2c2d3dc6cd2f2cee-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/30ff7a6231e2bfcb21fc590bfb063ae9e15260d6-662x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-50"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "60"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "11"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Resistance Bands"
+                      },
+                      {
+                        "title": "Towel or Strength Slides"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Ankle Weights"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugcPo": {
+                    "_id": "NWOt1I2xWP7xm05A7ugcPo",
+                    "_type": "workout",
+                    "slug": "rock-it-out-2-yv21000b11",
+                    "brandCode": "YV2",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LeandroCarvalho"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us&trainerName=LeandroCarvalho"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Rock It Out!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0738669a4c10f2fb30f9e8279c76881f72d65d6e-398x224.jpg"
+                    },
+                    "descriptionLong": "Grab your air guitar, let out that inner rockstar, and dance it out to \"Hit Me With Your Best Shot,\" originally recorded by Pat Benatar.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Kids & Family",
+                        "slug": "kids-family"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "leandro-carvalho",
+                        "firstName": "Leandro",
+                        "lastName": "Carvalho",
+                        "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed0bea42573945845f50edd321ae195b61bc406d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YV21000B11",
+                      "durationActual": 1740,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugcXV": {
+                    "_id": "NWOt1I2xWP7xm05A7ugcXV",
+                    "_type": "workout",
+                    "slug": "sculpt-shack-yv21000b12",
+                    "brandCode": "YV2",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LeandroCarvalho"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us&trainerName=LeandroCarvalho"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Sculpt Shack",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5cc4174b626470fdc18944ed439761f1a024138-398x224.jpg"
+                    },
+                    "descriptionLong": "You'll learn to love the burn in this standing total-body cardio-sculpting workout as you tone up to \"Love Shack,\" originally recorded by The B-52's.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "leandro-carvalho",
+                        "firstName": "Leandro",
+                        "lastName": "Carvalho",
+                        "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed0bea42573945845f50edd321ae195b61bc406d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YV21000B12",
+                      "durationActual": 2034,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugcqJ": {
+                    "_id": "NWOt1I2xWP7xm05A7ugcqJ",
+                    "_type": "workout",
+                    "slug": "believe-achieve-tone-yv21000b14",
+                    "brandCode": "YV2",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LeandroCarvalho"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us&trainerName=LeandroCarvalho"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Believe, Achieve & Tone",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5c4929e2fa654199d898600754e3739801b1d28d-398x224.jpg"
+                    },
+                    "descriptionLong": "Ready to get down? Leandro knows you can conquer this mat-based workout after he gets you fired up with \"Believe,\" originally recorded by Cher.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "leandro-carvalho",
+                        "firstName": "Leandro",
+                        "lastName": "Carvalho",
+                        "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed0bea42573945845f50edd321ae195b61bc406d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YV21000B14",
+                      "durationActual": 1893,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugd8G": {
+                    "_id": "NWOt1I2xWP7xm05A7ugd8G",
+                    "_type": "workout",
+                    "slug": "move-your-body-kids-channel-yv21000mod09",
+                    "brandCode": "YV2",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LeandroCarvalho"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us&trainerName=LeandroCarvalho"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Move Your Body - Kids Channel",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/24fdfccce1c02f969f103cec94e94e45f73c74fa-398x224.jpg"
+                    },
+                    "descriptionLong": "Get ready to shimmy, shake, and strike a pose to \"Let's Get Loud,\" originally recorded by Jennifer Lopez.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Kids & Family",
+                        "slug": "kids-family"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "leandro-carvalho",
+                        "firstName": "Leandro",
+                        "lastName": "Carvalho",
+                        "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed0bea42573945845f50edd321ae195b61bc406d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YV21000MOD09",
+                      "durationActual": 1746,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugdJN": {
+                    "_id": "NWOt1I2xWP7xm05A7ugdJN",
+                    "_type": "workout",
+                    "slug": "work-it-hake-it-kids-channel-yv21000mod10",
+                    "brandCode": "YV2",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LeandroCarvalho"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us&trainerName=LeandroCarvalho"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Work It. $hake It! - Kids Channel",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4f285175e89f10b05e2d00f5da5b3e72b2f69359-398x224.jpg"
+                    },
+                    "descriptionLong": "Put your hardworking attitude into every move of this disco-themed routine as you groove to \"She Works Hard For The Money,\" originally recorded by Donna Summer.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Kids & Family",
+                        "slug": "kids-family"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "leandro-carvalho",
+                        "firstName": "Leandro",
+                        "lastName": "Carvalho",
+                        "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed0bea42573945845f50edd321ae195b61bc406d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YV21000MOD10",
+                      "durationActual": 1779,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugdd2": {
+                    "_id": "NWOt1I2xWP7xm05A7ugdd2",
+                    "_type": "workout",
+                    "slug": "sculpt-shack-kids-channel-yv21000mod12",
+                    "brandCode": "YV2",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LeandroCarvalho"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us&trainerName=LeandroCarvalho"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Sculpt Shack - Kids Channel",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8baeb43c4eb250e5757f05281c9d5192f6981f16-398x224.jpg"
+                    },
+                    "descriptionLong": "You'll learn to love the burn in this standing total-body cardio-sculpting workout as you tone up to \"Love Shack,\" originally recorded by The B-52's.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Kids & Family",
+                        "slug": "kids-family"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "leandro-carvalho",
+                        "firstName": "Leandro",
+                        "lastName": "Carvalho",
+                        "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed0bea42573945845f50edd321ae195b61bc406d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YV21000MOD12",
+                      "durationActual": 2034,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugel8": {
+                    "_id": "NWOt1I2xWP7xm05A7ugel8",
+                    "_type": "resource",
+                    "slug": "youv2-faq-2788908",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "FAQ",
+                    "categories": null,
+                    "description": "Have questions about YOUv2? Check out the FAQ.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2af122ae559f6dea7be9772311fca76abdba48e7-400x260.jpg"
+                    },
+                    "link": "https://www.beachbodyondemand.com/blog/youv2-faq",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBkcQd": {
+                    "_id": "Q6j5eG7tj3PSUghmZBkcQd",
+                    "_type": "program",
+                    "slug": "21-day-fix",
+                    "brandCode": "21D",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2014-02-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21D&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=21D&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "21 Day Fix",
+                    "description": "21 Day Fix\u2014Simple Fitness. Simple Eating. Fast Results. In just 21 days.",
+                    "descriptionShort": "21 Day Fix\u2014Simple Fitness. Simple Eating. Fast Results. In just 21 days.",
+                    "descriptionLong": "Want amazing results in 21 days? Then all you need is 21 Day Fix. You get a step-by-step, 21-day plan so you succeed. Achieving your weight-loss goals has never been faster or simpler.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/361f2b00e83307de5f55d50d0f740b6f2282de34-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/257c436ac39e1948ed5e613b44dcb6ea6690bf89-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/257c436ac39e1948ed5e613b44dcb6ea6690bf89-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/361f2b00e83307de5f55d50d0f740b6f2282de34-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/361f2b00e83307de5f55d50d0f740b6f2282de34-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e820c5d36804e35a2bcd2997f74200d5f6f135b6-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e15527a65884cb1d66dcb6317db2fc5f3be9d8da-476x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "21"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "14"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZF5Izb": {
+                    "_id": "Q6j5eG7tj3PSUghmZF5Izb",
+                    "_type": "program",
+                    "slug": "cize",
+                    "brandCode": "CZ",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2015-07-15",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=CZ&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "CIZE",
+                    "description": "Learn the hottest choreographed dance moves and workouts with amazing results.",
+                    "descriptionShort": "Learn the hottest choreographed dance moves and workouts with amazing results.",
+                    "descriptionLong": "Shaun T and his crew bring the dance studio to you to teach you real choreographed dance workouts. You\u2019ll have so much fun dancing and losing weight, you\u2019ll forget you\u2019re actually working out.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a785ef39d230e5c367d1e63e6e4538e821233895-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/63896f4cedeeec77c8f166e82d6c216a6830cdb2-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/63896f4cedeeec77c8f166e82d6c216a6830cdb2-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a785ef39d230e5c367d1e63e6e4538e821233895-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a785ef39d230e5c367d1e63e6e4538e821233895-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3ebbe340c84d80f394fda0f9a4301487a7f97b37-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d88b1903e0a30b09ce35dc78655248817c51caac-1118x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-50"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "4"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "80"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZFHalr": {
+                    "_id": "Q6j5eG7tj3PSUghmZFHalr",
+                    "_type": "program",
+                    "slug": "country-heat",
+                    "brandCode": "CH",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-07-27",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=CH&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Country Heat",
+                    "description": "You\u2019re gonna love Country Heat. Turn it up, have fun, and burn off the weight.",
+                    "descriptionShort": "You\u2019re gonna love Country Heat. Turn it up, have fun, and burn off the weight.",
+                    "descriptionLong": "Finally, a workout you\u2019ll love to do. Country Heat is set to chart-topping country music. The moves are so easy it's like walking, but way more fun. You\u2019ll dance off the weight in 30 minutes a day.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96afcb0a39af28fe3137a3f66fd898bf8dd90c7b-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/98b894c9f23af512bd80ebdb7e97aea593af3414-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/98b894c9f23af512bd80ebdb7e97aea593af3414-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96afcb0a39af28fe3137a3f66fd898bf8dd90c7b-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96afcb0a39af28fe3137a3f66fd898bf8dd90c7b-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/924888ef2c19670100d53233d07fad44ab57aa9b-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7c5c8f4106335200bf42b3695e7ea3287c6d0157-400x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "30"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "24"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGrZ1z": {
+                    "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                    "_type": "program",
+                    "slug": "hip-hop-abs",
+                    "brandCode": "HHA",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2007-02-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Hip Hop Abs",
+                    "description": "No sit ups. No crunches. Burn calories and have fun with these hip dance moves.",
+                    "descriptionShort": "No sit ups. No crunches. Burn calories and have fun with these hip dance moves.",
+                    "descriptionLong": "Shaun T shares his exclusive training techniques that target every section of your abs. You\u2019ll get 3 of the hottest hip-hop dance routines that will rev up your metabolism and get you quick results.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e56e03bd5856f2041201c86779ac238621c7cdf1-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d756cfebbee5c1bdbaff637a1c0aeaa0239b909b-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d756cfebbee5c1bdbaff637a1c0aeaa0239b909b-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e56e03bd5856f2041201c86779ac238621c7cdf1-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e56e03bd5856f2041201c86779ac238621c7cdf1-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5e372e78e9433563dd9725e388c2bc9ae91de094-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d3552ce590f5e5eb7746a79835c3c24600f41881-795x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "25-45"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "60"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "20"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Weighted Gloves"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGrppf": {
+                    "_id": "Q6j5eG7tj3PSUghmZGrppf",
+                    "_type": "workout",
+                    "slug": "move-your-body-yv21000b09",
+                    "brandCode": "YV2",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Move Your Body",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4198396d79e21bbb12bd6ff5d5e7e1038764e460-398x224.jpg"
+                    },
+                    "descriptionLong": "Get ready to shimmy, shake, and strike a pose to \"Let's Get Loud,\" originally recorded by Jennifer Lopez.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "leandro-carvalho",
+                        "firstName": "Leandro",
+                        "lastName": "Carvalho",
+                        "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed0bea42573945845f50edd321ae195b61bc406d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YV21000B09",
+                      "durationActual": 1746,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGrq4l": {
+                    "_id": "Q6j5eG7tj3PSUghmZGrq4l",
+                    "_type": "workout",
+                    "slug": "work-it-hake-it-yv21000b10",
+                    "brandCode": "YV2",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LeandroCarvalho"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us&trainerName=LeandroCarvalho"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Work It. $hake it!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/832be96655f0b6c4a5fa481a18e1902bbf7a8f31-398x224.jpg"
+                    },
+                    "descriptionLong": "Put your unique attitude into this disco-themed routine as you groove to \"She Works Hard For The Money,\" originally recorded by Donna Summer.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "leandro-carvalho",
+                        "firstName": "Leandro",
+                        "lastName": "Carvalho",
+                        "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed0bea42573945845f50edd321ae195b61bc406d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YV21000B10",
+                      "durationActual": 1779,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGrssN": {
+                    "_id": "Q6j5eG7tj3PSUghmZGrssN",
+                    "_type": "workout",
+                    "slug": "rock-it-out-kids-channel-yv21000mod11",
+                    "brandCode": "YV2",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LeandroCarvalho"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us&trainerName=LeandroCarvalho"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Rock It Out! - Kids Channel",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/74c6947ed2ccd70a5203be8806b178d2a9f7e727-398x224.jpg"
+                    },
+                    "descriptionLong": "Grab your air guitar, let out that inner rockstar, and dance it out to \"Hit Me With Your Best Shot,\" originally recorded by Pat Benatar.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Kids & Family",
+                        "slug": "kids-family"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "leandro-carvalho",
+                        "firstName": "Leandro",
+                        "lastName": "Carvalho",
+                        "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed0bea42573945845f50edd321ae195b61bc406d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YV21000MOD11",
+                      "durationActual": 1740,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGrtP5": {
+                    "_id": "Q6j5eG7tj3PSUghmZGrtP5",
+                    "_type": "workout",
+                    "slug": "sweat-sensation-kids-channel-yv21000mod13",
+                    "brandCode": "YV2",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LeandroCarvalho"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us&trainerName=LeandroCarvalho"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Sweat Sensation - Kids Channel",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c36a7f110cb388ae3d9e5beef03a46a93073b8e9-398x224.jpg"
+                    },
+                    "descriptionLong": "It's time for you to shine and party like it's 1991 to \"Good Vibrations,\" originally recorded by Marky Mark and the Funky Bunch featuring Loleatta Holloway",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Kids & Family",
+                        "slug": "kids-family"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "leandro-carvalho",
+                        "firstName": "Leandro",
+                        "lastName": "Carvalho",
+                        "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed0bea42573945845f50edd321ae195b61bc406d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YV21000MOD13",
+                      "durationActual": 1662,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGru0p": {
+                    "_id": "Q6j5eG7tj3PSUghmZGru0p",
+                    "_type": "workout",
+                    "slug": "believe-achieve-tone-kids-channel-yv21000mod14",
+                    "brandCode": "YV2",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LeandroCarvalho"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us&trainerName=LeandroCarvalho"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Believe, Achieve & Tone - Kids Channel",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/86d5cb6da2608bb8ded2fcc4cbab85362c839074-398x224.jpg"
+                    },
+                    "descriptionLong": "Ready to get down? Leandro knows you can conquer this mat-based workout after he gets you fired up with \"Believe,\" originally recorded by Cher.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "leandro-carvalho",
+                        "firstName": "Leandro",
+                        "lastName": "Carvalho",
+                        "bio": "An acclaimed professional dancer, Leandro\u2019s studied approach to movement and aesthetics give his programs a unique, results-driven angle. He\u2019s been profiled in major fashion and fitness magazines and featured on top entertainment and news TV shows. His fitness programs are known all over the world.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed0bea42573945845f50edd321ae195b61bc406d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YV21000MOD14",
+                      "durationActual": 1893,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGruKx": {
+                    "_id": "Q6j5eG7tj3PSUghmZGruKx",
+                    "_type": "resource",
+                    "slug": "youv2-quick-start-guide-2787562",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Quick Start Guide",
+                    "categories": null,
+                    "description": "Find out what your journey entails and how to make the most of it.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/90fc4405c094eb07ae2dac4491bc50d2d9e24bfb-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "YV2_QuickStart_06072017.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/51d8636c57f1e5ae14b7027a9dcf4185f1a515eb.pdf?file=YV2_QuickStart_06072017.pdf",
+                      "size": 583627
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGrua3": {
+                    "_id": "Q6j5eG7tj3PSUghmZGrua3",
+                    "_type": "resource",
+                    "slug": "youv2-calendar-2787897",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Workout Calendar",
+                    "categories": null,
+                    "description": "Learn which workouts to do each day with this Motivational Wall Art Calendar. It includes inspirational quotes from Leandro and the ladies to help you keep pressing play.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/24e3f810d12ce3e655d9af5b5111b49242495fa6-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "YV2_Calendar.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/5998b9940dc1badc292383ab522061f779db3e33.pdf?file=YV2_Calendar.pdf",
+                      "size": 96141
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGruwh": {
+                    "_id": "Q6j5eG7tj3PSUghmZGruwh",
+                    "_type": "resource",
+                    "slug": "youv2-meal-guide-2788570",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Meal Guide",
+                    "categories": null,
+                    "description": "The K.I.S.S. (Keep It Super Simple) & Just Eat! Meal Guide helps you develop healthy habits with 4 simple steps and easy recipes to eat better, feel better, and shed the weight.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9b64fead2bd368ea3ed107f3ae39573c3d714466-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "YV2_NutritionGuide_10.19.18.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/c8f85a11aeb390a0dc63b05818e54b94ec1e67a8.pdf?file=YV2_NutritionGuide_10.19.18.pdf",
+                      "size": 9405299
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGrvEJ": {
+                    "_id": "Q6j5eG7tj3PSUghmZGrvEJ",
+                    "_type": "resource",
+                    "slug": "youv2-journal-2788233",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                      "_type": "program",
+                      "slug": "youv2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Journal",
+                    "categories": null,
+                    "description": "The Oh Hello YOUv2 Journal will help you set your goals, track your progress, and discover your setbacks and motivators for a healthier, happier you.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9c9b1a84ff24c06dafce170b47650156f86dd1d2-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "YV2_Journal_06072017.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/8abf19f41241783b82cdf3da20ba6cdeea97c069.pdf?file=YV2_Journal_06072017.pdf",
+                      "size": 480519
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "T405szsSamzin6dj7R7Q0c": {
+                    "_id": "T405szsSamzin6dj7R7Q0c",
+                    "_type": "resource",
+                    "slug": "8-24-2b-mindset-quick-start-guide-3738082",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZsFUwl",
+                      "_type": "program",
+                      "slug": "2b-mindset"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjF1",
+                        "slug": "po-TURBOFIRE_PERM",
+                        "title": "Turbo Fire Program Entitlement",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "2B Mindset Quick Start Guide",
+                    "categories": null,
+                    "description": "Follow these simple steps to help you get started with the 2B Mindset Eating Plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fc830646876650f0c706e8d4f27e1ef82b5bf8f4-400x259.png"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "T25_2BM-EN_US-Quick_Start_Guide-05.01.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/3142abba459ac710b14101deddd5e271c655472e.pdf?file=T25_2BM-EN_US-Quick_Start_Guide-05.01.23.pdf",
+                      "size": 1268671
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "T405szsSamzin6dj7R7QNb": {
+                    "_id": "T405szsSamzin6dj7R7QNb",
+                    "_type": "resource",
+                    "slug": "8-24-portion-fix-quick-start-guide-3738071",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvO2z4a",
+                      "_type": "program",
+                      "slug": "10-rounds"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjF1",
+                        "slug": "po-TURBOFIRE_PERM",
+                        "title": "Turbo Fire Program Entitlement",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Portion Fix Quick Start Guide",
+                    "categories": null,
+                    "description": "Follow these simple steps to help you get started with the Portion Fix Eating Plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/55da31ae6e732a8be0555f65722d03284cb0d676-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "PFX-BODi-EN_US-Quick_Start_Guide-01.24.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/21a36e00574225075e031b582292928c74cdb1c4.pdf?file=PFX-BODi-EN_US-Quick_Start_Guide-01.24.23.pdf",
+                      "size": 341753
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "UqWqrADNH9eso22jUFW5A7": {
+                    "_id": "UqWqrADNH9eso22jUFW5A7",
+                    "_type": "linkItem",
+                    "slug": "17-of-the-best-plus-size-workout-clothes",
+                    "title": "17 of the Best Plus Size Workout Clothes",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3e7c75f2d594cba9a976267d018a2c96673830fc-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/plus-size-workout-clothes?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=youv2",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7ePG": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7ePG",
+                    "_type": "linkItem",
+                    "slug": "5-tips-for-getting-fit-when-youre-plus-size",
+                    "title": "5 Tips for Getting Fit When You're Plus Size",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5b76e15e8a634e22580dcbcf68321bb04fc56d2b-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/plus-size-fitness-tips?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=youv2",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223220491,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "youv2",
+              "en-US"
+            ],
+            "queryHash": "[\"youv2\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/youv2/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "youv2",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

@@ -1,0 +1,3888 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "slim-in-6",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                "_type": "program",
+                "slug": "slim-in-6",
+                "title": "Slim in 6",
+                "subtitle": null,
+                "brandCode": "SL6",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Slim in 6 Program Overview: Start Your Journey Here",
+                  "description": "Watch the fat melt away with Slim in 6. See what the program includes, any equipment needed, and meet your trainer here.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/73ec86b0aa3b55a52d7a4de4fe618033bd09690a-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Debbie",
+                    "lastName": "Siebers",
+                    "bioBodi": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0d7bd08f3996f914ddbab496bb30c69502af2d93-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#00a3c0",
+                "colorPrimaryOptions": {
+                  "argb": "#00a3c0",
+                  "rgba": "#00a3c0"
+                },
+                "descriptionShort": "Slim in 6 is a low-impact program anyone can do to get slim in just 6 weeks.",
+                "descriptionLong": "Slim in 6 is more effective at helping you lose weight than those super-intense, high-impact workouts. You\u2019ll watch the fat melt away as you tone lean muscle and get body-shaping results even faster.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/slim-in-6"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "25-60"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Weeks",
+                  "value": "6"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "16"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells"
+                  },
+                  {
+                    "title": "Resistance Bands"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Yoga Mat"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Recovery"
+                  },
+                  {
+                    "title": "Slim & Sculpt"
+                  },
+                  {
+                    "title": "Mobility & Flexibility"
+                  },
+                  {
+                    "title": "Weight Loss"
+                  }
+                ],
+                "level": {
+                  "title": "Beginner",
+                  "slug": "beginner",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2830c8c8448bd7a6dec14d19089a2d3b327c2e40-362x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2830c8c8448bd7a6dec14d19089a2d3b327c2e40-362x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3940d0df5ba04e2a20a2e296abee42a208c54e1e-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/43c40c9e916e4ac4677e7533f500a8bf30bb2143-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d0fa47bdbdd0305b0c84f563ddd9de473a80ef64-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5f4ba78f1bbeb3fd774bbc5d5fba5d540e25598a-781x977.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/73ec86b0aa3b55a52d7a4de4fe618033bd09690a-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/73ec86b0aa3b55a52d7a4de4fe618033bd09690a-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Dumbbells, Resistance Bands, Yoga Mat*",
+                        "categories": "Cardio, Recovery, Slim & Sculpt, Mobility & Flexibility, Weight Loss",
+                        "colorPrimary": "#00a3c0",
+                        "colorPrimaryOptions": {
+                          "argb": "#00a3c0",
+                          "rgba": "#00a3c0"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-7082755cfeb1e7f3b2f3af8733e6336855d984c7-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7082755cfeb1e7f3b2f3af8733e6336855d984c7-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "16"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "25-60"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                            },
+                            "title": "Beginner"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZGqh3X",
+                        "_type": "editorial",
+                        "slug": "slim-in-6-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "Beachbody\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.teambeachbody.com/micro-site/nutrition-plus/index.html#/en"
+                        }
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD9Cpm",
+                        "_type": "collection",
+                        "slug": "slim-in-6-related-content",
+                        "title": "Slim in 6 Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "vKPPpbqN0JH0WMoJVD7bRG",
+                          "vKPPpbqN0JH0WMoJVD7bbe",
+                          "2Y1ZDDXEx3aLPbgAHe2KZ7"
+                        ]
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Debbie",
+                            "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0d7bd08f3996f914ddbab496bb30c69502af2d93-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/debsiebers/",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.Instagram.com/debbiesiebers",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.twitter.com/debbiesiebers",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.youtube.com/debbiesiebers",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f06acc8786ecf26616838c26162235cfcce4108-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe08Vt",
+                        "_type": "collection",
+                        "slug": "slim-in-6-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "Q6j5eG7tj3PSUghmZBkcQd",
+                          "NWOt1I2xWP7xm05A7tYnEi",
+                          "Q6j5eG7tj3PSUghmZGiTcZ",
+                          "Q6j5eG7tj3PSUghmZtwjVr",
+                          "Q6j5eG7tj3PSUghmZFHalr"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZGqgeN",
+                        "_type": "collection",
+                        "slug": "slim-in-6",
+                        "title": "Slim in 6",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPKu5A",
+                          "Q6j5eG7tj3PSUghmZGqXvP",
+                          "BoGK5VlBLllbPFYTvPKuO8",
+                          "BoGK5VlBLllbPFYTvPKuSe",
+                          "NWOt1I2xWP7xm05A7ugAwy"
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7ugDyB",
+                        "_type": "collection",
+                        "slug": "slim-series",
+                        "title": "Slim Series",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGqZaZ",
+                          "BoGK5VlBLllbPFYTvPKueO",
+                          "BoGK5VlBLllbPFYTvPKutk",
+                          "BoGK5VlBLllbPFYTvPKvCi",
+                          "BoGK5VlBLllbPFYTvPKvKq",
+                          "NWOt1I2xWP7xm05A7ugBtx",
+                          "BoGK5VlBLllbPFYTvPKvb6"
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7ugE1b",
+                        "_type": "collection",
+                        "slug": "slim-series-express",
+                        "title": "Slim Series Express",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPKvsG",
+                          "NWOt1I2xWP7xm05A7ugCB3",
+                          "BoGK5VlBLllbPFYTvPKw9Q",
+                          "BoGK5VlBLllbPFYTvPKwM4"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe08Vt",
+                        "_type": "collection",
+                        "slug": "slim-in-6-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "Q6j5eG7tj3PSUghmZBkcQd",
+                          "NWOt1I2xWP7xm05A7tYnEi",
+                          "Q6j5eG7tj3PSUghmZGiTcZ",
+                          "Q6j5eG7tj3PSUghmZtwjVr",
+                          "Q6j5eG7tj3PSUghmZFHalr"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "Sc54PIFFPAeRdvbzz4gn09",
+                        "_type": "collection",
+                        "slug": "slim-in-6-program-materials",
+                        "title": "Program Materials",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGqcfn",
+                          "Q6j5eG7tj3PSUghmZGqcxP",
+                          "BoGK5VlBLllbPFYTvPKwmG",
+                          "NWOt1I2xWP7xm05A7ugCse",
+                          "T405szsSamzin6dj7R7Q0c",
+                          "T405szsSamzin6dj7R7QNb",
+                          "Q6j5eG7tj3PSUghmZGqef5"
+                        ]
+                      },
+                      {
+                        "_id": "zvLX5T63XNTvBDM1ov483F",
+                        "_type": "collection",
+                        "slug": "slim-in-6-program-materials-spanish",
+                        "title": "Materiales del programa",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGqfGp",
+                          "Q6j5eG7tj3PSUghmZGqffz",
+                          "BoGK5VlBLllbPFYTvPKxG4",
+                          "dMhzVqlsMid7syUdLlFGjR",
+                          "bwjmyF8qb3kmUEGeGILqmp"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe08Vt",
+                        "_type": "collection",
+                        "slug": "slim-in-6-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "Q6j5eG7tj3PSUghmZBkcQd",
+                          "NWOt1I2xWP7xm05A7tYnEi",
+                          "Q6j5eG7tj3PSUghmZGiTcZ",
+                          "Q6j5eG7tj3PSUghmZtwjVr",
+                          "Q6j5eG7tj3PSUghmZFHalr"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe2KZ7": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2KZ7",
+                    "_type": "linkItem",
+                    "slug": "how-a-positive-self-image-could-improve-your-health",
+                    "title": "How a Positive Self-Image Could Improve Your Health",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d89b8fed3181a333079c6f9b31b9ad4f46dfdcba-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/how-a-postive-self-image-could-improve-your-health?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=youv2",
+                    "isFavoritable": false
+                  },
+                  "BoGK5VlBLllbPFYTvPKu5A": {
+                    "_id": "BoGK5VlBLllbPFYTvPKu5A",
+                    "_type": "workout",
+                    "slug": "start-it-up-si606752b01",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Start It Up!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/698b33d6c9fd75228075003dc036a3ae4171eada-398x224.jpg"
+                    },
+                    "descriptionLong": "Start melting fat and slimming down with this 30-minute, moderate-intensity workout.",
+                    "durationEstimate": 2100,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Resistance Bands"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI606752B01",
+                      "durationActual": 2117,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKuO8": {
+                    "_id": "BoGK5VlBLllbPFYTvPKuO8",
+                    "_type": "workout",
+                    "slug": "burn-it-up-si606755b03",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Burn It Up!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/619917fb34e11aec3e4d54f642092138e92d5888-398x224.jpg"
+                    },
+                    "descriptionLong": "Reveal your new slim, toned body with Debbie's advanced workout that takes less than an hour.",
+                    "durationEstimate": 3600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Resistance Bands"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI606755B03",
+                      "durationActual": 3852,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKuSe": {
+                    "_id": "BoGK5VlBLllbPFYTvPKuSe",
+                    "_type": "workout",
+                    "slug": "slim-6-pack-si606751b04",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Slim & 6 Pack",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2f6714eef2162f7089e601783519e3ffd54b1c7f-398x224.jpg"
+                    },
+                    "descriptionLong": "This 15-minute workout targets ab flab for a tight, toned midsection and strong core.",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI606751B04",
+                      "durationActual": 934,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKueO": {
+                    "_id": "BoGK5VlBLllbPFYTvPKueO",
+                    "_type": "workout",
+                    "slug": "tone-it-up-si600057d01",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Tone It Up!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/438f2046ec321d70dff2d44b0d9572cc6f732be7-398x224.jpg"
+                    },
+                    "descriptionLong": "Get slim, toned, and tight with this full-body, cardio-focused workout.",
+                    "durationEstimate": 3600,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI600057D01",
+                      "durationActual": 3596,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKutk": {
+                    "_id": "BoGK5VlBLllbPFYTvPKutk",
+                    "_type": "workout",
+                    "slug": "firm-it-up-si601976d04",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Firm It Up!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a8d33b0bff632c8c8a61b4fa56c2026173fc849-398x224.jpg"
+                    },
+                    "descriptionLong": "Tone and firm your thighs, hips, and buns.",
+                    "durationEstimate": 3600,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Sturdy Chair"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Ankle Weights"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI601976D04",
+                      "durationActual": 3555,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKvCi": {
+                    "_id": "BoGK5VlBLllbPFYTvPKvCi",
+                    "_type": "workout",
+                    "slug": "shape-it-up-si606802d03",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Shape It Up!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2341bb65f56cc47b9f67a51e0bb8d021fbcb5d61-398x224.jpg"
+                    },
+                    "descriptionLong": "Advanced body-sculpting moves shape lean, sexy muscles from head to toe.",
+                    "durationEstimate": 4800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Sturdy Chair"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Ankle Weights"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI606802D03",
+                      "durationActual": 4739,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKvKq": {
+                    "_id": "BoGK5VlBLllbPFYTvPKvKq",
+                    "_type": "workout",
+                    "slug": "mix-it-up-si606800d05",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Mix It Up!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ed081d88d4295a723bc3d43b7edc840d943d2807-398x224.jpg"
+                    },
+                    "descriptionLong": "Break through fitness plateaus with innovative new moves.",
+                    "durationEstimate": 3600,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI606800D05",
+                      "durationActual": 3461,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKvb6": {
+                    "_id": "BoGK5VlBLllbPFYTvPKvb6",
+                    "_type": "workout",
+                    "slug": "cool-it-off-si607297d06",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cool It Off!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/047d8683371de7eec8c4c5eba7f9ce35be6f40ba-730x496.jpg"
+                    },
+                    "descriptionLong": "Time to give your body a chance to recover!",
+                    "durationEstimate": 3600,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Sturdy Chair"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI607297D06",
+                      "durationActual": 3488,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKvsG": {
+                    "_id": "BoGK5VlBLllbPFYTvPKvsG",
+                    "_type": "workout",
+                    "slug": "cardio-core-express-si606860d07",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cardio Core! Express",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b0d55ac26666e266a214d9031082855881b46e0c-398x224.jpg"
+                    },
+                    "descriptionLong": "This high-energy cardio workout introduces new moves to melt fat and tighten your body.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI606860D07",
+                      "durationActual": 1771,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKw9Q": {
+                    "_id": "BoGK5VlBLllbPFYTvPKw9Q",
+                    "_type": "workout",
+                    "slug": "cool-it-off-express-si607297d09",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cool It Off! Express",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/08f2546cf87da3b5f68ee3d47ede155637a086dc-398x224.jpg"
+                    },
+                    "descriptionLong": "Get the kinks out, relieve aches, and feel energized and rejuvenated.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI607297D09",
+                      "durationActual": 1792,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKwM4": {
+                    "_id": "BoGK5VlBLllbPFYTvPKwM4",
+                    "_type": "workout",
+                    "slug": "6-minute-abs-si612469d10",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "6-Minute Abs!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8b468436bd604de7c3fad1c9193f900879544c42-398x224.jpg"
+                    },
+                    "descriptionLong": "Get flat, tight abs in just a few short minutes.",
+                    "durationEstimate": 360,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI612469D10",
+                      "durationActual": 407,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKwmG": {
+                    "_id": "BoGK5VlBLllbPFYTvPKwmG",
+                    "_type": "resource",
+                    "slug": "slim-in-6-calendar-2739367",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Workout Calendar",
+                    "categories": null,
+                    "description": "Watch the pounds melt away as you chart your progress.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/570d9301478d6b22d7da75cc81b984bbd896cf4a-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "SL6_Calendar.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/db70dec50e08bc6d8eb2fce348ffdc14b290b04f.pdf?file=SL6_Calendar.pdf",
+                      "size": 103811
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKxG4": {
+                    "_id": "BoGK5VlBLllbPFYTvPKxG4",
+                    "_type": "resource",
+                    "slug": "slim-in-6-calendario-2740132",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Calendario",
+                    "categories": null,
+                    "description": "Mira c\u00f3mo desaparecen las libras extras a medida que registras tu progreso.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ff1a6c46199a2f04ee981ad70164424123734ae9-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "Sl6_Calendar_SP.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/443e44a3fbbc7691985ef24a74d13d1245f1cbb3.pdf?file=Sl6_Calendar_SP.pdf",
+                      "size": 166882
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7tYnEi": {
+                    "_id": "NWOt1I2xWP7xm05A7tYnEi",
+                    "_type": "program",
+                    "slug": "piyo",
+                    "brandCode": "BBPIYO",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2014-06-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBPIYO&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "PiYo",
+                    "description": "Define yourself with PiYo. No weights, no jumps, just hardcore results.",
+                    "descriptionShort": "Define yourself with PiYo. No weights, no jumps, just hardcore results.",
+                    "descriptionLong": "PiYo combines the muscle-sculpting, core-firming benefits of Pilates with the strength and flexibility benefits of yoga. It's a true fat-burning, low-impact program that'll get you incredibly defined.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/26f0729d2c3cdf40090a51b60d7222c90207208a-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eb3530c036d9d4b1a07e0da99fcfe3df444003ed-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eb3530c036d9d4b1a07e0da99fcfe3df444003ed-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/26f0729d2c3cdf40090a51b60d7222c90207208a-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/26f0729d2c3cdf40090a51b60d7222c90207208a-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b395265e944ca36aa52f17b04e147f8d70e944c5-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/188b243ae6299b8dd04557a40808c2ed4d2cfe90-998x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20-45"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "60"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "22"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Strength Slides"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Sturdy Chair"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugAwy": {
+                    "_id": "NWOt1I2xWP7xm05A7ugAwy",
+                    "_type": "workout",
+                    "slug": "slim-limber-si606753b05",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Slim & Limber",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f996d5510f9909d7cffac1f8123044104b3a6aa9-398x224.jpg"
+                    },
+                    "descriptionLong": "Stretch out your muscles to keep your body lean, flexible, and feeling good all over.",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI606753B05",
+                      "durationActual": 991,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugBtx": {
+                    "_id": "NWOt1I2xWP7xm05A7ugBtx",
+                    "_type": "workout",
+                    "slug": "tear-it-up-si607594d02",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Tear It Up!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c9230dd459c58aec3498b9787662306a3ee96a4e-398x224.jpg"
+                    },
+                    "descriptionLong": "Shift into high gear as you challenge your entire body.",
+                    "durationEstimate": 4800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI607594D02",
+                      "durationActual": 4730,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugCB3": {
+                    "_id": "NWOt1I2xWP7xm05A7ugCB3",
+                    "_type": "workout",
+                    "slug": "cardio-sculpt-express-si602049d08",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cardio Sculpt! Express",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dd456f054330cfe84347d296656b3300f514868d-398x224.jpg"
+                    },
+                    "descriptionLong": "This quick full-body workout targets your trouble zones to reshape your body in less time.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI602049D08",
+                      "durationActual": 1861,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugCse": {
+                    "_id": "NWOt1I2xWP7xm05A7ugCse",
+                    "_type": "resource",
+                    "slug": "slim-in-6-hybrid-calendar-2739618",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Hybrid Workout Calendar",
+                    "categories": null,
+                    "description": "Slim Series Calendars + Slim Series/Slim Series Express Hybrid.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/570d9301478d6b22d7da75cc81b984bbd896cf4a-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "SL6_HybridCalendar.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/c95e22ed7842148e6aa5649c55e5d3fedc67ed0f.pdf?file=SL6_HybridCalendar.pdf",
+                      "size": 42802
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBkcQd": {
+                    "_id": "Q6j5eG7tj3PSUghmZBkcQd",
+                    "_type": "program",
+                    "slug": "21-day-fix",
+                    "brandCode": "21D",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2014-02-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21D&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=21D&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "21 Day Fix",
+                    "description": "21 Day Fix\u2014Simple Fitness. Simple Eating. Fast Results. In just 21 days.",
+                    "descriptionShort": "21 Day Fix\u2014Simple Fitness. Simple Eating. Fast Results. In just 21 days.",
+                    "descriptionLong": "Want amazing results in 21 days? Then all you need is 21 Day Fix. You get a step-by-step, 21-day plan so you succeed. Achieving your weight-loss goals has never been faster or simpler.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/361f2b00e83307de5f55d50d0f740b6f2282de34-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/257c436ac39e1948ed5e613b44dcb6ea6690bf89-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/257c436ac39e1948ed5e613b44dcb6ea6690bf89-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/361f2b00e83307de5f55d50d0f740b6f2282de34-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/361f2b00e83307de5f55d50d0f740b6f2282de34-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e820c5d36804e35a2bcd2997f74200d5f6f135b6-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e15527a65884cb1d66dcb6317db2fc5f3be9d8da-476x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "21"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "14"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBym4R": {
+                    "_id": "Q6j5eG7tj3PSUghmZBym4R",
+                    "_type": "program",
+                    "slug": "barre-blend",
+                    "brandCode": "BBR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-11-25",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Barre Blend",
+                    "description": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionShort": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionLong": "Create a lean, toned physique through a fun fusion of ballet barre, Pilates, and cardio interval training. Feel the burn as you sweat, stretch, and strengthen to energize your entire body.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/40c285dad368b07f5b7b9034d1b5ebb8b7916ff8-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/636e5ddbe6d6bf30e8adeb2a3641650e75f24f1c-880x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-40"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "8"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "66"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Sturdy Chair or Ballet Barre"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZFHalr": {
+                    "_id": "Q6j5eG7tj3PSUghmZFHalr",
+                    "_type": "program",
+                    "slug": "country-heat",
+                    "brandCode": "CH",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-07-27",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=CH&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Country Heat",
+                    "description": "You\u2019re gonna love Country Heat. Turn it up, have fun, and burn off the weight.",
+                    "descriptionShort": "You\u2019re gonna love Country Heat. Turn it up, have fun, and burn off the weight.",
+                    "descriptionLong": "Finally, a workout you\u2019ll love to do. Country Heat is set to chart-topping country music. The moves are so easy it's like walking, but way more fun. You\u2019ll dance off the weight in 30 minutes a day.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96afcb0a39af28fe3137a3f66fd898bf8dd90c7b-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/98b894c9f23af512bd80ebdb7e97aea593af3414-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/98b894c9f23af512bd80ebdb7e97aea593af3414-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96afcb0a39af28fe3137a3f66fd898bf8dd90c7b-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96afcb0a39af28fe3137a3f66fd898bf8dd90c7b-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/924888ef2c19670100d53233d07fad44ab57aa9b-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7c5c8f4106335200bf42b3695e7ea3287c6d0157-400x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "30"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "24"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGiTcZ": {
+                    "_id": "Q6j5eG7tj3PSUghmZGiTcZ",
+                    "_type": "program",
+                    "slug": "p90",
+                    "brandCode": "P2",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2014-11-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=P2&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "P90",
+                    "description": "P90 is your gateway to getting fit\u2014regardless of your age or fitness level.",
+                    "descriptionShort": "P90 is your gateway to getting fit\u2014regardless of your age or fitness level.",
+                    "descriptionLong": "P90 opens the door for you to see dramatic, visible results in just 90 days. Simple, doable, and less extreme than P90X, each phase of P90 is designed to gradually ease your body past its old limits.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e7ddc185063c75421491796e977f94a712cbe0c7-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f76f078e97d4297d2cd2bdea8be2cbbdb16c4b44-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f76f078e97d4297d2cd2bdea8be2cbbdb16c4b44-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e7ddc185063c75421491796e977f94a712cbe0c7-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e7ddc185063c75421491796e977f94a712cbe0c7-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7751f06c2e8407949b1dbcfd51ac11ecc4fe171f-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ea548a363c90f078d8a1411820f14fcd275f454e-1345x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "45-60"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "90"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "14"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Yoga Blocks"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGqXvP": {
+                    "_id": "Q6j5eG7tj3PSUghmZGqXvP",
+                    "_type": "workout",
+                    "slug": "ramp-it-up-si606754b02",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ramp It Up!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2683733e0ffa4e695180dd88ee2cca75550a90cb-398x224.jpg"
+                    },
+                    "descriptionLong": "Turn up the calorie burn with moves that target your hips, thighs, and abs.",
+                    "durationEstimate": 3300,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Resistance Bands"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI606754B02",
+                      "durationActual": 3406,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGqZaZ": {
+                    "_id": "Q6j5eG7tj3PSUghmZGqZaZ",
+                    "_type": "workout",
+                    "slug": "slim-in-6-keep-it-up-si607297d11",
+                    "brandCode": "SL6",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=DebbieSiebers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us&trainerName=DebbieSiebers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Keep It Up!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7096d3cfa6c3d0875a8588624f911dc3de2f0ba-730x496.jpg"
+                    },
+                    "descriptionLong": "Continue on with Debbie Siebers and turn up the intensity with Slim in 6 workout designed to burn calories, tone your muscles and achieve maximum results",
+                    "durationEstimate": 2400,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "debbie-siebers",
+                        "firstName": "Debbie",
+                        "lastName": "Siebers",
+                        "bio": "Debbie has been a leading fitness expert for over 20 years. She\u2019s been featured on numerous TV programs to talk about fitness, health and staying in shape. She thrives on helping motivate people to find discipline, and balance mind, body, and spirit to achieve their healthy living goals!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/87e4b58a452d3d89c2f864f83be9ae553ef6ce29-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SI607297D11",
+                      "durationActual": 2441,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGqcfn": {
+                    "_id": "Q6j5eG7tj3PSUghmZGqcfn",
+                    "_type": "resource",
+                    "slug": "slim-in-6-fitness-guide-2739243",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Fitness Guide",
+                    "categories": null,
+                    "description": "Debbie guides your through your transformation step by step.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/710303f3897992878609d727e376a80783cd1acf-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "sl6_fitnessguide_10.19.18.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/b3afdae7b3a9716ad0f9ecbe3d6cd2decc5c3360.pdf?file=sl6_fitnessguide_10.19.18.pdf",
+                      "size": 1361310
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGqcxP": {
+                    "_id": "Q6j5eG7tj3PSUghmZGqcxP",
+                    "_type": "resource",
+                    "slug": "slim-in-6-fitness-guide-2-2739492",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Slim Series Slimming Guide",
+                    "categories": null,
+                    "description": "Slimming Guide.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c473f999451d337dea4027b0be0cfe6fa8368f7e-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "SL6_SlimmingGuide_20170719.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/39e5121dac6c2bd0986e47e09ba50b8c2a44ab9f.pdf?file=SL6_SlimmingGuide_20170719.pdf",
+                      "size": 539355
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGqef5": {
+                    "_id": "Q6j5eG7tj3PSUghmZGqef5",
+                    "_type": "resource",
+                    "slug": "slim-in-6-6-day-express-plan-2739745",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "6-Day Express Plan",
+                    "categories": null,
+                    "description": "Lose up to 6 pounds and 6 inches in your first 6 days.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3d87cb2121bc771399cedd29c95e354b658ac591-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "SL6_JumpStart.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/adfbf10a9a798617dcd03435be1eaebf691e5853.pdf?file=SL6_JumpStart.pdf",
+                      "size": 403427
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGqfGp": {
+                    "_id": "Q6j5eG7tj3PSUghmZGqfGp",
+                    "_type": "resource",
+                    "slug": "slim-in-6-pasos-simples-para-el-exito-2739873",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Pasos Simples Para El Exito",
+                    "categories": null,
+                    "description": "Gu\u00eda para adelgazar.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/18610ad9db498e3b775d26560f7a9fafa80cee76-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "SL6_FitnessGuide_SP.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/d83367d0e4c3ae97d587c97928a900d6854a68bc.pdf?file=SL6_FitnessGuide_SP.pdf",
+                      "size": 1495928
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGqffz": {
+                    "_id": "Q6j5eG7tj3PSUghmZGqffz",
+                    "_type": "resource",
+                    "slug": "slim-in-6-6-day-express-plan-de-dietas-2740002",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "6-Day Express Plan de Dietas",
+                    "categories": null,
+                    "description": "Pierde hasta 6\u00a0libras y 6\u00a0pulgadas en 6\u00a0d\u00edas.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3d87cb2121bc771399cedd29c95e354b658ac591-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "SL6_6DayExpress_SP.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/d5c93222f4e1c1fb9357d2ed8c4d050f8e359de4.pdf?file=SL6_6DayExpress_SP.pdf",
+                      "size": 1853534
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtwjVr": {
+                    "_id": "Q6j5eG7tj3PSUghmZtwjVr",
+                    "_type": "program",
+                    "slug": "30-day-breakaway",
+                    "brandCode": "30D",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2020-09-13",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=30D&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "30 Day Breakaway",
+                    "description": "Get fitter, faster, and ready to crush a 5K in just 30 days.",
+                    "descriptionShort": "Get fitter, faster, and ready to crush a 5K in just 30 days.",
+                    "descriptionLong": "A powerful combo of running and resistance training helps accelerate fat loss as you tone your entire body. In just 30 days, you\u2019ll be fitter, faster, and ready to crush a 5K.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a3640045b17652bd092c5e0a86317fdf9c6fc6c7-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4fb965d6ecbf6313a32d9bf6dac3398c35e48acb-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4fb965d6ecbf6313a32d9bf6dac3398c35e48acb-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a3640045b17652bd092c5e0a86317fdf9c6fc6c7-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a3640045b17652bd092c5e0a86317fdf9c6fc6c7-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fa7cf48c226732acd35485f474068e743cfeeb03-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/141af8df20cd16aadf151e275ed3459db63885c9-706x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Minutes",
+                      "value": "20-30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "30"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "68"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Running",
+                        "slug": "running"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Running Shoes"
+                      },
+                      {
+                        "title": "Foam Roller"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "T405szsSamzin6dj7R7Q0c": {
+                    "_id": "T405szsSamzin6dj7R7Q0c",
+                    "_type": "resource",
+                    "slug": "8-24-2b-mindset-quick-start-guide-3738082",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZsFUwl",
+                      "_type": "program",
+                      "slug": "2b-mindset"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjF1",
+                        "slug": "po-TURBOFIRE_PERM",
+                        "title": "Turbo Fire Program Entitlement",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "2B Mindset Quick Start Guide",
+                    "categories": null,
+                    "description": "Follow these simple steps to help you get started with the 2B Mindset Eating Plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fc830646876650f0c706e8d4f27e1ef82b5bf8f4-400x259.png"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "T25_2BM-EN_US-Quick_Start_Guide-05.01.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/3142abba459ac710b14101deddd5e271c655472e.pdf?file=T25_2BM-EN_US-Quick_Start_Guide-05.01.23.pdf",
+                      "size": 1268671
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "T405szsSamzin6dj7R7QNb": {
+                    "_id": "T405szsSamzin6dj7R7QNb",
+                    "_type": "resource",
+                    "slug": "8-24-portion-fix-quick-start-guide-3738071",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvO2z4a",
+                      "_type": "program",
+                      "slug": "10-rounds"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjF1",
+                        "slug": "po-TURBOFIRE_PERM",
+                        "title": "Turbo Fire Program Entitlement",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Portion Fix Quick Start Guide",
+                    "categories": null,
+                    "description": "Follow these simple steps to help you get started with the Portion Fix Eating Plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/55da31ae6e732a8be0555f65722d03284cb0d676-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "PFX-BODi-EN_US-Quick_Start_Guide-01.24.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/21a36e00574225075e031b582292928c74cdb1c4.pdf?file=PFX-BODi-EN_US-Quick_Start_Guide-01.24.23.pdf",
+                      "size": 341753
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "bwjmyF8qb3kmUEGeGILqmp": {
+                    "_id": "bwjmyF8qb3kmUEGeGILqmp",
+                    "_type": "resource",
+                    "slug": "8-28-guia-de-inicio-rapido-de-portion-fix-3738223",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "Gu\u00eda de inicio r\u00e1pido de Portion Fix",
+                    "categories": null,
+                    "description": "Siga estos sencillos pasos para iniciar con el plan de alimentaci\u00f3n Portion Fix.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/21e3740b4a2ff26ff770123498bef2b31e13d737-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "PFX-BODi-ES_US-Quick_Start_Guide-01.24.23-2.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/96ee530d150b43cf76f6f61f1e6c123448b049d8.pdf?file=PFX-BODi-ES_US-Quick_Start_Guide-01.24.23-2.pdf",
+                      "size": 342576
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "dMhzVqlsMid7syUdLlFGjR": {
+                    "_id": "dMhzVqlsMid7syUdLlFGjR",
+                    "_type": "resource",
+                    "slug": "8-28-guia-de-inicio-rapido-de-2b-mindset-3738226",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                      "_type": "program",
+                      "slug": "slim-in-6"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "Gu\u00eda de inicio r\u00e1pido de 2B Mindset",
+                    "categories": null,
+                    "description": "Siga estos sencillos pasos para iniciar con el plan de alimentaci\u00f3n 2B Mindset.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a5ae8219b9d4c2bac19969cce78afc3d6864a353-400x260.png"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "T25_2BM-ES_US-Quick_Start_Guide-05.01.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/cb4954c5b4052cc3ab1aaef663c12b6f77dd778c.pdf?file=T25_2BM-ES_US-Quick_Start_Guide-05.01.23.pdf",
+                      "size": 1019940
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "vKPPpbqN0JH0WMoJVD7bRG": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7bRG",
+                    "_type": "linkItem",
+                    "slug": "is-exercise-the-antidote-to-aging",
+                    "title": "Is Exercise the Antidote to Aging?",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/20949e9a24bf61ce99c5d2cf66dc8d3c4b7d419e-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/is-exercise-the-antidote-to-aging?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=youv2",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7bbe": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7bbe",
+                    "_type": "linkItem",
+                    "slug": "15-small-changes-for-big-results",
+                    "title": "15 Small Changes for Big Results",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/30ff6e9a8e802678bf8be980d53f20f386fbd4b5-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/make-15-small-changes-see-big-results?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=youv2",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223294812,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "slim-in-6",
+              "en-US"
+            ],
+            "queryHash": "[\"slim-in-6\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/slim-in-6/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "slim-in-6",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

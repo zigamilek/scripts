@@ -55,6 +55,8 @@ def parse_programs():
 
 	# For each JSON file, load that file from the Original JSONs folder
 	for json_filename in program_json_files:
+		print(f"Working on {json_filename}.")
+
 		json_path = os.path.join(original_json_folder, json_filename)
 
 		if not os.path.exists(json_path):
@@ -81,7 +83,7 @@ def parse_programs():
 		entity_map = top_data.get("entities", {})
 
 		program_id = top_data.get("_id", "")
-		title = top_data.get("title", "")
+		title = titlecase(top_data.get("title", ""))
 		description_short = top_data.get("descriptionShort", "")
 		subtitle = top_data.get("subtitle", "")
 
@@ -153,7 +155,8 @@ def parse_programs():
 			module_counter = 1
 
 			for mod_obj in modules:
-				module_title = titlecase(mod_obj.get("title", "")) or ""
+				module_title = mod_obj.get("title", "") or ""
+				module_title = titlecase(module_title)
 				# Add a counter prefix to module_title
 				module_title = f"{module_counter:02d} - {module_title}"
 

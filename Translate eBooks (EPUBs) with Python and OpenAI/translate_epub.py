@@ -34,8 +34,7 @@ import argparse
 import re
 from pathlib import Path
 
-import openai
-from openai import BadRequestError
+from openai import OpenAI, BadRequestError
 import requests
 import time
 from ebooklib import epub
@@ -102,15 +101,16 @@ def chunk_html(html, encoder, max_tokens):
     return chunks
 
 
-def translate_chunk(chunk, model, system_prompt: str):
+def translate_chunk(chunk, model, system_prompt: str, provider: str, client: OpenAI | None, google_base_url: str | None, google_api_key: str | None):
     """Translate an HTML chunk using the provided system prompt (required)."""
     messages = [{"role": "system", "content": system_prompt}]
     messages.append({"role": "user", "content": chunk})
-    if openai.api_base.startswith("https://generativelanguage.googleapis.com"):
-        url = f"{openai.api_base}/chat/completions"
-        # Authenticate via Bearer header; send model in the JSON body
+    if provider == "google":
+        if not google_base_url:
+            raise RuntimeError("google_base_url is required for provider=google")
+        url = f"{google_base_url}/chat/completions"
         headers = {
-            "Authorization": f"Bearer {openai.api_key}",
+            "Authorization": f"Bearer {google_api_key or os.getenv('GOOGLE_API_KEY', '')}",
             "Content-Type": "application/json"
         }
         payload = {"model": model, "messages": messages}
@@ -121,23 +121,20 @@ def translate_chunk(chunk, model, system_prompt: str):
             try:
                 resp.raise_for_status()
                 data = resp.json()
-                # Attempt to extract translated content
                 content = data["choices"][0]["message"]["content"]
                 return content
             except requests.exceptions.HTTPError:
                 print(f"Google endpoint error (attempt {attempt}/{max_retries}): {resp.status_code}\n{resp.text}")
             except (KeyError, TypeError) as e:
-                # Unexpected response structure
                 print(f"Google endpoint unexpected response (attempt {attempt}/{max_retries}): {data}")
-            # Last attempt: raise error
             if attempt == max_retries:
-                # Re-raise the last exception
                 raise
-            # Otherwise, backoff and retry
             sleep_time = backoff_base * 2 ** (attempt - 1)
             print(f"Retrying in {sleep_time} seconds...")
             time.sleep(sleep_time)
-    resp = openai.chat.completions.create(model=model, messages=messages)
+    if client is None:
+        raise RuntimeError("OpenAI client is not initialized")
+    resp = client.chat.completions.create(model=model, messages=messages)
     return resp.choices[0].message.content
 
 
@@ -149,6 +146,9 @@ def main():
     default_prompt_path = Path(__file__).with_name("system_prompt.txt")
     prompt_path = Path(args.system_prompt_file) if args.system_prompt_file else default_prompt_path
     custom_system_prompt = load_system_prompt(prompt_path)
+    client = None
+    google_base_url = None
+    google_api_key = None
     # Read original EPUB as ZIP
     with zipfile.ZipFile(input_epub, 'r') as zin:
         infos = zin.infolist()
@@ -169,15 +169,16 @@ def main():
             if not key:
                 print("Error: GOOGLE_API_KEY not set for google provider")
                 sys.exit(1)
-            openai.api_key = key
-            openai.api_base = "https://generativelanguage.googleapis.com/v1beta/openai"
+            client = OpenAI(api_key=key, base_url="https://generativelanguage.googleapis.com/v1beta/openai")
+            google_base_url = "https://generativelanguage.googleapis.com/v1beta/openai"
+            google_api_key = key
         else:
             # Default to OpenAI provider
             key = os.getenv("OPENAI_API_KEY")
             if not key:
                 print("Error: OPENAI_API_KEY not set for openai provider")
                 sys.exit(1)
-            openai.api_key = key
+            client = OpenAI(api_key=key)
         try:
             encoder = tiktoken.encoding_for_model(args.model)
         except KeyError:
@@ -220,12 +221,12 @@ def main():
                 parts = []
                 for idx, chunk in enumerate(chunk_html(inner, encoder, args.chunk_size), start=1):
                     print(f"    Translating chunk {idx} of {len(chunk_html(inner, encoder, args.chunk_size))} ({len(chunk)} chars)")
-                    parts.append(translate_chunk(chunk, args.model, custom_system_prompt))
+                    parts.append(translate_chunk(chunk, args.model, custom_system_prompt, args.provider, client, google_base_url, google_api_key))
                 body_inner = ''.join(parts)
             else:
                 try:
                     print(f"  [Translate] Translating full content ({tokens} tokens)")
-                    body_inner = translate_chunk(inner, args.model, custom_system_prompt)
+                    body_inner = translate_chunk(inner, args.model, custom_system_prompt, args.provider, client, google_base_url, google_api_key)
                     #print(body_inner)
                 except BadRequestError as e:
                     msg = str(e)
@@ -234,7 +235,7 @@ def main():
                         parts = []
                         for idx, chunk in enumerate(chunk_html(inner, encoder, args.chunk_size), start=1):
                             print(f"    Translating chunk {idx}/{len(chunk_html(inner, encoder, args.chunk_size))}")
-                            parts.append(translate_chunk(chunk, args.model, custom_system_prompt))
+                            parts.append(translate_chunk(chunk, args.model, custom_system_prompt, args.provider, client, google_base_url, google_api_key))
                         body_inner = ''.join(parts)
                     else:
                         raise

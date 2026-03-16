@@ -1,0 +1,960 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "for-active-aging-only",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "N2VD9zk2u9rtgE1l0aifN4",
+                "_type": "program",
+                "slug": "for-active-aging-only",
+                "title": "For Active Aging Only",
+                "subtitle": null,
+                "brandCode": "FAAO",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=FAAO&locale=en_us&trainerName=LaceeGreen"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "For Active Aging Only | BODi",
+                  "description": "For Active Aging Only is a lower impact yet challenging approach to maintain or regain strength in lean muscle and cardiovascular health.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4984965c5f30b7e1aba69851b33bb89354802d12-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Lacee",
+                    "lastName": "Green",
+                    "bioBodi": "A fitness entrepreneur, AFAA certified personal trainer, NASM certified group fitness instructor, model, and proud mom, Lacee is committed to showing that fitness comes in every shape, size, and color, and that every body is beautiful. Sign up for her strength and cardio classes today to discover what you are capable of\u2014and how fit you can become.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cfa2fc1e0eddd3b02043adc94c49d9e954961e5d-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "",
+                "colorPrimaryOptions": {
+                  "argb": "",
+                  "rgba": ""
+                },
+                "descriptionShort": "Low impact moves challenge you and build strength",
+                "descriptionLong": "Strengthen your muscles, build cardiovascular health, and feel forever young with low-impact moves as challenging as they are fun.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/for-active-aging-only"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Minutes",
+                  "value": "30"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "5"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "5"
+                },
+                "commerce": {
+                  "title": "BODi Membership Required",
+                  "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                  "purchaseAction": {
+                    "title": "Learn More",
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LaceeGreen"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells"
+                  }
+                ],
+                "equipmentRecommended": null,
+                "categories": [
+                  {
+                    "title": "Strength"
+                  },
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Great for Beginners"
+                  }
+                ],
+                "level": {
+                  "title": "All Levels",
+                  "slug": "all-levels",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bbe285705ba8bdc9d5739677b9e55efc70d03cf9-1000x394.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bbe285705ba8bdc9d5739677b9e55efc70d03cf9-1000x394.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/47b51363836f53d83d2c4b6b8144d6fceb549d9d-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e6c959fcb7d6c27a9f83f8304b5c19b2e7b3dc01-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c6d5f0cd32db19abe733cf21b5c975b6ccd47293-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a11eabd893d8c8accae1e857d93137795c3857a7-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4984965c5f30b7e1aba69851b33bb89354802d12-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4984965c5f30b7e1aba69851b33bb89354802d12-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Workouts",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Dumbbells",
+                        "categories": "Strength, Cardio, Great for Beginners",
+                        "colorPrimary": "",
+                        "colorPrimaryOptions": {
+                          "argb": "",
+                          "rgba": ""
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-e90482d2465b9556c06b26080a2177e15f9fcb20-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e90482d2465b9556c06b26080a2177e15f9fcb20-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "5"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Minutes",
+                            "value": "30"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                            },
+                            "title": "All Levels"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "dMhzVqlsMid7syUdLnEcNT",
+                        "_type": "collection",
+                        "slug": "faao-workouts",
+                        "title": "Workouts",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "dMhzVqlsMid7syUdLnEadp",
+                          "unXsSBGYgZASGaNNa903ga",
+                          "unXsSBGYgZASGaNNa903XZ",
+                          "dMhzVqlsMid7syUdLnEYnJ",
+                          "dMhzVqlsMid7syUdLnEbET"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "dMhzVqlsMid7syUdLnEYnJ": {
+                    "_id": "dMhzVqlsMid7syUdLnEYnJ",
+                    "_type": "workout",
+                    "slug": "faao-for-active-aging-only-core-strength-flexibility-balance-faao0004",
+                    "brandCode": "FAAO",
+                    "primaryParent": {
+                      "_id": "N2VD9zk2u9rtgE1l0aifN4",
+                      "_type": "program",
+                      "slug": "for-active-aging-only"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LaceeGreen"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=FAAO&locale=en_us&trainerName=LaceeGreen"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "For Active Aging Only: Core Strength, Flexibility, & Balance",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d3a43c0eb57fef3662bbc93315bff18f62be23b1-730x496.png"
+                    },
+                    "descriptionLong": "Three blocks of three exercises will help you build the same skills they challenge\u2014core strength, flexibility, and total-body balance\u2014lowering your risk of injury and boosting your performance both in your workouts and beyond.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Hips",
+                        "slug": "hips"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Sturdy Chair"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "lacee-green",
+                        "firstName": "Lacee",
+                        "lastName": "Green",
+                        "bio": "Build strength, endurance, and indoor cycling skill across five rides, culminating in 30 minutes of sweaty, calorie-burning fun. By the end, you\u2019ll be ready for any ride in our library.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d6670171c84d8918578add2407da59270859025d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "FAAO0004",
+                      "durationActual": 1783,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "dMhzVqlsMid7syUdLnEadp": {
+                    "_id": "dMhzVqlsMid7syUdLnEadp",
+                    "_type": "workout",
+                    "slug": "faao-for-active-aging-only-cardio-faao0001",
+                    "brandCode": "FAAO",
+                    "primaryParent": {
+                      "_id": "N2VD9zk2u9rtgE1l0aifN4",
+                      "_type": "program",
+                      "slug": "for-active-aging-only"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LaceeGreen"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=FAAO&locale=en_us&trainerName=LaceeGreen"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "For Active Aging Only: Cardio",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/146439fd66f74fb7e95296e0821e829f20473770-730x496.png"
+                    },
+                    "descriptionLong": "You don\u2019t need equipment for this low-impact bodyweight workout, but that doesn\u2019t mean it\u2019s easy. Foundational movement patterns provide a total-body challenge that will leave you sweaty, confident, and full of energy.",
+                    "durationEstimate": 1680,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "lacee-green",
+                        "firstName": "Lacee",
+                        "lastName": "Green",
+                        "bio": "Build strength, endurance, and indoor cycling skill across five rides, culminating in 30 minutes of sweaty, calorie-burning fun. By the end, you\u2019ll be ready for any ride in our library.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d6670171c84d8918578add2407da59270859025d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "FAAO0001",
+                      "durationActual": 1659,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "dMhzVqlsMid7syUdLnEbET": {
+                    "_id": "dMhzVqlsMid7syUdLnEbET",
+                    "_type": "workout",
+                    "slug": "faao-for-active-aging-only-full-body-circuit-faao0005",
+                    "brandCode": "FAAO",
+                    "primaryParent": {
+                      "_id": "N2VD9zk2u9rtgE1l0aifN4",
+                      "_type": "program",
+                      "slug": "for-active-aging-only"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LaceeGreen"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=FAAO&locale=en_us&trainerName=LaceeGreen"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "For Active Aging Only: Full Body Circuit",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/79497ea182d61aa71e86174db7a12257dd75b87a-730x496.png"
+                    },
+                    "descriptionLong": "Back-to-back exercises provide a full-body workout that will have you sweating with a smile as you torch calories and increase strength, power, and endurance from head to toe.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Parte inferior",
+                        "slug": "lower-body-2"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "lacee-green",
+                        "firstName": "Lacee",
+                        "lastName": "Green",
+                        "bio": "Build strength, endurance, and indoor cycling skill across five rides, culminating in 30 minutes of sweaty, calorie-burning fun. By the end, you\u2019ll be ready for any ride in our library.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d6670171c84d8918578add2407da59270859025d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "FAAO0005",
+                      "durationActual": 1773,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "unXsSBGYgZASGaNNa903XZ": {
+                    "_id": "unXsSBGYgZASGaNNa903XZ",
+                    "_type": "workout",
+                    "slug": "faao-for-active-aging-only-upper-body-strength-faao0003",
+                    "brandCode": "FAAO",
+                    "primaryParent": {
+                      "_id": "N2VD9zk2u9rtgE1l0aifN4",
+                      "_type": "program",
+                      "slug": "for-active-aging-only"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LaceeGreen"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=FAAO&locale=en_us&trainerName=LaceeGreen"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "For Active Aging Only: Upper Body Strength",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df9c5d67dfa4e5139820860f98f8d02ce25a8b40-730x496.png"
+                    },
+                    "descriptionLong": "Fast-track your fitness goals with easy-to-execute isolation moves that target your shoulders, arms, chest, and back.",
+                    "durationEstimate": 1680,
+                    "focusAreas": [
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Biceps",
+                        "slug": "biceps"
+                      },
+                      {
+                        "title": "Triceps",
+                        "slug": "triceps"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Sturdy Chair"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "lacee-green",
+                        "firstName": "Lacee",
+                        "lastName": "Green",
+                        "bio": "Build strength, endurance, and indoor cycling skill across five rides, culminating in 30 minutes of sweaty, calorie-burning fun. By the end, you\u2019ll be ready for any ride in our library.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d6670171c84d8918578add2407da59270859025d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "FAAO0003",
+                      "durationActual": 1762,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "unXsSBGYgZASGaNNa903ga": {
+                    "_id": "unXsSBGYgZASGaNNa903ga",
+                    "_type": "workout",
+                    "slug": "faao-for-active-aging-only-lower-body-strength-faao0002",
+                    "brandCode": "FAAO",
+                    "primaryParent": {
+                      "_id": "N2VD9zk2u9rtgE1l0aifN4",
+                      "_type": "program",
+                      "slug": "for-active-aging-only"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LaceeGreen"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=FAAO&locale=en_us&trainerName=LaceeGreen"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "For Active Aging Only: Lower Body Strength",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a99063ae4dfe2d55a777aaad89073054f7bd96c1-730x496.png"
+                    },
+                    "descriptionLong": "You\u2019ll feel today\u2019s workout in every muscle below your waist as you build strength, power, and stability from the bottom up. Never has leg day been so much fun.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Hips",
+                        "slug": "hips"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Sturdy Chair"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "lacee-green",
+                        "firstName": "Lacee",
+                        "lastName": "Green",
+                        "bio": "Build strength, endurance, and indoor cycling skill across five rides, culminating in 30 minutes of sweaty, calorie-burning fun. By the end, you\u2019ll be ready for any ride in our library.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d6670171c84d8918578add2407da59270859025d-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "FAAO0002",
+                      "durationActual": 1816,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223444694,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "for-active-aging-only",
+              "en-US"
+            ],
+            "queryHash": "[\"for-active-aging-only\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/for-active-aging-only/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "for-active-aging-only",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

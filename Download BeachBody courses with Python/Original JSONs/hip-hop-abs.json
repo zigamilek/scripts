@@ -1,0 +1,3818 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "hip-hop-abs",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                "_type": "program",
+                "slug": "hip-hop-abs",
+                "title": "Hip Hop Abs",
+                "subtitle": null,
+                "brandCode": "HHA",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Hip Hop Abs Program Overview: Start Your Journey Here",
+                  "description": "Rev up your metabolism with Hip Hop Abs. See what the program includes, any equipment needed, and meet your trainer here.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e56e03bd5856f2041201c86779ac238621c7cdf1-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Shaun",
+                    "lastName": "T",
+                    "bioBodi": "Shaun T is the mastermind behind BODi megahits such as Transform :20\u00ae, INSANITY\u00ae, CIZE\u00ae, and LET\u2019S GET UP!\u2122 Whether you\u2019re new to exercise or a HIIT veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Keep a towel handy and be prepared to sweat\u2014with Shaun T, it\u2019s always go time.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a1bc755ae5736b2c437f414306bff2d01e3b8aa9-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#fb0000",
+                "colorPrimaryOptions": {
+                  "argb": "#fb0000",
+                  "rgba": "#fb0000"
+                },
+                "descriptionShort": "No sit ups. No crunches. Burn calories and have fun with these hip dance moves.",
+                "descriptionLong": "Shaun T shares his exclusive training techniques that target every section of your abs. You\u2019ll get 3 of the hottest hip-hop dance routines that will rev up your metabolism and get you quick results.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/hip-hop-abs"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "25-45"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Days",
+                  "value": "60"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "20"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells or Weighted Gloves"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Yoga Mat"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Dance"
+                  },
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Slim & Sculpt"
+                  },
+                  {
+                    "title": "Weight Loss"
+                  },
+                  {
+                    "title": "Core"
+                  }
+                ],
+                "level": {
+                  "title": "Beginner",
+                  "slug": "beginner",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d3552ce590f5e5eb7746a79835c3c24600f41881-795x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d3552ce590f5e5eb7746a79835c3c24600f41881-795x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5e372e78e9433563dd9725e388c2bc9ae91de094-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e967dd16b49a0a2429cc57b570d32a614a40ebe8-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8f31e0f2c7348badb514d2b82365dbdec73c2e88-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d756cfebbee5c1bdbaff637a1c0aeaa0239b909b-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e56e03bd5856f2041201c86779ac238621c7cdf1-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e56e03bd5856f2041201c86779ac238621c7cdf1-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Dumbbells or Weighted Gloves, Yoga Mat*",
+                        "categories": "Dance, Cardio, Slim & Sculpt, Weight Loss, Core",
+                        "colorPrimary": "#fb0000",
+                        "colorPrimaryOptions": {
+                          "argb": "#fb0000",
+                          "rgba": "#fb0000"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-8b31365caae563864c807f640f426cda9efc97c6-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8b31365caae563864c807f640f426cda9efc97c6-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "20"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "25-45"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                            },
+                            "title": "Beginner"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPLJCK",
+                        "_type": "editorial",
+                        "slug": "hip-hop-abs-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "BODi\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.teambeachbody.com/micro-site/nutrition-plus/index.html#/en"
+                        }
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD9DbG",
+                        "_type": "collection",
+                        "slug": "hip-hop-abs-related-content",
+                        "title": "Hip Hop Abs Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "2Y1ZDDXEx3aLPbgAHe2RNp",
+                          "vKPPpbqN0JH0WMoJVD7hHK",
+                          "2Y1ZDDXEx3aLPbgAHe2NiD"
+                        ]
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD1yN0",
+                        "_type": "successStory",
+                        "slug": "success-story-lucilya-w",
+                        "title": "Lucilya W. lost 28 pounds doing Hip Hop Abs\u00ae!",
+                        "authorName": "Lucilya W.",
+                        "testimonial": "My self-esteem has risen tremendously because I feel more confident with myself",
+                        "images": [
+                          {
+                            "title": "Before",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e9106f60a2557b8ddc063e3ecf7812a23b986683-486x636.jpg"
+                            }
+                          },
+                          {
+                            "title": "After",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/66216f1ee5efcae5e31eaf53c1f6276fd9b4dbc6-486x636.jpg"
+                            }
+                          }
+                        ],
+                        "disclaimer": "Results vary based on starting point and effort."
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Shaun",
+                            "bio": "Shaun T is the mastermind behind BODi megahits such as Transform :20\u00ae, INSANITY\u00ae, CIZE\u00ae, and LET\u2019S GET UP!\u2122 Whether you\u2019re new to exercise or a HIIT veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Keep a towel handy and be prepared to sweat\u2014with Shaun T, it\u2019s always go time.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a1bc755ae5736b2c437f414306bff2d01e3b8aa9-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/shauntfitness",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/shaunt",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://twitter.com/ShaunT",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.youtube.com/shauntfitness",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f06acc8786ecf26616838c26162235cfcce4108-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0UMj",
+                        "_type": "collection",
+                        "slug": "hip-hop-abs-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZF5Izb",
+                          "NWOt1I2xWP7xm05A7ut1RI",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "Q6j5eG7tj3PSUghmZFHalr",
+                          "BoGK5VlBLllbPFYTvNjSp6"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7ugWAZ",
+                        "_type": "collection",
+                        "slug": "hip-hop-abs",
+                        "title": "Hip Hop Abs",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPLEQy",
+                          "NWOt1I2xWP7xm05A7ugSdj",
+                          "BoGK5VlBLllbPFYTvPLEqG",
+                          "NWOt1I2xWP7xm05A7ugSkZ",
+                          "BoGK5VlBLllbPFYTvPLFT6",
+                          "BoGK5VlBLllbPFYTvPLFbE",
+                          "BoGK5VlBLllbPFYTvPLFm4",
+                          "NWOt1I2xWP7xm05A7ugTPb",
+                          "NWOt1I2xWP7xm05A7ugTiP",
+                          "Q6j5eG7tj3PSUghmZGrQff",
+                          "Q6j5eG7tj3PSUghmZGrRTz"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPLIzg",
+                        "_type": "collection",
+                        "slug": "learn-to-dance",
+                        "title": "Learn to Dance",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7ugTye",
+                          "NWOt1I2xWP7xm05A7ugU3m",
+                          "BoGK5VlBLllbPFYTvPLH3Y",
+                          "NWOt1I2xWP7xm05A7ugUNR"
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7ugWHP",
+                        "_type": "collection",
+                        "slug": "shaun-ts-dance-party-series",
+                        "title": "Shaun T's Dance Party Series",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7ugUeX",
+                          "Q6j5eG7tj3PSUghmZGrTux",
+                          "BoGK5VlBLllbPFYTvPLHj6",
+                          "Q6j5eG7tj3PSUghmZGrUqp",
+                          "NWOt1I2xWP7xm05A7ugVSy"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZGrXWt",
+                        "_type": "collection",
+                        "slug": "hip-hop-abs-extreme",
+                        "title": "Hip Hop Abs Extreme",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGrQff",
+                          "Q6j5eG7tj3PSUghmZGrRTz"
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7ugWJy",
+                        "_type": "collection",
+                        "slug": "hip-hop-abs-ultimate-results",
+                        "title": "Hip Hop Abs Ultimate Results",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPLFm4",
+                          "NWOt1I2xWP7xm05A7ugTPb",
+                          "NWOt1I2xWP7xm05A7ugTiP",
+                          "NWOt1I2xWP7xm05A7ugUNR"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0UMj",
+                        "_type": "collection",
+                        "slug": "hip-hop-abs-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZF5Izb",
+                          "NWOt1I2xWP7xm05A7ut1RI",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "Q6j5eG7tj3PSUghmZFHalr",
+                          "BoGK5VlBLllbPFYTvNjSp6"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7ugW80",
+                        "_type": "collection",
+                        "slug": "hip-hop-abs-0",
+                        "title": "Program Materials",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPLIJE",
+                          "T405szsSamzin6dj7R7Q0c",
+                          "T405szsSamzin6dj7R7QNb",
+                          "BoGK5VlBLllbPFYTvPLId6",
+                          "NWOt1I2xWP7xm05A7ugVrl",
+                          "NWOt1I2xWP7xm05A7ugVyb"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0UMj",
+                        "_type": "collection",
+                        "slug": "hip-hop-abs-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZF5Izb",
+                          "NWOt1I2xWP7xm05A7ut1RI",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "Q6j5eG7tj3PSUghmZFHalr",
+                          "BoGK5VlBLllbPFYTvNjSp6"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe2NiD": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2NiD",
+                    "_type": "linkItem",
+                    "slug": "quick-office-workout-for-sexy-abs",
+                    "title": "Quick Office Workout for Sexy Abs",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dfa87284185e3834b196abe5eb3ccaad81791203-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/fitness/autumn-calabreses-quick-office-workout-sexy-abs#sm.001ehdrum12kdf6tsm31a71v0wdpz",
+                    "isFavoritable": false
+                  },
+                  "2Y1ZDDXEx3aLPbgAHe2RNp": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2RNp",
+                    "_type": "linkItem",
+                    "slug": "10-ways-to-incorporate-dance-into-your-exercise",
+                    "title": "10 Ways to Incorporate Dance into Your Exercise",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8e0951c6036e828be822bb32edfb9caafaa38ac8-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/10-ways-incorporate-dance?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=incorporate_dance",
+                    "isFavoritable": false
+                  },
+                  "BoGK5VlBLllbPFYTvNjSp6": {
+                    "_id": "BoGK5VlBLllbPFYTvNjSp6",
+                    "_type": "program",
+                    "slug": "transform-20",
+                    "brandCode": "TF20",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-04-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=TF20&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Transform :20",
+                    "description": "Step up the intensity in just 20 minutes a day with dynamic cardio moves.",
+                    "descriptionShort": "Step up the intensity in just 20 minutes a day with dynamic cardio moves.",
+                    "descriptionLong": "Transform :20 is a high-intensity, six-week workout and nutrition program that will help transform your body and mind in just 20 minutes a day.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a797e2e31cf392dacb57e65e4cb4549a0a0201c1-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8de1b90561870c6e9f302adf592b34f16b064aec-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8de1b90561870c6e9f302adf592b34f16b064aec-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a797e2e31cf392dacb57e65e4cb4549a0a0201c1-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a797e2e31cf392dacb57e65e4cb4549a0a0201c1-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96d9bf35f6786ac60f44e4fe098035349a534339-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8db9e43dca395098bf317acd7319dbddf453a95c-555x361.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "6"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "50"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Step"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPLEQy": {
+                    "_id": "BoGK5VlBLllbPFYTvPLEQy",
+                    "_type": "workout",
+                    "slug": "secrets-to-flat-abs-hha02763b01",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Secrets to Flat Abs",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c4d83148d93a7b64d2fa764760b97744d0dfd44c-398x224.jpg"
+                    },
+                    "descriptionLong": "Training techniques target the upper abs, lower abs, and obliques while burning fat.",
+                    "durationEstimate": 780,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA02763B01",
+                      "durationActual": 802,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPLEqG": {
+                    "_id": "BoGK5VlBLllbPFYTvPLEqG",
+                    "_type": "workout",
+                    "slug": "ab-sculpt-hha02749b03",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ab Sculpt",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/51400158bbaf0462ef3b53c0b5e1a48ce81283dd-398x224.jpg"
+                    },
+                    "descriptionLong": "Signature moves to deliver the ultimate six-pack without a single sit-up or crunch.",
+                    "durationEstimate": 1500,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Weighted Gloves"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA02749B03",
+                      "durationActual": 1449,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPLFT6": {
+                    "_id": "BoGK5VlBLllbPFYTvPLFT6",
+                    "_type": "workout",
+                    "slug": "hips-buns-and-thighs-hha02750b05",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Hips, Buns, and Thighs",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/59b6c4d54350d1660b46ced970546b4c910c443e-398x224.jpg"
+                    },
+                    "descriptionLong": "Lift and firm those stubborn problem areas.",
+                    "durationEstimate": 1500,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA02750B05",
+                      "durationActual": 1500,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPLFbE": {
+                    "_id": "BoGK5VlBLllbPFYTvPLFbE",
+                    "_type": "workout",
+                    "slug": "last-minute-buns-hha06555b07",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Last Minute Buns",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/37e8db94e9220967687b9aa9d7053352d98fc220-398x224.jpg"
+                    },
+                    "descriptionLong": "Buns routine.",
+                    "durationEstimate": 300,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA06555B07",
+                      "durationActual": 353,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPLFm4": {
+                    "_id": "BoGK5VlBLllbPFYTvPLFm4",
+                    "_type": "workout",
+                    "slug": "fat-burning-cardio-2-hha02757d03",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Fat Burning Cardio 2",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7920ec5f64b025697ef8b8f457bcd4115822a87e-398x224.jpg"
+                    },
+                    "descriptionLong": "Advanced, high-energy moves guaranteed to shed pounds and inches.",
+                    "durationEstimate": 2400,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA02757D03",
+                      "durationActual": 2674,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPLH3Y": {
+                    "_id": "BoGK5VlBLllbPFYTvPLH3Y",
+                    "_type": "workout",
+                    "slug": "learn-to-dance-last-minute-dance-hha02858b10",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Last Minute Dance",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3e3313d0abb13e2521d61546219e0db25beb2bb4-398x224.jpg"
+                    },
+                    "descriptionLong": "This Hip Hop dance routine will rev up your metabolism while teaching you the moves the biggest names in music are learning from their choreographers for their videos!",
+                    "durationEstimate": 540,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA02858B10",
+                      "durationActual": 546,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPLHj6": {
+                    "_id": "BoGK5VlBLllbPFYTvPLHj6",
+                    "_type": "workout",
+                    "slug": "cardio-groove-dance-party-hha02722b03",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cardio Groove Dance Party",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/92bebc4a3032a68dff491445f08e57a641fc6c01-398x224.jpg"
+                    },
+                    "descriptionLong": "Transform your body from head-to-toe with Shaun's cardio moves set to the hottest dance music. And add the bonus Cardio Groove Challenge for even faster results!",
+                    "durationEstimate": 2700,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA02722B03",
+                      "durationActual": 2846,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPLIJE": {
+                    "_id": "BoGK5VlBLllbPFYTvPLIJE",
+                    "_type": "resource",
+                    "slug": "hip-hop-abs-quick-start-2767932",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Quick Start",
+                    "categories": null,
+                    "description": "Start things off with the Get Started Success Guide.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/91e7ad78d603fee0b4a0290a68536187320090c7-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "HHA_QuickStart_06122017.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/48d58e93b1c7d8d0de5900a6ec8b14662d958b35.pdf?file=HHA_QuickStart_06122017.pdf",
+                      "size": 1247143
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPLId6": {
+                    "_id": "BoGK5VlBLllbPFYTvPLId6",
+                    "_type": "resource",
+                    "slug": "hip-hop-abs-calendar-2768202",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Workout Calendar",
+                    "categories": null,
+                    "description": "Follow the workout schedule to get jaw-dropping abs fast.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6fb98f590391b037e9cb12f02c332dd552d1b153-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "HHA_Calendar.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/e661712f412f1136da4de96136b5a44ccdcfd111.pdf?file=HHA_Calendar.pdf",
+                      "size": 2033102
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugSdj": {
+                    "_id": "NWOt1I2xWP7xm05A7ugSdj",
+                    "_type": "workout",
+                    "slug": "fat-burning-cardio-hha02763b02",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Fat Burning Cardio",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8b70e73072e1dac3e6f88b8f5e3f18100a6750ad-398x224.jpg"
+                    },
+                    "descriptionLong": "Burn calories and shed fat with hip dance moves and hot music.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA02763B02",
+                      "durationActual": 1832,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugSkZ": {
+                    "_id": "NWOt1I2xWP7xm05A7ugSkZ",
+                    "_type": "workout",
+                    "slug": "total-body-burn-hha02765b04",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Total Body Burn",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8d1060c337df73eeda6e14affb9b08bb13544f57-398x224.jpg"
+                    },
+                    "descriptionLong": "A head-to-toe workout that combines cardio and total body sculpting.",
+                    "durationEstimate": 2460,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Weighted Gloves"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA02765B04",
+                      "durationActual": 2541,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugTPb": {
+                    "_id": "NWOt1I2xWP7xm05A7ugTPb",
+                    "_type": "workout",
+                    "slug": "ab-sculpt-2-hha02740d04",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Ab Sculpt 2",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c968d77d6ab9593e1b96b07b7c7ea6b8d0509ac1-398x224.jpg"
+                    },
+                    "descriptionLong": "Ab-sculpting moves that work the entire core without doing sit-ups or crunches.",
+                    "durationEstimate": 2100,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Weighted Gloves"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA02740D04",
+                      "durationActual": 1983,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugTiP": {
+                    "_id": "NWOt1I2xWP7xm05A7ugTiP",
+                    "_type": "workout",
+                    "slug": "total-body-burn-2-hha02752d05",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Total Body Burn 2",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1704f9d9e452a38f2fcc59324cb29110b8a7002e-398x224.jpg"
+                    },
+                    "descriptionLong": "Advanced cardio, strength, and ab-sculpting moves in a full body workout.",
+                    "durationEstimate": 3000,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA02752D05",
+                      "durationActual": 2778,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugTye": {
+                    "_id": "NWOt1I2xWP7xm05A7ugTye",
+                    "_type": "workout",
+                    "slug": "learn-to-dance-take-it-to-the-dance-floor-hha02749b08",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Take it to the Dance Floor",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dfa5fc04bb4961c61c38c9bdeaa57004bcc94db2-398x224.jpg"
+                    },
+                    "descriptionLong": "This Hip Hop dance routine will rev up your metabolism while teaching you the moves the biggest names in music are learning from their choreographers for their videos!",
+                    "durationEstimate": 1140,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA02749B08",
+                      "durationActual": 1167,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugU3m": {
+                    "_id": "NWOt1I2xWP7xm05A7ugU3m",
+                    "_type": "workout",
+                    "slug": "learn-to-dance-hip-hop-groove-hha00032b09",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Hip Hop Groove",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5ed755ae5e2f0a775af23e24bc57cdc18a6d888-398x224.jpg"
+                    },
+                    "descriptionLong": "This Hip Hop dance routine will rev up your metabolism while teaching you the moves the biggest names in music are learning from their choreographers for their videos!",
+                    "durationEstimate": 1380,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA00032B09",
+                      "durationActual": 1410,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugUNR": {
+                    "_id": "NWOt1I2xWP7xm05A7ugUNR",
+                    "_type": "workout",
+                    "slug": "get-abs-or-die-trying-hha02752d06",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Get Abs or Die Trying",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/755c1bbd1e11f137e99f0dba6b787b8f0d5f6fe5-398x224.jpg"
+                    },
+                    "descriptionLong": "Coolest new ab-flattening moves.",
+                    "durationEstimate": 1260,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA02752D06",
+                      "durationActual": 1281,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugUeX": {
+                    "_id": "NWOt1I2xWP7xm05A7ugUeX",
+                    "_type": "workout",
+                    "slug": "rockin-abs-dance-party-2-hha06464b01",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Rockin' Abs Dance Party",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/118e72319108e44235eda2d3d46cb861a0716429-398x224.jpg"
+                    },
+                    "descriptionLong": "Shaun shows you exciting new moves like Robo, Hammer-Slide, 360, and the Drill Extreme to burn fat while flattening and toning your abs.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Weighted Gloves"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA06464B01",
+                      "durationActual": 1918,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugVSy": {
+                    "_id": "NWOt1I2xWP7xm05A7ugVSy",
+                    "_type": "workout",
+                    "slug": "5-minute-ab-blaster-hha06464b05",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "5 Minute Ab Blaster",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/89699098e197b03656722b15cc21c0f1cc7a99aa-398x224.jpg"
+                    },
+                    "descriptionLong": "If you don't think you can get the flat, toned abs of your dreams in just 5 short minutes, think again! Shaun's ab-blasting routine delivers sexy, defined abs in just 5 minutes without a single sit-up or crunch.",
+                    "durationEstimate": 300,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA06464B05",
+                      "durationActual": 363,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugVrl": {
+                    "_id": "NWOt1I2xWP7xm05A7ugVrl",
+                    "_type": "resource",
+                    "slug": "hip-hop-abs-6-day-slim-down-2768473",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "6-Day Slim Down",
+                    "categories": null,
+                    "description": "Lose 6 pounds your first week with the 6-Day SlimDown.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/80a6c083373f9a2d59644227002d78531610cf0b-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "HHA_6DaySlimdown_06122017.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/3f89649246e83f4587527cce5cfb50e8237564fe.pdf?file=HHA_6DaySlimdown_06122017.pdf",
+                      "size": 4392225
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ugVyb": {
+                    "_id": "NWOt1I2xWP7xm05A7ugVyb",
+                    "_type": "resource",
+                    "slug": "hip-hop-abs-faq-2768745",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "FAQ",
+                    "categories": null,
+                    "description": "All the answers you need to get the results you want!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/60156f2c5b3fcea810b3011d4b3ed283bd799fe4-400x260.jpg"
+                    },
+                    "link": "https://www.beachbodyondemand.com/blog/hip-hop-abs-faq",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ut1RI": {
+                    "_id": "NWOt1I2xWP7xm05A7ut1RI",
+                    "_type": "program",
+                    "slug": "rockin-body",
+                    "brandCode": "RB",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2008-02-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=RB&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Rockin' Body",
+                    "description": "Discover how to burn up to 1,500 calories a day by dancing and having fun.",
+                    "descriptionShort": "Discover how to burn up to 1,500 calories a day by dancing and having fun.",
+                    "descriptionLong": "Even if you don\u2019t think you can dance, Shaun T will have you dancing and sweating with his breakthrough Mark It and Move It technique. You\u2019ll be grooving and burn some serious calories in no time.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f66d4a51cfefedb0ec757e3307ed02f48828ce1c-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d4b0910b8a95f3314d53d75bdc79d82c100349f1-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d4b0910b8a95f3314d53d75bdc79d82c100349f1-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f66d4a51cfefedb0ec757e3307ed02f48828ce1c-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f66d4a51cfefedb0ec757e3307ed02f48828ce1c-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/97a28cd35720ce779afc5fb95a9a5588121c3bef-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/85d494ef4130daaa779664f9ca22b142a361d379-777x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "15-45"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "60"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "5"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Weighted Gloves"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBym4R": {
+                    "_id": "Q6j5eG7tj3PSUghmZBym4R",
+                    "_type": "program",
+                    "slug": "barre-blend",
+                    "brandCode": "BBR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-11-25",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Barre Blend",
+                    "description": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionShort": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionLong": "Create a lean, toned physique through a fun fusion of ballet barre, Pilates, and cardio interval training. Feel the burn as you sweat, stretch, and strengthen to energize your entire body.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/40c285dad368b07f5b7b9034d1b5ebb8b7916ff8-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/636e5ddbe6d6bf30e8adeb2a3641650e75f24f1c-880x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-40"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "8"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "66"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Sturdy Chair or Ballet Barre"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZF5Izb": {
+                    "_id": "Q6j5eG7tj3PSUghmZF5Izb",
+                    "_type": "program",
+                    "slug": "cize",
+                    "brandCode": "CZ",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2015-07-15",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=CZ&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "CIZE",
+                    "description": "Learn the hottest choreographed dance moves and workouts with amazing results.",
+                    "descriptionShort": "Learn the hottest choreographed dance moves and workouts with amazing results.",
+                    "descriptionLong": "Shaun T and his crew bring the dance studio to you to teach you real choreographed dance workouts. You\u2019ll have so much fun dancing and losing weight, you\u2019ll forget you\u2019re actually working out.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a785ef39d230e5c367d1e63e6e4538e821233895-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/63896f4cedeeec77c8f166e82d6c216a6830cdb2-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/63896f4cedeeec77c8f166e82d6c216a6830cdb2-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a785ef39d230e5c367d1e63e6e4538e821233895-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a785ef39d230e5c367d1e63e6e4538e821233895-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3ebbe340c84d80f394fda0f9a4301487a7f97b37-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d88b1903e0a30b09ce35dc78655248817c51caac-1118x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-50"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "4"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "80"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZFHalr": {
+                    "_id": "Q6j5eG7tj3PSUghmZFHalr",
+                    "_type": "program",
+                    "slug": "country-heat",
+                    "brandCode": "CH",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-07-27",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=CH&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Country Heat",
+                    "description": "You\u2019re gonna love Country Heat. Turn it up, have fun, and burn off the weight.",
+                    "descriptionShort": "You\u2019re gonna love Country Heat. Turn it up, have fun, and burn off the weight.",
+                    "descriptionLong": "Finally, a workout you\u2019ll love to do. Country Heat is set to chart-topping country music. The moves are so easy it's like walking, but way more fun. You\u2019ll dance off the weight in 30 minutes a day.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96afcb0a39af28fe3137a3f66fd898bf8dd90c7b-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/98b894c9f23af512bd80ebdb7e97aea593af3414-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/98b894c9f23af512bd80ebdb7e97aea593af3414-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96afcb0a39af28fe3137a3f66fd898bf8dd90c7b-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96afcb0a39af28fe3137a3f66fd898bf8dd90c7b-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/924888ef2c19670100d53233d07fad44ab57aa9b-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7c5c8f4106335200bf42b3695e7ea3287c6d0157-400x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "30"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "24"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGrQff": {
+                    "_id": "Q6j5eG7tj3PSUghmZGrQff",
+                    "_type": "workout",
+                    "slug": "extreme-cardio-hha10850d01",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Extreme Cardio",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/37b114429c6811e70fc32ce0dc0b1460be6d1b05-398x224.jpg"
+                    },
+                    "descriptionLong": "Burn fat and sculpt your abs\u2014without ever getting on the floor. His signature dance moves will get you into the best shape of your life.",
+                    "durationEstimate": 3300,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Weighted Gloves"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA10850D01",
+                      "durationActual": 3390,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGrRTz": {
+                    "_id": "Q6j5eG7tj3PSUghmZGrRTz",
+                    "_type": "workout",
+                    "slug": "extreme-abs-2-hha10850d02",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Extreme Abs",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d0aea63bd6da3d480625030b619fd7fac5f5a16e-398x224.jpg"
+                    },
+                    "descriptionLong": "Burn fat and sculpt your abs\u2014without ever getting on the floor. His signature dance moves will get you into the best shape of your life.",
+                    "durationEstimate": 660,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA10850D02",
+                      "durationActual": 681,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGrTux": {
+                    "_id": "Q6j5eG7tj3PSUghmZGrTux",
+                    "_type": "workout",
+                    "slug": "hard-body-dance-party-2-hha00341b02",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Hard Body Dance Party",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2adb38a7702c00a45bc4eb5fd05d0671788f53bf-398x224.jpg"
+                    },
+                    "descriptionLong": "Shaun combines cardio dance, total body sculpting, and abs all in one workout to shape and tone your body from head to toe. His moves are so much fun, you'll feel sorry for people at the gym.",
+                    "durationEstimate": 2100,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Weighted Gloves"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA00341B02",
+                      "durationActual": 2173,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGrUqp": {
+                    "_id": "Q6j5eG7tj3PSUghmZGrUqp",
+                    "_type": "workout",
+                    "slug": "booty-shakin-dance-party-hha06465b04",
+                    "brandCode": "HHA",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGrZ1z",
+                      "_type": "program",
+                      "slug": "hip-hop-abs"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=HHA&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Booty Shakin' Dance Party",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/433c00b89965d790d6d5296bb38e53749203073e-398x224.jpg"
+                    },
+                    "descriptionLong": "Come join the party, shake your booty, and wave good bye to those extra pounds! Once you start you won't be able to stop\u2014no kidding! Plus, ramp up the intensity with Shaun's Booty Shakin' Challenge.",
+                    "durationEstimate": 2100,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "HHA06465B04",
+                      "durationActual": 2485,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "T405szsSamzin6dj7R7Q0c": {
+                    "_id": "T405szsSamzin6dj7R7Q0c",
+                    "_type": "resource",
+                    "slug": "8-24-2b-mindset-quick-start-guide-3738082",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZsFUwl",
+                      "_type": "program",
+                      "slug": "2b-mindset"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjF1",
+                        "slug": "po-TURBOFIRE_PERM",
+                        "title": "Turbo Fire Program Entitlement",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "2B Mindset Quick Start Guide",
+                    "categories": null,
+                    "description": "Follow these simple steps to help you get started with the 2B Mindset Eating Plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fc830646876650f0c706e8d4f27e1ef82b5bf8f4-400x259.png"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "T25_2BM-EN_US-Quick_Start_Guide-05.01.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/3142abba459ac710b14101deddd5e271c655472e.pdf?file=T25_2BM-EN_US-Quick_Start_Guide-05.01.23.pdf",
+                      "size": 1268671
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "T405szsSamzin6dj7R7QNb": {
+                    "_id": "T405szsSamzin6dj7R7QNb",
+                    "_type": "resource",
+                    "slug": "8-24-portion-fix-quick-start-guide-3738071",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvO2z4a",
+                      "_type": "program",
+                      "slug": "10-rounds"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjF1",
+                        "slug": "po-TURBOFIRE_PERM",
+                        "title": "Turbo Fire Program Entitlement",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Portion Fix Quick Start Guide",
+                    "categories": null,
+                    "description": "Follow these simple steps to help you get started with the Portion Fix Eating Plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/55da31ae6e732a8be0555f65722d03284cb0d676-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "PFX-BODi-EN_US-Quick_Start_Guide-01.24.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/21a36e00574225075e031b582292928c74cdb1c4.pdf?file=PFX-BODi-EN_US-Quick_Start_Guide-01.24.23.pdf",
+                      "size": 341753
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "vKPPpbqN0JH0WMoJVD7hHK": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7hHK",
+                    "_type": "linkItem",
+                    "slug": "maria-lost-26-pounds-with-hip-hop-abs",
+                    "title": "Maria Lost 26 Pounds with Hip Hop Abs",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cf0c3cd97fadc378f47a68f76b2ce5f8daee1fe1-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/success-stories/transformation-tuesday-maria-lost-26-pounds-with-hip-hop-abs#sm.001ehdrum12kdf6tsm31a71v0wdpz",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223430248,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "hip-hop-abs",
+              "en-US"
+            ],
+            "queryHash": "[\"hip-hop-abs\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/hip-hop-abs/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "hip-hop-abs",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

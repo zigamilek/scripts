@@ -1,0 +1,2655 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "bodyweight-bootcamp-with-val-gutu",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                "_type": "program",
+                "slug": "bodyweight-bootcamp-with-val-gutu",
+                "title": "Bodyweight Bootcamp with Val Gutu",
+                "subtitle": null,
+                "brandCode": "VGBB",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=VGBB&locale=en_us&trainerName=ValGutu"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Bodyweight Bootcamp with Val Gutu",
+                  "description": "No equipment. 25 minutes. Total body results.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/86793a664eac449e71cb5cd07a43e64b49bce991-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Val",
+                    "lastName": "Gutu",
+                    "bioBodi": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/67496c681b25a8f0a2300c634043e2a0f4f42b38-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#008037",
+                "colorPrimaryOptions": {
+                  "argb": "#008037",
+                  "rgba": "#008037"
+                },
+                "descriptionShort": "No equipment. 25 minutes. Total body results.",
+                "descriptionLong": "This military-inspired, 4-week basic training program was designed for everyone. You will be amazed at how these 25-minute, no-equipment workouts deliver ripped abs and total body results in record time!",
+                "sampleWorkoutId": "A3jSdym3jf5hqTWanxQuN1",
+                "trailerId": "gAjyjR8IcIqVjU7DkPqy5Y",
+                "videoOverviewId": "A3jSdym3jf5hqTWanxQuN1",
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/bodyweight-bootcamp-with-val-gutu"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "25"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Weeks",
+                  "value": "4"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "10"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ValGutu"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": null,
+                "equipmentRecommended": [
+                  {
+                    "title": "Mat"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Bodyweight Training"
+                  },
+                  {
+                    "title": "Bootcamp"
+                  },
+                  {
+                    "title": "Strength"
+                  },
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Core"
+                  }
+                ],
+                "level": {
+                  "title": "Intermediate",
+                  "slug": "intermediate",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a76ab038b4f69c779d6b1b34a52b04a272ae7ced-2046x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a76ab038b4f69c779d6b1b34a52b04a272ae7ced-2046x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/b8986758d4c6746e8ef9fa7ce136904516044e73.mp4"
+                  },
+                  "loopingVideoPortrait": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/72dd50d46910df3875041704f75e42de4a48c5c1.mp4"
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b2ac31b5f066692db73d0d56f70f07fab14d2935-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b7c3afcd79ee6841562e2fbad2cb6873c7cdf412-1920x652.png"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/93ebbfc6575b7ff1df9483fe5edba67ef4ee8013-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b9c3f03d02dc77488e2b02a2a9e3a186e8876c84-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/86793a664eac449e71cb5cd07a43e64b49bce991-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/86793a664eac449e71cb5cd07a43e64b49bce991-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Mat*",
+                        "categories": "Bodyweight Training, Bootcamp, Strength, Cardio, Core",
+                        "colorPrimary": "#008037",
+                        "colorPrimaryOptions": {
+                          "argb": "#008037",
+                          "rgba": "#008037"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "A3jSdym3jf5hqTWanxQuN1",
+                          "_type": "workout",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0ae5e0b50ef34153454c0319e0420a9902d9fcfd-1310x698.jpg"
+                          },
+                          "videoId": "VGBB00001SW",
+                          "title": "Sample Workout - Total Body Bootcamp",
+                          "subtitle": "25m",
+                          "catalog": "bod"
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "10"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "25"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                            },
+                            "title": "Intermediate"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZL0Ti7",
+                        "_type": "collection",
+                        "slug": "vgbb-get-started",
+                        "title": "Get Started",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "A3jSdym3jf5hqTWanxQuN1",
+                          "NWOt1I2xWP7xm05A7w5IIt",
+                          "NWOt1I2xWP7xm05A7w5ILS"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZL0Ut5",
+                        "_type": "collection",
+                        "slug": "bodyweight-bootcamp-with-val-gutu-featured-guides",
+                        "title": "Workout Calendars",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZL0Rip"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvQoyAC",
+                        "_type": "editorial",
+                        "slug": "bodyweight-bootcamp-with-val-gutu-is-bodyweight-bootcamp-with-val-right-for-me",
+                        "title": "Is Bodyweight Bootcamp with Val Right For Me?",
+                        "subtitle": null,
+                        "content": "Bodyweight Bootcamp is perfect for anyone who is looking to get maximum results when short on time. Give Val 25 minutes and he'll push you and his cast to get stronger, leaner and fitter together. There\u2019s always a modifier for every exercise, so you can start working hard from day one, no matter what your fitness level is.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/38ddd3391b72a99b47d1ee75759b72a82f4ed7f3-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZL0UHL",
+                        "_type": "editorial",
+                        "slug": "bodyweight-bootcamp-with-val-gutu-what-are-vals-workouts-like",
+                        "title": "What Are Val's Workouts Like?",
+                        "subtitle": null,
+                        "content": "Val\u2019s 4-week program is made up of 10 workouts that are all 25 minutes of simple, targeted and effective moves. There are four high-energy functional HIIT classes designed to maximize your calorie burn, three bodyweight-strength classes for building lean muscle, and three classes focused on strengthening and sculpting the abs and core.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fd47b032d0e3f2a123cf1d35363cce06e23b65da-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Workouts",
+                          "url": "https://www.beachbodyondemand.com/programs/bodyweight-bootcamp-with-val-gutu/workouts"
+                        }
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7w5MB6",
+                        "_type": "editorial",
+                        "slug": "bodyweight-bootcamp-with-val-gutu-tools-equipment",
+                        "title": "Tools + Equipment",
+                        "subtitle": null,
+                        "content": "No equipment needed, your body is your equipment!",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8e932fe2ae3c0723257de8c03ab910380cc3e605-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7w5MH5",
+                        "_type": "editorial",
+                        "slug": "bodyweight-bootcamp-with-val-gutu-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "Beachbody\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.beachbodyondemand.com/programs/introduction-to-nutrition/starthere"
+                        }
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Val",
+                            "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/67496c681b25a8f0a2300c634043e2a0f4f42b38-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://m.facebook.com/Val-Gutu-103843424772739/?ref=page_internal",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/valgutu/",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://twitter.com/gutuvaleriu",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.youtube.com/channel/UCN7B65MJ1IE2-u6XUFvoh8Q",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f06acc8786ecf26616838c26162235cfcce4108-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD4ydy",
+                        "_type": "collection",
+                        "slug": "vgbb-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7uqUnT",
+                          "Q6j5eG7tj3PSUghmZqmYrz",
+                          "BoGK5VlBLllbPFYTvOArAG",
+                          "Q6j5eG7tj3PSUghmZKqc5X"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZL0SZf",
+                        "_type": "collection",
+                        "slug": "vgbb-bodyweight-strength",
+                        "title": "Bodyweight Strength",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvQovK4",
+                          "BoGK5VlBLllbPFYTvQovfk",
+                          "NWOt1I2xWP7xm05A7w5Inf",
+                          "Q6j5eG7tj3PSUghmZL0Kk3"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZL0T8t",
+                        "_type": "collection",
+                        "slug": "vgbb-abs-bootcamp",
+                        "title": "Abs Bootcamp",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7w5Ix4",
+                          "BoGK5VlBLllbPFYTvQovom",
+                          "NWOt1I2xWP7xm05A7w5JK9"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZL0TaZ",
+                        "_type": "collection",
+                        "slug": "vgbb-cardio-sweat",
+                        "title": "Cardio Sweat",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZL0N3T",
+                          "BoGK5VlBLllbPFYTvQowro",
+                          "NWOt1I2xWP7xm05A7w5LEy"
+                        ]
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD4ydy",
+                        "_type": "collection",
+                        "slug": "vgbb-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7uqUnT",
+                          "Q6j5eG7tj3PSUghmZqmYrz",
+                          "BoGK5VlBLllbPFYTvOArAG",
+                          "Q6j5eG7tj3PSUghmZKqc5X"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workout Calendars",
+                    "slug": "workout-calendars",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvQoxmi",
+                        "_type": "collection",
+                        "slug": "vgbb-workout-calendar",
+                        "title": "Workout Calendar",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZL0Rip"
+                        ]
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD4ydy",
+                        "_type": "collection",
+                        "slug": "vgbb-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7uqUnT",
+                          "Q6j5eG7tj3PSUghmZqmYrz",
+                          "BoGK5VlBLllbPFYTvOArAG",
+                          "Q6j5eG7tj3PSUghmZKqc5X"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "A3jSdym3jf5hqTWanxQuN1": {
+                    "_id": "A3jSdym3jf5hqTWanxQuN1",
+                    "_type": "workout",
+                    "slug": "vgbb-sample-workout-total-body-bootcamp-vgbb00001sw",
+                    "brandCode": "VGBB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Sample Workout - Total Body Bootcamp",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2f2865350230db327ea89ed0ffba2b3248229a92-730x496.jpg"
+                    },
+                    "descriptionLong": "Short on time? Val's Bodyweight Bootcamp will teach you how to use your body as your equipment for total-body results in just 25 minutes a day!",
+                    "durationEstimate": 1500,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB00001SW",
+                      "durationActual": 1513,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOArAG": {
+                    "_id": "BoGK5VlBLllbPFYTvOArAG",
+                    "_type": "program",
+                    "slug": "core-de-force",
+                    "brandCode": "CDF",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-11-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=CDF&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "CORE DE FORCE",
+                    "description": "Ready to fight for it? Here is the ultimate mixed martial arts-inspired workout.",
+                    "descriptionShort": "Ready to fight for it? Here is the ultimate mixed martial arts-inspired workout.",
+                    "descriptionLong": "Join trainers Joel and Jericho for 30 days of mixed martial arts-inspired workouts designed to slash inches off your waist and carve total-body definition! Knock-out the belly fat and start today!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a01dc8b3a1d780d33f1776361008a886d0722431-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8996f187a1579743af601907e5804316d7c4e641-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8996f187a1579743af601907e5804316d7c4e641-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a01dc8b3a1d780d33f1776361008a886d0722431-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a01dc8b3a1d780d33f1776361008a886d0722431-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/966e3caa56f18b177cba0f2489ea6f234d0644b9-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/de3be26831823a307b15553d7cf21becdca3ace4-638x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "27-47"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "30"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "16"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "MMA Training",
+                        "slug": "mma-training"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Agility Ladder"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQovK4": {
+                    "_id": "BoGK5VlBLllbPFYTvQovK4",
+                    "_type": "workout",
+                    "slug": "vgbb-total-body-bootcamp-vgbb00001",
+                    "brandCode": "VGBB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ValGutu"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=VGBB&locale=en_us&trainerName=ValGutu"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Total Body Bootcamp",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2f2865350230db327ea89ed0ffba2b3248229a92-730x496.jpg"
+                    },
+                    "descriptionLong": "This workout will teach you how to use your body as your equipment for total-body results in just 25 minutes a day.",
+                    "durationEstimate": 1500,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB00001",
+                      "durationActual": 1513,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQovfk": {
+                    "_id": "BoGK5VlBLllbPFYTvQovfk",
+                    "_type": "workout",
+                    "slug": "vgbb-power-legs-vgbb00004",
+                    "brandCode": "VGBB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ValGutu"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=VGBB&locale=en_us&trainerName=ValGutu"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Power Legs",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ee126d58c24736ce6b731e1a1da445709f9d6dec-730x496.jpg"
+                    },
+                    "descriptionLong": "This lower-body workout is short and intense\u2014it\u2019ll have your legs shaking!",
+                    "durationEstimate": 1560,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB00004",
+                      "durationActual": 1557,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQovom": {
+                    "_id": "BoGK5VlBLllbPFYTvQovom",
+                    "_type": "workout",
+                    "slug": "vgbb-6-pack-abs-vgbb00005",
+                    "brandCode": "VGBB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ValGutu"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=VGBB&locale=en_us&trainerName=ValGutu"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "6-Pack Abs",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c89a0b95ab8d5b80a5f6896ee5a7dedef52d3463-730x496.jpg"
+                    },
+                    "descriptionLong": "There\u2019s nothing complicated about this workout. Only 25 minutes to help chisel your abs!",
+                    "durationEstimate": 1380,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB00005",
+                      "durationActual": 1416,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQowro": {
+                    "_id": "BoGK5VlBLllbPFYTvQowro",
+                    "_type": "workout",
+                    "slug": "vgbb-fat-burning-circuit-vgbb00006",
+                    "brandCode": "VGBB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ValGutu"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=VGBB&locale=en_us&trainerName=ValGutu"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Fat Burning Circuit",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d4c35e828b984d6ee064e252816176c64600021b-730x496.jpg"
+                    },
+                    "descriptionLong": "Just like basic training, this super sweaty workout burns fat and calories \u2014without wasting a minute!",
+                    "durationEstimate": 1500,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB00006",
+                      "durationActual": 1529,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uqUnT": {
+                    "_id": "NWOt1I2xWP7xm05A7uqUnT",
+                    "_type": "program",
+                    "slug": "just-move-your-body",
+                    "brandCode": "JBYB",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2022-04-30",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=JBYB&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Just Bring Your Body",
+                    "description": "Get ripped in 60 days using just your bodyweight.",
+                    "descriptionShort": "Get ripped in 60 days using just your bodyweight.",
+                    "descriptionLong": "You don't need weights, all you need to do is bring your body to get strong and shredded. 4 all-star trainers with four different training styles will challenge your body in a brand new way and deliver crazy results!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e9fcd3453486f518369699913c97057c543060f3-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9b53768baa64aba6792ad218ac3532c0a86a1567-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9b53768baa64aba6792ad218ac3532c0a86a1567-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e9fcd3453486f518369699913c97057c543060f3-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e9fcd3453486f518369699913c97057c543060f3-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1538c49635c025258e95c84af5c39679b0b8db89-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/661012c45eb88aa0df58f7b4b6ea61addb7a4a95-1290x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "60"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "60"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Athletic Training",
+                        "slug": "athletic-training"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "HIIT",
+                        "slug": "hiit"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w5IIt": {
+                    "_id": "NWOt1I2xWP7xm05A7w5IIt",
+                    "_type": "promo",
+                    "slug": "vgbb-get-started-with-bodyweight-bootcamp-vgbb000gs12",
+                    "brandCode": "VGBB",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "durationEstimate": 60,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9cc02ad666e9fdfc9911f5f5ed0ac0f0f22494b2-730x496.jpg"
+                    },
+                    "title": "Get Started with Bodyweight Bootcamp",
+                    "descriptionLong": "Val's 4-Week Bodyweight Bootcamp was designed to be simple yet effective. His no-equipment workouts will have you sweating, smiling and seeing results in no time!",
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB000GS12",
+                      "durationActual": 112,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w5ILS": {
+                    "_id": "NWOt1I2xWP7xm05A7w5ILS",
+                    "_type": "promo",
+                    "slug": "vgbb-meet-val-vgbb000gs13",
+                    "brandCode": "VGBB",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5b85ec13e8997be0bc7510d10db21c70b8fb43d2-730x496.jpg"
+                    },
+                    "title": "Meet Val",
+                    "descriptionLong": "Get to know Val as he shares his simple and effective techniques - as well as his philosophy on fitness - that he learned from his father and inspired by his military training that help him stay in shape.",
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB000GS13",
+                      "durationActual": 238,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w5Inf": {
+                    "_id": "NWOt1I2xWP7xm05A7w5Inf",
+                    "_type": "workout",
+                    "slug": "vgbb-bootcamp-sweat-vgbb00007",
+                    "brandCode": "VGBB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ValGutu"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=VGBB&locale=en_us&trainerName=ValGutu"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bootcamp Sweat",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e1d956d948dbcef660317216bf6558d728551d46-730x496.jpg"
+                    },
+                    "descriptionLong": "This sweat-fest workout was inspired by Val's military training. Just grab a towel, find your focus, and let\u2019s get working!",
+                    "durationEstimate": 1560,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB00007",
+                      "durationActual": 1534,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w5Ix4": {
+                    "_id": "NWOt1I2xWP7xm05A7w5Ix4",
+                    "_type": "workout",
+                    "slug": "vgbb-abs-core-vgbb00003",
+                    "brandCode": "VGBB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ValGutu"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=VGBB&locale=en_us&trainerName=ValGutu"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Abs & Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c60231407b2ffd5849acf50556ac4e31ccf168bb-730x496.jpg"
+                    },
+                    "descriptionLong": "In this workout you'll learn the most effective moves for working your abs and core\u2014bootcamp style.",
+                    "durationEstimate": 1500,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB00003",
+                      "durationActual": 1477,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w5JK9": {
+                    "_id": "NWOt1I2xWP7xm05A7w5JK9",
+                    "_type": "workout",
+                    "slug": "vgbb-core-conditioning-vgbb00009",
+                    "brandCode": "VGBB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ValGutu"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=VGBB&locale=en_us&trainerName=ValGutu"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Core Conditioning",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/65e643769b0f24871da2fbf0ca277ed2fdad34ef-730x496.jpg"
+                    },
+                    "descriptionLong": "Drop to the floor and work your core! This workout will get your 6 pack poppin with tried-and-tested moves from Val's training camp days.",
+                    "durationEstimate": 1560,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB00009",
+                      "durationActual": 1557,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w5LEy": {
+                    "_id": "NWOt1I2xWP7xm05A7w5LEy",
+                    "_type": "workout",
+                    "slug": "vgbb-energy-intervals-vgbb00008",
+                    "brandCode": "VGBB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ValGutu"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=VGBB&locale=en_us&trainerName=ValGutu"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Energy Intervals",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fdcce25276eeae159ab2d1fe2d8ca07e8d40ee3c-730x496.jpg"
+                    },
+                    "descriptionLong": "You\u2019ll feel a rush of energy after you finish this 25-minute, cardio-based training session\u2014and be totally ready for your next challenge!",
+                    "durationEstimate": 1680,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB00008",
+                      "durationActual": 1672,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKqc5X": {
+                    "_id": "Q6j5eG7tj3PSUghmZKqc5X",
+                    "_type": "program",
+                    "slug": "bomb-body-with-sophia-rose",
+                    "brandCode": "BBSR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2022-07-11",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBSR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Bomb Body with Sophia Rose",
+                    "description": "Carve your own Bomb Body using just your bodyweight.",
+                    "descriptionShort": "Carve your own Bomb Body using just your bodyweight.",
+                    "descriptionLong": "Get a bomb body in 4 weeks with Sophia\u2019s core crushing circuit style bodyweight training program.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/583e30ac1e84ff7e2c433be4dca6f08cbf7eda61-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/62056fbbc599f0823d4f905acaa0aa977b1e23a4-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/62056fbbc599f0823d4f905acaa0aa977b1e23a4-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/583e30ac1e84ff7e2c433be4dca6f08cbf7eda61-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/583e30ac1e84ff7e2c433be4dca6f08cbf7eda61-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c833fec2b8d8a3c310e6a290a29a4ff939026ef5-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/aecc9f838afc65e8ebbd02ad4c28d22e62b56c9c-982x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "4"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "10"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "HIIT",
+                        "slug": "hiit"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZL0Kk3": {
+                    "_id": "Q6j5eG7tj3PSUghmZL0Kk3",
+                    "_type": "workout",
+                    "slug": "vgbb-lower-body-bootcamp-vgbb00010",
+                    "brandCode": "VGBB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ValGutu"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=VGBB&locale=en_us&trainerName=ValGutu"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Lower Body Bootcamp",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e6e19b994b320d1fa220fd54545cbca004d7f908-730x496.jpg"
+                    },
+                    "descriptionLong": "25 minutes is all you\u2019ll need to focus on your lower body. Be warned\u2014you\u2019ll feel the burn today, but it\u2019ll be well worth it tomorrow!",
+                    "durationEstimate": 1500,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB00010",
+                      "durationActual": 1524,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZL0N3T": {
+                    "_id": "Q6j5eG7tj3PSUghmZL0N3T",
+                    "_type": "workout",
+                    "slug": "vgbb-hiit-cardio-vgbb00002",
+                    "brandCode": "VGBB",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ValGutu"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=VGBB&locale=en_us&trainerName=ValGutu"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "HIIT Cardio",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a110c87fa86f830d593c64ab963e18dcaec97c67-730x496.jpg"
+                    },
+                    "descriptionLong": "Get ready to burn mega calories with these high-intensity functional moves that will leave you drenched in sweat!",
+                    "durationEstimate": 1500,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB00002",
+                      "durationActual": 1485,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZL0Rip": {
+                    "_id": "Q6j5eG7tj3PSUghmZL0Rip",
+                    "_type": "resource",
+                    "slug": "vgbb4-week-bootcamp-body-calendar-3653909",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "4-Week Bootcamp Body Calendar",
+                    "categories": null,
+                    "description": "Follow along this 4-Week Calendar to build your own bootcamp body!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4e5c3a34ce16d2f44f1a9a933bcb1e06078e909d-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "VGUT_EN_US-4_Week_Calendar-05.13.22.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/9b459b7b9fb70e7d2839f76f3c7daeff241ea429.pdf?file=VGUT_EN_US-4_Week_Calendar-05.13.22.pdf",
+                      "size": 641278
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZqmYrz": {
+                    "_id": "Q6j5eG7tj3PSUghmZqmYrz",
+                    "_type": "program",
+                    "slug": "insanity",
+                    "brandCode": "SAN",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2009-07-07",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SAN&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "INSANITY",
+                    "description": "Are you up to the challenge? Get a year\u2019s worth of results in just 60 days.",
+                    "descriptionShort": "Are you up to the challenge? Get a year\u2019s worth of results in just 60 days.",
+                    "descriptionLong": "INSANITY is one of the best workouts you\u2019ve ever seen. No weights, no gym, just results. Keep pushing your limits and your body has to adapt. That\u2019s how you get in such insane shape in just 60 days.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7170cddf77e18b3aa9838e67ead9a824ac571492-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fa0ee2406bbfb298d8660efd3516f6791916bf94-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fa0ee2406bbfb298d8660efd3516f6791916bf94-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7170cddf77e18b3aa9838e67ead9a824ac571492-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7170cddf77e18b3aa9838e67ead9a824ac571492-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c4ad94ab4ed4db3c4e34d112b49b27d53964b68e-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bbf44e241990d853d7551202ab134afbdef6ff96-1005x374.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "15-60"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "60"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "29"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "HIIT",
+                        "slug": "hiit"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "gAjyjR8IcIqVjU7DkPqy5Y": {
+                    "_id": "gAjyjR8IcIqVjU7DkPqy5Y",
+                    "_type": "promo",
+                    "slug": "vgbb-bodyweight-bootcamp-sizzle-vgbb000gs11",
+                    "brandCode": "VGBB",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZL0Vtz",
+                      "_type": "program",
+                      "slug": "bodyweight-bootcamp-with-val-gutu"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9cc02ad666e9fdfc9911f5f5ed0ac0f0f22494b2-730x496.jpg"
+                    },
+                    "title": "Introducing Bodyweight Bootcamp",
+                    "descriptionLong": "N/A",
+                    "trainers": [
+                      {
+                        "slug": "val-gutu",
+                        "firstName": "Val",
+                        "lastName": "Gutu",
+                        "bio": "Growing up in Europe, and raised within an athletic military family, Val discovered a love for physical fitness at a young age. His passion was, and is, to set personal goals and exceed them. He\u2019s competed as an extreme sports athlete and professional soccer player, and today is much in demand as a personal trainer for both his motivational skills and his metabolic, body-shredding techniques.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/edc2618b226d155ecaf690730f0c1b0177028410-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "VGBB000GS11",
+                      "durationActual": 112,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223497383,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "bodyweight-bootcamp-with-val-gutu",
+              "en-US"
+            ],
+            "queryHash": "[\"bodyweight-bootcamp-with-val-gutu\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/bodyweight-bootcamp-with-val-gutu/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "bodyweight-bootcamp-with-val-gutu",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

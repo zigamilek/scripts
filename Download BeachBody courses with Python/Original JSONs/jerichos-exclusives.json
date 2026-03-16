@@ -1,0 +1,1507 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "jerichos-exclusives",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "BoGK5VlBLllbPFYTvQlJdw",
+                "_type": "program",
+                "slug": "jerichos-exclusives",
+                "title": "Jericho's Exclusives",
+                "subtitle": null,
+                "brandCode": "YTJM",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=YTJM&locale=en_us&trainerName=JerichoMcMatthews"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Jericho's Exclusives Program Overview: Start Your Journey Here",
+                  "description": "Get your blood pumping with the Half & Half Jericho's Exclusives. See what the program includes, any equipment needed, and meet your trainer here.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9579644fcc5b238055f910606ef050ab66dcfb08-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Jericho",
+                    "lastName": "McMatthews",
+                    "bioBodi": "Creator of Morning Meltdown 100 and co-creator of the MMA program CORE DE FORCE\u00ae, Jericho is an NASM and ACE certified personal trainer who has coached thousands of people all over the globe. Now she brings her world-class expertise to BODi to help you elevate your training and reach your goals faster than ever.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e6814e82b02644722c26cf68056ec6ab6ff480e3-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#2490ff",
+                "colorPrimaryOptions": {
+                  "argb": "#2490ff",
+                  "rgba": "#2490ff"
+                },
+                "descriptionShort": "Jericho McMatthews helps you gain endurance and burn fat with these routines.",
+                "descriptionLong": "Get your blood pumping with the Half & Half exclusive workouts. The first half, you\u2019ll get high-intensity cardio training. The second half you\u2019ll improve flexibility and balance with athletic yoga.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/jerichos-exclusives"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "20-40"
+                },
+                "duration": null,
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "2"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JerichoMcMatthews"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": null,
+                "equipmentRecommended": [
+                  {
+                    "title": "Yoga Mat"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Yoga"
+                  },
+                  {
+                    "title": "Core"
+                  },
+                  {
+                    "title": "Bodyweight Training"
+                  }
+                ],
+                "level": {
+                  "title": "Intermediate",
+                  "slug": "intermediate",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0261421e32c8c8892ec8819a016e377fb51705b0-2170x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0261421e32c8c8892ec8819a016e377fb51705b0-2170x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/caf8829d9681adced5bb586979385b6083f1f9fc-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4652d8f72e985f5fb1265acf5952d0432b53b082-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d8726fe61e55e221a4a76da60681bc5d68b70ec4-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/52f9f5c0b9c411ec913714a04f4454a06c96519f-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9579644fcc5b238055f910606ef050ab66dcfb08-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9579644fcc5b238055f910606ef050ab66dcfb08-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Yoga Mat*",
+                        "categories": "Cardio, Yoga, Core, Bodyweight Training",
+                        "colorPrimary": "#2490ff",
+                        "colorPrimaryOptions": {
+                          "argb": "#2490ff",
+                          "rgba": "#2490ff"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-af758c7a0f2507e9b0462d4ee56b408958a04718-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af758c7a0f2507e9b0462d4ee56b408958a04718-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "2"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "20-40"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                            },
+                            "title": "Intermediate"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7w1s1n",
+                        "_type": "editorial",
+                        "slug": "jerichos-exclusives-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "Beachbody\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.teambeachbody.com/micro-site/nutrition-plus/index.html#/en"
+                        }
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFXo1i",
+                        "_type": "collection",
+                        "slug": "jerichos-exclusives-related-content",
+                        "title": "Jericho's Exclusives Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "vKPPpbqN0JH0WMoJVD7cCk",
+                          "2Y1ZDDXEx3aLPbgAHe2N3Z",
+                          "2Y1ZDDXEx3aLPbgAHe2LkH"
+                        ]
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Jericho",
+                            "bio": "Creator of Morning Meltdown 100 and co-creator of the MMA program CORE DE FORCE\u00ae, Jericho is an NASM and ACE certified personal trainer who has coached thousands of people all over the globe. Now she brings her world-class expertise to BODi to help you elevate your training and reach your goals faster than ever.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e6814e82b02644722c26cf68056ec6ab6ff480e3-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/jerichomcmatthews",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/jerichomcmatthews",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFUbyN",
+                        "_type": "collection",
+                        "slug": "jerichos-exclusives-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZcA24B",
+                          "BoGK5VlBLllbPFYTvOArAG",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "BoGK5VlBLllbPFYTvOl1EW"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7w1rhH",
+                        "_type": "collection",
+                        "slug": "jerichos-exclusives",
+                        "title": "Jericho's Exclusives",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvQlGem",
+                          "NWOt1I2xWP7xm05A7w1qZB",
+                          "Q6j5eG7tj3PSUghmZKqIeJ",
+                          "BoGK5VlBLllbPFYTvQlIRs"
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFUbyN",
+                        "_type": "collection",
+                        "slug": "jerichos-exclusives-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZcA24B",
+                          "BoGK5VlBLllbPFYTvOArAG",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "BoGK5VlBLllbPFYTvOl1EW"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe2LkH": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2LkH",
+                    "_type": "linkItem",
+                    "slug": "what-super-trainers-really-eat-for-breakfast",
+                    "title": "What Super Trainers Really Eat for Breakfast",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9d4ac436a2b9e1b247445a700fa570cbf978244f-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/what-super-trainers-really-eat-for-breakfast",
+                    "isFavoritable": false
+                  },
+                  "2Y1ZDDXEx3aLPbgAHe2N3Z": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2N3Z",
+                    "_type": "linkItem",
+                    "slug": "motivational-music-jerichos-pumped-up-pop-workout-playlist",
+                    "title": "Motivational Music: Jericho's Pumped Up Pop Workout Playlist",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f08f1c8357a878b338ccbfba7daad5ae1376f475-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/fitness/workout-playlist-jericho-mcmatthews-pop",
+                    "isFavoritable": false
+                  },
+                  "BoGK5VlBLllbPFYTvOArAG": {
+                    "_id": "BoGK5VlBLllbPFYTvOArAG",
+                    "_type": "program",
+                    "slug": "core-de-force",
+                    "brandCode": "CDF",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-11-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=CDF&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "CORE DE FORCE",
+                    "description": "Ready to fight for it? Here is the ultimate mixed martial arts-inspired workout.",
+                    "descriptionShort": "Ready to fight for it? Here is the ultimate mixed martial arts-inspired workout.",
+                    "descriptionLong": "Join trainers Joel and Jericho for 30 days of mixed martial arts-inspired workouts designed to slash inches off your waist and carve total-body definition! Knock-out the belly fat and start today!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a01dc8b3a1d780d33f1776361008a886d0722431-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8996f187a1579743af601907e5804316d7c4e641-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8996f187a1579743af601907e5804316d7c4e641-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a01dc8b3a1d780d33f1776361008a886d0722431-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a01dc8b3a1d780d33f1776361008a886d0722431-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/966e3caa56f18b177cba0f2489ea6f234d0644b9-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/de3be26831823a307b15553d7cf21becdca3ace4-638x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "27-47"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "30"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "16"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "MMA Training",
+                        "slug": "mma-training"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Agility Ladder"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOl1EW": {
+                    "_id": "BoGK5VlBLllbPFYTvOl1EW",
+                    "_type": "program",
+                    "slug": "beachbody-yoga-studio",
+                    "brandCode": "BYS",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-10-18",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BYS&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Beachbody Yoga Studio",
+                    "description": "Improve strength and flexibility with a collection of yoga classes",
+                    "descriptionShort": "Improve strength and flexibility with a collection of yoga classes",
+                    "descriptionLong": "Improve strength and flexibility with a collection of yoga classes featuring Beachbody Super Trainers and Yoga Experts. Find the class that\u2019s right for you!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a336bf2f8a0f162ff79e5e0980fa60c91e80f9d-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ff71df312a02225595ed31d611cdbe5f31d9f5c0-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ff71df312a02225595ed31d611cdbe5f31d9f5c0-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a336bf2f8a0f162ff79e5e0980fa60c91e80f9d-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a336bf2f8a0f162ff79e5e0980fa60c91e80f9d-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c11488451d9203263eab6e3594409b28713436b2-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/98a33009f6b24474d539134219107bb0833d3f2a-580x100.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-90"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "114"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "94"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Yoga Strap or Towel"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQlGem": {
+                    "_id": "BoGK5VlBLllbPFYTvQlGem",
+                    "_type": "workout",
+                    "slug": "jericho-mcmathews-exclusive-2021-summit-workout-ytjm00002b04",
+                    "brandCode": "YTJM",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlJdw",
+                      "_type": "program",
+                      "slug": "jerichos-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JerichoMcMatthews"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTJM&locale=en_us&trainerName=JerichoMcMatthews"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Jericho McMathews Exclusive 2021 Summit Workout",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/77e482a150abe39b6b2b3bbd8305e8ac4895e74c-730x496.png"
+                    },
+                    "descriptionLong": "You\u2019ll draw from a variety of mixed martial arts (MMA) disciplines in this intense, core-shredding cardio workout. Keep your guard up and your abs tight as you punch, kick, and block your way to a fighting-fit body.",
+                    "durationEstimate": 1860,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Dumbbells, light & moderate"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "jericho-mcmatthews",
+                        "firstName": "Jericho",
+                        "lastName": "McMatthews",
+                        "bio": "Jericho McMatthews\u2019 passionate approach to fitness empowers you to own your health, wellness, and happiness. She\u2019s a NASM and ACE certified personal trainer and holds degrees in psychology as well as physical education and kinesiology.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/61d9b6d78f3dd18643168f09b9c484efe3ba46f7-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTJM00002B04",
+                      "durationActual": 1832,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQlIRs": {
+                    "_id": "BoGK5VlBLllbPFYTvQlIRs",
+                    "_type": "workout",
+                    "slug": "half-half-harder-ytjm00002b02",
+                    "brandCode": "YTJM",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlJdw",
+                      "_type": "program",
+                      "slug": "jerichos-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JerichoMcMatthews"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTJM&locale=en_us&trainerName=JerichoMcMatthews"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Half & Half Harder",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8552ed7b605515b414e997a757a543f9e4b80567-398x224.jpg"
+                    },
+                    "descriptionLong": "A 40 minute packed combination of power yoga and dynamic cardio that will increase range of motion while torching calories.",
+                    "durationEstimate": 2700,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "jericho-mcmatthews",
+                        "firstName": "Jericho",
+                        "lastName": "McMatthews",
+                        "bio": "Jericho McMatthews\u2019 passionate approach to fitness empowers you to own your health, wellness, and happiness. She\u2019s a NASM and ACE certified personal trainer and holds degrees in psychology as well as physical education and kinesiology.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/61d9b6d78f3dd18643168f09b9c484efe3ba46f7-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTJM00002B02",
+                      "durationActual": 2635,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w1qZB": {
+                    "_id": "NWOt1I2xWP7xm05A7w1qZB",
+                    "_type": "workout",
+                    "slug": "jericho-mcmatthews-exclusive-morning-meltdown-summit-workout-2-ytjm00002b03",
+                    "brandCode": "YTJM",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlJdw",
+                      "_type": "program",
+                      "slug": "jerichos-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JerichoMcMatthews"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTJM&locale=en_us&trainerName=JerichoMcMatthews"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Jericho McMatthews' Exclusive Morning Meltdown 100 Summit Workout",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/62e2f259264e3c1c390ad75ca5d2f89b55f44ce7-730x496.jpg"
+                    },
+                    "descriptionLong": "Jericho's MM100 Mashup of high intensity, musically driven, total body moves will have your heart pumping out of your chest. Modifications are offered to set every BODY up for meltdown success!",
+                    "durationEstimate": 1500,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "jericho-mcmatthews",
+                        "firstName": "Jericho",
+                        "lastName": "McMatthews",
+                        "bio": "Jericho McMatthews\u2019 passionate approach to fitness empowers you to own your health, wellness, and happiness. She\u2019s a NASM and ACE certified personal trainer and holds degrees in psychology as well as physical education and kinesiology.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/61d9b6d78f3dd18643168f09b9c484efe3ba46f7-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTJM00002B03",
+                      "durationActual": 1663,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBym4R": {
+                    "_id": "Q6j5eG7tj3PSUghmZBym4R",
+                    "_type": "program",
+                    "slug": "barre-blend",
+                    "brandCode": "BBR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-11-25",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Barre Blend",
+                    "description": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionShort": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionLong": "Create a lean, toned physique through a fun fusion of ballet barre, Pilates, and cardio interval training. Feel the burn as you sweat, stretch, and strengthen to energize your entire body.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/40c285dad368b07f5b7b9034d1b5ebb8b7916ff8-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/636e5ddbe6d6bf30e8adeb2a3641650e75f24f1c-880x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-40"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "8"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "66"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Sturdy Chair or Ballet Barre"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKqIeJ": {
+                    "_id": "Q6j5eG7tj3PSUghmZKqIeJ",
+                    "_type": "workout",
+                    "slug": "half-half-ytjm00001b01",
+                    "brandCode": "YTJM",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlJdw",
+                      "_type": "program",
+                      "slug": "jerichos-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JerichoMcMatthews"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTJM&locale=en_us&trainerName=JerichoMcMatthews"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Half & Half",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c1557141ba8b0b129b8ac64479936264b34cfdd0-398x225.jpg"
+                    },
+                    "descriptionLong": "The ultimate in endurance and flexibility: 20 minutes of high intensity cardiovascular training followed by 20 minutes of flow style yoga, to create stability, strength, and elasticity.",
+                    "durationEstimate": 2640,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "jericho-mcmatthews",
+                        "firstName": "Jericho",
+                        "lastName": "McMatthews",
+                        "bio": "Jericho McMatthews\u2019 passionate approach to fitness empowers you to own your health, wellness, and happiness. She\u2019s a NASM and ACE certified personal trainer and holds degrees in psychology as well as physical education and kinesiology.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/61d9b6d78f3dd18643168f09b9c484efe3ba46f7-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTJM00001B01",
+                      "durationActual": 2638,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZcA24B": {
+                    "_id": "Q6j5eG7tj3PSUghmZcA24B",
+                    "_type": "program",
+                    "slug": "morning-meltdown-100",
+                    "brandCode": "MLT",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-09-30",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=MLT&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "Morning Meltdown 100",
+                    "description": "Commit to 100 workouts & build strength while you melt away fat.",
+                    "descriptionShort": "Commit to 100 workouts & build strength while you melt away fat.",
+                    "descriptionLong": "Torch calories with high-intensity cardio and resistance training, while a live DJ turns up the energy as you burn off pounds. Your goal: complete 100 workouts and unlock the best version of you.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f9fac18b72935e4559c4b66d1354478decc3cb2f-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2c080028c4ef6f2c1a09b67f57142f4ac830f24c-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2c080028c4ef6f2c1a09b67f57142f4ac830f24c-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f9fac18b72935e4559c4b66d1354478decc3cb2f-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f9fac18b72935e4559c4b66d1354478decc3cb2f-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0f1ac4053b1288fe1708a3e479b1a80c920f16d6-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7c1cc54027b4ed6d35992806dc8e173757cd5463-1000x821.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20-30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "100"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "100"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "MMA Training",
+                        "slug": "mma-training"
+                      },
+                      {
+                        "title": "HIIT",
+                        "slug": "hiit"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "vKPPpbqN0JH0WMoJVD7cCk": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7cCk",
+                    "_type": "linkItem",
+                    "slug": "master-the-3-toughest-moves-in-core-de-force",
+                    "title": "Master the 3 Toughest Moves in CORE DE FORCE",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d725663aeccb2614db01eb4525565e5c8f5aab36-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/master-the-three-toughest-moves-in-core-de-force?utm_campaign=related_content&utm_content=core_de_force&utm_medium=bod&utm_source=related_content&utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=cdf_1",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223414591,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "jerichos-exclusives",
+              "en-US"
+            ],
+            "queryHash": "[\"jerichos-exclusives\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/jerichos-exclusives/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "jerichos-exclusives",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

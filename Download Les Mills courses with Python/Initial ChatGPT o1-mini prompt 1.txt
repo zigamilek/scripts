@@ -1,0 +1,103 @@
+Please help me write a python script that will visit this url https://my.lesmillsondemand.com/all-programs/, scrape it and create a JSON file with all the scraped data.
+
+you should set up logging using logger and print out INFO statements so I can see what's going on.
+
+use firefox browser, not headless. don't maximize the browser.
+
+Upon first visiting the page, the login page will probably appear.
+
+we'll input the email and password (provided by variables on the top of the script) on the login page.
+
+email field: <input aria-invalid="true" autocomplete="email" id="email" name="email" required="" type="email" class="sc-fEOsli sc-hHLeRK ffcCMR hZFQyV MuiFilledInput-input MuiInputBase-input" value="" aria-describedby="email-helper-text">
+
+password field: <input aria-invalid="0" autocomplete="password" id="password" name="password" required="" type="password" class="sc-fEOsli sc-hHLeRK ffcCMR hyUlZO MuiFilledInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd" value="">
+
+log in button: <button id="submit-button" type="submit" style="width: 100%; margin-top: 20px;" aria-label="Log In" class="button button--contained button--cta  primaryGrey">Log In</button>
+
+after logging in, wait for this element: <button title="Account" class="text-12 w-7 h-7 flex justify-center items-center hover:bg-background-medium bg-background-mlight text-grey-review hover:text-netural-100 rounded-full" id="headlessui-menu-button-:r6:" type="button" aria-haspopup="true" aria-expanded="false" data-headlessui-state="">ZM</button>
+
+The script should then extract data about fitness programs from https://my.lesmillsondemand.com/all-programs/. Each program has a card with information.
+
+Here's an example of such card:
+<div class="sc-kpdYNm kDlobC MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2.4" role="listitem"><a href="/program/les-mills-stretch" target="_self" style="background-image: url(&quot;https://assets.prod.lesmills.com/images/lesmillsstretch/1703105789.jpg&quot;); display: block; height: auto;" class="albumCard landscape  " role="button" aria-label="album-card" rel="noreferrer"><div class="card--content--wrapper"><span class="card--title">LES MILLS STRETCH</span><span class="card--description">Functional Stretching</span></div></a></div>
+
+The top level key should be the title of the program, in this case LES MILLS STRETCH.
+
+Each program should then have a description_short string property (in this case Functional Stretching) and a url string property (in this case https://my.lesmillsondemand.com/program/les-mills-stretch).
+
+There should be 26 programs in the JSON.
+
+Then the script should visit the url of each program to get additional data.
+
+It should add a new property description_long, which is the text of this element on the program page: <div class="desc--row"><span>Ease tight muscles, reduce aches and pains and increase your range of motion. This zero-impact workout will work wonders for your flexibility, posture and mobility.</span></div>
+
+Then the script should visit an alternative page with the list of all workouts for each program. There is a banner with link in the footer, for example: <div class="styles__FixedBannerWrapper-sc-1ewl0eg-5 cUsNWp"><a class="styles__BannerText-sc-1ewl0eg-4 czlmmb">Missing something?</a><a target="_blank" rel="noopener noreferrer" href="https://watch.lesmillsondemand.com/bodypump?ticket=VFugjqCY9TsKb9tm3zkb2xRqvtyn" class="styles__Link-sc-1ewl0eg-3 gBIReF">View the original page</a></div>
+
+It should follow the link in the element that contains the class that contains styles__FixedBannerWrapper. The link contains the class that contains styles__Link.
+
+On that program page, it should add a new property: number_of_workouts. It can be obtained from this element: <div class="row relative season-controls padding-bottom-medium padding-top-large">
+      <div class="hide-for-small-only medium-5 large-3 columns text-right">
+        <h2 class="site-font-secondary-color site-font-primary-family content-label padding-top-medium grid-padding-right">
+          264 Workouts
+        </h2>
+      </div>
+    </div>
+
+Then the script should scroll to the bottom of the page a few times, because the elements on the page lazy load, until all elements are loaded.
+
+It should also add a number_of_workouts property, which is the text of this element: <p class="styles__WorkoutResultsAmount-sc-1jtdons-1 heXmwm">25 workouts </p>. It should look for an element which contains a class, which contains styles__WorkoutResultsAmount.
+
+Then the script should add an object for each workout. Here's an example of the workout card: <li class="js-collection-item     collection-item-2231903 item-type-video" data-item-id="2231903" data-item-type="video" data-tooltip="id: collection-tooltip-2231903;
+    position: right;
+    offset: 0;
+    animate: true;
+    timer: 650;
+    delay: false;
+    is_centered: true;">
+  <div class="browse-item-card">
+    <div class="grid-item-padding">
+      <a href="https://watch.lesmillsondemand.com/bodypump/season:1/videos/what-is-bodypump-1" class="browse-item-link" data-track-event="site_video" data-track-event-properties="{&quot;type&quot;:&quot;video&quot;,&quot;location&quot;:&quot;https://watch.lesmillsondemand.com/bodypump?ticket=VFugjqCY9TsKb9tm3zkb2xRqvtyn&quot;,&quot;id&quot;:2231903,&quot;context&quot;:&quot;site_context_series&quot;,&quot;label&quot;:&quot;WHAT IS BODYPUMP?&quot;,&quot;canonical_collection&quot;:null}">
+        <div class="browse-image-container aspect_ratio_16_9">
+
+            <button title="Add to my list" class="my-list icon medium icon-watchlist-add icon-only has-background" data-text-remove="Remove from my list" data-text-add="Add to my list" data-video-id="2231903" data-tooltip="id: my-list-tooltip-2231903; position: left; is_centered: true" data-track-event="site_addwatchlist" data-track-event-properties=""></button>
+
+          <img alt="WHAT IS BODYPUMP?" src="https://vhx.imgix.net/lm-test/assets/7a230b3d-385a-47b5-8263-5955d981e4d5.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=360&amp;q=70&amp;w=640">
+
+            <span class="play-outer-circle">
+              <i class="icon medium icon-play-inverse"></i>
+            </span>
+
+          <div class="browse-info-container">
+              <div class="duration-container
+
+                ">
+                00:59
+              </div>
+          </div>
+        </div>
+      </a>
+
+      <div class="padding-small">
+        <div class="site-font-primary-color browse-item-title">
+           <a href="https://watch.lesmillsondemand.com/bodypump/season:1/videos/what-is-bodypump-1" data-track-event="site_video" data-track-event-properties="{&quot;type&quot;:&quot;video&quot;,&quot;location&quot;:&quot;https://watch.lesmillsondemand.com/bodypump?ticket=VFugjqCY9TsKb9tm3zkb2xRqvtyn&quot;,&quot;id&quot;:2231903,&quot;context&quot;:&quot;site_context_series&quot;,&quot;label&quot;:&quot;WHAT IS BODYPUMP?&quot;,&quot;canonical_collection&quot;:null}">
+            <strong title="WHAT IS BODYPUMP?">
+              WHAT IS BODYPUMP?
+            </strong>
+          </a>
+        </div>
+
+          <span class="site-font-secondary-color browse-item-subtext">
+            <span class="media-identifier media-episode">Episode 1</span>
+          </span>
+      </div>
+    </div>
+
+
+
+
+  </div>
+</li>
+
+The key of the object should be the workout title, in this case WHAT IS BODYPUMP?. The properties of each workout should be:
+- url (in this case https://watch.lesmillsondemand.com/bodypump/season:1/videos/what-is-bodypump-1)
+- duration (in this case 00:59)

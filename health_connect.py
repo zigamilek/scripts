@@ -12,16 +12,16 @@ from datetime import datetime
 BASE_URL = "https://api.hcgateway.shuchir.dev/api/v2/fetch"
 
 # Your Bearer token
-AUTH_TOKEN = os.getenv("HC_BEARER_TOKEN", "REMOVED_HC_BEARER_TOKEN")
+AUTH_TOKEN = os.getenv("HC_BEARER_TOKEN")
+
+if not AUTH_TOKEN:
+	raise RuntimeError("Missing HC_BEARER_TOKEN environment variable.")
 
 # Where we store our DuckDB file
 DUCKDB_PATH = "health_connect.duckdb"
 
 # The table name in DuckDB
 TABLE_NAME = "health_data"
-
-# The "method" you want to fetch (e.g. "heartRate", "steps", "weight", etc.)
-METHOD = "sleepSession"
 
 # You can adapt the queries object here to filter your data
 QUERY = {

@@ -1,0 +1,3207 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "21-day-fix-extreme",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                "_type": "program",
+                "slug": "21-day-fix-extreme",
+                "title": "21 Day Fix Extreme",
+                "subtitle": null,
+                "brandCode": "21E",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=21E&locale=en_us&trainerName=AutumnCalabrese"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "21 Day Fix Extreme Program Overview: Start Your Journey Here",
+                  "description": "Get a lean six-pack and toned legs with 21 Day Fix Extreme. See what the program includes, any equipment needed and meet your trainer here.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a363a9c557b57141b884f3498905f83281ddf478-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Autumn",
+                    "lastName": "Calabrese",
+                    "bioBodi": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df65911fe5d2c1e8233b295310ac0fa73fc8dc23-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#01adb0",
+                "colorPrimaryOptions": {
+                  "argb": "#01adb0",
+                  "rgba": "#01adb0"
+                },
+                "descriptionShort": "Ready to get serious? 21 Day Fix Extreme will get you results like crazy.",
+                "descriptionLong": "21 day Fix Extreme gives you everything you need to get a lean six-pack, cut arms, ripped shoulders, and tones legs in only 21 days. You\u2019ll look amazing from every point of view.",
+                "sampleWorkoutId": "gAjyjR8IcIqVjU7DkPrUf2",
+                "trailerId": null,
+                "videoOverviewId": "gAjyjR8IcIqVjU7DkPrUf2",
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/21-day-fix-extreme"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "30"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Days",
+                  "value": "21"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "13"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells"
+                  },
+                  {
+                    "title": "Resistance Bands"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Core Comfort Mat"
+                  },
+                  {
+                    "title": "Yoga Mat"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Strength"
+                  },
+                  {
+                    "title": "Core"
+                  },
+                  {
+                    "title": "Pilates"
+                  },
+                  {
+                    "title": "Yoga"
+                  },
+                  {
+                    "title": "Weight Loss"
+                  }
+                ],
+                "level": {
+                  "title": "Advanced",
+                  "slug": "advanced",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/55ab8a423cccc145e72945adcfce8abf51fc74f8-426x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/55ab8a423cccc145e72945adcfce8abf51fc74f8-426x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/2e6e734834f5a28c140765d88d9cb9ca7ed5dc70.mp4"
+                  },
+                  "loopingVideoPortrait": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/f7437d3d107b39a194c56dae71990c9fd799f0c8.mp4"
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4e87a739e1377f00f00267b5a3a74d36e5beee6a-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6140dda83bc36f9a933852eedf6afcbc4eef0018-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/631a1a3ef9a36f7e11d5176fafb32d1d2a9087b5-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f642b03b69525d991a974e111be8dad0834d2ba8-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a363a9c557b57141b884f3498905f83281ddf478-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a363a9c557b57141b884f3498905f83281ddf478-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Dumbbells, Resistance Bands, Core Comfort Mat*, Yoga Mat*",
+                        "categories": "Cardio, Strength, Core, Pilates, Yoga, Weight Loss",
+                        "colorPrimary": "#01adb0",
+                        "colorPrimaryOptions": {
+                          "argb": "#01adb0",
+                          "rgba": "#01adb0"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "gAjyjR8IcIqVjU7DkPrUf2",
+                          "_type": "workout",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/00787d6419831ffd483872894610025993c4df85-1310x698.jpg"
+                          },
+                          "videoId": "21XRT000",
+                          "title": "21 Day Fix EXTREME Sample Workout",
+                          "subtitle": "25m",
+                          "catalog": "bod"
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "13"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "30"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                            },
+                            "title": "Advanced"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "3Au36TACh8j41B2g6RTj7V",
+                        "_type": "collection",
+                        "slug": "21-day-extreme-real-time-get-started",
+                        "title": "Get Started",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "gAjyjR8IcIqVjU7DkPrUf2"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvNyFu4",
+                        "_type": "editorial",
+                        "slug": "21-day-fix-extreme-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "BODi's nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.teambeachbody.com/micro-site/nutrition-plus/index.html#/en"
+                        }
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD9Eg2",
+                        "_type": "collection",
+                        "slug": "21-day-fix-extreme-related-content",
+                        "title": "21 Day Fix EXTREME Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "2Y1ZDDXEx3aLPbgAHe2ZNh",
+                          "UqWqrADNH9eso22jUFWCPF",
+                          "2Y1ZDDXEx3aLPbgAHe2EXB",
+                          "vKPPpbqN0JH0WMoJVD7j4c",
+                          "2Y1ZDDXEx3aLPbgAHe2YrB",
+                          "2Y1ZDDXEx3aLPbgAHe2Z4j"
+                        ]
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Autumn",
+                            "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df65911fe5d2c1e8233b295310ac0fa73fc8dc23-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/autumn.calabrese.3",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.Instagram.com/autumncalabrese",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.twitter.com/autumncalabrese",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.youtube.com/autumnfitness",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f06acc8786ecf26616838c26162235cfcce4108-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0hIn",
+                        "_type": "collection",
+                        "slug": "21-day-fix-extreme-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "TLO8WWQ85YuM6DeBHIhYl9",
+                          "BoGK5VlBLllbPFYTvOZgfY",
+                          "BoGK5VlBLllbPFYTvNjSp6",
+                          "BoGK5VlBLllbPFYTvNCwE4"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZD3fXn",
+                        "_type": "collection",
+                        "slug": "21-day-fix-extreme",
+                        "title": "21 Day Fix Extreme",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7tMX8J",
+                          "BoGK5VlBLllbPFYTvNy3qC",
+                          "BoGK5VlBLllbPFYTvNy4PQ",
+                          "Q6j5eG7tj3PSUghmZD3CPD",
+                          "BoGK5VlBLllbPFYTvNy6xU",
+                          "BoGK5VlBLllbPFYTvNy7m4",
+                          "Q6j5eG7tj3PSUghmZD3KYx",
+                          "NWOt1I2xWP7xm05A7tMbAm",
+                          "Q6j5eG7tj3PSUghmZD3Mfn"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvNyFRA",
+                        "_type": "collection",
+                        "slug": "ultimate-upgrade",
+                        "title": "Ultimate Upgrade",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZD3OSV",
+                          "NWOt1I2xWP7xm05A7tMdHZ"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZAwij5",
+                        "_type": "collection",
+                        "slug": "bonus-workout-obsessed-with-fix-3",
+                        "title": "Bonus Workout: Obsessed With Fix",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvNCdAe"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0hIn",
+                        "_type": "collection",
+                        "slug": "21-day-fix-extreme-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "TLO8WWQ85YuM6DeBHIhYl9",
+                          "BoGK5VlBLllbPFYTvOZgfY",
+                          "BoGK5VlBLllbPFYTvNjSp6",
+                          "BoGK5VlBLllbPFYTvNCwE4"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "AQVKCBGGRXIlMTy62mZhPO",
+                        "_type": "collection",
+                        "slug": "21-day-fix-extreme-program-materials",
+                        "title": "Program Materials",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvNyBTU",
+                          "Q6j5eG7tj3PSUghmZD3Xpj",
+                          "Q6j5eG7tj3PSUghmZD3YbX",
+                          "NWOt1I2xWP7xm05A7tMfOM",
+                          "BoGK5VlBLllbPFYTvNyCgS",
+                          "BoGK5VlBLllbPFYTvNyCsC",
+                          "BoGK5VlBLllbPFYTvNyD7Y",
+                          "NWOt1I2xWP7xm05A7svd0n"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0hIn",
+                        "_type": "collection",
+                        "slug": "21-day-fix-extreme-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "TLO8WWQ85YuM6DeBHIhYl9",
+                          "BoGK5VlBLllbPFYTvOZgfY",
+                          "BoGK5VlBLllbPFYTvNjSp6",
+                          "BoGK5VlBLllbPFYTvNCwE4"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe2EXB": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2EXB",
+                    "_type": "linkItem",
+                    "slug": "8-ways-to-relieve-muscle-soreness",
+                    "title": "8 Ways to Relieve Muscle Soreness",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b993f8d6e46bfec5acf1bd9e2801e82d5fdd32a3-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/recovery-done-right-8-ways-prevent-muscle-soreness",
+                    "isFavoritable": false
+                  },
+                  "2Y1ZDDXEx3aLPbgAHe2YrB": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2YrB",
+                    "_type": "linkItem",
+                    "slug": "21e-el-poder-de-los-grupos-en-linea",
+                    "title": "El Poder de Los Grupos en L\u00ednea",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6ea59ac078c74f6a3c69d58b8ec2fd4e40b7d03d-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/el-poder-de-los-grupos-en-linea",
+                    "isFavoritable": false
+                  },
+                  "2Y1ZDDXEx3aLPbgAHe2Z4j": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2Z4j",
+                    "_type": "linkItem",
+                    "slug": "21e-como-puede-ayudarte-shakeology-a-mejorar-tu-alimentacion",
+                    "title": "C\u00f3mo Puede Ayudarte Shakeology a Mejorar tu Alimentaci\u00f3n",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/733c0674cfdc35c60d88e281c87a95564d087379-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/como-puede-ayudarte-shakeology-a-mejorar-tu-alimentacion",
+                    "isFavoritable": false
+                  },
+                  "2Y1ZDDXEx3aLPbgAHe2ZNh": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2ZNh",
+                    "_type": "linkItem",
+                    "slug": "what-is-21-day-fix-extreme-all-about",
+                    "title": "What is 21 Day Fix EXTREME All About?",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/81b6b86b13d0276f09efbe3fc8dcaff0f1712fc1-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/beachbody-programs/21-day-fix-extreme",
+                    "isFavoritable": false
+                  },
+                  "BoGK5VlBLllbPFYTvNCdAe": {
+                    "_id": "BoGK5VlBLllbPFYTvNCdAe",
+                    "_type": "workout",
+                    "slug": "obsessed-with-fix-2-21xrt028",
+                    "brandCode": "21D",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZBkcQd",
+                      "_type": "program",
+                      "slug": "21-day-fix"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21D&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=21D&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Obsessed with Fix",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eedc39bed9b2c16f599624c60ba1d582629ade18-398x225.jpg"
+                    },
+                    "descriptionLong": "Check out this high-intensity and full-body workout with the most popular moves from 21 Day Fix Real Time, 21 Day Fix EXTREME Real Time, and 80 Day Obsession with cast members from the programs.",
+                    "durationEstimate": 2700,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Strength Slides"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21XRT028",
+                      "durationActual": 3308,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvNCwE4": {
+                    "_id": "BoGK5VlBLllbPFYTvNCwE4",
+                    "_type": "program",
+                    "slug": "80-day-obsession",
+                    "brandCode": "80DO",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2018-01-11",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=80DO&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "80 Day Obsession",
+                    "description": "Get the abs and booty you\u2019ve always wanted in 80 Days.",
+                    "descriptionShort": "Get the abs and booty you\u2019ve always wanted in 80 Days.",
+                    "descriptionLong": "Lift your butt, sculpt your core, and get an incredible total body transformation with 80 unique \u201creal-time\u201d workouts and a Timed-Nutrition Eating Plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/275399f8b8f90855c756744edac0d577351938c5-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/693a287c92340f3886e33dcfc8ef5d7a08f56f85-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/693a287c92340f3886e33dcfc8ef5d7a08f56f85-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/275399f8b8f90855c756744edac0d577351938c5-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/275399f8b8f90855c756744edac0d577351938c5-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d3fa17e570c33aa0e4b93a330ed90a660610c97b-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ee44abe974b7774775915f89281e973aaf017b6b-541x361.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-60"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "80"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "80"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Strength Slides"
+                      },
+                      {
+                        "title": "Foam Roller"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      },
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Sturdy Chair"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvNjSp6": {
+                    "_id": "BoGK5VlBLllbPFYTvNjSp6",
+                    "_type": "program",
+                    "slug": "transform-20",
+                    "brandCode": "TF20",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-04-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=TF20&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Transform :20",
+                    "description": "Step up the intensity in just 20 minutes a day with dynamic cardio moves.",
+                    "descriptionShort": "Step up the intensity in just 20 minutes a day with dynamic cardio moves.",
+                    "descriptionLong": "Transform :20 is a high-intensity, six-week workout and nutrition program that will help transform your body and mind in just 20 minutes a day.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a797e2e31cf392dacb57e65e4cb4549a0a0201c1-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8de1b90561870c6e9f302adf592b34f16b064aec-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8de1b90561870c6e9f302adf592b34f16b064aec-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a797e2e31cf392dacb57e65e4cb4549a0a0201c1-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a797e2e31cf392dacb57e65e4cb4549a0a0201c1-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96d9bf35f6786ac60f44e4fe098035349a534339-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8db9e43dca395098bf317acd7319dbddf453a95c-555x361.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "6"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "50"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Step"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvNy3qC": {
+                    "_id": "BoGK5VlBLllbPFYTvNy3qC",
+                    "_type": "workout",
+                    "slug": "upper-fix-extreme-21x19242b02530",
+                    "brandCode": "21E",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21E&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Upper Fix Extreme",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f658c44663ccfa7b8235b0f1180bf88fec8b487f-398x224.jpg"
+                    },
+                    "descriptionLong": "By alternating opposing muscle groups, this no-rest upper body workout will shred your chest, back, shoulders, and arms.",
+                    "durationEstimate": 2100,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21X19242B02530",
+                      "durationActual": 2071,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvNy4PQ": {
+                    "_id": "BoGK5VlBLllbPFYTvNy4PQ",
+                    "_type": "workout",
+                    "slug": "pilates-fix-extreme-21x19243b03530",
+                    "brandCode": "21E",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21E&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Pilates Fix Extreme",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f418e6b8a3968b3aaee6fe36f8cc0560fc3ee38-398x224.jpg"
+                    },
+                    "descriptionLong": "Using a resistance band for every exercise, this intense mat workout works the entire body, placing emphasis on the core.",
+                    "durationEstimate": 1800,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21X19243B03530",
+                      "durationActual": 1995,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvNy6xU": {
+                    "_id": "BoGK5VlBLllbPFYTvNy6xU",
+                    "_type": "workout",
+                    "slug": "cardio-fix-extreme-21x19246b05530",
+                    "brandCode": "21E",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21E&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cardio Fix Extreme",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a820f53b71dfb99cd0bbbed7d104bd2f4919ab18-398x224.jpg"
+                    },
+                    "descriptionLong": "Combining weighted cardio moves with traditional metabolic training intervals keeps your heart rate soaring.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21X19246B05530",
+                      "durationActual": 1928,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvNy7m4": {
+                    "_id": "BoGK5VlBLllbPFYTvNy7m4",
+                    "_type": "workout",
+                    "slug": "dirty-30-extreme-21x19247b06530",
+                    "brandCode": "21E",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21E&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Dirty 30 Extreme",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5bbc6c8c9236c9e0deb3331be7c3b73fa7b9dc09-398x224.jpg"
+                    },
+                    "descriptionLong": "Using only seven compound moves focusing on multiple body parts at a time, this workout will leave you burning more calories while defining your muscles. Get down and dirty, and get it done.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21X19247B06530",
+                      "durationActual": 1952,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvNyBTU": {
+                    "_id": "BoGK5VlBLllbPFYTvNyBTU",
+                    "_type": "resource",
+                    "slug": "21-day-fix-extreme-start-here-2732943",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Start Here",
+                    "categories": null,
+                    "description": "Gets you on the fast track to getting shredded from Day One.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5c0a2f43cb0384360412a630884ff3fdaebcdb97-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "21DFX_StartHere_BOD.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/a1bf348db1c54ac2cc7cacf575bee1f90e505988.pdf?file=21DFX_StartHere_BOD.pdf",
+                      "size": 1184850
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvNyCgS": {
+                    "_id": "BoGK5VlBLllbPFYTvNyCgS",
+                    "_type": "resource",
+                    "slug": "21-day-fix-extreme-21-day-fix-extreme-printable-tally-sheets-2733048",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "21 Day Fix Extreme Printable Tally Sheets",
+                    "categories": null,
+                    "description": "A simple printable tally sheet to help you keep track of your 21 Day Fix and 21 Day Fix Extreme portions.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6ba70e041d73097d4ae9cee468359d43ada110a6-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "21E_PrintableTallySheet.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/3e0715e96f5e8532078d941c23becf04a327ac79.pdf?file=21E_PrintableTallySheet.pdf",
+                      "size": 431098
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvNyCsC": {
+                    "_id": "BoGK5VlBLllbPFYTvNyCsC",
+                    "_type": "resource",
+                    "slug": "21-day-fix-extreme-countdown-to-competition-tally-sheets-2733102",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Countdown to Competition - Tally Sheets",
+                    "categories": null,
+                    "description": "Helps you keep track of your daily 21 Day Fix EXTREME portions.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6ba70e041d73097d4ae9cee468359d43ada110a6-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "21E_CountdownTallySheet.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/87a2d5d9cec4bd60e80b71e00a377ca5e5443e59.pdf?file=21E_CountdownTallySheet.pdf",
+                      "size": 240200
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvNyD7Y": {
+                    "_id": "BoGK5VlBLllbPFYTvNyD7Y",
+                    "_type": "resource",
+                    "slug": "21-day-fix-extreme-countdown-to-competition-2733270",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Countdown to Competition",
+                    "categories": null,
+                    "description": "Countdown to Competition leans out every inch of your body.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0641e288869331f2a0ad5526c98711e522fea9a9-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "21EINS1202_21X_Countdown_Competition_BOD_.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/09837d10b007c35a142ba52b7da6616f07bbf1b3.pdf?file=21EINS1202_21X_Countdown_Competition_BOD_.pdf",
+                      "size": 5584591
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOZgfY": {
+                    "_id": "BoGK5VlBLllbPFYTvOZgfY",
+                    "_type": "program",
+                    "slug": "6-weeks-of-the-work",
+                    "brandCode": "6WW",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-09-29",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=6WW&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "6 Weeks of THE WORK",
+                    "description": "Relentless functional training to achieve results you\u2019ve never experienced.",
+                    "descriptionShort": "Relentless functional training to achieve results you\u2019ve never experienced.",
+                    "descriptionLong": "Leave your excuses at the door. For six intense weeks, you\u2019ll take on relentless functional training to help you gain muscle, drop body fat, and achieve results you\u2019ve never experienced before.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/294f3830552072ff4177c2c2a6ff0f6f602718c5-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e066fa43026d30dbe0c4bbd280e5083277d2f23c-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e066fa43026d30dbe0c4bbd280e5083277d2f23c-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/294f3830552072ff4177c2c2a6ff0f6f602718c5-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/294f3830552072ff4177c2c2a6ff0f6f602718c5-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9a957120fdf4a5c6ae23e945402cffdadb78ddf8-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5b9cafe8247ae149cf57cd7b277b3fb845fa18e8-1005x399.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20-45"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "6"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "36"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      },
+                      {
+                        "title": "Explicit",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#161819",
+                          "foregroundOptions": {
+                            "argb": "#161819",
+                            "rgba": "#161819"
+                          },
+                          "background": "#D8D8D8FF",
+                          "backgroundOptions": {
+                            "argb": "#FFD8D8D8",
+                            "rgba": "#D8D8D8FF"
+                          },
+                          "stroke": "#D8D8D8FF",
+                          "strokeOptions": {
+                            "argb": "#FFD8D8D8",
+                            "rgba": "#D8D8D8FF"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Athletic Training",
+                        "slug": "athletic-training"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Strength Slides"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Chin-Up Bar"
+                      },
+                      {
+                        "title": "Chin-Up Max"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7svd0n": {
+                    "_id": "NWOt1I2xWP7xm05A7svd0n",
+                    "_type": "resource",
+                    "slug": "21-day-fix-real-time-faq-3189063",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZBmn7f",
+                      "_type": "program",
+                      "slug": "21-day-fix-real-time"
+                    },
+                    "commerce": {
+                      "title": "Try Portion Fix Today!",
+                      "subtitle": "(Not included in regular BOD membership)",
+                      "purchaseAction": {
+                        "title": "Shop Now",
+                        "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=UPF&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": "UPF"
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "FAQ",
+                    "categories": null,
+                    "description": "All the answers you need to get the results you want!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e05a28409f32a4ac757287873268bdd88e04e9fd-400x260.jpg"
+                    },
+                    "link": "http://www.beachbodyondemand.com/blog/21-day-fix-faq",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7tMX8J": {
+                    "_id": "NWOt1I2xWP7xm05A7tMX8J",
+                    "_type": "workout",
+                    "slug": "plyo-fix-extreme-21x19241b01530",
+                    "brandCode": "21E",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21E&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Plyo Fix Extreme",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bac52a4bffec822ebb722bc3e55b3d71685eb199-398x224.jpg"
+                    },
+                    "descriptionLong": "An explosive lower-body workout that uses jumping and resistance to torch calories and sculpt muscles.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21X19241B01530",
+                      "durationActual": 1861,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7tMbAm": {
+                    "_id": "NWOt1I2xWP7xm05A7tMbAm",
+                    "_type": "workout",
+                    "slug": "lower-fix-extreme-21x19400b08530",
+                    "brandCode": "21E",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21E&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Lower Fix Extreme",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9dbcf303d2a0f45335a82144443c4d4286df692d-398x224.jpg"
+                    },
+                    "descriptionLong": "Glutes, quads, hamstrings, and calves will get stronger, leaner, and more defined with 30 minutes of challenging resistance work.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21X19400B08530",
+                      "durationActual": 2081,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7tMdHZ": {
+                    "_id": "NWOt1I2xWP7xm05A7tMdHZ",
+                    "_type": "workout",
+                    "slug": "abc-extreme-21x19250d02530",
+                    "brandCode": "21E",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21E&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "ABC Extreme",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a739d243a6e201e7d071f3f2b0da7f5ae18a245d-398x224.jpg"
+                    },
+                    "descriptionLong": "Push your Abs, Butt, and Cardio to the extreme\u2014and get a competition body that's ready for the stage.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21X19250D02530",
+                      "durationActual": 1979,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7tMfOM": {
+                    "_id": "NWOt1I2xWP7xm05A7tMfOM",
+                    "_type": "resource",
+                    "slug": "21-day-fix-extreme-21-day-fix-extreme-editable-tally-sheets-2732995",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "21 Day Fix Extreme Editable Tally Sheets",
+                    "categories": null,
+                    "description": "A simple editable tally sheet to help you keep track of your 21 Day Fix and 21 Day Fix Extreme portions.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/21f0a765f1789e8cd681eabbc704a245eef1a586-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "21E_TallySheets.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/41c0e924fc822c6d7eab3fc3d942e19d2759557b.pdf?file=21E_TallySheets.pdf",
+                      "size": 2257149
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZD3CPD": {
+                    "_id": "Q6j5eG7tj3PSUghmZD3CPD",
+                    "_type": "workout",
+                    "slug": "10-min-hardcore-21x19245b04530",
+                    "brandCode": "21E",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21E&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "10 Min HardCORE",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c8891211a9ec9259e0834f761e33ffc42f6c5fb8-398x224.jpg"
+                    },
+                    "descriptionLong": "An ab-shredding workout, utilizing a single dumbbell to increase intensity that will carve out lean, ripped abs.",
+                    "durationEstimate": 600,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbell"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21X19245B04530",
+                      "durationActual": 687,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZD3KYx": {
+                    "_id": "Q6j5eG7tj3PSUghmZD3KYx",
+                    "_type": "workout",
+                    "slug": "yoga-fix-extreme-21x19248b07530",
+                    "brandCode": "21E",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21E&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Yoga Fix Extreme",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/475000cc97498045303d291d9d89e8192da4e1d0-398x224.jpg"
+                    },
+                    "descriptionLong": "A fast-paced flow yoga class, combining strength, balance, flexibility, and power.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21X19248B07530",
+                      "durationActual": 1887,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZD3Mfn": {
+                    "_id": "Q6j5eG7tj3PSUghmZD3Mfn",
+                    "_type": "workout",
+                    "slug": "the-fix-challenge-21x19251ne51530",
+                    "brandCode": "21E",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21E&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "The Fix Challenge",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a4af3d7a700f4e0f943dae33fdd1835d633cacce-398x224.jpg"
+                    },
+                    "descriptionLong": "Two rounds of extreme calorie-scorching moves that will help you carve lean muscle and melt away the fat in record time.Autumn Calabrese",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21X19251NE51530",
+                      "durationActual": 1802,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZD3OSV": {
+                    "_id": "Q6j5eG7tj3PSUghmZD3OSV",
+                    "_type": "workout",
+                    "slug": "power-strength-extreme-21x19249d01530",
+                    "brandCode": "21E",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21E&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Power Strength Extreme",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/125b1fa83223b2014d0984cef24e0c509577ee75-398x224.jpg"
+                    },
+                    "descriptionLong": "Nine total-body exercises that use functional movement patterns to increase your strength, endurance, and power.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21X19249D01530",
+                      "durationActual": 1915,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZD3Xpj": {
+                    "_id": "Q6j5eG7tj3PSUghmZD3Xpj",
+                    "_type": "resource",
+                    "slug": "21-day-fix-extreme-eating-plan-2733213",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Eating Plan",
+                    "categories": null,
+                    "description": "Makes eating right easy, but there are no treats or cheats!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7334ef1896bd437c559b39059d6d919205bcd4aa-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "21DFX_EatingPlan_BOD-2.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/9317ad9561a030f5f9bd8f7f632a306a66370d57.pdf?file=21DFX_EatingPlan_BOD-2.pdf",
+                      "size": 9886626
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZD3YbX": {
+                    "_id": "Q6j5eG7tj3PSUghmZD3YbX",
+                    "_type": "resource",
+                    "slug": "21-day-fix-extreme-workout-calendar-2733157",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZD3i6J",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Workout Calendar",
+                    "categories": null,
+                    "description": "Breaks down your workouts on an easy, day-by-day basis.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/188e0926000c1e439c81253a897e5f45f8d154e3-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "21E_Calendar.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/65fd741de5e8709b05a9034b2f10960b2d24db4a.pdf?file=21E_Calendar.pdf",
+                      "size": 5232811
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "TLO8WWQ85YuM6DeBHIhYl9": {
+                    "_id": "TLO8WWQ85YuM6DeBHIhYl9",
+                    "_type": "program",
+                    "slug": "21-day-fix-extreme-real-time",
+                    "brandCode": "21XRT",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-05-30",
+                    "commerce": {
+                      "title": "Try Portion Fix Today!",
+                      "subtitle": "(Not included in regular BOD membership)",
+                      "purchaseAction": {
+                        "title": "Shop Now",
+                        "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=UPF&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": "UPF"
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=21XRT&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21XRT&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "21 Day Fix EXTREME Real Time",
+                    "description": "Get serious results with daily 30-min. workouts & portion control",
+                    "descriptionShort": "Get serious results with daily 30-min. workouts & portion control",
+                    "descriptionLong": "21 Day Fix EXTREME Real Time helps you get serious results in 21 days with portion control and intense 30-minute workouts that progress from week to week for faster results",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eb3bbcad7c272f857cbce356c1e55dc21b9e196-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7fd9380ad6882bd7e2f99ef26b171f2ad887d5f0-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7fd9380ad6882bd7e2f99ef26b171f2ad887d5f0-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eb3bbcad7c272f857cbce356c1e55dc21b9e196-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eb3bbcad7c272f857cbce356c1e55dc21b9e196-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/42fdf31aa9847d0eb01bc0a850888db3a2bfce04-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/06c48fdd36797a6f67cf334d705441eabc6b1631-354x374.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "21"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "30"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Yoga Blocks"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "UqWqrADNH9eso22jUFWCPF": {
+                    "_id": "UqWqrADNH9eso22jUFWCPF",
+                    "_type": "linkItem",
+                    "slug": "understanding-the-21-day-fix-containers",
+                    "title": "Understanding the 21 Day Fix Containers",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fb0df9b2f1cc61435ae587778eb94ce955a9f1f2-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/understanding-the-21-day-fix-containers?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=21_day_fix",
+                    "isFavoritable": false
+                  },
+                  "gAjyjR8IcIqVjU7DkPrUf2": {
+                    "_id": "gAjyjR8IcIqVjU7DkPrUf2",
+                    "_type": "workout",
+                    "slug": "21-day-fix-extreme-sample-workout-21xrt000",
+                    "brandCode": "21XRT",
+                    "primaryParent": {
+                      "_id": "TLO8WWQ85YuM6DeBHIhYl9",
+                      "_type": "program",
+                      "slug": "21-day-fix-extreme-real-time"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "21 Day Fix EXTREME Sample Workout",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b55fd88fecbb1cd46758a37b8f3fd858a1e7f265-398x225.jpg"
+                    },
+                    "descriptionLong": "Are you ready to get serious? This sample 25-minute workout features moves you'll do throughout the 21-day program to get results.",
+                    "durationEstimate": 1500,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "21XRT000",
+                      "durationActual": 1571,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "vKPPpbqN0JH0WMoJVD7j4c": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7j4c",
+                    "_type": "linkItem",
+                    "slug": "21e-ultimate-portion-fix-con-autumn-calabrese",
+                    "title": "Ultimate Portion Fix con Autumn Calabrese",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96520d7257fceada46f240e20c4593056ddb285f-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/the-ultimate-portion-fix-es",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223603508,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "21-day-fix-extreme",
+              "en-US"
+            ],
+            "queryHash": "[\"21-day-fix-extreme\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/21-day-fix-extreme/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "21-day-fix-extreme",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

@@ -1,0 +1,1141 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "performance-academy",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "z2p9r3pN3bTGaKDnPmqXU9",
+                "_type": "program",
+                "slug": "performance-academy",
+                "title": "Performance Academy",
+                "subtitle": null,
+                "brandCode": "PRFA",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=PRFA&locale=en_us&trainerName=AmoilaCesar"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Performance Academy | BODi",
+                  "description": "Performance Academy is a six-workout series aimed at improving transferable performance from athletic training to real-life situations. This series can help you gain strength, stamina, endurance, flex",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0ee9424850c3e6be2d7ef75b984ed709235e9e79-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Amoila",
+                    "lastName": "Cesar",
+                    "bioBodi": "Amoila is an NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape\u2014and his live strength, HIIT, and core workouts can do the same for you. In addition to his classes on BODi, Amoila is the creator of 645\u2122, 6 Weeks of THE WORK\u00ae, and 4 Weeks of THE PREP\u2122, available on Beachbody On Demand.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5bac58024f8ff618d98050a841e44f5974d0bf3e-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "",
+                "colorPrimaryOptions": {
+                  "argb": "",
+                  "rgba": ""
+                },
+                "descriptionShort": "Gain strength, stamina, & agility with athletic training for daily life.",
+                "descriptionLong": "Train like a pro. Perform like a legend. Gain strength, stamina, & agility with Amoila\u2019s athletic training workouts, designed to help you ace everyday actions.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/performance-academy"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "30"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "6"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "6"
+                },
+                "commerce": {
+                  "title": "BODi Membership Required",
+                  "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                  "purchaseAction": {
+                    "title": "Learn More",
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells"
+                  },
+                  {
+                    "title": "Resistance Loops"
+                  },
+                  {
+                    "title": "Adjustable Bench"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "BOD Rope"
+                  },
+                  {
+                    "title": "Mat"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Athletic Training"
+                  },
+                  {
+                    "title": "Strength"
+                  },
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Core"
+                  }
+                ],
+                "level": {
+                  "title": "All Levels",
+                  "slug": "all-levels",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3a5804dea9cf54d7d1ddd5387d6a469b5713f8c4-2181x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3a5804dea9cf54d7d1ddd5387d6a469b5713f8c4-2181x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/49665c29aa76f73fa808f4d97df8deaa3a226c23-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9693e721461bdda9e8b8552228f01a38444d8a57-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d1bd1f2c831cfc22dcbb003c398b305454f5004d-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/121f9bd575ee0ff443b5dd6244b3e199553340ab-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0ee9424850c3e6be2d7ef75b984ed709235e9e79-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0ee9424850c3e6be2d7ef75b984ed709235e9e79-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Workouts",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Dumbbells, Resistance Loops, Adjustable Bench, BOD Rope*, Mat*",
+                        "categories": "Athletic Training, Strength, Cardio, Core",
+                        "colorPrimary": "",
+                        "colorPrimaryOptions": {
+                          "argb": "",
+                          "rgba": ""
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-543267724da32070e07aa5f3c8bd1658a5f4ca4a-1310x698-png",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/543267724da32070e07aa5f3c8bd1658a5f4ca4a-1310x698.png"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "6"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "30"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                            },
+                            "title": "All Levels"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "sXJ3fj8F0yS9spCYWMBf3k",
+                        "_type": "collection",
+                        "slug": "performance-academy",
+                        "title": "Performance Academy",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "KoqgpeBdcJeHr5CtYVLA9c",
+                          "KoqgpeBdcJeHr5CtYVKw59",
+                          "sXJ3fj8F0yS9spCYWJkQap",
+                          "BgJkzNsJEqyKstjZs4z6OV",
+                          "BgJkzNsJEqyKstjZs4z0N4",
+                          "KoqgpeBdcJeHr5CtYVKZmk"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "BgJkzNsJEqyKstjZs4z0N4": {
+                    "_id": "BgJkzNsJEqyKstjZs4z0N4",
+                    "_type": "workout",
+                    "slug": "prfa-athlete-training-speed-power-2-performance-academy-prfa0005",
+                    "brandCode": "PRFA",
+                    "primaryParent": {
+                      "_id": "z2p9r3pN3bTGaKDnPmqXU9",
+                      "_type": "program",
+                      "slug": "performance-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=PRFA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Performance Academy: Speed & Power 2",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/217be7e75179c8df7d45078edda50675c76408eb-730x496.jpg"
+                    },
+                    "descriptionLong": "Train efficiently and improve your acceleration skills with\nthis 30-minute full-body workout.",
+                    "durationEstimate": 1860,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Adjustable Bench"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "PRFA0005",
+                      "durationActual": 1852,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BgJkzNsJEqyKstjZs4z6OV": {
+                    "_id": "BgJkzNsJEqyKstjZs4z6OV",
+                    "_type": "workout",
+                    "slug": "prfa-athlete-training-full-body-strength-2-performance-academy-prfa0004",
+                    "brandCode": "PRFA",
+                    "primaryParent": {
+                      "_id": "z2p9r3pN3bTGaKDnPmqXU9",
+                      "_type": "program",
+                      "slug": "performance-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=PRFA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Performance Academy: Full Body Strength 2",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5dcaa36043f6d162eba5a1b4e2b92bdd43385094-730x496.jpg"
+                    },
+                    "descriptionLong": "This full-body strength workout contains three blocks that will challenge and condition both your body and mind.",
+                    "durationEstimate": 1980,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Adjustable Bench"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "PRFA0004",
+                      "durationActual": 2019,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "KoqgpeBdcJeHr5CtYVKZmk": {
+                    "_id": "KoqgpeBdcJeHr5CtYVKZmk",
+                    "_type": "workout",
+                    "slug": "prfa-athlete-training-momentum-control-2-performance-academy-prfa0006",
+                    "brandCode": "PRFA",
+                    "primaryParent": {
+                      "_id": "z2p9r3pN3bTGaKDnPmqXU9",
+                      "_type": "program",
+                      "slug": "performance-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=PRFA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Performance Academy: Momentum & Control 2",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5676f26afcba8757352e379f899793b8fbbb74d3-730x496.jpg"
+                    },
+                    "descriptionLong": "In this sequel emphasizing deceleration, we're elevating your performance by applying the knowledge you've acquired to take you to the next level.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Adjustable Bench"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "PRFA0006",
+                      "durationActual": 1918,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "KoqgpeBdcJeHr5CtYVKw59": {
+                    "_id": "KoqgpeBdcJeHr5CtYVKw59",
+                    "_type": "workout",
+                    "slug": "prfa-athlete-training-speed-power-1-performance-academy-prfa0002",
+                    "brandCode": "PRFA",
+                    "primaryParent": {
+                      "_id": "z2p9r3pN3bTGaKDnPmqXU9",
+                      "_type": "program",
+                      "slug": "performance-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=PRFA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Performance Academy: Speed & Power 1",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4db735c72a1ca7ff9805b679f3ca236b196e3674-730x496.jpg"
+                    },
+                    "descriptionLong": "Develop speed and power while improving your coordination and\ntiming. This workout is sure to leave you breathless.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Parte inferior",
+                        "slug": "lower-body-2"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Adjustable Bench"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "PRFA0002",
+                      "durationActual": 1832,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "KoqgpeBdcJeHr5CtYVLA9c": {
+                    "_id": "KoqgpeBdcJeHr5CtYVLA9c",
+                    "_type": "workout",
+                    "slug": "prfa-athlete-training-full-body-strength-1-performance-academy-prfa0001",
+                    "brandCode": "PRFA",
+                    "primaryParent": {
+                      "_id": "z2p9r3pN3bTGaKDnPmqXU9",
+                      "_type": "program",
+                      "slug": "performance-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=PRFA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Performance Academy: Full Body Strength 1",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5bdea01d45aeace2990d782be822719490244fe9-730x496.jpg"
+                    },
+                    "descriptionLong": "A comprehensive, full-body strength training workout designed to improve strength, stability, and coordination to elevate your overall performance.",
+                    "durationEstimate": 1860,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Adjustable Bench"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "PRFA0001",
+                      "durationActual": 1873,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "sXJ3fj8F0yS9spCYWJkQap": {
+                    "_id": "sXJ3fj8F0yS9spCYWJkQap",
+                    "_type": "workout",
+                    "slug": "prfa-athlete-training-momentum-control-1-performance-academy-prfa0003",
+                    "brandCode": "PRFA",
+                    "primaryParent": {
+                      "_id": "z2p9r3pN3bTGaKDnPmqXU9",
+                      "_type": "program",
+                      "slug": "performance-academy"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AmoilaCesar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=PRFA&locale=en_us&trainerName=AmoilaCesar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Performance Academy: Momentum & Control 1",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5d11ffa91d7e3cbec214d0fd58f56699431f094b-730x496.jpg"
+                    },
+                    "descriptionLong": "Train like an athlete and learn the mechanics of deceleration\nso you can depth drop like a pro.",
+                    "durationEstimate": 1860,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Adjustable Bench"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "amoila-cesar",
+                        "firstName": "Amoila",
+                        "lastName": "Cesar",
+                        "bio": "Amoila Cesar is a NASM and ISSA certified personal trainer famous for getting professional athletes in seriously good shape.\u00a0Along with CHOP WOOD CARRY WATER, he\u2019s also the creator of 645\u00ae, 6 Weeks of THE WORK\u00ae and 4 Weeks of THE PREP\u2122.\u00a0He\u2019s led millions worldwide, from professional athletes, A-list celebrities, and CEOs to mothers, entrepreneurs, and more through their fitness journey.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8789858692645ef02e6df032d0d1c861381ebe49-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "PRFA0003",
+                      "durationActual": 1880,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223333651,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "performance-academy",
+              "en-US"
+            ],
+            "queryHash": "[\"performance-academy\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/performance-academy/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "performance-academy",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

@@ -1,0 +1,102 @@
+---
+author: bjelakrez
+comments:
+  - author: katarina.
+    text: 'waaaaaaaaaaaaa!!!!!
+      Ful dobr vaju je slišat, vidim da se mata res fino. Slikce so super! Božo je čist navdušen nad tem blogom in se mi že ves čas dere za vratom:)
+      Mateja! me gremo zdej na morje in te bomo zelo pogrešale...'
+  - author: Brane
+    text:
+      'Hej!Super, da ste srečno prišli in dobro začeli vaše potovanje. Vidim, da
+      vama je hrana všeč. Da se ne bosta zredila, ker bosta težko hodila. A je kaj mraz? Tukaj je zelo vroče. Slikce so lepe. Lepo se imejta in lep pozdrav obema, Ati'
+  - author: sonka
+    text: 'Vesela sem, da ste srečno prispeli in se imate lepo. Tukaj je še vedno ful vroče. Pri nas so na počitnicah neonke (tropske ribice)tako, da ima Riki "družbo". Pozdrav, Sonka'
+  - author: jasna2
+    text: 'ojla!
+      sem imela probleme, ker je ena Jasna že logirana, pa ni Žigata doma, da bi me rešil iz zagate. Lepo je prebrati dobre in zanimive novice iz daljnih krajev, slike so pa sploh super. Se ze veselim novega javljanja. Uzivajta, Jasna'
+  - author: suncell
+    text: 'hehe ![;\)](images/icon_wink.gif) glih dobro odpotujeta pa že pogrešaš sendviče in domače zrezke ![:\)](images/icon_smile.gif) pridno se redno javljajta s slikcami še naprej ![:\)](images/icon_smile.gif) lp Andraž'
+  - author: metka
+    text: "vidim,da ima žiga pravo kulinarično preizkušnjo
+      mateja, tunelčki so zakon, razumem zakaj si se ga tak veselila![;\\)](images/icon_wink.gif)
+      se veselim poročila o sprehodih, hihi"
+post_date: '2008-07-03 18:01:55'
+title: Polet, Lima, Pisco
+---
+
+Za zacetek: srecno smo prispeli prek oceana. Smo v Piscu v oazi v puscavi in
+sem v internet cafe-ju. Mateja caka v sobi, da prinesejo brisace.
+
+Zbor je bil ob 3.00 pred halo Tivoli, kjer smo se vkrcali na manjsi avtobus,
+ki nas je popeljal do Benetk. Z Matejo nikakor nisva mogla zaspati, kljub
+temu, da sva imela zadnjih 5 sedezev zase. Uspelo nama je sele tik pred
+prihodom v Benetke. (Joj, kako se bom navadil na to tipkovnico, ki ima z in y
+zamenjana??) Na letaliscu Marco Polo smo poiskali svoj salter za check-in in
+seveda je bila pred njim najdaljsa vrsta. Mateja je bila razocarana, ker na
+letalo nismo sli skozi tunelcek, temvec nas je do letala zapeljal avtobus. Na
+letalu je poleg naju sedel debel, dolgobradi jud in Mateja je bila nad njim
+navdusena. Po pristanku na letaliscu v Madridu smo morali priti na terminal,
+ki je bil cisto na drugem koncu letalisca. Oznake na tablah so nam povedale,
+da do tja rabimo 20 min. Madrid je res velikansko letalisce. Najprej smo nekaj
+casa pesacili, nato pa se s podzemno zeleznico prepeljali na drug terminal.
+Tam smo naleteli na grozno gneco, na dvajsetih okencih so pregledovali potne
+liste, ljudi pa je bilo nesteto. Ustrasili smo se celo, da bomo zamudili na
+letalo za Limo. To se na sreco ni zgodilo, imeli smo se cas za sendvic. Z
+Juretom in Petro (eno izmed treh) smo sli v restavracijo na letalicsu, kjer
+sem za (najcenejsi) sendvic in pol litra vode placal 5,35 eur. Nase drugo
+letalo je bilo mnogo vecje od prvega in na njega smo prisli na Matejino
+navdusenje skozi tunel.
+
+![DSCN0667_1024x768.jpg](images/DSCN0667_1024x768.jpg)
+
+Na vzlet smo cakali kaksno uro, nato pa se je zacel 11 urni let cez Atlantik.
+Tam so nam dokaj hitro postregli s prvim obrokom. To je bila skrajno neokusna
+pasta. Vsaj sladica je popravila vtis. Drugi obrok so postregli sele kaksno
+uro pred pristankom in priblizno na polovici leta mi je postalo zal, da nisem
+vzel vec sendvicev s seboj. V Limi smo pristali ob 17.30 po lokalnem casu.
+
+Na letaliscu nas je pricakal nas vodic Tomaz. Z najetim avtobusom (ki je nas
+za naslednjih nekaj dni) smo se odpeljali do hotela. Tam so nam dali sobe,
+nato pa smo sli naokoli po mestu. V Limi je promet dobesedno kaoticen. Crt na
+cestiscu pogosto sploh ni narisanih, ce pa ze so, se jih pa itak nihce ne
+drzi. V Limi zivi 8 milijonov ljudi in tam nikoli ne sije sonce, vedno je
+oblacno.
+
+![DSCN0704_1024x768.jpg](images/DSCN0704_1024x768.jpg)
+
+Na poti nazaj proti hotelu smo se ustavili v 'restavraciji', kjer smo vsi
+narocili piscanca s pomfrijem, dobili pa smo eni (najbrz) zajca z rizem,
+drugi pa govedino z rizem. Kakorkoli, oboje je bilo zelo zelo dobro.
+
+Naslednji dan smo vstali ob sestih, cez 15 minut imeli zajtrk (kruh, jajce,
+maslo, marmelada in kozarec naravnega pomarancnega soka). Ob sedmih smo se z
+nasim busom odpravili proti Piscu. Na poti smo se ustavili in z gliserjem
+naredili dveurni izlet na otoke Ballestas, kjer smo opazovali stevilne vrste
+ptic, morske leve in pingvine.
+
+![DSCN0829_1024x768.jpg](images/DSCN0829_1024x768.jpg)
+
+Pticje kakce vsakih 5 let poberejo in iz njih naredijo kvalitetno gnojilo.
+
+![DSCN0831_1024x768.jpg](images/DSCN0831_1024x768.jpg)
+
+Ko smo se vrnili z izleta, smo sli na kosilo.
+
+Mateja je jedla brancina, jaz pa morski list. Oboje je bilo spet odlicno. Na
+poti v Pisco smo se ustavili se v piscoteci, kjer smo poskusili nekaj njihovih
+alkoholnih pijac (ki jih hranijo v amforah) in nato malo zaplesali.
+
+Sedaj gremo na 'piknik' ob bazenu v nasem hotelu.
+
+Ziga
+
+vec slikc prihodnjic.  
+\------------------------------------------------------------------------------
+
+Ce ste prisli do konca tega clanka in ostali budni, vam iz srca cestitam.
+Dodala bi samo se, da brisac na koncu nismo dobili, da sem danes jedla doma
+narejene cokoladne bombone in da vas vse pogresam. Pricakujem vase komentarje
+(Metka... ![:)](images/icon_smile.gif) ). Imamo se
+fino.
+
+Mateja

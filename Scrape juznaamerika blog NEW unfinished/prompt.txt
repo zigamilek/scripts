@@ -1,0 +1,27 @@
+Please create a python script that will scrape my blog https://juznaamerika.travellerspoint.com/toc/ into local MDX files.
+
+Make sure you remember the date of each post from the /toc/ page.
+
+Then go through all posts one by one, and scrape them into mdx files.
+
+Here's an example representative post: https://juznaamerika.travellerspoint.com/3/ (but go through all of them!)
+
+Name the files like this ##-date-title-of-post.mdx.
+
+In the frontmatter include the following:
+
+author:
+comments:
+- author: ...
+  content: ...
+- author: ...
+  content: ...
+date_end: 'YYYY-MM-DD'
+date_start: 'YYYY-MM-DD'
+location: ...
+post_date: 'YYYY-MM-DD'
+title: ...
+
+Make sure you also download the images into a separate folder "images" and include them in the mdx files. Again, this post has images included https://juznaamerika.travellerspoint.com/3/
+
+I suggest you first scrape the /toc/ and /3/ pages so you get the htmls and then ask me any clarifying questions if you have them, before actually writing the script.

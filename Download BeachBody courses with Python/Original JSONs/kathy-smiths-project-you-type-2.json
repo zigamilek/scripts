@@ -1,0 +1,2117 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "kathy-smiths-project-you-type-2",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "BoGK5VlBLllbPFYTvQoKsC",
+                "_type": "program",
+                "slug": "kathy-smiths-project-you-type-2",
+                "title": "Kathy Smith's Project You! Type 2",
+                "subtitle": null,
+                "brandCode": "KS",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=KS&locale=en_us&trainerName=KathySmith"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Kathy Smith's Project You! Type 2 Program Overview: Start Here",
+                  "description": "Access the first all-in-one solution to manage diabetes with Kathy Smith's Project You! Type 2. See what the program includes, any equipment needed, and meet your trainer here.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c9e7fe221729d5bb74814783bd269a1b9cda1dd9-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Kathy",
+                    "lastName": "Smith",
+                    "bioBodi": "Wellness expert Kathy has committed herself to educating the public on diet, exercise, and other lifestyle changes that can help manage Type 2 diabetes and pre-diabetes. As a trusted motivator and role model, her goal is to get everyone engaged in a healthy and active lifestyle.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/86e7434cfda1592276f479a790327945f51ce193-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#02a6e6",
+                "colorPrimaryOptions": {
+                  "argb": "#02a6e6",
+                  "rgba": "#02a6e6"
+                },
+                "descriptionShort": "A simple, revolutionary eating and exercise program for people with diabetes.",
+                "descriptionLong": "Developed with doctors and the American Diabetes Association, this is the first all-in-one solution to manage diabetes, reduce your risk for complications, and get you back in control of your life.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/kathy-smiths-project-you-type-2"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "20-60"
+                },
+                "duration": null,
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "8"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=KathySmith"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells"
+                  },
+                  {
+                    "title": "Sturdy Chair or Stability Ball"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Yoga Mat"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Pilates"
+                  },
+                  {
+                    "title": "Strength"
+                  },
+                  {
+                    "title": "Bodyweight Training"
+                  },
+                  {
+                    "title": "Bootcamp"
+                  },
+                  {
+                    "title": "Weight Loss"
+                  },
+                  {
+                    "title": "Core"
+                  },
+                  {
+                    "title": "Yoga"
+                  },
+                  {
+                    "title": "Dance"
+                  }
+                ],
+                "level": {
+                  "title": "Beginner",
+                  "slug": "beginner",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/138169722c8d9ea896bed4b2a58611cfca118faf-864x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/138169722c8d9ea896bed4b2a58611cfca118faf-864x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/69a576dbb81a11adc9db4d6292715fdb391a22f1-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df120458c1f868c1721be06ce35f5c4fdd046e1b-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5d26dc38a945488a5d536447a28a99405069900-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d3ea179b05d607bf7ff72eb5c2ce114641866950-781x977.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c9e7fe221729d5bb74814783bd269a1b9cda1dd9-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c9e7fe221729d5bb74814783bd269a1b9cda1dd9-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Dumbbells, Sturdy Chair or Stability Ball, Yoga Mat*",
+                        "categories": "Cardio, Pilates, Strength, Bodyweight Training, Bootcamp, Weight Loss, Core, Yoga, Dance",
+                        "colorPrimary": "#02a6e6",
+                        "colorPrimaryOptions": {
+                          "argb": "#02a6e6",
+                          "rgba": "#02a6e6"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-d9451b3062ef92fd93e402d13d8bbdeb139b8c2f-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d9451b3062ef92fd93e402d13d8bbdeb139b8c2f-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "8"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "20-60"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                            },
+                            "title": "Beginner"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZKyan9",
+                        "_type": "editorial",
+                        "slug": "kathy-smiths-project-you-type-2-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "Beachbody\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.teambeachbody.com/micro-site/nutrition-plus/index.html#/en"
+                        }
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe5Efh",
+                        "_type": "collection",
+                        "slug": "project-you-type-2-related-content",
+                        "title": "Project: You Type 2 Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "2Y1ZDDXEx3aLPbgAHe2KZ7",
+                          "vKPPpbqN0JH0WMoJVD7bRG",
+                          "vKPPpbqN0JH0WMoJVD7bbe"
+                        ]
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Kathy",
+                            "bio": "Wellness expert Kathy has committed herself to educating the public on diet, exercise, and other lifestyle changes that can help manage Type 2 diabetes and pre-diabetes. As a trusted motivator and role model, her goal is to get everyone engaged in a healthy and active lifestyle.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/86e7434cfda1592276f479a790327945f51ce193-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/therealkathysmith",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/kathysmithfitness",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.youtube.com/kathysmithlifestyles",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f06acc8786ecf26616838c26162235cfcce4108-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFUbow",
+                        "_type": "collection",
+                        "slug": "kathy-smiths-project-you-type-2-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGs0QN",
+                          "BoGK5VlBLllbPFYTvPKzQe",
+                          "Q6j5eG7tj3PSUghmZBkcQd",
+                          "NWOt1I2xWP7xm05A7uFR1B"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvQoKSu",
+                        "_type": "collection",
+                        "slug": "kathy-smiths-project-you-type-2",
+                        "title": "Kathy Smith's Project You! Type 2",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZKyXXr",
+                          "NWOt1I2xWP7xm05A7w4ga3",
+                          "Q6j5eG7tj3PSUghmZKyYH9",
+                          "NWOt1I2xWP7xm05A7w4gpR",
+                          "Q6j5eG7tj3PSUghmZKyYxv",
+                          "NWOt1I2xWP7xm05A7w4h1P",
+                          "NWOt1I2xWP7xm05A7w4h4p",
+                          "BoGK5VlBLllbPFYTvQoJrs"
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFUbow",
+                        "_type": "collection",
+                        "slug": "kathy-smiths-project-you-type-2-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGs0QN",
+                          "BoGK5VlBLllbPFYTvPKzQe",
+                          "Q6j5eG7tj3PSUghmZBkcQd",
+                          "NWOt1I2xWP7xm05A7uFR1B"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZKyad5",
+                        "_type": "collection",
+                        "slug": "kathy-smiths-project-you-type-2-0",
+                        "title": "Program Materials",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvQoK9w",
+                          "BoGK5VlBLllbPFYTvQoKI4",
+                          "BoGK5VlBLllbPFYTvQoKOO"
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFUbow",
+                        "_type": "collection",
+                        "slug": "kathy-smiths-project-you-type-2-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGs0QN",
+                          "BoGK5VlBLllbPFYTvPKzQe",
+                          "Q6j5eG7tj3PSUghmZBkcQd",
+                          "NWOt1I2xWP7xm05A7uFR1B"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe2KZ7": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2KZ7",
+                    "_type": "linkItem",
+                    "slug": "how-a-positive-self-image-could-improve-your-health",
+                    "title": "How a Positive Self-Image Could Improve Your Health",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d89b8fed3181a333079c6f9b31b9ad4f46dfdcba-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/how-a-postive-self-image-could-improve-your-health?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=youv2",
+                    "isFavoritable": false
+                  },
+                  "BoGK5VlBLllbPFYTvPKzQe": {
+                    "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                    "_type": "program",
+                    "slug": "slim-in-6",
+                    "brandCode": "SL6",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2001-03-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Slim in 6",
+                    "description": "Slim in 6 is a low-impact program anyone can do to get slim in just 6 weeks.",
+                    "descriptionShort": "Slim in 6 is a low-impact program anyone can do to get slim in just 6 weeks.",
+                    "descriptionLong": "Slim in 6 is more effective at helping you lose weight than those super-intense, high-impact workouts. You\u2019ll watch the fat melt away as you tone lean muscle and get body-shaping results even faster.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/73ec86b0aa3b55a52d7a4de4fe618033bd09690a-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5f4ba78f1bbeb3fd774bbc5d5fba5d540e25598a-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5f4ba78f1bbeb3fd774bbc5d5fba5d540e25598a-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/73ec86b0aa3b55a52d7a4de4fe618033bd09690a-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/73ec86b0aa3b55a52d7a4de4fe618033bd09690a-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3940d0df5ba04e2a20a2e296abee42a208c54e1e-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2830c8c8448bd7a6dec14d19089a2d3b327c2e40-362x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "25-60"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "6"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "16"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQoJrs": {
+                    "_id": "BoGK5VlBLllbPFYTvQoJrs",
+                    "_type": "workout",
+                    "slug": "full-body-circuit-ksy05348b08",
+                    "brandCode": "KS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQoKsC",
+                      "_type": "program",
+                      "slug": "kathy-smiths-project-you-type-2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=KathySmith"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KS&locale=en_us&trainerName=KathySmith"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Full Body Circuit",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/908f0ac7545fb532f0572b4085e0591ac8d4496c-398x224.jpg"
+                    },
+                    "descriptionLong": "Full body circuit is a 60-minute routine that combines strength training with cardio intervals.",
+                    "durationEstimate": 3600,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Sturdy Chair or Stability Ball"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "kathy-smith",
+                        "firstName": "Kathy",
+                        "lastName": "Smith",
+                        "bio": "Wellness expert Kathy has committed herself to educating the public on diet, exercise, and other lifestyle changes that can help manage Type 2 diabetes and pre-diabetes. As a trusted motivator and role model, her goal is to get everyone engaged in a healthy and active lifestyle.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fcf22f7cc9c13ca2ec9f0f32cee532dc9949a024-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KSY05348B08",
+                      "durationActual": 3605,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQoK9w": {
+                    "_id": "BoGK5VlBLllbPFYTvQoK9w",
+                    "_type": "resource",
+                    "slug": "kathy-smiths-project-you-type-2-quick-start-2745478",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQoKsC",
+                      "_type": "program",
+                      "slug": "kathy-smiths-project-you-type-2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Quick Start",
+                    "categories": null,
+                    "description": "The first day of your next 12 weeks begins here.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f7d4127f4333f7f403cd7a78af91a827adda0f41-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "KS_QuickStart.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/a1402c44e07fdbe3bd0cac0b1c6d10a19dd77ec9.pdf?file=KS_QuickStart.pdf",
+                      "size": 251595
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQoKI4": {
+                    "_id": "BoGK5VlBLllbPFYTvQoKI4",
+                    "_type": "resource",
+                    "slug": "kathy-smiths-project-you-type-2-fitness-guide-2745645",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQoKsC",
+                      "_type": "program",
+                      "slug": "kathy-smiths-project-you-type-2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Fitness Guide",
+                    "categories": null,
+                    "description": "A 12-week calendar and daily checklist keep you on track.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/71d29675b3ce855d6bce62732575d7c808fae4a8-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "KS_FitnessGuide.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/af89f08540a9c2e94d187dcde0afe21df72ddd5d.pdf?file=KS_FitnessGuide.pdf",
+                      "size": 1006077
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQoKOO": {
+                    "_id": "BoGK5VlBLllbPFYTvQoKOO",
+                    "_type": "resource",
+                    "slug": "kathy-smiths-project-you-type-2-nutrition-guide-2745813",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQoKsC",
+                      "_type": "program",
+                      "slug": "kathy-smiths-project-you-type-2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Nutrition Guide",
+                    "categories": null,
+                    "description": "Full of mouth-watering recipes reviewed by the ADA.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4d4b6c1a14a5583035e89c5bac0c7b15ef5db94e-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "KS_NutritionGuide.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/51357515d5fbb4107247c0bdc78e227f4dac6e9c.pdf?file=KS_NutritionGuide.pdf",
+                      "size": 3912024
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uFR1B": {
+                    "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                    "_type": "program",
+                    "slug": "clean-week",
+                    "brandCode": "CW",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2017-08-31",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "Clean Week",
+                    "description": "Clean Week helps you create healthy nutrition and fitness habits in just 7 days.",
+                    "descriptionShort": "Clean Week helps you create healthy nutrition and fitness habits in just 7 days.",
+                    "descriptionLong": "Clean Week\u2122 is a seven-day fitness and nutrition program designed to help you kick-start healthy habits that get real results and can lead to a lifestyle change that sticks!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/01e7fb3fb027f45f212c7c6ad0d381d5d742b930-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f28850051a3f345784c9432ca772af926cdcd94b-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f28850051a3f345784c9432ca772af926cdcd94b-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/01e7fb3fb027f45f212c7c6ad0d381d5d742b930-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/01e7fb3fb027f45f212c7c6ad0d381d5d742b930-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3e7bcceef246715c1943cec6f530158d434c82ca-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/311b8c85e918b953fe6d36f912ffd1a2d3e69b28-879x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Week",
+                      "value": "1"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "7"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Push-Up Stands"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w4ga3": {
+                    "_id": "NWOt1I2xWP7xm05A7w4ga3",
+                    "_type": "workout",
+                    "slug": "power-push-ksy05354b02",
+                    "brandCode": "KS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQoKsC",
+                      "_type": "program",
+                      "slug": "kathy-smiths-project-you-type-2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=KathySmith"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KS&locale=en_us&trainerName=KathySmith"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Power Push",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/89b44a43434a3af4fa797030a8f3ddb7af29e530-398x224.jpg"
+                    },
+                    "descriptionLong": "Power Push is a 30-minute routine designed to take you to the next level.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "kathy-smith",
+                        "firstName": "Kathy",
+                        "lastName": "Smith",
+                        "bio": "Wellness expert Kathy has committed herself to educating the public on diet, exercise, and other lifestyle changes that can help manage Type 2 diabetes and pre-diabetes. As a trusted motivator and role model, her goal is to get everyone engaged in a healthy and active lifestyle.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fcf22f7cc9c13ca2ec9f0f32cee532dc9949a024-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KSY05354B02",
+                      "durationActual": 1806,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w4gpR": {
+                    "_id": "NWOt1I2xWP7xm05A7w4gpR",
+                    "_type": "workout",
+                    "slug": "pilates-core-ksy05360b04",
+                    "brandCode": "KS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQoKsC",
+                      "_type": "program",
+                      "slug": "kathy-smiths-project-you-type-2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=KathySmith"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KS&locale=en_us&trainerName=KathySmith"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Pilates Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/69546a14d13aaef94c34a8ed6c6570d55da021c9-398x224.jpg"
+                    },
+                    "descriptionLong": "Pilates Core is a 20-minute routine that tightens your abs and improves your flexibility.",
+                    "durationEstimate": 1200,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "kathy-smith",
+                        "firstName": "Kathy",
+                        "lastName": "Smith",
+                        "bio": "Wellness expert Kathy has committed herself to educating the public on diet, exercise, and other lifestyle changes that can help manage Type 2 diabetes and pre-diabetes. As a trusted motivator and role model, her goal is to get everyone engaged in a healthy and active lifestyle.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fcf22f7cc9c13ca2ec9f0f32cee532dc9949a024-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KSY05360B04",
+                      "durationActual": 1290,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w4h1P": {
+                    "_id": "NWOt1I2xWP7xm05A7w4h1P",
+                    "_type": "workout",
+                    "slug": "upper-bodyabs-ksy05357b06",
+                    "brandCode": "KS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQoKsC",
+                      "_type": "program",
+                      "slug": "kathy-smiths-project-you-type-2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=KathySmith"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KS&locale=en_us&trainerName=KathySmith"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Upper Body/Abs",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/656bb127381ee99bdf78aeba7354316101903fa7-398x224.jpg"
+                    },
+                    "descriptionLong": "Upper Body/Abs is a 30-minute routine that targets your midsection, arms, back, and shoulders.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Sturdy Chair"
+                      },
+                      {
+                        "title": "Stability Ball or Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "kathy-smith",
+                        "firstName": "Kathy",
+                        "lastName": "Smith",
+                        "bio": "Wellness expert Kathy has committed herself to educating the public on diet, exercise, and other lifestyle changes that can help manage Type 2 diabetes and pre-diabetes. As a trusted motivator and role model, her goal is to get everyone engaged in a healthy and active lifestyle.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fcf22f7cc9c13ca2ec9f0f32cee532dc9949a024-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KSY05357B06",
+                      "durationActual": 1808,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w4h4p": {
+                    "_id": "NWOt1I2xWP7xm05A7w4h4p",
+                    "_type": "workout",
+                    "slug": "lower-bodyabs-ksy05353b07",
+                    "brandCode": "KS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQoKsC",
+                      "_type": "program",
+                      "slug": "kathy-smiths-project-you-type-2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=KathySmith"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KS&locale=en_us&trainerName=KathySmith"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Lower Body/Abs",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c19b3f371434c77f784ebbe7560764b4f40f6fbb-398x224.jpg"
+                    },
+                    "descriptionLong": "Lower Body/Abs is a 30-minute routine that works your thighs and buns for sleek, toned muscles.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      },
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Sturdy Chair or Stability Ball"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "kathy-smith",
+                        "firstName": "Kathy",
+                        "lastName": "Smith",
+                        "bio": "Wellness expert Kathy has committed herself to educating the public on diet, exercise, and other lifestyle changes that can help manage Type 2 diabetes and pre-diabetes. As a trusted motivator and role model, her goal is to get everyone engaged in a healthy and active lifestyle.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fcf22f7cc9c13ca2ec9f0f32cee532dc9949a024-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KSY05353B07",
+                      "durationActual": 1836,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBkcQd": {
+                    "_id": "Q6j5eG7tj3PSUghmZBkcQd",
+                    "_type": "program",
+                    "slug": "21-day-fix",
+                    "brandCode": "21D",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2014-02-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21D&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=21D&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "21 Day Fix",
+                    "description": "21 Day Fix\u2014Simple Fitness. Simple Eating. Fast Results. In just 21 days.",
+                    "descriptionShort": "21 Day Fix\u2014Simple Fitness. Simple Eating. Fast Results. In just 21 days.",
+                    "descriptionLong": "Want amazing results in 21 days? Then all you need is 21 Day Fix. You get a step-by-step, 21-day plan so you succeed. Achieving your weight-loss goals has never been faster or simpler.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/361f2b00e83307de5f55d50d0f740b6f2282de34-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/257c436ac39e1948ed5e613b44dcb6ea6690bf89-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/257c436ac39e1948ed5e613b44dcb6ea6690bf89-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/361f2b00e83307de5f55d50d0f740b6f2282de34-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/361f2b00e83307de5f55d50d0f740b6f2282de34-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e820c5d36804e35a2bcd2997f74200d5f6f135b6-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e15527a65884cb1d66dcb6317db2fc5f3be9d8da-476x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "21"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "14"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGs0QN": {
+                    "_id": "Q6j5eG7tj3PSUghmZGs0QN",
+                    "_type": "program",
+                    "slug": "youv2",
+                    "brandCode": "YV2",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2017-05-15",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YV2&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "YOUv2",
+                    "description": "Get moving to feel-good party tunes to create the new version of you!",
+                    "descriptionShort": "Get moving to feel-good party tunes to create the new version of you!",
+                    "descriptionLong": "Get moving again with this fun and easy health and fitness program. Rock out to feel-good party songs from the 80's and 90's develop healthy habits, and finally lose the weight.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5a90e23524b8d13fed8e558d17637ff746224494-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a5f2575ef3cbfb486243b4496e7bbf35f2e01b24-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a5f2575ef3cbfb486243b4496e7bbf35f2e01b24-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5a90e23524b8d13fed8e558d17637ff746224494-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5a90e23524b8d13fed8e558d17637ff746224494-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cdc2d2111b02a760a91cb1b68f9e6bce48f97d3-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/846c24df8966ae57fc54d9f353e8d214e524ef8f-1072x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "4"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "6"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Dance",
+                        "slug": "dance"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Weighted Gloves"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKyXXr": {
+                    "_id": "Q6j5eG7tj3PSUghmZKyXXr",
+                    "_type": "workout",
+                    "slug": "foundation-ksy05352b01",
+                    "brandCode": "KS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQoKsC",
+                      "_type": "program",
+                      "slug": "kathy-smiths-project-you-type-2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=KathySmith"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KS&locale=en_us&trainerName=KathySmith"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Foundation",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3a58ee974641413734736a980a811a11b83aae51-398x224.jpg"
+                    },
+                    "descriptionLong": "Foundation is a 30-minute routine designed to get you moving.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "kathy-smith",
+                        "firstName": "Kathy",
+                        "lastName": "Smith",
+                        "bio": "Wellness expert Kathy has committed herself to educating the public on diet, exercise, and other lifestyle changes that can help manage Type 2 diabetes and pre-diabetes. As a trusted motivator and role model, her goal is to get everyone engaged in a healthy and active lifestyle.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fcf22f7cc9c13ca2ec9f0f32cee532dc9949a024-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KSY05352B01",
+                      "durationActual": 1903,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKyYH9": {
+                    "_id": "Q6j5eG7tj3PSUghmZKyYH9",
+                    "_type": "workout",
+                    "slug": "long-lean-ksy05355b03",
+                    "brandCode": "KS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQoKsC",
+                      "_type": "program",
+                      "slug": "kathy-smiths-project-you-type-2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=KathySmith"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KS&locale=en_us&trainerName=KathySmith"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Long Lean",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5417a4533007769a593665d5426e8f6872b5f2e7-398x224.jpg"
+                    },
+                    "descriptionLong": "Long Lean is a 40-minute routine that energizes while burning those calories like crazy.",
+                    "durationEstimate": 2400,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "kathy-smith",
+                        "firstName": "Kathy",
+                        "lastName": "Smith",
+                        "bio": "Wellness expert Kathy has committed herself to educating the public on diet, exercise, and other lifestyle changes that can help manage Type 2 diabetes and pre-diabetes. As a trusted motivator and role model, her goal is to get everyone engaged in a healthy and active lifestyle.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fcf22f7cc9c13ca2ec9f0f32cee532dc9949a024-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KSY05355B03",
+                      "durationActual": 2455,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKyYxv": {
+                    "_id": "Q6j5eG7tj3PSUghmZKyYxv",
+                    "_type": "workout",
+                    "slug": "yoga-flex-ksy05365b05",
+                    "brandCode": "KS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQoKsC",
+                      "_type": "program",
+                      "slug": "kathy-smiths-project-you-type-2"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=KathySmith"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=KS&locale=en_us&trainerName=KathySmith"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Yoga Flex",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eea034196bcdd9702eb050404b769eb79ad713c4-398x224.jpg"
+                    },
+                    "descriptionLong": "Yoga Flex is a 20-minute routine that rejuvenates, improves flexibility, and restores your energy.",
+                    "durationEstimate": 1200,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "kathy-smith",
+                        "firstName": "Kathy",
+                        "lastName": "Smith",
+                        "bio": "Wellness expert Kathy has committed herself to educating the public on diet, exercise, and other lifestyle changes that can help manage Type 2 diabetes and pre-diabetes. As a trusted motivator and role model, her goal is to get everyone engaged in a healthy and active lifestyle.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fcf22f7cc9c13ca2ec9f0f32cee532dc9949a024-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "KSY05365B05",
+                      "durationActual": 1303,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "vKPPpbqN0JH0WMoJVD7bRG": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7bRG",
+                    "_type": "linkItem",
+                    "slug": "is-exercise-the-antidote-to-aging",
+                    "title": "Is Exercise the Antidote to Aging?",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/20949e9a24bf61ce99c5d2cf66dc8d3c4b7d419e-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/is-exercise-the-antidote-to-aging?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=youv2",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7bbe": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7bbe",
+                    "_type": "linkItem",
+                    "slug": "15-small-changes-for-big-results",
+                    "title": "15 Small Changes for Big Results",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/30ff6e9a8e802678bf8be980d53f20f386fbd4b5-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/make-15-small-changes-see-big-results?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=youv2",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223397536,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "kathy-smiths-project-you-type-2",
+              "en-US"
+            ],
+            "queryHash": "[\"kathy-smiths-project-you-type-2\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/kathy-smiths-project-you-type-2/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "kathy-smiths-project-you-type-2",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

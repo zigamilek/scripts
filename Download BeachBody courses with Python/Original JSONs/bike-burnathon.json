@@ -1,0 +1,2661 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "bike-burnathon",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "bYftErc2YZUYngUHss4cbo",
+                "_type": "program",
+                "slug": "bike-burnathon",
+                "title": "Bike Burnathon",
+                "subtitle": null,
+                "brandCode": "BBURN",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JustinFlexen-EsmeyLeon-JennyJaucian-ShantaniMoore-JaredSklar"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Bike Burnathon | Cycling Workout | BODi",
+                  "description": "Take on 15 rides that can stand alone as calorie burners or additional cardio to your workout routine.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dde8fa69a6e6c881121c403c63088e833c5b0728-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Justin",
+                    "lastName": "Flexen",
+                    "bioBodi": "Justin is a NASM CPT and former dancer with passion for body mechanics, proper form, and self-care. You'll have so much fun in his cycling and strength workouts that you won't realize he is putting you to WORK! Justin is a certified specialist in Corrective Exercise, Weight Loss, and Heart Rate Performance, Schwinn Cycling and Kettlebell Concepts.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dea87b812d8cbc720e3efd3731d76498b2bad8ec-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Esmey",
+                    "lastName": "Leon",
+                    "bioBodi": "Esmey is a Los Angeles based personal trainer and digital fitness instructor who has helped people achieve their goals and live their best lives for nearly 20 years. She holds NASM personal training and group fitness certifications and is also a Mad Dogg Athletics certified spinning instructor.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/343f569b09d4f3493e25effd52a72d6508c91b32-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Jenny",
+                    "lastName": "Jaucian",
+                    "bioBodi": "Known for her infectious energy and motivational training style, Jenny will quickly become one of your go-to instructors. Her certifications include personal trainer (NASM), group fitness instructor (ACE), and indoor cycling instructor (Schwinn). If you\u2019re interested in strength training, cardio, or cycling, you don\u2019t want to miss her live classes.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/539202fbdd4a8b4bb4bad6fddc1699f791fed861-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Shantani",
+                    "lastName": "Moore",
+                    "bioBodi": "Born and raised in Southern California, Shantani was a professional dancer before launching a career in fitness that has seen her train people all over the world and partner with such brands as lululemon and Mirror. Whether she\u2019s leading a cycling class or guiding a sound bath, Shantani inspires people to live their best lives and tap into what makes them hype.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/03cd5a83d3b60e2cdbe4782f1dadc5755b13eea1-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Jared",
+                    "lastName": "Sklar",
+                    "bioBodi": "Jared is a triathlete and certified indoor cycling instructor who is constantly exploring new ways to innovate bike training and help his students blow past their goals. When you join Jared\u2019s class, you can expect a ton of energy, hype playlists, heavy hills, heart-pounding sprints, and to always leave sweaty and smiling.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dbe5fdc94bd1d2cf151b35cf893882c02b0e038e-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "",
+                "colorPrimaryOptions": {
+                  "argb": "",
+                  "rgba": ""
+                },
+                "descriptionShort": "15 Rides, 1 Goal: Torch fat, build endurance, test your limits.",
+                "descriptionLong": "Tackle hills, all-terrain, and intense intervals in this 15-ride gauntlet that will test your ability to follow through while you build stamina, improve your endurance, and scorch fat.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/bike-burnathon"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "30"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "15"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "15"
+                },
+                "commerce": {
+                  "title": "BODi Membership Required",
+                  "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                  "purchaseAction": {
+                    "title": "Learn More",
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JustinFlexen-EsmeyLeon-JennyJaucian-ShantaniMoore-JaredSklar"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Bike"
+                  }
+                ],
+                "equipmentRecommended": null,
+                "categories": [
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "HIIT"
+                  },
+                  {
+                    "title": "Low Impact"
+                  },
+                  {
+                    "title": "Weight Loss"
+                  }
+                ],
+                "level": {
+                  "title": "All Levels",
+                  "slug": "all-levels",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/18c319ed88766527e0260f3ce33c91514175d7f1-2070x590.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/18c319ed88766527e0260f3ce33c91514175d7f1-2070x590.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/99ea9d96ad008f159cc11c5e2fd7fb8c49206c85-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f026ff9838d8b1db063f23c0a99656bf6fadcb9-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7fdcf77125cee416d19ffea3f655d023892d3073-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d93e7f1398bbf7b0f97cd2ce1862fae26b70008f-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dde8fa69a6e6c881121c403c63088e833c5b0728-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dde8fa69a6e6c881121c403c63088e833c5b0728-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Workouts",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Bike",
+                        "categories": "Cardio, HIIT, Low Impact, Weight Loss",
+                        "colorPrimary": "",
+                        "colorPrimaryOptions": {
+                          "argb": "",
+                          "rgba": ""
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-55e8177e74866fb9fb962dbd015c9bc645a94812-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/55e8177e74866fb9fb962dbd015c9bc645a94812-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "15"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "30"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                            },
+                            "title": "All Levels"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "nCMKwNlqc1luzZCDymc7CF",
+                        "_type": "collection",
+                        "slug": "bburn-week-1",
+                        "title": "Week 1",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "nCMKwNlqc1luzZCDyjUYz8",
+                          "YKpqkp1XqM10L3zGPSmpge",
+                          "YKpqkp1XqM10L3zGPSmok6",
+                          "YKpqkp1XqM10L3zGPSmnnY",
+                          "YKpqkp1XqM10L3zGPSmkaU"
+                        ]
+                      },
+                      {
+                        "_id": "nCMKwNlqc1luzZCDymc6rl",
+                        "_type": "collection",
+                        "slug": "bburn-week-2",
+                        "title": "Week 2",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "YKpqkp1XqM10L3zGPSmgsC",
+                          "YKpqkp1XqM10L3zGPSmgJ4",
+                          "YKpqkp1XqM10L3zGPSmfjw",
+                          "YKpqkp1XqM10L3zGPSmejU",
+                          "nCMKwNlqc1luzZCDyjUUr5"
+                        ]
+                      },
+                      {
+                        "_id": "YKpqkp1XqM10L3zGPYFOrE",
+                        "_type": "collection",
+                        "slug": "bburn-week-3",
+                        "title": "Week 3",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "nCMKwNlqc1luzZCDyjUUMM",
+                          "KM4bAajAkvJT15dtDcCZVr",
+                          "YKpqkp1XqM10L3zGPSmZJo",
+                          "nCMKwNlqc1luzZCDyjUSo5",
+                          "YKpqkp1XqM10L3zGPSmWIS"
+                        ]
+                      },
+                      {
+                        "_id": "xWgjt0RnNiL4VWepWqS0Iz",
+                        "_type": "collection",
+                        "slug": "bburn-bonus-rail",
+                        "title": "Bonus Rail",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "YKpqkp1XqM10L3zGPSmUDe",
+                          "YKpqkp1XqM10L3zGPSmT1U",
+                          "xWgjt0RnNiL4VWepWqRmFb",
+                          "FUs0T8fs80rhFGfqzX2M6v",
+                          "FUs0T8fs80rhFGfqzX2KRv",
+                          "FUs0T8fs80rhFGfqzX2GQj"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "FUs0T8fs80rhFGfqzX2GQj": {
+                    "_id": "FUs0T8fs80rhFGfqzX2GQj",
+                    "_type": "workout",
+                    "slug": "roll-recover-bburn0021",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LindsaySudell"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=LindsaySudell"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Roll & Recover",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/91f1ff7b2d2437d5b58814c963ad448f9719a117-730x496.jpg"
+                    },
+                    "descriptionLong": "Enhance blood flow, ease muscle tension, and boost mobility and flexibility with a combination of foam-rolling and targeted stretching. The goal: recover faster between workouts so you can keep performing at your peak.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "lindsay-sudell",
+                        "firstName": "Lindsay",
+                        "lastName": "Sudell",
+                        "bio": null,
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0021",
+                      "durationActual": 1217,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "FUs0T8fs80rhFGfqzX2KRv": {
+                    "_id": "FUs0T8fs80rhFGfqzX2KRv",
+                    "_type": "workout",
+                    "slug": "bburn-flexibility-for-cyclists-bburn0020",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=LindsaySudell"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=LindsaySudell"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Flexibility for Cyclists",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/84bce83c96f8ebaa880bb5619bf8f6e3efa56658-730x496.jpg"
+                    },
+                    "descriptionLong": "\"Don\u2019t wait until you\u2019re tight and sore from an intense ride\u2014join this class today to ease\nmuscle tension, boost mobility, and enhance your recovery with a variety of different stretching techniques.\"",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "lindsay-sudell",
+                        "firstName": "Lindsay",
+                        "lastName": "Sudell",
+                        "bio": null,
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0020",
+                      "durationActual": 1819,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "FUs0T8fs80rhFGfqzX2M6v": {
+                    "_id": "FUs0T8fs80rhFGfqzX2M6v",
+                    "_type": "workout",
+                    "slug": "bburn-pilates-for-cyclists-bburn0019",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=BrianaMasson"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=BrianaMasson"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Pilates for Cyclists",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8037141f26ef3d96dbc81b99d90063266a786f67-730x496.jpg"
+                    },
+                    "descriptionLong": "This blend of classic and contemporary Pilates is perfect for cyclists looking to elevate their training and performance by sculpting a stronger core and improving their posture and alignment.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "briana-masson",
+                        "firstName": "Briana",
+                        "lastName": "Masson",
+                        "bio": null,
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0019",
+                      "durationActual": 1852,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "KM4bAajAkvJT15dtDcCZVr": {
+                    "_id": "KM4bAajAkvJT15dtDcCZVr",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-all-terrain-power-up-bburn0012",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShantaniMoore"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=ShantaniMoore"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: All Terrain (Power Up)",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2c042d07f46c5ebf88b3a4cf2d40b83cf9922471-730x496.jpg"
+                    },
+                    "descriptionLong": "Feel the adrenaline surge as you navigate through various landscapes, from steep climbs to exhilarating descents. And when you think you've given it your all, get ready for the ultimate challenge: the Power Up segment! Three intense intervals await, where you'll have just two minutes to unleash your strength, elevate your heart rate, and ignite your determination.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shantani-moore",
+                        "firstName": "Shantani",
+                        "lastName": "Moore",
+                        "bio": "Born and raised in Southern California, Shantani was a professional dancer before launching a career in fitness that has seen her train people all over the world and partner with such brands as lululemon and Mirror. Whether she\u2019s leading a cycling class or guiding a sound bath, Shantani inspires people to live their best lives and tap into what makes them hype.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f448c3bf7a764ddbf8f7fa518dc599fc4938fea-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0012",
+                      "durationActual": 1840,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "YKpqkp1XqM10L3zGPSmT1U": {
+                    "_id": "YKpqkp1XqM10L3zGPSmT1U",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-hiit-it-burn-bburn0017",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=EsmeyLeon"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=EsmeyLeon"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: HIIT It! (Burn)",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6db513e662c2dbff2eda0b08387769ba79fe4e0a-730x496.jpg"
+                    },
+                    "descriptionLong": "Crank up your calorie furnace and build speed and endurance with a high-intensity interval session that will put your focus and stamina to the test. It\u2019s only 30 minutes from start to finish, so HIIT it hard and hold nothing back!",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "esmey-leon",
+                        "firstName": "Esmey",
+                        "lastName": "Leon",
+                        "bio": "Esmey is a Los Angeles based personal trainer and digital fitness instructor who has helped people achieve their goals and live their best lives for nearly 20 years. She holds NASM personal training and group fitness certifications and is also a Mad Dogg Athletics certified spinning instructor.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bf7bcedc1d2a20eb3037f4e7093049edbfbcfd4f-684x1088.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0017",
+                      "durationActual": 1836,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "YKpqkp1XqM10L3zGPSmUDe": {
+                    "_id": "YKpqkp1XqM10L3zGPSmUDe",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-teams-timers-8-bburn0016",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JaredSklar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JaredSklar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: Teams & Timers",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/105e7ab171c30b967768acc9303f00506aa2c43d-730x496.jpg"
+                    },
+                    "descriptionLong": "Steep hills and all-out intervals await you in this fun, high-intensity cardio class that will leave your legs burning and heart pounding. Clip in and keep up as your instructor challenges you to push your limits and achieve a whole new level of fitness.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jared-sklar",
+                        "firstName": "Jared",
+                        "lastName": "Sklar",
+                        "bio": "Jared is a triathlete and certified indoor cycling instructor who is constantly exploring new ways to innovate bike training and help his students blow past their goals. When you join Jared\u2019s class, you can expect a ton of energy, hype playlists, heavy hills, heart-pounding sprints, and to always leave sweaty and smiling.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0016",
+                      "durationActual": 1946,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "YKpqkp1XqM10L3zGPSmWIS": {
+                    "_id": "YKpqkp1XqM10L3zGPSmWIS",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-teams-timers-5-bburn0015",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JennyJaucian"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JennyJaucian"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: Teams & Timers",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fa7a07946f7a65bd91f5f8fe7f3e086d58d81701-730x496.jpg"
+                    },
+                    "descriptionLong": "Steep hills and all-out intervals await you in this fun, high-intensity cardio class that will leave your legs burning and heart pounding. Clip in and keep up as your instructor challenges you to push your limits and achieve a whole new level of fitness.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jenny-jaucian",
+                        "firstName": "Jenny",
+                        "lastName": "Jaucian",
+                        "bio": "Known for her infectious energy and motivational training style, Jenny will quickly become one of your go-to instructors. Her certifications include personal trainer (NASM), group fitness instructor (ACE), and indoor cycling instructor (Schwinn). If you\u2019re interested in strength training, cardio, or cycling, you don\u2019t want to miss her live classes.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0015",
+                      "durationActual": 1894,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "YKpqkp1XqM10L3zGPSmZJo": {
+                    "_id": "YKpqkp1XqM10L3zGPSmZJo",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-hills-2-bburn0013",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JustinFlexen"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JustinFlexen"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: Hills",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f8b0251803b71411fd6cd43f432a3e8dd4a03319-730x496.jpg"
+                    },
+                    "descriptionLong": "Your quads will be on fire by the time you tackle this uphill battle with a \"BURN\" at the very top! Embrace the challenge to elevate your endurance, boost lower-body power, and torch fat.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "justin-flexen",
+                        "firstName": "Justin",
+                        "lastName": "Flexen",
+                        "bio": "Justin is a NASM CPT and former dancer with a passion for health, wellness and positivity. Certified in Schwinn cycling, heart rate performance, and corrective exercise, he emphasizes good form and a good time in his workouts.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d03a111dbfa128f3659253da19464b6e65b07636-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0013",
+                      "durationActual": 1830,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "YKpqkp1XqM10L3zGPSmejU": {
+                    "_id": "YKpqkp1XqM10L3zGPSmejU",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-rhythm-ride-2-bburn0009",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=EsmeyLeon"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=EsmeyLeon"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: Rhythm Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f3468847fb7c81e788b2a01b8c0579a3f065f0d9-730x496.jpg"
+                    },
+                    "descriptionLong": "Pedal to the beat of a fire playlist to take your fitness to a whole new level. This high-energy, rhythm-focused ride will remind\u00a0you just\u00a0how fun working out can be.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "esmey-leon",
+                        "firstName": "Esmey",
+                        "lastName": "Leon",
+                        "bio": "Esmey is a Los Angeles based personal trainer and digital fitness instructor who has helped people achieve their goals and live their best lives for nearly 20 years. She holds NASM personal training and group fitness certifications and is also a Mad Dogg Athletics certified spinning instructor.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bf7bcedc1d2a20eb3037f4e7093049edbfbcfd4f-684x1088.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0009",
+                      "durationActual": 1874,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "YKpqkp1XqM10L3zGPSmfjw": {
+                    "_id": "YKpqkp1XqM10L3zGPSmfjw",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-hills-the-gear-up-bburn0008",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JaredSklar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JaredSklar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: Hills (The Gear-Up)",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bfb271b037c090270cfcf1dbb2fbdbc0878ddfc8-730x496.jpg"
+                    },
+                    "descriptionLong": "It\u2019s time to head for the hills. In this challenging cardio workout, you\u2019ll tackle simulated steep terrain that culminates in \u201cThe Gear-Up,\u201d a final block of work that challenges you to conquer increasingly long climbs as you grind to the finish\u2014and glory.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jared-sklar",
+                        "firstName": "Jared",
+                        "lastName": "Sklar",
+                        "bio": "Jared is a triathlete and certified indoor cycling instructor who is constantly exploring new ways to innovate bike training and help his students blow past their goals. When you join Jared\u2019s class, you can expect a ton of energy, hype playlists, heavy hills, heart-pounding sprints, and to always leave sweaty and smiling.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0008",
+                      "durationActual": 1825,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "YKpqkp1XqM10L3zGPSmgJ4": {
+                    "_id": "YKpqkp1XqM10L3zGPSmgJ4",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-all-terrain-bburn0007",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JennyJaucian"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JennyJaucian"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: All Terrain",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ea019388ab3aa36b9401b1505d75415efc13a741-730x496.jpg"
+                    },
+                    "descriptionLong": "Experience the benefits of an intense outdoor ride without ever leaving the great indoors. Rolling hills, fast sprints, steep climbs, and sustained surges will make sure you end your workout sweaty, breathless, and ready for more.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jenny-jaucian",
+                        "firstName": "Jenny",
+                        "lastName": "Jaucian",
+                        "bio": "Known for her infectious energy and motivational training style, Jenny will quickly become one of your go-to instructors. Her certifications include personal trainer (NASM), group fitness instructor (ACE), and indoor cycling instructor (Schwinn). If you\u2019re interested in strength training, cardio, or cycling, you don\u2019t want to miss her live classes.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0007",
+                      "durationActual": 1825,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "YKpqkp1XqM10L3zGPSmgsC": {
+                    "_id": "YKpqkp1XqM10L3zGPSmgsC",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-hiit-it-2-bburn0006",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JustinFlexen"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JustinFlexen"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: HIIT It!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/060a3c4d2861698e3cc13d46bb526e268b86d60c-730x496.jpg"
+                    },
+                    "descriptionLong": "Crank up your calorie furnace and build speed and endurance with a high-intensity interval session that will put your focus and stamina to the test. It\u2019s only 30 minutes from start to finish, so HIIT it hard and hold nothing back!",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "justin-flexen",
+                        "firstName": "Justin",
+                        "lastName": "Flexen",
+                        "bio": "Justin is a NASM CPT and former dancer with a passion for health, wellness and positivity. Certified in Schwinn cycling, heart rate performance, and corrective exercise, he emphasizes good form and a good time in his workouts.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d03a111dbfa128f3659253da19464b6e65b07636-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0006",
+                      "durationActual": 1836,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "YKpqkp1XqM10L3zGPSmkaU": {
+                    "_id": "YKpqkp1XqM10L3zGPSmkaU",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-teams-timers-bburn0005",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JaredSklar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JaredSklar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: Teams & Timers",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d8c4a35a2167548650c77c654269f15e24770145-730x496.jpg"
+                    },
+                    "descriptionLong": "Steep hills and all-out intervals await you in this fun, high-intensity cardio class that will leave your legs burning and heart pounding. Clip in and keep up as your instructor challenges you to push your limits and achieve a whole new level of fitness.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jared-sklar",
+                        "firstName": "Jared",
+                        "lastName": "Sklar",
+                        "bio": "Jared is a triathlete and certified indoor cycling instructor who is constantly exploring new ways to innovate bike training and help his students blow past their goals. When you join Jared\u2019s class, you can expect a ton of energy, hype playlists, heavy hills, heart-pounding sprints, and to always leave sweaty and smiling.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0005",
+                      "durationActual": 1924,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "YKpqkp1XqM10L3zGPSmnnY": {
+                    "_id": "YKpqkp1XqM10L3zGPSmnnY",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-rhythm-ride-bburn0004",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShantaniMoore"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=ShantaniMoore"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: Rhythm Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/86c19581b0a3b73c4ab0bb88f61cec3258b1efc6-730x496.jpg"
+                    },
+                    "descriptionLong": "Pedal to the beat of a fire playlist to take your fitness to a whole new level. This high-energy, rhythm-focused ride will remind\u00a0you just\u00a0how fun working out can be.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "shantani-moore",
+                        "firstName": "Shantani",
+                        "lastName": "Moore",
+                        "bio": "Born and raised in Southern California, Shantani was a professional dancer before launching a career in fitness that has seen her train people all over the world and partner with such brands as lululemon and Mirror. Whether she\u2019s leading a cycling class or guiding a sound bath, Shantani inspires people to live their best lives and tap into what makes them hype.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f448c3bf7a764ddbf8f7fa518dc599fc4938fea-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0004",
+                      "durationActual": 1835,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "YKpqkp1XqM10L3zGPSmok6": {
+                    "_id": "YKpqkp1XqM10L3zGPSmok6",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-hills-bburn0003",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JennyJaucian"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JennyJaucian"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: Hills",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d55d5cb2da214b39ca723d3d23ee88c115fa8ca5-730x496.jpg"
+                    },
+                    "descriptionLong": "Your quads will be on fire by the time you finish this uphill battle. Embrace the burn to elevate your endurance, boost lower-body power, and torch fat.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jenny-jaucian",
+                        "firstName": "Jenny",
+                        "lastName": "Jaucian",
+                        "bio": "Known for her infectious energy and motivational training style, Jenny will quickly become one of your go-to instructors. Her certifications include personal trainer (NASM), group fitness instructor (ACE), and indoor cycling instructor (Schwinn). If you\u2019re interested in strength training, cardio, or cycling, you don\u2019t want to miss her live classes.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0003",
+                      "durationActual": 1837,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "YKpqkp1XqM10L3zGPSmpge": {
+                    "_id": "YKpqkp1XqM10L3zGPSmpge",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-all-terrain-fast-pass-bburn0002",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=EsmeyLeon"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=EsmeyLeon"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: All Terrain (Fast Pass)",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c736de55d9b52dbf30a32cdf91197c09adcc60cb-730x496.jpg"
+                    },
+                    "descriptionLong": "This class starts out in the same way as our popular all-terrain rides, but it ends with a unique challenge: Fast Pass\u2014a sequence of eight intervals, each of which requires you to imagine you\u2019re passing the rider in front of you. Go get \u2019em!",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "esmey-leon",
+                        "firstName": "Esmey",
+                        "lastName": "Leon",
+                        "bio": "Esmey is a Los Angeles based personal trainer and digital fitness instructor who has helped people achieve their goals and live their best lives for nearly 20 years. She holds NASM personal training and group fitness certifications and is also a Mad Dogg Athletics certified spinning instructor.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bf7bcedc1d2a20eb3037f4e7093049edbfbcfd4f-684x1088.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0002",
+                      "durationActual": 1830,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "nCMKwNlqc1luzZCDyjUSo5": {
+                    "_id": "nCMKwNlqc1luzZCDyjUSo5",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-rhythm-ride-5-bburn0014",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JennyJaucian"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JennyJaucian"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: Rhythm Ride",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5b40493a2aa07611566a9af1349837c73c3f43a5-730x496.jpg"
+                    },
+                    "descriptionLong": "Pedal to the beat of a fire playlist to take your fitness to a whole new level. This high-energy, rhythm-focused ride will remind\u00a0you just\u00a0how fun working out can be.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jenny-jaucian",
+                        "firstName": "Jenny",
+                        "lastName": "Jaucian",
+                        "bio": "Known for her infectious energy and motivational training style, Jenny will quickly become one of your go-to instructors. Her certifications include personal trainer (NASM), group fitness instructor (ACE), and indoor cycling instructor (Schwinn). If you\u2019re interested in strength training, cardio, or cycling, you don\u2019t want to miss her live classes.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0014",
+                      "durationActual": 1816,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "nCMKwNlqc1luzZCDyjUUMM": {
+                    "_id": "nCMKwNlqc1luzZCDyjUUMM",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-hiit-it-5-bburn0011",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JaredSklar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JaredSklar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: HIIT It!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/56619b6b3e920a17346427d8cbf7bcbe41e20e4e-730x496.jpg"
+                    },
+                    "descriptionLong": "Crank up your calorie furnace and build speed and endurance with a high-intensity interval session that will put your focus and stamina to the test. It\u2019s only 30 minutes from start to finish, so HIIT it hard and hold nothing back!",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jared-sklar",
+                        "firstName": "Jared",
+                        "lastName": "Sklar",
+                        "bio": "Jared is a triathlete and certified indoor cycling instructor who is constantly exploring new ways to innovate bike training and help his students blow past their goals. When you join Jared\u2019s class, you can expect a ton of energy, hype playlists, heavy hills, heart-pounding sprints, and to always leave sweaty and smiling.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0011",
+                      "durationActual": 1810,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "nCMKwNlqc1luzZCDyjUUr5": {
+                    "_id": "nCMKwNlqc1luzZCDyjUUr5",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-teams-timers-2-bburn0010",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JaredSklar"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JaredSklar"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: Teams & Timers",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d2fe70850aa505a64fb77e63aa1e75e47c1b2e93-730x496.jpg"
+                    },
+                    "descriptionLong": "Steep hills and all-out intervals await you in this fun, high-intensity cardio class that will leave your legs burning and heart pounding. Clip in and keep up as your instructor challenges you to push your limits and achieve a whole new level of fitness.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "jared-sklar",
+                        "firstName": "Jared",
+                        "lastName": "Sklar",
+                        "bio": "Jared is a triathlete and certified indoor cycling instructor who is constantly exploring new ways to innovate bike training and help his students blow past their goals. When you join Jared\u2019s class, you can expect a ton of energy, hype playlists, heavy hills, heart-pounding sprints, and to always leave sweaty and smiling.",
+                        "images": {
+                          "cutout": {
+                            "url": null
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0010",
+                      "durationActual": 1891,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "nCMKwNlqc1luzZCDyjUYz8": {
+                    "_id": "nCMKwNlqc1luzZCDyjUYz8",
+                    "_type": "workout",
+                    "slug": "bburn-bike-burnathon-hiit-it-bburn0001",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=JustinFlexen"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=JustinFlexen"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bike Burnathon: HIIT It!",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/18adcf94e1443a447d6144598e1fb721a5ccff36-730x496.jpg"
+                    },
+                    "descriptionLong": "Crank up your calorie furnace and build speed and endurance with a high-intensity interval session that will put your focus and stamina to the test. It\u2019s only 30 minutes from start to finish, so HIIT it hard and hold nothing back!",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cycling",
+                        "slug": "cycling"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bike"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "justin-flexen",
+                        "firstName": "Justin",
+                        "lastName": "Flexen",
+                        "bio": "Justin is a NASM CPT and former dancer with a passion for health, wellness and positivity. Certified in Schwinn cycling, heart rate performance, and corrective exercise, he emphasizes good form and a good time in his workouts.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d03a111dbfa128f3659253da19464b6e65b07636-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0001",
+                      "durationActual": 1834,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "xWgjt0RnNiL4VWepWqRmFb": {
+                    "_id": "xWgjt0RnNiL4VWepWqRmFb",
+                    "_type": "workout",
+                    "slug": "bburn-yoga-for-cyclists-bburn0018",
+                    "brandCode": "BBURN",
+                    "primaryParent": {
+                      "_id": "bYftErc2YZUYngUHss4cbo",
+                      "_type": "program",
+                      "slug": "bike-burnathon"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShantaniMoore"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBURN&locale=en_us&trainerName=ShantaniMoore"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Yoga for Cyclists",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fb847ab06072cb4eeb0c70c21ca76513d0670f26-730x496.jpg"
+                    },
+                    "descriptionLong": "Unclip and unwind with this relaxing total-body flow. It\u2019s an ideal way to build and maintain performance-enhancing mobility between training sessions.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shantani-moore",
+                        "firstName": "Shantani",
+                        "lastName": "Moore",
+                        "bio": "Born and raised in Southern California, Shantani was a professional dancer before launching a career in fitness that has seen her train people all over the world and partner with such brands as lululemon and Mirror. Whether she\u2019s leading a cycling class or guiding a sound bath, Shantani inspires people to live their best lives and tap into what makes them hype.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f448c3bf7a764ddbf8f7fa518dc599fc4938fea-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "BBURN0018",
+                      "durationActual": 1864,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223511459,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "bike-burnathon",
+              "en-US"
+            ],
+            "queryHash": "[\"bike-burnathon\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/bike-burnathon/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "bike-burnathon",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

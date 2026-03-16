@@ -1,0 +1,3919 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "unstress-21-days-of-meditation",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                "_type": "program",
+                "slug": "unstress-21-days-of-meditation",
+                "title": "UNSTRESS \u2013 21 DAYS OF MEDITATION",
+                "subtitle": null,
+                "brandCode": "US21",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Unstress - 21 Days of Meditation",
+                  "description": "Melt away stress and anxiety with this 21-day guided meditation program. Unstress meditation can help you improve focus and clarity, and feel more relaxed. Sign up today!",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f76133c016a1de4287a07d7614a4f4d8a4d91590-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Suze",
+                    "lastName": "Yalof Schwartz",
+                    "bioBodi": "Suze is the founder and CEO of Unplug Meditation, the world's first drop-in, secular meditation studio, the creator of the Unplug Meditation app, and the author of Unplug: A Simple Guide to Meditation for Busy Skeptics and Modern Soul Seekers. Stream her Meditation Minutes on BODi anytime you need to de-stress, refocus, or find peace and calm.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ea576ea3e3208af53d83dba3547fe67f8870daab-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#000000",
+                "colorPrimaryOptions": {
+                  "argb": "#000000",
+                  "rgba": "#000000"
+                },
+                "descriptionShort": "Melt away stress and anxiety with this guided meditation program.",
+                "descriptionLong": "Melt away stress and anxiety with this 21-day guided meditation program. Quick and easy 10-minute sessions help you feel more relaxed, calm, and in control.",
+                "sampleWorkoutId": "A3jSdym3jf5hqTWanxQtA7",
+                "trailerId": null,
+                "videoOverviewId": "A3jSdym3jf5hqTWanxQtA7",
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/unstress-21-days-of-meditation"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "10"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Meditations",
+                  "value": "21"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Meditations",
+                  "value": "21"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": null,
+                "equipmentRecommended": null,
+                "categories": [
+                  {
+                    "title": "Meditation"
+                  },
+                  {
+                    "title": "Recovery"
+                  }
+                ],
+                "level": {
+                  "title": "Beginner",
+                  "slug": "beginner",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "light",
+                  "gradientOpacity": 70,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/60d29056278dd67246027039d4c82879da62379c-2509x672.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/15f5a6beda8a938585656e795b7aa67f298440ff-2509x672.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5a5ffebe6f5b68f0a1792d4b3be3c0559736e498-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a4af2b7ce4ed50f1c9df2a03fb55b6904959ad61-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ebe35e0a855e14efebf411a0547925b3f4eec6de-2560x749.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4b3974d5296980e87b65c2512a8098413a060016-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f76133c016a1de4287a07d7614a4f4d8a4d91590-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f76133c016a1de4287a07d7614a4f4d8a4d91590-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "",
+                        "categories": "Meditation, Recovery",
+                        "colorPrimary": "#000000",
+                        "colorPrimaryOptions": {
+                          "argb": "#000000",
+                          "rgba": "#000000"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "A3jSdym3jf5hqTWanxQtA7",
+                          "_type": "workout",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/19711ad2bb4874789e0fbe33b4b428f31d361b19-1310x698.jpg"
+                          },
+                          "videoId": "US210000A",
+                          "title": "Unstress Sample Meditation",
+                          "subtitle": "12m",
+                          "catalog": "bod"
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Meditations",
+                            "value": "21"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "10"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                            },
+                            "title": "Beginner"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPHSzg",
+                        "_type": "collection",
+                        "slug": "us21-getting-started",
+                        "title": "Getting Started",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "A3jSdym3jf5hqTWanxQtA7",
+                          "Q6j5eG7tj3PSUghmZGcnlj"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPHUJs",
+                        "_type": "collection",
+                        "slug": "unstress-21-days-of-meditation-featured-guides",
+                        "title": "Featured Guides",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGgvJn"
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7ucvSM",
+                        "_type": "editorial",
+                        "slug": "unstress-21-days-of-meditation-is-unstress-right-for-me",
+                        "title": "Is Unstress Right For Me?",
+                        "subtitle": null,
+                        "content": "Unstress meditation can help you melt away stress and anxiety, improve focus, clarity, and productivity, sleep better, and feel happier, calmer, and more relaxed. Expert instructors guide you through short daily sessions that help quiet your mind and anchor you in the present moment so you can feel more positive, empowered, and recharged.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0056d3d9a39c2fb6d7975a34207518a3670a0e10-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "View Meditations",
+                          "url": "https://www.beachbodyondemand.com/programs/unstress-21-days-of-meditation/meditations"
+                        }
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZGgzu7",
+                        "_type": "editorial",
+                        "slug": "unstress-21-days-of-meditation-what-are-the-meditations-like",
+                        "title": "What Are The Meditations Like?",
+                        "subtitle": null,
+                        "content": "Each daily meditation is about 10 minutes long, making it easy for beginners and engaging enough for seasoned meditators to commit to 21 days. You\u2019ll be guided into and out of your meditations by Unstress creator Suze Yalof Schwartz, so you always know what to expect. No equipment is required. All you have to do is close your eyes, open your ears, and breathe!",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/07d6f844549b0293fe947d67454a32a101762c0c-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "View Meditations",
+                          "url": "https://www.beachbodyondemand.com/programs/unstress-21-days-of-meditation/meditations"
+                        }
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Suze",
+                            "bio": "Suze is the founder and CEO of Unplug Meditation, the world's first drop-in, secular meditation studio, the creator of the Unplug Meditation app, and the author of Unplug: A Simple Guide to Meditation for Busy Skeptics and Modern Soul Seekers. Stream her Meditation Minutes on BODi anytime you need to de-stress, refocus, or find peace and calm.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ea576ea3e3208af53d83dba3547fe67f8870daab-860x964.png"
+                            },
+                            "social": []
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD9830",
+                        "_type": "collection",
+                        "slug": "us21-related-content",
+                        "title": "Unstress 21 Days of Meditation Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "2Y1ZDDXEx3aLPbgAHe1d7h",
+                          "vKPPpbqN0JH0WMoJVD7CKg",
+                          "vKPPpbqN0JH0WMoJVD7CDG",
+                          "vKPPpbqN0JH0WMoJVD7CS6",
+                          "vKPPpbqN0JH0WMoJVD7CcU",
+                          "2Y1ZDDXEx3aLPbgAHe1dmL",
+                          "2Y1ZDDXEx3aLPbgAHe1dNx"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdy317",
+                        "_type": "collection",
+                        "slug": "us21-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZHg52l",
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "BoGK5VlBLllbPFYTvOl1EW",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "Q6j5eG7tj3PSUghmZGiE7P",
+                          "Q6j5eG7tj3PSUghmZFsUmh"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Meditations",
+                    "slug": "meditations",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPHSzg",
+                        "_type": "collection",
+                        "slug": "us21-getting-started",
+                        "title": "Getting Started",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "A3jSdym3jf5hqTWanxQtA7",
+                          "Q6j5eG7tj3PSUghmZGcnlj"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZGgyHT",
+                        "_type": "collection",
+                        "slug": "us21-week-1",
+                        "title": "Week 1",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPFvQW",
+                          "Q6j5eG7tj3PSUghmZGdQgh",
+                          "BoGK5VlBLllbPFYTvPGE4e",
+                          "NWOt1I2xWP7xm05A7ubs3r",
+                          "BoGK5VlBLllbPFYTvPGV5c",
+                          "NWOt1I2xWP7xm05A7uc8GI",
+                          "Q6j5eG7tj3PSUghmZGedbT"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPHT3I",
+                        "_type": "collection",
+                        "slug": "us21-week-2",
+                        "title": "Week 2",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGf1Dr",
+                          "NWOt1I2xWP7xm05A7ucSpi",
+                          "BoGK5VlBLllbPFYTvPH3kO",
+                          "BoGK5VlBLllbPFYTvPH89A",
+                          "Q6j5eG7tj3PSUghmZGgBzH",
+                          "Q6j5eG7tj3PSUghmZGgZlj",
+                          "NWOt1I2xWP7xm05A7ucrWj"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZGgyP1",
+                        "_type": "collection",
+                        "slug": "unstress-week-3-2",
+                        "title": "Week 3",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPHPd2",
+                          "NWOt1I2xWP7xm05A7ucs3D",
+                          "NWOt1I2xWP7xm05A7ucsiF",
+                          "BoGK5VlBLllbPFYTvPHQfA",
+                          "BoGK5VlBLllbPFYTvPHQp6",
+                          "BoGK5VlBLllbPFYTvPHQsi",
+                          "BoGK5VlBLllbPFYTvPHR7A"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdy317",
+                        "_type": "collection",
+                        "slug": "us21-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZHg52l",
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "BoGK5VlBLllbPFYTvOl1EW",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "Q6j5eG7tj3PSUghmZGiE7P",
+                          "Q6j5eG7tj3PSUghmZFsUmh"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7ucutJ",
+                        "_type": "collection",
+                        "slug": "unstress-21-days-of-meditation-0",
+                        "title": "Program Materials",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGgvJn",
+                          "Q6j5eG7tj3PSUghmZGgwAd"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdy317",
+                        "_type": "collection",
+                        "slug": "us21-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZHg52l",
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "BoGK5VlBLllbPFYTvOl1EW",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "Q6j5eG7tj3PSUghmZGiE7P",
+                          "Q6j5eG7tj3PSUghmZFsUmh"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe1d7h": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe1d7h",
+                    "_type": "linkItem",
+                    "slug": "us21-now-available-relaxation-meditation-on-bod",
+                    "title": "Now Available: Relaxation & Meditation on BOD",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b29f06d41d1cf5a54228d49f6843ab9c1394095f-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/beachbody-relaxation-meditation",
+                    "isFavoritable": false
+                  },
+                  "2Y1ZDDXEx3aLPbgAHe1dNx": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe1dNx",
+                    "_type": "linkItem",
+                    "slug": "ram-la-difference-entre-jours-de-repos-et-recuperation-active",
+                    "title": "La Diff\u00e9rence Entre Jours de Repos et R\u00e9cup\u00e9ration Active",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a2f2f0d808971dc2dcf9d96d3a9d1998cb939fb7-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/la-difference-entre-jours-de-repos-et-recuperation-active",
+                    "isFavoritable": false
+                  },
+                  "2Y1ZDDXEx3aLPbgAHe1dmL": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe1dmL",
+                    "_type": "linkItem",
+                    "slug": "us21-ahora-disponible-relaxation-meditation-on-bod",
+                    "title": "Ahora Disponible: Relaxation & Meditation on BOD",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2877fbd59c32702eb293fd47a58915020611b0a3-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/beachbody-relaxation-meditation-es",
+                    "isFavoritable": false
+                  },
+                  "A3jSdym3jf5hqTWanxQtA7": {
+                    "_id": "A3jSdym3jf5hqTWanxQtA7",
+                    "_type": "workout",
+                    "slug": "us21-unstress-sample-meditation-us210000a",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Unstress Sample Meditation",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6b17440d096c00bb9e58403dd4170062ebe1f5e9-730x496.jpg"
+                    },
+                    "descriptionLong": "Breathe and get centered with a sample meditation from Unstress: 21 Days of Meditation for Relaxation, Calm and Less Anxiety. In this meditation you\u2019ll create and set a purpose for the day in your mind and heart. Instructor: Lauren Eckstrom",
+                    "durationEstimate": 720,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210000A",
+                      "durationActual": 742,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOl1EW": {
+                    "_id": "BoGK5VlBLllbPFYTvOl1EW",
+                    "_type": "program",
+                    "slug": "beachbody-yoga-studio",
+                    "brandCode": "BYS",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-10-18",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BYS&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Beachbody Yoga Studio",
+                    "description": "Improve strength and flexibility with a collection of yoga classes",
+                    "descriptionShort": "Improve strength and flexibility with a collection of yoga classes",
+                    "descriptionLong": "Improve strength and flexibility with a collection of yoga classes featuring Beachbody Super Trainers and Yoga Experts. Find the class that\u2019s right for you!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a336bf2f8a0f162ff79e5e0980fa60c91e80f9d-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ff71df312a02225595ed31d611cdbe5f31d9f5c0-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ff71df312a02225595ed31d611cdbe5f31d9f5c0-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a336bf2f8a0f162ff79e5e0980fa60c91e80f9d-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a336bf2f8a0f162ff79e5e0980fa60c91e80f9d-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c11488451d9203263eab6e3594409b28713436b2-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/98a33009f6b24474d539134219107bb0833d3f2a-580x100.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-90"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "114"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "94"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Yoga Strap or Towel"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPFvQW": {
+                    "_id": "BoGK5VlBLllbPFYTvPFvQW",
+                    "_type": "workout",
+                    "slug": "day-1-superpower-calm-us210001",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 1: Superpower: Calm",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/11d60b03d534cf491e9aab8ee86a9510e03e22ba-730x496.jpg"
+                    },
+                    "descriptionLong": "Tap into your unshakable superpower of CALM. Instructor: Lauren Eckstrom",
+                    "durationEstimate": 720,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210001",
+                      "durationActual": 726,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPGE4e": {
+                    "_id": "BoGK5VlBLllbPFYTvPGE4e",
+                    "_type": "workout",
+                    "slug": "day-3-your-best-self-us210003",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 3: Your Best Self",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b473c731b02369b4536ea3a5d5f3a7bc7dcd73df-730x496.jpg"
+                    },
+                    "descriptionLong": "Connect with your intentions so you can show up as your best self. Instructor: Megan Monahan",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210003",
+                      "durationActual": 662,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPGV5c": {
+                    "_id": "BoGK5VlBLllbPFYTvPGV5c",
+                    "_type": "workout",
+                    "slug": "day-5-relax-refuel-us210005",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 5: Relax & Refuel",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/81095c0a27bcd406c055bcb4a5830f00fceee914-730x496.jpg"
+                    },
+                    "descriptionLong": "Start your day slowly with easy breaths, a calm mind, and an uplifted spirit. Instructor: Heather Hayward",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210005",
+                      "durationActual": 676,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPH3kO": {
+                    "_id": "BoGK5VlBLllbPFYTvPH3kO",
+                    "_type": "workout",
+                    "slug": "day-10-lets-get-present-us210010",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 10: Let's Get Present",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e23fb96d70b71413353564d5de260a437079e19e-730x496.jpg"
+                    },
+                    "descriptionLong": "Practice being present to enjoy everything in your life more fully. Instructor: Sherly Sulaiman",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210010",
+                      "durationActual": 679,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPH89A": {
+                    "_id": "BoGK5VlBLllbPFYTvPH89A",
+                    "_type": "workout",
+                    "slug": "day-11-balance-flow-us210011",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 11: Balance & Flow",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5356ef1b04bcb10c3f9cff4748df143d64bd188e-730x496.jpg"
+                    },
+                    "descriptionLong": "This meditation incorporates some gentle movement to help dissolve stress, promote balance, and help you feel more connected. Instructor: Nicholas Pratley",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210011",
+                      "durationActual": 685,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPHPd2": {
+                    "_id": "BoGK5VlBLllbPFYTvPHPd2",
+                    "_type": "workout",
+                    "slug": "day-15-cultivating-gratitude-us210015",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 15: Cultivating Gratitude",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a691bea09dcd8b488c56573defbff03ba4de8034-730x496.jpg"
+                    },
+                    "descriptionLong": "Find space to feel truly thankful and appreciative for the blessings in your life. Instructor: Christina Huntington",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210015",
+                      "durationActual": 678,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPHQfA": {
+                    "_id": "BoGK5VlBLllbPFYTvPHQfA",
+                    "_type": "workout",
+                    "slug": "day-18-release-let-go-us210018",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 18: Release & Let Go",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/16a5467d1d36e1163eb9ae10b8c86f042b548935-730x496.jpg"
+                    },
+                    "descriptionLong": "Release stress as you break from feeling stuck in an uncomfortable space, and anchor yourself to a new sense of freedom. Instructor: Scott Schwenk",
+                    "durationEstimate": 600,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210018",
+                      "durationActual": 658,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPHQp6": {
+                    "_id": "BoGK5VlBLllbPFYTvPHQp6",
+                    "_type": "workout",
+                    "slug": "day-19-grounding-to-be-present-us210019",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 19: Grounding To Be Present",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/739b360bdf64ab6fbd2890be99235fa7e2772097-730x496.jpg"
+                    },
+                    "descriptionLong": "Practice the concept of grounding to still your mind and feel more centered. Instructor: Chris Johnson",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210019",
+                      "durationActual": 690,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPHQsi": {
+                    "_id": "BoGK5VlBLllbPFYTvPHQsi",
+                    "_type": "workout",
+                    "slug": "day-20-centering-breath-us210020",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 20: Centering Breath",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a86bf89167883d9c145a88b840c2bcbef54cc749-730x496.jpg"
+                    },
+                    "descriptionLong": "Learn how to use simple visualization and breathwork to focus on the moment on this beautiful new day. Instructor: Natalie Bell",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210020",
+                      "durationActual": 690,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPHR7A": {
+                    "_id": "BoGK5VlBLllbPFYTvPHR7A",
+                    "_type": "workout",
+                    "slug": "day-21-setting-intentions-before-your-day-us210021",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 21: Setting Intentions Before Your Day",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bda095e534a5a53e2b9dbd2bdd1d290774e8b41e-730x496.jpg"
+                    },
+                    "descriptionLong": "Each day offers new and exciting opportunities. Take advantage of them by establishing your priorities and direction. Instructor: Lauren Eckstrom",
+                    "durationEstimate": 600,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210021",
+                      "durationActual": 647,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ubs3r": {
+                    "_id": "NWOt1I2xWP7xm05A7ubs3r",
+                    "_type": "workout",
+                    "slug": "day-4-stillness-silence-within-us210004",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 4: Stillness & Silence Within",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c70ac90245da36fd729d3904ff526ee99bc91c4d-730x496.jpg"
+                    },
+                    "descriptionLong": "Meditation is all about cultivating the stillness and silence within. Davidji will guide you through a modern approach to an ancient technique to become as light and still as possible. Instructor: davidji",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210004",
+                      "durationActual": 695,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uc8GI": {
+                    "_id": "NWOt1I2xWP7xm05A7uc8GI",
+                    "_type": "workout",
+                    "slug": "day-6-morning-positive-mindset-us210006",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 6: Morning Positive Mindset",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/928efc131eb42a393822bb13bf2e70323f2e355e-730x496.jpg"
+                    },
+                    "descriptionLong": "From the moment you wake up, enjoy the optimism and empowerment of a positive mindset with this inspiring meditation. Instructor: Ali Owens",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210006",
+                      "durationActual": 709,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ucSpi": {
+                    "_id": "NWOt1I2xWP7xm05A7ucSpi",
+                    "_type": "workout",
+                    "slug": "day-9-a-clean-slate-us210009",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 9: A Clean Slate",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0b405fe56019afa413e07a9e06f6b559d731dd11-730x496.jpg"
+                    },
+                    "descriptionLong": "Let go of all your worries to wipe the slate clean and make room for personal transformation. Instructor: Ben Decker",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210009",
+                      "durationActual": 674,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ucrWj": {
+                    "_id": "NWOt1I2xWP7xm05A7ucrWj",
+                    "_type": "workout",
+                    "slug": "day-14-in-your-zone-us210014",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 14: In Your Zone",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/40d8c882865c9e96aae1c91ce60684e4b26d914e-730x496.jpg"
+                    },
+                    "descriptionLong": "Former NFL tight end Devon shares the routine he used to center himself before every game. Instructor: Devon Cajuste",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210014",
+                      "durationActual": 685,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ucs3D": {
+                    "_id": "NWOt1I2xWP7xm05A7ucs3D",
+                    "_type": "workout",
+                    "slug": "day-16-amplify-calm-us210016",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 16: Amplify Calm",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9a74b67c4ae41dd3e50179e7e4d8e7254d144248-730x496.jpg"
+                    },
+                    "descriptionLong": "Strengthen your ability to feel at ease despite the chaos of external circumstances. Instructor: Donovan McGrath",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210016",
+                      "durationActual": 720,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ucsiF": {
+                    "_id": "NWOt1I2xWP7xm05A7ucsiF",
+                    "_type": "workout",
+                    "slug": "day-17-body-communication-us210017",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 17: Body Communication",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/25f128bd9656ead06b5b4c7431c8c0b0a0357c25-730x496.jpg"
+                    },
+                    "descriptionLong": "Open a conversation with your physical being to discover what it really needs. Instructor: Cassandra Bodzak",
+                    "durationEstimate": 600,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210017",
+                      "durationActual": 613,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBym4R": {
+                    "_id": "Q6j5eG7tj3PSUghmZBym4R",
+                    "_type": "program",
+                    "slug": "barre-blend",
+                    "brandCode": "BBR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-11-25",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Barre Blend",
+                    "description": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionShort": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionLong": "Create a lean, toned physique through a fun fusion of ballet barre, Pilates, and cardio interval training. Feel the burn as you sweat, stretch, and strengthen to energize your entire body.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/40c285dad368b07f5b7b9034d1b5ebb8b7916ff8-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/636e5ddbe6d6bf30e8adeb2a3641650e75f24f1c-880x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-40"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "8"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "66"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Sturdy Chair or Ballet Barre"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZDbc5D": {
+                    "_id": "Q6j5eG7tj3PSUghmZDbc5D",
+                    "_type": "program",
+                    "slug": "3-week-yoga-retreat",
+                    "brandCode": "3YR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-08-31",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3YR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "3 Week Yoga Retreat",
+                    "description": "Want to learn Yoga? Master the fundamentals of yoga at home in just 21 days.",
+                    "descriptionShort": "Want to learn Yoga? Master the fundamentals of yoga at home in just 21 days.",
+                    "descriptionLong": "Created with beginners in mind, 3 Week Yoga Retreat will teach you simple, pure yoga for life-changing results. You'll build the skills you need to take any yoga class after these three weeks.\u200b",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5cbdbb898516c50bbaaceb8062c936fef4d548f-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5cbdbb898516c50bbaaceb8062c936fef4d548f-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2770051c67445d05d085fbc573916e487f464040-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1c5fcef36727497e17ad2cbbb770656baa6ae37c-480x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-32"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "3"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "39"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Yoga Strap"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Pillow"
+                      },
+                      {
+                        "title": "Yoga Blanket"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZFsUmh": {
+                    "_id": "Q6j5eG7tj3PSUghmZFsUmh",
+                    "_type": "program",
+                    "slug": "ppn-barre-blend",
+                    "brandCode": "BPPN",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2020-08-03",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BPPN&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjnN",
+                        "slug": "po-PPNBB_PERM",
+                        "title": "PPN Barre Blend Program Entitlement",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BPPN&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "Pre and Post-Natal Barre Blend",
+                    "description": "Optimize your pregnancy with these safe effective total body workouts.",
+                    "descriptionShort": "Optimize your pregnancy with these safe effective total body workouts.",
+                    "descriptionLong": "Help optimize your pregnancy journey with the performance-based program that blends barre, Pilates, and cardio interval training in safe and effective total-body workouts.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/523a8570da55a97a2b8e92616446858cdc13934b-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/99f40c416ab256037bc5dd9a414ce4883da42149-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/99f40c416ab256037bc5dd9a414ce4883da42149-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/523a8570da55a97a2b8e92616446858cdc13934b-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/523a8570da55a97a2b8e92616446858cdc13934b-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/83e2b48927015f74b5a21801f8fffa73960c9804-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8b4ac5e44ad3d4cb325208eeeff01d3bf30dd156-420x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Min/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Months",
+                      "value": "12"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "70"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Pre- & Post-Natal",
+                        "slug": "pre-post-natal"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Sturdy Chair"
+                      },
+                      {
+                        "title": "Set of Weights (1-5 lbs)"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGcnlj": {
+                    "_id": "Q6j5eG7tj3PSUghmZGcnlj",
+                    "_type": "promo",
+                    "slug": "getting-started-3-us210000",
+                    "brandCode": "US21",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "durationEstimate": 240,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e02abcd5aa761b5a16df838ae67537ebcaefbd96-730x496.jpg"
+                    },
+                    "title": "Getting Started",
+                    "descriptionLong": "Meet Suze Yalof Schwartz, CEO and founder of Unplug Meditation, as she walks you through the basics of the program. Instructor: Suze Yalof Schwartz",
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210000",
+                      "durationActual": 259,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGdQgh": {
+                    "_id": "Q6j5eG7tj3PSUghmZGdQgh",
+                    "_type": "workout",
+                    "slug": "day-2-being-present-us210002",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 2: Being Present",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6ecb6b69180191717efc52347f0b059232c29528-730x496.jpg"
+                    },
+                    "descriptionLong": "Tracee's guidance will help you anchor youself effortlessly to the present moment. Instructor: Tracee Stanley",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210002",
+                      "durationActual": 690,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGedbT": {
+                    "_id": "Q6j5eG7tj3PSUghmZGedbT",
+                    "_type": "workout",
+                    "slug": "day-7-blessed-not-stressed-us210007",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 7: Blessed Not Stressed",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d233c05bd7a1d40344b091ff7276871cc6e1642d-730x496.jpg"
+                    },
+                    "descriptionLong": "Move from a scarcity mindset to one of abundance. A beautiful meditation to soothe stress and transform negativity. Instructor: Shannon Algeo",
+                    "durationEstimate": 660,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210007",
+                      "durationActual": 680,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGf1Dr": {
+                    "_id": "Q6j5eG7tj3PSUghmZGf1Dr",
+                    "_type": "workout",
+                    "slug": "day-8-body-scan-us210008",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 8: Body Scan",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a7b9432ec41d466cf256bbc59b8a4a0232d86f6b-730x496.jpg"
+                    },
+                    "descriptionLong": "This body scan meditation will leave you feeling relaxed and rooted in the present moment. An incredibly soothing, pinpointed, full-body relaxation experience. Instructor: Camilla Sacre-Dallerup",
+                    "durationEstimate": 840,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210008",
+                      "durationActual": 878,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGgBzH": {
+                    "_id": "Q6j5eG7tj3PSUghmZGgBzH",
+                    "_type": "workout",
+                    "slug": "day-12-good-morning-energy-us210012",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 12: Good Morning Energy",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e2edeeb58f404fb49bd41ae6d4e7caad37c28edc-730x496.jpg"
+                    },
+                    "descriptionLong": "Power up with some energetic breathwork to get your blood flowing and your day going! Instructor: Raegan Loston",
+                    "durationEstimate": 360,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210012",
+                      "durationActual": 385,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGgZlj": {
+                    "_id": "Q6j5eG7tj3PSUghmZGgZlj",
+                    "_type": "workout",
+                    "slug": "day-13-transform-us210013",
+                    "brandCode": "US21",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SuzeYalofSchwartz"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=US21&locale=en_us&trainerName=SuzeYalofSchwartz"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 13: Transform",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/94ce90a3e93918626b0a7d4c9e0f094433c691c9-730x496.jpg"
+                    },
+                    "descriptionLong": "Meditation can be a powerful tool for personal transformation if you take the time to dive into it! Prepare to transform with this meditation. Instructor: Shayna Hiller",
+                    "durationEstimate": 600,
+                    "focusAreas": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "suze-yalof-schwartz",
+                        "firstName": "Suze",
+                        "lastName": "Yalof Schwartz",
+                        "bio": "Creator of Unstress, Suze Yalof Schwartz is the CEO and founder of the Unplug app and the world\u2019s first drop-in meditation studio, Unplug Meditation. Her mission is to make meditation simple, powerful, modern, and interesting enough that everyone will want to practice it. And now you can with Unstress!",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ecf257f167ed2e1c358d8ad7ad15d3108bdd33b5-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "US210013",
+                      "durationActual": 655,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGgvJn": {
+                    "_id": "Q6j5eG7tj3PSUghmZGgvJn",
+                    "_type": "resource",
+                    "slug": "us21-unstress-meditation-calendar-3597325",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Unstress Meditation Calendar",
+                    "categories": null,
+                    "description": "Ready to find relaxation, calm, and less anxiety? Just follow the simple Unstress calendar for the next 21-days. You can schedule your meditation times as you like each day, but just make sure you follow the meditations in the order they appear.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/00d725a8c5fc86e00d03e212da3a2c65cdda1913-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "uns_calendar_En.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/34cd95c461a69a8ca7bdab167fd687d39703a0c9.pdf?file=uns_calendar_En.pdf",
+                      "size": 40964
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGgwAd": {
+                    "_id": "Q6j5eG7tj3PSUghmZGgwAd",
+                    "_type": "resource",
+                    "slug": "us21-quick-start-guide-to-nutrition-3609276",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZGh4Rv",
+                      "_type": "program",
+                      "slug": "unstress-21-days-of-meditation"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Quick Start Guide to Nutrition",
+                    "categories": null,
+                    "description": "Keep your body fueled for total success and your best results. This guide helps you upgrade your eating habits to optimize your workout performance and create healthier habits throughout this program\u2013\u2013and beyond.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/406ed9a38e1f9b9cf74e531e7686290aa20a234a-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "US21-EN-Nutrition-1.11.2020-QuickStart.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/fc726e90caba339432b8074ca07effac3495adf7.pdf?file=US21-EN-Nutrition-1.11.2020-QuickStart.pdf",
+                      "size": 20608227
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGiE7P": {
+                    "_id": "Q6j5eG7tj3PSUghmZGiE7P",
+                    "_type": "program",
+                    "slug": "controlled-stretch",
+                    "brandCode": "9WCS",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2020-12-21",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=9WCS&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Controlled Stretch",
+                    "description": "Stretch your body and relax your mind with light, restorative routines.",
+                    "descriptionShort": "Stretch your body and relax your mind with light, restorative routines.",
+                    "descriptionLong": "Ease muscle tension, help boost blood flow, and reframe your mind with 10-minute restorative, light stretching and breathing routines to help you prepare for better sleep and recovery.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/76b5395ed8c13975c77c63183ad1253e06ccaf29-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f14c04e6104ca530c1c2dcd72f747faf194f69ad-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f14c04e6104ca530c1c2dcd72f747faf194f69ad-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/76b5395ed8c13975c77c63183ad1253e06ccaf29-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/76b5395ed8c13975c77c63183ad1253e06ccaf29-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/898852b90969fa97860a7e7263bfb92fd7fded69-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8e75d8b0a57729dbc6daa5985e5970b1c720b370-482x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Minutes",
+                      "value": "5-10"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Stretches",
+                      "value": "45"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Stretches",
+                      "value": "45"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Relaxation",
+                        "slug": "relaxation"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Ball"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHg52l": {
+                    "_id": "Q6j5eG7tj3PSUghmZHg52l",
+                    "_type": "program",
+                    "slug": "relaxation-meditation",
+                    "brandCode": "RAM",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2020-08-27",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=RAM&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Relaxation & Meditation",
+                    "description": "Relax, reduce anxiety, and feel good through guided meditation.",
+                    "descriptionShort": "Relax, reduce anxiety, and feel good through guided meditation.",
+                    "descriptionLong": "Relax, reduce anxiety, and feel good through the power of guided meditation. Quick, easy sessions calm your mind to help you unwind and de-stress, leaving you inspired, focused, and empowered.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/aec1289f8a825ff931472a83c547254ee83c6870-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e9399996b2568816c365872b5832077b22c9fafb-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e9399996b2568816c365872b5832077b22c9fafb-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/aec1289f8a825ff931472a83c547254ee83c6870-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/aec1289f8a825ff931472a83c547254ee83c6870-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b2d3e94baa3a39d208613f6582619714e54be821-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/48787a13db8f7acccd519ef5232acc9f7786fff5-898x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Meditations",
+                      "value": "99"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Meditations",
+                      "value": "99"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "vKPPpbqN0JH0WMoJVD7CDG": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7CDG",
+                    "_type": "linkItem",
+                    "slug": "us21-coming-soon-unstress-21-days-of-meditation",
+                    "title": "Unstress: 21 Days of Meditation",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f834c345138602e2f852a143fe6ef4ded16dc83d-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/unstress-21-days-of-meditation",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7CKg": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7CKg",
+                    "_type": "linkItem",
+                    "slug": "ram-how-to-meditate-every-day",
+                    "title": "How to Meditate Every Day",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a22ea20e54e2737c1ab08ebf06f8cdc2fd9f8540-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/how-to-meditate-daily",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7CS6": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7CS6",
+                    "_type": "linkItem",
+                    "slug": "us21-ahora-disponible-unstress-21-days-of-meditation",
+                    "title": "Ahora disponible \u2014 Unstress: 21 Days of Meditation",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/16f67cde86cef1500f3075db271435f364dfff1d-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/unstress-21-days-of-meditation-es",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7CcU": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7CcU",
+                    "_type": "linkItem",
+                    "slug": "us21-5-beneficios-de-meditar-10-minutos",
+                    "title": "5 Beneficios de Meditar 10 Minutos",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1da0e2e98812f6dd89104fcd8d18efe84ece1893-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/meditar-10-minutos",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223245577,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "unstress-21-days-of-meditation",
+              "en-US"
+            ],
+            "queryHash": "[\"unstress-21-days-of-meditation\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/unstress-21-days-of-meditation/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "unstress-21-days-of-meditation",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

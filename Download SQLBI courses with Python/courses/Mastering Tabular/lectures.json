@@ -1,0 +1,5601 @@
+{
+  "aC5723538-F475-4621-5EEE-6468103AE665": {
+    "parent": "aD92795D4-0AF8-02C9-BB33-63A20A7842D8",
+    "id": "0",
+    "title": "Analysis Services Tabular overview",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "575508785",
+    "duration": 1483,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m5728EE78-0049-6CB3-29B3-5FACD45831DE",
+        "time": 264,
+        "title": "Evolution of Microsoft BI tools",
+        "ref": ""
+      },
+      {
+        "id": "mCE1F0285-F022-8273-A475-36F25731FF43",
+        "time": 590,
+        "title": "Different professionals, different needs",
+        "ref": ""
+      },
+      {
+        "id": "mE7BC2A50-A14C-1F80-60E8-17199B49080A",
+        "time": 687,
+        "title": "Goals of this course",
+        "ref": ""
+      },
+      {
+        "id": "mCB9FC725-D569-9FED-6858-966280E4C764",
+        "time": 849,
+        "title": "What is not in the course",
+        "ref": ""
+      },
+      {
+        "id": "mD52ED6A9-5EF2-4438-7967-2B04EFC143FB",
+        "time": 937,
+        "title": "How to get the most out of this course",
+        "ref": ""
+      },
+      {
+        "id": "mF6F6DD16-1EEA-F0C1-90CD-B095201BFA28",
+        "time": 981,
+        "title": "Content of the course",
+        "ref": ""
+      },
+      {
+        "id": "mAE24437F-786A-9A80-752A-D02F7A80CD64",
+        "time": 1348,
+        "title": "Customize your training",
+        "ref": ""
+      }
+    ]
+  },
+  "aB63D1F5E-EBED-43A3-5076-44BB82F114FB": {
+    "parent": "aD92795D4-0AF8-02C9-BB33-63A20A7842D8",
+    "id": "152",
+    "title": "Links to external resources",
+    "type": "text",
+    "completed": false,
+    "text": "",
+    "video": "",
+    "duration": 0,
+    "nop": true,
+    "files": [
+      {
+        "title": "Introducing DAX free video course",
+        "url": "https://www.sqlbi.com/p/introducing-dax-video-course/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Mastering DAX video course",
+        "url": "https://www.sqlbi.com/p/mastering-dax-video-course/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Data modeling for Power BI video course",
+        "url": "https://www.sqlbi.com/p/data-modeling-for-power-bi-video-course/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Optimizing DAX video course",
+        "url": "https://www.sqlbi.com/p/optimizing-dax-video-course/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "DAX Tools free video course",
+        "url": "https://www.sqlbi.com/p/dax-tools-video-course/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Kimball star schema (reference)",
+        "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/star-schema-olap-cube/",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "aFEB67AF3-9D8B-1616-4647-978AC3603B6C": {
+    "parent": "a689E3146-D46D-308E-4F8A-FC371B1F08FC",
+    "id": "1",
+    "title": "Practice by repeating demos",
+    "type": "text",
+    "completed": false,
+    "text": "<p>In this section, you can download the slides used in the video course as reference material.</p>\r\n<p>You can also download the content used for the demos in the video course.</p>\r\n<p>You should practice by redoing the demos on your computer:</p>\r\n<ul>\r\n<li>Follow the instructions to <a href=\"https://www.sqlbi.com/learn/mastering-tabular-video-course/9/\" target=\"_blank\" rel=\"noopener noreferrer\">install the prerequisites and the Contoso databases</a> on SQL Server.</li>\r\n<li><a href=\"https://www.sqlbi.com/learn/mastering-tabular-video-course/3/\" target=\"_blank\" rel=\"noopener noreferrer\">Download the ZIP</a> file with the demo material and unzip the content in a local folder on your computer.</li>\r\n<li>The reference of each demo is designed to match the structure to the folder where the demo material can be found. For example, M04.L03.D01 stands for Module 04, Lecture 03, Demo 01.</li>\r\n<li>When there are different versions of the same file, the file with the \"- begin\" suffix is the initial state for the demo and the file with the \"- end\" suffix is the expected result if you apply the steps shown in the demo.</li>\r\n</ul>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "a757E4E02-236B-078E-854D-569C1577E140": {
+    "parent": "a689E3146-D46D-308E-4F8A-FC371B1F08FC",
+    "id": "3",
+    "title": "Demos download",
+    "type": "text",
+    "completed": false,
+    "text": "<p>The <strong>ZIP file</strong> contains all the files used in the demos of the video course. Download the file and unzip the content in a local folder on your computer.</p>\r\n<p>The <strong>BAK files</strong> are SQL Server backups that you can restore on SQL Server 2019. All the Contoso sample databases have the same structure, the only difference is their size. For example, Contoso 10K contains around 10,000 orders while Contoso 1M contains around 1 million orders. Most of the demos in the course use the Contoso 10K database, but different demos use different \u2013 larger \u2013 databases.</p>\r\n<p>The Contoso 100M database is relatively large (more than 2GB) and it is used only in the demos for parallel processing of partitions. If your computer cannot manage such a large database, you can practice the demo using the smaller one (Contoso 10M).</p>\r\n<p>If possible, we suggest restoring all the databases on your SQL Server 2019 instance. Follow the instructions at <a href=\"https://www.sqlbi.com/learn/mastering-tabular-video-course/11/\" target=\"_blank\" rel=\"noopener noreferrer\">Installing the prerequisites / SSMS and the demo database</a></p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "Demo files (all modules).zip",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Mastering Tabular Demos.zip?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=LBxXNT3fo4XMnvCfKOa5Ik0YHUE9rkJyb2hxpC5kUVQ%3D",
+        "size": "300.96 MB",
+        "type": "file"
+      },
+      {
+        "title": "Contoso 10K.bak",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Contoso 10K.bak?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=FMp7Y6DtR3BEoKitz%2FrSDf9qV%2FA3JqCu6w3ldxUXy%2BI%3D",
+        "size": "3.68 MB",
+        "type": "file"
+      },
+      {
+        "title": "Contoso 100K.bak",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Contoso 100K.bak?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=joMGPKLpxTPWa1svD%2BkSe7XT70uVFgi6%2BDrdjnEWMwE%3D",
+        "size": "7.69 MB",
+        "type": "file"
+      },
+      {
+        "title": "Contoso 1M.bak",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Contoso 1M.bak?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=Br6ofd7L9HQJ%2Fd4qOzb7Oyb1lvdFeSrmeKBDiW%2FoXBs%3D",
+        "size": "36.29 MB",
+        "type": "file"
+      },
+      {
+        "title": "Contoso 10M.bak",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Contoso 10M.bak?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=vDT7rbrONxCzt%2F3z5TLqwSWEmF6AhXKtgNjuPOWlcec%3D",
+        "size": "207.12 MB",
+        "type": "file"
+      },
+      {
+        "title": "Contoso 100M.bak",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Contoso 100M.bak?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=3567jHpypNQJIp9oafIHx1YkXjIB7cI%2FPKrDBOIvEIU%3D",
+        "size": "2.00 GB",
+        "type": "file"
+      }
+    ],
+    "markers": []
+  },
+  "aE71BD41B-CD35-E8B4-E5AB-D6FE6C959D40": {
+    "parent": "a689E3146-D46D-308E-4F8A-FC371B1F08FC",
+    "id": "4",
+    "title": "Slides of the video course",
+    "type": "text",
+    "completed": false,
+    "text": "<p>You can download a PDF with all the slides used in the video course.</p>\r\n<p>If you use the formats with 1, 2, and 6 slides per page the coverage of the page will be full \u2013 whereas with 3 slides per page you will have side space for your notes.</p>\r\n<p>The grayscale format is optimized for black & white printing.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "1 slide per page - full color.pdf",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Mastering Tabular - 1 slide per page - color.pdf?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=5HP%2BDh3wA%2F3VzvpvJZpyQxocLwb457GNtIdnAwZLZlw%3D",
+        "size": "9.09 MB",
+        "type": "file"
+      },
+      {
+        "title": "1 slide per page - gray scale.pdf",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Mastering Tabular - 1 slide per page - gray scale.pdf?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=SSUSOkSzO5M0LagshtYHCGOZ%2Bo80PTmuN5hJSbLYRvI%3D",
+        "size": "10.14 MB",
+        "type": "file"
+      },
+      {
+        "title": "2 slides per page - full color.pdf",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Mastering Tabular - 2 slides per page - color.pdf?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=wg7%2B3Nhki%2BEF95jW%2BwWX79PqlbDgQ73G1tGcEkIwlvE%3D",
+        "size": "7.76 MB",
+        "type": "file"
+      },
+      {
+        "title": "2 slides per page - gray scale.pdf",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Mastering Tabular - 2 slides per page - gray scale.pdf?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=o6iqvIODo9M6UOoxw0SZhizizA1OrreivjJ6SEapY38%3D",
+        "size": "7.32 MB",
+        "type": "file"
+      },
+      {
+        "title": "3 slides per page with side space for notes - full color.pdf",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Mastering Tabular - 3 slides per page - color.pdf?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=ztPInkgwcyk4fwiPYu0JNntBnA4Pmhgo5RJ9wQOYoH4%3D",
+        "size": "6.19 MB",
+        "type": "file"
+      },
+      {
+        "title": "3 slides per page with side space for notes - gray scale.pdf",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Mastering Tabular - 3 slides per page - gray scale.pdf?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=h9UrmPW9yyiHHn8tidLLe4ped0PXc93AdzhwiTb5d5U%3D",
+        "size": "4.22 MB",
+        "type": "file"
+      },
+      {
+        "title": "6 slides per page - full color.pdf",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Mastering Tabular - 6 slides per page - color.pdf?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=1vdZkGqfP77b4l9HG0HoUyhGAqucYUSKzc5CqjTCmD8%3D",
+        "size": "6.04 MB",
+        "type": "file"
+      },
+      {
+        "title": "6 slides per page - gray scale.pdf",
+        "url": "https://mysqlbi.blob.core.windows.net/masteringtabular/Mastering Tabular - 6 slides per page - gray scale.pdf?sv=2016-05-31&se=2023-06-11T11%3A59%3A42Z&sr=b&sp=r&spr=https&sig=sqanH2OTn3AqItVbdsn8HXoXS7zPtVHfjyFaqtviIdY%3D",
+        "size": "4.07 MB",
+        "type": "file"
+      }
+    ],
+    "markers": []
+  },
+  "a14B17950-02FF-7064-D08D-E32F8C38BB28": {
+    "parent": "aFA949534-5553-666B-BD95-6240A194C6C4",
+    "id": "5",
+    "title": "Introduction to Tabular models",
+    "type": "text",
+    "completed": false,
+    "text": "<p>The Tabular model is the core of the Analysis Services architecture that runs Power BI, Power Pivot for Excel, SQL Server Analysis Services, and Azure Analysis Services. This section introduces the protocols used by the different versions of Analysis Services and the structure of the Tabular Object Model shared by many different services.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "a376E6B12-3A2D-F09A-537A-6A60FF24FEC2": {
+    "parent": "aFA949534-5553-666B-BD95-6240A194C6C4",
+    "id": "6",
+    "title": "Analysis Services architecture",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549176505",
+    "duration": 987,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m99CA4DF8-2357-69DA-4BA0-9642F2DAF7A3",
+        "time": 49,
+        "title": "Analysis Services: Architecture",
+        "ref": ""
+      },
+      {
+        "id": "mBB7869B5-979A-E914-E222-D9375C190067",
+        "time": 498,
+        "title": "Compatibility Level",
+        "ref": ""
+      },
+      {
+        "id": "m6928B921-793C-6C5C-70E8-80D27EA924E2",
+        "time": 650,
+        "title": "The protocol matrix",
+        "ref": ""
+      },
+      {
+        "id": "mB9559A91-0FF5-26E0-53AC-D351CF1298AC",
+        "time": 882,
+        "title": "Analysis Services protocols",
+        "ref": ""
+      }
+    ]
+  },
+  "a19AAE092-3607-424C-3AEE-7E739E2FF1BC": {
+    "parent": "aFA949534-5553-666B-BD95-6240A194C6C4",
+    "id": "7",
+    "title": "Introduction to TOM",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549178401",
+    "duration": 974,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m5FF95C01-5F20-0C54-E4DF-06B4634D18E0",
+        "time": 81,
+        "title": "Tabular model architecture",
+        "ref": ""
+      },
+      {
+        "id": "m753A166B-754F-0DFD-19DF-6AB02F2D00C2",
+        "time": 161,
+        "title": "Model collections",
+        "ref": ""
+      },
+      {
+        "id": "mBC22A6AE-88F8-A8AB-4138-348EA3F6CCDD",
+        "time": 208,
+        "title": "Tabular object model (TOM)",
+        "ref": ""
+      },
+      {
+        "id": "mFD50F459-194D-CC56-083D-1EBE209222F7",
+        "time": 294,
+        "title": "Model.BIM",
+        "ref": ""
+      },
+      {
+        "id": "mAC52B905-2028-CC4C-BE21-255438A8F782",
+        "time": 409,
+        "title": "Model.BIM (demo)",
+        "ref": "M02.L02.D01"
+      },
+      {
+        "id": "m2A72CDB3-BA9C-161D-CC92-2F4821579738",
+        "time": 739,
+        "title": "Tools to create a Tabular model",
+        "ref": ""
+      }
+    ]
+  },
+  "a13ADF27E-BF9F-E37B-3A42-14C7AE721A3B": {
+    "parent": "aFA949534-5553-666B-BD95-6240A194C6C4",
+    "id": "8",
+    "title": "Architectural choices",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549180316",
+    "duration": 311,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "aBAC5A099-6241-2C2E-0FD0-45C4F891C1F2": {
+    "parent": "a8386B0C4-E0BF-6F41-A6E5-5CE8D9BA3651",
+    "id": "9",
+    "title": "Installing the prerequisites",
+    "type": "text",
+    "completed": false,
+    "text": "<p>This module guides you in the installation of the software required to practice redoing the demos shown in the training.</p>\r\n<p>You will see how to install:</p>\r\n<ul>\r\n<li>SQL Server 2019 (you can install SQL Server 2022 instead of 2019, in that case, <strong>pay attention to additional notes</strong> added between video lectures).</li>\r\n<li>SQL Server Analysis Services Tabular</li>\r\n<li>SQL Server Management Studio</li>\r\n<li>The Contoso demo databases</li>\r\n<li>Visual Studio 2019 (you can install Visual Studio 2022 instead of 2019, the Analysis Services project extension is supported since March 2023).</li>\r\n<li>Power BI Desktop</li>\r\n<li>Excel</li>\r\n<li>DAX Studio</li>\r\n<li>Tabular Editor 2</li>\r\n<li>Tabular Editor 3</li>\r\n<li>Analyze in Excel for Power BI Desktop</li>\r\n<li>ALM Toolkit</li>\r\n</ul>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "SQL Server 2019 Developer",
+        "url": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "SQL Server 2019 latest cumulative update",
+        "url": "https://www.microsoft.com/en-us/download/details.aspx?id=100809",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "SQL Server Management Studio (SSMS)",
+        "url": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Visual Studio 2019 Community Edition",
+        "url": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/system-requirements#download",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Power BI Desktop (download)",
+        "url": "https://powerbi.microsoft.com/downloads/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Power BI Report Server",
+        "url": "https://powerbi.microsoft.com/report-server/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Excel (Microsoft 365 trial)",
+        "url": "https://www.microsoft.com/en-us/microsoft-365/try",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Tabular Tools (collection)",
+        "url": "https://www.sqlbi.com/tools/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "DAX Studio",
+        "url": "https://daxstudio.org/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Tabular Editor 2",
+        "url": "https://github.com/TabularEditor/TabularEditor/releases/latest",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Tabular Editor 3",
+        "url": "https://tabulareditor.com/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Analyze in Excel for Power BI Desktop",
+        "url": "https://www.sqlbi.com/tools/analyze-in-excel-for-power-bi-desktop/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "ALM Toolkit",
+        "url": "http://alm-toolkit.com/",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "a4FAB183B-C6EA-3890-9423-80AFCC3F0030": {
+    "parent": "a8386B0C4-E0BF-6F41-A6E5-5CE8D9BA3651",
+    "id": "10",
+    "title": "SQL Server",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549180962",
+    "duration": 924,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mF1F0751A-E577-C98F-8C94-1A07A5DCFE46",
+        "time": 33,
+        "title": "Prerequisites",
+        "ref": ""
+      },
+      {
+        "id": "m920A971F-BAD8-C89E-B4BA-A0E56E7F3A59",
+        "time": 112,
+        "title": "SQL Server 2019",
+        "ref": ""
+      },
+      {
+        "id": "m6B86473F-7A30-04D1-19F5-0C7DDDFA0255",
+        "time": 175,
+        "title": "Installing SQL Server 2019 (setup)",
+        "ref": "M03.L01.D01"
+      }
+    ]
+  },
+  "a51E38C9E-9A80-2EF6-47FC-086DDBA45C93": {
+    "parent": "a8386B0C4-E0BF-6F41-A6E5-5CE8D9BA3651",
+    "id": "157",
+    "title": "Important notes about SQL Server 2019 and 2022",
+    "type": "text",
+    "completed": false,
+    "text": "<p>If you installed SQL Server 2022 instead of SQL Server 2019, there is an <strong>important difference</strong> in the next lecture: <strong>SSMS and the demo database / Demo database (setup)</strong>.</p>\r\n<p>The alias configuration in SQL Server 2022 is not possible if the computer does not have a previous installation of the SQL Server Native Client, which is made automatically in SQL Server 2019. If you want to <strong>configure database aliases on SQL Server 2022</strong>, please read the instructions described in this <strong>article: <a href=\"https://www.sqlbi.com/blog/marco/2023/01/08/creating-database-aliases-on-sql-server-2022/\">Creating database aliases on SQL Server 2022</a></strong></p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "a2FD244C5-C7CE-C718-D8F2-9F9E39497BDA": {
+    "parent": "a8386B0C4-E0BF-6F41-A6E5-5CE8D9BA3651",
+    "id": "11",
+    "title": "SSMS and the demo database",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549182201",
+    "duration": 789,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m471887D8-6E7B-896E-083E-F4D8B12378F4",
+        "time": 50,
+        "title": "SQL Server Management Studio (setup)",
+        "ref": "M03.L02.D01"
+      },
+      {
+        "id": "mF1DE4582-A350-AC2C-BF31-5B1220EC2FBE",
+        "time": 159,
+        "title": "Demo database",
+        "ref": ""
+      },
+      {
+        "id": "m6D1233F4-3A70-BF72-32D8-F563EA5BFB2F",
+        "time": 218,
+        "title": "Demo database (setup)",
+        "ref": "M03.L02.D02"
+      }
+    ]
+  },
+  "a9B27EE30-6C45-66E7-26FA-1368D70EB396": {
+    "parent": "a8386B0C4-E0BF-6F41-A6E5-5CE8D9BA3651",
+    "id": "156",
+    "title": "Important notes about Visual Studio 2019 and 2022",
+    "type": "text",
+    "completed": false,
+    "text": "<p><strong>Since March 2023, the Microsoft Analysis Services project is available also for Visual Studio 2022, so you can use Visual Studio 2022 instead of Visual Studio 2019.</strong></p>\r\n<p>If you practiced the course before March 2023, you had to use Visual Studio 2019 because the Analysis Services projects extension was unavailable. This is no longer the case since March 2023.</p>\r\n<p>However, if you still want to use Visual Studio 2019 to get the identical user interface as in the lectures, you can download Visual Studio 2019 at this link: <a href=\"https://docs.microsoft.com/en-us/visualstudio/releases/2019/system-requirements#download\" target=\"_blank\" rel=\"noopener noreferrer\">https://docs.microsoft.com/en-us/visualstudio/releases/2019/system-requirements#download</a>.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": true,
+    "files": [],
+    "markers": []
+  },
+  "a67571E80-B300-064E-D5B9-C61C81EB5C63": {
+    "parent": "a8386B0C4-E0BF-6F41-A6E5-5CE8D9BA3651",
+    "id": "12",
+    "title": "Visual Studio",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549183150",
+    "duration": 450,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m69391DED-168C-5E39-FC39-BD8D0C9F81A2",
+        "time": 40,
+        "title": "Visual Studio (setup)",
+        "ref": "M03.L03.D01"
+      },
+      {
+        "id": "m441972F4-7D7C-6703-E283-1B1ECF2B7AA1",
+        "time": 213,
+        "title": "Analysis Services Project",
+        "ref": ""
+      }
+    ]
+  },
+  "a4D9D8CAE-79ED-B54E-1EAB-A7145277CA85": {
+    "parent": "a8386B0C4-E0BF-6F41-A6E5-5CE8D9BA3651",
+    "id": "13",
+    "title": "Power BI Desktop and Excel",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549183692",
+    "duration": 1134,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m28C5CFFA-6077-570D-9454-4B687C3ACB4D",
+        "time": 133,
+        "title": "Power BI Desktop (Microsoft Store)",
+        "ref": "M03.L04.D01"
+      },
+      {
+        "id": "m6D195180-DBB4-41EF-CB4E-C228D226ADC2",
+        "time": 367,
+        "title": "Power BI Desktop (custom download)",
+        "ref": ""
+      },
+      {
+        "id": "m079CB491-1271-E72A-0446-DEE58A03390A",
+        "time": 656,
+        "title": "Power BI Desktop Report Server",
+        "ref": ""
+      },
+      {
+        "id": "m8B596401-E067-0BA7-31C0-3DB90A1965D4",
+        "time": 1021,
+        "title": "Excel",
+        "ref": ""
+      },
+      {
+        "id": "m6D5B6DDF-D7C2-311E-8CB3-49F63F28EE64",
+        "time": 1064,
+        "title": "Excel (setup)",
+        "ref": "M03.L04.D02"
+      }
+    ]
+  },
+  "aC159F723-E263-D05F-75C8-D7DA1F49EF63": {
+    "parent": "a8386B0C4-E0BF-6F41-A6E5-5CE8D9BA3651",
+    "id": "14",
+    "title": "Tabular development tools",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549185007",
+    "duration": 506,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m41AF4D45-9A38-BC8C-207A-BC98CBDF3604",
+        "time": 61,
+        "title": "Tabular development tools (setup)",
+        "ref": "M03.L05.D01"
+      },
+      {
+        "id": "m33E8AC1C-AD9C-CD02-A978-9F63797CBD99",
+        "time": 91,
+        "title": "Download external tools",
+        "ref": ""
+      },
+      {
+        "id": "mD698F7F0-9CFB-AEC7-78AB-2A99E9AB90D4",
+        "time": 110,
+        "title": "DAX Studio",
+        "ref": ""
+      },
+      {
+        "id": "m494D6335-B155-EACE-F05C-A215F57E4DD1",
+        "time": 211,
+        "title": "Tabular Editor 2",
+        "ref": ""
+      },
+      {
+        "id": "mFF2D8833-737F-C4C7-CB54-A4495B63691C",
+        "time": 270,
+        "title": "Tabular Editor 3",
+        "ref": ""
+      },
+      {
+        "id": "m9DBF5BB3-3BB3-9E9A-666C-902F75C496F0",
+        "time": 341,
+        "title": "Analyze in Excel for Power BI Desktop",
+        "ref": ""
+      },
+      {
+        "id": "m6C227F52-55EE-BE6E-64E7-07B62ADAC58E",
+        "time": 376,
+        "title": "ALM Toolkit ",
+        "ref": ""
+      },
+      {
+        "id": "m0E459D2B-A6E8-A6B7-FCC6-6F0088D22C0F",
+        "time": 445,
+        "title": "External Tools ribbon ",
+        "ref": ""
+      }
+    ]
+  },
+  "a151C52DE-6EA8-2BB8-707D-577966EAC871": {
+    "parent": "a872A6767-3CF8-0BA3-998F-831A6F5FD73F",
+    "id": "15",
+    "title": "Guided tour on Tabular",
+    "type": "text",
+    "completed": false,
+    "text": "<p>Learn how to create a Tabular model from scratch using different tools: Power BI Desktop, Visual Studio with Analysis Services Projects, Tabular Editor 2, and Tabular Editor 3.</p>\r\n<p>We strongly suggest you watch the demos with all the development tools, even if you already know some of the tools or if you plan to use only a few of them. We will not repeat the same concepts in all the tools. It is thus important to watch the complete list of lectures and demos in a sequential way the first time around, to make sure you understand all the different parts and tools involved in a complete Tabular model.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "aBE94B06D-7BC9-F054-742A-C079B03A09AE": {
+    "parent": "a872A6767-3CF8-0BA3-998F-831A6F5FD73F",
+    "id": "16",
+    "title": "Introducing the workspace database",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567380973",
+    "duration": 666,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mE2B52602-B599-87F1-2C33-D602DE0667FF",
+        "time": 72,
+        "title": "Guided tour: the tools",
+        "ref": ""
+      },
+      {
+        "id": "mEC2F548D-215F-AC2E-E119-836DFCC7358B",
+        "time": 179,
+        "title": "The workspace database",
+        "ref": ""
+      },
+      {
+        "id": "m466CACA6-08C6-E464-76AA-A159437ADC1F",
+        "time": 328,
+        "title": "Tools connected to a workspace database",
+        "ref": ""
+      },
+      {
+        "id": "mA5DFCC4E-4C5B-B219-1A6C-EAE19ED0043D",
+        "time": 534,
+        "title": "Different tools, different workspaces",
+        "ref": ""
+      }
+    ]
+  },
+  "aE8299A80-8F1B-4A1F-FF12-AB87AA4DF627": {
+    "parent": "a872A6767-3CF8-0BA3-998F-831A6F5FD73F",
+    "id": "17",
+    "title": "Introducing the guided tour",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567382925",
+    "duration": 218,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mD21FB11D-98ED-B785-4E46-7E6AD738EF6D",
+        "time": 112,
+        "title": "Guided tour: how to watch the demos",
+        "ref": ""
+      }
+    ]
+  },
+  "a9785068C-5AE8-6435-EF15-7F011749B083": {
+    "parent": "a872A6767-3CF8-0BA3-998F-831A6F5FD73F",
+    "id": "18",
+    "title": "Creating a model with Power BI Desktop",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567383512",
+    "duration": 2306,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m88E07845-1CBA-11C4-8291-5FFB51A8B855",
+        "time": 65,
+        "title": "Development process in Power BI Desktop",
+        "ref": ""
+      },
+      {
+        "id": "m1F1D0E08-D914-D8AD-CFF6-F3AEC96F186D",
+        "time": 333,
+        "title": "Introducing Power BI Desktop",
+        "ref": ""
+      },
+      {
+        "id": "m7A5920CA-08C7-41DA-E05A-3C588147FE50",
+        "time": 395,
+        "title": "Introducing Power BI Desktop (demo)",
+        "ref": "M04.L03.D01"
+      },
+      {
+        "id": "m3F90F509-685D-340B-0927-33228FC384B0",
+        "time": 640,
+        "title": "Loading data in Power BI Desktop",
+        "ref": ""
+      },
+      {
+        "id": "m511E6CCC-5981-6B13-552C-B9486402C78B",
+        "time": 694,
+        "title": "Loading data in Power BI Desktop (demo)",
+        "ref": "M04.L03.D02"
+      },
+      {
+        "id": "m9917AFC8-4067-E144-4127-A0EE3595BC8F",
+        "time": 1115,
+        "title": "Using the data view (demo)",
+        "ref": "M04.L03.D03"
+      },
+      {
+        "id": "mC53680EE-2EF0-0BE2-720F-98C460F3A7E8",
+        "time": 1274,
+        "title": "Using the diagram view (demo)",
+        "ref": "M04.L03.D04"
+      },
+      {
+        "id": "m92208A31-2682-4EF1-6B27-53EC865F3EBC",
+        "time": 1779,
+        "title": "Building a simple report (demo)",
+        "ref": "M04.L03.D05"
+      },
+      {
+        "id": "mE8F09768-DCA2-BBD4-44E9-DD63CB29C145",
+        "time": 2096,
+        "title": "Inspecting the content of a Power BI Desktop file",
+        "ref": ""
+      },
+      {
+        "id": "mACA8B526-A98F-21BB-B8E9-C6C0D4E47AF3",
+        "time": 2165,
+        "title": "Inspecting the content of a Power BI Desktop file (demo)",
+        "ref": "M04.L03.D06"
+      }
+    ]
+  },
+  "a407ED132-D3EF-89F5-72AB-58C69302BB30": {
+    "parent": "a872A6767-3CF8-0BA3-998F-831A6F5FD73F",
+    "id": "19",
+    "title": "Improving the model in Power BI Desktop",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567387246",
+    "duration": 3196,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m97FC1549-C29B-5BDF-E3BD-DADE19379B7E",
+        "time": 158,
+        "title": "Calculated columns in Power BI Desktop (demo)",
+        "ref": "M04.L04.D01"
+      },
+      {
+        "id": "m6C8A9102-6DC4-F90C-E9DF-2FDAC8C79273",
+        "time": 479,
+        "title": "Measures with Power BI Desktop",
+        "ref": ""
+      },
+      {
+        "id": "m504A1941-4891-60A7-66FC-16152EC43A2B",
+        "time": 627,
+        "title": "Measures with Power BI Desktop (demo)",
+        "ref": "M04.L04.D02"
+      },
+      {
+        "id": "m793DFD8D-F4D2-22D1-C4C3-72A4E7E18914",
+        "time": 938,
+        "title": "Measures vs calculated columns",
+        "ref": ""
+      },
+      {
+        "id": "m8766105C-8B38-1D1E-493E-DDC62B3C65C3",
+        "time": 979,
+        "title": "Measures vs calculated columns (demo)",
+        "ref": "M04.L04.D03"
+      },
+      {
+        "id": "m378AF751-7956-B63C-6032-9193792DC1C1",
+        "time": 1293,
+        "title": "Hierarchies with Power BI Desktop",
+        "ref": ""
+      },
+      {
+        "id": "m81AAF032-3571-A21B-8974-CD6765ADFD6E",
+        "time": 1416,
+        "title": "Hierarchies with Power BI Desktop (demo)",
+        "ref": "M04.L04.D04"
+      },
+      {
+        "id": "m9EA683BA-DFF4-9BA4-963E-69EC0BF88250",
+        "time": 1712,
+        "title": "Connecting the workspace database",
+        "ref": ""
+      },
+      {
+        "id": "m6BCC660A-456C-F63E-590A-0B4123365B32",
+        "time": 1944,
+        "title": "Connecting the workspace database (demo)",
+        "ref": "M04.L04.D05"
+      },
+      {
+        "id": "mD75ADE82-2385-BCD4-462E-8E5D11C8949F",
+        "time": 2393,
+        "title": "Calculated tables in Power BI Desktop",
+        "ref": ""
+      },
+      {
+        "id": "m721BE284-E2C3-60CE-856F-8CE1E36BBDC0",
+        "time": 2505,
+        "title": "Calculated tables in Power BI Desktop (demo)",
+        "ref": "M04.L04.D06"
+      },
+      {
+        "id": "m5892BD77-6FB0-2210-D154-5F33CB16118B",
+        "time": 2759,
+        "title": "Publishing to Power BI Service",
+        "ref": ""
+      },
+      {
+        "id": "m751717C5-D3D1-022F-2045-F7E14CF9B98B",
+        "time": 2879,
+        "title": "Publishing to Power BI Service (demo)",
+        "ref": "M04.L04.D07"
+      },
+      {
+        "id": "m2EB4809C-D0E6-A9CD-49E7-DB2C2B55234C",
+        "time": 3043,
+        "title": "Power BI Desktop (conclusion)",
+        "ref": ""
+      }
+    ]
+  },
+  "a419B738A-9457-4D96-9406-6E1464B49DF2": {
+    "parent": "a872A6767-3CF8-0BA3-998F-831A6F5FD73F",
+    "id": "20",
+    "title": "Getting started with Visual Studio",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567394432",
+    "duration": 3801,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mC78865D6-1C8A-C51C-DE64-B861F77229B7",
+        "time": 55,
+        "title": "Development process in Visual Studio",
+        "ref": ""
+      },
+      {
+        "id": "mF6E6BEE9-D5CD-FA39-BC75-E74493C9E0E2",
+        "time": 195,
+        "title": "Introducing Visual Studio",
+        "ref": ""
+      },
+      {
+        "id": "m65B88401-3C72-71F8-3A1F-79547F585C64",
+        "time": 274,
+        "title": "Introducing Visual Studio (demo)",
+        "ref": "M04.L05.D01"
+      },
+      {
+        "id": "mD2CE4210-1281-66C0-C5BF-48F2695BCC7F",
+        "time": 403,
+        "title": "Choosing the workspace database",
+        "ref": ""
+      },
+      {
+        "id": "mEAB81E2B-0F7F-08E3-FD49-74D4A8612555",
+        "time": 572,
+        "title": "Creating a Visual Studio solution (demo)",
+        "ref": "M04.L05.D02"
+      },
+      {
+        "id": "m9BF2DB20-2733-34FD-1E1E-E0278B467FDF",
+        "time": 756,
+        "title": "Loading data: data sources and tables",
+        "ref": ""
+      },
+      {
+        "id": "mA4CF31CC-4DBE-FDE1-4BCB-F8692300050E",
+        "time": 874,
+        "title": "Loading data (demo)",
+        "ref": "M04.L05.D03"
+      },
+      {
+        "id": "mD300E345-F6F4-1966-C756-D5B423669A16",
+        "time": 1128,
+        "title": "Using legacy data sources (demo)",
+        "ref": "M04.L05.D04"
+      },
+      {
+        "id": "mFBA8F253-68B1-0508-BFB4-FAE37488BD36",
+        "time": 1472,
+        "title": "Introducing the Visual Studio user interface",
+        "ref": ""
+      },
+      {
+        "id": "mEAC76EAF-7FA6-291D-8BCC-EDA6A62D7A69",
+        "time": 1555,
+        "title": "The Visual Studio user interface (demo)",
+        "ref": "M04.L05.D05"
+      },
+      {
+        "id": "m1CA4DE1B-285D-C24C-5824-EF0A2E423F84",
+        "time": 1850,
+        "title": "Using the grid view (demo)",
+        "ref": "M04.L05.D06"
+      },
+      {
+        "id": "mCB5F42E2-DC5E-B995-BE2F-FA3FB7E5C5B3",
+        "time": 1992,
+        "title": "The properties pane (demo)",
+        "ref": "M04.L05.D07"
+      },
+      {
+        "id": "mAE3E8725-2F52-C760-74BC-45E594C9F4A0",
+        "time": 2383,
+        "title": "Using the diagram view (demo)",
+        "ref": "M04.L05.D08"
+      },
+      {
+        "id": "m2122E287-5132-8C40-A192-6AB3E15197EF",
+        "time": 2643,
+        "title": "Creating calculated columns (demo)",
+        "ref": "M04.L05.D09"
+      },
+      {
+        "id": "m020E78A3-2E66-C61C-1546-E20CA40B5766",
+        "time": 2913,
+        "title": "Creating measures (demo)",
+        "ref": "M04.L05.D10"
+      },
+      {
+        "id": "m012D7393-BDD7-0413-37D3-3F2691042892",
+        "time": 3462,
+        "title": "Creating a calculated table (demo)",
+        "ref": "M04.L05.D11"
+      },
+      {
+        "id": "m1FD714A9-D9D9-E307-B680-5DC9359A11F5",
+        "time": 3664,
+        "title": "Creating hierarchies (demo)",
+        "ref": "M04.L05.D12"
+      }
+    ]
+  },
+  "a41A84A1D-5C67-BF06-DA69-6ED8F999FEEE": {
+    "parent": "a872A6767-3CF8-0BA3-998F-831A6F5FD73F",
+    "id": "21",
+    "title": "Testing reports with Visual Studio",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567401331",
+    "duration": 574,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m9EB3807B-2652-A0E6-4ACD-ECAA29E94AFD",
+        "time": 106,
+        "title": "Building test reports with Excel (demo)",
+        "ref": "M04.L06.D01"
+      },
+      {
+        "id": "m1F505FA4-EEEE-8718-3CF7-882F6CB5B560",
+        "time": 201,
+        "title": "Building test reports with Power BI Desktop (demo)",
+        "ref": "M04.L06.D02"
+      },
+      {
+        "id": "mEDEE82DA-7EF0-C313-E749-A50436E373FC",
+        "time": 400,
+        "title": "Building test reports with Power DAX Studio (demo)",
+        "ref": "M04.L06.D03"
+      }
+    ]
+  },
+  "a0501B54E-59FB-FAA4-3F81-923D1BE4E14C": {
+    "parent": "a872A6767-3CF8-0BA3-998F-831A6F5FD73F",
+    "id": "22",
+    "title": "Deploying models from Visual Studio",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567402317",
+    "duration": 2351,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mBCF22BF4-7BEF-AE09-B666-2A88389BA00D",
+        "time": 153,
+        "title": "Deploying the solution (demo)",
+        "ref": "M04.L07.D01"
+      },
+      {
+        "id": "m76AE9A23-1165-F2F6-6D9E-E62C3C1BABED",
+        "time": 980,
+        "title": "Using an external workspace database",
+        "ref": ""
+      },
+      {
+        "id": "m889E8B30-213F-7C98-D89B-14F74828AD67",
+        "time": 1083,
+        "title": "Using an external workspace database (demo)",
+        "ref": "M04.L07.D02"
+      },
+      {
+        "id": "mE00B2E74-FC8F-518E-BBDD-9447FB0B2D7D",
+        "time": 1875,
+        "title": "Importing a deployed database",
+        "ref": ""
+      },
+      {
+        "id": "m1BEB933F-0ABC-F1CC-9366-250282411E66",
+        "time": 1952,
+        "title": "Importing a deployed database (demo)",
+        "ref": "M04.L07.D03"
+      },
+      {
+        "id": "m130D47BC-2C55-E1BE-54F8-826EAE31CD27",
+        "time": 2203,
+        "title": "Visual Studio: conclusions",
+        "ref": ""
+      }
+    ]
+  },
+  "a67DF3DB9-0748-663E-1EDE-7FD21F31BFC1": {
+    "parent": "a872A6767-3CF8-0BA3-998F-831A6F5FD73F",
+    "id": "23",
+    "title": "Creating a model with Tabular Editor 2",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567407033",
+    "duration": 2330,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mDA135181-B147-5BA9-8F4F-CD61C145D8C3",
+        "time": 41,
+        "title": "Introducing Tabular Editor",
+        "ref": ""
+      },
+      {
+        "id": "mB9379A1B-5531-9F9A-A6B2-F3512F70755E",
+        "time": 280,
+        "title": "Development process in Tabular Editor",
+        "ref": ""
+      },
+      {
+        "id": "m79684002-E908-9F30-C531-62DC1E4AF3DB",
+        "time": 563,
+        "title": "Creating a model with Tabular Editor 2",
+        "ref": ""
+      },
+      {
+        "id": "m8BD8DC60-4A7B-3932-9545-0707110072AC",
+        "time": 669,
+        "title": "Creating a new project (demo)",
+        "ref": "M04.L08.D01"
+      },
+      {
+        "id": "m63263768-F5A8-2448-44FA-BFCC14D940D0",
+        "time": 1258,
+        "title": "Deploying the model (demo)",
+        "ref": "M04.L08.D02"
+      },
+      {
+        "id": "mCFAA499E-7C21-6D18-AA2B-A3E906D63D6C",
+        "time": 1549,
+        "title": "Creating calculated columns (demo)",
+        "ref": "M04.L08.D03"
+      },
+      {
+        "id": "mA66F8165-78B6-61D6-4674-18C8BF8E278F",
+        "time": 1944,
+        "title": "Creating measures (demo)",
+        "ref": "M04.L08.D04"
+      },
+      {
+        "id": "m67F12CFB-FD99-79BE-CEAB-6BC29AF11551",
+        "time": 2157,
+        "title": "Creating a calculated table (demo)",
+        "ref": "M04.L08.D05"
+      }
+    ]
+  },
+  "a2E196998-6742-CF77-ACEB-8269ABD57985": {
+    "parent": "a872A6767-3CF8-0BA3-998F-831A6F5FD73F",
+    "id": "24",
+    "title": "Different ways of working with Tabular Editor",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567410860",
+    "duration": 1372,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m199FA42A-875B-7EA2-201E-A3544BCF9291",
+        "time": 132,
+        "title": "Editing model.bim (demo)",
+        "ref": "M04.L09.D01"
+      },
+      {
+        "id": "mFE5B6C32-CCEF-85DC-8643-12AA754BD7E3",
+        "time": 432,
+        "title": "Different ways of working with Tabular Editor",
+        "ref": ""
+      },
+      {
+        "id": "m1996FEC8-4BAF-2ACA-BCB1-50467C6F6A48",
+        "time": 502,
+        "title": "Connecting to a database (demo)",
+        "ref": "M04.L09.D02"
+      },
+      {
+        "id": "m97C2BCEF-8194-2817-66FD-7D935E610208",
+        "time": 1040,
+        "title": "Advantages of disconnected edits",
+        "ref": ""
+      },
+      {
+        "id": "m0FF17C46-C79B-C8B2-74C0-E9B6B63BBE09",
+        "time": 1145,
+        "title": "Copy, Paste, Undo and Redo (demo)",
+        "ref": "M04.L09.D03"
+      },
+      {
+        "id": "m1F9ADBFD-7FC8-F427-450E-10351453597A",
+        "time": 1290,
+        "title": "Tabular Editor 2 (conclusions)",
+        "ref": ""
+      }
+    ]
+  },
+  "aEE6A0B4D-ECC9-3E23-F4AE-149B4A18445B": {
+    "parent": "a872A6767-3CF8-0BA3-998F-831A6F5FD73F",
+    "id": "25",
+    "title": "Working with Tabular Editor 3",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567413761",
+    "duration": 2367,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mD8D5C5C1-0E23-B564-9019-7244B1031DA6",
+        "time": 121,
+        "title": "Editing a model with Tabular Editor 3",
+        "ref": ""
+      },
+      {
+        "id": "m798A9958-36B6-270E-8CDD-BF8C90976848",
+        "time": 227,
+        "title": "Opening a data model (demo)",
+        "ref": "M04.L10.D01"
+      },
+      {
+        "id": "m84ECA331-2351-BC22-A70A-1DD6029A70EB",
+        "time": 422,
+        "title": "Saving workspace database connection (demo)",
+        "ref": "M04.L10.D02"
+      },
+      {
+        "id": "m683DECD9-EF47-2448-D52B-0779506E0D4B",
+        "time": 585,
+        "title": "Using the data preview (demo)",
+        "ref": "M04.L10.D03"
+      },
+      {
+        "id": "mCB9BAC73-337A-088D-6D88-F91032FA1A8E",
+        "time": 691,
+        "title": "Creating measures and calculated columns (demo)",
+        "ref": "M04.L10.D04"
+      },
+      {
+        "id": "mDD2DBAD1-6851-8903-946E-D8691C2E2CF3",
+        "time": 1146,
+        "title": "Tabular Editor 3 as a client tool",
+        "ref": ""
+      },
+      {
+        "id": "m6F0FF994-4FEB-7EFE-12A5-2FD58420AEE1",
+        "time": 1207,
+        "title": "Using the pivot grid and DAX queries (demo)",
+        "ref": "M04.L10.D05"
+      },
+      {
+        "id": "m64CFA141-38AA-7681-1935-CFDA49297595",
+        "time": 1414,
+        "title": "DAX editor and DAX scripting",
+        "ref": ""
+      },
+      {
+        "id": "mDF4A2603-B32A-7297-85FA-BDFDCD005058",
+        "time": 1533,
+        "title": "Using the DAX Script (demo)",
+        "ref": "M04.L10.D06"
+      },
+      {
+        "id": "mF3E28161-AB06-839A-0EEA-A4FBE100ADDD",
+        "time": 1715,
+        "title": "Using the diagram window",
+        "ref": ""
+      },
+      {
+        "id": "m874EA7B5-52E2-996B-A628-5A4684EAA171",
+        "time": 1791,
+        "title": "Using the diagram window (demo)",
+        "ref": "M04.L10.D07"
+      },
+      {
+        "id": "m92E496CE-C52F-13DE-A334-E198737967BD",
+        "time": 1964,
+        "title": "Power BI Desktop integration",
+        "ref": ""
+      },
+      {
+        "id": "m8D8F96B5-18C5-5280-4B06-B04FCC3DBD36",
+        "time": 2105,
+        "title": "Connecting to Power BI Desktop (demo)",
+        "ref": "M04.L10.D08"
+      },
+      {
+        "id": "mDBB2718D-6717-E3FA-03A8-A77167B53DF7",
+        "time": 2254,
+        "title": "Tabular Editor (conclusions)",
+        "ref": ""
+      }
+    ]
+  },
+  "a77FBE907-0A6D-8319-EB62-F591B64F4318": {
+    "parent": "a872A6767-3CF8-0BA3-998F-831A6F5FD73F",
+    "id": "26",
+    "title": "Conclusions",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567419212",
+    "duration": 108,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "a1BFD7EBA-6BF4-9A7D-3725-EF857DAC3C94": {
+    "parent": "aB5255B5E-5E75-1269-52C9-C945B681BCB0",
+    "id": "27",
+    "title": "Understanding model types",
+    "type": "text",
+    "completed": false,
+    "text": "<p>There are different model types in Tabular (Import, DirectQuery, composite models) that can use different storage technologies: VertiPaq, DirectQuery for relational sources, and DirectQuery for Analysis Services.</p>\r\n<p>This module explains the different architectures involved in each choice and clarifies the difference between a live connection to Analysis Services and a composite model with DirectQuery for Analysis Services.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "aFADD0B4A-985A-87D6-1317-D14B62DF5B04": {
+    "parent": "aB5255B5E-5E75-1269-52C9-C945B681BCB0",
+    "id": "28",
+    "title": "Basic model types",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549228567",
+    "duration": 576,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m346A9A4A-1AA8-DE90-FB0A-BE2BB02A87B5",
+        "time": 43,
+        "title": "AS storage technologies",
+        "ref": ""
+      },
+      {
+        "id": "m52785A44-6EC4-6ABD-951C-476FF6294BE4",
+        "time": 347,
+        "title": "VertiPaq model",
+        "ref": ""
+      }
+    ]
+  },
+  "aABD6D677-ABD2-7100-2146-F80F0C9E546D": {
+    "parent": "aB5255B5E-5E75-1269-52C9-C945B681BCB0",
+    "id": "29",
+    "title": "DirectQuery model types",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549229995",
+    "duration": 1088,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m6BF40723-B827-F3FD-C1F5-D2C01388E1CC",
+        "time": 368,
+        "title": "Live connection",
+        "ref": ""
+      },
+      {
+        "id": "m9648A2E8-9414-7BA1-3128-429E8699A33D",
+        "time": 463,
+        "title": "Composite models (SQL)",
+        "ref": ""
+      },
+      {
+        "id": "m24E29BBC-F02F-BC3C-6897-01208DBACC95",
+        "time": 647,
+        "title": "Composite models (AS)",
+        "ref": ""
+      },
+      {
+        "id": "m17BEA9E9-CA59-80E9-CD70-1A582FC528DD",
+        "time": 924,
+        "title": "Composite models (mixed)",
+        "ref": ""
+      }
+    ]
+  },
+  "a74E0FDFE-F671-B710-F4E9-71968C34D7DD": {
+    "parent": "aB5255B5E-5E75-1269-52C9-C945B681BCB0",
+    "id": "30",
+    "title": "Conclusions",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549232654",
+    "duration": 224,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "a32D1B846-35D3-731F-E048-6A6CD568D9F0": {
+    "parent": "a7A25416B-46A7-CC83-A200-4C6EF0ABAA17",
+    "id": "31",
+    "title": "Formula engine and storage engine",
+    "type": "text",
+    "completed": false,
+    "text": "<p>The DAX calculation engine uses two engines to execute a query: the formula engine and the storage engine. This module explains the different roles of these engines and how each query is executed in multiple steps using both engines.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "a544C52CE-BCE7-4B0B-DA4E-66FBB6B605CD": {
+    "parent": "a7A25416B-46A7-CC83-A200-4C6EF0ABAA17",
+    "id": "32",
+    "title": "Introduction to the AS engines",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549233193",
+    "duration": 454,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m9FE97350-A57E-F7DD-60C7-FE8D418CB75B",
+        "time": 52,
+        "title": "Tabular's two engines",
+        "ref": ""
+      },
+      {
+        "id": "mB4BF2CD2-C915-5BF7-AACB-445AA5F74DF4",
+        "time": 243,
+        "title": "Formula engine vs Storage engine",
+        "ref": ""
+      }
+    ]
+  },
+  "a9DFF3E75-0B33-36EC-DBCE-9E8CBBA050E9": {
+    "parent": "a7A25416B-46A7-CC83-A200-4C6EF0ABAA17",
+    "id": "33",
+    "title": "Introducing data islands",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549234442",
+    "duration": 218,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "aD04C8CE7-1469-5EB5-3A1B-AADFD3C9D033": {
+    "parent": "a7A25416B-46A7-CC83-A200-4C6EF0ABAA17",
+    "id": "34",
+    "title": "Using multiple data islands",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549235022",
+    "duration": 615,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m28209329-B2A4-ED75-60F0-1F95E73DA5FE",
+        "time": 233,
+        "title": "Running a cross-island query",
+        "ref": ""
+      }
+    ]
+  },
+  "a34D8A16B-A58D-3DEB-4BE5-6B467E4EF56A": {
+    "parent": "a7A25416B-46A7-CC83-A200-4C6EF0ABAA17",
+    "id": "35",
+    "title": "Final considerations and conclusions",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549236195",
+    "duration": 276,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m778003B4-79F6-DFDC-69D1-62283D26BC3B",
+        "time": 156,
+        "title": "Basic design principles",
+        "ref": ""
+      }
+    ]
+  },
+  "a352D9B88-45FF-08AC-0E49-013A414480D9": {
+    "parent": "a5B5B0719-9BD1-9AB0-1031-AB653AFB86A6",
+    "id": "36",
+    "title": "Data sources for Tabular",
+    "type": "text",
+    "completed": false,
+    "text": "<p>Every data model has one or more data sources that define how to retrieve data, by specifying the technology (legacy or structured), the driver, the authentication, and the transformations.</p>\r\n<p>This module also explains the role of the data gateway in cloud solutions, how to work with large tables, and whether to map tables or views from a relational database.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "Data Gateway (for Power BI and other Microsoft products)",
+        "url": "https://docs.microsoft.com/en-us/data-integration/gateway/",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "a88158028-35AD-80B8-4720-5CA786B23AAB": {
+    "parent": "a5B5B0719-9BD1-9AB0-1031-AB653AFB86A6",
+    "id": "37",
+    "title": "Introduction to data sources",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549264092",
+    "duration": 893,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mDA74995C-0DFC-9E44-A128-966BD00E85E9",
+        "time": 49,
+        "title": "Data sources for Tabular",
+        "ref": ""
+      },
+      {
+        "id": "m0C535670-B016-A240-C498-5CBEAD0D09D3",
+        "time": 130,
+        "title": "Data sources",
+        "ref": ""
+      },
+      {
+        "id": "m62FE0ABA-E258-4EDC-169A-AF06D212868E",
+        "time": 226,
+        "title": "Legacy and PowerQuery data sources",
+        "ref": ""
+      },
+      {
+        "id": "m94B0D10D-B223-8267-BBDE-91104BDA0DFF",
+        "time": 424,
+        "title": "Legacy data sources",
+        "ref": ""
+      },
+      {
+        "id": "m1CB0D6D5-8EFB-5B92-88E7-9EA096E15363",
+        "time": 529,
+        "title": "Creating legacy data sources (demo)",
+        "ref": "M07.L01.D01"
+      }
+    ]
+  },
+  "a7F8C9FFD-B475-C760-AE91-0A700BEA6B15": {
+    "parent": "a5B5B0719-9BD1-9AB0-1031-AB653AFB86A6",
+    "id": "38",
+    "title": "Power Query data sources",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549266205",
+    "duration": 1694,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mFE487D7A-A9E8-E013-CA17-8EFFFEB09120",
+        "time": 246,
+        "title": "Creating Power Query data sources (demo)",
+        "ref": "M07.L02.D01"
+      },
+      {
+        "id": "m82816D9A-E3C6-B044-79B1-64141CD2A787",
+        "time": 743,
+        "title": "Query folding",
+        "ref": ""
+      },
+      {
+        "id": "mB91D1D03-6DA6-82B9-D4DB-7F14CB5CCBA1",
+        "time": 890,
+        "title": "Query folding (demo)",
+        "ref": "M07.L02.D02"
+      },
+      {
+        "id": "m25402D6B-F2FD-7408-7A55-2F2E04960840",
+        "time": 1372,
+        "title": "Shared expressions",
+        "ref": ""
+      },
+      {
+        "id": "mCA688649-B3C5-0CD8-EE17-8F2CCDF2AB40",
+        "time": 1468,
+        "title": "Shared expressions (demo)",
+        "ref": "M07.L02.D03"
+      }
+    ]
+  },
+  "a5FAB3532-AFF9-F565-DA52-53797721C9DF": {
+    "parent": "a5B5B0719-9BD1-9AB0-1031-AB653AFB86A6",
+    "id": "39",
+    "title": "Authentication and impersonation",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549270306",
+    "duration": 1811,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m00E14EF8-4B3A-95A8-00E5-52FCF421E692",
+        "time": 159,
+        "title": "Impersonation",
+        "ref": ""
+      },
+      {
+        "id": "m7AE9B587-D3BE-ACC3-6178-55042A477C29",
+        "time": 378,
+        "title": "Impersonation (demo)",
+        "ref": "M07.L03.D01"
+      },
+      {
+        "id": "m5F0FD9B2-C236-59FC-2248-304642B5D4CC",
+        "time": 675,
+        "title": "Client and server operations",
+        "ref": ""
+      },
+      {
+        "id": "m4A6E49DE-2D29-934A-3B6C-EB9F6AD8A359",
+        "time": 915,
+        "title": "Impersonation options",
+        "ref": ""
+      },
+      {
+        "id": "m79D65059-021E-1C0B-F45D-AFAD763608A9",
+        "time": 1137,
+        "title": "Impersonation options (demo)",
+        "ref": "M07.L03.D02"
+      }
+    ]
+  },
+  "aCDDCEE45-B8A7-9579-9F68-863C7404E923": {
+    "parent": "a5B5B0719-9BD1-9AB0-1031-AB653AFB86A6",
+    "id": "40",
+    "title": "Data gateway",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549275207",
+    "duration": 291,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m193C4EFE-B631-FE1B-DD88-D011115E3EA8",
+        "time": 159,
+        "title": "Data gateway scenarios",
+        "ref": ""
+      }
+    ]
+  },
+  "a84B38E8F-1B3A-0D26-DDB4-E7F1835FAB43": {
+    "parent": "a5B5B0719-9BD1-9AB0-1031-AB653AFB86A6",
+    "id": "41",
+    "title": "Final considerations",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549276146",
+    "duration": 496,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mB9CD48FC-1304-D02D-FA8B-45CDD03885CD",
+        "time": 177,
+        "title": "Tables of views?",
+        "ref": ""
+      },
+      {
+        "id": "m4CD12423-006A-D8B8-197C-CAA27F04EBAA",
+        "time": 364,
+        "title": "Data sources: conclusions",
+        "ref": ""
+      }
+    ]
+  },
+  "a7E2226F1-F814-9BD5-8986-4CEF8CA769DF": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "42",
+    "title": "Tabular presentation layer",
+    "type": "text",
+    "completed": false,
+    "text": "<p>This module describes the attributes and the additional metadata you can use to enrich the Tabular semantic model. It explains the internal behavior of features that may be exposed under different names to end-users.</p>\r\n<p>This is the core module of the Mastering Tabular training for model authors that want to know and manage all the features of the semantic model \u2013 including those that are not available in all the development environments. For example, Power BI Desktop can expose features that have a different name in the underlying Tabular model. Understanding these differences is important when the model is upgraded to Power BI service and/or managed by using Tabular Editor.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "Parent-child hierarchies (DAX Patterns)",
+        "url": "https://www.daxpatterns.com/parent-child-hierarchies/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Metadata Translator",
+        "url": "https://github.com/microsoft/Analysis-Services/tree/master/MetadataTranslator",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Q&A linguistic schema",
+        "url": "https://docs.microsoft.com/en-us/power-bi/natural-language/q-and-a-tooling-advanced",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Q&A linguistic metadata",
+        "url": "https://docs.microsoft.com/en-us/business-applications-release-notes/april18/power-bi/service/dataset-metadata-translations",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Data import best practices in Power BI",
+        "url": "https://www.sqlbi.com/articles/data-import-best-practices-in-power-bi/",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "a00C59358-EF3C-66F2-8419-9733B10DCB2D": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "43",
+    "title": "Introducing the presentation layer",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567420640",
+    "duration": 498,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m63A0B7DE-620C-F8C2-9C35-AC639AE1665F",
+        "time": 86,
+        "title": "Presentation layer in TOM",
+        "ref": ""
+      },
+      {
+        "id": "mF215E84F-C964-3AD5-4F2D-ED2BB39B5485",
+        "time": 171,
+        "title": "Presentation layer: the topics",
+        "ref": ""
+      }
+    ]
+  },
+  "aB4034562-FE07-FBBF-65BF-91F89FEA7A92": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "44",
+    "title": "Column names and display folders",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567421961",
+    "duration": 1650,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m6DC4E339-983C-512A-4162-FE9F32250B1C",
+        "time": 197,
+        "title": "The path of a column name",
+        "ref": ""
+      },
+      {
+        "id": "mCF18CABE-D2F4-1B85-2F43-1AA6B602F7D2",
+        "time": 383,
+        "title": "The path of a column name (demo)",
+        "ref": "M08.L02.D01"
+      },
+      {
+        "id": "mA7348CCA-0CE7-DE45-F20F-4D58E0260E7D",
+        "time": 744,
+        "title": "Column names in Power BI Desktop",
+        "ref": ""
+      },
+      {
+        "id": "m117AC871-E345-50A1-5B22-10155444A79E",
+        "time": 815,
+        "title": "Column names in Power BI Desktop (demo)",
+        "ref": "M08.L02.D02"
+      },
+      {
+        "id": "m29EC2658-7797-232B-ED30-E018CD5323EC",
+        "time": 1316,
+        "title": "Display folders",
+        "ref": ""
+      },
+      {
+        "id": "m417C4D33-3539-1ADD-98DF-8E7B5AF8B66A",
+        "time": 1439,
+        "title": "Display folders (demo)",
+        "ref": "M08.L02.D03"
+      }
+    ]
+  },
+  "a73CAE97A-8FDA-0FFB-4B85-D468DFF43778": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "45",
+    "title": "Hierarchies",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567425686",
+    "duration": 1815,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mD3360E9E-AAF3-3104-080D-ADCB8DD87B82",
+        "time": 204,
+        "title": "Introducing hierarchies (demo)",
+        "ref": "M08.L03.D01"
+      },
+      {
+        "id": "m9C52E46F-FF04-BE76-A6D1-152BF6782189",
+        "time": 788,
+        "title": "Renaming columns in hierarchies",
+        "ref": ""
+      },
+      {
+        "id": "mC5BA9267-AE20-EAFA-F08D-CD5EDFCD2FB9",
+        "time": 873,
+        "title": "Renaming columns in hierarchies (demo)",
+        "ref": "M08.L03.D02"
+      },
+      {
+        "id": "m086BAE0B-1D2E-7F86-26EB-B3FFD2746A75",
+        "time": 1181,
+        "title": "Ragged hierarchies",
+        "ref": ""
+      },
+      {
+        "id": "m9A575ED9-7A6A-CD6F-F9E4-E39392DBFA52",
+        "time": 1386,
+        "title": "Ragged hierarchies (demo)",
+        "ref": "M08.L03.D03"
+      }
+    ]
+  },
+  "aEEF49326-7DA7-68F6-C34B-DB5760A4C903": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "46",
+    "title": "Using format strings",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567429330",
+    "duration": 1148,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m997C1B86-5576-A816-F6FF-98F2C826E786",
+        "time": 114,
+        "title": "Format Strings (demo)",
+        "ref": "M08.L04.D01"
+      },
+      {
+        "id": "m1F1B2739-424D-8EB3-E9F2-02E4A2336361",
+        "time": 643,
+        "title": "Dynamic format strings",
+        "ref": ""
+      },
+      {
+        "id": "m5DF3D492-4D7D-726F-1E6A-3D6E1E27AF2D",
+        "time": 754,
+        "title": "Dynamic format strings (demo)",
+        "ref": "M08.L04.D02"
+      }
+    ]
+  },
+  "a0F91B503-1A78-2254-0A2D-91D234A6EAAE": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "47",
+    "title": "Sorting options",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567431348",
+    "duration": 469,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m4DB4BEAB-8F33-F48D-ACBB-7E3CF2AFFC73",
+        "time": 174,
+        "title": "Sorting options (demo)",
+        "ref": "M08.L05.D01"
+      }
+    ]
+  },
+  "aD1388DA3-4BDF-8409-B8CD-AF4643A40BCF": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "48",
+    "title": "Summarize by",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567432273",
+    "duration": 999,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m86B6A6A7-6919-C12E-3CB5-0AB1A11B281F",
+        "time": 178,
+        "title": "Summarize by (demo)",
+        "ref": "M08.L06.D01"
+      },
+      {
+        "id": "mC14301F1-46B4-A61C-C53F-DED1DAE4BD0F",
+        "time": 582,
+        "title": "Summarize by and calculation groups",
+        "ref": ""
+      },
+      {
+        "id": "m191E2E27-C344-5D7F-C2C1-17C4DE89D8D7",
+        "time": 687,
+        "title": "Summarize by and calculation groups (demo)",
+        "ref": "M08.L06.D02"
+      }
+    ]
+  },
+  "aB7D2C16F-9401-9291-D7B0-8A0C6B7A8D2B": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "49",
+    "title": "Data category",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567434390",
+    "duration": 409,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m4385FC46-0635-32E4-C7A6-FD2F2747EA5E",
+        "time": 133,
+        "title": "Data category (demo)",
+        "ref": "M08.L07.D01"
+      }
+    ]
+  },
+  "aAA092B04-63B2-F50C-97C9-325B55C627D6": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "50",
+    "title": "Object visibility and perspectives",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567435143",
+    "duration": 1637,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m6AF3A114-1399-01FA-AA48-79D773CF83C6",
+        "time": 156,
+        "title": "Visibility (demo)",
+        "ref": "M08.L08.D01"
+      },
+      {
+        "id": "mA2E13B1F-0757-FF23-D8E0-14122FA88AB9",
+        "time": 880,
+        "title": "Perspectives",
+        "ref": ""
+      },
+      {
+        "id": "mAD70AAA6-2F8A-C14D-4996-38D7C5D2FC27",
+        "time": 998,
+        "title": "Perspectives (demo)",
+        "ref": "M08.L08.D02"
+      },
+      {
+        "id": "m5AA68223-76BA-9043-DA8D-5C919C8B13BD",
+        "time": 1423,
+        "title": "Perspectives are not security",
+        "ref": ""
+      },
+      {
+        "id": "m94BC6DB1-A456-D1D5-342D-2F3548F4B4A3",
+        "time": 1547,
+        "title": "Perspectives are not security (demo)",
+        "ref": "M08.L08.D03"
+      }
+    ]
+  },
+  "a2E259968-B099-C128-A6A4-732B0553BAD8": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "51",
+    "title": "Grouping columns",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567469889",
+    "duration": 1655,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mEE6E9143-3F1A-AFDA-9140-49F6139FB3E2",
+        "time": 115,
+        "title": "Keep Unique rows",
+        "ref": ""
+      },
+      {
+        "id": "m3F8B9240-4928-C63C-650A-440D0BA09209",
+        "time": 283,
+        "title": "Keep Unique rows (demo)",
+        "ref": "M08.L09.D01"
+      },
+      {
+        "id": "mCDE3F12F-727D-547C-6F82-5C7BF1A34FBD",
+        "time": 955,
+        "title": "Group by columns",
+        "ref": ""
+      },
+      {
+        "id": "mE862BC8A-E5FE-68D8-FDDB-04D1CC1B71BC",
+        "time": 1173,
+        "title": "Group by columns (demo)",
+        "ref": "M08.L09.D02"
+      }
+    ]
+  },
+  "aF15ED351-5E44-97A4-C361-42248E65FE58": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "154",
+    "title": "Grouping columns - additional notes",
+    "type": "text",
+    "completed": false,
+    "text": "<p>The \"group by column\" feature shown in the previous lecture is currently supported only by a few clients like Power BI.<br />MDX clients like Excel do not support such feature and the queries generated by those clients ignore the group by columns setting.<br />We will update this note when Microsoft will extend the support of \"group by columns\" to more clients.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": true,
+    "files": [],
+    "markers": []
+  },
+  "a3A29A16B-8087-C01C-0E23-EBAAD4866426": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "52",
+    "title": "Date table in Tabular and Power BI Desktop",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567473789",
+    "duration": 1425,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mAEA9CA47-9C40-F817-E160-C6EA59199A82",
+        "time": 183,
+        "title": "Auto date/time (demo)",
+        "ref": "M08.L10.D01"
+      },
+      {
+        "id": "m33379DD0-DF62-B3CF-8BF6-E3834FEA4CAB",
+        "time": 880,
+        "title": "Mark as date table",
+        "ref": ""
+      },
+      {
+        "id": "mDC6C43D6-85A7-DB4A-66BF-1CA95C7775E0",
+        "time": 1035,
+        "title": "Mark as date table (demo)",
+        "ref": "M08.L10.D02"
+      }
+    ]
+  },
+  "aB21AA4F8-8361-719D-07E3-216A3EF7C13D": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "53",
+    "title": "Featured tables",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567476912",
+    "duration": 515,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m6F9E3F08-8EDB-D771-21D0-CB78C1212FB3",
+        "time": 171,
+        "title": "Featured tables (demo)",
+        "ref": "M08.L11.D01"
+      }
+    ]
+  },
+  "a6DD13FD1-4E5B-86C1-0E38-4FF9806B3A8E": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "54",
+    "title": "Detail Rows expression",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567477949",
+    "duration": 1226,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m7703BDD8-95B4-EB19-6318-C58E8325A805",
+        "time": 181,
+        "title": "DETAILROWS (demo)",
+        "ref": "M08.L12.D01"
+      },
+      {
+        "id": "m31F7C6E2-D3D2-5BB9-BE5C-5108A035C096",
+        "time": 673,
+        "title": "DETAILROWS YTD",
+        "ref": ""
+      },
+      {
+        "id": "m2D3955E5-3610-1FDE-6694-D61C68183434",
+        "time": 773,
+        "title": "DETAILROWS YTD (demo)",
+        "ref": "M08.L12.D02"
+      }
+    ]
+  },
+  "a3E4BE786-AAA3-7B13-BD3C-A9F61872A76E": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "55",
+    "title": "KPI",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567480674",
+    "duration": 1446,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mCDF629C7-66B9-B473-F6D4-DC7F84829B05",
+        "time": 150,
+        "title": "KPI Introduction (demo)",
+        "ref": "M08.L13.D01"
+      },
+      {
+        "id": "m06739E1D-805F-AF4B-A953-5242E0FFCC0D",
+        "time": 310,
+        "title": "KPI Creation",
+        "ref": ""
+      },
+      {
+        "id": "m821E7999-AF67-663B-D8D0-E819E6371392",
+        "time": 425,
+        "title": "KPI Creation (demo)",
+        "ref": "M08.L13.D02"
+      },
+      {
+        "id": "m652DAD72-8C8B-D98E-2337-F16786159DF6",
+        "time": 1285,
+        "title": "KPI are based on measures",
+        "ref": ""
+      },
+      {
+        "id": "m532DE504-AA8E-BDD5-A700-CA6D12F7E913",
+        "time": 1382,
+        "title": "KPI Properties",
+        "ref": ""
+      }
+    ]
+  },
+  "a83F79106-300E-E78F-CE67-24507DFF38F5": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "56",
+    "title": "Translations",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567483687",
+    "duration": 1382,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mD7DBE3AE-6696-20DD-E392-BF2ACB4BDF97",
+        "time": 199,
+        "title": "Translations (demo)",
+        "ref": "M08.L14.D01"
+      },
+      {
+        "id": "m5AE46123-8F9E-07C7-1224-070DB7EDC6DC",
+        "time": 1064,
+        "title": "Metadata translator",
+        "ref": ""
+      },
+      {
+        "id": "mE8B969BA-9DC2-F420-4675-59C51A2097DA",
+        "time": 1132,
+        "title": "Metadata translator (demo)",
+        "ref": "M08.L14.D02"
+      }
+    ]
+  },
+  "aA4FBFC24-B6E2-6519-5C44-DFFC4F76A1A2": {
+    "parent": "aED18E78D-2BE5-D4C0-FE73-04C43B262A83",
+    "id": "57",
+    "title": "Q&A in Power BI",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567486636",
+    "duration": 413,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mC34BE219-5DD2-187C-D1BC-47516218BDD3",
+        "time": 119,
+        "title": "Q&A (demo)",
+        "ref": "M08.L15.D01"
+      }
+    ]
+  },
+  "a521FCE80-BC79-F754-0804-8C06A2F86955": {
+    "parent": "aDE8A7D8B-01F4-217A-3DB8-D7A914FA53A6",
+    "id": "58",
+    "title": "Understanding relationships",
+    "type": "text",
+    "completed": false,
+    "text": "<p>Relationships have a central role in a Tabular model. The properties of each relationship affect the consistency of the model and the result produced by the reports. This module analyzes in detail all the properties available in each relationship and explains the side effects of filter propagation on security, data consistency, and ambiguity.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "a3DAC37D8-BC11-6191-9603-E5373516C80D": {
+    "parent": "aDE8A7D8B-01F4-217A-3DB8-D7A914FA53A6",
+    "id": "59",
+    "title": "Introducing relationships",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567439295",
+    "duration": 834,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m5F8BDA92-546E-C4CC-AE1D-716B6F181B93",
+        "time": 112,
+        "title": "Relationships in TOM",
+        "ref": ""
+      },
+      {
+        "id": "mDA829503-7749-A3A6-3F8A-A686EAF9B97B",
+        "time": 168,
+        "title": "Introducing relationships",
+        "ref": ""
+      },
+      {
+        "id": "mB50B91A0-EB3B-F8FD-5A9C-8363F631E0FF",
+        "time": 432,
+        "title": "Introducing relationships (demo)",
+        "ref": "M09.L01.D01"
+      }
+    ]
+  },
+  "aA80636BF-5D8D-82CF-CC49-47AC40D5F0B1": {
+    "parent": "aDE8A7D8B-01F4-217A-3DB8-D7A914FA53A6",
+    "id": "60",
+    "title": "Types of relationships",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567440956",
+    "duration": 2037,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mF689420A-8D0E-B6AE-7EB1-9352BDE30521",
+        "time": 190,
+        "title": "Cardinality",
+        "ref": ""
+      },
+      {
+        "id": "m748079C9-C258-E747-6DCF-A241960E9CEA",
+        "time": 383,
+        "title": "Cardinality (demo)",
+        "ref": "M09.L02.D01"
+      },
+      {
+        "id": "mECBB4F30-C0D1-B29C-EFC8-E35E1DA1B0DF",
+        "time": 701,
+        "title": "The purpose of relationships",
+        "ref": ""
+      },
+      {
+        "id": "m994E5C19-9A72-5CDD-B8C4-8C584B12EB99",
+        "time": 832,
+        "title": "Cross-filter direction",
+        "ref": ""
+      },
+      {
+        "id": "mE4EBCE65-C94F-27B5-58F8-9EBA4479F55A",
+        "time": 964,
+        "title": "Cross-filter direction (demo)",
+        "ref": "M09.L02.D02"
+      },
+      {
+        "id": "m48CE14F6-0BF5-4EB8-D117-EE65A56CF330",
+        "time": 1176,
+        "title": "Types of relationships",
+        "ref": ""
+      },
+      {
+        "id": "m02900ACD-E898-2304-5470-17A8D96EFEB2",
+        "time": 1520,
+        "title": "Many-to-many cardinality relationships",
+        "ref": ""
+      },
+      {
+        "id": "m7BF8657D-D75F-93A3-2F40-E37C96FD941C",
+        "time": 1658,
+        "title": "Many-to-many cardinality relationships (demo)",
+        "ref": "M09.L02.D03"
+      }
+    ]
+  },
+  "a0A935CD7-04B2-9394-664A-EF0CA6915BC3": {
+    "parent": "aDE8A7D8B-01F4-217A-3DB8-D7A914FA53A6",
+    "id": "61",
+    "title": "Special behaviors in relationships",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567446028",
+    "duration": 686,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m54CD4FDA-A225-5972-6613-2CF12155071E",
+        "time": 182,
+        "title": "Relationships based on date (demo)",
+        "ref": "M09.L03.D01"
+      },
+      {
+        "id": "m8DE9DC58-3B19-C906-A112-F3A92DD8DFDE",
+        "time": 601,
+        "title": "Security filtering behavior",
+        "ref": ""
+      }
+    ]
+  },
+  "a5D67E218-40C8-A0FF-9056-611C952FF83B": {
+    "parent": "aDE8A7D8B-01F4-217A-3DB8-D7A914FA53A6",
+    "id": "62",
+    "title": "The blank row",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567447404",
+    "duration": 1218,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mA96DA93F-19A4-6406-28BA-2BBFAD6CD99B",
+        "time": 289,
+        "title": "The blank row (demo)",
+        "ref": "M09.L04.D01"
+      },
+      {
+        "id": "m3805D4B8-9E2B-9609-6B31-31A4ECE8003D",
+        "time": 578,
+        "title": "Rely on referential integrity",
+        "ref": ""
+      },
+      {
+        "id": "m93F91DA4-A9EA-A2CA-84B0-BB8068D0F450",
+        "time": 740,
+        "title": "Relationships in DirectQuery (demo)",
+        "ref": "M09.L04.D02"
+      }
+    ]
+  },
+  "a897B5CFF-632F-111C-7A36-B4D7F01C6EA0": {
+    "parent": "aDE8A7D8B-01F4-217A-3DB8-D7A914FA53A6",
+    "id": "63",
+    "title": "Limited relationships",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567450139",
+    "duration": 750,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mD54EF69A-4DF8-2537-EE54-C0657F128CBB",
+        "time": 147,
+        "title": "Islands and relationships",
+        "ref": ""
+      },
+      {
+        "id": "m7E437182-4E99-919F-C88E-E4B634AE1D97",
+        "time": 330,
+        "title": "Islands and relationships (demo)",
+        "ref": "M09.L05.D01"
+      },
+      {
+        "id": "m8FC77F30-0B3A-11F7-5BFF-2FC9C775A146",
+        "time": 628,
+        "title": "Limited relationships: no expansion, no blank row",
+        "ref": ""
+      }
+    ]
+  },
+  "a218A41A7-25B9-E73D-B6B5-8A68567B39FF": {
+    "parent": "aDE8A7D8B-01F4-217A-3DB8-D7A914FA53A6",
+    "id": "64",
+    "title": "Relationships and ambiguity",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567452026",
+    "duration": 1435,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mFC17F2F3-7268-D2D5-26FD-7C59FDDEDF3B",
+        "time": 164,
+        "title": "Ambiguity and bidirectional cross-filter",
+        "ref": ""
+      },
+      {
+        "id": "m9D707283-BC4A-33CE-1F61-CB71F9A4872B",
+        "time": 396,
+        "title": "Things are more complex in a larger model",
+        "ref": ""
+      },
+      {
+        "id": "m15061221-EC34-A33B-68D0-CBF6A4392BEB",
+        "time": 702,
+        "title": "Ambiguity (demo)",
+        "ref": "M09.L06.D01"
+      },
+      {
+        "id": "m54B9D593-B204-F17B-6BDF-8655B6CBC3B8",
+        "time": 1155,
+        "title": "Non-ambiguous models",
+        "ref": ""
+      },
+      {
+        "id": "mA13BE661-B7F1-F495-262C-99A684905D07",
+        "time": 1322,
+        "title": "Never work with an ambiguous model",
+        "ref": ""
+      }
+    ]
+  },
+  "aCCF7B91E-1AEF-9E3E-A68D-1E5AE618F4A4": {
+    "parent": "a5BE7DEFD-CAE7-DD9C-0DFB-F69F398B4319",
+    "id": "65",
+    "title": "Handling security",
+    "type": "text",
+    "completed": false,
+    "text": "<p>A Tabular model has a role-based security system that can be used to set row-level and object-level security. This module explains how to implement static and dynamic row-level security and how you can combine object-level and row-level security in the same model.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "a9FC34657-E83D-952C-130E-7CD20F55D926": {
+    "parent": "a5BE7DEFD-CAE7-DD9C-0DFB-F69F398B4319",
+    "id": "66",
+    "title": "Introducing security",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567645092",
+    "duration": 595,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m62D28337-CD82-CEC6-BF14-FA5B48693EED",
+        "time": 192,
+        "title": "Tabular security model",
+        "ref": ""
+      },
+      {
+        "id": "m58915CF1-8905-2D55-00C0-B9D32BFD3210",
+        "time": 321,
+        "title": "Security in AS Tabular",
+        "ref": ""
+      }
+    ]
+  },
+  "a138F6DF9-34AF-61E4-6B1F-E8B909919D98": {
+    "parent": "a5BE7DEFD-CAE7-DD9C-0DFB-F69F398B4319",
+    "id": "67",
+    "title": "Introducing security architecture",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567646986",
+    "duration": 2397,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m515FEF82-CCDE-ECE5-B272-3B802DDAA49F",
+        "time": 177,
+        "title": "Security roles (demo)",
+        "ref": "M10.L02.D01"
+      },
+      {
+        "id": "m9774906B-25DD-A412-FD15-BCFC9BFBD4C8",
+        "time": 974,
+        "title": "What can be secured?",
+        "ref": ""
+      },
+      {
+        "id": "mDC83D09E-5E9C-39DE-84C7-5FC9672D474C",
+        "time": 1176,
+        "title": "What can be secured? (demo)",
+        "ref": "M10.L02.D02"
+      },
+      {
+        "id": "m2404724B-7A10-44B7-2B92-763EC69C0B1C",
+        "time": 1550,
+        "title": "Testing security in Power BI Desktop",
+        "ref": ""
+      },
+      {
+        "id": "m8338B1ED-CACC-BA8D-85CE-CFC8A0582EB3",
+        "time": 1643,
+        "title": "Testing security in Power BI Desktop (demo)",
+        "ref": "M10.L02.D03"
+      },
+      {
+        "id": "m14E02B90-C3B3-F5C1-3DF9-BC260068E7C0",
+        "time": 1753,
+        "title": "Testing security in Visual Studio",
+        "ref": ""
+      },
+      {
+        "id": "m34D74F74-70A4-E001-0F88-46C64E3CB8D5",
+        "time": 1886,
+        "title": "Testing security in Visual Studio (demo)",
+        "ref": "M10.L02.D04"
+      },
+      {
+        "id": "m87258FC7-499E-E34C-E6C7-7A78D0BA0C31",
+        "time": 2018,
+        "title": "Security in connection string",
+        "ref": ""
+      },
+      {
+        "id": "m6F8AD13F-E5BC-7D18-6331-C4BB9DDCAF5C",
+        "time": 2117,
+        "title": "Security in connection string (demo)",
+        "ref": "M10.L02.D05"
+      }
+    ]
+  },
+  "aED78437D-B0F9-37CE-25E1-E78FB76AAE30": {
+    "parent": "a5BE7DEFD-CAE7-DD9C-0DFB-F69F398B4319",
+    "id": "68",
+    "title": "Understanding roles",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567652903",
+    "duration": 1251,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m3767E236-6987-C377-E267-C45E11874645",
+        "time": 151,
+        "title": "Belonging to multiple roles (demo)",
+        "ref": "M10.L03.D01"
+      },
+      {
+        "id": "mF103D865-D3EC-9FA7-C058-6F1E9249F446",
+        "time": 356,
+        "title": "Model permissions",
+        "ref": ""
+      },
+      {
+        "id": "m34734525-4FD6-084A-94D5-676C2E6D5939",
+        "time": 506,
+        "title": "Server administrator",
+        "ref": ""
+      },
+      {
+        "id": "m35073D52-4A1D-86C8-56CA-5428B7739DDB",
+        "time": 654,
+        "title": "Server administrator (demo)",
+        "ref": "M10.L03.D02"
+      },
+      {
+        "id": "m116B16E4-CB2D-FA4D-2EC6-FC7FE588B68C",
+        "time": 1053,
+        "title": "Inherited instance administrators",
+        "ref": ""
+      },
+      {
+        "id": "mE9854C1D-9ACE-EE0D-C8A4-CF0FEE511EFB",
+        "time": 1161,
+        "title": "Inherited instance administrators (demo)",
+        "ref": "M10.L03.D03"
+      }
+    ]
+  },
+  "a01EBFC58-C14A-CD60-1496-D914F82DB0EC": {
+    "parent": "a5BE7DEFD-CAE7-DD9C-0DFB-F69F398B4319",
+    "id": "69",
+    "title": "Static row-level security",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567656410",
+    "duration": 2133,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m0845FED5-12D3-A22D-EC53-779EAA1146D8",
+        "time": 324,
+        "title": "Static row level security (demo)",
+        "ref": "M10.L04.D01"
+      },
+      {
+        "id": "mD8316295-0E67-CCE2-DDEB-41B959E552E9",
+        "time": 649,
+        "title": "Multiple roles with static security",
+        "ref": ""
+      },
+      {
+        "id": "mDF329966-090D-E5DF-5EE3-98CDDA60F99A",
+        "time": 1062,
+        "title": "Multiple roles with static security (demo)",
+        "ref": "M10.L04.D02"
+      },
+      {
+        "id": "m7A7328F2-4E55-5FE8-A69E-6DA70EC32E40",
+        "time": 1289,
+        "title": "Security = filter context",
+        "ref": ""
+      },
+      {
+        "id": "m587599D9-DD04-7491-0279-EC30DC5DB225",
+        "time": 1427,
+        "title": "Security = filter context (demo)",
+        "ref": "M10.L04.D03"
+      },
+      {
+        "id": "m5DDF2A7C-2643-FD85-7EFA-6A28DF1AB1DC",
+        "time": 1911,
+        "title": "When is security applied?",
+        "ref": ""
+      }
+    ]
+  },
+  "a8EA6994A-3E62-9261-7A97-B28985A2238A": {
+    "parent": "a5BE7DEFD-CAE7-DD9C-0DFB-F69F398B4319",
+    "id": "70",
+    "title": "Table and column security",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567662877",
+    "duration": 1698,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mFC846562-FC1E-6CA4-B7DB-690AF6D8FCE3",
+        "time": 234,
+        "title": "Table and column security (demo)",
+        "ref": "M10.L05.D01"
+      },
+      {
+        "id": "m573E8186-9136-DA49-F474-F422A3E209E0",
+        "time": 671,
+        "title": "Multiple roles with OLS",
+        "ref": ""
+      },
+      {
+        "id": "m8A9B5728-3BF1-9717-B42C-BB27FEE071E5",
+        "time": 832,
+        "title": "Multiple roles with OLS (demo)",
+        "ref": "M10.L05.D02"
+      },
+      {
+        "id": "m00A992CD-3FC7-7579-8A49-67C8C2892839",
+        "time": 930,
+        "title": "OLS and relationships",
+        "ref": ""
+      },
+      {
+        "id": "mE77B4385-734D-B796-83A9-5CFD104691CD",
+        "time": 1017,
+        "title": "OLS and relationships (demo)",
+        "ref": "M10.L05.D03"
+      },
+      {
+        "id": "m919416C8-6969-035C-D920-F8D9053388E5",
+        "time": 1241,
+        "title": "Measures cannot be secured",
+        "ref": ""
+      },
+      {
+        "id": "m643C38F2-0482-E09E-1D84-E21D1ED3A42E",
+        "time": 1363,
+        "title": "Measures cannot be secured (demo)",
+        "ref": "M10.L05.D04"
+      }
+    ]
+  },
+  "aE007C599-B9AD-21E6-7E1D-5CDDFC2A24E6": {
+    "parent": "a5BE7DEFD-CAE7-DD9C-0DFB-F69F398B4319",
+    "id": "71",
+    "title": "Dynamic security",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567666601",
+    "duration": 1442,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mC0541A46-C694-9C8E-D643-4C07F6AA9DA2",
+        "time": 212,
+        "title": "Dynamic security functions",
+        "ref": ""
+      },
+      {
+        "id": "m7453A58B-490E-45A4-F8AA-AD95609E53F1",
+        "time": 371,
+        "title": "Dynamic security architecture",
+        "ref": ""
+      },
+      {
+        "id": "mFF2BF572-34D9-9C31-FA29-9757FFD72E93",
+        "time": 670,
+        "title": "User-driven dynamic security",
+        "ref": ""
+      },
+      {
+        "id": "mB1AF33FC-AA67-F946-DCC3-EC7F44C46C0D",
+        "time": 730,
+        "title": "User-driven dynamic security (demo)",
+        "ref": "M10.L06.D01"
+      }
+    ]
+  },
+  "aC220A2C5-C5A4-0B0D-4B44-82C582328F5E": {
+    "parent": "a5BE7DEFD-CAE7-DD9C-0DFB-F69F398B4319",
+    "id": "72",
+    "title": "DirectQuery security",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "567669397",
+    "duration": 361,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m26E76C04-0B99-1EFB-6B87-B326A2BF83F2",
+        "time": 152,
+        "title": "Security conclusions",
+        "ref": ""
+      }
+    ]
+  },
+  "a7744B5BF-9801-465E-FDD9-82B305216241": {
+    "parent": "a9B4EC65D-6210-C5A5-39E0-47874AA0A0FA",
+    "id": "73",
+    "title": "Understanding data types",
+    "type": "text",
+    "completed": false,
+    "text": "<p>Each column in a Tabular model has a specific data type: Integer, Decimal, Currency, DateTime, Boolean, String, Binary, or Variant. Each data type has different aliases in different products and a default mapping with common relational data sources. This module also explains possible conversion errors in calculations involving different numeric and date data types.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "aD3F74BE9-9ED9-EC80-6F49-C937433C85BE": {
+    "parent": "a9B4EC65D-6210-C5A5-39E0-47874AA0A0FA",
+    "id": "74",
+    "title": "Introducing data types",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549278189",
+    "duration": 666,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m020A84B9-3794-67AA-41D3-A606F321845A",
+        "time": 61,
+        "title": "DAX data types",
+        "ref": ""
+      },
+      {
+        "id": "m5996D5E4-397F-1C36-40A9-593B9697786D",
+        "time": 441,
+        "title": "Integer",
+        "ref": ""
+      },
+      {
+        "id": "mCC3501CE-E9C3-6052-366B-9B40DEE868A7",
+        "time": 480,
+        "title": "Decimal",
+        "ref": ""
+      },
+      {
+        "id": "m5A32A7DF-333D-22D9-7073-802A39571F55",
+        "time": 568,
+        "title": "Currency",
+        "ref": ""
+      }
+    ]
+  },
+  "a5647E169-9E7D-3A9A-8FEA-A7D595A7E5E2": {
+    "parent": "a9B4EC65D-6210-C5A5-39E0-47874AA0A0FA",
+    "id": "75",
+    "title": "Data type conversion",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549280407",
+    "duration": 454,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m362B3991-2C22-872C-E9BC-75ECE2C8170F",
+        "time": 120,
+        "title": "The order of evaluation matters",
+        "ref": ""
+      },
+      {
+        "id": "m070BD983-4D99-B61C-2C82-AC74315F71D0",
+        "time": 238,
+        "title": "Rounding when using currency",
+        "ref": ""
+      },
+      {
+        "id": "mA2768A2E-091B-DD9F-79BE-B9CD64BC5014",
+        "time": 348,
+        "title": "Currency used only at the end",
+        "ref": ""
+      }
+    ]
+  },
+  "a72F237EE-957D-FE14-5633-26F0FCD1FA41": {
+    "parent": "a9B4EC65D-6210-C5A5-39E0-47874AA0A0FA",
+    "id": "76",
+    "title": "Floating point rounding errors",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549282432",
+    "duration": 754,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m43FC43CC-69F9-9397-69A9-A20137B34C0C",
+        "time": 154,
+        "title": "Floating point rounding errors (1)",
+        "ref": ""
+      },
+      {
+        "id": "m4AB84952-EB3B-40F4-057D-6F4273E347B9",
+        "time": 268,
+        "title": "Floating point rounding errors (2)",
+        "ref": ""
+      },
+      {
+        "id": "m1555E457-1B46-4534-9586-3D6EE5099519",
+        "time": 373,
+        "title": "Floating point rounding errors (demo)",
+        "ref": "M11.L03.D01"
+      },
+      {
+        "id": "m0F2DDAB4-AE17-1941-59E6-E6FE75AEC789",
+        "time": 628,
+        "title": "Warnings about numeric data types",
+        "ref": ""
+      }
+    ]
+  },
+  "a6CED814A-ED00-1EF0-312D-91BC512BFB7D": {
+    "parent": "a9B4EC65D-6210-C5A5-39E0-47874AA0A0FA",
+    "id": "77",
+    "title": "DateTime",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549284957",
+    "duration": 472,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m20E724AC-7CF1-ADBD-4F32-703105EAFC95",
+        "time": 217,
+        "title": "The leap year bug",
+        "ref": ""
+      }
+    ]
+  },
+  "aBBF2C6C9-06A2-7044-5819-5E43553614BC": {
+    "parent": "a9B4EC65D-6210-C5A5-39E0-47874AA0A0FA",
+    "id": "78",
+    "title": "Other data types",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549286689",
+    "duration": 443,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m47E18D60-7EFD-0C0C-2874-01384415E05B",
+        "time": 69,
+        "title": "String",
+        "ref": ""
+      },
+      {
+        "id": "m6FC0D6C7-7464-C589-D82D-E4D713404D16",
+        "time": 241,
+        "title": "Binary",
+        "ref": ""
+      },
+      {
+        "id": "m0DC63845-F26D-9D43-F58E-E8BB4565DC1C",
+        "time": 295,
+        "title": "Variant",
+        "ref": ""
+      }
+    ]
+  },
+  "aB18B8C79-5473-D739-3953-CFA831407ACC": {
+    "parent": "aEF921BB9-2390-CB37-A62E-A66459546699",
+    "id": "79",
+    "title": "Understanding the VertiPaq engine",
+    "type": "text",
+    "completed": false,
+    "text": "<p>VertiPaq is the storage engine used to import data in memory. VertiPaq is the engine that provides the best query performance, but it requires more memory to keep data compressed in memory. Understanding the compression techniques used by VertiPaq can help you choose the right columns to import to optimize the memory used by a Tabular model.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "aC9C0FC11-1435-BC97-E540-8CAA1635A624": {
+    "parent": "aEF921BB9-2390-CB37-A62E-A66459546699",
+    "id": "80",
+    "title": "Row stores and column stores",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549296175",
+    "duration": 1348,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m5206253D-DDDD-2C50-C9C5-A312538C1C4D",
+        "time": 54,
+        "title": "Tabular query architecture",
+        "ref": ""
+      },
+      {
+        "id": "mC74610E5-A411-91FE-0ECE-7733A2634D35",
+        "time": 154,
+        "title": "What is VertiPaq?",
+        "ref": ""
+      },
+      {
+        "id": "m6FE89043-97E4-FBC1-D7F0-05EC513B29EF",
+        "time": 282,
+        "title": "Row storage layout",
+        "ref": ""
+      },
+      {
+        "id": "mAA2F6BC5-70C5-7B27-DEE9-132E911C7F23",
+        "time": 568,
+        "title": "Column storage layout",
+        "ref": ""
+      },
+      {
+        "id": "m76855758-CD92-EE0E-57F6-8FF6C54DD6ED",
+        "time": 829,
+        "title": "Querying a columnar database",
+        "ref": ""
+      },
+      {
+        "id": "mF32DFBCC-75D8-489B-051F-C8F16A630452",
+        "time": 1139,
+        "title": "Column vs row storage",
+        "ref": ""
+      }
+    ]
+  },
+  "a766C734D-C1A4-5308-FDCF-6A22862926D8": {
+    "parent": "aEF921BB9-2390-CB37-A62E-A66459546699",
+    "id": "81",
+    "title": "VertiPaq encoding",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549301125",
+    "duration": 999,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mFAEFA590-FEB8-0306-0D6C-B5BA1E3E8E2A",
+        "time": 303,
+        "title": "Hash encoding",
+        "ref": ""
+      },
+      {
+        "id": "mA97EF320-3FD5-1666-6D94-0699A3F9E489",
+        "time": 580,
+        "title": "Run-length encoding",
+        "ref": ""
+      },
+      {
+        "id": "m8444F9E2-9096-46AD-2F9D-7BDB3A7803B4",
+        "time": 905,
+        "title": "Compression of one column",
+        "ref": ""
+      }
+    ]
+  },
+  "aDE50B184-7F17-A910-BF87-1BD88B8E4FB1": {
+    "parent": "aEF921BB9-2390-CB37-A62E-A66459546699",
+    "id": "82",
+    "title": "VertiPaq segmentation",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549304984",
+    "duration": 1060,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mC0EAF6C8-52E6-182F-3A76-A219AEDD099E",
+        "time": 130,
+        "title": "Processing phases",
+        "ref": ""
+      },
+      {
+        "id": "m0CE01BB3-59D3-594D-B2F0-3BEA0AC1B5CB",
+        "time": 315,
+        "title": "Calculated columns and tables",
+        "ref": ""
+      },
+      {
+        "id": "m14148B24-846C-CE3D-8A60-233615F3F63F",
+        "time": 471,
+        "title": "Segment configuration",
+        "ref": ""
+      },
+      {
+        "id": "m379D2FAD-9FF5-0EE4-4204-DF8166427286",
+        "time": 736,
+        "title": "Segment size and compression",
+        "ref": ""
+      },
+      {
+        "id": "mBB24D295-D3D7-EA04-9A54-FA7ECE2059E5",
+        "time": 944,
+        "title": "Segment size and partitions",
+        "ref": ""
+      }
+    ]
+  },
+  "aA2A7CB94-565B-1802-B39D-3EE882398C4E": {
+    "parent": "aEF921BB9-2390-CB37-A62E-A66459546699",
+    "id": "155",
+    "title": "VertiPaq segmentation update (Power BI Premium)",
+    "type": "text",
+    "completed": false,
+    "text": "<p>Since October 2021, Microsoft changed the segment size used in large models deployed on a Power BI Premium capacity.</p>\r\n<p>While the default segment size for Power BI is always 1 million rows, if a dataset uses the large dataset storage format, its segment size is raised to 8 million rows, like the default segment size in Analysis Services.</p>\r\n<p>You can find more information about large dataset storage format in Power BI Premium in the Microsoft documentation:<br /><a href=\"https://docs.microsoft.com/en-us/power-bi/admin/service-premium-large-models\">Large datasets in Power BI Premium - Power BI | Microsoft Docs</a></p>\r\n<p>You can see more details about the importance of a larger segment size for big tables (100M rows or more) in this SQLBI video:<br /><a href=\"https://www.sqlbi.com/tv/explaining-segment-size-in-power-bi-premium-unplugged-29/\">Explaining segment size in Power BI Premium \u2013 Unplugged #29 - SQLBI</a></p>",
+    "video": "",
+    "duration": 0,
+    "nop": true,
+    "files": [],
+    "markers": []
+  },
+  "aC57E8D85-95D4-7C32-7C20-778A37786523": {
+    "parent": "aEF921BB9-2390-CB37-A62E-A66459546699",
+    "id": "83",
+    "title": "VertiPaq memory usage",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549309566",
+    "duration": 1342,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mF3EAABCB-B947-7ADC-892A-2CD8C337B42A",
+        "time": 124,
+        "title": "Data memory usage",
+        "ref": ""
+      },
+      {
+        "id": "mF3E0A733-4697-29E4-1043-9122DBEE9F72",
+        "time": 315,
+        "title": "Available DMVs",
+        "ref": ""
+      },
+      {
+        "id": "m622BFC12-D6CE-FEE5-61DD-94CD828A9098",
+        "time": 467,
+        "title": "DMVs (demo)",
+        "ref": "M12.L04.D01"
+      },
+      {
+        "id": "m8C105BDF-EC6C-9249-4892-25DA8AA4A584",
+        "time": 651,
+        "title": "VertiPaq Analyzer",
+        "ref": ""
+      },
+      {
+        "id": "m249896FC-CE25-B7F9-8BB0-5AC20CDE7293",
+        "time": 753,
+        "title": "VertiPaq Analyzer (demo)",
+        "ref": "M12.L04.D02"
+      }
+    ]
+  },
+  "aF0725D1A-79D1-2266-A257-AB0923B7D052": {
+    "parent": "aEF921BB9-2390-CB37-A62E-A66459546699",
+    "id": "84",
+    "title": "Best practices",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549314598",
+    "duration": 574,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m800B4199-69C2-CEEF-5429-765B06F659E7",
+        "time": 130,
+        "title": "Reduce cardinality",
+        "ref": ""
+      },
+      {
+        "id": "m865FC1F9-E8D8-D5A8-B1F7-E3E70D26838B",
+        "time": 342,
+        "title": "What to store in the model?",
+        "ref": ""
+      },
+      {
+        "id": "m5483C26D-E8AD-9E4C-C643-51C6B5D422EA",
+        "time": 494,
+        "title": "VertiPaq: conclusions",
+        "ref": ""
+      }
+    ]
+  },
+  "a2A786203-6E2E-BEE4-AB4F-9DA446B9A021": {
+    "parent": "a4EC52CE2-4403-EDD3-F4D7-0E69F8DC158A",
+    "id": "85",
+    "title": "Understanding DirectQuery",
+    "type": "text",
+    "completed": false,
+    "text": "<p>DirectQuery is the storage engine used when data is retrieved from the data source at query time. Technically, DirectQuery is a query technology and not a real storage engine: When you use DirectQuery, the data source becomes the storage engine used to execute MDX and DAX queries. This module explains the main differences between VertiPaq and DirectQuery \u2013 it shows you how to create a Tabular model in DirectQuery and what to expect in terms of data source workload at query time.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "DirectQuery supported legacy data sources",
+        "url": "https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-datasource",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "DirectQuery supported structured data sources (Power Query)",
+        "url": "https://docs.microsoft.com/en-us/power-bi/connect-data/power-bi-data-sources",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "How to set Max Intermediate Row Set Count property in Power BI Premium",
+        "url": "https://powerbi.microsoft.com/en-us/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "a3E80BC00-975F-66F3-99FF-CC62B61A5E26": {
+    "parent": "a4EC52CE2-4403-EDD3-F4D7-0E69F8DC158A",
+    "id": "86",
+    "title": "Introducing DirectQuery ",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549344343",
+    "duration": 864,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m55E248EA-89F9-74C1-B8C3-D5D9D79BCF15",
+        "time": 100,
+        "title": "DirectQuery storage engine",
+        "ref": ""
+      },
+      {
+        "id": "m55D2DE08-91D6-5A8E-5C6F-95A330E984A4",
+        "time": 357,
+        "title": "Advantages of DirectQuery",
+        "ref": ""
+      },
+      {
+        "id": "mC4D9560B-F054-EE40-21B2-F4F9C35E7B6A",
+        "time": 588,
+        "title": "VertiPaq versus DirectQuery",
+        "ref": ""
+      }
+    ]
+  },
+  "a0CD5A40E-3A3C-26B3-9733-7D53F9CE5535": {
+    "parent": "a4EC52CE2-4403-EDD3-F4D7-0E69F8DC158A",
+    "id": "87",
+    "title": "Using DirectQuery ",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549347907",
+    "duration": 1053,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m33349A2F-FC0A-BF62-29CF-6B747F830867",
+        "time": 192,
+        "title": "Enabling DirectQuery",
+        "ref": ""
+      },
+      {
+        "id": "m62FA6592-B79D-57C2-7873-A3C962E05680",
+        "time": 347,
+        "title": "Enabling DirectQuery (demo)",
+        "ref": "M13.L02.D01"
+      }
+    ]
+  },
+  "a76418ADA-0AC0-7661-749D-0AA1FD6B01AF": {
+    "parent": "a4EC52CE2-4403-EDD3-F4D7-0E69F8DC158A",
+    "id": "88",
+    "title": "DirectQuery and DAX",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549351327",
+    "duration": 460,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mF47B91E0-FD0D-2132-AB65-48A34381BE11",
+        "time": 181,
+        "title": "Optimized function example",
+        "ref": ""
+      },
+      {
+        "id": "m5C5277BD-AC24-CCD3-2237-8DD71677F404",
+        "time": 325,
+        "title": "Non-optimized function example",
+        "ref": ""
+      }
+    ]
+  },
+  "a2F956B5C-0BBE-3F06-D3E2-DBDA64BA1856": {
+    "parent": "a4EC52CE2-4403-EDD3-F4D7-0E69F8DC158A",
+    "id": "89",
+    "title": "Understanding query limits",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549353192",
+    "duration": 727,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m22FC40E6-3DEA-959C-04C7-836288B5F6F5",
+        "time": 253,
+        "title": "Calculated columns",
+        "ref": ""
+      },
+      {
+        "id": "m701D71C5-27E3-DBD4-53BA-BE2CB07626ED",
+        "time": 417,
+        "title": "Row-level security",
+        "ref": ""
+      },
+      {
+        "id": "mE999630B-BE06-E214-66F1-8E1F8F5865EC",
+        "time": 534,
+        "title": "Semantic differences in DAX",
+        "ref": ""
+      },
+      {
+        "id": "m0446270C-1B29-A15D-EC50-1845B170F9D8",
+        "time": 625,
+        "title": "Using MDX in DirectQuery",
+        "ref": ""
+      }
+    ]
+  },
+  "a4575386F-E1BF-3DB2-CB08-A5D6FFD14209": {
+    "parent": "a4EC52CE2-4403-EDD3-F4D7-0E69F8DC158A",
+    "id": "90",
+    "title": "Real-time and DirectQuery",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549356312",
+    "duration": 359,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m38230F15-594C-A7DB-5525-3300EC5583C0",
+        "time": 257,
+        "title": "Real-time and DAX",
+        "ref": ""
+      }
+    ]
+  },
+  "a21AE6D71-CE9F-CCA3-28AA-44678A300BD2": {
+    "parent": "a4EC52CE2-4403-EDD3-F4D7-0E69F8DC158A",
+    "id": "91",
+    "title": "Final considerations",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "549357827",
+    "duration": 409,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m8E85226C-EE4F-3EBE-8599-B96359B9F958",
+        "time": 173,
+        "title": "Real-time modeling",
+        "ref": ""
+      }
+    ]
+  },
+  "a3ABD0DAF-AD8C-2FC0-6785-E488858D555A": {
+    "parent": "a13F2868E-716F-4453-22E0-AB9A4EF5E3F8",
+    "id": "92",
+    "title": "Understanding DirectQuery over Analysis Services",
+    "type": "text",
+    "completed": false,
+    "text": "<p>DirectQuery over Analysis Services is a special kind of DirectQuery where the data source is not just a set of tables, but rather another semantic model hosted by an Analysis Services instance. Because a Power BI dataset is an Analysis Services database, the same technology can be used to connect external Power BI datasets or Azure Analysis Services databases, extending them with additional tables and relationships. These models are also called \"composite models\" because they mix different storage engine technologies and different semantic models within one same model.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "aA050B5BD-11A0-7DCB-61E4-916EFF8B8020": {
+    "parent": "a13F2868E-716F-4453-22E0-AB9A4EF5E3F8",
+    "id": "93",
+    "title": "Introduction to DirectQuery over AS",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "572877773",
+    "duration": 1709,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m7F435520-5033-E3FB-047C-3AEDCF3C1754",
+        "time": 239,
+        "title": "DirectQuery over Analysis Services",
+        "ref": ""
+      },
+      {
+        "id": "mE6F583EB-2F8F-0072-237D-AD4135A08BDF",
+        "time": 635,
+        "title": "DirectQuery over AS: advantages",
+        "ref": ""
+      },
+      {
+        "id": "mED17E293-3FEB-F6F7-76AA-00DE0CBFAC8A",
+        "time": 861,
+        "title": "The local model extends the remote model",
+        "ref": ""
+      },
+      {
+        "id": "m01F72B22-F9F4-E98F-70FC-458A5ED800B5",
+        "time": 1037,
+        "title": "Import Budget Excel workbook in Contoso (demo)",
+        "ref": "M14.L01.D01"
+      }
+    ]
+  },
+  "a82EA7A31-AD95-138D-3701-7FBAEE018B49": {
+    "parent": "a13F2868E-716F-4453-22E0-AB9A4EF5E3F8",
+    "id": "94",
+    "title": "Architecture of DirectQuery over AS",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "572881110",
+    "duration": 1480,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m49E92AAB-00F3-60B8-77E9-2556D47B67E8",
+        "time": 201,
+        "title": "Content of local model.bim",
+        "ref": ""
+      },
+      {
+        "id": "m31A09400-94A1-B546-E9F7-640C561DF4CC",
+        "time": 389,
+        "title": "Content of local model.bim (demo)",
+        "ref": "M14.L02.D01"
+      },
+      {
+        "id": "m997BB578-7718-7ECF-672D-23EC1ECD0A90",
+        "time": 705,
+        "title": "Chaining models",
+        "ref": ""
+      },
+      {
+        "id": "mEEB7A785-1CD1-68AB-60E2-B4348C69A2EE",
+        "time": 883,
+        "title": "DirectQuery: SQL vs Analysis Services",
+        "ref": ""
+      },
+      {
+        "id": "mD84DD758-F060-B480-92FB-5B5B0BAAA13A",
+        "time": 1083,
+        "title": "Creating composite models (demo)",
+        "ref": "M14.L02.D02"
+      }
+    ]
+  },
+  "a761239D3-199B-AB93-321F-2DEA63AAA58C": {
+    "parent": "a13F2868E-716F-4453-22E0-AB9A4EF5E3F8",
+    "id": "95",
+    "title": "Query resolution in DirectQuery over AS",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "572884304",
+    "duration": 744,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m92AA72A7-F877-F9C6-F72E-0045EEFFE134",
+        "time": 177,
+        "title": "Remote model query resolution (demo)",
+        "ref": "M14.L03.D01"
+      },
+      {
+        "id": "mD6FCC9A3-EECE-037D-4DC1-45CC051B3568",
+        "time": 322,
+        "title": "Cross island query resolution",
+        "ref": ""
+      },
+      {
+        "id": "m307D47AB-5118-C824-F06C-D54196F91342",
+        "time": 458,
+        "title": "Cross island query resolution (demo)",
+        "ref": "M14.L03.D02"
+      },
+      {
+        "id": "mB5D22664-F19B-F3BA-AE4D-5F8DA83B9C68",
+        "time": 557,
+        "title": "Cross island query: the steps",
+        "ref": ""
+      }
+    ]
+  },
+  "aAAD0B557-3CD2-52D2-538C-597FF537A5C9": {
+    "parent": "a13F2868E-716F-4453-22E0-AB9A4EF5E3F8",
+    "id": "96",
+    "title": "Calculated columns",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "572886308",
+    "duration": 599,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m8F07B874-74ED-E712-CB38-66D43C9F9F71",
+        "time": 161,
+        "title": "Creating calculated columns on composite models (demo)",
+        "ref": "M14.L04.D01"
+      },
+      {
+        "id": "m1683EA2E-576F-BB68-4642-6035F89A21CC",
+        "time": 292,
+        "title": "Calculated columns limitations",
+        "ref": ""
+      },
+      {
+        "id": "mDC6D27CA-4050-08D2-85C3-E682EF85558E",
+        "time": 402,
+        "title": "Calculated columns limitations (demo)",
+        "ref": "M14.L04.D02"
+      }
+    ]
+  },
+  "a7225A480-E106-91A9-ED3D-81E64FE6E805": {
+    "parent": "a13F2868E-716F-4453-22E0-AB9A4EF5E3F8",
+    "id": "97",
+    "title": "Limitations",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "572887716",
+    "duration": 985,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m29AAAB4B-E3BB-58E0-98C4-4E5F3ABD4944",
+        "time": 192,
+        "title": "DirectQuery over AS limitations (demo)",
+        "ref": "M14.L05.D01"
+      },
+      {
+        "id": "mEDF5196C-88AC-F596-80E9-64F618F5215D",
+        "time": 673,
+        "title": "Continent and islands",
+        "ref": ""
+      },
+      {
+        "id": "mE690A945-FFA4-1772-7348-EF3E88E9C884",
+        "time": 805,
+        "title": "Designing measures in composite models",
+        "ref": ""
+      }
+    ]
+  },
+  "a761E9820-DBFB-99A6-8D86-A41717D50B46": {
+    "parent": "a13F2868E-716F-4453-22E0-AB9A4EF5E3F8",
+    "id": "98",
+    "title": "Security and use cases",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "572890421",
+    "duration": 216,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "aCE3E351A-F751-6B59-DEF1-D1A9F69DA341": {
+    "parent": "a5E2C4901-510D-CCC0-3B3F-74748423433D",
+    "id": "99",
+    "title": "Aggregations",
+    "type": "text",
+    "completed": false,
+    "text": "<p>You can improve the performance of the DirectQuery storage engine by creating aggregations, which can be stored in the original data source or imported in VertiPaq tables. This module explains all the options available for you to take advantage of aggregations for DirectQuery in a Tabular model.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "a167FC835-C4DA-1FD9-DFB5-B3F7CC30C200": {
+    "parent": "a5E2C4901-510D-CCC0-3B3F-74748423433D",
+    "id": "100",
+    "title": "Introducing aggregations",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "574319726",
+    "duration": 1715,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m11C28341-0B6E-5FDB-139A-C9A3FAF7CBCA",
+        "time": 327,
+        "title": "Aggregations are alternate of model columns",
+        "ref": ""
+      },
+      {
+        "id": "m566712DC-0C4C-8600-5144-7D5E446F079F",
+        "time": 548,
+        "title": "Introduction to aggregations (demo)",
+        "ref": "M15.L01.D01"
+      },
+      {
+        "id": "mC932A7F6-7A0E-6FB3-A84C-8450572CF66E",
+        "time": 1025,
+        "title": "Introducing VertiPaq aggregations (demo)",
+        "ref": "M15.L01.D02"
+      },
+      {
+        "id": "m8692B09D-F00E-0344-E88D-BF3D0118234B",
+        "time": 1225,
+        "title": "Aggregations at the table key level (demo)",
+        "ref": "M15.L01.D03"
+      }
+    ]
+  },
+  "aDCA31AAE-66FA-9BEA-E1F9-8AB9596FD621": {
+    "parent": "a5E2C4901-510D-CCC0-3B3F-74748423433D",
+    "id": "101",
+    "title": "Composite models",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "574322645",
+    "duration": 541,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m279E32FD-7DED-3649-8D21-339917531503",
+        "time": 125,
+        "title": "DirectQuery & Import (Composite models)",
+        "ref": ""
+      },
+      {
+        "id": "m78DACE94-6212-F63B-C6D4-1930DD3822D6",
+        "time": 173,
+        "title": "Creating aggregations",
+        "ref": ""
+      },
+      {
+        "id": "m693F486F-7880-D609-2DA8-21F3F359D9BE",
+        "time": 207,
+        "title": "Querying import tables",
+        "ref": ""
+      },
+      {
+        "id": "m7942C7DD-797C-5AAA-CCB5-6CB95F41F253",
+        "time": 259,
+        "title": "Querying DirectQuery tables",
+        "ref": ""
+      },
+      {
+        "id": "m830F67A8-CAAC-F94B-0923-84F9A06FDC7C",
+        "time": 329,
+        "title": "Querying tables in different islands",
+        "ref": ""
+      },
+      {
+        "id": "mB70FB8A6-2CDB-47C5-8ED4-655F013907B8",
+        "time": 442,
+        "title": "A pure DirectQuery query would be better",
+        "ref": ""
+      }
+    ]
+  },
+  "a0DEA9EED-5E36-F8E5-3040-90413D412186": {
+    "parent": "a5E2C4901-510D-CCC0-3B3F-74748423433D",
+    "id": "102",
+    "title": "Dual tables",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "574323936",
+    "duration": 1217,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mB7AB814F-DB3A-395A-01DF-5E19044AE7E1",
+        "time": 115,
+        "title": "Using dual tables",
+        "ref": ""
+      },
+      {
+        "id": "m81C9F3EC-8D3C-3B24-1957-F4680016DA41",
+        "time": 380,
+        "title": "Regular vs limited relationships",
+        "ref": ""
+      },
+      {
+        "id": "m1A775F28-4BFF-1CB4-2C03-DF2F39814E4B",
+        "time": 738,
+        "title": "Continents and islands",
+        "ref": ""
+      },
+      {
+        "id": "mD3E53719-5534-471E-C11C-810DFAA37DEB",
+        "time": 873,
+        "title": "Using dual tables",
+        "ref": ""
+      },
+      {
+        "id": "m18D8A337-50B6-88FC-8DA2-C56C0DCFA885",
+        "time": 1051,
+        "title": "Using dual tables (demo)",
+        "ref": "M15.L03.D01"
+      }
+    ]
+  },
+  "a71994E19-B2B7-9844-B480-CF004F63E050": {
+    "parent": "a5E2C4901-510D-CCC0-3B3F-74748423433D",
+    "id": "103",
+    "title": "Aggregation and granularity",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "574326509",
+    "duration": 1070,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m64B4E664-AF61-A81E-3BCA-377A0C1C4B05",
+        "time": 110,
+        "title": "Aggregation hit at lower grain",
+        "ref": ""
+      },
+      {
+        "id": "mFC1672B2-3DB1-5BC3-7384-85768FFE2092",
+        "time": 160,
+        "title": "Aggregation hit at lower grain (demo)",
+        "ref": "M15.L04.D01"
+      },
+      {
+        "id": "m78BFCEFD-3B48-43DB-A339-799DF001EE8B",
+        "time": 240,
+        "title": "Aggregations and relationships ",
+        "ref": ""
+      },
+      {
+        "id": "mAD3E4444-B4FD-629C-F27A-86A852D77B3B",
+        "time": 361,
+        "title": "Aggregations and relationships  (demo)",
+        "ref": "M15.L04.D02"
+      },
+      {
+        "id": "mCF5B266A-DC29-7DEB-0469-815C358E6B91",
+        "time": 657,
+        "title": "Aggregations and distinct counts",
+        "ref": ""
+      },
+      {
+        "id": "mFF4CC30B-0E65-DBF5-2EE8-AC6BCF7D3DB9",
+        "time": 708,
+        "title": "Aggregation miss at higher grain",
+        "ref": ""
+      },
+      {
+        "id": "m89D9FE22-1FCE-FAE1-E0B5-064199C269F9",
+        "time": 801,
+        "title": "Aggregation miss at higher grain (demo)",
+        "ref": "M15.L04.D03"
+      }
+    ]
+  },
+  "a447BF145-A36F-735C-5971-7349552EBC21": {
+    "parent": "a5E2C4901-510D-CCC0-3B3F-74748423433D",
+    "id": "104",
+    "title": "Aggregation with custom formulas",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "574328547",
+    "duration": 654,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mCE6E73FF-1B1D-0059-5136-1CB782D17457",
+        "time": 244,
+        "title": "Aggregation on custom formulas (demo)",
+        "ref": "M15.L05.D01"
+      }
+    ]
+  },
+  "a5A461255-1459-0D40-1110-5077FC68FAA6": {
+    "parent": "a5E2C4901-510D-CCC0-3B3F-74748423433D",
+    "id": "105",
+    "title": "Aggregation precedence",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "574329661",
+    "duration": 526,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m7B4588D1-77D5-B8B1-AC88-33AF4BF0D39F",
+        "time": 136,
+        "title": "Aggregation precedence (demo)",
+        "ref": "M15.L06.D01"
+      }
+    ]
+  },
+  "a287B3E34-7ADF-AE39-1F71-41DD39E7B925": {
+    "parent": "a5E2C4901-510D-CCC0-3B3F-74748423433D",
+    "id": "106",
+    "title": "Updating aggregations",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "574330466",
+    "duration": 506,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m48C82FC5-AA05-E215-1CFA-CA31B762ABB3",
+        "time": 241,
+        "title": "Keeping aggregations up-to-date (demo)",
+        "ref": "M15.L07.D01"
+      }
+    ]
+  },
+  "aF7A5C540-3583-0A10-3D6B-6529D05888B4": {
+    "parent": "a5E2C4901-510D-CCC0-3B3F-74748423433D",
+    "id": "107",
+    "title": "Conclusions",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "574331470",
+    "duration": 226,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "a5590EB41-3D58-E1D6-EFCD-C4F486DE8F84": {
+    "parent": "aF2220D10-F221-F4F9-CB7C-099A8B4A641D",
+    "id": "108",
+    "title": "Push Datasets",
+    "type": "text",
+    "completed": false,
+    "text": "<p>The push dataset in the Power BI service is a special kind of Tabular model that receives data from an application instead of pulling data from a data source.</p>\r\n<p>This module explains how to create hybrid real-time solutions using both regular datasets and push datasets to serve all different user requirements for real-time and historical analytics.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "Power BI Push Tools",
+        "url": "https://www.sqlbi.com/tools/power-bi-push-tools/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Implementing real-time updates in Power BI using push datasets instead of DirectQuery",
+        "url": "https://www.sqlbi.com/?p=720608",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "PowerShell tools for Push Datasets (Sqlbi.PbiPushTools)",
+        "url": "https://www.powershellgallery.com/packages/Sqlbi.PbiPushTools/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Time Intelligence in Power BI Desktop: Adding a Dummy Fact table",
+        "url": "https://www.sqlbi.com/articles/time-intelligence-in-power-bi-desktop/ ",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Creating a service principal account for Power BI API",
+        "url": "https://www.sqlbi.com/articles/creating-a-service-principal-account-for-power-bi-api/",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "a023A8353-A86B-FC00-2337-35702F98A035": {
+    "parent": "aF2220D10-F221-F4F9-CB7C-099A8B4A641D",
+    "id": "109",
+    "title": "Introducing push datasets",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "577076705",
+    "duration": 1582,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m31415893-70B7-BE66-BD7E-D5CBF06AA1A7",
+        "time": 128,
+        "title": "What is a push dataset?",
+        "ref": ""
+      },
+      {
+        "id": "mCDBA23AC-E785-5561-D297-4E9A096DCA17",
+        "time": 356,
+        "title": "Push datasets",
+        "ref": ""
+      },
+      {
+        "id": "m1E736893-BE59-704F-3580-BF1D5CF57545",
+        "time": 457,
+        "title": "Introducing push datasets (demo)",
+        "ref": "M16.L01.D01"
+      },
+      {
+        "id": "m8B54DF6B-2849-498A-2345-90341CF7ACA0",
+        "time": 1116,
+        "title": "Push datasets limitations: size/retention",
+        "ref": ""
+      },
+      {
+        "id": "m928F3E24-6418-F5CD-C4FA-8D2EE67D9DE2",
+        "time": 1234,
+        "title": "Push datasets limitations: throughput",
+        "ref": ""
+      },
+      {
+        "id": "m590636C0-8125-5AF3-685A-1C6C2B5FC07E",
+        "time": 1431,
+        "title": "Data model restrictions",
+        "ref": ""
+      }
+    ]
+  },
+  "aA58FD419-3CFE-6087-A0FA-DAE5697288E4": {
+    "parent": "aF2220D10-F221-F4F9-CB7C-099A8B4A641D",
+    "id": "110",
+    "title": "Implementing real-time solutions with push datasets",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "577077038",
+    "duration": 2343,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m71CCF9F8-A8F8-3CAE-B41E-D70CA7BCACB3",
+        "time": 221,
+        "title": "Classic solution",
+        "ref": ""
+      },
+      {
+        "id": "mC5A72D22-69C3-E810-C5D9-ED6D38E2EEBD",
+        "time": 355,
+        "title": "Classic \u201cpush dataset\u201d solution ",
+        "ref": ""
+      },
+      {
+        "id": "mDDCC9F0D-8E7C-E9AE-2A75-DD6BFD6C29FC",
+        "time": 486,
+        "title": "Creating a push dataset starting from a Power BI Dataset (demo)",
+        "ref": "M16.L02.D01"
+      },
+      {
+        "id": "m6F850E49-08FB-4DAB-ADBC-F819D4A9593E",
+        "time": 1040,
+        "title": "Daily reset of push dataset ",
+        "ref": ""
+      },
+      {
+        "id": "mBB4BF23C-B15D-B2A8-84BB-B43444CC473D",
+        "time": 1242,
+        "title": "Daily reset of push dataset (demo)",
+        "ref": "M16.L02.D02"
+      },
+      {
+        "id": "m826C7221-9A35-8BB7-7EED-D46565C33A8E",
+        "time": 2119,
+        "title": "Complete solution ",
+        "ref": ""
+      }
+    ]
+  },
+  "a4E944E57-E8BC-BF5B-0ADB-2AA07625D073": {
+    "parent": "aC1A733BC-0D16-9E48-3B96-DBE771331343",
+    "id": "111",
+    "title": "Hardware considerations",
+    "type": "text",
+    "completed": false,
+    "text": "<p>This module contains important information to make the right hardware choices for on-premises solutions, and the best choice of service tier for cloud solutions. It also includes tips for instances running on virtual machines.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "Optimize hardware settings or Analysis Services Tabular",
+        "url": "https://www.sqlbi.com/articles/optimize-hardware-settings-for-analysis-services-tabular/",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "a8745F299-0BAD-95FF-DBEC-B3EF20CF69AE": {
+    "parent": "aC1A733BC-0D16-9E48-3B96-DBE771331343",
+    "id": "112",
+    "title": "Basic hardware considerations",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "570130649",
+    "duration": 928,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mDE164BA5-1995-0198-CF13-D314A5BB20A8",
+        "time": 113,
+        "title": "Hardware considerations",
+        "ref": ""
+      },
+      {
+        "id": "m234C79C6-1DAB-1199-F476-8AE69F134961",
+        "time": 254,
+        "title": "Buying the Hardware",
+        "ref": ""
+      },
+      {
+        "id": "m575D0DE7-8733-E62A-7EF8-DE26CBF88FA5",
+        "time": 569,
+        "title": "Where is the I/O bottleneck?",
+        "ref": ""
+      },
+      {
+        "id": "m3CB049C6-C39F-6BBB-921A-7314F27693E8",
+        "time": 797,
+        "title": "Power settings",
+        "ref": ""
+      }
+    ]
+  },
+  "aCA639111-DC79-C589-A1BA-50B019694731": {
+    "parent": "aC1A733BC-0D16-9E48-3B96-DBE771331343",
+    "id": "113",
+    "title": "NUMA and virtual machines",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "570132685",
+    "duration": 624,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mA4997956-7686-8853-6087-822CCBFF86B3",
+        "time": 273,
+        "title": "VertiPaq is NUMA-aware",
+        "ref": ""
+      },
+      {
+        "id": "mF9B88C26-4C66-8049-2C58-333E3D843D9D",
+        "time": 434,
+        "title": "Running in virtual machines",
+        "ref": ""
+      }
+    ]
+  },
+  "a9A7E187B-A8B9-2A90-ED42-FE2F14001689": {
+    "parent": "aC1A733BC-0D16-9E48-3B96-DBE771331343",
+    "id": "114",
+    "title": "Hardware in the cloud",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "570134032",
+    "duration": 426,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m84CBB51C-0C6D-C50A-1B48-83A421E9FB1C",
+        "time": 166,
+        "title": "Power BI Premium Gen2",
+        "ref": ""
+      },
+      {
+        "id": "m27A07AA1-A13F-E3CA-ACBD-E8CAD7553AA6",
+        "time": 295,
+        "title": "Hardware: conclusions",
+        "ref": ""
+      }
+    ]
+  },
+  "aEBD80FA6-5398-53A7-7280-7585DD58B4CE": {
+    "parent": "a6FE10EE0-1BAD-00F0-1C54-104530B12C26",
+    "id": "115",
+    "title": "Architectural choices",
+    "type": "text",
+    "completed": false,
+    "text": "<p>This module is a recap of the architectural choices that you should consider when creating a solution based on a Tabular model.</p>\r\n<p>All the concepts you have seen in previous modules raise questions you should answer prior to implementing an enterprise-level solution. The answers depend on your specific requirements: this module should guide you in making the right decisions.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "Understand star schema and the importance for Power BI",
+        "url": "https://docs.microsoft.com/en-us/power-bi/guidance/star-schema",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "a52AB6C92-8770-95F0-1B23-272F02BA6683": {
+    "parent": "a6FE10EE0-1BAD-00F0-1C54-104530B12C26",
+    "id": "116",
+    "title": "Introduction to architectural choices",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "570135071",
+    "duration": 519,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m664D58CF-500B-E1E2-198F-A6B7558FF315",
+        "time": 107,
+        "title": "Architectural choices",
+        "ref": ""
+      }
+    ]
+  },
+  "aBE1D6468-B89C-1BAC-8E9B-4D24954F8B02": {
+    "parent": "a6FE10EE0-1BAD-00F0-1C54-104530B12C26",
+    "id": "117",
+    "title": "Data modeling constraints and requirements",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "570136321",
+    "duration": 869,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mC9FFE955-7694-5810-7609-4849AA771E0F",
+        "time": 280,
+        "title": "Power Query or legacy connections?",
+        "ref": ""
+      },
+      {
+        "id": "m31A96D45-BA30-5AD5-48E7-424981E8E5A6",
+        "time": 421,
+        "title": "AS on prem or in the cloud?",
+        "ref": ""
+      },
+      {
+        "id": "m9081D9D6-A5F7-ECC9-4E70-230D0463D517",
+        "time": 595,
+        "title": "Plan security in advance",
+        "ref": ""
+      },
+      {
+        "id": "mDCAD5CC4-2D8F-4A62-FA86-D430E62F99F7",
+        "time": 754,
+        "title": "Star schema is the way to go",
+        "ref": ""
+      }
+    ]
+  },
+  "a260E997E-125F-5E37-674D-5A4EF3B03099": {
+    "parent": "a6FE10EE0-1BAD-00F0-1C54-104530B12C26",
+    "id": "118",
+    "title": "Performance and latency requirements",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "570138408",
+    "duration": 1209,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mD396D4AF-883D-E761-5955-4D821CDCD6E1",
+        "time": 339,
+        "title": "Composite models with DirectQuery over SQL",
+        "ref": ""
+      },
+      {
+        "id": "mF8DEE462-3234-2797-1306-489D42D96545",
+        "time": 539,
+        "title": "Data islands",
+        "ref": ""
+      },
+      {
+        "id": "m5C35C6A3-F4B7-C8D6-315F-6330BAB5DAB0",
+        "time": 747,
+        "title": "How frequently do you need to refresh?",
+        "ref": ""
+      },
+      {
+        "id": "m5DC96FF5-8288-2758-19D7-722D9382BC26",
+        "time": 962,
+        "title": "What are your report\u2019s time requirements?",
+        "ref": ""
+      }
+    ]
+  },
+  "a757F1709-C0E9-A4D0-5140-097DBEE7DC5C": {
+    "parent": "a6FE10EE0-1BAD-00F0-1C54-104530B12C26",
+    "id": "119",
+    "title": "Business logic requirements",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "570141397",
+    "duration": 382,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m2D226CB0-A406-4E26-B62C-2B27A1A71B8D",
+        "time": 212,
+        "title": "Report measures vs model measures",
+        "ref": ""
+      }
+    ]
+  },
+  "aD569F4F6-3802-012E-1C49-48190C0AAFA6": {
+    "parent": "a6FE10EE0-1BAD-00F0-1C54-104530B12C26",
+    "id": "120",
+    "title": "Conclusions",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "570142435",
+    "duration": 102,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "a3D8A95AE-29B8-E2A9-FA60-92E9AF6CBB3D": {
+    "parent": "a86418364-B210-A241-85C8-2E8E2F26A78A",
+    "id": "121",
+    "title": "Managing Tabular",
+    "type": "text",
+    "completed": false,
+    "text": "<p>This short module introduces the second part of the training dedicated to deploying, monitoring, and maintaining a Tabular model in production.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "a508D7920-EE00-4355-D5C4-DF51335406DF": {
+    "parent": "a86418364-B210-A241-85C8-2E8E2F26A78A",
+    "id": "122",
+    "title": "What's next?",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "576775134",
+    "duration": 306,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mF7486DA3-05BD-1AF6-9092-EC907A794546",
+        "time": 53,
+        "title": "The model is ready... what's next?",
+        "ref": ""
+      },
+      {
+        "id": "m724AEB2E-6214-5AFB-407B-C99AB69599BD",
+        "time": 161,
+        "title": "Skills required to manage Tabular",
+        "ref": ""
+      }
+    ]
+  },
+  "a172BAA5E-DC0F-0138-E841-47FDFEF41016": {
+    "parent": "a398E1CFE-277A-4899-4ED9-702881FF5733",
+    "id": "123",
+    "title": "Interfacing with Tabular",
+    "type": "text",
+    "completed": false,
+    "text": "<p>You can use several protocols, APIs, and libraries to communicate with a Tabular model. This module guides you through all the options available. This module is important to implement automatic and/or scheduled operations.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "AMO/TOM library for .NET Framework",
+        "url": "https://www.nuget.org/packages/Microsoft.AnalysisServices.retail.amd64/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "AMO/TOM library for .NET Core",
+        "url": "https://www.nuget.org/packages/Microsoft.AnalysisServices.NetCore.retail.amd64/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "ADOMD client library for .NET Framework",
+        "url": "https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.retail.amd64/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "ADOMD client library for .NET Core",
+        "url": "https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Tabular Object Model (TOM)",
+        "url": "https://docs.microsoft.com/en-us/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Azure Analysis Services REST API",
+        "url": "https://docs.microsoft.com/en-us/rest/api/azure/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Azure Analysis Services \u2013 Asynchronous refresh with the REST API",
+        "url": "https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-async-refresh",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Power BI REST API",
+        "url": "https://docs.microsoft.com/en-us/rest/api/power-bi/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Power BI REST API \u2013 .NET library",
+        "url": "https://www.nuget.org/packages/Microsoft.PowerBI.Api/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Power BI REST API - .JavaScript library",
+        "url": "https://www.nuget.org/packages/Microsoft.PowerBI.JavaScript/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Power BI Embedded ARM REST API",
+        "url": "https://docs.microsoft.com/en-us/rest/api/power-bi-embedded/",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "a720E3153-4E49-BE59-AEBF-D05866BE6E0D": {
+    "parent": "a398E1CFE-277A-4899-4ED9-702881FF5733",
+    "id": "124",
+    "title": "Connections",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "573308338",
+    "duration": 1436,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mE1BDF632-5641-2598-C867-A109AFFC430A",
+        "time": 158,
+        "title": "Interfacing with Tabular",
+        "ref": ""
+      },
+      {
+        "id": "m8FD47B95-CB4B-DD34-9251-96618F307700",
+        "time": 359,
+        "title": "XMLA endpoint",
+        "ref": ""
+      },
+      {
+        "id": "m77A815FC-CF6E-6B42-129B-FE93A5729A35",
+        "time": 588,
+        "title": "Power BI connections",
+        "ref": ""
+      },
+      {
+        "id": "m4D96AB52-0B69-5645-ABA9-6FE7D90318A3",
+        "time": 776,
+        "title": "Azure Analysis Services connection",
+        "ref": ""
+      },
+      {
+        "id": "mB627E0C0-94C9-D494-C4B6-AA52CA714E02",
+        "time": 899,
+        "title": "XMLA endpoint vs client connections (demo)",
+        "ref": "M20.L01.D01"
+      }
+    ]
+  },
+  "aBC6549E6-A63E-1D41-0826-ACA944AE5F00": {
+    "parent": "a398E1CFE-277A-4899-4ED9-702881FF5733",
+    "id": "125",
+    "title": "Libraries",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "573310466",
+    "duration": 482,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m0E27B7BF-549E-2E3E-A575-1C9FA9493B1C",
+        "time": 146,
+        "title": "Example: refresh a table using TOM",
+        "ref": ""
+      },
+      {
+        "id": "m90E5C4D1-C43E-60B3-4C3E-EC659EE8A27C",
+        "time": 324,
+        "title": "Refresh a table using TOM (demo)",
+        "ref": "M20.L02.D01"
+      }
+    ]
+  },
+  "aEF7FDDD8-E748-CC89-DB55-A8EE32498811": {
+    "parent": "a398E1CFE-277A-4899-4ED9-702881FF5733",
+    "id": "126",
+    "title": "Tabular Model Scripting Language (TMSL)",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "573311102",
+    "duration": 395,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mE44B596A-38E4-F5F5-43B9-E4556943B06F",
+        "time": 134,
+        "title": "Example: refresh a table using TMSL",
+        "ref": ""
+      },
+      {
+        "id": "mF77FE183-E770-175D-0CC5-67DD63696CA4",
+        "time": 177,
+        "title": "Refresh a table using TMSL (demo)",
+        "ref": "M20.L03.D01"
+      }
+    ]
+  },
+  "a475DB132-0756-3A1D-566B-C956CB916339": {
+    "parent": "a398E1CFE-277A-4899-4ED9-702881FF5733",
+    "id": "127",
+    "title": "REST APIs for cloud services",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "573311538",
+    "duration": 366,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mABD05F9F-FF8F-D30A-AD17-2B6CEA3F5587",
+        "time": 79,
+        "title": "Example: refresh a table using AAS REST API",
+        "ref": ""
+      },
+      {
+        "id": "m87D69A14-83CA-35A7-5778-322E715648B9",
+        "time": 136,
+        "title": "Power BI REST API",
+        "ref": ""
+      },
+      {
+        "id": "mF0DE951F-D856-F500-BAF9-36897A543B63",
+        "time": 195,
+        "title": "Try the Power BI REST API (demo)",
+        "ref": "M20.L04.D01"
+      },
+      {
+        "id": "m4084050F-F315-C761-B680-F186E18CCBEE",
+        "time": 329,
+        "title": "Azure Resource Manager (ARM) API",
+        "ref": ""
+      }
+    ]
+  },
+  "aB7A5CF51-3838-D60C-F469-A54EE20F61AF": {
+    "parent": "a398E1CFE-277A-4899-4ED9-702881FF5733",
+    "id": "128",
+    "title": "Choosing between TMSL and TOM",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "573312017",
+    "duration": 892,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mBF59AE06-8808-6CEB-6D4A-27B153B3E61F",
+        "time": 215,
+        "title": "Automating deployment (TOM)",
+        "ref": ""
+      },
+      {
+        "id": "m175856BC-F9CD-D65D-83CA-67E58E805F9B",
+        "time": 248,
+        "title": "Automating deployment (TOM) (demo)",
+        "ref": "M20.L05.D01"
+      },
+      {
+        "id": "mBACD5193-A2F8-C069-F416-C6A4D1CFF356",
+        "time": 646,
+        "title": "Manipulating a data model (TOM)",
+        "ref": ""
+      },
+      {
+        "id": "mD2B8FF67-869D-E78E-1554-467F6E32F734",
+        "time": 700,
+        "title": "Manipulating a data model (TOM) (demo)",
+        "ref": "M20.L05.D02"
+      }
+    ]
+  },
+  "aF78DA1B9-4366-DDBF-C6EA-84997ECBECD6": {
+    "parent": "a398E1CFE-277A-4899-4ED9-702881FF5733",
+    "id": "129",
+    "title": "Conclusions",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "573313106",
+    "duration": 65,
+    "nop": false,
+    "files": [],
+    "markers": []
+  },
+  "aB3526780-CF31-48AC-F673-B02C68326B90": {
+    "parent": "aA0AB39A9-24AC-8B40-5EE0-0B6B686BC5D0",
+    "id": "130",
+    "title": "Deploying Tabular models",
+    "type": "text",
+    "completed": false,
+    "text": "<p>Deploying a model in production requires proper planning to reduce or remove any downtime, and to maximize the use of the available server resources.\u00a0</p>\r\n<p>This module clarifies the impact of deploying different types of changes on a model in production. It also clarifies how to use different tools to control the side effects and minimize their impact on service availability.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "Analysis Services Deploymnet Wizard (installed with SQL Server Management Studio)",
+        "url": "https://docs.microsoft.com/en-us/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "CID/CD with AzureDevOps, Git, and Tabular Editor You're Deploying it Wrong! - AS Edition",
+        "url": "https://tabulareditor.github.io/2019/02/20/DevOps1.html",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Enable XMLA read-write on Power BI Premium to deploy Tabular models",
+        "url": "https://docs.microsoft.com/en-us/power-bi/admin/service-premium-connect-tools#enable-xmla-read-write",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "a1C696575-DB26-A891-F247-52349A140AE2": {
+    "parent": "aA0AB39A9-24AC-8B40-5EE0-0B6B686BC5D0",
+    "id": "131",
+    "title": "Deploying and processing in production",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "573318049",
+    "duration": 1664,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m0F57FB89-6D23-DAB2-5C26-28FB74A0D91E",
+        "time": 189,
+        "title": "Deploying a solution in production",
+        "ref": ""
+      },
+      {
+        "id": "mF3CD25B7-151D-1317-1725-EDE1F6AED73E",
+        "time": 395,
+        "title": "Deploying steps",
+        "ref": ""
+      },
+      {
+        "id": "m5BEAB5C4-1729-2910-B1C5-4638BC22D518",
+        "time": 657,
+        "title": "Deploying and processing",
+        "ref": ""
+      },
+      {
+        "id": "m0AAE1659-AC16-4A7B-8C08-1ECE7A11D296",
+        "time": 1362,
+        "title": "Processing options after deployment",
+        "ref": ""
+      }
+    ]
+  },
+  "a8CC4A23E-B356-E1EF-84C4-85C9ECA1B184": {
+    "parent": "aA0AB39A9-24AC-8B40-5EE0-0B6B686BC5D0",
+    "id": "132",
+    "title": "Deploying from Visual Studio",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "573320542",
+    "duration": 2102,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mACAC2589-0DFB-DD63-3CDC-52956ABF7B7C",
+        "time": 91,
+        "title": "Deploying a solution from Visual Studio (demo)",
+        "ref": "M21.L02.D01"
+      },
+      {
+        "id": "mF2B176E2-0E65-D997-F65D-A339D155534A",
+        "time": 1068,
+        "title": "Deploying security roles and partitions",
+        "ref": ""
+      },
+      {
+        "id": "m8DCE4924-C0DC-58B2-E50B-4D8B63FA811C",
+        "time": 1177,
+        "title": "Analysis Services Deployment Wizard",
+        "ref": ""
+      },
+      {
+        "id": "m73C0A455-C624-C208-6477-62855CAE2AED",
+        "time": 1302,
+        "title": "Analysis Services Deployment Wizard (demo)",
+        "ref": "M21.L02.D02"
+      }
+    ]
+  },
+  "aB93C01A4-7074-EC5F-3C05-06653306E158": {
+    "parent": "aA0AB39A9-24AC-8B40-5EE0-0B6B686BC5D0",
+    "id": "133",
+    "title": "Deploying from Tabular Editor",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "573322528",
+    "duration": 460,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mF0E415E1-C00B-033D-9469-B62458F1CB7A",
+        "time": 72,
+        "title": "Tabular Editor Deployment Wizard (demo)",
+        "ref": "M21.L03.D01"
+      },
+      {
+        "id": "m98620C20-B719-911F-FA80-904D74ADFBA9",
+        "time": 373,
+        "title": "Continuous integration",
+        "ref": ""
+      }
+    ]
+  },
+  "a11BEA0F1-2C52-DEAE-8A89-44AB3B1415F0": {
+    "parent": "aA0AB39A9-24AC-8B40-5EE0-0B6B686BC5D0",
+    "id": "134",
+    "title": "Other deployment techniques",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "573323071",
+    "duration": 929,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mA30C5A9A-42BD-65A7-B5C0-486B321857F2",
+        "time": 124,
+        "title": "ALM Toolkit",
+        "ref": ""
+      },
+      {
+        "id": "mBF9672CC-EB59-6D1A-9A02-F2D409B185F4",
+        "time": 215,
+        "title": "ALM Toolkit with Power BI (demo)",
+        "ref": "M21.L04.D01"
+      },
+      {
+        "id": "m136A9CA2-4724-1429-054C-16064B16A07A",
+        "time": 681,
+        "title": "ALM Toolkit with Analysis Services (demo)",
+        "ref": "M21.L04.D02"
+      }
+    ]
+  },
+  "a11CB1114-9975-A684-7C47-F0C4F1368C48": {
+    "parent": "aA0AB39A9-24AC-8B40-5EE0-0B6B686BC5D0",
+    "id": "135",
+    "title": "Power BI deployment",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "573323889",
+    "duration": 335,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m0689FE98-E102-CF07-9FEC-87F77E9D43AB",
+        "time": 246,
+        "title": "Deployment of Power BI changes",
+        "ref": ""
+      }
+    ]
+  },
+  "a27467846-E9AC-720B-B3F4-7943F111D224": {
+    "parent": "a99D88C94-8B8A-97CC-B636-9A79CE83B084",
+    "id": "136",
+    "title": "Processing and partitioning Tabular models",
+    "type": "text",
+    "completed": false,
+    "text": "<p>A large table can be split into partitions to reduce processing time. This module describes how to define a partitioning strategy to minimize refresh time, and how to reduce the processing time through parallelism.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "Automate partition management",
+        "url": "https://github.com/Microsoft/Analysis-Services/tree/master/AsPartitionProcessing",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "ProcessAdd with Legacy data sources",
+        "url": "https://www.sqlbi.com/articles/using-process-add-in-tabular-models/ ",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "ProcessAdd with Structured data sources",
+        "url": "https://powerbi.microsoft.com/en-us/blog/using-out-of-line-bindings-in-power-bi/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "REST API: Json request (not TMSL)",
+        "url": "https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-async-refresh ",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Azure Logic Apps: internally call REST API",
+        "url": "https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-refresh-logic-app",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Azure Automation (PowerShell)",
+        "url": "https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-refresh-azure-automation ",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "a2A04E818-EB3E-E248-10CC-F7AF65BD4232": {
+    "parent": "a99D88C94-8B8A-97CC-B636-9A79CE83B084",
+    "id": "137",
+    "title": "Processing and partitioning",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "577077477",
+    "duration": 259,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m13F58A5C-5083-7353-7DF6-EF0E36B40403",
+        "time": 112,
+        "title": "Processing and partitioning",
+        "ref": ""
+      }
+    ]
+  },
+  "aE34F8EBA-41CA-4F88-5DAA-D04CE0A1FA63": {
+    "parent": "a99D88C94-8B8A-97CC-B636-9A79CE83B084",
+    "id": "138",
+    "title": "Partitions in Tabular models",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "577077545",
+    "duration": 1234,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mE9917353-D5CF-9CAE-94E8-5223F00F69A8",
+        "time": 293,
+        "title": "What is a partition (demo)",
+        "ref": "M22.L02.D01"
+      }
+    ]
+  },
+  "a41A15F95-1FAF-BDED-74B1-411D57800B94": {
+    "parent": "a99D88C94-8B8A-97CC-B636-9A79CE83B084",
+    "id": "139",
+    "title": "Partitioning strategies",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "577077721",
+    "duration": 3214,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m2978F325-B4DB-8EA2-537C-645214AC32BD",
+        "time": 250,
+        "title": "Partitioning strategies",
+        "ref": "M22.L03.D01"
+      },
+      {
+        "id": "mF03680B9-39D1-5942-6EFB-703A1CE356E2",
+        "time": 633,
+        "title": "Improve processing time by using partitions",
+        "ref": ""
+      },
+      {
+        "id": "mAA068524-6F4E-24BF-CC04-0E73D2148024",
+        "time": 715,
+        "title": "Refresh modified partitions",
+        "ref": ""
+      },
+      {
+        "id": "m366DDAAB-1F38-227D-A4C4-E601F6FF351D",
+        "time": 785,
+        "title": "Refresh one partition (demo)",
+        "ref": "M22.L03.D02"
+      },
+      {
+        "id": "mE40749E1-7CAB-DA96-4FB8-CDD684742E01",
+        "time": 1073,
+        "title": "Increase parallelism during processing",
+        "ref": ""
+      },
+      {
+        "id": "m30006B97-7E8A-B0D1-BBDE-B07E64D21E86",
+        "time": 1297,
+        "title": "Controlling parallelism in TMSL scripts",
+        "ref": ""
+      },
+      {
+        "id": "mA24BB71E-A84F-D805-5A7E-94352BBA0A4A",
+        "time": 1352,
+        "title": "Controlling parallelism in TMSL scripts (demo)",
+        "ref": "M22.L03.D03"
+      },
+      {
+        "id": "m43A123D8-6B19-CD73-54BE-787ED4716484",
+        "time": 1726,
+        "title": "Remove older partitions",
+        "ref": ""
+      },
+      {
+        "id": "mC1C7AED9-1E34-040E-8585-82B2D7E6F50D",
+        "time": 1786,
+        "title": "Remove older partitions (demo)",
+        "ref": "M22.L03.D04"
+      },
+      {
+        "id": "mCA8928C0-4CAB-A424-8671-7ED3892C9B8E",
+        "time": 2035,
+        "title": "Merge partitions",
+        "ref": ""
+      },
+      {
+        "id": "mB41BBD47-0679-E259-CB8B-19904445C3B7",
+        "time": 2158,
+        "title": "Merge partitions (demo)",
+        "ref": "M22.L03.D05"
+      },
+      {
+        "id": "m36E53FF5-8BDE-FA3C-4294-488BA215D0E3",
+        "time": 2420,
+        "title": "Incremental refresh in Power BI",
+        "ref": ""
+      },
+      {
+        "id": "m6E67F152-7429-0831-060D-D5EC5F1C3092",
+        "time": 2600,
+        "title": "Incremental refresh in Power BI (demo)",
+        "ref": "M22.L03.D06"
+      },
+      {
+        "id": "mDC17910D-3592-9F84-BBE6-FEFD6B378C6B",
+        "time": 2885,
+        "title": "Automate partition management",
+        "ref": ""
+      },
+      {
+        "id": "mA5A5B7FE-0CB1-65A0-6279-A511698EF5B5",
+        "time": 2970,
+        "title": "Partitioning points of attention",
+        "ref": ""
+      }
+    ]
+  },
+  "aF31FA32A-C6FD-163F-C8C0-319C4AD27149": {
+    "parent": "a99D88C94-8B8A-97CC-B636-9A79CE83B084",
+    "id": "140",
+    "title": "Processing options",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "577078316",
+    "duration": 2135,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m78556493-FBD4-DD50-2817-46B9F6007E67",
+        "time": 142,
+        "title": "Process Clear",
+        "ref": ""
+      },
+      {
+        "id": "m0F82A482-AA9F-16DB-A725-459DE70E5C9E",
+        "time": 253,
+        "title": "Process Clear (demo)",
+        "ref": "M22.L04.D01"
+      },
+      {
+        "id": "m8DF7D3F6-6C6D-6BC9-63A2-43B5C02E9A49",
+        "time": 341,
+        "title": "Process Data",
+        "ref": ""
+      },
+      {
+        "id": "m752F1DCF-8479-15EF-B804-E95E90731A3A",
+        "time": 463,
+        "title": "Process Data (demo)",
+        "ref": "M22.L04.D02"
+      },
+      {
+        "id": "m2BAB59B5-12CA-AEC5-1999-FF2746319BE0",
+        "time": 660,
+        "title": "Process Recalc",
+        "ref": ""
+      },
+      {
+        "id": "m4B7B57CE-53E9-9CC3-42CA-04B487C7F758",
+        "time": 721,
+        "title": "Process Default",
+        "ref": ""
+      },
+      {
+        "id": "m44F39CD8-33FE-E6A3-4ECA-74D9AC7D7E4B",
+        "time": 847,
+        "title": "Process Default (demo)",
+        "ref": "M22.L04.D03"
+      },
+      {
+        "id": "m8FC9CA45-2B95-434F-4430-195FC9ABEAEE",
+        "time": 1112,
+        "title": "Process Full",
+        "ref": ""
+      },
+      {
+        "id": "mAF33F02C-F699-ED4F-54F5-47B11BB2BA32",
+        "time": 1250,
+        "title": "Process Full (demo)",
+        "ref": "M22.L04.D04"
+      },
+      {
+        "id": "mB39BA890-3844-17A1-03A4-C325D8EDA9E2",
+        "time": 1468,
+        "title": "Process Defrag",
+        "ref": ""
+      },
+      {
+        "id": "mC1AB7A9F-9117-8D0E-FB04-CD5B2E29FC08",
+        "time": 1627,
+        "title": "Process Defrag (demo)",
+        "ref": "M22.L04.D05"
+      },
+      {
+        "id": "m07E4FFE7-C143-31A3-A82E-B6CF71D20A2A",
+        "time": 2007,
+        "title": "Process Add",
+        "ref": ""
+      }
+    ]
+  },
+  "a90450D8F-9E6C-1778-6F07-9F70D72D3192": {
+    "parent": "a99D88C94-8B8A-97CC-B636-9A79CE83B084",
+    "id": "141",
+    "title": "Executing process commands",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "577078802",
+    "duration": 1422,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m4A0E6A8C-4FB2-C33A-CABF-6D454744814F",
+        "time": 92,
+        "title": "TMSL commands \u2013 sequence and parallelism (demo)",
+        "ref": "M22.L05.D01"
+      },
+      {
+        "id": "m04658FE9-8009-757C-531A-C4426FB9BCFB",
+        "time": 410,
+        "title": "Processing in Analysis Services ",
+        "ref": ""
+      },
+      {
+        "id": "m338901AA-050D-6227-A335-136C1F03D2E7",
+        "time": 650,
+        "title": "Real-time and near real-time strategies",
+        "ref": ""
+      },
+      {
+        "id": "m699F4EC0-740B-CFCF-B524-56F84F3DFDDD",
+        "time": 903,
+        "title": "Long-running queries",
+        "ref": ""
+      },
+      {
+        "id": "m624755C1-268D-ACED-7E39-2ADB65279B31",
+        "time": 1182,
+        "title": "Tips for near real-time",
+        "ref": ""
+      }
+    ]
+  },
+  "a1C49E618-4494-DB92-48B9-00FCA984889A": {
+    "parent": "a99D88C94-8B8A-97CC-B636-9A79CE83B084",
+    "id": "142",
+    "title": "Processing strategies",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "577079946",
+    "duration": 308,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mA1AF276B-5BFF-2384-9B9C-750BB3CB9FCD",
+        "time": 168,
+        "title": "Automating data refresh (AS)",
+        "ref": ""
+      },
+      {
+        "id": "m267EDA86-DFB4-236C-265E-B4198348ED6D",
+        "time": 235,
+        "title": "Automating data refresh (Power BI)",
+        "ref": ""
+      }
+    ]
+  },
+  "a5A2B9798-5AE6-68C5-B3F3-D9B4653602D5": {
+    "parent": "aA1148D92-D6EC-B33A-DC36-A6DB550A5E71",
+    "id": "143",
+    "title": "Monitoring Tabular",
+    "type": "text",
+    "completed": false,
+    "text": "<p>There are different tools available to monitor the behavior of a Tabular model: CPU consumption, memory consumption, active sessions, and events describing the operations executed by the engine.</p>\r\n<p>This module is a quick guide to the tools available to you, and to the more important metrics to monitor and control in an Analysis Services instance.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "Optimizing memory settings in Analysis Services",
+        "url": "https://github.com/Microsoft/Analysis-Services/tree/master/AsPartitionProcessing",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "SSAS Activity Monitor (free open-source tool)",
+        "url": "https://www.sqlbi.com/tools/ssas-activity-monitor/ ",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Analysis Services Trace Events",
+        "url": "https://docs.microsoft.com/en-us/analysis-services/trace-events/analysis-services-trace-events",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Visualizing Azure Analysis Services processing tasks with the Job Graph events sample",
+        "url": "https://blog.crossjoin.co.uk/2020/11/15/visualising-azure-analysis-services-processing-tasks-with-the-job-graph-events-sample/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Analysis-Services/ASJobGraphEvents",
+        "url": "https://github.com/microsoft/Analysis-Services/tree/master/ASJobGraphEvents",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "SSAS Events Analyzer",
+        "url": "https://marcosqlbi.github.io/SsasEventsAnalyzer/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Diagnostic Logs of Azure Analysis Services",
+        "url": "https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-logging",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Integration with Azure Log Analytics",
+        "url": "https://docs.microsoft.com/en-us/power-bi/transform-model/log-analytics/desktop-log-analytics-overview",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "a0F166E47-BC7F-8F23-D16A-28D2BD4637DB": {
+    "parent": "aA1148D92-D6EC-B33A-DC36-A6DB550A5E71",
+    "id": "144",
+    "title": "Introduction to monitoring Tabular",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "577462912",
+    "duration": 261,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m49AD562C-3B4E-4DD5-DCAC-5BB4763A8364",
+        "time": 114,
+        "title": "Monitoring Tabular",
+        "ref": ""
+      }
+    ]
+  },
+  "a6BEDC557-1D91-7677-349E-D5EF0EA0345A": {
+    "parent": "aA1148D92-D6EC-B33A-DC36-A6DB550A5E71",
+    "id": "145",
+    "title": "Memory configuration",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "577462986",
+    "duration": 1686,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mB24E90D3-7E22-DBED-619E-825A3CB1DBBF",
+        "time": 176,
+        "title": "Analysis Services memory map",
+        "ref": ""
+      },
+      {
+        "id": "mEA1533F0-0CE2-93F9-2C7C-22AB568BC6B8",
+        "time": 490,
+        "title": "Memory performance counters",
+        "ref": ""
+      },
+      {
+        "id": "m24AF954F-0CD0-45B5-6789-B6AFA88A00BD",
+        "time": 608,
+        "title": "Performance Monitor",
+        "ref": ""
+      },
+      {
+        "id": "m0035687E-DC40-43AF-BE8D-3E9FA4EB3D63",
+        "time": 693,
+        "title": "Expensive request going out of memory",
+        "ref": ""
+      },
+      {
+        "id": "m0A9353E9-AE6D-DB31-9396-A4FFFD5604EA",
+        "time": 883,
+        "title": "Analysis Services memory configuration",
+        "ref": ""
+      },
+      {
+        "id": "m2EB2A0D1-B0D7-2A0D-1127-EECC83293C3B",
+        "time": 982,
+        "title": "Analysis Services memory configuration (demo)",
+        "ref": "M23.L02.D01"
+      },
+      {
+        "id": "m7D031E1D-8CC0-DADF-04AD-4F1BC9B8F8E3",
+        "time": 1253,
+        "title": "Memory settings",
+        "ref": ""
+      },
+      {
+        "id": "m568D8D3B-8AC7-FAB5-3A81-73A6CCE3BE25",
+        "time": 1363,
+        "title": "VertiPaq settings",
+        "ref": ""
+      },
+      {
+        "id": "m9EB446EB-5558-3941-C8AE-5A41125299A4",
+        "time": 1509,
+        "title": "VertiPaqPagingPolicy for Azure Analysis Services",
+        "ref": ""
+      },
+      {
+        "id": "m467B0ABA-A400-FD76-4F3D-52B45391046B",
+        "time": 1599,
+        "title": "Memory settings for Power BI service",
+        "ref": ""
+      }
+    ]
+  },
+  "a1E865038-8DEE-86E9-92A3-C036D2E32BD9": {
+    "parent": "aA1148D92-D6EC-B33A-DC36-A6DB550A5E71",
+    "id": "146",
+    "title": "Diagnostic events and tools",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "577463356",
+    "duration": 1750,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m7D111DF2-8655-F6C2-C0E2-2A29A96B8909",
+        "time": 98,
+        "title": "SSAS Activity Monitor (demo)",
+        "ref": "M23.L03.D01"
+      },
+      {
+        "id": "mDF45F149-39BA-AFB9-064C-3A21C7E5EE21",
+        "time": 314,
+        "title": "Trace events and extended events",
+        "ref": ""
+      },
+      {
+        "id": "m963E71D8-E65A-0779-DD66-1EDDCAF3C179",
+        "time": 478,
+        "title": "Event types",
+        "ref": ""
+      },
+      {
+        "id": "mD2106283-E46B-1925-2122-023A0EC12B36",
+        "time": 546,
+        "title": "Events to monitor process operations",
+        "ref": ""
+      },
+      {
+        "id": "m507829DC-D577-F4F0-9846-8AF51B7815C1",
+        "time": 654,
+        "title": "Monitoring refresh operation using SQL Server Profiler (demo)",
+        "ref": "M23.L03.D02"
+      },
+      {
+        "id": "m1B178C5C-5B68-A45A-8D3F-E4457669B912",
+        "time": 990,
+        "title": "Events to monitor query requests",
+        "ref": ""
+      },
+      {
+        "id": "mED566E88-C208-A9EC-D0D6-518674B71596",
+        "time": 1101,
+        "title": "Monitoring a query using SQL Server Profiler and DAX Studio (demo)",
+        "ref": "M23.L03.D03"
+      },
+      {
+        "id": "mFA78A05C-F1DA-1879-4571-31D8EFB24391",
+        "time": 1483,
+        "title": "Interactive analysis",
+        "ref": ""
+      },
+      {
+        "id": "mAFF72112-493E-2815-CFA4-1F381DBA5487",
+        "time": 1579,
+        "title": "SQL Server Analysis Services",
+        "ref": ""
+      },
+      {
+        "id": "mC31F9982-0479-3331-378C-AEE5131E29D5",
+        "time": 1677,
+        "title": "Azure Analysis Services",
+        "ref": ""
+      },
+      {
+        "id": "m852B75F6-ED3F-EBC5-E9C7-E0074C5B048A",
+        "time": 1715,
+        "title": "Power BI Premium",
+        "ref": ""
+      }
+    ]
+  },
+  "a0C0C78DD-5713-8903-0B99-969DA3744974": {
+    "parent": "a32669BFC-990A-A4A9-A8A7-84887E35995F",
+    "id": "147",
+    "title": "Backup and restore strategies",
+    "type": "text",
+    "completed": false,
+    "text": "<p>This module describes the differences between backup/restore and attach/detach of a database, and how to use these features in different products.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "TMSL Reference",
+        "url": "https://docs.microsoft.com/en-us/analysis-services/tmsl/tmsl-reference-commands",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Azure Analysis Services backup (Backup Storage Settings)",
+        "url": "https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-backup",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Azure Storage Explorer",
+        "url": "https://azure.microsoft.com/en-us/features/storage-explorer/",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Power BI Premium backup",
+        "url": "https://docs.microsoft.com/en-us/power-bi/admin/service-premium-backup-restore-dataset",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "aEAA113DA-D8E8-F2D1-0B51-2B71B07A8666": {
+    "parent": "a32669BFC-990A-A4A9-A8A7-84887E35995F",
+    "id": "148",
+    "title": "Database storage architecture",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "576775256",
+    "duration": 634,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mDA48E91B-4118-0803-86A1-95847A60A9A4",
+        "time": 112,
+        "title": "Do you need backups?",
+        "ref": ""
+      },
+      {
+        "id": "m3BEB2763-2753-34CD-0FBF-D1503A86EC8C",
+        "time": 299,
+        "title": "Database structure",
+        "ref": ""
+      },
+      {
+        "id": "mFAAAAD3B-DA30-628A-C52C-4EDE209ED80F",
+        "time": 401,
+        "title": "Backup/Restore operations",
+        "ref": ""
+      }
+    ]
+  },
+  "aDDD5AA0E-C251-5118-2F93-6B91A87A552C": {
+    "parent": "a32669BFC-990A-A4A9-A8A7-84887E35995F",
+    "id": "149",
+    "title": "Executing attach, detach, backup, and restore",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "576775509",
+    "duration": 1749,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "mE7FA44AD-04E2-07A3-31EA-BB4C31F01929",
+        "time": 69,
+        "title": "Attach and detach database (demo)",
+        "ref": "M24.L02.D01"
+      },
+      {
+        "id": "m71276E52-DCD0-2A16-F21F-38C0967DA117",
+        "time": 473,
+        "title": "Backup and restore on-premises",
+        "ref": ""
+      },
+      {
+        "id": "mC6E9147D-521A-E0A1-84AD-C59719073B39",
+        "time": 562,
+        "title": "Backup and restore on-premises (demo)",
+        "ref": "M24.L02.D02"
+      },
+      {
+        "id": "m5B767F85-8C94-2199-5F9A-901A6666AEBE",
+        "time": 976,
+        "title": "Backup and restore on Azure",
+        "ref": ""
+      },
+      {
+        "id": "m4CC2B65C-0C0E-E257-B6EB-F1440E0A9199",
+        "time": 1062,
+        "title": "Backup and restore on Azure (demo)",
+        "ref": "M24.L02.D03"
+      },
+      {
+        "id": "m7EB44783-EC0E-BA51-A9EF-EF19B029CE93",
+        "time": 1381,
+        "title": "Backup and restore on Power BI Premium",
+        "ref": ""
+      },
+      {
+        "id": "m2FECA621-48D4-571A-016C-3834F98B871B",
+        "time": 1473,
+        "title": "Backup and restore on Power BI Premium (demo)",
+        "ref": "M24.L02.D04"
+      }
+    ]
+  },
+  "a1BC793B7-0A9C-2406-166F-22D2BC623F51": {
+    "parent": "a9C4C9CED-5035-2C69-B367-C1EBBA47CE02",
+    "id": "150",
+    "title": "Scaling out",
+    "type": "text",
+    "completed": false,
+    "text": "<p>Analysis Services can be configured in a scale-out architecture, with implementation differences between an on-premises solution and Azure Analysis Services.</p>",
+    "video": "",
+    "duration": 0,
+    "nop": false,
+    "files": [
+      {
+        "title": "Synchronize command (TMSL)",
+        "url": "https://docs.microsoft.com/en-us/analysis-services/tmsl/synchronize-command-tmsl",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Azure Analysis Services Scale-out",
+        "url": "https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-scale-out ",
+        "size": "",
+        "type": "web"
+      },
+      {
+        "title": "Power BI Service auto-scale",
+        "url": "https://docs.microsoft.com/en-us/power-bi/admin/service-premium-auto-scale",
+        "size": "",
+        "type": "web"
+      }
+    ],
+    "markers": []
+  },
+  "a7C955F71-9990-DD79-CE5C-95711832F41D": {
+    "parent": "a9C4C9CED-5035-2C69-B367-C1EBBA47CE02",
+    "id": "151",
+    "title": "Scaling-out Analysis Services",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "576775971",
+    "duration": 1065,
+    "nop": false,
+    "files": [],
+    "markers": [
+      {
+        "id": "m1A66927F-CB00-EC2E-5E1C-C44FD0E6CC03",
+        "time": 48,
+        "title": "Scaling out vs scaling up",
+        "ref": ""
+      },
+      {
+        "id": "m290B9066-14BE-A660-1EEF-FD66C8F8291B",
+        "time": 209,
+        "title": "On-premises Analysis Services scale-out architecture",
+        "ref": ""
+      },
+      {
+        "id": "mEE9DF4BA-9B03-95C9-D2BF-0CC84E32C0A4",
+        "time": 383,
+        "title": "Scaling out with on-premises Analysis Services",
+        "ref": ""
+      },
+      {
+        "id": "m40D3D635-44E8-18BC-3BAA-52D57208B778",
+        "time": 450,
+        "title": "Scaling out with on-premises Analysis Services (demo)",
+        "ref": "M25.L01.D01"
+      },
+      {
+        "id": "mE6D68467-FEA6-A295-F861-EE7754D7FED2",
+        "time": 676,
+        "title": "Azure Analysis Services scale-out architecture",
+        "ref": ""
+      },
+      {
+        "id": "m8940B2B3-F4A2-8568-6163-06DECEB274A0",
+        "time": 778,
+        "title": "Scaling out with Azure Analysis Services",
+        "ref": ""
+      },
+      {
+        "id": "mDAA2C0B6-F9F3-10D0-B54A-90236F91A15C",
+        "time": 921,
+        "title": "Scaling out with Azure Analysis Services (demo)",
+        "ref": "M25.L01.D02"
+      },
+      {
+        "id": "m3728BE23-6F69-F8F7-C0C1-684A1ABB70B1",
+        "time": 984,
+        "title": "Scaling out with Power BI service",
+        "ref": ""
+      }
+    ]
+  },
+  "aDD068CD2-DC71-60C6-72AF-57C037470B83": {
+    "parent": "aE5BC6BB2-3D02-2120-6B60-AEA56E89B4CE",
+    "id": "153",
+    "title": "Conclusion",
+    "type": "video",
+    "completed": false,
+    "text": "",
+    "video": "583364321",
+    "duration": 131,
+    "nop": false,
+    "files": [],
+    "markers": []
+  }
+}

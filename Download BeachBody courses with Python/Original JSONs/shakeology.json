@@ -1,0 +1,4056 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "shakeology",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "NWOt1I2xWP7xm05A7ujC97",
+                "_type": "program",
+                "slug": "shakeology",
+                "title": "Shakeology",
+                "subtitle": null,
+                "brandCode": "SHK",
+                "classification": [
+                  "nutrition"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "BoGK5VlBLllbPFYTvMiFGC",
+                    "slug": "freeuser",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                    "slug": "po-freeuser",
+                    "title": "REGISTERED USER",
+                    "subtitle": null,
+                    "purchaseAction": {
+                      "title": null,
+                      "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us&trainerName=IsabelleDaikeler-DarinOlien"
+                    },
+                    "purchasePath": "none"
+                  }
+                ],
+                "seo": {
+                  "title": "Shakeology Overview: Start Your Journey Here",
+                  "description": "Make a change in your nutrition with Shakeology, get started with the formula, and meet the nutritionists behind it here.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cd091d783eec50c35d53eb1645e1e6b01d3ea234-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Isabelle",
+                    "lastName": "Daikeler",
+                    "bioBodi": "The originator of the formulation philosophies behind many BODi supplements, including Shakeology. Isabelle is known for her no-compromise approach to quality.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b749145987d96aa428c2a279aa1ffb09c6feb936-860x964.png"
+                      }
+                    }
+                  },
+                  {
+                    "firstName": "Darin",
+                    "lastName": "Olien",
+                    "bioBodi": "Darin\u2019s passion for potent, sustainable nutrition led him to team up with Isabelle Daikeler to create Shakeology. Known for traveling the world to source rare superfoods, BODi\u2019s \u201cingredient hunter\u201d uses his expertise to source powerful ingredients to use in Shakeology.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/78a8d13a6c9cbeaa5d306d4b0a3f4ab3013b41a6-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#0a881c",
+                "colorPrimaryOptions": {
+                  "argb": "#0a881c",
+                  "rgba": "#0a881c"
+                },
+                "descriptionShort": "Our powerful superfood nutrition shake. Requires a Free Team Beachbody account.",
+                "descriptionLong": "Feel the difference when you feed your body the crucial nutrients found in Shakeology. Because when you feel better, you do better\u2014at just about everything.",
+                "sampleWorkoutId": null,
+                "trailerId": "A3jSdym3jf5hqTWanxQNBG",
+                "videoOverviewId": "Q6j5eG7tj3PSUghmZGuPRb",
+                "descriptionOverview": "The original superfood shake that has helped millions feel amazing. Protein, pre & probiotics, antioxidants, adaptogens, greens, +more.",
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/shakeology"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": null,
+                  "value": null
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": null,
+                  "value": "0"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": null,
+                  "value": null
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=IsabelleDaikeler-DarinOlien"
+                  },
+                  "purchasePaths": "none",
+                  "referralId": null
+                },
+                "equipmentRequired": null,
+                "equipmentRecommended": null,
+                "categories": null,
+                "level": null,
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d869a8f61ec1e87b4dd444d26f8ec8adcd5074fb-1616x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d869a8f61ec1e87b4dd444d26f8ec8adcd5074fb-1616x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/31d7c4e8aa27232ea0c0c607fcd28875ab426c62.mp4"
+                  },
+                  "loopingVideoPortrait": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/898f2ded0941a2f7f084df8fef2c097b3547b045.mp4"
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54c8d65fab6766e2695a51b752e84b097eac104a-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/483e450a0cbd01f5cba120bbfa8a72440d85514c-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df8f431419a4449e9ac83ab5e3e4c8ba98d9cf5a-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b3739cd4d3571033eb1051c3540bfccec2c16ad0-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cd091d783eec50c35d53eb1645e1e6b01d3ea234-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cd091d783eec50c35d53eb1645e1e6b01d3ea234-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "",
+                        "categories": "",
+                        "colorPrimary": "#0a881c",
+                        "colorPrimaryOptions": {
+                          "argb": "#0a881c",
+                          "rgba": "#0a881c"
+                        },
+                        "descriptionOverview": "The original superfood shake that has helped millions feel amazing. Protein, pre & probiotics, antioxidants, adaptogens, greens, +more.",
+                        "media": {
+                          "_id": "Q6j5eG7tj3PSUghmZGuPRb",
+                          "_type": "promo",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/195d94294eccd0d0929ea6c53f6c1ac4daa1005e-1344x718.jpg"
+                          },
+                          "videoId": "SHK100B043",
+                          "title": "What Is So Special About Shakeology?",
+                          "subtitle": "2m",
+                          "catalog": "bod"
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": null,
+                            "value": null
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": null,
+                            "value": null
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPO8A4",
+                        "_type": "collection",
+                        "slug": "foundational-videos",
+                        "title": "Getting Started",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "20bZmxUo4RlOz5ycc5yV46",
+                          "QCB8M9fevIFlVxCrr2qDwO",
+                          "Q6j5eG7tj3PSUghmZGtB6l",
+                          "QCB8M9fevIFlVxCrr2qEC7",
+                          "Q6j5eG7tj3PSUghmZGuLNz",
+                          "Q6j5eG7tj3PSUghmZGucYJ",
+                          "Q6j5eG7tj3PSUghmZGtSgF",
+                          "NWOt1I2xWP7xm05A7uhIAG",
+                          "Q6j5eG7tj3PSUghmZGuPRb"
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7ujBhl",
+                        "_type": "collection",
+                        "slug": "shakeology-featured-guides",
+                        "title": "About Shakeology",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPMk36",
+                          "BoGK5VlBLllbPFYTvPMokq",
+                          "NWOt1I2xWP7xm05A7ui5mp"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZGzLRD",
+                        "_type": "editorial",
+                        "slug": "shakeology-choose-your-favorite-shakeology-flavor",
+                        "title": "Explore Shakeology",
+                        "subtitle": null,
+                        "content": "Shakeology is the original superfood shake \u2013 the highest quality most potent blend of protein, probiotics, digestive enzymes, antioxidants, adaptogens, phytonutrients, and more. It has helped millions of people feel amazing, improve digestion, experience healthy energy and weight loss. From decadent chocolate to creamy vanilla, we've got flavors to satisfy every mood and craving.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/28e7228ad44cef2a2b2aa163a7c61d997e9306ba-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Learn More",
+                          "url": "https://www.teambeachbody.com/shop/us/shakeology"
+                        }
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD9Bzq",
+                        "_type": "collection",
+                        "slug": "shakeology-related-content",
+                        "title": "Shakeology Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "vKPPpbqN0JH0WMoJVD7JIU",
+                          "UqWqrADNH9eso22jUFVwhV",
+                          "vKPPpbqN0JH0WMoJVD7aco"
+                        ]
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Isabelle",
+                            "bio": "The originator of the formulation philosophies behind many BODi supplements, including Shakeology. Isabelle is known for her no-compromise approach to quality.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b749145987d96aa428c2a279aa1ffb09c6feb936-860x964.png"
+                            },
+                            "social": []
+                          },
+                          {
+                            "intro": "Meet Darin",
+                            "bio": "Darin\u2019s passion for potent, sustainable nutrition led him to team up with Isabelle Daikeler to create Shakeology. Known for traveling the world to source rare superfoods, BODi\u2019s \u201cingredient hunter\u201d uses his expertise to source powerful ingredients to use in Shakeology.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/78a8d13a6c9cbeaa5d306d4b0a3f4ab3013b41a6-860x964.png"
+                            },
+                            "social": []
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdy2PB",
+                        "_type": "collection",
+                        "slug": "shakeology-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvcxlrU",
+                          "Q6j5eG7tj3PSUghmZsFUwl",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "Q6j5eG7tj3PSUghmZcA24B"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Videos",
+                    "slug": "videos",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPO84e",
+                        "_type": "collection",
+                        "slug": "formulators-corner",
+                        "title": "Formulators' Corner",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "20bZmxUo4RlOz5ycc5yV46",
+                          "QCB8M9fevIFlVxCrr2qDwO",
+                          "Q6j5eG7tj3PSUghmZGtB6l",
+                          "Q6j5eG7tj3PSUghmZGtSgF",
+                          "NWOt1I2xWP7xm05A7uhIAG",
+                          "Q6j5eG7tj3PSUghmZGu0gl",
+                          "Q6j5eG7tj3PSUghmZGuPRb"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZGzLC7",
+                        "_type": "collection",
+                        "slug": "recipes",
+                        "title": "Recipes",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGzIid",
+                          "BoGK5VlBLllbPFYTvPO6JM",
+                          "Q6j5eG7tj3PSUghmZGzESR",
+                          "Q6j5eG7tj3PSUghmZGzHpH",
+                          "BoGK5VlBLllbPFYTvPO7gG",
+                          "BoGK5VlBLllbPFYTvPO6ps",
+                          "NWOt1I2xWP7xm05A7uj9cg",
+                          "NWOt1I2xWP7xm05A7uj8zM",
+                          "NWOt1I2xWP7xm05A7uj8JT",
+                          "BoGK5VlBLllbPFYTvPO51s",
+                          "BoGK5VlBLllbPFYTvPO4Se",
+                          "Q6j5eG7tj3PSUghmZGzBKh",
+                          "NWOt1I2xWP7xm05A7uj79f",
+                          "NWOt1I2xWP7xm05A7uj6q0"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdy2PB",
+                        "_type": "collection",
+                        "slug": "shakeology-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvcxlrU",
+                          "Q6j5eG7tj3PSUghmZsFUwl",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "Q6j5eG7tj3PSUghmZcA24B"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "nBWjIyWsoOZdHJkcQj8JrH",
+                        "_type": "collection",
+                        "slug": "shakeology-program-materials",
+                        "title": "Program Materials - US",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPMk36",
+                          "BoGK5VlBLllbPFYTvPMokq",
+                          "NWOt1I2xWP7xm05A7ui5mp"
+                        ]
+                      },
+                      {
+                        "_id": "nBWjIyWsoOZdHJkcQj8K5V",
+                        "_type": "collection",
+                        "slug": "shakeology-program-materials-canada",
+                        "title": "Program Materials - Canada",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZGxLp5",
+                          "BoGK5VlBLllbPFYTvPNVGS",
+                          "BoGK5VlBLllbPFYTvPMokq",
+                          "NWOt1I2xWP7xm05A7ui5mp"
+                        ]
+                      },
+                      {
+                        "_id": "nBWjIyWsoOZdHJkcQj8JxN",
+                        "_type": "collection",
+                        "slug": "shakeology-program-materials-united-kingdom",
+                        "title": "Program Materials - United Kingdom",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPND1c",
+                          "BoGK5VlBLllbPFYTvPMokq",
+                          "NWOt1I2xWP7xm05A7ui5mp"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdy2PB",
+                        "_type": "collection",
+                        "slug": "shakeology-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvcxlrU",
+                          "Q6j5eG7tj3PSUghmZsFUwl",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "Q6j5eG7tj3PSUghmZcA24B"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "20bZmxUo4RlOz5ycc5yV46": {
+                    "_id": "20bZmxUo4RlOz5ycc5yV46",
+                    "_type": "promo",
+                    "slug": "shk-real-health-takes-effort-shk100b096",
+                    "brandCode": "SHK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "durationEstimate": 60,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7e0395fadf46dd2308bea5cb69dfcb15f04876be-730x496.jpg"
+                    },
+                    "title": "Why I Still Drink Shakeology Every Day",
+                    "descriptionLong": "Shakeology co-creator Darin Olien explains why he cares so much about what goes into Shakeology, and what doesn't.",
+                    "trainers": [
+                      {
+                        "slug": "darin-olien",
+                        "firstName": "Darin",
+                        "lastName": "Olien",
+                        "bio": "Darin\u2019s passion for potent, sustainable nutrition led him to team up with Isabelle Daikeler to create Shakeology. Known for traveling the world to source rare superfoods, BODi\u2019s \u201cingredient hunter\u201d uses his expertise to source powerful ingredients to use in Shakeology.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b20aeb47b5fab95ef43bb7d3394ca0f47d11cc6f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SHK100B096",
+                      "durationActual": 109,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "A3jSdym3jf5hqTWanxQNBG": {
+                    "_id": "A3jSdym3jf5hqTWanxQNBG",
+                    "_type": "promo",
+                    "slug": "ilana-muhlstein-ms-rdn-talks-about-the-benefits-of-shakeology-shakeology-boosts-2-shk10051",
+                    "brandCode": "SHK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "durationEstimate": 300,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/825e443cd661723ac253624c9874d04b46703886-398x225.gif"
+                    },
+                    "title": "Ilana Muhlstein, MS, RDN, Talks About the Benefits of Shakeology & Shakeology Boosts",
+                    "descriptionLong": "Ilana Muhlstein, MS, RDN and co-creator of 2B Mindset, breaks down the benefits of Shakeology and Shakeology Boosts and why having them daily can help support your overall health and wellness goals.",
+                    "trainers": [
+                      {
+                        "slug": "ilana-muhlstein",
+                        "firstName": "Ilana",
+                        "lastName": "Muhlstein, MS, RDN",
+                        "bio": "Ilana Muhlstein holds a Master of Science degree in applied nutrition from Northeastern University and is a Registered Dietitian Nutritionist\u2014the highest standard in the field of nutrition. She is also a mother of 3. She\u2019s the creator of 2B Pregnant and the 2B Mindset eating plan, and author of the bestselling book You Can Drop It! She was an obese child who lost over 100 pounds using the principles that became 2B Mindset.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/82b51c9a4a58145bea39755e3ecfa9aad1effbb0-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SHK10051",
+                      "durationActual": 294,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPMk36": {
+                    "_id": "BoGK5VlBLllbPFYTvPMk36",
+                    "_type": "resource",
+                    "slug": "shakeology-shakeology-overview-us-2806308",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "Shakeology Overview - US",
+                    "categories": null,
+                    "description": "Learn what Shakeology is, how it's made and what it does for your body.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c27e8b851cab9301c78192617fb70d1c22731d22-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK-EN_US-Shakeology_Foundational_Coach_Basics_Training-07.18.24.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/c57d40f1303cacecc7dbb84ab658e7ed274c81fe.pdf?file=SHK-EN_US-Shakeology_Foundational_Coach_Basics_Training-07.18.24.pdf",
+                      "size": 548356
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPMokq": {
+                    "_id": "BoGK5VlBLllbPFYTvPMokq",
+                    "_type": "resource",
+                    "slug": "shakeology-shakeologycom-2807472",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "Shakeology.com",
+                    "categories": null,
+                    "description": "To learn more, go to Shakeology.com or reach out to your Team BODi Coach.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/77d2043e9c9dee11e7aec610e8734cd610c2cb25-400x260.jpg"
+                    },
+                    "link": "http://www.shakeology.com?ICID=CM1261",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPND1c": {
+                    "_id": "BoGK5VlBLllbPFYTvPND1c",
+                    "_type": "resource",
+                    "slug": "shakeology-shakeology-overview-uk-2807083",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "Shakeology Overview - UK",
+                    "categories": null,
+                    "description": "Learn what Shakeology is, how it's made and what it does for your body.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c27e8b851cab9301c78192617fb70d1c22731d22-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK-EN-UK-Shakeology_Foundational_Overview-11.09.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/98de95573db88861a0309070be5d61c356ed0399.pdf?file=SHK-EN-UK-Shakeology_Foundational_Overview-11.09.23.pdf",
+                      "size": 554520
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPNVGS": {
+                    "_id": "BoGK5VlBLllbPFYTvPNVGS",
+                    "_type": "resource",
+                    "slug": "shakeology-wellness-tracker-ca-3620128",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "WELLNESS TRACKER - CA",
+                    "categories": null,
+                    "description": "Use this log to keep track of your Shakeology\u00ae use and how you feel day-to-day on your wellness journey.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f5cc25e28047b11f0ba217ca33efc52858713caa-400x260.png"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK-Refrigerator-Tracker-Evergreen-BOD-CA-EN-072021.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/6b839a7c3db93290a6382b50a44d1421380f9aaf.pdf?file=SHK-Refrigerator-Tracker-Evergreen-BOD-CA-EN-072021.pdf",
+                      "size": 1656745
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPO4Se": {
+                    "_id": "BoGK5VlBLllbPFYTvPO4Se",
+                    "_type": "recipe",
+                    "slug": "berry-licious-shakeology-recipe-shk100b050",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Berry-Licious Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d2a08fdc8352780c521252f73d8ec2d8a2a4909e-398x224.jpg"
+                    },
+                    "descriptionLong": "Strawberries and blueberries help pack this juicy recipe with tons of dense nutrition.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-this-recipe-makes-a-great-breakfast",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "This recipe makes a great breakfast.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dc2f5e26bdea6df23228bf4e0c863281b0b3cd52-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1 1/2"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B050",
+                      "durationActual": 49,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPO51s": {
+                    "_id": "BoGK5VlBLllbPFYTvPO51s",
+                    "_type": "recipe",
+                    "slug": "chocolate-covered-cherry-shakeology-recipe-shk100b052",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Chocolate-Covered Cherry Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/150903b955bcb075eda289cb8ff67df17b92166d-398x224.jpg"
+                    },
+                    "descriptionLong": "No guilt in this glass! Decadence has never been healthier with this sweet and chocolatey Shakeology recipe.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-this-recipe-makes-a-great-breakfast",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "This recipe makes a great breakfast.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dc2f5e26bdea6df23228bf4e0c863281b0b3cd52-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-yellow",
+                          "title": "Yellow",
+                          "color": "#FFCF01",
+                          "colorOptions": {
+                            "argb": "#FFCF01",
+                            "rgba": "#FFCF01"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-blue",
+                          "title": "Blue",
+                          "color": "#0060A7",
+                          "colorOptions": {
+                            "argb": "#0060A7",
+                            "rgba": "#0060A7"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B052",
+                      "durationActual": 38,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPO6JM": {
+                    "_id": "BoGK5VlBLllbPFYTvPO6JM",
+                    "_type": "recipe",
+                    "slug": "pumpkin-spice-shakeology-shake-shk100b012",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Pumpkin Spice Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d2d7ce27fa2657a87e7b46dc0543da69f765ebe3-398x224.jpg"
+                    },
+                    "descriptionLong": "Pumpkin Spice is everywhere for fall. Try Jericho and Joel\u2019s take on it with this Pumpkin Spice Shakeology recipe!",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B012",
+                      "durationActual": 114,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPO6ps": {
+                    "_id": "BoGK5VlBLllbPFYTvPO6ps",
+                    "_type": "recipe",
+                    "slug": "avocado-ginger-supreme-shakeology-recipe-shk100b046",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Avocado Ginger Supreme Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7758985e012389c3601dcc5fa104b4246fdc6fdb-398x224.jpg"
+                    },
+                    "descriptionLong": "Looking for a way to spice up your daily Shakeology routine but still stay on track for living the Healthiest Year of Your Life? Join Autumn Calabrese in the kitchen as she mixes things up with this unique and delicious shake featuring Strawberry Shakeology.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-green",
+                          "title": "Green",
+                          "color": "#00A651",
+                          "colorOptions": {
+                            "argb": "#00A651",
+                            "rgba": "#00A651"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-blue",
+                          "title": "Blue",
+                          "color": "#0060A7",
+                          "colorOptions": {
+                            "argb": "#0060A7",
+                            "rgba": "#0060A7"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-orange",
+                          "title": "Orange",
+                          "color": "#F68B1F",
+                          "colorOptions": {
+                            "argb": "#F68B1F",
+                            "rgba": "#F68B1F"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B046",
+                      "durationActual": 51,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPO7gG": {
+                    "_id": "BoGK5VlBLllbPFYTvPO7gG",
+                    "_type": "recipe",
+                    "slug": "mocha-caramel-latte-shakeology-shake-shk100b008",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Mocha Caramel Latte Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ae77a5de53bed2c955fbccb3b41ef50020adf4e1-398x224.jpg"
+                    },
+                    "descriptionLong": "Looking for something better than your usual morning coffee? Autumn Calabrese shows you how to make a delicious Mocha Caramel Latte with Caf\u00e9 Latte Shakeology and a Focused Energy Boost!",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B008",
+                      "durationActual": 97,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvcxlrU": {
+                    "_id": "BoGK5VlBLllbPFYTvcxlrU",
+                    "_type": "program",
+                    "slug": "ultimate-portion-fix",
+                    "brandCode": "UPF",
+                    "classification": [
+                      "nutrition"
+                    ],
+                    "dateLaunch": "2019-02-22",
+                    "commerce": {
+                      "title": "Try Portion Fix Today!",
+                      "subtitle": "(Not included in regular BOD membership)",
+                      "purchaseAction": {
+                        "title": "Shop Now",
+                        "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=UPF&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": "UPF"
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=UPF&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=UPF&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Portion Fix",
+                    "description": "Take the guesswork out of eating perfectly sized meals for healthy weight loss.",
+                    "descriptionShort": "Take the guesswork out of eating perfectly sized meals for healthy weight loss.",
+                    "descriptionLong": "EASY TO FOLLOW. FAST RESULTS. Autumn teaches you how to use portion control containers to help give you the results you expect, while you still enjoy the food, drinks and desserts you love!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/64672ba3474f8eab28c0b3abb9c45840515cd9bc-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a3cbe241eef650dc3bbc6b8106baa0fed0ea9971-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a3cbe241eef650dc3bbc6b8106baa0fed0ea9971-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/64672ba3474f8eab28c0b3abb9c45840515cd9bc-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/64672ba3474f8eab28c0b3abb9c45840515cd9bc-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5cdc21f187b9f4813a9e7248c66e8db8f0721bd5-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/aa67fe61fecc89545a3be6e5206c2bb6991b7e1c-582x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": null,
+                    "duration": null,
+                    "itemCount": null,
+                    "level": null,
+                    "stamps": null,
+                    "categories": null,
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uhIAG": {
+                    "_id": "NWOt1I2xWP7xm05A7uhIAG",
+                    "_type": "promo",
+                    "slug": "why-do-we-always-feel-tired-shk100b091",
+                    "brandCode": "SHK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "durationEstimate": 240,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1d2e2b3f9ec542210851129248b50af0333d9eda-730x496.jpg"
+                    },
+                    "title": "Why Do We Always Feel Tired?",
+                    "descriptionLong": "Darin Olien, co-creator of Shakeology and star of \u201cDown to Earth with Zac Efron\u201d on Netflix, explores how stress can make you feel tired and how the right nutrients can help.",
+                    "trainers": [
+                      {
+                        "slug": "darin-olien",
+                        "firstName": "Darin",
+                        "lastName": "Olien",
+                        "bio": "Darin\u2019s passion for potent, sustainable nutrition led him to team up with Isabelle Daikeler to create Shakeology. Known for traveling the world to source rare superfoods, BODi\u2019s \u201cingredient hunter\u201d uses his expertise to source powerful ingredients to use in Shakeology.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b20aeb47b5fab95ef43bb7d3394ca0f47d11cc6f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SHK100B091",
+                      "durationActual": 228,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7ui5mp": {
+                    "_id": "NWOt1I2xWP7xm05A7ui5mp",
+                    "_type": "resource",
+                    "slug": "shakeology-wellness-tracker-3620112",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "WELLNESS TRACKER",
+                    "categories": null,
+                    "description": "Use this log to keep track of your Shakeology\u00ae use and how you feel day-to-day on your wellness journey.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/58c21a46d025689de70e340c6830f1ac8d9ad812-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK_Refrigerator-Tracker_EN-US_BOD_043024-1.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/079702be9e4ed1cf30c95822634a4236bd26c723.pdf?file=SHK_Refrigerator-Tracker_EN-US_BOD_043024-1.pdf",
+                      "size": 560217
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uj6q0": {
+                    "_id": "NWOt1I2xWP7xm05A7uj6q0",
+                    "_type": "recipe",
+                    "slug": "strawberry-almond-dream-shakeology-recipe-shk100b054",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Strawberry Almond Dream Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/601fcd6b2af1661de209b00329a8b77f1f5dc809-398x224.jpg"
+                    },
+                    "descriptionLong": "Float through your day with this dreamy combination of almonds and strawberries.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-this-recipe-makes-a-great-breakfast",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "This recipe makes a great breakfast.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dc2f5e26bdea6df23228bf4e0c863281b0b3cd52-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 3,
+                        "quantityFormatted": "3"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B054",
+                      "durationActual": 49,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uj79f": {
+                    "_id": "NWOt1I2xWP7xm05A7uj79f",
+                    "_type": "recipe",
+                    "slug": "almond-butter-cup-shakeology-recipe-shk100b053",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Almond Butter Cup Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/502370f7497a9c24154321a45d54a519fcd3e457-398x224.jpg"
+                    },
+                    "descriptionLong": "Nut butter and chocolate is a match made in heaven, and this recipe will take you there. Get all that sweet, creamy goodness in a glass without the excess sugar.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Dessert",
+                        "slug": "dessert"
+                      },
+                      {
+                        "title": "Snack",
+                        "slug": "snack"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-this-recipe-makes-a-great-breakfast",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "This recipe makes a great breakfast.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dc2f5e26bdea6df23228bf4e0c863281b0b3cd52-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 3,
+                        "quantityFormatted": "3"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B053",
+                      "durationActual": 48,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uj8JT": {
+                    "_id": "NWOt1I2xWP7xm05A7uj8JT",
+                    "_type": "recipe",
+                    "slug": "nutty-mocha-latte-shakeology-recipe-shk100b049",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Nutty Mocha Latte Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/53ab091e7fde8f0d0d8bbcc1d8bf10e9f97cb260-398x224.jpg"
+                    },
+                    "descriptionLong": "Skip the coffee shop and make your own fancy frapp\u00e9 with cashew butter, cocoa, and Caf\u00e9 Latte Shakeology.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-makes-a-great-protein-and-accessory-as-part-of-any-meal",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "Makes a great protein and accessory as part of any meal.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/de45c4ee472dfc3d19b300521beb4bee09535f4c-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 4,
+                        "quantityFormatted": "4"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B049",
+                      "durationActual": 48,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uj8zM": {
+                    "_id": "NWOt1I2xWP7xm05A7uj8zM",
+                    "_type": "recipe",
+                    "slug": "lucky-oshake-shk100b014",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Lucky O'Shake Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6bdec2c9b4b5e0a03fb175641aea00083a01bd8d-398x224.jpg"
+                    },
+                    "descriptionLong": "Looking for a tasty treat to get in the St. Patrick\u2019s Day spirit? You\u2019re in luck! Autumn shows you how to make this minty fresh shake that will still keep you on track for the Healthiest Year of Your Life.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-green",
+                          "title": "Green",
+                          "color": "#00A651",
+                          "colorOptions": {
+                            "argb": "#00A651",
+                            "rgba": "#00A651"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B014",
+                      "durationActual": 49,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uj9cg": {
+                    "_id": "NWOt1I2xWP7xm05A7uj9cg",
+                    "_type": "recipe",
+                    "slug": "creamy-chocolate-shakeology-shake-with-toasted-coconut-shk100b011",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Creamy Chocolate with Toasted Coconut Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9b889c667b515834ddeffa76179ab13f129e55a1-398x224.jpg"
+                    },
+                    "descriptionLong": "Coconut + Chocolate = Deliciousness. Autumn Calabrese shows you how to prepare our coconut shake recipe, made with Chocolate Shakeology.",
+                    "durationEstimate": 120,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-orange",
+                          "title": "Orange",
+                          "color": "#F68B1F",
+                          "colorOptions": {
+                            "argb": "#F68B1F",
+                            "rgba": "#F68B1F"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B011",
+                      "durationActual": 91,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBym4R": {
+                    "_id": "Q6j5eG7tj3PSUghmZBym4R",
+                    "_type": "program",
+                    "slug": "barre-blend",
+                    "brandCode": "BBR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-11-25",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Barre Blend",
+                    "description": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionShort": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionLong": "Create a lean, toned physique through a fun fusion of ballet barre, Pilates, and cardio interval training. Feel the burn as you sweat, stretch, and strengthen to energize your entire body.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/40c285dad368b07f5b7b9034d1b5ebb8b7916ff8-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/636e5ddbe6d6bf30e8adeb2a3641650e75f24f1c-880x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-40"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "8"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "66"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Sturdy Chair or Ballet Barre"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGtB6l": {
+                    "_id": "Q6j5eG7tj3PSUghmZGtB6l",
+                    "_type": "promo",
+                    "slug": "why-is-a-whole-food-based-diet-better-shk100b093",
+                    "brandCode": "SHK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "durationEstimate": 180,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c3b5cb6bd16ae5985c3ee1254c52fffe9c44b15c-730x496.jpg"
+                    },
+                    "title": "Why Is a Whole-Food-Based Diet Better?",
+                    "descriptionLong": "Netflix star and Shakeology co-creator Darin Olien explains what you're missing when you eat a diet that's lacking whole, healthy foods.",
+                    "trainers": [
+                      {
+                        "slug": "darin-olien",
+                        "firstName": "Darin",
+                        "lastName": "Olien",
+                        "bio": "Darin\u2019s passion for potent, sustainable nutrition led him to team up with Isabelle Daikeler to create Shakeology. Known for traveling the world to source rare superfoods, BODi\u2019s \u201cingredient hunter\u201d uses his expertise to source powerful ingredients to use in Shakeology.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b20aeb47b5fab95ef43bb7d3394ca0f47d11cc6f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SHK100B093",
+                      "durationActual": 209,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGtSgF": {
+                    "_id": "Q6j5eG7tj3PSUghmZGtSgF",
+                    "_type": "promo",
+                    "slug": "why-should-we-care-about-gut-health-shk100b092",
+                    "brandCode": "SHK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "durationEstimate": 240,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c9f3d3489436a15e099b193327d13ddb35654e29-730x496.jpg"
+                    },
+                    "title": "Why Should We Care About Gut Health?",
+                    "descriptionLong": "Netflix star and Shakeology co-creator Darin Olien explains how taking care of your gut can help get your digestion back on track.",
+                    "trainers": [
+                      {
+                        "slug": "darin-olien",
+                        "firstName": "Darin",
+                        "lastName": "Olien",
+                        "bio": "Darin\u2019s passion for potent, sustainable nutrition led him to team up with Isabelle Daikeler to create Shakeology. Known for traveling the world to source rare superfoods, BODi\u2019s \u201cingredient hunter\u201d uses his expertise to source powerful ingredients to use in Shakeology.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b20aeb47b5fab95ef43bb7d3394ca0f47d11cc6f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SHK100B092",
+                      "durationActual": 222,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGu0gl": {
+                    "_id": "Q6j5eG7tj3PSUghmZGu0gl",
+                    "_type": "promo",
+                    "slug": "shakeology-how-to-help-control-weight-shk100b090",
+                    "brandCode": "SHK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "durationEstimate": 180,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7218aa3dcc71fe23851f58a240ac9457defa58f-730x496.jpg"
+                    },
+                    "title": "How to Help Control Weight",
+                    "descriptionLong": "Darin Olien, Shakeology co-creator & Netflix star, explains how eating like our ancestors can help control weight",
+                    "trainers": [
+                      {
+                        "slug": "darin-olien",
+                        "firstName": "Darin",
+                        "lastName": "Olien",
+                        "bio": "Darin\u2019s passion for potent, sustainable nutrition led him to team up with Isabelle Daikeler to create Shakeology. Known for traveling the world to source rare superfoods, BODi\u2019s \u201cingredient hunter\u201d uses his expertise to source powerful ingredients to use in Shakeology.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b20aeb47b5fab95ef43bb7d3394ca0f47d11cc6f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SHK100B090",
+                      "durationActual": 188,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGuLNz": {
+                    "_id": "Q6j5eG7tj3PSUghmZGuLNz",
+                    "_type": "promo",
+                    "slug": "getting-started-with-shakeology-shk100b001",
+                    "brandCode": "SHK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e6ff16805f325c058f51624cf7c28ae873442318-398x224.jpg"
+                    },
+                    "title": "Getting Started with Shakeology",
+                    "descriptionLong": "Get started with Shakeology right away! Learn 6 different ways to make a shake, from the \"Simple\" way to the \"Indulgent Peanut Butter Cup way.\"",
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B001",
+                      "durationActual": 117,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGuPRb": {
+                    "_id": "Q6j5eG7tj3PSUghmZGuPRb",
+                    "_type": "promo",
+                    "slug": "what-is-so-special-about-shakeology-shk100b043",
+                    "brandCode": "SHK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5599a31a0ceec90778787729818c68bac8e33466-398x224.jpg"
+                    },
+                    "title": "What Is So Special About Shakeology?",
+                    "descriptionLong": "Get an overview from Shakeology co-formulator, Isabelle Daikeler. Learn what is so special about this superfood nutrition shake and what the mission is behind it.",
+                    "trainers": [
+                      {
+                        "slug": "isabelle-daikeler",
+                        "firstName": "Isabelle",
+                        "lastName": "Daikeler",
+                        "bio": "The originator of the formulation philosophies behind many Beachbody supplements, including Shakeology & Daily Sunshine. In the Formulator\u2019s Corner, she currently shares her insights on how to achieve results that support the \u201cwhole self.\u201d",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/476f719a6a0b4f592e31fc27bbbe1c7f4ad792fd-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SHK100B043",
+                      "durationActual": 121,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGucYJ": {
+                    "_id": "Q6j5eG7tj3PSUghmZGucYJ",
+                    "_type": "promo",
+                    "slug": "shakeology-superfood-hunting-darin-olien-in-peru-shk100b044",
+                    "brandCode": "SHK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "durationEstimate": 300,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/852215665544fe1fdc0332d01fc99bbf4c4652a5-398x224.jpg"
+                    },
+                    "title": "Shakeology Superfood Hunting: Darin Olien in Peru",
+                    "descriptionLong": "Superfood hunter Darin Olien treks around the world to uncover the best superfoods for Shakeology. Follow his journey in Peru and learn about sacha inchi, maca, cacao, and more.",
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B044",
+                      "durationActual": 327,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGxLp5": {
+                    "_id": "Q6j5eG7tj3PSUghmZGxLp5",
+                    "_type": "resource",
+                    "slug": "shakeology-shakeology-overview-ca-2806695",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "Shakeology Overview - CA",
+                    "categories": null,
+                    "description": "Learn what Shakeology is, how it's made and what it does for your body.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c27e8b851cab9301c78192617fb70d1c22731d22-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK-EN_CA-Shakeology_Foundational_Overview-11.13.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/2745e55cd1008ccfb51ba1ca819004ead2c6c93a.pdf?file=SHK-EN_CA-Shakeology_Foundational_Overview-11.13.23.pdf",
+                      "size": 561997
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGzBKh": {
+                    "_id": "Q6j5eG7tj3PSUghmZGzBKh",
+                    "_type": "recipe",
+                    "slug": "cafe-latte-banana-shakeology-recipe-shk100b051",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Caf\u00e9 Latte Banana Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8f52d32c717b7b827af230b4b27d26ca0b35f819-398x224.jpg"
+                    },
+                    "descriptionLong": "A touch of fruit and a pinch of spice help punch up your daily dose of dense nutrition. Give this fan-favorite a whirl.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-this-recipe-makes-a-great-breakfast",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "This recipe makes a great breakfast.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dc2f5e26bdea6df23228bf4e0c863281b0b3cd52-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-yellow",
+                          "title": "Yellow",
+                          "color": "#FFCF01",
+                          "colorOptions": {
+                            "argb": "#FFCF01",
+                            "rgba": "#FFCF01"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B051",
+                      "durationActual": 44,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGzESR": {
+                    "_id": "Q6j5eG7tj3PSUghmZGzESR",
+                    "_type": "recipe",
+                    "slug": "banana-bread-shakeology-recipe-shk100b048",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Banana Bread Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1c9da3ea4be95a5ac2ba59bce97771bd2a50f2b1-398x224.jpg"
+                    },
+                    "descriptionLong": "Fresh-baked flavor without all the carbs and calories. This quick and simple recipe is the perfect solution to those mid-day comfort food cravings.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-this-recipe-makes-a-great-breakfast",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "This recipe makes a great breakfast.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dc2f5e26bdea6df23228bf4e0c863281b0b3cd52-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 3,
+                        "quantityFormatted": "3"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B048",
+                      "durationActual": 55,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGzHpH": {
+                    "_id": "Q6j5eG7tj3PSUghmZGzHpH",
+                    "_type": "recipe",
+                    "slug": "red-velvet-chocolate-shakeology-shake-shk100b010",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Red Velvet Chocolate Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/204aaa3f758935c88a7bb3a657a848a8ec61cd36-398x224.jpg"
+                    },
+                    "descriptionLong": "Red velvet cupcake, cake, or shake? We bet you\u2019ve never tried the shake version! Get adventurous with Autumn Calabrese and try out this deliciously healthy shake recipe.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-green",
+                          "title": "Green",
+                          "color": "#00A651",
+                          "colorOptions": {
+                            "argb": "#00A651",
+                            "rgba": "#00A651"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-orange",
+                          "title": "Orange",
+                          "color": "#F68B1F",
+                          "colorOptions": {
+                            "argb": "#F68B1F",
+                            "rgba": "#F68B1F"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B010",
+                      "durationActual": 83,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGzIid": {
+                    "_id": "Q6j5eG7tj3PSUghmZGzIid",
+                    "_type": "recipe",
+                    "slug": "cinnamon-roll-shakeology-shake-shk100b009",
+                    "brandCode": "SHK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=SHK&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cinnamon Roll Shakeology Recipe",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/88444d99805e231627cb57526b5686e0d811cdd0-398x224.jpg"
+                    },
+                    "descriptionLong": "Join Autumn Calabrese in the kitchen as she makes a tasty Cinnamon Roll Shakeology shake with Caf\u00e9 Latte Shakeology! We love it as a healthy substitute to the real thing.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": null,
+                    "video": {
+                      "videoId": "SHK100B009",
+                      "durationActual": 81,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZcA24B": {
+                    "_id": "Q6j5eG7tj3PSUghmZcA24B",
+                    "_type": "program",
+                    "slug": "morning-meltdown-100",
+                    "brandCode": "MLT",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-09-30",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=MLT&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "Morning Meltdown 100",
+                    "description": "Commit to 100 workouts & build strength while you melt away fat.",
+                    "descriptionShort": "Commit to 100 workouts & build strength while you melt away fat.",
+                    "descriptionLong": "Torch calories with high-intensity cardio and resistance training, while a live DJ turns up the energy as you burn off pounds. Your goal: complete 100 workouts and unlock the best version of you.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f9fac18b72935e4559c4b66d1354478decc3cb2f-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2c080028c4ef6f2c1a09b67f57142f4ac830f24c-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2c080028c4ef6f2c1a09b67f57142f4ac830f24c-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f9fac18b72935e4559c4b66d1354478decc3cb2f-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f9fac18b72935e4559c4b66d1354478decc3cb2f-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0f1ac4053b1288fe1708a3e479b1a80c920f16d6-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7c1cc54027b4ed6d35992806dc8e173757cd5463-1000x821.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20-30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "100"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "100"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "MMA Training",
+                        "slug": "mma-training"
+                      },
+                      {
+                        "title": "HIIT",
+                        "slug": "hiit"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZsFUwl": {
+                    "_id": "Q6j5eG7tj3PSUghmZsFUwl",
+                    "_type": "program",
+                    "slug": "2b-mindset",
+                    "brandCode": "2BM",
+                    "classification": [
+                      "nutrition"
+                    ],
+                    "dateLaunch": "2018-05-02",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=2BM&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk7z",
+                        "slug": "po-2bmindset",
+                        "title": "Try 2B Mindset Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=2BM&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "2B Mindset",
+                    "description": "Lose weight happily and keep it off for good!",
+                    "descriptionShort": "Lose weight happily and keep it off for good!",
+                    "descriptionLong": "The way to eat a lot of food and still lose weight! Learn Ilana\u2019s flexible approach to weight loss where you can reach your goals without counting calories or giving up wine, carbs or treats!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b08b0e96075b0a8ebba97e5890fc015ecf71e583-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b503fb7e68fbe7ba3aa7dff84136711f61ab648f-540x671.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b503fb7e68fbe7ba3aa7dff84136711f61ab648f-540x671.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b08b0e96075b0a8ebba97e5890fc015ecf71e583-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b08b0e96075b0a8ebba97e5890fc015ecf71e583-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/22db0a83428aac84d49947483b9162a335a6d562-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0376a80f77be7094ff9149a5f1bbbbc74bc28c64-1723x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": null,
+                    "duration": null,
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Lessons",
+                      "value": "30"
+                    },
+                    "level": null,
+                    "stamps": null,
+                    "categories": null,
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "QCB8M9fevIFlVxCrr2qDwO": {
+                    "_id": "QCB8M9fevIFlVxCrr2qDwO",
+                    "_type": "promo",
+                    "slug": "shk-our-demanding-approach-to-nutrient-synergy-shk100b095",
+                    "brandCode": "SHK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "durationEstimate": 60,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/535f3c19fa4e52ae09c030f3bda685db9ea4e3de-730x496.jpg"
+                    },
+                    "title": "Your Health is Worth It",
+                    "descriptionLong": "Co-Formulator Isabelle Daikeler talks about her no-compromise approach to Shakeology.",
+                    "trainers": [
+                      {
+                        "slug": "isabelle-daikeler-2",
+                        "firstName": "Isabelle",
+                        "lastName": "Daikeler",
+                        "bio": "The originator of the formulation philosophies behind many BODi supplements, including Shakeology. Isabelle is known for her no-compromise approach to quality.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/476f719a6a0b4f592e31fc27bbbe1c7f4ad792fd-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SHK100B095",
+                      "durationActual": 111,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "QCB8M9fevIFlVxCrr2qEC7": {
+                    "_id": "QCB8M9fevIFlVxCrr2qEC7",
+                    "_type": "promo",
+                    "slug": "shakeologys-5-blends-shk100b094",
+                    "brandCode": "SHK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "durationEstimate": 60,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4c298a27f3db78475e9e171e8887cfe112ddf66c-730x496.jpg"
+                    },
+                    "title": "Shakeology's 5 Blends",
+                    "descriptionLong": "Learn about Shakeology's 5 blends and how they are paired in precise amounts to create Nutrient Synergy.",
+                    "trainers": [
+                      {
+                        "slug": "darin-olien",
+                        "firstName": "Darin",
+                        "lastName": "Olien",
+                        "bio": "Darin\u2019s passion for potent, sustainable nutrition led him to team up with Isabelle Daikeler to create Shakeology. Known for traveling the world to source rare superfoods, BODi\u2019s \u201cingredient hunter\u201d uses his expertise to source powerful ingredients to use in Shakeology.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b20aeb47b5fab95ef43bb7d3394ca0f47d11cc6f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SHK100B094",
+                      "durationActual": 78,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "UqWqrADNH9eso22jUFVwhV": {
+                    "_id": "UqWqrADNH9eso22jUFVwhV",
+                    "_type": "linkItem",
+                    "slug": "15-delicious-shakeology-dessert-recipes",
+                    "title": "8 Reasons to start drinking Shakeology",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fec31276d9013b323a5d7a33ebb9736120b4fc3d-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/how-does-shakeology-work",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7JIU": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7JIU",
+                    "_type": "linkItem",
+                    "slug": "shakeology-recipes-tips-and-more",
+                    "title": "Shakeology: What is it exactly?",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2114315029cfaa74eeffc92ce003244bf21a3a73-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/shakeology-what-is-it",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7aco": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7aco",
+                    "_type": "linkItem",
+                    "slug": "shakeology-recipes",
+                    "title": "Shakeology Recipes",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d28beb46f1cc27065ec8893b41002cc0b2285bb3-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/shakeology-recipes-for-every-flavor",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223306403,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "shakeology",
+              "en-US"
+            ],
+            "queryHash": "[\"shakeology\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/shakeology/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "shakeology",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

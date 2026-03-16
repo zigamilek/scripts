@@ -1,0 +1,107 @@
+Please help me write a python script that will scrape videos and other materials from the beachbodyondemand.com website using selenium, selenium wire and yt-dlp.
+
+Use Firefox as the browser, not headless.
+
+The script will be provided a file with urls of individual programs to visit as a command line parameter. The second command line parameter will be the main output folder. You will create subfolders for each program.
+
+You will have to "guess" the name of the program (which will also be the name of the subfolder) from the url and the <title>.
+
+For example, if the url is https://www.beachbodyondemand.com/programs/live-it-up/start-here?locale=en_US
+and the <title> is <title>Live It Up - High-Energy Workout with Shaun T</title>
+then the name of the program and the subfolder is "Live It Up".
+
+When starting out, you should Reject All cookies, here's a function you can use:
+def click_reject_all_cookies(driver, wait):
+    """
+    Detect and click the 'Reject All' button for cookies consent.
+    """
+    try:
+        # Wait until the cookie consent dialog is present
+        cookie_reject_button = wait.until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "button.osano-cm-denyAll"))
+        )
+        cookie_reject_button.click()
+        print("Clicked 'Reject All' for cookies.")
+    except TimeoutException:
+        print("Cookie consent dialog not found or already handled.")
+    except Exception as e:
+        print(f"Error clicking 'Reject All' button: {e}")
+
+
+The website is weirdly put together, there are often no a href links, I think you are redirected using javascript or react.
+
+The script should navigate through all tabs of the single program page and download all videos and other materials, but please skip the "You May Also Like" sections!
+
+Here's an example of the tab navigation:
+<nav class="ContentTabSwitcher__Nav-sc-3yaexi-1 jAmasN"><div class="ContentTabSwitcher__Scroller-sc-3yaexi-0 hZOKnU"><div class="ContentTabSwitcher__ContentTabsWrapper-sc-3yaexi-2 dtBknY"><div class="ContentTabSwitcherItem__ContentTab-sc-10y3761-0 iPuGuC"><a href="/programs/live-it-up/start-here?locale=en_US" class="ContentTabSwitcherItem__TabTitle-sc-10y3761-1 QpzRa">Start Here</a></div><div class="ContentTabSwitcherItem__ContentTab-sc-10y3761-0 iPuGuC"><a href="/programs/live-it-up/workouts?locale=en_US" class="ContentTabSwitcherItem__TabTitle-sc-10y3761-1 QpzRa">Workouts</a></div><div class="ContentTabSwitcherItem__ContentTab-sc-10y3761-0 iPuGuC"><a href="/programs/live-it-up/energize-moments?locale=en_US" class="ContentTabSwitcherItem__TabTitle-sc-10y3761-1 jiClT">Energize Moments</a><ul class="ContentTabDropdown__ContentTabDropdownList-sc-1cj92yj-0 jtIdNE"><a href="/programs/live-it-up/energize-moments?locale=en_US#lvp-energize-moments" class="ContentTabDropdown__DropdownItem-sc-1cj92yj-1 eECRUg"><p title="Energize Moments" class="Body1-npu3z1-0 Body2-sc-1k24yt8-0 ContentTabDropdown__DropdownTitle-sc-1cj92yj-2 fzcrKN">Energize Moments</p></a><a href="/programs/live-it-up/energize-moments?locale=en_US#lvu-you-may-also-like" class="ContentTabDropdown__DropdownItem-sc-1cj92yj-1 eECRUg"><p title="You May Also Like" class="Body1-npu3z1-0 Body2-sc-1k24yt8-0 ContentTabDropdown__DropdownTitle-sc-1cj92yj-2 fzcrKN">You May Also Like</p></a></ul></div><div class="ContentTabSwitcherItem__ContentTab-sc-10y3761-0 iPuGuC"><a href="/programs/live-it-up/shareable-moments?locale=en_US" class="ContentTabSwitcherItem__TabTitle-sc-10y3761-1 QpzRa">Shareable Moments</a></div><div class="ContentTabSwitcherItem__ContentTab-sc-10y3761-0 iPuGuC"><a href="/programs/live-it-up/nutrition?locale=en_US" class="ContentTabSwitcherItem__TabTitle-sc-10y3761-1 QpzRa">Nutrition</a></div></div></div></nav>
+
+Note: don't use exact match CSS selectors, but rather use "class contains". Instead of using p.ContentDetailsHero__Description-as5ixy-10, you should find an element whose class name contains "ContentDetailsHero__Description", for example. The same for all others!
+
+You will create subfolders under each program, based on the tab navigation (except the first Start Here tab and the "You May Also Like" sections, as mentioned before).
+
+So from the above example tab navigation you would create the following subfolders:
+- Workouts
+- No-Cameo Workouts
+- Energize Moments
+- Shareable Moment
+- Nutrition
+
+Once you have all the subfolders, you should create an "About [Program Name]".txt text file in the main folder of the Program with information you get from the Start Here page.
+
+Here are the sections from the Start Here page you should use for the "About [Program Name]".txt text file:
+- Program Overview. Example: <section class="ContentOverview__Container-sc-1qa3yo6-0 fwlOyR"><div class="ContentOverview__OverviewSection-sc-1qa3yo6-1 kHrUTd"><div class="ContentOverview__LeftSection-sc-1qa3yo6-2 hPcyKY"><div role="img" class="ContentOverviewCoverImage__CoverImage-sc-1qh5jv8-0 jqYBiy"><img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjczIiB3aWR0aD0iNzMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZm9jdXNhYmxlPSJmYWxzZSI+CiAgPGcgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0zMyA2NS4zMTJDMTUuMTU0IDY1LjMxMi42ODcgNTAuODQ2LjY4NyAzM1MxNS4xNTQuNjg4IDMzIC42ODggNjUuMzEyIDE1LjE1NCA2NS4zMTIgMzMgNTAuODQ2IDY1LjMxMiAzMyA2NS4zMTJ6IiBmaWxsPSIjMjQ5MGZmIi8+CiAgICA8cGF0aCBkPSJNMjUuMjI4IDE4LjgyNGwyMy45MzggMTQuMDY4LTIzLjkzOCAxNC4wNjUiIGZpbGw9IiNmZmYiLz4KICA8L2c+Cjwvc3ZnPgo=" class="ContentOverviewCoverImage__PlayButton-sc-1qh5jv8-1 eZYcph"><div class="ContentOverviewCoverImage__FooterContainer-sc-1qh5jv8-2 nEueA"><h4 class="Body1-npu3z1-0 ContentOverviewCoverImage__ContentTitle-sc-1qh5jv8-4 fPYsFz">XB Sweat + Sculpt Sample Workout</h4><p class="Body1-npu3z1-0 Body2-sc-1k24yt8-0 ContentOverviewCoverImage__ContentSubtitle-sc-1qh5jv8-3 jOpSRW">35m</p></div></div></div><div class="ContentOverview__RightSection-sc-1qa3yo6-3 gGsDcJ"><h4 class="Headline4dm-sc-2nyl9f-0 ContentOverview__Header-sc-1qa3yo6-4 aqGdX">Program Overview</h4><div class="ContentStatistics__StatisticsContainer-nvmc0p-0 gOizcD"><div class="Body5-sc-10zddus-0 CardFooter-sc-11wsfx5-0 ContentStatistics__Statistic-nvmc0p-2 kgltvK"><div class="Digits1-sc-15se5wc-0 ContentStatistics__StatisticValue-nvmc0p-3 jwJmex">15</div><p class="ContentStatistics__StatisticLabel-nvmc0p-5 flFJYs">Workouts</p></div><div class="Body5-sc-10zddus-0 CardFooter-sc-11wsfx5-0 ContentStatistics__Statistic-nvmc0p-2 kgltvK"><div class="Digits1-sc-15se5wc-0 ContentStatistics__StatisticValue-nvmc0p-3 jwJmex">30</div><p class="ContentStatistics__StatisticLabel-nvmc0p-5 flFJYs">Mins/Day</p></div><div class="Body5-sc-10zddus-0 CardFooter-sc-11wsfx5-0 ContentStatistics__Statistic-nvmc0p-2 kgltvK"><img src="https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg" class="ContentStatistics__StatisticImage-nvmc0p-4 ecZcTG"><p class="ContentStatistics__StatisticLabel-nvmc0p-5 flFJYs">Intermediate</p></div></div><div color="#b071f7" class="ContentOverview__ColorBar-sc-1qa3yo6-5 iYMuXB"></div><p class="Body1-npu3z1-0 ContentOverviewSections__Subheader-l54yrg-0 fjkqut">Works well for</p><p class="Body1-npu3z1-0 Body2-sc-1k24yt8-0 ContentOverviewSections__Description-l54yrg-1 iGPWDn">Cardio, Dance, Slim &amp; Sculpt, Weight Loss</p><p class="Body1-npu3z1-0 ContentOverviewSections__Subheader-l54yrg-0 fjkqut">Equipment needed</p><p class="Body1-npu3z1-0 Body2-sc-1k24yt8-0 ContentOverviewSections__Description-l54yrg-1 iGPWDn">Ankle Weights*, Resistance Loops*</p><p class="Body3-sc-12fqk0n-0 Body4-sc-1sppdu6-0 ContentOverview__FooterText-sc-1qa3yo6-6 hJoWCM">* Optional</p><div class="ContentOverview__MoreInfoSection-sc-1qa3yo6-8 dKYjwF"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjE2IiBmb2N1c2FibGU9ImZhbHNlIj4KICA8cGF0aCBkPSJNMiA0YzEuMSAwIDItLjkgMi0ycy0uOS0yLTItMi0yIC45LTIgMiAuOSAyIDIgMnptMCAyQy45IDYgMCA2LjkgMCA4cy45IDIgMiAyIDItLjkgMi0yLS45LTItMi0yem0wIDZjLTEuMSAwLTIgLjktMiAycy45IDIgMiAyIDItLjkgMi0yLS45LTItMi0yeiIgZmlsbD0iIzE2MTgxOSIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=" class="ContentOverview__MoreInfo-sc-1qa3yo6-7 ihCXVo"></div></div></div></section>
+- Description (from the hero section). Example: <p class="Body1-npu3z1-0 Body2-sc-1k24yt8-0 ContentDetailsHero__Description-as5ixy-10 cMFVAd">Put the fun in fitness with easy-to-follow cardio-dance and powerful sculpting intervals for the perfect mix of sweat and strength. Press play on this 3-week program for just 30 minutes a day, and leave feeling lean, toned, and strong.</p>
+- Informational sections (can be multiple with the same classes). Example: <div class="ContentDetailsEditorial__Container-rs21m-0 MfpWz"><div class="ContentDetailsEditorial__Content-rs21m-1 irUoNj"><img src="https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2e0791002d58828921a47fbd93417efa0b79bfd0-1600x1600.jpg?format=webp&amp;width=800" class="ContentDetailsEditorial__Image-rs21m-2 kkHYfF"><div class="ContentDetailsEditorial__Details-rs21m-3 kDQmxy"><h2 class="Headline2dm-sc-1rkneq0-0 ContentDetailsEditorial__Title-rs21m-4 dSrpTn">Is XB Sweat + Sculpt right for me?</h2><div class="ContentDetailsEditorial__ColorBar-rs21m-5 dzhHen"></div><div class="Intro1-sc-1t9gdze-0 ContentDetailsEditorial__Description-rs21m-6 kELzYD"><p>Bring joy to your fitness with fresh cardio-dance moves and powerful sculpting sequences. Created by Andrea Rogers, XB Sweat + Sculpt is perfect for you if you’re looking to move your body and have fun while working out. The choreography is easy to follow and each workout is just 30 minutes, so you can jump right in whether you love to dance, you’re just getting started, or you simply want to sculpt and define your entire body while building strength.</p></div></div></div></div>
+- About the Trainer. Example: <section id="trainer" class="ContentDetails__SectionWrapper-uni1kz-1 dQAhHv"><div class="ContentDetailsTrainer__Container-sc-1j94zm5-0 hfxNRl"><div class="ContentDetailsTrainer__TopContainer-sc-1j94zm5-1 fiJpQZ"></div><div class="ContentDetailsTrainer__BottomContainer-sc-1j94zm5-2 icyaMq"><div class="ContentDetailsTrainer__TrainerInfoContainer-sc-1j94zm5-10 hRSwqp"><div class="ContentDetailsTrainer__TrainerInfo-sc-1j94zm5-3 jOilYV"><h3 class="Headline3dm-cj860z-0 ContentDetailsTrainer__Headline-sc-1j94zm5-4 gQXXDA">Meet Andrea</h3><div class="ContentDetailsTrainer__SocialIconsContainer-sc-1j94zm5-5 gwGgNo"><a target="_blank" href="https://www.facebook.com/andrealeighrogers" class="ContentDetailsTrainer__SocialLink-sc-1j94zm5-7 dZHWfY"><img src="https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg" class="ContentDetailsTrainer__SocialIcon-sc-1j94zm5-6 gYgyOL"></a><a target="_blank" href="https://www.instagram.com/andrealeighrogers/?hl=en" class="ContentDetailsTrainer__SocialLink-sc-1j94zm5-7 dZHWfY"><img src="https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg" class="ContentDetailsTrainer__SocialIcon-sc-1j94zm5-6 gYgyOL"></a></div><div class="Body1-npu3z1-0 Body2-sc-1k24yt8-0 ContentDetailsTrainer__TrainerBio-sc-1j94zm5-8 bCYixH">As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.</div></div></div><div class="ContentDetailsTrainer__ImageContainer-sc-1j94zm5-11 jwAesP"><img src="https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cb24c0d8b6fc20b9278dd920c58cdd99597857f7-860x964.png?format=webp&amp;width=800" alt="Meet Andrea" mode="single" class="ContentDetailsTrainer__TrainerImage-sc-1j94zm5-9 dIenkO"><img src="https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cb24c0d8b6fc20b9278dd920c58cdd99597857f7-860x964.png?format=webp&amp;width=300" alt="Meet Andrea" mode="single" class="ContentDetailsTrainer__TrainerImage-sc-1j94zm5-9 fdUnLc"></div></div></div></section>
+
+To download the videos of the Program, you need to click on the video card, like this one:
+<section class="keen-slider__slide ContentVideoSliderItem__Container-pzo2tf-13 Xfkrf" style="transform: translate3d(0px, 0px, 0px);"><div class="ContentVideoSliderItem__CardContent-pzo2tf-14 clvVrV"><div role="img" class="ContentVideoSliderItem__CoverImage-pzo2tf-15 eOKGPr"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTIiIGhlaWdodD0iNTIiIHZpZXdCb3g9IjAgMCA1MiA1MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjUuOTU4MyIgY3k9IjI2LjA0MTciIHI9IjI0Ljg1NjUiIGZpbGw9ImJsYWNrIiBmaWxsLW9wYWNpdHk9IjAuMzUiIHN0cm9rZT0id2hpdGUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMi4yNzggMzYuNjM3MkMyMS41NTcgMzcuMTU0NiAyMC42MDE1IDM3LjIwNjkgMTkuODI4NCAzNi43NzE0QzE5LjA1NTMgMzYuMzM1OSAxOC42MDQ4IDM1LjQ5MTYgMTguNjczNiAzNC42MDY5VjE3LjA0MTVDMTguNjA0OCAxNi4xNTY4IDE5LjA1NTMgMTUuMzEyNSAxOS44Mjg0IDE0Ljg3N0MyMC42MDE1IDE0LjQ0MTUgMjEuNTU3IDE0LjQ5MzkgMjIuMjc4IDE1LjAxMTJMMzYuODU1IDIzLjgzOTVDMzcuNjE2OSAyNC4yMjk4IDM4LjA5NjEgMjUuMDEzOCAzOC4wOTYxIDI1Ljg2OThDMzguMDk2MSAyNi43MjU4IDM3LjYxNjkgMjcuNTA5OCAzNi44NTUgMjcuOTAwMUwyMi4yNzggMzYuNjM3MloiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" class="ContentVideoSliderItem__PlayButton-pzo2tf-3 cZslzv"><div class="ContentVideoSliderItem__CoverImageProgressBar-pzo2tf-7 cBnkbS"><div class="ContentVideoSliderItem__Progress-pzo2tf-8 fwVaOV"></div></div></div><div class="ContentVideoSliderItem__Details-pzo2tf-16 ZjQDy"><p class="Body1-npu3z1-0 ContentVideoSliderItem__Title-pzo2tf-10 hexuCb">Meet Shaun T</p><div class="Body3-sc-12fqk0n-0 Body4-sc-1sppdu6-0 ContentVideoSliderItem__Subtitle-pzo2tf-11 kuUiPW">with Shaun T</div><p class="Body3-sc-12fqk0n-0 Body4-sc-1sppdu6-0 ContentVideoSliderItem__Description-pzo2tf-12 iLGtPn">Get to know Super Trainer Shaun T as he shares his story for LIVE IT UP!</p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjE2IiBmb2N1c2FibGU9ImZhbHNlIj4KICA8cGF0aCBkPSJNMiA0YzEuMSAwIDItLjkgMi0ycy0uOS0yLTItMi0yIC45LTIgMiAuOSAyIDIgMnptMCAyQy45IDYgMCA2LjkgMCA4cy45IDIgMiAyIDItLjkgMi0yLS45LTItMi0yem0wIDZjLTEuMSAwLTIgLjktMiAycy45IDIgMiAyIDItLjkgMi0yLS45LTItMi0yeiIgZmlsbD0iIzcwNmY3MyIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=" class="ContentVideoSliderItem__MoreInfoIcon-pzo2tf-6 iLgKCq"><div class="ContentVideoSliderItem__Footer-pzo2tf-9 eeNCAD">6m</div></div></div></section>
+
+Clicking on that one I get three m3u8 links:
+1. https://d197pzlrcwv1zr.cloudfront.net/LVP017/LVP017_Main.m3u8?Expires=1738181529&Key-Pair-Id=KLCJC6JAKT7X3&Signature=sIhEEtMunQLBtMRKUMgJCDmfbRoWPp58Eje2dM3Q0mmQC-gM-ys6XXGhEkQ2LJw78Sn5jrBzlJExdJz35hoHxMIQ3cvS6kIfOU3Pm7ie0QRUZbaOWoulWOJOiBTVFzzxP~sZmH~cP6Qz7uCFRnBfycdXALIub81KQtJp1kh~5VlxCh16bt-mLBfq-AlPs4F1PGSMAvhHHAnYpJ8Bm3Wu6qnDUZL1qibOGIYD7uSXhaMIa2XTF6PVIwWPkyKVMFJUK4RzZ2fPN1rHolGpUYMG3hDPa1JXkgn8D4bVZ5v-rSFvOm9QD8odS8nz-SOnDZeZYn8DYyckA4hC6got87s-XQ__
+2. https://d197pzlrcwv1zr.cloudfront.net/LVP017/LVP017_Main_A.m3u8
+3. https://d197pzlrcwv1zr.cloudfront.net/LVP017/LVP017_Main_B.m3u8
+
+I think the first link is the highest quality, so please use the one that contains Main.m3u8.
+
+These links are not present in the html source.
+
+Use yt-dlp to download the videos.
+
+You should download the videos to the correct folder, depending on which tab you are. Any videos you find on the first Start Here tab, put them in the main folder of the program.
+
+If the program has a Trailer video, you should download it to the main folder of the Program. Here's an example of the button that opens the trailer video:
+<button class="ButtonPill__Container-jrbcpm-0 dyhJNo"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUgNS41NjY0MUM1IDUuMDg1OTQgNS4wOTY4NSA0LjY3Mjg1IDUuMjkwNTQgNC4zMjcxNUM1LjQ4NDIzIDMuOTgxNDUgNS43NDcxIDMuNzE0ODQgNi4wNzkxNCAzLjUyNzM0QzYuNDA1NjUgMy4zMzk4NCA2Ljc3MzY2IDMuMjQ2MDkgNy4xODMxOCAzLjI0NjA5QzcuNTcwNTYgMy4yNDYwOSA3Ljk0MTM0IDMuMzU0NDkgOC4yOTU1MiAzLjU3MTI5TDE4LjkwNDMgMTAuMDEzN0MxOS4yNjQgMTAuMjMwNSAxOS41MzUxIDEwLjUxNzYgMTkuNzE3OCAxMC44NzVDMTkuOTA1OSAxMS4yMzI0IDIwIDExLjYwNzQgMjAgMTJDMjAgMTIuMzg2NyAxOS45MDU5IDEyLjc1ODggMTkuNzE3OCAxMy4xMTYyQzE5LjUzNTEgMTMuNDczNiAxOS4yNjQgMTMuNzYzNyAxOC45MDQzIDEzLjk4NjNMOC4yOTU1MiAyMC40Mjg3QzguMTEyODkgMjAuNTM0MiA3LjkyNzUgMjAuNjEzMyA3LjczOTM1IDIwLjY2NkM3LjU1MTE5IDIwLjcyNDYgNy4zNjU4IDIwLjc1MzkgNy4xODMxOCAyMC43NTM5QzYuNzczNjYgMjAuNzUzOSA2LjQwNTY1IDIwLjY2MDIgNi4wNzkxNCAyMC40NzI3QzUuNzQ3MSAyMC4yODUyIDUuNDg0MjMgMjAuMDE4NiA1LjI5MDU0IDE5LjY3MjlDNS4wOTY4NSAxOS4zMjcxIDUgMTguOTE0MSA1IDE4LjQzMzZMNSA1LjU2NjQxWk02LjM2OTY3IDUuNjQ1NTFMNi4zNjk2NyAxOC4zNDU3QzYuMzY5NjcgMTguNjIxMSA2LjQ1NTQ1IDE4LjgzNzkgNi42MjcwMSAxOC45OTYxQzYuNzkzMDMgMTkuMTYwMiA2Ljk4OTQ5IDE5LjI0MjIgNy4yMTYzOCAxOS4yNDIyQzcuMzgyNCAxOS4yNDIyIDcuNTQwMTIgMTkuMTk4MiA3LjY4OTU0IDE5LjExMDRMMTguMTkwNCAxMi43NDcxQzE4LjMyMzIgMTIuNjY1IDE4LjQyIDEyLjU1MzcgMTguNDgwOSAxMi40MTMxQzE4LjU0NzMgMTIuMjc4MyAxOC41ODA1IDEyLjE0MDYgMTguNTgwNSAxMkMxOC41ODA1IDExLjg1MzUgMTguNTQ3MyAxMS43MSAxOC40ODA5IDExLjU2OTNDMTguNDIgMTEuNDI4NyAxOC4zMjMyIDExLjMxNzQgMTguMTkwNCAxMS4yMzU0TDcuNjk3ODQgNC44ODA4NkM3LjYyMDM3IDQuODMzOTggNy41MzczNSA0LjgwMTc2IDcuNDQ4ODEgNC43ODQxOEM3LjM2NTggNC43NjY2IDcuMjg4MzIgNC43NTc4MSA3LjIxNjM4IDQuNzU3ODFDNi45ODk0OSA0Ljc1NzgxIDYuNzkzMDMgNC44MzY5MSA2LjYyNzAxIDQuOTk1MTJDNi40NTU0NSA1LjE1MzMyIDYuMzY5NjcgNS4zNzAxMiA2LjM2OTY3IDUuNjQ1NTFaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" class="ButtonPill__Icon-jrbcpm-1 vQDun"><span>Trailer</span></button>
+
+Clicking on the trailer button starts the video the same way as any other video of the program. I think this is the highest quality m3u8 that pops up after clicking the above Trailer button:
+https://d197pzlrcwv1zr.cloudfront.net/XBSS0002/XBSS0002_Main.m3u8?Expires=1738182554&Key-Pair-Id=KLCJC6JAKT7X3&Signature=c6g263kbfdTt-jAApidY7HpKcPXxySa2e~PeVsNvksJQZSTLglLyIEED1b9dFgDEMbPtorHADv7Wqod8fJtS2xlJR58~yxIcYYPqc1GRxk86B6cJXonFve2LfPTQBPT9j4qu-GHfO5pDry-oMVwrr4pQA4k3UBFwcdQz-LDZsuo-zrwwpaiu8DFAX3RGSoqcWMprFQF7ppktnUG7Rgm-g-iy7WA~r2fQzmMqFbwPLYet1xomjAgvSATpOnU2i1CxCDZPoEyonLlEG1Cf0f7vSJwt~OemMQxXTIpnqJhohs4SfQM7sqwtSez8B-MACZVZLyGbTJNqo8TuKOfM3gmgFg__
+
+We'll add additional functionality to download files of the Programs later.
+
+You should also keep track of already finished programs, maybe in a separate file, so you can skip them in subsequent runs of the script.
+
+You should also provide helpful printouts throughout and configure logging, here's an example from another script:
+parser.add_argument(
+    '--log',
+    default='INFO',
+    choices=['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL'],
+    help='Set the logging level (default: INFO)'
+)
+# Set logging level based on argument
+log_level = getattr(logging, args.log.upper(), logging.INFO)
+
+# Configure logging
+logging.basicConfig(
+    level=log_level,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler(log_file_name)
+    ]
+)
+
+# Suppress Selenium Wire's INFO logs
+seleniumwire_logger = logging.getLogger('seleniumwire')
+seleniumwire_logger.setLevel(logging.WARNING)
+
+Create helper functions to make the main function as straight forward as possible.

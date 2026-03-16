@@ -1,0 +1,2988 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "autumns-exclusives",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                "_type": "program",
+                "slug": "autumns-exclusives",
+                "title": "Autumn's Exclusives",
+                "subtitle": null,
+                "brandCode": "YTAC",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=YTAC&locale=en_us&trainerName=AutumnCalabrese"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Autumn's Exclusives Program Overview: Start Your Journey Here",
+                  "description": "Get full access to Autumn Calabrese's total body workouts with Autumn's Exclusives. See what the program includes and any equipment needed.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cdd52a329f2ccdb3982c1b6ff8c2c556f9ba51-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Autumn",
+                    "lastName": "Calabrese",
+                    "bioBodi": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df65911fe5d2c1e8233b295310ac0fa73fc8dc23-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#cd62ff",
+                "colorPrimaryOptions": {
+                  "argb": "#cd62ff",
+                  "rgba": "#cd62ff"
+                },
+                "descriptionShort": "Autumn Calabrese will keep you working hard with these exclusive videos.",
+                "descriptionLong": "With Autumn\u2019s Exclusives, you\u2019ll have access to full body workouts. Plus, try her ab carving workout\u2014the 5 Minute: Fast Belly Burn.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/autumns-exclusives"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "5-45"
+                },
+                "duration": null,
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "7"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells"
+                  },
+                  {
+                    "title": "Stability Ball"
+                  },
+                  {
+                    "title": "Balance Ball"
+                  },
+                  {
+                    "title": "Dumbbells or Medicine Ball"
+                  },
+                  {
+                    "title": "Bands with Door attachment"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Yoga Mat"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Strength"
+                  },
+                  {
+                    "title": "Core"
+                  },
+                  {
+                    "title": "Slim & Sculpt"
+                  },
+                  {
+                    "title": "Low Impact"
+                  },
+                  {
+                    "title": "Cardio"
+                  }
+                ],
+                "level": {
+                  "title": "Intermediate",
+                  "slug": "intermediate",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1d617fe8f61fb768eacaa48c64705336dff9f516-672x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1d617fe8f61fb768eacaa48c64705336dff9f516-672x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c9dd0005f4c0449936a4220283069ad71a900c75-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a3628d2648668798d0165a71457aa8987687364-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0e2c128c60a60f9663b1409d62dd7215e1fd838a-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/22354029f05fc2b464721d1802e2935c573973b3-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cdd52a329f2ccdb3982c1b6ff8c2c556f9ba51-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cdd52a329f2ccdb3982c1b6ff8c2c556f9ba51-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Dumbbells, Stability Ball, Balance Ball, Dumbbells or Medicine Ball, Bands with Door attachment, Yoga Mat*",
+                        "categories": "Strength, Core, Slim & Sculpt, Low Impact, Cardio",
+                        "colorPrimary": "#cd62ff",
+                        "colorPrimaryOptions": {
+                          "argb": "#cd62ff",
+                          "rgba": "#cd62ff"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-2c4b0632a03c8984ae5f874f31692d4847c1d478-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2c4b0632a03c8984ae5f874f31692d4847c1d478-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "7"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "5-45"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                            },
+                            "title": "Intermediate"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZHUiZH",
+                        "_type": "editorial",
+                        "slug": "autumns-exclusives-lose-weight-like-crazy-even-if-you-have-a-crazy-life",
+                        "title": "Lose Weight Like Crazy, Even If You Have a Crazy Life!",
+                        "subtitle": null,
+                        "content": "The Ultimate Portion Fix program teaches you how to take the guesswork out of eating to help you lose weight. Autumn\u2019s book, Lose Weight Like Crazy, Even If You Have a Crazy Life!, dives deeper into her life, her personal struggles, and the \u201ca-ha\u201d moments that shaped her approach to health and fitness. Through the power of her story, you\u2019ll also learn all-new strategies to help you adjust your attitude, overcome excuses, find your motivation, and stay in control of your weight loss and goals\u2014even when circumstances seem crazy. Her book shows you how to turn your obstacles into opportunities and achieve anything you set your mind to, in every aspect of your life!",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/78c339046b7c04913b6f7b009c9024cc87c69589-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZHUiqt",
+                        "_type": "editorial",
+                        "slug": "autumns-exclusives-is-ultimate-portion-fix-right-for-me",
+                        "title": "Is Ultimate Portion Fix Right For Me?",
+                        "subtitle": null,
+                        "content": "If you finally want to achieve real, sustainable weight loss, then look no further than the Ultimate Portion Fix. The Ultimate Portion Fix is for those who are seeking to have control over food instead of food controlling them with a structured, well-balanced and perfectly portioned program without cutting out food groups or starvation, and without taking the fun out of eating. In this 30-day video-based program, Super Trainer and nutrition expert Autumn Calabrese shows you how to create satisfying meals, swap out processed foods for wholesome ingredients, and break your sugar addiction.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cc354fb2e82205ad99a757bd6e9e3de7d09ea81a-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Learn More",
+                          "url": "https://www.beachbodyondemand.com/programs/ultimate-portion-fix/starthere"
+                        }
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZHUj5z",
+                        "_type": "editorial",
+                        "slug": "autumns-exclusives-what-do-i-get-with-ultimate-portion-fix",
+                        "title": "What Do I Get With Ultimate Portion Fix?",
+                        "subtitle": null,
+                        "content": "You\u2019ll receive 30+ videos that teach you the principles, tricks and strategies for every step of your weight loss journey, including how to use your containers, and how to plan, prep, and make healthy, delicious meals. You\u2019ll also get tools, including a Workbook, Daily Logbook, video summaries, daily check-ins, and thought-provoking reflections that help you get the most out of this incredible program. Plus, access to 300+ recipes with the FIXATE\u00ae cooking show, FIXATE Vol. 2 Cookbook, and 75 Healthy Lunch Ideas for Kids included in this program.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c789b4b7b1e01456bc45ee4c4672305a6541cab4-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Learn More",
+                          "url": "https://www.beachbodyondemand.com/programs/ultimate-portion-fix/starthere"
+                        }
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD9CQY",
+                        "_type": "collection",
+                        "slug": "autumns-exclusives-related-content",
+                        "title": "Autumn's Exclusives Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "vKPPpbqN0JH0WMoJVD7aMU",
+                          "vKPPpbqN0JH0WMoJVD7cqo",
+                          "2Y1ZDDXEx3aLPbgAHe2NiD"
+                        ]
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Autumn",
+                            "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df65911fe5d2c1e8233b295310ac0fa73fc8dc23-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/autumn.calabrese.3",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.Instagram.com/autumncalabrese",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.twitter.com/autumncalabrese",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.youtube.com/autumnfitness",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f06acc8786ecf26616838c26162235cfcce4108-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0XKz",
+                        "_type": "collection",
+                        "slug": "autumns-exclusives-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZBmn7f",
+                          "BoGK5VlBLllbPFYTvOlsa8",
+                          "Q6j5eG7tj3PSUghmZcA24B",
+                          "BoGK5VlBLllbPFYTvNCwE4"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPZTWi",
+                        "_type": "collection",
+                        "slug": "lwlc-book-workout",
+                        "title": "Book Workouts",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZHUeGZ",
+                          "NWOt1I2xWP7xm05A7utqUl"
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7utrpg",
+                        "_type": "collection",
+                        "slug": "autumns-exclusives",
+                        "title": "Autumn's Exclusives",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPZSG8",
+                          "BoGK5VlBLllbPFYTvPZSMS",
+                          "BoGK5VlBLllbPFYTvPZSPA",
+                          "BoGK5VlBLllbPFYTvPZSVU",
+                          "Q6j5eG7tj3PSUghmZHUfe7",
+                          "Q6j5eG7tj3PSUghmZHUgKt",
+                          "NWOt1I2xWP7xm05A7utquP",
+                          "NWOt1I2xWP7xm05A7utqyg"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPV2u0",
+                        "_type": "collection",
+                        "slug": "active-maternity-with-autumn-calabrese",
+                        "title": "Active Maternity with Autumn Calabrese",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZHIAGx",
+                          "Q6j5eG7tj3PSUghmZHIAqB",
+                          "BoGK5VlBLllbPFYTvPUnY0",
+                          "Q6j5eG7tj3PSUghmZHIC8h",
+                          "NWOt1I2xWP7xm05A7upc3l"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0XKz",
+                        "_type": "collection",
+                        "slug": "autumns-exclusives-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZBmn7f",
+                          "BoGK5VlBLllbPFYTvOlsa8",
+                          "Q6j5eG7tj3PSUghmZcA24B",
+                          "BoGK5VlBLllbPFYTvNCwE4"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPZTFY",
+                        "_type": "collection",
+                        "slug": "autumns-exclusives-0",
+                        "title": "Program Materials",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7utr8w",
+                          "BoGK5VlBLllbPFYTvPZSts"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0XKz",
+                        "_type": "collection",
+                        "slug": "autumns-exclusives-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZBmn7f",
+                          "BoGK5VlBLllbPFYTvOlsa8",
+                          "Q6j5eG7tj3PSUghmZcA24B",
+                          "BoGK5VlBLllbPFYTvNCwE4"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe2NiD": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2NiD",
+                    "_type": "linkItem",
+                    "slug": "quick-office-workout-for-sexy-abs",
+                    "title": "Quick Office Workout for Sexy Abs",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dfa87284185e3834b196abe5eb3ccaad81791203-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/fitness/autumn-calabreses-quick-office-workout-sexy-abs#sm.001ehdrum12kdf6tsm31a71v0wdpz",
+                    "isFavoritable": false
+                  },
+                  "BoGK5VlBLllbPFYTvNCwE4": {
+                    "_id": "BoGK5VlBLllbPFYTvNCwE4",
+                    "_type": "program",
+                    "slug": "80-day-obsession",
+                    "brandCode": "80DO",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2018-01-11",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=80DO&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "80 Day Obsession",
+                    "description": "Get the abs and booty you\u2019ve always wanted in 80 Days.",
+                    "descriptionShort": "Get the abs and booty you\u2019ve always wanted in 80 Days.",
+                    "descriptionLong": "Lift your butt, sculpt your core, and get an incredible total body transformation with 80 unique \u201creal-time\u201d workouts and a Timed-Nutrition Eating Plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/275399f8b8f90855c756744edac0d577351938c5-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/693a287c92340f3886e33dcfc8ef5d7a08f56f85-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/693a287c92340f3886e33dcfc8ef5d7a08f56f85-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/275399f8b8f90855c756744edac0d577351938c5-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/275399f8b8f90855c756744edac0d577351938c5-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d3fa17e570c33aa0e4b93a330ed90a660610c97b-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ee44abe974b7774775915f89281e973aaf017b6b-541x361.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-60"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "80"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "80"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Strength Slides"
+                      },
+                      {
+                        "title": "Foam Roller"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      },
+                      {
+                        "title": "BOD Rope"
+                      },
+                      {
+                        "title": "Sturdy Chair"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOlsa8": {
+                    "_id": "BoGK5VlBLllbPFYTvOlsa8",
+                    "_type": "program",
+                    "slug": "a-little-obsessed",
+                    "brandCode": "ALO",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2017-10-18",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ALO&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "A Little Obsessed",
+                    "description": "A series of five 30 minute workouts designed to prepare you for 80 Day Obsession",
+                    "descriptionShort": "A series of five 30 minute workouts designed to prepare you for 80 Day Obsession",
+                    "descriptionLong": "Experience Autumn\u2019s proven techniques to start sculpting a firm butt and carving out toned abs.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/63553c6af54870ff4e2d601e97b2c6fbb5259060-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5a8f897777e5fc5a61fce532a631044c24e428b7-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5a8f897777e5fc5a61fce532a631044c24e428b7-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/63553c6af54870ff4e2d601e97b2c6fbb5259060-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/63553c6af54870ff4e2d601e97b2c6fbb5259060-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df533ca3f21dd0ebe2f8a227168956496a4b3e6d-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d33102f46509161b82e9256d89dd9cf563c3b08a-586x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "5"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "5"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Strength Slides"
+                      },
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPUnY0": {
+                    "_id": "BoGK5VlBLllbPFYTvPUnY0",
+                    "_type": "workout",
+                    "slug": "3rd-trimester-get-ready-ytac0006b03",
+                    "brandCode": "ACAM",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHIzqx",
+                      "_type": "program",
+                      "slug": "active-maternity"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ACAM&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "3rd Trimester: Get Ready",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ff96914f038df6ccb26801422dc0f5b05d74ef47-398x224.jpg"
+                    },
+                    "descriptionLong": "This third trimester workout can create strength, getting you ready for the big day.",
+                    "durationEstimate": 1560,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0006B03",
+                      "durationActual": 1539,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPZSG8": {
+                    "_id": "BoGK5VlBLllbPFYTvPZSG8",
+                    "_type": "workout",
+                    "slug": "autumn-calabreses-exclusive-2021-summit-workout-ytac0004b10",
+                    "brandCode": "YTAC",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                      "_type": "program",
+                      "slug": "autumns-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTAC&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Autumn Calabrese's Exclusive 2021 Summit Workout",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cf9b45f48abdc72ea27195969d1539a1152a3792-730x496.png"
+                    },
+                    "descriptionLong": "Work your entire body\u2014and burn fat all over\u2014with a combination of density training, strength complexes, and Tabata. We call it DCT training, and it\u2019s your ticket to a fitter, stronger physique\u2014and the six-pack you\u2019ve always wanted.",
+                    "durationEstimate": 1920,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Dumbbells, light & moderate"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0004B10",
+                      "durationActual": 1899,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPZSMS": {
+                    "_id": "BoGK5VlBLllbPFYTvPZSMS",
+                    "_type": "workout",
+                    "slug": "autumns-nlc-9wcf-off-the-wall-ytac0004b09",
+                    "brandCode": "YTAC",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                      "_type": "program",
+                      "slug": "autumns-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTAC&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Autumn's NLC 9WCF Off The Wall",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3223165fe20b80ceb5b5c50d5441739227cbc7f0-730x496.jpg"
+                    },
+                    "descriptionLong": "You\u2019ll work your back and biceps\u2014and burn fat all over\u2014with density training, a strength complex, and Tabata. We call it DCT-T, and it\u2019s your ticket to the body you\u2019ve always wanted.",
+                    "durationEstimate": 1920,
+                    "focusAreas": [
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0004B09",
+                      "durationActual": 1970,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPZSPA": {
+                    "_id": "BoGK5VlBLllbPFYTvPZSPA",
+                    "_type": "workout",
+                    "slug": "autumn-calabreses-exclusive-9-week-control-freak-summit-workout-2-ytac0004b05",
+                    "brandCode": "YTAC",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                      "_type": "program",
+                      "slug": "autumns-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTAC&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Autumn Calabrese's Exclusive 9 Week Control Freak Summit Workout",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/75c355025c424cebc63eb3d5252100841cc9e032-730x496.jpg"
+                    },
+                    "descriptionLong": "This sneak peak at Autumn's 9 Week Control Freak program shows you a sample of her signature DCT Training at it's best. Get ready to TAKE CONTROL!",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0004B05",
+                      "durationActual": 2064,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPZSVU": {
+                    "_id": "BoGK5VlBLllbPFYTvPZSVU",
+                    "_type": "workout",
+                    "slug": "full-body-stability-ball-routine-2-ytac0001b01",
+                    "brandCode": "YTAC",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                      "_type": "program",
+                      "slug": "autumns-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTAC&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Full-Body Stability Ball Routine",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1896246591b40f31e1eaf41c8663a7cbbd3d4e1c-398x224.jpg"
+                    },
+                    "descriptionLong": "2 sets of 9 moves utilizing a stability ball for a full-body workout.",
+                    "durationEstimate": 840,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Stability Ball"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0001B01",
+                      "durationActual": 847,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPZSts": {
+                    "_id": "BoGK5VlBLllbPFYTvPZSts",
+                    "_type": "resource",
+                    "slug": "autumns-exclusives-spotify-playlists-2731737",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                      "_type": "program",
+                      "slug": "autumns-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Spotify Playlists",
+                    "categories": null,
+                    "description": "Speed into the fast lane with upbeat hip-hop that will help melt mad calories.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2dd185218f3e9af76aa7587608bba7e286745817-400x260.jpg"
+                    },
+                    "link": "https://play.spotify.com/user/beachbodyondemand/playlist/5QRBlYmE6qfFDn5OO4nhwj?play=true&utm_source=open.spotify.com&utm_medium=open",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7upc3l": {
+                    "_id": "NWOt1I2xWP7xm05A7upc3l",
+                    "_type": "workout",
+                    "slug": "babies-on-bod-total-body-ytac0007b05",
+                    "brandCode": "ACAM",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHIzqx",
+                      "_type": "program",
+                      "slug": "active-maternity"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ACAM&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Babies on BOD: Total Body",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9ff054efa34ce9a4e462cb5d74a94d5bbba8315a-398x224.jpg"
+                    },
+                    "descriptionLong": "Total body workout to help you get stronger, feel leaner, and connect with your little one!",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0007B05",
+                      "durationActual": 1960,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utqUl": {
+                    "_id": "NWOt1I2xWP7xm05A7utqUl",
+                    "_type": "workout",
+                    "slug": "lwlc-strength-workout-ytac0004b07",
+                    "brandCode": "YTAC",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                      "_type": "program",
+                      "slug": "autumns-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTAC&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Dirty 30 Sculpt",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3fd36eaf089f7e5bf420ddfc7e3520659e7d097d-730x496.jpg"
+                    },
+                    "descriptionLong": "All you need is a pair of dumbbells to crush this eight-move sequence that builds strength and definition all over.",
+                    "durationEstimate": 1860,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0004B07",
+                      "durationActual": 2107,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utquP": {
+                    "_id": "NWOt1I2xWP7xm05A7utquP",
+                    "_type": "workout",
+                    "slug": "kill-cupcake-ytac0004b04",
+                    "brandCode": "YTAC",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                      "_type": "program",
+                      "slug": "autumns-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTAC&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Kill Cupcake",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/12f94056039c4bfa6455e0b0014ada20ebdd265f-398x224.jpg"
+                    },
+                    "descriptionLong": "21 Day Fix Extreme favorite Cupcake joins Autumn for this strength, cardio, and power workout.",
+                    "durationEstimate": 1560,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0004B04",
+                      "durationActual": 1578,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utqyg": {
+                    "_id": "NWOt1I2xWP7xm05A7utqyg",
+                    "_type": "workout",
+                    "slug": "autumn-exclusives-autumns-9-week-control-freak-tabata-cardio-workout-ytac0004b08",
+                    "brandCode": "YTAC",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                      "_type": "program",
+                      "slug": "autumns-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTAC&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Autumn\u2019s 9 Week Control Freak Tabata Cardio workout",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/642debf2ac2217c9530efcbd55b8901dd9e362ac-730x496.jpg"
+                    },
+                    "descriptionLong": "Tabata intervals to push your limits and annihilate calories. Just a peak at the incredible 9 Week Control Freak program that is coming soon!",
+                    "durationEstimate": 1200,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "HIIT",
+                        "slug": "hiit"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0004B08",
+                      "durationActual": 1521,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7utr8w": {
+                    "_id": "NWOt1I2xWP7xm05A7utr8w",
+                    "_type": "resource",
+                    "slug": "autumns-exclusive-summit-2021-playlist-3625925",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                      "_type": "program",
+                      "slug": "autumns-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Autumn's Exclusive Summit 2021 Playlist",
+                    "categories": null,
+                    "description": "Groove to Autumn's curated playlist used in her Exclusive Summit 2021 Workout",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cfdaa7450cd32e6df19737c7ed5e1d748df8afff-400x260.jpg"
+                    },
+                    "link": "https://open.spotify.com/playlist/6LSuEXcuIIudWyjT36q3Ld?si=2f0cd74772dd49a9&nd=1",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBmn7f": {
+                    "_id": "Q6j5eG7tj3PSUghmZBmn7f",
+                    "_type": "program",
+                    "slug": "21-day-fix-real-time",
+                    "brandCode": "21DRT",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-05-01",
+                    "commerce": {
+                      "title": "Try Portion Fix Today!",
+                      "subtitle": "(Not included in regular BOD membership)",
+                      "purchaseAction": {
+                        "title": "Shop Now",
+                        "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=UPF&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": "UPF"
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=21DRT&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21DRT&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "21 Day Fix Real Time",
+                    "description": "21 simple 30-minute workouts. Simple portion control. Fast results.",
+                    "descriptionShort": "21 simple 30-minute workouts. Simple portion control. Fast results.",
+                    "descriptionLong": "Get a major calorie burn, tone your muscles, and lose up to 15 pounds in 21 days with a different 30-minute real-time workout every day. Build on the moves weekly to get total-body results, faster.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b35648b056e60eb094f59e512509ad17bae37f43-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7de8289ae48744ee78b325a3b705b73fcdb0a6ad-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7de8289ae48744ee78b325a3b705b73fcdb0a6ad-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b35648b056e60eb094f59e512509ad17bae37f43-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b35648b056e60eb094f59e512509ad17bae37f43-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df0c697cac7ec8fcec41a15e715be1be788f527f-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bd6b89c162b6b89552ad2faf298c636ee15a5381-980x1008.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "21"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "28"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHIAGx": {
+                    "_id": "Q6j5eG7tj3PSUghmZHIAGx",
+                    "_type": "workout",
+                    "slug": "1st-trimester-get-stable-ytac0004b01",
+                    "brandCode": "ACAM",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHIzqx",
+                      "_type": "program",
+                      "slug": "active-maternity"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "1st Trimester: Get Stable",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9143926bd47273d2cb15e6bce3d49b265bf098a4-398x224.jpg"
+                    },
+                    "descriptionLong": "This first trimester workout can improve muscle tone, increase circulation and build endurance.",
+                    "durationEstimate": 2040,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0004B01",
+                      "durationActual": 2060,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHIAqB": {
+                    "_id": "Q6j5eG7tj3PSUghmZHIAqB",
+                    "_type": "workout",
+                    "slug": "2nd-trimester-get-strong-ytac0005b02",
+                    "brandCode": "ACAM",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHIzqx",
+                      "_type": "program",
+                      "slug": "active-maternity"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ACAM&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "2nd Trimester: Get Strong",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e994de8fe69755f248eebc543b8934c769731be7-398x224.jpg"
+                    },
+                    "descriptionLong": "This second trimester workout can help battle fatigue, alleviate aches and pains, and give you a dose of mood enhancing endorphins.",
+                    "durationEstimate": 1380,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0005B02",
+                      "durationActual": 1392,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHIC8h": {
+                    "_id": "Q6j5eG7tj3PSUghmZHIC8h",
+                    "_type": "workout",
+                    "slug": "postnatal-get-it-back-ytac0007b04",
+                    "brandCode": "ACAM",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHIzqx",
+                      "_type": "program",
+                      "slug": "active-maternity"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=ACAM&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Postnatal: Get It Back",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/96c892a6e765c03568429e252edaa72ed78903e5-398x224.jpg"
+                    },
+                    "descriptionLong": "This postnatal workout will get you on the path back to fitness, increase your strength and endurance, and give you 30 minutes of time just for you.",
+                    "durationEstimate": 1680,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0007B04",
+                      "durationActual": 1698,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHUeGZ": {
+                    "_id": "Q6j5eG7tj3PSUghmZHUeGZ",
+                    "_type": "workout",
+                    "slug": "lwlc-cardio-workout-ytac0004b06",
+                    "brandCode": "YTAC",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                      "_type": "program",
+                      "slug": "autumns-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTAC&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cardio Fix 2.0",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9d4116aef7a12a431ac4333bbf8050d1865c20dc-730x496.jpg"
+                    },
+                    "descriptionLong": "Incinerate calories and melt fat from head to toe with this heart-pounding cardio workout that includes a special bonus move to iron out your core.",
+                    "durationEstimate": 1920,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0004B06",
+                      "durationActual": 2182,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHUfe7": {
+                    "_id": "Q6j5eG7tj3PSUghmZHUfe7",
+                    "_type": "workout",
+                    "slug": "fast-belly-burn-ab-workout-ytac0002b02",
+                    "brandCode": "YTAC",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                      "_type": "program",
+                      "slug": "autumns-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTAC&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Fast Belly Burn-Ab Workout",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/914f7e689e67f15b4a19e1c17cc90ea5bd9d21b8-398x224.jpg"
+                    },
+                    "descriptionLong": "5 minutes of focused killer ab moves.",
+                    "durationEstimate": 420,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Balance Ball"
+                      },
+                      {
+                        "title": "Dumbbells or Medicine Ball"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0002B02",
+                      "durationActual": 389,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHUgKt": {
+                    "_id": "Q6j5eG7tj3PSUghmZHUgKt",
+                    "_type": "workout",
+                    "slug": "total-resistance-ytac0003b03",
+                    "brandCode": "YTAC",
+                    "primaryParent": {
+                      "_id": "Q6j5eG7tj3PSUghmZHUjch",
+                      "_type": "program",
+                      "slug": "autumns-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AutumnCalabrese"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTAC&locale=en_us&trainerName=AutumnCalabrese"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Total Resistance",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/99967b8d3927b1d95922af6ee528b8dc60fc8b50-398x224.jpg"
+                    },
+                    "descriptionLong": "7 of Autumn's favorite moves that will take you through a total body resistance workout.",
+                    "durationEstimate": 420,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Bands with Door attachment"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTAC0003B03",
+                      "durationActual": 430,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZcA24B": {
+                    "_id": "Q6j5eG7tj3PSUghmZcA24B",
+                    "_type": "program",
+                    "slug": "morning-meltdown-100",
+                    "brandCode": "MLT",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-09-30",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=MLT&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "Morning Meltdown 100",
+                    "description": "Commit to 100 workouts & build strength while you melt away fat.",
+                    "descriptionShort": "Commit to 100 workouts & build strength while you melt away fat.",
+                    "descriptionLong": "Torch calories with high-intensity cardio and resistance training, while a live DJ turns up the energy as you burn off pounds. Your goal: complete 100 workouts and unlock the best version of you.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f9fac18b72935e4559c4b66d1354478decc3cb2f-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2c080028c4ef6f2c1a09b67f57142f4ac830f24c-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2c080028c4ef6f2c1a09b67f57142f4ac830f24c-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f9fac18b72935e4559c4b66d1354478decc3cb2f-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f9fac18b72935e4559c4b66d1354478decc3cb2f-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0f1ac4053b1288fe1708a3e479b1a80c920f16d6-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7c1cc54027b4ed6d35992806dc8e173757cd5463-1000x821.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "20-30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "100"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "100"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "MMA Training",
+                        "slug": "mma-training"
+                      },
+                      {
+                        "title": "HIIT",
+                        "slug": "hiit"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "vKPPpbqN0JH0WMoJVD7aMU": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7aMU",
+                    "_type": "linkItem",
+                    "slug": "a-day-in-the-life-autumn-calabrese",
+                    "title": "A Guide to Cooking Terms for the Domestically Challenged",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0b317e84decc1152cfc64427bb566eccaa2b7513-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/a-guide-to-cooking-terms-for-the-domestically-challenged",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7cqo": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7cqo",
+                    "_type": "linkItem",
+                    "slug": "3-steps-for-successful-21-day-fix-meal-planning-2",
+                    "title": "FIXATE Meal Prep",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f11ddb3003e8c881b00119328e690a1e3ee7d1c1-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/meal-plan-1500-calories",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223526554,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "autumns-exclusives",
+              "en-US"
+            ],
+            "queryHash": "[\"autumns-exclusives\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/autumns-exclusives/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "autumns-exclusives",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

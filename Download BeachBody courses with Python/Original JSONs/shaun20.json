@@ -1,0 +1,954 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "shaun20",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "OQ9wTWD5ehIHKO63558vf7",
+                "_type": "program",
+                "slug": "shaun20",
+                "title": "Shaun:20",
+                "subtitle": null,
+                "brandCode": "SH20",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "535d59aa-ddf1-410b-a52d-8da6fe26a60e",
+                    "slug": "INSANITY_PERM",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=SH20&locale=en_us&trainerName=ShaunT"
+                    },
+                    "purchasePath": "subscription"
+                  },
+                  {
+                    "_id": "purchase-option-standalone",
+                    "slug": "po-standalone",
+                    "title": "Standalone",
+                    "subtitle": null,
+                    "purchaseAction": null,
+                    "purchasePath": "standalone"
+                  }
+                ],
+                "seo": {
+                  "title": "Shaun 20 | May 2024 | BODi",
+                  "description": "Introducing SHAUN 20, an innovative compilation of the latest in INSANITY workouts. Meticulously designed to enhance cardiovascular endurance, build strength, and unleash your unstoppable potential.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b63f0541aa48e0fe2e8480bb5ef7d940c3209c5c-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Shaun",
+                    "lastName": "T",
+                    "bioBodi": "Shaun T is the mastermind behind BODi megahits such as Transform :20\u00ae, INSANITY\u00ae, CIZE\u00ae, and LET\u2019S GET UP!\u2122 Whether you\u2019re new to exercise or a HIIT veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Keep a towel handy and be prepared to sweat\u2014with Shaun T, it\u2019s always go time.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a1bc755ae5736b2c437f414306bff2d01e3b8aa9-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "",
+                "colorPrimaryOptions": {
+                  "argb": "",
+                  "rgba": ""
+                },
+                "descriptionShort": "High-energy, low-impact cardio and strength training",
+                "descriptionLong": "SHAUN:20 is a compilation of the latest in low-impact INSANITY-style workouts from Shaun T. Experience a full-body burn like never before with high-energy, low impact cardio and strength training.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/shaun20"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Minutes",
+                  "value": "23"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "5"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "5"
+                },
+                "commerce": {
+                  "title": "BODi Membership Required",
+                  "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                  "purchaseAction": {
+                    "title": "Learn More",
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells"
+                  }
+                ],
+                "equipmentRecommended": null,
+                "categories": [
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Bodyweight Training"
+                  },
+                  {
+                    "title": "Short Workouts (30 min. & under)"
+                  },
+                  {
+                    "title": "Slim & Sculpt"
+                  },
+                  {
+                    "title": "Strength"
+                  }
+                ],
+                "level": {
+                  "title": "All Levels",
+                  "slug": "all-levels",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/287f668cde3500ad42e1b31a48017682f3971360-1000x358.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/287f668cde3500ad42e1b31a48017682f3971360-1000x358.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ac49296bbb8dde11f029ab1e022cab82c3163d2d-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1d9bcd9fc3c684e20475bdce138a3769e38b26ce-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3cd701ebad316a4dd59720b36e49c757d366f574-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba61421e7af1b2bf62982b82e5c27d4b09255bdd-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b63f0541aa48e0fe2e8480bb5ef7d940c3209c5c-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b63f0541aa48e0fe2e8480bb5ef7d940c3209c5c-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Workouts",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Dumbbells",
+                        "categories": "Cardio, Bodyweight Training, Short Workouts (30 min. & under), Slim & Sculpt, Strength",
+                        "colorPrimary": "",
+                        "colorPrimaryOptions": {
+                          "argb": "",
+                          "rgba": ""
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-7e38193e191baf1f4f775232478d80b96205b931-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7e38193e191baf1f4f775232478d80b96205b931-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "5"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Minutes",
+                            "value": "23"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                            },
+                            "title": "All Levels"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "N32UfG81Lac6gYybANqQ91",
+                        "_type": "collection",
+                        "slug": "sh20-shaun20",
+                        "title": "Shaun:20",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "N32UfG81Lac6gYybANqOet",
+                          "N32UfG81Lac6gYybANqMkR",
+                          "N32UfG81Lac6gYybANqKCV",
+                          "uH6C5cxo7efT4nias8CP34",
+                          "N32UfG81Lac6gYybANqIml"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "N32UfG81Lac6gYybANqIml": {
+                    "_id": "N32UfG81Lac6gYybANqIml",
+                    "_type": "workout",
+                    "slug": "sh20-shaun20-ass-abs-sh200005",
+                    "brandCode": "SH20",
+                    "primaryParent": {
+                      "_id": "OQ9wTWD5ehIHKO63558vf7",
+                      "_type": "program",
+                      "slug": "shaun20"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SH20&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Shaun:20 Ass & Abs",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6055dbdcde56e6d41d914ab147b1de5dc0583543-730x496.jpg"
+                    },
+                    "descriptionLong": "\"Strategically programmed to lift and strengthen your hottest asset while\nstrengthening your abdominal muscles to enhance total-body performance.\"",
+                    "durationEstimate": 1380,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SH200005",
+                      "durationActual": 1380,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "N32UfG81Lac6gYybANqKCV": {
+                    "_id": "N32UfG81Lac6gYybANqKCV",
+                    "_type": "workout",
+                    "slug": "sh20-shaun20-leg-burnout-sh200003",
+                    "brandCode": "SH20",
+                    "primaryParent": {
+                      "_id": "OQ9wTWD5ehIHKO63558vf7",
+                      "_type": "program",
+                      "slug": "shaun20"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SH20&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Shaun:20 Leg Burnout",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4253e19eaad5b95a0b2aa06c5bcf7308b749038b-730x496.jpg"
+                    },
+                    "descriptionLong": "Train everything below the belt in this workout, focusing on lower body\nstrength, definition, and endurance.",
+                    "durationEstimate": 1380,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SH200003",
+                      "durationActual": 1380,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "N32UfG81Lac6gYybANqMkR": {
+                    "_id": "N32UfG81Lac6gYybANqMkR",
+                    "_type": "workout",
+                    "slug": "sh20-shaun20-total-body-sculpt-sh200002",
+                    "brandCode": "SH20",
+                    "primaryParent": {
+                      "_id": "OQ9wTWD5ehIHKO63558vf7",
+                      "_type": "program",
+                      "slug": "shaun20"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SH20&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Shaun:20 Total Body Sculpt",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/736306bd30bc9ea0d699119853f7cb873b4472b1-730x496.jpg"
+                    },
+                    "descriptionLong": "Get ready for an INSANE way to build muscular endurance in this\nintense and insane workout.",
+                    "durationEstimate": 1380,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SH200002",
+                      "durationActual": 1380,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "N32UfG81Lac6gYybANqOet": {
+                    "_id": "N32UfG81Lac6gYybANqOet",
+                    "_type": "workout",
+                    "slug": "shaun20-pure-cardio-sh200001",
+                    "brandCode": "SH20",
+                    "primaryParent": {
+                      "_id": "OQ9wTWD5ehIHKO63558vf7",
+                      "_type": "program",
+                      "slug": "shaun20"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SH20&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Shaun:20 Pure Cardio",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0cd3772b3ebcb7e98ddcb76658fb697ebabf5c9c-730x496.jpg"
+                    },
+                    "descriptionLong": "Pure low-impact cardio. No jumping, no plyometrics, just heart pumping\ncardio that will leave you drenched in sweat in twenty minutes flat. Be glad\nit\u2019s not longer.",
+                    "durationEstimate": 1380,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SH200001",
+                      "durationActual": 1380,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "uH6C5cxo7efT4nias8CP34": {
+                    "_id": "uH6C5cxo7efT4nias8CP34",
+                    "_type": "workout",
+                    "slug": "sh20-shaun20-cardio-circuit-sh200004",
+                    "brandCode": "SH20",
+                    "primaryParent": {
+                      "_id": "OQ9wTWD5ehIHKO63558vf7",
+                      "_type": "program",
+                      "slug": "shaun20"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SH20&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Shaun:20 Cardio Circuit",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/149346b3e609ad8cf99fef464acd130a724b96d0-730x496.jpg"
+                    },
+                    "descriptionLong": "The more you sweat, the better you\u2019ll feel! This low-impact cardio\ncircuit-style workout will leave you breathless and feeling the burn\nfrom head to toe.",
+                    "durationEstimate": 1380,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "SH200004",
+                      "durationActual": 1380,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223299216,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "shaun20",
+              "en-US"
+            ],
+            "queryHash": "[\"shaun20\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/shaun20/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "shaun20",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

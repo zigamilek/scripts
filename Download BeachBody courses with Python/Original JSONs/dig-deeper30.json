@@ -1,0 +1,1084 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "dig-deeper30",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "5IBFlvm9qHdIuoGIWZ1wZy",
+                "_type": "program",
+                "slug": "dig-deeper30",
+                "title": "DIG DEEPER:30",
+                "subtitle": null,
+                "brandCode": "DD30",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "dcdcf90c-55a6-490b-8527-f5d83a641bee",
+                    "slug": "DIGDEEPER_PERM",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=DD30&locale=en_us&trainerName=ShaunT"
+                    },
+                    "purchasePath": "subscription"
+                  },
+                  {
+                    "_id": "purchase-option-standalone",
+                    "slug": "po-standalone",
+                    "title": "Standalone",
+                    "subtitle": null,
+                    "purchaseAction": null,
+                    "purchasePath": "standalone"
+                  }
+                ],
+                "seo": {
+                  "title": "Dig Deeper: 30 | Shaun T Workout Special | BODi",
+                  "description": "Keep on building with 6 new 30-min workouts to target specific muscle groups and rounded out with cardio.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f1ba787bc753cf9074741a1af5b500a0c4b66f5f-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Shaun",
+                    "lastName": "T",
+                    "bioBodi": "Shaun T is the mastermind behind BODi megahits such as Transform :20\u00ae, INSANITY\u00ae, CIZE\u00ae, and LET\u2019S GET UP!\u2122 Whether you\u2019re new to exercise or a HIIT veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Keep a towel handy and be prepared to sweat\u2014with Shaun T, it\u2019s always go time.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a1bc755ae5736b2c437f414306bff2d01e3b8aa9-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "",
+                "colorPrimaryOptions": {
+                  "argb": "",
+                  "rgba": ""
+                },
+                "descriptionShort": "Get stronger with a 6-workout expansion of the DIG DEEPER program.",
+                "descriptionLong": "Enhance your strength training with DIG DEEPER:30. Shaun T brings the heat with 6 new 30-minute workouts\u20145 strength training workouts to target specific muscle groups and 1 Steady State Cardio workout.",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/dig-deeper30"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Minutes",
+                  "value": "30"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "6"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "6"
+                },
+                "commerce": {
+                  "title": "BODi Membership Required",
+                  "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                  "purchaseAction": {
+                    "title": "Learn More",
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Adjustable Bench"
+                  },
+                  {
+                    "title": "Dumbbells"
+                  }
+                ],
+                "equipmentRecommended": null,
+                "categories": [
+                  {
+                    "title": "Strength"
+                  },
+                  {
+                    "title": "Muscle Building"
+                  },
+                  {
+                    "title": "Athletic Training"
+                  },
+                  {
+                    "title": "Weight Loss"
+                  }
+                ],
+                "level": {
+                  "title": "All Levels",
+                  "slug": "all-levels",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/097e7376d23903656eaad8d492b4992de9e9d12c-1000x453.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/097e7376d23903656eaad8d492b4992de9e9d12c-1000x453.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7da418f36365e4c727271fb77bf57c734bb20a93-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4df0d78c1e21f7093837959dd2af27d39a87b087-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6fabbd28ca349ce672508b7daf10e81d3e9dc441-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/72993aed643e16f75805510e673bfb3c65d863be-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f1ba787bc753cf9074741a1af5b500a0c4b66f5f-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f1ba787bc753cf9074741a1af5b500a0c4b66f5f-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Workouts",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Adjustable Bench, Dumbbells",
+                        "categories": "Strength, Muscle Building, Athletic Training, Weight Loss",
+                        "colorPrimary": "",
+                        "colorPrimaryOptions": {
+                          "argb": "",
+                          "rgba": ""
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-de640c935ccc1b9af3e30150eca65529a2df66c2-1310x698-png",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/de640c935ccc1b9af3e30150eca65529a2df66c2-1310x698.png"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "6"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Minutes",
+                            "value": "30"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                            },
+                            "title": "All Levels"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "Nm9nCrD0l01HWl4wG6la5D",
+                        "_type": "collection",
+                        "slug": "dig-deeper30",
+                        "title": "DIG DEEPER:30",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Nm9nCrD0l01HWl4wG34gnz",
+                          "Ppf8ja5v5LZEc7A6QPIrCZ",
+                          "Nm9nCrD0l01HWl4wG34b7n",
+                          "Nm9nCrD0l01HWl4wG34aJx",
+                          "Nm9nCrD0l01HWl4wG34ZPT",
+                          "Ppf8ja5v5LZEc7A6QPIrOT"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "Nm9nCrD0l01HWl4wG34ZPT": {
+                    "_id": "Nm9nCrD0l01HWl4wG34ZPT",
+                    "_type": "workout",
+                    "slug": "dd30-shoulders-bis-tris-dd300005",
+                    "brandCode": "DD30",
+                    "primaryParent": {
+                      "_id": "5IBFlvm9qHdIuoGIWZ1wZy",
+                      "_type": "program",
+                      "slug": "dig-deeper30"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=DD30&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "DIG DEEPER:30 Shoulders, Bis, & Tris",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ebdc715d4be9044b0853767b34500e4feffa9bad-730x496.jpg"
+                    },
+                    "descriptionLong": "Build muscle and shape your arms in this targeted workout full of supersets and DIG DEEPER moments that is sure to leave your upper body on fire.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      },
+                      {
+                        "title": "Biceps",
+                        "slug": "biceps"
+                      },
+                      {
+                        "title": "Triceps",
+                        "slug": "triceps"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Adjustable Bench"
+                      },
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "DD300005",
+                      "durationActual": 1828,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Nm9nCrD0l01HWl4wG34aJx": {
+                    "_id": "Nm9nCrD0l01HWl4wG34aJx",
+                    "_type": "workout",
+                    "slug": "dd30-glutes-dd300004",
+                    "brandCode": "DD30",
+                    "primaryParent": {
+                      "_id": "5IBFlvm9qHdIuoGIWZ1wZy",
+                      "_type": "program",
+                      "slug": "dig-deeper30"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=DD30&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "DIG DEEPER:30 Glutes",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5a09155f09879d20fce776b5204105fdab908f1a-730x496.jpg"
+                    },
+                    "descriptionLong": "A 30-minute workout focused solely on your glutes! Get your mind right and make sure you have a good selection of dumbbells, because this workout is going to be a real asset to your exercise routine.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Adjustable Bench"
+                      },
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "DD300004",
+                      "durationActual": 1797,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Nm9nCrD0l01HWl4wG34b7n": {
+                    "_id": "Nm9nCrD0l01HWl4wG34b7n",
+                    "_type": "workout",
+                    "slug": "dd30-chest-and-back-dd300003",
+                    "brandCode": "DD30",
+                    "primaryParent": {
+                      "_id": "5IBFlvm9qHdIuoGIWZ1wZy",
+                      "_type": "program",
+                      "slug": "dig-deeper30"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=DD30&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "DIG DEEPER:30 Chest and Back",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/88def5a8fda7ed442814b8b4428179c950d4961e-730x496.jpg"
+                    },
+                    "descriptionLong": "Burn out your chest and back with supersets and heavy weights in this 30-minute workout that will leave you in a pool of sweat.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Adjustable Bench"
+                      },
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "DD300003",
+                      "durationActual": 1745,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Nm9nCrD0l01HWl4wG34gnz": {
+                    "_id": "Nm9nCrD0l01HWl4wG34gnz",
+                    "_type": "workout",
+                    "slug": "dd30-upper-body-dd300001",
+                    "brandCode": "DD30",
+                    "primaryParent": {
+                      "_id": "5IBFlvm9qHdIuoGIWZ1wZy",
+                      "_type": "program",
+                      "slug": "dig-deeper30"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=DD30&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "DIG DEEPER:30 Upper Body",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6e7592bd3ae1c9e02380613a881f004a743b455b-730x496.jpg"
+                    },
+                    "descriptionLong": "Get ready to sweat in this fast-paced, circuit-style workout targeting every muscle from the waist up.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Adjustable Bench"
+                      },
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "DD300001",
+                      "durationActual": 1906,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Ppf8ja5v5LZEc7A6QPIrCZ": {
+                    "_id": "Ppf8ja5v5LZEc7A6QPIrCZ",
+                    "_type": "workout",
+                    "slug": "dd30-lower-body-dd300002",
+                    "brandCode": "DD30",
+                    "primaryParent": {
+                      "_id": "5IBFlvm9qHdIuoGIWZ1wZy",
+                      "_type": "program",
+                      "slug": "dig-deeper30"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=DD30&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "DIG DEEPER:30 Lower Body",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b48c7d9950dd38f718b9a86bc7b8dd75761c3898-730x496.jpg"
+                    },
+                    "descriptionLong": "Think glutes, legs, and core in this lower-body burn that moves quickly with very little rest.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Glutes",
+                        "slug": "glutes"
+                      },
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Hips",
+                        "slug": "hips"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Adjustable Bench"
+                      },
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "DD300002",
+                      "durationActual": 1833,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Ppf8ja5v5LZEc7A6QPIrOT": {
+                    "_id": "Ppf8ja5v5LZEc7A6QPIrOT",
+                    "_type": "workout",
+                    "slug": "dd30-steady-state-cardio-4-dd300006",
+                    "brandCode": "DD30",
+                    "primaryParent": {
+                      "_id": "5IBFlvm9qHdIuoGIWZ1wZy",
+                      "_type": "program",
+                      "slug": "dig-deeper30"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=ShaunT"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=DD30&locale=en_us&trainerName=ShaunT"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "DIG DEEPER:30 Steady State Cardio 4",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2f2da10f94645fbf47bd44b5ae045533d0b434a9-730x496.jpg"
+                    },
+                    "descriptionLong": "Take a break from your weights and tune in to this low-impact cardio session that will burn calories and leave you sweaty.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "all-levels",
+                        "title": "All Levels",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "shaun-t",
+                        "firstName": "Shaun",
+                        "lastName": "T",
+                        "bio": "Super Trainer Shaun T has helped millions of people get in the best shape of their lives with his transformational fitness programs. He is the mastermind behind BODi megahits such as FOCUS T25, Transform :20, INSANITY, CIZE, and LET\u2019S GET UP! Whether you\u2019re new to fitness or a lifting veteran, his powerful, positive, results-driven classes will help you become stronger, leaner, and more confident. Shaun will push you to work your hardest and show you just how much you\u2019re capable of.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/079783cfb0696f189eaf0864d065ab205313050f-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "DD300006",
+                      "durationActual": 1977,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223466179,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "dig-deeper30",
+              "en-US"
+            ],
+            "queryHash": "[\"dig-deeper30\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/dig-deeper30/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "dig-deeper30",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

@@ -2,6 +2,11 @@ import os
 import argparse
 import openai
 
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+if not OPENAI_API_KEY:
+    raise RuntimeError("Missing OPENAI_API_KEY environment variable.")
+
 def split_text_into_paragraphs(text, word_limit=2900):
     # Split the text into sentences based on the period followed by a space
     sentences = text.split('. ')
@@ -67,9 +72,7 @@ def generate_markdown_from_transcriptions(input_folder):
                     output_folder = os.path.join(root, 'formatted')
                     os.makedirs(output_folder, exist_ok=True)
 
-                    client = openai.OpenAI(
-                        api_key='REMOVED_OPENAI_API_KEY'
-                    )
+                    client = openai.OpenAI(api_key=OPENAI_API_KEY)
 
                     print(f"    Splitting the transcription into chunks.")
                     chunks = split_text_into_paragraphs(transcription)

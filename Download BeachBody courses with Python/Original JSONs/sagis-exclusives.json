@@ -1,0 +1,2705 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "sagis-exclusives",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "NWOt1I2xWP7xm05A7uxis1",
+                "_type": "program",
+                "slug": "sagis-exclusives",
+                "title": "Sagi's Exclusives",
+                "subtitle": null,
+                "brandCode": "YTSK",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=YTSK&locale=en_us&trainerName=SagiKalev"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Sagi's Exclusives Program Overview: Start Your Journey Here",
+                  "description": "Check out some of Sagi\u2019s most unique content with Sagi's Exclusives. See what the program includes, any equipment needed, and meet your trainer here.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7c49e4aaea661219b76e861c539f63b0c7f97b6-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Sagi",
+                    "lastName": "Kalev",
+                    "bioBodi": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4bba24cdff1bb7ef5f795ea637f3a77ec132f050-860x961.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#89c932",
+                "colorPrimaryOptions": {
+                  "argb": "#89c932",
+                  "rgba": "#89c932"
+                },
+                "descriptionShort": "Experience what it\u2019s like to get one-on-one training with Sagi Kalev.",
+                "descriptionLong": "Check out some of Sagi\u2019s most unique content \u2013 from Sagi\u2019s inspirational story, to exclusive workouts for BOD members, and even tips on how to prep for your next (or first) physique competition!",
+                "sampleWorkoutId": null,
+                "trailerId": null,
+                "videoOverviewId": null,
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/sagis-exclusives"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "20-44"
+                },
+                "duration": null,
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "6"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SagiKalev"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells"
+                  },
+                  {
+                    "title": "Olympic Bar"
+                  },
+                  {
+                    "title": "EZ Curl Bar"
+                  },
+                  {
+                    "title": "Cable Crossover"
+                  },
+                  {
+                    "title": "Bench"
+                  },
+                  {
+                    "title": "Power Tower"
+                  },
+                  {
+                    "title": "Preacher Bench"
+                  },
+                  {
+                    "title": "Roman Chair"
+                  },
+                  {
+                    "title": "Weight plates"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Plyo Box"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Muscle Building"
+                  },
+                  {
+                    "title": "Core"
+                  }
+                ],
+                "level": {
+                  "title": "Intermediate",
+                  "slug": "intermediate",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0a0fcf3de9e408911b5b33ffc0c38445e33a7bf0-1595x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0a0fcf3de9e408911b5b33ffc0c38445e33a7bf0-1595x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c5d3ab3633bcccc94db860a687c97ec58ab80ae6-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/25526288261526e799eabc231c67d1bf31275f1c-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8104267c679da10d5e7cee352cf8fcdd62a63cad-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a562311832630c6c7710efa31472ba4f8c09b566-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7c49e4aaea661219b76e861c539f63b0c7f97b6-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7c49e4aaea661219b76e861c539f63b0c7f97b6-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Dumbbells, Olympic Bar, EZ Curl Bar, Cable Crossover, Bench, Power Tower, Preacher Bench, Roman Chair, Weight plates, Plyo Box*",
+                        "categories": "Muscle Building, Core",
+                        "colorPrimary": "#89c932",
+                        "colorPrimaryOptions": {
+                          "argb": "#89c932",
+                          "rgba": "#89c932"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "image-79dd052feacc96c8fd8691483b8ea3551221239f-1310x698-jpg",
+                          "_type": "reference",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/79dd052feacc96c8fd8691483b8ea3551221239f-1310x698.jpg"
+                          }
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "6"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "20-44"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                            },
+                            "title": "Intermediate"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPdP32",
+                        "_type": "editorial",
+                        "slug": "sagis-exclusives-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "Beachbody\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.teambeachbody.com/micro-site/nutrition-plus/index.html#/en"
+                        }
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFXnqO",
+                        "_type": "collection",
+                        "slug": "sagis-exclusives-related-content",
+                        "title": "Sagi's Exclusives Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "vKPPpbqN0JH0WMoJVD7caU",
+                          "2Y1ZDDXEx3aLPbgAHe2MnJ",
+                          "2Y1ZDDXEx3aLPbgAHe2MvR"
+                        ]
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Sagi",
+                            "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4bba24cdff1bb7ef5f795ea637f3a77ec132f050-860x961.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/mrisreal12",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.Instagram.com/sagithebeast",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.twitter.com/sagikalev",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9509d0d1d5ba922e249eb482fe1758bb6ffb12f1-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.youtube.com/user/mrisrael12",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f06acc8786ecf26616838c26162235cfcce4108-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0CRl",
+                        "_type": "collection",
+                        "slug": "sagis-exclusives-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZDcDzH",
+                          "BoGK5VlBLllbPFYTvMobq4",
+                          "Q6j5eG7tj3PSUghmZEm7pz",
+                          "Q6j5eG7tj3PSUghmZEyJWp"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPdOZE",
+                        "_type": "collection",
+                        "slug": "equipment-room",
+                        "title": "Equipment Room",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPdLmi",
+                          "Q6j5eG7tj3PSUghmZHga5b",
+                          "NWOt1I2xWP7xm05A7uxfp6",
+                          "Q6j5eG7tj3PSUghmZHgarP",
+                          "Q6j5eG7tj3PSUghmZHgcgd",
+                          "BoGK5VlBLllbPFYTvPdMaO"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPdOfY",
+                        "_type": "collection",
+                        "slug": "sagis-exclusives-sagis-exclusives",
+                        "title": "Sagi's Exclusives",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7uxgTH"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0CRl",
+                        "_type": "collection",
+                        "slug": "sagis-exclusives-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZDcDzH",
+                          "BoGK5VlBLllbPFYTvMobq4",
+                          "Q6j5eG7tj3PSUghmZEm7pz",
+                          "Q6j5eG7tj3PSUghmZEyJWp"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Videos",
+                    "slug": "videos",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPdOng",
+                        "_type": "collection",
+                        "slug": "making-of-a-beast",
+                        "title": "Sagi\u2019s Story \u2013 Making of a Beast",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Tll0zet2a2PTsXq0BeUqLX",
+                          "STf6JLOAKHfcDUeIJboB0t",
+                          "STf6JLOAKHfcDUeIJbo7Vf",
+                          "pdLIlJQOiKnrZCmES5kjNO",
+                          "Tll0zet2a2PTsXq0BeUrL5",
+                          "STf6JLOAKHfcDUeIJboBmd"
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvPdOwi",
+                        "_type": "collection",
+                        "slug": "competition-prep-tips",
+                        "title": "Competition Prep Tips",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Tll0zet2a2PTsXq0BeUt9v",
+                          "Tll0zet2a2PTsXq0BeUjYx",
+                          "pdLIlJQOiKnrZCmES5khXz",
+                          "pdLIlJQOiKnrZCmES5kgWp",
+                          "Tll0zet2a2PTsXq0BeUkdd"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHe0CRl",
+                        "_type": "collection",
+                        "slug": "sagis-exclusives-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZDcDzH",
+                          "BoGK5VlBLllbPFYTvMobq4",
+                          "Q6j5eG7tj3PSUghmZEm7pz",
+                          "Q6j5eG7tj3PSUghmZEyJWp"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe2MnJ": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2MnJ",
+                    "_type": "linkItem",
+                    "slug": "ask-sagi-what-should-you-do-if-you-want-abs",
+                    "title": "#Ask Sagi: What Should You Do If You Want Abs?",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df2cae187c5d61a48d5f2c126ba6e1bb62601b8c-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/nutrition/asksagi-want-abs",
+                    "isFavoritable": false
+                  },
+                  "2Y1ZDDXEx3aLPbgAHe2MvR": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe2MvR",
+                    "_type": "linkItem",
+                    "slug": "body-beast-results-from-dad-bod-to-rad-bod",
+                    "title": "Body Beast Results: From Dad Bod to Rad Bod",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f8d97c2b60a89035bd7a053b636348c61275ab3b-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/body-beast-resultsthis-busy-dad-lost-27-pounds-in-90-days",
+                    "isFavoritable": false
+                  },
+                  "BoGK5VlBLllbPFYTvMobq4": {
+                    "_id": "BoGK5VlBLllbPFYTvMobq4",
+                    "_type": "program",
+                    "slug": "liift4",
+                    "brandCode": "LI4",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2018-10-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=LI4&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "LIIFT4",
+                    "description": "Build muscle and burn calories with classic weightlifting and HIIT cardio.",
+                    "descriptionShort": "Build muscle and burn calories with classic weightlifting and HIIT cardio.",
+                    "descriptionLong": "LIIFT4 combines heavy lifting and intense cardio to transform your body in 4 days a week. And with 32 unique, real-time workouts, you\u2019ll never get bored, because you\u2019ll never do the same one twice.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6839ebc04429cad29035c4e2c54a32a512bfafaf-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eae851f7ba667c0daa8a7d69a5dc30d04dcfea0-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eae851f7ba667c0daa8a7d69a5dc30d04dcfea0-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6839ebc04429cad29035c4e2c54a32a512bfafaf-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6839ebc04429cad29035c4e2c54a32a512bfafaf-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c73160934ede5b1319a78f62e52b98561ad5f57e-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/389709811a2b3e7ded8d9dac3a02c9bcdccefa95-1329x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-40"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "60"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "32"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "HIIT",
+                        "slug": "hiit"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Resistance Bands"
+                      },
+                      {
+                        "title": "Foam Roller"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPdLmi": {
+                    "_id": "BoGK5VlBLllbPFYTvPdLmi",
+                    "_type": "workout",
+                    "slug": "back-shoulders-ytsk0001b01",
+                    "brandCode": "YTSK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SagiKalev"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTSK&locale=en_us&trainerName=SagiKalev"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Back & Shoulders",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bdff22f1d80cf738d1419d4903b7f727c40329f4-398x224.jpg"
+                    },
+                    "descriptionLong": "A comprehensive back and shoulder workout to help strengthen, define and build muscle.",
+                    "durationEstimate": 2520,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Back",
+                        "slug": "back"
+                      },
+                      {
+                        "title": "Shoulders",
+                        "slug": "shoulders"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Olympic Bar"
+                      },
+                      {
+                        "title": "Cable Crossover"
+                      },
+                      {
+                        "title": "Bench"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0001B01",
+                      "durationActual": 2515,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPdMaO": {
+                    "_id": "BoGK5VlBLllbPFYTvPdMaO",
+                    "_type": "workout",
+                    "slug": "bis-tris-ytsk0006b06",
+                    "brandCode": "YTSK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SagiKalev"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTSK&locale=en_us&trainerName=SagiKalev"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Bis & Tris",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/71d288f21ae1054aa0542bd9c839e5dbb6b14977-398x224.jpg"
+                    },
+                    "descriptionLong": "A focused biceps & triceps workout that uses various equipment and sequences to get your arms seriously pumped.",
+                    "durationEstimate": 1680,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Olympic Bar"
+                      },
+                      {
+                        "title": "EZ Curl Bar"
+                      },
+                      {
+                        "title": "Preacher Bench"
+                      },
+                      {
+                        "title": "Roman Chair"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0006B06",
+                      "durationActual": 1693,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uxfp6": {
+                    "_id": "NWOt1I2xWP7xm05A7uxfp6",
+                    "_type": "workout",
+                    "slug": "chest-tris-ytsk0003b03",
+                    "brandCode": "YTSK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SagiKalev"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTSK&locale=en_us&trainerName=SagiKalev"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Chest & Tris",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/51a553ee71e5dc32dcdb0380d8261d2e055965ff-398x224.jpg"
+                    },
+                    "descriptionLong": "A focused chest & triceps workout using various equipment and innovative body sculpting techniques.",
+                    "durationEstimate": 2640,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      },
+                      {
+                        "title": "Chest",
+                        "slug": "chest"
+                      },
+                      {
+                        "title": "Arms",
+                        "slug": "arms"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Cable Crossover"
+                      },
+                      {
+                        "title": "EZ Curl Bar"
+                      },
+                      {
+                        "title": "Bench"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0003B03",
+                      "durationActual": 2677,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uxgTH": {
+                    "_id": "NWOt1I2xWP7xm05A7uxgTH",
+                    "_type": "workout",
+                    "slug": "sagis-exclusives-sagi-kalevs-total-body-beast-summit-workout-ytsk0019b21",
+                    "brandCode": "YTSK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SagiKalev"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTSK&locale=en_us&trainerName=SagiKalev"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Sagi Kalev's Total Body Beast Summit Workout",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2ca8ea67321270a6342b0255dfd1e08c55f8215a-730x496.jpg"
+                    },
+                    "descriptionLong": "The Beast is back with a full body strength training workout. Sagi's muscle building calorie crushing workout will having you feeling the burn with every rep.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "intermediate",
+                        "title": "Intermediate",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells, moderate & heavy"
+                      },
+                      {
+                        "title": "Bench"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0019B21",
+                      "durationActual": 2034,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZDcDzH": {
+                    "_id": "Q6j5eG7tj3PSUghmZDcDzH",
+                    "_type": "program",
+                    "slug": "body-beast",
+                    "brandCode": "BE",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2012-06-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BE&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "Body Beast",
+                    "description": "Want to turn some heads? Body Beast gets you sexy, shredded, contoured muscles.",
+                    "descriptionShort": "Want to turn some heads? Body Beast gets you sexy, shredded, contoured muscles.",
+                    "descriptionLong": "Body Beast has cracked the code for how to get the lean, chiseled physique you want. It\u2019s the pro\u2019s program to burn fat, carve lean defined muscle, and transform your body for jaw-dropping results.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/02e169bb34f009978bb844ae26090b8d228e6132-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/57c17cd717ab8bc373ff849679a390724a8e043a-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/57c17cd717ab8bc373ff849679a390724a8e043a-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/02e169bb34f009978bb844ae26090b8d228e6132-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/02e169bb34f009978bb844ae26090b8d228e6132-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a7851cbba0e6e2f8b7ce2e9abd96971cf5cbdf8b-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/294b5246fc1ab20a4aea9d2bb272852a74f691f2-965x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "11-53"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "90"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "19"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Bench or Stability Ball"
+                      },
+                      {
+                        "title": "Chin-Up Bar or Bands with Door Attachment"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Chin-Up Max"
+                      },
+                      {
+                        "title": "EZ Curl Bar"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZEm7pz": {
+                    "_id": "Q6j5eG7tj3PSUghmZEm7pz",
+                    "_type": "program",
+                    "slug": "the-masters-hammer-and-chisel",
+                    "brandCode": "MHC",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2015-12-03",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=MHC&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "The Master's Hammer and Chisel",
+                    "description": "This is it\u2014your absolute best way to build an incredible body in just 60 days.",
+                    "descriptionShort": "This is it\u2014your absolute best way to build an incredible body in just 60 days.",
+                    "descriptionLong": "Sagi and Autumn have now teamed up to develop the best, most efficient method of transforming your body into an absolute masterpiece. You\u2019ll build your ultimate physique in just 30-40 minutes a day.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5f5ee4603720632f430f2c3921dee3052b05e865-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7053953a98f1dda179c6b59144d464402d1ae199-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7053953a98f1dda179c6b59144d464402d1ae199-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5f5ee4603720632f430f2c3921dee3052b05e865-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5f5ee4603720632f430f2c3921dee3052b05e865-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cbbd91ab16276b870ea56065ef53dada07a74530-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f608106b0873d74f3d1c6d9450fb1b3f205a1f8-426x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-45"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "60"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "19"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands or Towel"
+                      },
+                      {
+                        "title": "Bench or Stability Ball"
+                      },
+                      {
+                        "title": "Chin-Up Bar or Bands with Door Attachment"
+                      },
+                      {
+                        "title": "Medicine Ball"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Chin-Up Max"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZEyJWp": {
+                    "_id": "Q6j5eG7tj3PSUghmZEyJWp",
+                    "_type": "program",
+                    "slug": "p90x",
+                    "brandCode": "P90X",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2004-02-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=P90X&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "P90X",
+                    "description": "P90X\u00ae is the groundbreaking workout that\u2019s already changed millions of lives.",
+                    "descriptionShort": "P90X\u00ae is the groundbreaking workout that\u2019s already changed millions of lives.",
+                    "descriptionLong": "Created by Tony Horton, this 90-day home fitness program has 12 intense workouts that use resistance and body-weight training. You\u2019ll get in the best shape of your life\u2014and be shocked by the results.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4df67268975dc1122d6489d886cfe00a8370e0b1-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/760cda36f9646e541bd6c4c0f942ccc6790bcf77-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/760cda36f9646e541bd6c4c0f942ccc6790bcf77-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4df67268975dc1122d6489d886cfe00a8370e0b1-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4df67268975dc1122d6489d886cfe00a8370e0b1-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a5623ee1836fa772634dfa2a60525a48fa86907c-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3864a68fd8f2dca8103548958871cbc56ac6c231-2227x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "45-60"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "90"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "22"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Bodyweight Training",
+                        "slug": "bodyweight-training"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Resistance Bands"
+                      },
+                      {
+                        "title": "Chin-Up Bar or Bands with Door Attachment"
+                      },
+                      {
+                        "title": "Sturdy Chair"
+                      },
+                      {
+                        "title": "Push-Up Stands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Chin-Up Max"
+                      },
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHga5b": {
+                    "_id": "Q6j5eG7tj3PSUghmZHga5b",
+                    "_type": "workout",
+                    "slug": "legs-ytsk0002b02",
+                    "brandCode": "YTSK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SagiKalev"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTSK&locale=en_us&trainerName=SagiKalev"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Legs",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9eede00b2c64f61992a2ecaf60ce9c4966bf842c-398x224.jpg"
+                    },
+                    "descriptionLong": "Create shredded glutes, quads, hamstrings and calves with this powerful resistance workout.",
+                    "durationEstimate": 1920,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      },
+                      {
+                        "title": "Legs",
+                        "slug": "legs"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Cable Crossover"
+                      },
+                      {
+                        "title": "Olympic Bar"
+                      },
+                      {
+                        "title": "EZ Curl Bar"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Plyo Box"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0002B02",
+                      "durationActual": 1982,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHgarP": {
+                    "_id": "Q6j5eG7tj3PSUghmZHgarP",
+                    "_type": "workout",
+                    "slug": "core-ytsk0004b04",
+                    "brandCode": "YTSK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SagiKalev"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTSK&locale=en_us&trainerName=SagiKalev"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Core",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/19bee2ce3fbce44875d1012007f752d4ce6d6f60-398x224.jpg"
+                    },
+                    "descriptionLong": "A three pronged core attack using two pieces of equipment and the floor.",
+                    "durationEstimate": 1380,
+                    "focusAreas": [
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Power Tower"
+                      },
+                      {
+                        "title": "Roman Chair"
+                      },
+                      {
+                        "title": "Weight plates"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0004B04",
+                      "durationActual": 1392,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHgcgd": {
+                    "_id": "Q6j5eG7tj3PSUghmZHgcgd",
+                    "_type": "workout",
+                    "slug": "depletion-ytsk0005b05",
+                    "brandCode": "YTSK",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=SagiKalev"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=YTSK&locale=en_us&trainerName=SagiKalev"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Depletion",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a435a703ff921ccefdc30f4e5a8924762dc17e4e-398x224.jpg"
+                    },
+                    "descriptionLong": "A competition insider full body equipment based workout designed to deplete your body of glycogen and get you ripped for competition day",
+                    "durationEstimate": 1200,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "advanced",
+                        "title": "Advanced",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Olympic Bar"
+                      },
+                      {
+                        "title": "EZ Curl Bar"
+                      },
+                      {
+                        "title": "Bench"
+                      },
+                      {
+                        "title": "Preacher Bench"
+                      },
+                      {
+                        "title": "Roman Chair"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0005B05",
+                      "durationActual": 1251,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "STf6JLOAKHfcDUeIJbo7Vf": {
+                    "_id": "STf6JLOAKHfcDUeIJbo7Vf",
+                    "_type": "promo",
+                    "slug": "i-got-shot-ytsk0009b09",
+                    "brandCode": "YTSK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "durationEstimate": 420,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9ce8078fdeea9865173e8ef42e2aa99113280dbb-398x224.jpg"
+                    },
+                    "title": "I Got Shot",
+                    "descriptionLong": "Sagi's experience in the Israeli military.",
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0009B09",
+                      "durationActual": 407,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "STf6JLOAKHfcDUeIJboB0t": {
+                    "_id": "STf6JLOAKHfcDUeIJboB0t",
+                    "_type": "promo",
+                    "slug": "its-time-for-you-to-grow-up-ytsk0008b08",
+                    "brandCode": "YTSK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "durationEstimate": 300,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f381475b7e9aa812f98d34bc2f83789e7d03503a-398x224.jpg"
+                    },
+                    "title": "It's Time for You to Grow Up",
+                    "descriptionLong": "Sagi's encounters the gym and body building.",
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0008B08",
+                      "durationActual": 288,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "STf6JLOAKHfcDUeIJboBmd": {
+                    "_id": "STf6JLOAKHfcDUeIJboBmd",
+                    "_type": "promo",
+                    "slug": "just-be-you-ytsk0012b12",
+                    "brandCode": "YTSK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "durationEstimate": 300,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0006968e65c79ff6a5a086f92efd9e7e2fbb8176-398x224.jpg"
+                    },
+                    "title": "Just Be You",
+                    "descriptionLong": "Sagi finds his calling.",
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0012B12",
+                      "durationActual": 318,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Tll0zet2a2PTsXq0BeUjYx": {
+                    "_id": "Tll0zet2a2PTsXq0BeUjYx",
+                    "_type": "promo",
+                    "slug": "top-10-competition-prep-tips-ytsk0015b15",
+                    "brandCode": "YTSK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "durationEstimate": 240,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b2d36d9431d8e083e59ab0615925a7d24d2090d6-398x224.jpg"
+                    },
+                    "title": "Top 10 Competition Prep Tips",
+                    "descriptionLong": "Sagi tells you what you need to do to be a champion",
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0015B15",
+                      "durationActual": 212,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Tll0zet2a2PTsXq0BeUkdd": {
+                    "_id": "Tll0zet2a2PTsXq0BeUkdd",
+                    "_type": "promo",
+                    "slug": "competition-prep-mindset-tips-ytsk0018b18",
+                    "brandCode": "YTSK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f219a3e6c690c473b8e5c35ad60b89ff1f8a5ec1-398x224.jpg"
+                    },
+                    "title": "Competition Prep Mindset Tips",
+                    "descriptionLong": "Sagi tells you how to get your mind right for a competition",
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0018B18",
+                      "durationActual": 93,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Tll0zet2a2PTsXq0BeUqLX": {
+                    "_id": "Tll0zet2a2PTsXq0BeUqLX",
+                    "_type": "promo",
+                    "slug": "rocks-in-your-pocket-ytsk0007b07",
+                    "brandCode": "YTSK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "durationEstimate": 240,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/80116289ea4003fe9213ac4d84687df018addaed-398x224.jpg"
+                    },
+                    "title": "Rocks in Your Pocket",
+                    "descriptionLong": "Sagi's early childhood.",
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0007B07",
+                      "durationActual": 267,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Tll0zet2a2PTsXq0BeUrL5": {
+                    "_id": "Tll0zet2a2PTsXq0BeUrL5",
+                    "_type": "promo",
+                    "slug": "three-week-pass-ytsk0011b11",
+                    "brandCode": "YTSK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "durationEstimate": 240,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/631877961d60d9e929bfd6c1d3f8b74a07bb8da9-398x224.jpg"
+                    },
+                    "title": "Three Week Pass",
+                    "descriptionLong": "Sagi is given a chance to better his situation.",
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0011B11",
+                      "durationActual": 267,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Tll0zet2a2PTsXq0BeUt9v": {
+                    "_id": "Tll0zet2a2PTsXq0BeUt9v",
+                    "_type": "promo",
+                    "slug": "27553-ytsk0019b19",
+                    "brandCode": "YTSK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "durationEstimate": 600,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/750b95190f8f0077e8189cc9b0e683bf930e91e9-398x224.jpg"
+                    },
+                    "title": "On-Stage Presentation Tips",
+                    "descriptionLong": "Sagi reviews past competitors in the Beachbody Classic and gives live examples from how to pose to what to wear and how to wear it",
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0019B19",
+                      "durationActual": 536,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "pdLIlJQOiKnrZCmES5kgWp": {
+                    "_id": "pdLIlJQOiKnrZCmES5kgWp",
+                    "_type": "promo",
+                    "slug": "competition-prep-tips-for-men-ytsk0017b17",
+                    "brandCode": "YTSK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/422f11851693d6c6b27896e339a8203385738cf1-398x224.jpg"
+                    },
+                    "title": "Competition Prep Tips for Men",
+                    "descriptionLong": "Tips specifically for the guys",
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0017B17",
+                      "durationActual": 137,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "pdLIlJQOiKnrZCmES5khXz": {
+                    "_id": "pdLIlJQOiKnrZCmES5khXz",
+                    "_type": "promo",
+                    "slug": "competition-prep-tips-for-ladies-ytsk0016b16",
+                    "brandCode": "YTSK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d6597fac8b563cbf103424ff30c8f42ea30913b3-398x224.jpg"
+                    },
+                    "title": "Competition Prep Tips for Ladies",
+                    "descriptionLong": "Tips specifically for the ladies",
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0016B16",
+                      "durationActual": 115,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "pdLIlJQOiKnrZCmES5kjNO": {
+                    "_id": "pdLIlJQOiKnrZCmES5kjNO",
+                    "_type": "promo",
+                    "slug": "2-38-ytsk0010b10",
+                    "brandCode": "YTSK",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uxis1",
+                      "_type": "program",
+                      "slug": "sagis-exclusives"
+                    },
+                    "durationEstimate": 300,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f6a6da1340c01d8fa224fd2ed50b8fd2c3b2c087-398x224.jpg"
+                    },
+                    "title": "$2.38",
+                    "descriptionLong": "Sagi's lowest point.",
+                    "trainers": [
+                      {
+                        "slug": "sagi-kalev",
+                        "firstName": "Sagi",
+                        "lastName": "Kalev",
+                        "bio": "Two-time Mr. Israel is more than a big, buff guy. He\u2019s an expert on how the human body operates. He\u2019s appeared in thousands of bodybuilding magazines and had been on the cover of Muscle & Fitness an amazing 11 times. He\u2019s a Master Professional Personal Trainer and an IFBB Propta Hall of Famer.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54ee07809f4a4c33348f4c333545f63e58363773-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "YTSK0010B10",
+                      "durationActual": 300,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "vKPPpbqN0JH0WMoJVD7caU": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7caU",
+                    "_type": "linkItem",
+                    "slug": "the-making-of-a-beast-the-story-of-sagi-kalev",
+                    "title": "The Making of a Beast: The Story of Sagi Kalev",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/805f5271733ec89ab58355ae34d869c1f708843a-770x385.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/fitness/the-making-of-a-beast-sagi-kalev",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223308628,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "sagis-exclusives",
+              "en-US"
+            ],
+            "queryHash": "[\"sagis-exclusives\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/sagis-exclusives/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "sagis-exclusives",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

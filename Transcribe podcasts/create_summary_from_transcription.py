@@ -1,6 +1,12 @@
 import os
 import argparse
 import openai
+import tiktoken
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+if not OPENAI_API_KEY:
+    raise RuntimeError("Missing OPENAI_API_KEY environment variable.")
 
 def split_text_into_paragraphs(text, word_limit=2900):
     # Split the text into sentences based on the period followed by a space
@@ -30,16 +36,50 @@ def split_text_into_paragraphs(text, word_limit=2900):
 def load_summarized_files(input_folder):
     transcriptions_folder = os.path.join(input_folder, 'transcriptions')
     formatted_file_path = os.path.join(transcriptions_folder, 'already_summarized.txt')
-    if os.path.exists(formatted_file_path):
-        with open(formatted_file_path, 'r') as f:
-            return set(f.read().splitlines())
-    return set()
+    
+    # Ensure the directory exists
+    os.makedirs(transcriptions_folder, exist_ok=True)
+    
+    # Create the file if it doesn't exist
+    if not os.path.exists(formatted_file_path):
+        with open(formatted_file_path, 'w') as f:
+            pass
+    
+    with open(formatted_file_path, 'r') as f:
+        return set(f.read().splitlines())
 
 def save_summarized_file(input_folder, filename):
     transcriptions_folder = os.path.join(input_folder, 'transcriptions')
     formatted_file_path = os.path.join(transcriptions_folder, 'already_summarized.txt')
+    
+    # Ensure the directory exists
+    os.makedirs(transcriptions_folder, exist_ok=True)
+    
     with open(formatted_file_path, 'a') as f:
         f.write(filename + '\n')
+
+def calculate_costs(request, response):
+    tokenizer = tiktoken.encoding_for_model("gpt-4o")
+    
+    request_tokens = tokenizer.encode(request)
+    response_tokens = tokenizer.encode(response)
+    
+    input_tokens = len(request_tokens)
+    output_tokens = len(response_tokens)
+    
+    cost_per_1M_input_tokens = 5.00  # $5.00 per 1M input tokens
+    cost_per_1M_output_tokens = 15.00  # $15.00 per 1M output tokens
+    
+    input_cost = (input_tokens / 10**6) * cost_per_1M_input_tokens
+    output_cost = (output_tokens / 10**6) * cost_per_1M_output_tokens
+    total_cost = input_cost + output_cost
+    
+    print(f"        Input tokens: {input_tokens}")
+    print(f"        Output tokens: {output_tokens}")
+    print(f"        Total tokens: {input_tokens + output_tokens}")
+    print(f"        Cost: ${total_cost:.5f}")
+    
+    return total_cost
 
 def generate_markdown_from_transcriptions(input_folder):
     formatted_files = load_summarized_files(input_folder)
@@ -67,9 +107,7 @@ def generate_markdown_from_transcriptions(input_folder):
                     output_folder = os.path.join(root, 'summaries')
                     os.makedirs(output_folder, exist_ok=True)
 
-                    client = openai.OpenAI(
-                        api_key='REMOVED_OPENAI_API_KEY'
-                    )
+                    client = openai.OpenAI(api_key=OPENAI_API_KEY)
 
                     print(f"    Splitting the transcription into chunks.")
                     chunks = split_text_into_paragraphs(transcription)
@@ -79,6 +117,8 @@ def generate_markdown_from_transcriptions(input_folder):
                         "role": "system",
                         "content": "You are a helpful assistant that precisely follows the instructions. Your job is to create exceptional summaries from the content you are provided. You do not introduce your own opinions."
                     }
+
+                    total_cost = 0
 
                     for i, chunk in enumerate(chunks):
                         print(f"    Processing chunk {i + 1} of {len(chunks)} using OpenAI API.")
@@ -101,6 +141,9 @@ def generate_markdown_from_transcriptions(input_folder):
                         chunk_summary = completion.choices[0].message.content
                         summaries.append(chunk_summary)
 
+                        # Calculate and accumulate costs
+                        total_cost += calculate_costs(user_message['content'], chunk_summary)
+
                     print(f"    Creating the final summary from chunk summaries.")
                     final_summary_message = {
                         "role": "user",
@@ -120,10 +163,13 @@ def generate_markdown_from_transcriptions(input_folder):
 
                     #print(str(final_completion) + "\n\n")
                         
-                    if completion.choices[0].finish_reason == 'length':
+                    if final_completion.choices[0].finish_reason == 'length':
                         raise RuntimeError(f"Completion for final combined summary was cut off due to length.")
 
                     final_summary = final_completion.choices[0].message.content
+
+                    # Calculate and accumulate costs for the final summary
+                    total_cost += calculate_costs(final_summary_message['content'], final_summary)
 
                     # Remove the first line if it starts with "```markdown"
                     if final_summary.startswith("```markdown"):
@@ -139,6 +185,7 @@ def generate_markdown_from_transcriptions(input_folder):
                         f.write(final_summary)
 
                     print(f"    Summary file created at: {md_output_path}\n")
+                    print(f"    Total cost for processing {file_path}: ${total_cost:.5f}\n")
 
                     save_summarized_file(input_folder, filename)
 

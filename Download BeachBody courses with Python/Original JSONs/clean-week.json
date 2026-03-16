@@ -1,0 +1,3928 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "clean-week",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                "_type": "program",
+                "slug": "clean-week",
+                "title": "Clean Week",
+                "subtitle": null,
+                "brandCode": "CW",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "BoGK5VlBLllbPFYTvMiFGC",
+                    "slug": "freeuser",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                    "slug": "po-freeuser",
+                    "title": "REGISTERED USER",
+                    "subtitle": null,
+                    "purchaseAction": {
+                      "title": null,
+                      "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                    },
+                    "purchasePath": "none"
+                  }
+                ],
+                "seo": {
+                  "title": "Clean Week Program Overview: Start Your Journey Here",
+                  "description": "Change your lifestyle and get results with Clean Week. See what the program includes, any equipment needed, and meet your trainer here.",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/01e7fb3fb027f45f212c7c6ad0d381d5d742b930-1125x750.jpg"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Megan",
+                    "lastName": "Davies",
+                    "bioBodi": "Megan Davies is an NSCA certified personal trainer and creator of #mbf\u00ae Muscle Burns Fat\u00ae and #mbfa\u00ae Muscle Burns Fat Advanced\u00ae on Beachbody On Demand. Known for her straightforward workout style and upbeat personality, Megan knows what it takes to get you in the best shape of your life. Take one of her live BODi classes today!",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5542b4d6becb05358f18454bb2281d4cb59ee979-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#fc4dca",
+                "colorPrimaryOptions": {
+                  "argb": "#fc4dca",
+                  "rgba": "#fc4dca"
+                },
+                "descriptionShort": "Clean Week helps you create healthy nutrition and fitness habits in just 7 days.",
+                "descriptionLong": "Clean Week\u2122 is a seven-day fitness and nutrition program designed to help you kick-start healthy habits that get real results and can lead to a lifestyle change that sticks!",
+                "sampleWorkoutId": "jyITl2R0P6PN5zEcITjhrT",
+                "trailerId": "jyITl2R0P6PN5zEcITjhrT",
+                "videoOverviewId": "jyITl2R0P6PN5zEcITjhrT",
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/clean-week"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "30"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Week",
+                  "value": "1"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Workouts",
+                  "value": "7"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                  },
+                  "purchasePaths": "none",
+                  "referralId": null
+                },
+                "equipmentRequired": [
+                  {
+                    "title": "Dumbbells"
+                  }
+                ],
+                "equipmentRecommended": [
+                  {
+                    "title": "Push-Up Stands"
+                  },
+                  {
+                    "title": "Core Comfort Mat"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Cardio"
+                  },
+                  {
+                    "title": "Low Impact"
+                  },
+                  {
+                    "title": "Strength"
+                  },
+                  {
+                    "title": "Recovery"
+                  },
+                  {
+                    "title": "Bodyweight Training"
+                  },
+                  {
+                    "title": "Core"
+                  }
+                ],
+                "level": {
+                  "title": "Beginner",
+                  "slug": "beginner",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "dark",
+                  "gradientOpacity": 50,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/311b8c85e918b953fe6d36f912ffd1a2d3e69b28-879x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/311b8c85e918b953fe6d36f912ffd1a2d3e69b28-879x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/06a00385188734c26b02d7920f460819cceceb67.mp4"
+                  },
+                  "loopingVideoPortrait": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/4c9de4ba6363c383502dd1c1da933fabeea2c7c5.mp4"
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3e7bcceef246715c1943cec6f530158d434c82ca-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c1371a012ccd67aae1c3d1e58645bda90284f071-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9a2b19f686236124c668b2099f2b86d4bc5485f1-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f28850051a3f345784c9432ca772af926cdcd94b-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/01e7fb3fb027f45f212c7c6ad0d381d5d742b930-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/01e7fb3fb027f45f212c7c6ad0d381d5d742b930-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Dumbbells, Push-Up Stands*, Core Comfort Mat*",
+                        "categories": "Cardio, Low Impact, Strength, Recovery, Bodyweight Training, Core",
+                        "colorPrimary": "#fc4dca",
+                        "colorPrimaryOptions": {
+                          "argb": "#fc4dca",
+                          "rgba": "#fc4dca"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "jyITl2R0P6PN5zEcITjhrT",
+                          "_type": "promo",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eeaeccb26498def65cd2e5ba837c8028a84e0dda-1310x698.jpg"
+                          },
+                          "videoId": "AD1247POST96",
+                          "title": "Introducing Clean Week",
+                          "subtitle": "1m",
+                          "catalog": "bod"
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Workouts",
+                            "value": "7"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "30"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                            },
+                            "title": "Beginner"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZFeUOZ",
+                        "_type": "collection",
+                        "slug": "clean-week-getting-started",
+                        "title": "Getting Started",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7uEwAu"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZFebIJ",
+                        "_type": "collection",
+                        "slug": "clean-week-featured-guides",
+                        "title": "Featured Guides",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZFdjt5"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZFeWs3",
+                        "_type": "editorial",
+                        "slug": "clean-week-is-clean-week-right-for-me",
+                        "title": "Is Clean Week Right for Me?",
+                        "subtitle": null,
+                        "content": "Clean Week is designed to help you kick-start healthy habits that get real results and can lead to a lifestyle change that sticks! You get 4 workouts, a step-by-step meal planner, and a week\u2019s supply of delicious Shakeology\u00ae. Start living the healthy new lifestyle you want in just 7 days \u2013 With Clean Week.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/788f87ad7acf80bd15d2dc5254dbe573de9b4a2f-1600x1600.jpg"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvOtwN6",
+                        "_type": "editorial",
+                        "slug": "clean-week-what-are-the-workouts-like",
+                        "title": "What Are the Workouts Like?",
+                        "subtitle": null,
+                        "content": "The 30-minute workouts focus on the foundations of fitness \u2013 Cardio, Strength, Core Function, and Flexibility \u2013 to create a well-rounded fitness program for any level.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d6590db0aa500320d45c3b055fac388b51ba9901-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "View Workouts",
+                          "url": "https://www.beachbodyondemand.com/programs/clean-week/workouts"
+                        }
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7uFKRQ",
+                        "_type": "editorial",
+                        "slug": "clean-week-shakeology-the-nutrition-your-bodys-been-missing",
+                        "title": "Shakeology: the nutrition your body\u2019s been missing",
+                        "subtitle": null,
+                        "content": "This daily superfood shake is the easiest and most delicious way to get a dose of dense nutrition and healthy energy. Clinically shown to help curb cravings and reduce hunger, Shakeology is the powerful superfood shake with as many as 60+ ingredients, plus a potent blend of proteins, pre- and probiotics, fiber, adaptogens, and antioxidants. No matter what your fitness and diet goals, Shakeology is the solid nutritional foundation to help you get there and stay there.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6c79e45f5b3164e8e50b0d76749c33881b4090ad-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Learn More",
+                          "url": "https://www.teambeachbody.com/shop/us/shakeology"
+                        }
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvOtwka",
+                        "_type": "editorial",
+                        "slug": "clean-week-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "BODi\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.teambeachbody.com/micro-site/nutrition-plus/index.html#/en"
+                        }
+                      },
+                      {
+                        "_id": "vKPPpbqN0JH0WMoJVD990M",
+                        "_type": "collection",
+                        "slug": "clean-week-related-content",
+                        "title": "Clean Week Related Content",
+                        "entityType": null,
+                        "collectionType": "relatedContent",
+                        "entityIds": [
+                          "vKPPpbqN0JH0WMoJVD7J86",
+                          "UqWqrADNH9eso22jUFVXrd",
+                          "vKPPpbqN0JH0WMoJVD7JIU",
+                          "2Y1ZDDXEx3aLPbgAHe1rPl",
+                          "vKPPpbqN0JH0WMoJVD7IzC",
+                          "vKPPpbqN0JH0WMoJVD7J3e"
+                        ]
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Megan",
+                            "bio": "Megan Davies is an NSCA certified personal trainer and creator of #mbf\u00ae Muscle Burns Fat\u00ae and #mbfa\u00ae Muscle Burns Fat Advanced\u00ae on Beachbody On Demand. Known for her straightforward workout style and upbeat personality, Megan knows what it takes to get you in the best shape of your life. Take one of her live BODi classes today!",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5542b4d6becb05358f18454bb2281d4cb59ee979-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/coachmegatron",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.Instagram.com/megandaviesfitness",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdxzWL",
+                        "_type": "collection",
+                        "slug": "clean-week-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "TLO8WWQ85YuM6DeBHIhYl9",
+                          "BoGK5VlBLllbPFYTvMobq4",
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "BoGK5VlBLllbPFYTvNVtQO",
+                          "Q6j5eG7tj3PSUghmZBmn7f",
+                          "BoGK5VlBLllbPFYTvPKzQe"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Workouts",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvOtulk",
+                        "_type": "collection",
+                        "slug": "clean-week",
+                        "title": "Clean Week",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvOtUy8",
+                          "BoGK5VlBLllbPFYTvOtVbs",
+                          "BoGK5VlBLllbPFYTvOtXFw",
+                          "BoGK5VlBLllbPFYTvOtYBk",
+                          "Q6j5eG7tj3PSUghmZFdaat",
+                          "BoGK5VlBLllbPFYTvOtbhQ",
+                          "NWOt1I2xWP7xm05A7uF3Z6"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdxzWL",
+                        "_type": "collection",
+                        "slug": "clean-week-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "TLO8WWQ85YuM6DeBHIhYl9",
+                          "BoGK5VlBLllbPFYTvMobq4",
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "BoGK5VlBLllbPFYTvNVtQO",
+                          "Q6j5eG7tj3PSUghmZBmn7f",
+                          "BoGK5VlBLllbPFYTvPKzQe"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Recipes",
+                    "slug": "recipes",
+                    "modules": [
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7uFJOS",
+                        "_type": "collection",
+                        "slug": "clean-week-shakeology-recipes",
+                        "title": "Clean Week Shakeology Recipes",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7uFDmX",
+                          "NWOt1I2xWP7xm05A7uFD9D",
+                          "BoGK5VlBLllbPFYTvOtmI4",
+                          "BoGK5VlBLllbPFYTvOtlJY",
+                          "Q6j5eG7tj3PSUghmZFe2EN",
+                          "BoGK5VlBLllbPFYTvOtk7U",
+                          "NWOt1I2xWP7xm05A7uF9Da"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdxzWL",
+                        "_type": "collection",
+                        "slug": "clean-week-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "TLO8WWQ85YuM6DeBHIhYl9",
+                          "BoGK5VlBLllbPFYTvMobq4",
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "BoGK5VlBLllbPFYTvNVtQO",
+                          "Q6j5eG7tj3PSUghmZBmn7f",
+                          "BoGK5VlBLllbPFYTvPKzQe"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Program Materials",
+                    "slug": "program-materials",
+                    "modules": [
+                      {
+                        "_id": "7W5kxp8VD79kGrmw3VqFon",
+                        "_type": "collection",
+                        "slug": "clean-week-program-materials",
+                        "title": "Program Materials",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZFdjt5",
+                          "BoGK5VlBLllbPFYTvOteMi"
+                        ]
+                      },
+                      {
+                        "_id": "vp53z6XDYJoQbuiHZ8mCzW",
+                        "_type": "collection",
+                        "slug": "clean-week-program-materials-united-kingdom",
+                        "title": "Program Materials United Kingdom",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7uF5al",
+                          "Q6j5eG7tj3PSUghmZFdna3"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdxzWL",
+                        "_type": "collection",
+                        "slug": "clean-week-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "TLO8WWQ85YuM6DeBHIhYl9",
+                          "BoGK5VlBLllbPFYTvMobq4",
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "Q6j5eG7tj3PSUghmZBym4R",
+                          "BoGK5VlBLllbPFYTvNVtQO",
+                          "Q6j5eG7tj3PSUghmZBmn7f",
+                          "BoGK5VlBLllbPFYTvPKzQe"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "2Y1ZDDXEx3aLPbgAHe1rPl": {
+                    "_id": "2Y1ZDDXEx3aLPbgAHe1rPl",
+                    "_type": "linkItem",
+                    "slug": "clean-week-fr-2b-mindset-2",
+                    "title": "2B Mindset Avec Ilana Muhlstein, Di\u00e9t\u00e9ticienne Nutritionniste",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8be513348497ce907826b78af607975836757f5d-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/2b-mindset-avec-ilana-muhlstein",
+                    "isFavoritable": false
+                  },
+                  "BoGK5VlBLllbPFYTvMobq4": {
+                    "_id": "BoGK5VlBLllbPFYTvMobq4",
+                    "_type": "program",
+                    "slug": "liift4",
+                    "brandCode": "LI4",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2018-10-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk4Y",
+                        "slug": "po-allaccess",
+                        "title": "ALL ACCESS",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=LI4&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "LIIFT4",
+                    "description": "Build muscle and burn calories with classic weightlifting and HIIT cardio.",
+                    "descriptionShort": "Build muscle and burn calories with classic weightlifting and HIIT cardio.",
+                    "descriptionLong": "LIIFT4 combines heavy lifting and intense cardio to transform your body in 4 days a week. And with 32 unique, real-time workouts, you\u2019ll never get bored, because you\u2019ll never do the same one twice.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6839ebc04429cad29035c4e2c54a32a512bfafaf-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eae851f7ba667c0daa8a7d69a5dc30d04dcfea0-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eae851f7ba667c0daa8a7d69a5dc30d04dcfea0-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6839ebc04429cad29035c4e2c54a32a512bfafaf-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6839ebc04429cad29035c4e2c54a32a512bfafaf-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c73160934ede5b1319a78f62e52b98561ad5f57e-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/389709811a2b3e7ded8d9dac3a02c9bcdccefa95-1329x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-40"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "60"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "32"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "HIIT",
+                        "slug": "hiit"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells or Resistance Bands"
+                      },
+                      {
+                        "title": "Foam Roller"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvNVtQO": {
+                    "_id": "BoGK5VlBLllbPFYTvNVtQO",
+                    "_type": "program",
+                    "slug": "mbf",
+                    "brandCode": "MBF",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2020-06-26",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=MBF&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      },
+                      {
+                        "_id": "purchase-option-standalone",
+                        "slug": "po-standalone",
+                        "title": "Standalone",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "standalone"
+                      }
+                    ],
+                    "title": "#mbf",
+                    "description": "Build muscle and burn fat with daily strength-training and cardio workouts.",
+                    "descriptionShort": "Build muscle and burn fat with daily strength-training and cardio workouts.",
+                    "descriptionLong": "Get leaner, get stronger, get healthier as you ignite your metabolism and incinerate fat. For three weeks, you'll follow weightlifting and cardio workouts that are set to the music beat, so you know the intensity you\u2019ll need to get maximum results.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7415ae12b93868be4d529668840e2833ef97e0de-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/520bbdd5b1b735957edc297279654e2beff1e3c9-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/520bbdd5b1b735957edc297279654e2beff1e3c9-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7415ae12b93868be4d529668840e2833ef97e0de-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7415ae12b93868be4d529668840e2833ef97e0de-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/900d56ede52f58c3e8060dd3cf9765a41ed4e15f-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/49fed6610211da9ab4794353b225ead6bec65b01-786x361.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "25-35"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "3"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "21"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Muscle Building",
+                        "slug": "muscle-building"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "BOD Rope"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOtUy8": {
+                    "_id": "BoGK5VlBLllbPFYTvOtUy8",
+                    "_type": "workout",
+                    "slug": "day-1-core-function-cw01b01",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 1: Core Function",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f48a5e3d8c262b99dd813e79972a48626a33b5bc-398x224.jpg"
+                    },
+                    "descriptionLong": "You\u2019ll shape and define your abs through full-body functional movements that engage your core from every angle in this dynamic, calorie-burning workout.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW01B01",
+                      "durationActual": 2136,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOtVbs": {
+                    "_id": "BoGK5VlBLllbPFYTvOtVbs",
+                    "_type": "workout",
+                    "slug": "day-2-cardio-cw02b02",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 2: Cardio",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31744247620a0d55f117b3dd4ea75217272d650e-398x224.jpg"
+                    },
+                    "descriptionLong": "This heart-pumping interval routine will shift your metabolism into a higher gear, helping you burn more fat and feel more energized.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW02B02",
+                      "durationActual": 2074,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOtXFw": {
+                    "_id": "BoGK5VlBLllbPFYTvOtXFw",
+                    "_type": "workout",
+                    "slug": "day-3-strength-cw04b04",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 3: Strength",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/485467ac3d42726378a98056b73247a82d6b5f3b-398x224.jpg"
+                    },
+                    "descriptionLong": "Grab your weights and start sculpting a leaner body with this strength-building workout that targets all of your major muscle groups.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW04B04",
+                      "durationActual": 2069,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOtYBk": {
+                    "_id": "BoGK5VlBLllbPFYTvOtYBk",
+                    "_type": "workout",
+                    "slug": "day-4-active-flex-cw03b03",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 4: Active Flex",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/055b770a962613c700da90f0b5178c363a68cc36-398x224.jpg"
+                    },
+                    "descriptionLong": "Slow it down with active stretching, which can help you enhance your mobility and unlock greater strength.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Push-Up Stands"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW03B03",
+                      "durationActual": 1415,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOtbhQ": {
+                    "_id": "BoGK5VlBLllbPFYTvOtbhQ",
+                    "_type": "workout",
+                    "slug": "day-6-cardio-cw07b07",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 6: Cardio",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31744247620a0d55f117b3dd4ea75217272d650e-398x224.jpg"
+                    },
+                    "descriptionLong": "This heart-pumping interval routine will shift your metabolism into a higher gear, helping you burn more fat and feel more energized.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW07B07",
+                      "durationActual": 2074,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOteMi": {
+                    "_id": "BoGK5VlBLllbPFYTvOteMi",
+                    "_type": "resource",
+                    "slug": "clean-week-clean-week-meal-planner-us-canada-2802493",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "Clean Week Meal Planner - US / Canada",
+                    "categories": null,
+                    "description": "This is your step-by-step guide to healthy eating, including simple and delicious recipes for your meals and Shakeology.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fdf5eac70073dd4a9ff166d3d81e3e03676097c2-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "CLW_MealPlanner_BOD_EN_US_082521.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/93a3acbcdb3cb45b38690621fdcfb42cc4dcc19e.pdf?file=CLW_MealPlanner_BOD_EN_US_082521.pdf",
+                      "size": 4034854
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOtk7U": {
+                    "_id": "BoGK5VlBLllbPFYTvOtk7U",
+                    "_type": "recipe",
+                    "slug": "almond-butter-cup-chocolate-or-vegan-chocolate-recipe-cw13b13",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Almond Butter Cup (Chocolate or Vegan Chocolate recipe)",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/502370f7497a9c24154321a45d54a519fcd3e457-398x224.jpg"
+                    },
+                    "descriptionLong": "Nut butter and chocolate is a match made in heaven, and this recipe will take you there. Get all that sweet, creamy goodness in a glass without excess sugar.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-this-recipe-makes-a-great-breakfast",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "This recipe makes a great breakfast.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dc2f5e26bdea6df23228bf4e0c863281b0b3cd52-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 3,
+                        "quantityFormatted": "3"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW13B13",
+                      "durationActual": 48,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOtlJY": {
+                    "_id": "BoGK5VlBLllbPFYTvOtlJY",
+                    "_type": "recipe",
+                    "slug": "chocolate-covered-cherry-shakeology-chocolate-or-vegan-chocolate-cw12b12",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Chocolate-Covered Cherry Shakeology (Chocolate or Vegan Chocolate)",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/150903b955bcb075eda289cb8ff67df17b92166d-398x224.jpg"
+                    },
+                    "descriptionLong": "No guilt in this glass! Decadence has never been healthier with this sweet and chocolatey Shakeology recipe.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-this-recipe-makes-a-great-breakfast",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "This recipe makes a great breakfast.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dc2f5e26bdea6df23228bf4e0c863281b0b3cd52-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-yellow",
+                          "title": "Yellow",
+                          "color": "#FFCF01",
+                          "colorOptions": {
+                            "argb": "#FFCF01",
+                            "rgba": "#FFCF01"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-blue",
+                          "title": "Blue",
+                          "color": "#0060A7",
+                          "colorOptions": {
+                            "argb": "#0060A7",
+                            "rgba": "#0060A7"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW12B12",
+                      "durationActual": 38,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvOtmI4": {
+                    "_id": "BoGK5VlBLllbPFYTvOtmI4",
+                    "_type": "recipe",
+                    "slug": "berry-licious-cw10b10",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Berry-Licious",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d2a08fdc8352780c521252f73d8ec2d8a2a4909e-398x224.jpg"
+                    },
+                    "descriptionLong": "Strawberries and blueberries help pack this juicy recipe with tons of dense nutrition.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-this-recipe-makes-a-great-breakfast",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "This recipe makes a great breakfast.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dc2f5e26bdea6df23228bf4e0c863281b0b3cd52-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1 1/2"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW10B10",
+                      "durationActual": 49,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPKzQe": {
+                    "_id": "BoGK5VlBLllbPFYTvPKzQe",
+                    "_type": "program",
+                    "slug": "slim-in-6",
+                    "brandCode": "SL6",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2001-03-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=SL6&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Slim in 6",
+                    "description": "Slim in 6 is a low-impact program anyone can do to get slim in just 6 weeks.",
+                    "descriptionShort": "Slim in 6 is a low-impact program anyone can do to get slim in just 6 weeks.",
+                    "descriptionLong": "Slim in 6 is more effective at helping you lose weight than those super-intense, high-impact workouts. You\u2019ll watch the fat melt away as you tone lean muscle and get body-shaping results even faster.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/73ec86b0aa3b55a52d7a4de4fe618033bd09690a-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5f4ba78f1bbeb3fd774bbc5d5fba5d540e25598a-781x977.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5f4ba78f1bbeb3fd774bbc5d5fba5d540e25598a-781x977.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/73ec86b0aa3b55a52d7a4de4fe618033bd09690a-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/73ec86b0aa3b55a52d7a4de4fe618033bd09690a-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3940d0df5ba04e2a20a2e296abee42a208c54e1e-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2830c8c8448bd7a6dec14d19089a2d3b327c2e40-362x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "25-60"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "6"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "16"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uEwAu": {
+                    "_id": "NWOt1I2xWP7xm05A7uEwAu",
+                    "_type": "promo",
+                    "slug": "meet-megan-davies-cw-cw02ad02",
+                    "brandCode": "CW",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "durationEstimate": 240,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f2d00c75cfc2a03609452d5cd56ac7ea2fbb8d61-730x496.jpg"
+                    },
+                    "title": "Meet Megan Davies",
+                    "descriptionLong": "Get to know Super Trainer Megan Davies, including why she became a trainer, what she learned on The 20s, and why she created Clean Week.",
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW02AD02",
+                      "durationActual": 230,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uF3Z6": {
+                    "_id": "NWOt1I2xWP7xm05A7uF3Z6",
+                    "_type": "workout",
+                    "slug": "day-7-strength-2-cw06b06",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 7: Strength",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/485467ac3d42726378a98056b73247a82d6b5f3b-398x224.jpg"
+                    },
+                    "descriptionLong": "Grab your weights and start sculpting a leaner body with this strength-building workout that targets all of your major muscle groups.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW06B06",
+                      "durationActual": 2069,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uF5al": {
+                    "_id": "NWOt1I2xWP7xm05A7uF5al",
+                    "_type": "resource",
+                    "slug": "clean-week-clean-week-quick-start-guide-uk-2801368",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "Clean Week Quick Start Guide - UK",
+                    "categories": null,
+                    "description": "Here\u2019s everything you need to know to begin your healthy new lifestyle\u2014from which Clean Week workout to do each day to how to get started quickly with your clean eating plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/12ad81ff7f7e4b5e97673f2f3f1cbf1baa9e2af8-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "CLW_QuickStart_BOD_EN_UK_091521.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/d0829443bea8a5b59c7a65f11f461096f98e1a78.pdf?file=CLW_QuickStart_BOD_EN_UK_091521.pdf",
+                      "size": 9592652
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uF9Da": {
+                    "_id": "NWOt1I2xWP7xm05A7uF9Da",
+                    "_type": "recipe",
+                    "slug": "strawberry-almond-dream-shakeology-cw14b14",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Strawberry Almond Dream Shakeology",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/601fcd6b2af1661de209b00329a8b77f1f5dc809-398x224.jpg"
+                    },
+                    "descriptionLong": "Float through your day with this dreamy combination of almonds and strawberries.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": [
+                      {
+                        "title": "Snack",
+                        "slug": "snack-meal"
+                      }
+                    ],
+                    "dishes": [
+                      {
+                        "title": "Shake",
+                        "slug": "shake"
+                      }
+                    ],
+                    "ingredientsMain": [
+                      {
+                        "title": "Shakeology",
+                        "slug": "shakeology"
+                      }
+                    ],
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-this-recipe-makes-a-great-breakfast",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "This recipe makes a great breakfast.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dc2f5e26bdea6df23228bf4e0c863281b0b3cd52-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 3,
+                        "quantityFormatted": "3"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW14B14",
+                      "durationActual": 49,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uFD9D": {
+                    "_id": "NWOt1I2xWP7xm05A7uFD9D",
+                    "_type": "recipe",
+                    "slug": "nutty-mocha-latte-shakeology-cw09b09",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Nutty Mocha Latte Shakeology",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/53ab091e7fde8f0d0d8bbcc1d8bf10e9f97cb260-398x224.jpg"
+                    },
+                    "descriptionLong": "Skip the coffee shop and make your own fancy frapp\u00e9 with cashew butter, cocoa, and Caf\u00e9 Latte Shakeology.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-makes-a-great-protein-and-accessory-as-part-of-any-meal",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "Makes a great protein and accessory as part of any meal.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/de45c4ee472dfc3d19b300521beb4bee09535f4c-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 4,
+                        "quantityFormatted": "4"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW09B09",
+                      "durationActual": 48,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7uFDmX": {
+                    "_id": "NWOt1I2xWP7xm05A7uFDmX",
+                    "_type": "recipe",
+                    "slug": "banana-bread-shakeology-vanilla-or-vanilla-vegan-cw08b08",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Banana Bread Shakeology (Vanilla or Vanilla Vegan)",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1c9da3ea4be95a5ac2ba59bce97771bd2a50f2b1-398x224.jpg"
+                    },
+                    "descriptionLong": "Fresh-baked flavor without all the carbs and calories. This quick and simple recipe is the perfect solution to those mid-day comfort food cravings.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-this-recipe-makes-a-great-breakfast",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "This recipe makes a great breakfast.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dc2f5e26bdea6df23228bf4e0c863281b0b3cd52-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 3,
+                        "quantityFormatted": "3"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW08B08",
+                      "durationActual": 55,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBmn7f": {
+                    "_id": "Q6j5eG7tj3PSUghmZBmn7f",
+                    "_type": "program",
+                    "slug": "21-day-fix-real-time",
+                    "brandCode": "21DRT",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-05-01",
+                    "commerce": {
+                      "title": "Try Portion Fix Today!",
+                      "subtitle": "(Not included in regular BOD membership)",
+                      "purchaseAction": {
+                        "title": "Shop Now",
+                        "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=UPF&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": "UPF"
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=21DRT&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21DRT&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "21 Day Fix Real Time",
+                    "description": "21 simple 30-minute workouts. Simple portion control. Fast results.",
+                    "descriptionShort": "21 simple 30-minute workouts. Simple portion control. Fast results.",
+                    "descriptionLong": "Get a major calorie burn, tone your muscles, and lose up to 15 pounds in 21 days with a different 30-minute real-time workout every day. Build on the moves weekly to get total-body results, faster.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b35648b056e60eb094f59e512509ad17bae37f43-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7de8289ae48744ee78b325a3b705b73fcdb0a6ad-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7de8289ae48744ee78b325a3b705b73fcdb0a6ad-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b35648b056e60eb094f59e512509ad17bae37f43-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b35648b056e60eb094f59e512509ad17bae37f43-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/df0c697cac7ec8fcec41a15e715be1be788f527f-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bd6b89c162b6b89552ad2faf298c636ee15a5381-980x1008.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "21"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "28"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZBym4R": {
+                    "_id": "Q6j5eG7tj3PSUghmZBym4R",
+                    "_type": "program",
+                    "slug": "barre-blend",
+                    "brandCode": "BBR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-11-25",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BBR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Barre Blend",
+                    "description": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionShort": "Get lean and toned with a mix of ballet barre, Pilates, and cardio.",
+                    "descriptionLong": "Create a lean, toned physique through a fun fusion of ballet barre, Pilates, and cardio interval training. Feel the burn as you sweat, stretch, and strengthen to energize your entire body.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1cd8674c4e0241b8840eff80dd685f42eca7f95a-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/af58ff0c7910b50ce71950e728e418a5977819a7-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/40c285dad368b07f5b7b9034d1b5ebb8b7916ff8-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/636e5ddbe6d6bf30e8adeb2a3641650e75f24f1c-880x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30-40"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "8"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "66"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Sturdy Chair or Ballet Barre"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZDbc5D": {
+                    "_id": "Q6j5eG7tj3PSUghmZDbc5D",
+                    "_type": "program",
+                    "slug": "3-week-yoga-retreat",
+                    "brandCode": "3YR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-08-31",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3YR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "3 Week Yoga Retreat",
+                    "description": "Want to learn Yoga? Master the fundamentals of yoga at home in just 21 days.",
+                    "descriptionShort": "Want to learn Yoga? Master the fundamentals of yoga at home in just 21 days.",
+                    "descriptionLong": "Created with beginners in mind, 3 Week Yoga Retreat will teach you simple, pure yoga for life-changing results. You'll build the skills you need to take any yoga class after these three weeks.\u200b",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5cbdbb898516c50bbaaceb8062c936fef4d548f-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5cbdbb898516c50bbaaceb8062c936fef4d548f-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2770051c67445d05d085fbc573916e487f464040-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1c5fcef36727497e17ad2cbbb770656baa6ae37c-480x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-32"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "3"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "39"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Yoga Strap"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Pillow"
+                      },
+                      {
+                        "title": "Yoga Blanket"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZFdaat": {
+                    "_id": "Q6j5eG7tj3PSUghmZFdaat",
+                    "_type": "workout",
+                    "slug": "day-5-core-function-2-cw05b05",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Day 5: Core Function",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f48a5e3d8c262b99dd813e79972a48626a33b5bc-398x224.jpg"
+                    },
+                    "descriptionLong": "You\u2019ll shape and define your abs through full-body functional movements that engage your core from every angle in this dynamic, calorie-burning workout.",
+                    "durationEstimate": 1800,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Comfort Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW05B05",
+                      "durationActual": 2136,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZFdjt5": {
+                    "_id": "Q6j5eG7tj3PSUghmZFdjt5",
+                    "_type": "resource",
+                    "slug": "clean-week-clean-week-quick-start-guide-us-canada-2800995",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "Clean Week Quick Start Guide - US / Canada",
+                    "categories": null,
+                    "description": "Here\u2019s everything you need to know to begin your healthy new lifestyle\u2014from which Clean Week workout to do each day to how to get started quickly with your clean eating plan.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/82f72e8d6d88acd69e43cca1d53a18e6fae7f610-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "CLW_QuickStart_BOD_en_us_091521-1.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/8ed84d0a3a1295ec3a9438ccebeb52d77d49597b.pdf?file=CLW_QuickStart_BOD_en_us_091521-1.pdf",
+                      "size": 9602498
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZFdna3": {
+                    "_id": "Q6j5eG7tj3PSUghmZFdna3",
+                    "_type": "resource",
+                    "slug": "clean-week-clean-week-meal-planner-uk-2802870",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "Clean Week Meal Planner - UK",
+                    "categories": null,
+                    "description": "This is your step-by-step guide to healthy eating, including simple and delicious recipes for your meals and Shakeology.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3bb5174c513044fdf58829300d280909c134baff-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "CLW_MealPlanner_BOD_EN_UK_090721.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/e34002b7438b1cada9f297e2a84aa728f16a6bcd.pdf?file=CLW_MealPlanner_BOD_EN_UK_090721.pdf",
+                      "size": 3607547
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZFe2EN": {
+                    "_id": "Q6j5eG7tj3PSUghmZFe2EN",
+                    "_type": "recipe",
+                    "slug": "cafe-latte-banana-shakeology-cafe-latte-or-vegan-cafe-latte-cw11b11",
+                    "brandCode": "CW",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us&trainerName=MeganDavies"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=CW&locale=en_us&trainerName=MeganDavies"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Caf\u00e9 Latte Banana Shakeology (Caf\u00e9 Latte or Vegan Caf\u00e9 Latte)",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8f52d32c717b7b827af230b4b27d26ca0b35f819-398x224.jpg"
+                    },
+                    "descriptionLong": "A touch of fruit and a pinch of spice help punch up your daily dose of dense nutrition. Give this fan-favorite a whirl.",
+                    "durationEstimate": 60,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": {
+                      "slug": "2b-mindset-plate-it-this-recipe-makes-a-great-breakfast",
+                      "title": "2B Mindset Plate It!",
+                      "subtitle": "This recipe makes a great breakfast.",
+                      "image": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/dc2f5e26bdea6df23228bf4e0c863281b0b3cd52-84x84.png"
+                      }
+                    },
+                    "containerQuantities": [
+                      {
+                        "container": {
+                          "slug": "container-purple",
+                          "title": "Purple",
+                          "color": "#7D659C",
+                          "colorOptions": {
+                            "argb": "#7D659C",
+                            "rgba": "#7D659C"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-red",
+                          "title": "Red",
+                          "color": "#D2232A",
+                          "colorOptions": {
+                            "argb": "#D2232A",
+                            "rgba": "#D2232A"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-yellow",
+                          "title": "Yellow",
+                          "color": "#FFCF01",
+                          "colorOptions": {
+                            "argb": "#FFCF01",
+                            "rgba": "#FFCF01"
+                          }
+                        },
+                        "quantity": 1,
+                        "quantityFormatted": "1"
+                      },
+                      {
+                        "container": {
+                          "slug": "container-grey",
+                          "title": "Grey",
+                          "color": "#BDBDBD",
+                          "colorOptions": {
+                            "argb": "#BDBDBD",
+                            "rgba": "#BDBDBD"
+                          }
+                        },
+                        "quantity": 0,
+                        "quantityFormatted": "1/2"
+                      }
+                    ],
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": null,
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "CW11B11",
+                      "durationActual": 44,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "TLO8WWQ85YuM6DeBHIhYl9": {
+                    "_id": "TLO8WWQ85YuM6DeBHIhYl9",
+                    "_type": "program",
+                    "slug": "21-day-fix-extreme-real-time",
+                    "brandCode": "21XRT",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2019-05-30",
+                    "commerce": {
+                      "title": "Try Portion Fix Today!",
+                      "subtitle": "(Not included in regular BOD membership)",
+                      "purchaseAction": {
+                        "title": "Shop Now",
+                        "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=UPF&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": "UPF"
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=21XRT&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=21XRT&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "21 Day Fix EXTREME Real Time",
+                    "description": "Get serious results with daily 30-min. workouts & portion control",
+                    "descriptionShort": "Get serious results with daily 30-min. workouts & portion control",
+                    "descriptionLong": "21 Day Fix EXTREME Real Time helps you get serious results in 21 days with portion control and intense 30-minute workouts that progress from week to week for faster results",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eb3bbcad7c272f857cbce356c1e55dc21b9e196-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7fd9380ad6882bd7e2f99ef26b171f2ad887d5f0-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7fd9380ad6882bd7e2f99ef26b171f2ad887d5f0-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eb3bbcad7c272f857cbce356c1e55dc21b9e196-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3eb3bbcad7c272f857cbce356c1e55dc21b9e196-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/42fdf31aa9847d0eb01bc0a850888db3a2bfce04-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/06c48fdd36797a6f67cf334d705441eabc6b1631-354x374.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "21"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "30"
+                    },
+                    "level": {
+                      "title": "Advanced",
+                      "slug": "advanced",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Cardio",
+                        "slug": "cardio"
+                      },
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Bootcamp",
+                        "slug": "bootcamp"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Dumbbells"
+                      },
+                      {
+                        "title": "Resistance Bands"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Core Comfort Mat"
+                      },
+                      {
+                        "title": "Yoga Mat"
+                      },
+                      {
+                        "title": "Yoga Blocks"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "UqWqrADNH9eso22jUFVXrd": {
+                    "_id": "UqWqrADNH9eso22jUFVXrd",
+                    "_type": "linkItem",
+                    "slug": "about-megan-davies",
+                    "title": "About Megan Davies",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b1a3430a93d26d7b9fdf842ab4b516783b1a7e74-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/the-20s-trainer-spotlight-meet-megan?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=clean_week_2",
+                    "isFavoritable": false
+                  },
+                  "jyITl2R0P6PN5zEcITjhrT": {
+                    "_id": "jyITl2R0P6PN5zEcITjhrT",
+                    "_type": "promo",
+                    "slug": "clean-week-available-september-2017-ad1247post96",
+                    "brandCode": "CW",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7uFR1B",
+                      "_type": "program",
+                      "slug": "clean-week"
+                    },
+                    "durationEstimate": 60,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/351213d0b5935f9e95b795a235c0f56602d2aa96-398x224.jpg"
+                    },
+                    "title": "Introducing Clean Week",
+                    "descriptionLong": "Clean Week\u2122 is a 7-day fitness and nutrition program designed to help you kick-start healthy habits that get real results and can lead to a lifestyle change that sticks! You get 4 workouts, a step-by-step meal planner, and a week's supply of delicious Shakeology\u00ae.\nStart living the healthy new lifestyle you want in just 7 days\u2014with Clean Week.",
+                    "trainers": [
+                      {
+                        "slug": "megan-davies",
+                        "firstName": "Megan",
+                        "lastName": "Davies",
+                        "bio": "Super Trainer Megan Davies is an NSCA certified personal trainer and creator of #mbf Muscle Burns Fat, #mbfa Muscle Burns Fat Advanced, and Sure Thing. After appearing on BODi\u2019s fitness reality show, THE 20s, Megan became the next Super Trainer and created Clean Week. Her passion for learning about physiology, health, fitness, and technique fuels every program she creates. Her down-to-earth, empowering workout style and upbeat personality make you feel like you\u2019re training with a best friend.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1695c281860ed6f959016aaf81919b0e84bccdee-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "AD1247POST96",
+                      "durationActual": 50,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "vKPPpbqN0JH0WMoJVD7IzC": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7IzC",
+                    "_type": "linkItem",
+                    "slug": "clean-week-fr-faites",
+                    "title": "Faites la Connaissance de Megan Davies, Cr\u00e9atrice de Clean Week",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b18c40815914a4746ce98da071718e3a26bfd7dd-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/faites-la-connaissance-de-megan-davies-creatrice-de-clean-week-fr",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7J3e": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7J3e",
+                    "_type": "linkItem",
+                    "slug": "clean-week-fr-conselis",
+                    "title": "Conseils Pratiques Pour la Pr\u00e9paration de Repas Sains",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5f636697ae9eb5b182adc843cc1b83b7cd321ede-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/conseils-pratiques-pour-la-preparation-de-repas-sains-fr",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7J86": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7J86",
+                    "_type": "linkItem",
+                    "slug": "clean-week-start-a-healthy-lifestyle-in-7-days",
+                    "title": "CLEAN WEEK: Start a Healthy Lifestyle in 7 Days",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6c014b5ac49b449d1e44d3d2ed7f3989a2b72618-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/clean-week-megan-davies?utm_campaign=related_content&utm_medium=bod&utm_source=related_content&utm_content=clean_week_1",
+                    "isFavoritable": false
+                  },
+                  "vKPPpbqN0JH0WMoJVD7JIU": {
+                    "_id": "vKPPpbqN0JH0WMoJVD7JIU",
+                    "_type": "linkItem",
+                    "slug": "shakeology-recipes-tips-and-more",
+                    "title": "Shakeology: What is it exactly?",
+                    "image": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2114315029cfaa74eeffc92ce003244bf21a3a73-666x436.jpg"
+                    },
+                    "url": "https://www.beachbodyondemand.com/blog/shakeology-what-is-it",
+                    "isFavoritable": false
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223476064,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "clean-week",
+              "en-US"
+            ],
+            "queryHash": "[\"clean-week\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/clean-week/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "clean-week",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

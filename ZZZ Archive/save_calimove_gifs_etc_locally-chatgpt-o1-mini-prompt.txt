@@ -1,0 +1,4 @@
+i have scraped a website course. I have a folder with subfolders with subfolders, .... that contain html files and mp4 videos. Now I need a python script that would go through all the html files in all the subfolders and make a copy of them, with the filename: [existing_filename]-local.html. the key additional thing is to make all assets like images, gifs, ... local (create a subfolder in the same location and call it [existing_filename]-files) and reference these local copies in the html instead of existing remote links.
+
+make sure it downloads the images like these:
+<img class="is-loaded" data-imageloader="" data-imageloader-current-size="" data-imageloader-skip-resize="true" data-imageloader-src="https://www.filepicker.io/api/file/WyGKCT9eT2GqX2T3AfPj" src="https://www.filepicker.io/api/file/WyGKCT9eT2GqX2T3AfPj">

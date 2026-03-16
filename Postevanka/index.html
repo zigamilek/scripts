@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="sl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poštevanka</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700;800&display=swap');
+      :root {
+        --accent: #2e7d32;
+        --bg: #f3f6fb;
+        --text: #1f2933;
+        --muted: #5a6773;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Noto Sans', 'Segoe UI', system-ui, -apple-system,
+          sans-serif;
+        color: var(--text);
+        background: var(--bg);
+      }
+
+      .hidden {
+        display: none !important;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        height: 100vh;
+        transition: grid-template-columns 0.2s ease;
+      }
+
+      .container.ready-mode {
+        grid-template-columns: 1fr;
+      }
+
+      .history-panel {
+        display: flex;
+        flex-direction: column;
+        border-right: 2px solid rgba(0, 0, 0, 0.05);
+        background: #fff;
+        padding: 18px 16px;
+        overflow-y: auto;
+      }
+
+      .history-header {
+        margin-bottom: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .history-title {
+        font-size: 1.15rem;
+        font-weight: 700;
+      }
+
+      .history-stats {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4px;
+        font-size: 0.85rem;
+        font-weight: 400;
+      }
+
+      .stat-ok {
+        color: #1b5e20;
+      }
+
+      .stat-bad {
+        color: #c62828;
+      }
+
+      #history-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: 1;
+        overflow-y: auto;
+      }
+
+      .history-item {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 8px;
+        font-size: 1.05rem;
+        padding: 8px 10px;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.03);
+      }
+
+      .history-item .info {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        min-width: 0;
+      }
+
+      .history-item .eq {
+        font-weight: 700;
+        white-space: nowrap;
+      }
+
+      /*       .eq-correct {
+        font-size: 2.3rem;
+        font-weight: 800;
+        line-height: 1.05;
+        color: #0f1720;
+        display: inline-block;
+        vertical-align: baseline;
+      } */
+
+      .history-item .note,
+      .eq-correct {
+        color: var(--muted);
+        font-size: 0.95rem;
+        white-space: normal;
+        word-break: break-word;
+        font-weight: normal;
+      }
+
+      .eq-correct {
+        margin-left: 1em;
+      }
+
+      .missing-slot {
+        text-decoration: underline;
+        text-decoration-thickness: 4px;
+        text-underline-offset: 4px;
+        font-weight: 800;
+      }
+
+      .history-item .mark {
+        font-size: 1.4rem;
+        flex-shrink: 0;
+      }
+
+      .main {
+        position: relative;
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr;
+        height: 100%;
+        padding: 28px 38px;
+        overflow: hidden;
+      }
+
+      .top-row {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .timer {
+        font-size: 2.3rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: #0f1720;
+      }
+
+      .question-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        font-size: 4.5rem;
+        font-weight: 800;
+        text-align: center;
+        padding: 10px;
+      }
+
+      #answer-input {
+        font-size: inherit;
+        font-weight: 800;
+        width: 220px;
+        border: none;
+        border-bottom: 8px solid #222;
+        background: transparent;
+        outline: none;
+        text-align: center;
+        padding: 6px 4px 2px;
+        caret-color: #222;
+      }
+
+      #answer-input:disabled {
+        border-bottom-color: #a6afb8;
+        color: #9aa3ad;
+        caret-color: transparent;
+      }
+
+      .inline-answer {
+        width: 160px;
+        min-width: 140px;
+        display: inline-block;
+        margin: 0 6px;
+      }
+
+      .progress {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 2.2rem;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+      }
+
+      .status {
+        margin-top: 6px;
+        font-size: 1rem;
+        color: var(--muted);
+        text-align: center;
+      }
+
+      .primary-button {
+        padding: 10px 16px;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #fff;
+        background: var(--accent);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0 6px 16px rgba(46, 125, 50, 0.22);
+        transition: transform 0.08s ease, box-shadow 0.08s ease;
+      }
+
+      .primary-button:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 8px 18px rgba(46, 125, 50, 0.26);
+      }
+
+      .primary-button:active {
+        transform: translateY(0);
+      }
+
+      .secondary-button {
+        border: 2px solid var(--accent);
+        background: transparent;
+        color: var(--accent);
+        padding: 8px 14px;
+        border-radius: 10px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .ready-screen {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--bg);
+        z-index: 5;
+      }
+
+      .ready-form {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        align-items: center;
+        text-align: center;
+      }
+
+      .ready-label {
+        font-size: 2.4rem;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+      }
+
+      .ready-row {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .ready-select {
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: 10px 12px;
+        min-width: 220px;
+        border: 2px solid rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        background: #fff;
+        outline: none;
+      }
+
+      .ready-select:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.18);
+      }
+
+      .ready-input {
+        font-size: 3rem;
+        font-weight: 800;
+        width: 260px;
+        border: none;
+        border-bottom: 8px solid #222;
+        background: transparent;
+        outline: none;
+        text-align: center;
+        padding: 8px 6px 4px;
+        caret-color: #222;
+      }
+
+      .ready-hint {
+        margin: 0;
+        color: var(--muted);
+        font-size: 1rem;
+      }
+
+      .sidebar-action {
+        margin-top: 14px;
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+        font-weight: 800;
+        color: #fff;
+        background: var(--accent);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0 6px 16px rgba(46, 125, 50, 0.22);
+      }
+
+      @media (max-width: 980px) {
+        .container {
+          grid-template-columns: 1fr;
+          grid-template-rows: 200px 1fr;
+        }
+
+        .history-panel {
+          border-right: none;
+          border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+          height: 100%;
+        }
+
+        .main {
+          padding: 20px;
+        }
+
+        .question-row {
+          font-size: 3.2rem;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .question-row {
+          font-size: 2.6rem;
+          flex-wrap: wrap;
+        }
+
+        #answer-input {
+          width: 160px;
+          border-bottom-width: 6px;
+        }
+
+        .ready-label {
+          font-size: 1.8rem;
+        }
+
+        .ready-input {
+          font-size: 2.2rem;
+          width: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <aside class="history-panel" id="history-panel">
+        <div class="history-header">
+          <div class="history-title">
+            Pretekli računi <span id="history-count">(0)</span>
+          </div>
+          <div class="history-stats">
+            <div class="stat-ok">
+              Pravilni: <span id="correct-count">0</span>
+            </div>
+            <div class="stat-bad">
+              Nepravilni: <span id="wrong-count">0</span>
+            </div>
+          </div>
+        </div>
+        <div id="history-list"></div>
+        <button id="sidebar-restart" class="sidebar-action" type="button">
+          Nova igra
+        </button>
+      </aside>
+
+      <section class="main">
+        <div class="top-row hidden" id="top-row">
+          <div id="timer" class="timer">00:00</div>
+        </div>
+
+        <form id="answer-form" class="question-row hidden" autocomplete="off">
+          <div id="question-text">Pripravljeno?</div>
+          <input
+            id="answer-input"
+            class="inline-answer"
+            type="number"
+            inputmode="numeric"
+            pattern="[0-9]*"
+            autocomplete="off"
+            disabled
+            aria-label="Vnesi rezultat"
+          />
+        </form>
+
+        <div class="progress hidden" id="progress-wrap">
+          <div id="progress-text">0/0</div>
+          <div class="status" id="status-text">
+            Vpiši število računov in pritisni »ZAČNI«.
+          </div>
+          <button
+            id="restart-button"
+            class="secondary-button hidden"
+            type="button"
+          >
+            Nova igra
+          </button>
+        </div>
+
+        <div class="ready-screen" id="ready-screen">
+          <form id="start-form" class="ready-form">
+            <label class="ready-label" for="mode-select"
+              >Kaj želiš vaditi?</label
+            >
+            <select id="mode-select" class="ready-select">
+              <option value="multiply">Poštevanka</option>
+              <option value="add">Seštevanje</option>
+              <option value="subtract">Odštevanje</option>
+            </select>
+            <label class="ready-label" for="count-input"
+              >Koliko računov želiš rešiti?</label
+            >
+            <div class="ready-row">
+              <input
+                id="count-input"
+                class="ready-input"
+                type="number"
+                min="1"
+                max="200"
+                required
+                placeholder="npr. 20"
+                autofocus
+              />
+              <button id="start-button" class="primary-button" type="submit">
+                ZAČNI
+              </button>
+            </div>
+            <p class="ready-hint">Pritisni Enter ali klikni »ZAČNI«.</p>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      const startForm = document.getElementById('start-form');
+      const countInput = document.getElementById('count-input');
+      const modeSelect = document.getElementById('mode-select');
+      const timerEl = document.getElementById('timer');
+      const questionText = document.getElementById('question-text');
+      const answerForm = document.getElementById('answer-form');
+      const answerInput = document.getElementById('answer-input');
+      const progressText = document.getElementById('progress-text');
+      const statusText = document.getElementById('status-text');
+      const historyList = document.getElementById('history-list');
+      const historyPanel = document.getElementById('history-panel');
+      const sidebarRestart = document.getElementById('sidebar-restart');
+      const container = document.getElementById('container');
+      const topRow = document.getElementById('top-row');
+      const progressWrap = document.getElementById('progress-wrap');
+      const readyScreen = document.getElementById('ready-screen');
+      const restartButton = document.getElementById('restart-button');
+      const historyCount = document.getElementById('history-count');
+      const correctCount = document.getElementById('correct-count');
+      const wrongCount = document.getElementById('wrong-count');
+
+      let targetCount = 0;
+      let answered = 0;
+      let correct = 0;
+      let currentQuestion = null;
+      let currentMode = 'multiply';
+      let startTime = null;
+      let timerHandle = null;
+      let running = false;
+      let questionStartAt = null;
+
+      const pad = (num) => String(num).padStart(2, '0');
+      const formatSeconds = (ms) => `${(ms / 1000).toFixed(1)} s`;
+
+      const formatQuestion = (q, fill = '_____') => {
+        const slotA = q.missing === 'a' ? fill : q.a;
+        const slotB = q.missing === 'b' ? fill : q.b;
+        const slotR = q.missing === 'result' ? fill : q.result;
+        return `${slotA} ${q.op} ${slotB} = ${slotR}`;
+      };
+
+      const getCorrectAnswer = (q) => {
+        if (q.missing === 'a') return q.a;
+        if (q.missing === 'b') return q.b;
+        return q.result;
+      };
+
+      const renderQuestion = (q) => {
+        questionText.innerHTML = '';
+
+        const addPart = (value, missing) => {
+          if (missing) {
+            answerInput.value = '';
+            questionText.append(answerInput);
+          } else {
+            const span = document.createElement('span');
+            span.textContent = value;
+            questionText.append(span);
+          }
+        };
+
+        addPart(q.a, q.missing === 'a');
+        const op = document.createElement('span');
+        op.textContent = ` ${q.op} `;
+        questionText.append(op);
+        addPart(q.b, q.missing === 'b');
+        const eq = document.createElement('span');
+        eq.textContent = ' = ';
+        questionText.append(eq);
+        addPart(q.result, q.missing === 'result');
+      };
+
+      const setStage = (stage) => {
+        const isReady = stage === 'ready';
+        container.classList.toggle('ready-mode', isReady);
+        readyScreen.classList.toggle('hidden', !isReady);
+        historyPanel.classList.toggle('hidden', isReady);
+        topRow.classList.toggle('hidden', isReady);
+        progressWrap.classList.toggle('hidden', isReady);
+        answerForm.classList.toggle('hidden', isReady);
+        restartButton.classList.toggle('hidden', stage !== 'finished');
+        answerInput.classList.toggle('hidden', stage === 'finished');
+        answerInput.disabled = stage !== 'running';
+
+        if (isReady) {
+          questionText.textContent = 'Pripravljeno?';
+          progressText.textContent = '0/0';
+          statusText.textContent = 'Vpiši število računov in pritisni »ZAČNI«.';
+        }
+      };
+
+      const updateTimer = () => {
+        if (!startTime) return;
+        const elapsed = Date.now() - startTime;
+        const minutes = Math.floor(elapsed / 60000);
+        const seconds = Math.floor((elapsed % 60000) / 1000);
+        timerEl.textContent = `${pad(minutes)}:${pad(seconds)}`;
+      };
+
+      const stopTimer = () => {
+        if (timerHandle) {
+          clearInterval(timerHandle);
+          timerHandle = null;
+        }
+        updateTimer();
+      };
+
+      const startTimer = () => {
+        startTime = Date.now();
+        updateTimer();
+        timerHandle = setInterval(updateTimer, 200);
+      };
+
+      const focusAnswer = () => {
+        requestAnimationFrame(() => answerInput.focus());
+      };
+
+      const randomInt = (min, max) =>
+        Math.floor(Math.random() * (max - min + 1)) + min;
+
+      const randomQuestion = (mode) => {
+        if (mode === 'add') {
+          const missing = ['result', 'a', 'b'][randomInt(0, 2)];
+          if (missing === 'result') {
+            const a = randomInt(0, 100);
+            const b = randomInt(0, 100 - a);
+            return { a, b, op: '+', result: a + b, missing };
+          }
+          if (missing === 'a') {
+            const b = randomInt(0, 100);
+            const result = randomInt(b, 100);
+            const a = result - b;
+            return { a, b, op: '+', result, missing };
+          }
+          // missing b
+          const a = randomInt(0, 100);
+          const result = randomInt(a, 100);
+          const b = result - a;
+          return { a, b, op: '+', result, missing };
+        }
+        if (mode === 'subtract') {
+          const missing = ['result', 'a', 'b'][randomInt(0, 2)];
+          if (missing === 'result') {
+            const a = randomInt(0, 100);
+            const b = randomInt(0, a);
+            return { a, b, op: '−', result: a - b, missing };
+          }
+          if (missing === 'a') {
+            const result = randomInt(0, 100);
+            const b = randomInt(0, 100 - result);
+            const a = result + b;
+            return { a, b, op: '−', result, missing };
+          }
+          // missing b
+          const a = randomInt(0, 100);
+          const result = randomInt(0, a);
+          const b = a - result;
+          return { a, b, op: '−', result, missing };
+        }
+        const missing = 'result';
+        const a = randomInt(1, 10);
+        const b = randomInt(1, 10);
+        return { a, b, op: '×', result: a * b, missing };
+      };
+
+      const showQuestion = (q) => {
+        currentQuestion = q;
+        questionStartAt = Date.now();
+        renderQuestion(q);
+        answerInput.disabled = false;
+        focusAnswer();
+      };
+
+      const resetHistory = () => {
+        historyList.innerHTML = '';
+      };
+
+      const addHistory = (q, userAnswer, ok, elapsedMs) => {
+        const item = document.createElement('div');
+        item.className = 'history-item';
+
+        const info = document.createElement('div');
+        info.className = 'info';
+
+        const eq = document.createElement('span');
+        eq.className = 'eq';
+        const displayAnswer = Number.isNaN(userAnswer) ? '—' : userAnswer;
+        const missingValue = q.missing ? displayAnswer : null;
+
+        const makePart = (value, underline) => {
+          const span = document.createElement('span');
+          span.textContent = value;
+          if (underline) span.classList.add('missing-slot');
+          return span;
+        };
+
+        eq.append(
+          makePart(q.a, q.missing === 'a'),
+          document.createTextNode(` ${q.op} `),
+          makePart(q.b, q.missing === 'b'),
+          document.createTextNode(' = '),
+          makePart(q.result, q.missing === 'result')
+        );
+
+        // Replace the missing slot content with the user's answer display.
+        const missingSpan =
+          q.missing === 'a'
+            ? eq.childNodes[0]
+            : q.missing === 'b'
+            ? eq.childNodes[2]
+            : eq.childNodes[4];
+        missingSpan.textContent = missingValue ?? missingSpan.textContent;
+
+        if (!ok) {
+          const correct = document.createElement('span');
+          correct.className = 'eq-correct';
+          const correctValue = getCorrectAnswer(q);
+          correct.textContent = `pravilno: ${correctValue}`;
+          eq.append(correct);
+        }
+
+        const note = document.createElement('span');
+        note.className = 'note';
+        const timeTxt = `čas: ${formatSeconds(elapsedMs)}`;
+        note.textContent = timeTxt;
+
+        const mark = document.createElement('span');
+        mark.className = 'mark';
+        mark.textContent = ok ? '✅' : '❌';
+
+        info.append(eq, note);
+        item.append(info, mark);
+        historyList.prepend(item);
+      };
+
+      const updateProgress = () => {
+        // Hide main counter; show stats in sidebar
+        progressText.textContent = '';
+        const wrong = answered - correct;
+        historyCount.textContent = `(${answered})`;
+        correctCount.textContent = correct;
+        wrongCount.textContent = wrong;
+      };
+
+      const gradeFor = (percentage) => {
+        if (percentage >= 90) return 'Odlično (5)';
+        if (percentage >= 80) return 'Prav dobro (4)';
+        if (percentage >= 65) return 'Dobro (3)';
+        if (percentage >= 50) return 'Zadostno (2)';
+        return 'Nezadostno (1)';
+      };
+
+      const remainingText = (n) => {
+        if (n === 1) return '1 račun';
+        if (n === 2) return '2 računa';
+        if (n === 3 || n === 4) return `${n} računi`;
+        return `${n} računov`;
+      };
+
+      const finishSession = () => {
+        running = false;
+        stopTimer();
+        answerInput.disabled = true;
+        currentQuestion = null;
+        questionStartAt = null;
+
+        const pct = targetCount ? (correct / targetCount) * 100 : 0;
+        const grade = gradeFor(pct);
+        questionText.textContent = `Ocena: ${pct.toFixed(1)}% — ${grade}`;
+        statusText.textContent = 'Klikni »Nova igra« za nov krog.';
+        setStage('finished');
+      };
+
+      const nextQuestion = () => {
+        if (answered >= targetCount) {
+          finishSession();
+          return;
+        }
+        showQuestion(randomQuestion(currentMode));
+        const remaining = targetCount - answered;
+        statusText.textContent = `Še ${remainingText(remaining)} do konca.`;
+      };
+
+      const startSession = (count, mode) => {
+        currentMode = mode;
+        targetCount = count;
+        answered = 0;
+        correct = 0;
+        running = true;
+        resetHistory();
+        updateProgress();
+        statusText.textContent = `Rešil boš ${targetCount} računov. Veliko sreče!`;
+        timerEl.textContent = '00:00';
+        stopTimer();
+        startTimer();
+        setStage('running');
+        nextQuestion();
+      };
+
+      const goToReady = () => {
+        running = false;
+        startTime = null;
+        questionStartAt = null;
+        stopTimer();
+        timerEl.textContent = '00:00';
+        answerInput.value = '';
+        answerInput.disabled = true;
+        setStage('ready');
+        countInput.focus();
+        historyCount.textContent = '(0)';
+        correctCount.textContent = '0';
+        wrongCount.textContent = '0';
+      };
+
+      startForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const desired = parseInt(countInput.value, 10);
+        if (!desired || desired <= 0) {
+          statusText.textContent = 'Vnesi pozitivno število računov.';
+          countInput.focus();
+          return;
+        }
+        const selectedMode = modeSelect.value;
+        startSession(desired, selectedMode);
+      });
+
+      answerForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        if (!running || !currentQuestion) return;
+
+        const raw = answerInput.value.trim();
+        if (raw === '') {
+          statusText.textContent = 'Vpiši rezultat in pritisni Enter.';
+          focusAnswer();
+          return;
+        }
+        const userNumber = Number(raw);
+        const correctValue = getCorrectAnswer(currentQuestion);
+        const isCorrect = userNumber === correctValue;
+        const timeTaken = questionStartAt ? Date.now() - questionStartAt : 0;
+
+        answered += 1;
+        if (isCorrect) correct += 1;
+        addHistory(currentQuestion, userNumber, isCorrect, timeTaken);
+        updateProgress();
+
+        if (answered >= targetCount) {
+          finishSession();
+          return;
+        }
+
+        nextQuestion();
+      });
+
+      restartButton.addEventListener('click', goToReady);
+      sidebarRestart.addEventListener('click', goToReady);
+
+      window.addEventListener('load', () => {
+        goToReady();
+      });
+    </script>
+  </body>
+</html>

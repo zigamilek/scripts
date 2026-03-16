@@ -1,0 +1,2679 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "nutrition",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                "_type": "program",
+                "slug": "nutrition",
+                "title": "Nutrition",
+                "subtitle": null,
+                "brandCode": "NLP",
+                "classification": [
+                  "nutrition"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "Nutrition",
+                  "description": "Dig in and enjoy!",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f5134da8641c03840ecc45bef96251b9762d0fbe-1125x750.jpg"
+                  }
+                },
+                "trainers": null,
+                "colorPrimary": "#1aa444",
+                "colorPrimaryOptions": {
+                  "argb": "#1aa444",
+                  "rgba": "#1aa444"
+                },
+                "descriptionShort": "Dig in and enjoy!",
+                "descriptionLong": "Let's eat! Dig in to plans that make every bite delicious (they're even good for you). Plus nutritional supplements that actually work. Get ready to feel great and reach your goals.",
+                "sampleWorkoutId": null,
+                "trailerId": "A3jSdym3jf5hqTWanxQHEz",
+                "videoOverviewId": "A3jSdym3jf5hqTWanxQHEz",
+                "descriptionOverview": "Delicious eating plans, recipes and the supplements your body needs.",
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/nutrition"
+                },
+                "commitment": null,
+                "duration": null,
+                "itemCount": null,
+                "commerce": {
+                  "title": "BODi Membership Required",
+                  "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                  "purchaseAction": {
+                    "title": "Learn More",
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": null,
+                "equipmentRecommended": null,
+                "categories": null,
+                "level": null,
+                "artwork": {
+                  "theme": "light",
+                  "gradientOpacity": 70,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1dd69d14c2d46f27c6d7f963d15b63d5e8f46082-2499x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4ca842b664dd6f5c7a0757e851aef7de5c728a5b-2499x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": null
+                  },
+                  "loopingVideoPortrait": {
+                    "url": null
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e8bb2759d89176ecbc521a3694d3b8ea67df58c3-1600x1600.jpg"
+                  },
+                  "imagePortrait": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/77f154ef981acfcbac309e9accea547d317f4440-1125x2001.jpg"
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/aa196865db7e7fd0d2b857b5964dfedaa7f0573a-1920x652.jpg"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/089fcfe939b3081311d901932f58a2c0eac817ef-2560x750.jpg"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6f8908f5e438dd00bd7862abe711228630b0f7c1-776x964.jpg"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f5134da8641c03840ecc45bef96251b9762d0fbe-1125x750.jpg"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f5134da8641c03840ecc45bef96251b9762d0fbe-1125x750.jpg"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Eating Plans",
+                    "slug": "eating-plans",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "",
+                        "categories": "",
+                        "colorPrimary": "#1aa444",
+                        "colorPrimaryOptions": {
+                          "argb": "#1aa444",
+                          "rgba": "#1aa444"
+                        },
+                        "descriptionOverview": "Delicious eating plans, recipes and the supplements your body needs.",
+                        "media": {
+                          "_id": "A3jSdym3jf5hqTWanxQHEz",
+                          "_type": "promo",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bf6795c9e2200850ea2ef541d7a81f85efb472ce-1310x698.jpg"
+                          },
+                          "videoId": "NLP0002",
+                          "title": "Introducing BODi Nutrition",
+                          "subtitle": "2m",
+                          "catalog": "bod"
+                        },
+                        "statistics": []
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvdPAb2",
+                        "_type": "collection",
+                        "slug": "nlp-explore-our-eating-plans",
+                        "title": "Explore Our Eating Plans",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "Q6j5eG7tj3PSUghmZtl9MR",
+                          "BoGK5VlBLllbPFYTvdMWaW",
+                          "BoGK5VlBLllbPFYTvdMWfw",
+                          "BoGK5VlBLllbPFYTvdMXhA"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZtsVfn",
+                        "_type": "editorial",
+                        "slug": "nutrition-want-to-ditch-the-diet-mindset",
+                        "title": "Want to ditch the \"diet\" mindset?",
+                        "subtitle": null,
+                        "content": "2B Mindset can help you achieve a healthy relationship with food and make reaching your goals a positive experience.\r\n\r\n\u2022 Provides you with proven guidelines to follow\r\n\u2022 Designed for those who like to eat a lot of food\r\n\u2022 Fully savor treats and wine with a positive mindset",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4d656bbad9f6a6fa7bc223024889ad72be38162d-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Get Started",
+                          "url": "https://www.beachbodyondemand.com/programs/2b-mindset/start-here?referralprogramid=2BM&#038;trainername=IlanaMuhlstein%2C%20MS%2C%20RDN"
+                        }
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZtsVxP",
+                        "_type": "editorial",
+                        "slug": "nutrition-looking-to-get-your-portions-under-control",
+                        "title": "Looking to get your portions under control?",
+                        "subtitle": null,
+                        "content": "Portion Fix gives you control of your food without counting calories, without deprivation, and you get to eat the foods you love.\r\n\r\n\u2022 Completely customizable for the way you like to eat\r\n\u2022 Provides a specific game plan so you can get the results you want\r\n\u2022 Enjoy alcohol and desserts",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/483025668df9b7ec72438fdd611ce9b4d2895ffa-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Get Started",
+                          "url": "https://www.beachbodyondemand.com/programs/ultimate-portion-fix/start-here?referralprogramid=UPF&#038;trainername=AutumnCalabrese"
+                        }
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A87xSt0",
+                        "_type": "editorial",
+                        "slug": "nutrition-go-with-your-gut",
+                        "title": "Go with your gut",
+                        "subtitle": null,
+                        "content": "Thousands of people went a step further\u2014and saw incredible changes. The 4 Week Gut Protocol is a comprehensive nutrition program that shows you how the food you eat impacts your gut and overall health.\r\n\r\n\u2022 Helps reduce gas, bloating, constipation, indigestions, and other gut issues\r\n\u2022 Includes a no-impact workout program",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c750a34d0369ee07b81fd3a37676ba3362b93f14-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Get Started",
+                          "url": "https://www.teambeachbody.com/shop/us/b/nutrition-programs/4weekgutprotocol"
+                        }
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvdPAu0",
+                        "_type": "editorial",
+                        "slug": "nutrition-what-to-eat-when-youre-expecting",
+                        "title": "What to eat when you're expecting",
+                        "subtitle": null,
+                        "content": "2B Pregnant was created to give you the healthy nutrition that you and your growing baby need.\r\n\r\n\u2022 Perfect if you are pregnant or planning to be\r\n\r\n\u2022 Strategies to deal with cravings and every obstacle\r\n\r\n\u2022 Includes trimester-specific advice",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f58c97c8f986d1c45d20ca82b7ea248a2fea5540-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Get Started",
+                          "url": "https://www.beachbodyondemand.com/programs/2b-pregnant/start-here"
+                        }
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A87xT3G",
+                        "_type": "editorial",
+                        "slug": "nutrition-need-help-picking-the-right-eating-plan",
+                        "title": "Need Help Picking the Right Eating Plan?",
+                        "subtitle": null,
+                        "content": "Take Our Quiz. Answer a few quick questions and we\u2019ll help you determine which eating plan is best suited for you!",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/956200984f498b10cadc7baff454db32e0c6cde0-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Get Started",
+                          "url": "https://www.teambeachbody.com/micro-site/nutrition-plus/index.html#/en"
+                        }
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFSVSV",
+                        "_type": "collection",
+                        "slug": "nlp-get-all-recipes",
+                        "title": "Get All Recipes",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "m3oJOmwtGTHN4aLuokZdVg",
+                          "m3oJOmwtGTHN4aLuoo5yqB",
+                          "1uXrzdYhPY3l3Xq1wX9XKJ"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Shakeology",
+                    "slug": "shakeology",
+                    "modules": [
+                      {
+                        "_id": "NWOt1I2xWP7xm05A87x2cX",
+                        "_type": "collection",
+                        "slug": "nlp-shakeology-superfood-desserts",
+                        "title": "Shakeology Superfood Nutrition",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A87v3WX",
+                          "BoGK5VlBLllbPFYTvdMcvQ",
+                          "BoGK5VlBLllbPFYTvdMYiO"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZtrR2J",
+                        "_type": "collection",
+                        "slug": "nlp-popular-superfood-dessert-recipes",
+                        "title": "Popular Shakeology Recipes",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "ZXgT3JJ5F9XAbkOjbfMqMN",
+                          "NWOt1I2xWP7xm05A87v4Ai",
+                          "DbTqvdcGi910mcIsEmU2te",
+                          "Q6j5eG7tj3PSUghmZtlS1r",
+                          "Q6j5eG7tj3PSUghmZtlT7n",
+                          "NWOt1I2xWP7xm05A87v5Hx",
+                          "Q6j5eG7tj3PSUghmZtljTn",
+                          "BoGK5VlBLllbPFYTvdMpYW",
+                          "Q6j5eG7tj3PSUghmZtmGv5",
+                          "Q6j5eG7tj3PSUghmZtmWmt",
+                          "P7K7CniZiEpyz6U6gpjo9c"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZtrbkZ",
+                        "_type": "collection",
+                        "slug": "nlp-shakeology-recipe-books",
+                        "title": "Shakeology Recipe Books",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "pXdGMJsAgIJ7DBhBv3HYnI",
+                          "Q6j5eG7tj3PSUghmZtmxc3",
+                          "Q6j5eG7tj3PSUghmZtnFup",
+                          "Q6j5eG7tj3PSUghmZtnM0F",
+                          "BoGK5VlBLllbPFYTvdNQPg",
+                          "Q6j5eG7tj3PSUghmZtnv9D",
+                          "Q6j5eG7tj3PSUghmZtoGop"
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFSVSV",
+                        "_type": "collection",
+                        "slug": "nlp-get-all-recipes",
+                        "title": "Get All Recipes",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "m3oJOmwtGTHN4aLuokZdVg",
+                          "m3oJOmwtGTHN4aLuoo5yqB",
+                          "1uXrzdYhPY3l3Xq1wX9XKJ"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Nutritional Supplements",
+                    "slug": "nutritional-supplement",
+                    "modules": [
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvdOvJY",
+                        "_type": "collection",
+                        "slug": "nlp-feeling-and-performing-great-is-easier-when-your-supplements-actually-work",
+                        "title": "Nutrition Supplements",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "P7K7CniZiEpyz6U6gpjmnk",
+                          "NWOt1I2xWP7xm05A87uzms",
+                          "BoGK5VlBLllbPFYTvdMZlQ",
+                          "BoGK5VlBLllbPFYTvdMZzs",
+                          "Q6j5eG7tj3PSUghmZtlFAF",
+                          "BoGK5VlBLllbPFYTvdMa9o"
+                        ]
+                      },
+                      {
+                        "_id": "UqWqrADNH9eso22jUFSVSV",
+                        "_type": "collection",
+                        "slug": "nlp-get-all-recipes",
+                        "title": "Get All Recipes",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "m3oJOmwtGTHN4aLuokZdVg",
+                          "m3oJOmwtGTHN4aLuoo5yqB",
+                          "1uXrzdYhPY3l3Xq1wX9XKJ"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "1uXrzdYhPY3l3Xq1wX9XKJ": {
+                    "_id": "1uXrzdYhPY3l3Xq1wX9XKJ",
+                    "_type": "program",
+                    "slug": "the-4-week-gut-protocol-recipes",
+                    "brandCode": "GPR",
+                    "classification": [
+                      "nutrition"
+                    ],
+                    "dateLaunch": "2024-05-02",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=GPR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "The 4 Week Gut Protocol Recipes",
+                    "description": "It\u2019s time to feel great again",
+                    "descriptionShort": "It\u2019s time to feel great again",
+                    "descriptionLong": "Autumn and Bobby bring you balanced and delicious recipes that help keep your gut happy and make you feel great.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f687e81bb14baa003c332367e4f35cdeb25aed8e-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d1b3cfd3e4f71c922dbf978f69e4f9e02f878690-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d1b3cfd3e4f71c922dbf978f69e4f9e02f878690-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f687e81bb14baa003c332367e4f35cdeb25aed8e-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f687e81bb14baa003c332367e4f35cdeb25aed8e-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ca9d5d3c2ad92ada22d7b3d0487a2c72717ad8a7-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bf1c2cd33ed29fa6a47e8631b56c8ed796236cf3-916x358.png"
+                    },
+                    "trainers": null,
+                    "commitment": null,
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Recipes",
+                      "value": "20"
+                    },
+                    "itemCount": null,
+                    "level": null,
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Healthy Recipes",
+                        "slug": "healthy-recipes"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Balance",
+                        "slug": "balance"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "A3jSdym3jf5hqTWanxQHEz": {
+                    "_id": "A3jSdym3jf5hqTWanxQHEz",
+                    "_type": "promo",
+                    "slug": "bodi-nutrition-overview-sizzle-video-2-nlp0002",
+                    "brandCode": "NLP",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bf6795c9e2200850ea2ef541d7a81f85efb472ce-1310x698.jpg"
+                    },
+                    "title": "Introducing BODi Nutrition",
+                    "descriptionLong": "Learn all about our healthy eating plans plans, Superfood Dessert and other Nutritional supplements to complete your routine.",
+                    "trainers": [
+                      {
+                        "slug": "ilana-muhlstein",
+                        "firstName": "Ilana",
+                        "lastName": "Muhlstein, MS, RDN",
+                        "bio": "Ilana Muhlstein holds a Master of Science degree in applied nutrition from Northeastern University and is a Registered Dietitian Nutritionist\u2014the highest standard in the field of nutrition. She is also a mother of 3. She\u2019s the creator of 2B Pregnant and the 2B Mindset eating plan, and author of the bestselling book You Can Drop It! She was an obese child who lost over 100 pounds using the principles that became 2B Mindset.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/82b51c9a4a58145bea39755e3ecfa9aad1effbb0-860x1164.png"
+                          }
+                        }
+                      },
+                      {
+                        "slug": "autumn-calabrese-nutrition",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer and nutrition expert Autumn Calabrese is the creator of The 4 Week Gut Protocol, as well as other breakthrough fitness programs, the cooking show FIXATE, and the Portion Fix eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c17ee946e49f518757679e81841a9263315b0589-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "NLP0002",
+                      "durationActual": 110,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvdMWaW": {
+                    "_id": "BoGK5VlBLllbPFYTvdMWaW",
+                    "_type": "promo",
+                    "slug": "nlp-introduction-to-portion-fix-3-nlp0027",
+                    "brandCode": "NLP",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/62feecae4f1e9c0e2ec53b5027a8bf36a0a9b125-400x260.png"
+                    },
+                    "title": "Introduction to Portion Fix",
+                    "descriptionLong": "Autumn Calabrese introduces you to the Portion Fix program and shows you just how simple, satisfying, and delicious healthy eating can be, so you can get the most out of the program and achieve sustainable weight loss..",
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "NLP0027",
+                      "durationActual": 82,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvdMWfw": {
+                    "_id": "BoGK5VlBLllbPFYTvdMWfw",
+                    "_type": "promo",
+                    "slug": "nlp-introduction-to-the-4-week-gut-protocol-nlp0026",
+                    "brandCode": "NLP",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "durationEstimate": 240,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2eaffde3d5b8449121b2bb466470578c9fe4206b-730x496.jpg"
+                    },
+                    "title": "Introduction to The 4 Week Gut Protocol",
+                    "descriptionLong": "Autumn gives you an overview of The 4 Week Gut Protocol and explains the key steps you\u2019ll follow throughout the program. She\u2019s broken it all down so it\u2019s easy to get started and stay committed.",
+                    "trainers": [
+                      {
+                        "slug": "autumn-calabrese",
+                        "firstName": "Autumn",
+                        "lastName": "Calabrese",
+                        "bio": "Super Trainer Autumn Calabrese is the creator of 4 Weeks For Every Body\u2122, 21 Day Fix\u00ae and as well as other breakthrough fitness programs, the nutrition program The 4 Week Gut Protocol\u00ae, FIXATE\u00ae, and the Portion Fix\u00ae eating plan. She\u2019s a certified holistic health coach through the Institute of Integrative Nutrition and has held certifications from NASM and AFPA.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cec871a4835c894194fb36032bc2267132ea84f8-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "NLP0026",
+                      "durationActual": 217,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvdMXhA": {
+                    "_id": "BoGK5VlBLllbPFYTvdMXhA",
+                    "_type": "promo",
+                    "slug": "nlp-introduction-to-2b-pregnant-nlp0025",
+                    "brandCode": "NLP",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "durationEstimate": 60,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1fd303b5d7e60f65f1e345673a7c13f7fb6b60ea-730x496.jpg"
+                    },
+                    "title": "Introduction to 2B Pregnant",
+                    "descriptionLong": "2B Pregnant\u2122 gives you the tools you need to thrive during pregnancy and provides strategies to help you overcome obstacles like nausea and cravings, manage your weight gain, and enjoy delicious, satisfying food.",
+                    "trainers": [
+                      {
+                        "slug": "ilana-muhlstein",
+                        "firstName": "Ilana",
+                        "lastName": "Muhlstein, MS, RDN",
+                        "bio": "Ilana Muhlstein holds a Master of Science degree in applied nutrition from Northeastern University and is a Registered Dietitian Nutritionist\u2014the highest standard in the field of nutrition. She is also a mother of 3. She\u2019s the creator of 2B Pregnant and the 2B Mindset eating plan, and author of the bestselling book You Can Drop It! She was an obese child who lost over 100 pounds using the principles that became 2B Mindset.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/82b51c9a4a58145bea39755e3ecfa9aad1effbb0-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "NLP0025",
+                      "durationActual": 87,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvdMYiO": {
+                    "_id": "BoGK5VlBLllbPFYTvdMYiO",
+                    "_type": "resource",
+                    "slug": "nlp-your-feel-good-tracker-3714482",
+                    "primaryParent": {
+                      "_id": "NWOt1I2xWP7xm05A7ujC97",
+                      "_type": "program",
+                      "slug": "shakeology"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjqo",
+                        "slug": "po-freeuser",
+                        "title": "REGISTERED USER",
+                        "subtitle": null,
+                        "purchaseAction": {
+                          "title": null,
+                          "url": "https://www.beachbodyondemand.com/register-free?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "title": "Wellness Tracker",
+                    "categories": null,
+                    "description": "Shakeology helps you feel good from your very first sip, but if you want to track changes to your energy, cravings, mood, and regularity over time, download this handy tracker. You\u2019ll be amazed at how a consistent healthy habit can transform your well-being.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/58c21a46d025689de70e340c6830f1ac8d9ad812-400x260.jpg"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK_Refrigerator-Tracker_EN-US_BOD_043024-1.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/079702be9e4ed1cf30c95822634a4236bd26c723.pdf?file=SHK_Refrigerator-Tracker_EN-US_BOD_043024-1.pdf",
+                      "size": 560217
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvdMZlQ": {
+                    "_id": "BoGK5VlBLllbPFYTvdMZlQ",
+                    "_type": "resource",
+                    "slug": "nlp-a-candy-bar-isnt-a-snack-this-is-a-snack-3714494",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "A candy bar isn\u2019t a snack. THIS is a snack.",
+                    "categories": null,
+                    "description": "More protein and fiber and less sugar per calorie than other leading bars, BEACHBAR is a delicious snack to keep you on-track. (Try Mint Chocolate Chip and thank us later.)\r\n\r\n\u2022 Peanut Butter Chocolate, Chocolate Almond Crunch, and Mint Chocolate Chip \r\n\r\n\u2022 9\u201310g of protein, 5\u20136g of sugar, and only 150 calories",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/eba82976c49ffd488d847059bfe7f07b37ed0970-400x260.jpg"
+                    },
+                    "link": "https://www.teambeachbody.com/shop/us/b/nutrition-supplement/beachbar",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvdMZzs": {
+                    "_id": "BoGK5VlBLllbPFYTvdMZzs",
+                    "_type": "resource",
+                    "slug": "nlp-your-own-personal-smoothie-bar-3714495",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Your own personal smoothie bar",
+                    "categories": null,
+                    "description": "Add a boost to customize your shake to your needs. From skin-enhancing collagen, greens and fiber for gut health, even a boost of quality energy. See what works for you.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2e790b73682bf26d93ad88d9249b4ed59db851da-400x260.jpg"
+                    },
+                    "link": "https://www.teambeachbody.com/shop/us/b/nutrition-supplement?subcategory=BeachbodyCollagenBoosts&locale=en_US",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvdMa9o": {
+                    "_id": "BoGK5VlBLllbPFYTvdMa9o",
+                    "_type": "resource",
+                    "slug": "nlp-wake-up-early-get-sht-done-then-sleep-like-a-baby-3714497",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Wake up early, get sh*t done, then sleep like a baby",
+                    "categories": null,
+                    "description": "It\u2019s a tough world out there. Radically transform your wellness and sleep routine. \r\n\r\n\u2022 First Thing is your all-in-one daily defense to help you start each day with healthy energy, calm focus, and immune support*\r\n\r\n\u2022 Last Thing helps you unwind at night to fall asleep faster and stay asleep longer, and fight the effects of daily stress*",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0c5e64b46798d87cb57b32e4b2d49c380882e046-400x260.jpg"
+                    },
+                    "link": "https://www.firstthing.com",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvdMcvQ": {
+                    "_id": "BoGK5VlBLllbPFYTvdMcvQ",
+                    "_type": "recipe",
+                    "slug": "nlp-9-reasons-to-eat-more-dessert",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Daily Nutrition: Solved",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/06f4dd264fd873a768f7603c73951eb00a388a1a-930x960.jpg"
+                    },
+                    "descriptionLong": "It\u2019s comprehensive, whole-food based nutrition in one daily scoop. The highest quality most potent blend of protein, probiotics, digestive enzymes, antioxidants, adaptogens, phytonutrients, and more.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "shk-daily-nutrition-solved-pdp-930-960-en-us-041724.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/30329b111fea551aa2a5122c50dd100f6069b65b.pdf?file=shk-daily-nutrition-solved-pdp-930-960-en-us-041724.pdf",
+                      "size": 1274625
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvdMpYW": {
+                    "_id": "BoGK5VlBLllbPFYTvdMpYW",
+                    "_type": "recipe",
+                    "slug": "nlp-maple-and-brown-sugar-overnight-oats",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Maple and \"Brown Sugar\" Overnight Oats",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a9cb5a72868293df707948403b0989ade1cddcd1-400x260.jpg"
+                    },
+                    "descriptionLong": "The combination of Caf\u00e9 Latte Shakeology, nutmeg, chopped pecans, and maple syrup is like a warm, nostalgic hug for your taste buds.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK_MapleBrownSugarOvernight.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/83a01db9a3c2e9178e3b037c100979c6dc542c51.pdf?file=SHK_MapleBrownSugarOvernight.pdf",
+                      "size": 4392430
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvdNQPg": {
+                    "_id": "BoGK5VlBLllbPFYTvdNQPg",
+                    "_type": "recipe",
+                    "slug": "nlp-30-ways-to-shake-strawberry",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "I Love Strawberry Cookbook",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a23aead26d82ceeaba061c514988a57311b9d950-400x260.png"
+                    },
+                    "descriptionLong": "Delicious and creative strawberry superfood dessert recipes.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "I-LOVE-STRAWBERRY-COOKBOOK.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/0abe5e76877bf06dab914b0b46b88388c65caf39.pdf?file=I-LOVE-STRAWBERRY-COOKBOOK.pdf",
+                      "size": 14683703
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "DbTqvdcGi910mcIsEmU2te": {
+                    "_id": "DbTqvdcGi910mcIsEmU2te",
+                    "_type": "resource",
+                    "slug": "nlp-simple-pancakes-3714452",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Simple Pancakes",
+                    "categories": null,
+                    "description": "Our Shakeology Pancakes recipe will take you back, but with a modern twist\u2014these include a scoop of delicious Vanilla Shakeology for a hit of superfood nutrition.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ec220a77ae703e8a20dfd3ae357c58ed16347d9d-400x260.jpg"
+                    },
+                    "link": "https://www.beachbodyondemand.com/blog/shakeology-pancakes",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A87uzms": {
+                    "_id": "NWOt1I2xWP7xm05A87uzms",
+                    "_type": "resource",
+                    "slug": "nlp-the-right-supplements-make-all-the-difference-3714493",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Energize is your pre-workout best friend. Seriously.",
+                    "categories": null,
+                    "description": "Taking a pre-workout supplement like Energize can help boost your energy level, like a cleaner, smarter alternative to coffee.* Taking Energize before your workouts can help promote endurance and sharpen your focus, so you experience things you never imagined your body was capable of.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bc056b3ee42f5127696c9219ee1fee3630493dd0-416x276.jpg"
+                    },
+                    "link": "https://www.teambeachbody.com/shop/us/d/beachbody-performance-energize-BBPEnergizeAllFlavors",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A87v3WX": {
+                    "_id": "NWOt1I2xWP7xm05A87v3WX",
+                    "_type": "recipe",
+                    "slug": "nlp-more-than-just-a-protein-shake",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Feel the Difference",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/627d69d5845b41e1ecc5918f55bdb0c8b1fab8f0-930x960.jpg"
+                    },
+                    "descriptionLong": "Shakeology is clinically tested for real results, and helps provide healthy energy, gut health, lean muscle, and overall health & well-being.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "shk-7-unique-benefits-pdp-930-960-en-us-041824.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/bfdeb8d7cdadaa52c9215f2138fc1d3d22168073.pdf?file=shk-7-unique-benefits-pdp-930-960-en-us-041824.pdf",
+                      "size": 127468
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A87v4Ai": {
+                    "_id": "NWOt1I2xWP7xm05A87v4Ai",
+                    "_type": "recipe",
+                    "slug": "nlp-almond-maple-dream-shakeology",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Almond Maple Dream Shakeology",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b11ac3f87e1f697dff7c59f1050b2dfc86975e11-400x260.jpg"
+                    },
+                    "descriptionLong": "Our Almond Maple Dream Shakeology blends this winning combo with a scoop of Chocolate Shakeology for a satisfying and delicious smoothie.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK_AlmondDream_shake.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/cb565defd398df9ac9342cfa6a5e0fbd05180efb.pdf?file=SHK_AlmondDream_shake.pdf",
+                      "size": 558406
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A87v5Hx": {
+                    "_id": "NWOt1I2xWP7xm05A87v5Hx",
+                    "_type": "recipe",
+                    "slug": "nlp-banana-split",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Banana Split",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bf6f5dea2e4d88ef030c76c3c0308624627930f6-400x260.jpg"
+                    },
+                    "descriptionLong": "This banana split recipe with Cookies & Creamy Shakeology reimagines that childhood dessert and kicks it up several notches by making it a snack you can have every single day.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK_BananaSplit.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/d18ba5bb3ede8f1eb2da50f351cc96af250c969c.pdf?file=SHK_BananaSplit.pdf",
+                      "size": 665922
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "P7K7CniZiEpyz6U6gpjmnk": {
+                    "_id": "P7K7CniZiEpyz6U6gpjmnk",
+                    "_type": "resource",
+                    "slug": "nlp-say-yes-to-dessert-3714492",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Feel the difference",
+                    "categories": null,
+                    "description": "When you feed your body the crucial nutrients found in Shakeology, you feel amazing. Shakeology is the highest quality most potent blend of protein, probiotics, digestive enzymes, antioxidants, adaptogens, phytonutrients, and more for better energy, digestion, and gut health.*",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6c36924fc08f3520cef6f67b8958cae277c0f2b8-400x260.jpg"
+                    },
+                    "link": "https://www.teambeachbody.com/shop/us/shakeology",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "P7K7CniZiEpyz6U6gpjo9c": {
+                    "_id": "P7K7CniZiEpyz6U6gpjo9c",
+                    "_type": "resource",
+                    "slug": "nlp-shakeology-recipes-that-are-insanely-delicious-3714449",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Shakeology recipes that are insanely delicious",
+                    "categories": null,
+                    "description": "Did you know that you can eat more dessert AND fuel your body with superfood nutrition at the same time? Read all about it here.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2da85b4c12cbfe80561aac6aa0406b354feb1b35-400x260.jpg"
+                    },
+                    "link": "https://www.beachbodyondemand.com/blog/shakeology-desserts",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtl9MR": {
+                    "_id": "Q6j5eG7tj3PSUghmZtl9MR",
+                    "_type": "promo",
+                    "slug": "nlp-introduction-to-2b-mindset-nlp0023",
+                    "brandCode": "NLP",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c31e5e0e96f3277cc87736e97d5387422e94faa1-400x260.png"
+                    },
+                    "title": "Introduction to 2B Mindset",
+                    "descriptionLong": "2B Mindset, created by Ilana Muhlstein, MS, RDN, is designed to help you enjoy satisfying meals, achieve a healthy relationship with food and make reaching your goals a positive experience. This proven plan has helped thousands of Ilana\u2019s clients reach their goals, and it\u2019s how Ilana lost 100 lbs. and kept it off as a mother of three. With a BODi membership, you\u2019ll get new recipes every month, plus 24/7 access to the 2B Mindset Exclusive Community, which includes ongoing support from Ilana with LIVE calls, to help you feel your best each day.",
+                    "trainers": [
+                      {
+                        "slug": "ilana-muhlstein",
+                        "firstName": "Ilana",
+                        "lastName": "Muhlstein, MS, RDN",
+                        "bio": "Ilana Muhlstein holds a Master of Science degree in applied nutrition from Northeastern University and is a Registered Dietitian Nutritionist\u2014the highest standard in the field of nutrition. She is also a mother of 3. She\u2019s the creator of 2B Pregnant and the 2B Mindset eating plan, and author of the bestselling book You Can Drop It! She was an obese child who lost over 100 pounds using the principles that became 2B Mindset.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/82b51c9a4a58145bea39755e3ecfa9aad1effbb0-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "NLP0023",
+                      "durationActual": 103,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtlFAF": {
+                    "_id": "Q6j5eG7tj3PSUghmZtlFAF",
+                    "_type": "resource",
+                    "slug": "nlp-rebalance-your-eating-habits-with-a-healthy-cleanse-3714496",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Rebalance your eating habits with a healthy cleanse",
+                    "categories": null,
+                    "description": "If you need a reboot to get back to feeling great, we have two great options for you.\r\n\r\n\u2022 3-Day Refresh helps you feel cleaner, lighter, and healthier\u2014without giving up food\r\n\r\n\u2022 Ultimate Reset is a 21-day cleanse that helps you break habits that no longer serve you for the incredible feeling of a powerful reboot",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7cf92c3ff70b607ca6338772b3d5431282f77014-416x276.jpg"
+                    },
+                    "link": "https://www.teambeachbody.com/shop/us/b/nutrition-programs/3dayrefresh?ICID=TBB_EVERGREENHERO_SHOPNOW_3DAYREFRESH",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtlS1r": {
+                    "_id": "Q6j5eG7tj3PSUghmZtlS1r",
+                    "_type": "recipe",
+                    "slug": "nlp-berry-pink",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Berry Pink",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9369929e627f64ca7984d22222307237d8c79192-400x260.jpg"
+                    },
+                    "descriptionLong": "Not only are the colors of this smoothie absolutely gorgeous, but it's also packed with the good stuff, like Vanilla Shakeology, strawberries, blackberries, and Greek yogurt.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK_BerryPink.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/c5a2481263963fb01b4931dd4c0100efcaf9229a.pdf?file=SHK_BerryPink.pdf",
+                      "size": 771005
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtlT7n": {
+                    "_id": "Q6j5eG7tj3PSUghmZtlT7n",
+                    "_type": "recipe",
+                    "slug": "nlp-cookies-creamy-nice-cream",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Cookies & Creamy Nice Cream",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3422ae8e8f72ec4c2452b6eeea5775ad29b81e65-400x260.jpg"
+                    },
+                    "descriptionLong": "A cold bowl of ice cream on a hot day (or any day, really!) sounds like heaven, but it\u2019s not a great treat when you\u2019re trying to keep your nutrition on point. So we came up with this easy \u201cnice cream\u201d recipe that\u2019s delicious and will help you stay on-track year-round!",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK_CookiesNiceCream.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/765dc371db0279e0967cdfb05c448e0c3f4d1f35.pdf?file=SHK_CookiesNiceCream.pdf",
+                      "size": 565548
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtljTn": {
+                    "_id": "Q6j5eG7tj3PSUghmZtljTn",
+                    "_type": "recipe",
+                    "slug": "nlp-strawberries-and-cream-mousse",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Strawberries and Cream Mousse",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b3ee665d0f292891df2ff5c73312caae466900fc-416x276.jpg"
+                    },
+                    "descriptionLong": "All you need to make this delectably creamy Strawberries and Cream Mousse is five ingredients: Strawberry Shakeology, cottage cheese, almond milk, and sliced strawberries and almonds for garnish.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK_StrawberriesCreamMousse.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/7f2cebe459607332ec032efccafd6f149dde650e.pdf?file=SHK_StrawberriesCreamMousse.pdf",
+                      "size": 4546339
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtmGv5": {
+                    "_id": "Q6j5eG7tj3PSUghmZtmGv5",
+                    "_type": "recipe",
+                    "slug": "nlp-mocha-caramel-latte",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Mocha Caramel Latte",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d91b6d87e7b41ebdf8b73036fe48c4a6ff7bad99-400x260.jpg"
+                    },
+                    "descriptionLong": "This Mocha Caramel Latte Shakeology recipe has all the flavor of a frosty dessert beverage.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK_MochaCaramelLatte.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/a2f1050fbd7884720efdff505756d6bb67af99a0.pdf?file=SHK_MochaCaramelLatte.pdf",
+                      "size": 7275726
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtmWmt": {
+                    "_id": "Q6j5eG7tj3PSUghmZtmWmt",
+                    "_type": "recipe",
+                    "slug": "nlp-chocolate-peanut-butter-ice-cream",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Chocolate Peanut Butter Ice Cream",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1ae193ef5631b3861e16b5406590637f8524fbee-400x260.png"
+                    },
+                    "descriptionLong": "This is the ice cream you\u2019ve been waiting for\u2014it\u2019s rich and creamy, with just the right amount of sweetness, and it\u2019s made from just four ingredients.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "ChocPBIceCream-1.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/e7e24d9534d8c6e1931363af700a4e2d4294a7b2.pdf?file=ChocPBIceCream-1.pdf",
+                      "size": 558444
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtmxc3": {
+                    "_id": "Q6j5eG7tj3PSUghmZtmxc3",
+                    "_type": "recipe",
+                    "slug": "nlp-30-ways-to-shake-chocolate",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "I Love Chocolate Cookbook",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3cec3bb0fb6c593d08e7f9752b9d3eeee364cd12-400x260.png"
+                    },
+                    "descriptionLong": "Delicious and creative chocolate superfood recipes.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK-EN_US-Digital_Recipe_Book_0g_Added_Sugar_Chocolate-01.25.24.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/6dcb0a87b876d29a94b45f5c04eac8e81912ae97.pdf?file=SHK-EN_US-Digital_Recipe_Book_0g_Added_Sugar_Chocolate-01.25.24.pdf",
+                      "size": 41019751
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtnFup": {
+                    "_id": "Q6j5eG7tj3PSUghmZtnFup",
+                    "_type": "recipe",
+                    "slug": "nlp-30-ways-to-shake-vanilla",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "I Love Vanilla Cookbook",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/bfef82db083171ee1e58b1e0c3aaf3e892f6147c-400x260.png"
+                    },
+                    "descriptionLong": "Delicious and creative vanilla superfood recipes.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK-EN_US-Digital_Recipe_Book_0g_Added_Sugar_Vanilla-01.25.24.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/b165a21d16650d29d61503e34170a50e1068bfac.pdf?file=SHK-EN_US-Digital_Recipe_Book_0g_Added_Sugar_Vanilla-01.25.24.pdf",
+                      "size": 44112249
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtnM0F": {
+                    "_id": "Q6j5eG7tj3PSUghmZtnM0F",
+                    "_type": "recipe",
+                    "slug": "nlp-30-ways-to-shake-cookies-and-creamy",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "I Love Cookies & Creamy Cookbook",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5508b01160ad311f6d6dfce0f62ec1af7fdabbc-400x260.png"
+                    },
+                    "descriptionLong": "Delicious and creative cookies & creamy superfood dessert recipes.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "I-LOVE-COOKIES-CREAMY-COOKBOOK.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/1dfbee1484735c7feb2824d6d12cb7717ccfaad8.pdf?file=I-LOVE-COOKIES-CREAMY-COOKBOOK.pdf",
+                      "size": 13854016
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtnv9D": {
+                    "_id": "Q6j5eG7tj3PSUghmZtnv9D",
+                    "_type": "recipe",
+                    "slug": "nlp-30-ways-to-shake-cafe-latte",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "I Love Caf\u00e9 Latte Cookbook",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e6ea379a35c02e6c30c090061ab8bb87adb4b1ad-400x260.png"
+                    },
+                    "descriptionLong": "Delicious and creative caf\u00e9 latte superfood dessert recipes.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "I-LOVE-CAFE-LATTE-COOKBOOK.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/e51c4dc1072848f30c030f9649122a63dcb4c5af.pdf?file=I-LOVE-CAFE-LATTE-COOKBOOK.pdf",
+                      "size": 17082315
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZtoGop": {
+                    "_id": "Q6j5eG7tj3PSUghmZtoGop",
+                    "_type": "recipe",
+                    "slug": "nlp-treat-yourself",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Treat Yourself",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c97e712085e76df2626540f8957c6d18a978215b-400x260.png"
+                    },
+                    "descriptionLong": "Superfood Desserts to satisfy your cravings from simple shakes to delicious cakes",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK_BODi-EN_US-Eat_More_Dessert_Recipe_Book-03.29.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/fe8affaa3261e5f20f64564abba2932125bf4841.pdf?file=SHK_BODi-EN_US-Eat_More_Dessert_Recipe_Book-03.29.23.pdf",
+                      "size": 18402144
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "ZXgT3JJ5F9XAbkOjbfMqMN": {
+                    "_id": "ZXgT3JJ5F9XAbkOjbfMqMN",
+                    "_type": "resource",
+                    "slug": "nlp-24-no-bake-ball-recipes-3730435",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "24 No-Bake Ball Recipes",
+                    "categories": null,
+                    "description": "Treat yourself to our delicious no-bake balls and bites. These Superfood Desserts are perfect to satisfy your sweet and stay on track to your goals.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fca905dc76e61ce3e7008ad7d9ade8c8752dcc6d-400x260.png"
+                    },
+                    "link": "https://www.beachbodyondemand.com/blog/no-bake-energy-balls?referringrepid=411888",
+                    "file": null,
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "m3oJOmwtGTHN4aLuokZdVg": {
+                    "_id": "m3oJOmwtGTHN4aLuokZdVg",
+                    "_type": "program",
+                    "slug": "fixate-cooking-show",
+                    "brandCode": "FXR",
+                    "classification": [
+                      "nutrition"
+                    ],
+                    "dateLaunch": "2016-08-19",
+                    "commerce": {
+                      "title": "Try Portion Fix Today!",
+                      "subtitle": "(Not included in regular BOD membership)",
+                      "purchaseAction": {
+                        "title": "Shop Now",
+                        "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=UPF&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": "UPF"
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjuF",
+                        "slug": "po-ultportionfix",
+                        "title": "Try Portion Fix Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://www.teambeachbody.com/shop/b/nutrition-programs/ultimateportionfix?referralProgramId=FXR&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=FXR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Fixate",
+                    "description": "Healthy Portion Controlled recipes. Requires Beachbody On Demand membership.",
+                    "descriptionShort": "Healthy Portion Controlled recipes. Requires Beachbody On Demand membership.",
+                    "descriptionLong": "EASY TO FOLLOW. FAST RESULTS. Autumn teaches you how to use portion control containers to help give you the results you expect, while you still enjoy the food, drinks and desserts you love!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9b1881997be0f109a173f1df5c3ce942b2f3845b-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8f53240633ca84d3cb12aa23fa184b36bed2fcc4-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8f53240633ca84d3cb12aa23fa184b36bed2fcc4-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9b1881997be0f109a173f1df5c3ce942b2f3845b-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9b1881997be0f109a173f1df5c3ce942b2f3845b-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2a466a6b2dea4b012df3b35a577a1695090b13a2-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/7f1fe59895cc26440b6bb9dd3ebe8b1e810b6cdb-784x491.png"
+                    },
+                    "trainers": null,
+                    "commitment": null,
+                    "duration": null,
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Recipes",
+                      "value": "500"
+                    },
+                    "level": null,
+                    "stamps": null,
+                    "categories": null,
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "m3oJOmwtGTHN4aLuoo5yqB": {
+                    "_id": "m3oJOmwtGTHN4aLuoo5yqB",
+                    "_type": "program",
+                    "slug": "mindset-menu",
+                    "brandCode": "2BCS",
+                    "classification": [
+                      "nutrition"
+                    ],
+                    "dateLaunch": "2020-05-01",
+                    "commerce": {
+                      "title": "Try 2B Mindset Today!",
+                      "subtitle": "(Not included in regular BOD membership)",
+                      "purchaseAction": {
+                        "title": "Shop Now",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=2BM&locale=en_us"
+                      },
+                      "purchasePaths": "standalone",
+                      "referralId": "2BM"
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJk7z",
+                        "slug": "po-2bmindset",
+                        "title": "Try 2B Mindset Today!",
+                        "subtitle": "(Not included in regular BOD membership)",
+                        "purchaseAction": {
+                          "title": "Shop Now",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=2BCS&locale=en_us"
+                        },
+                        "purchasePath": "standalone"
+                      },
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=2BCS&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Mindset Menu",
+                    "description": "Flavorful meals for lasting results. Requires Beachbody On Demand membership.",
+                    "descriptionShort": "Flavorful meals for lasting results. Requires Beachbody On Demand membership.",
+                    "descriptionLong": "Craving something delicious? From sweets to comfort foods, and everything in between, Ilana\u2019s easy-to-make 2B Mindset recipes are sure to satisfy you while helping you achieve your goals.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3492d30c940fd6d80058e22cd22b5619c910658a-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54f2f8b1a51492b195183105ee39e3e8ff27ae41-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54f2f8b1a51492b195183105ee39e3e8ff27ae41-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3492d30c940fd6d80058e22cd22b5619c910658a-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/3492d30c940fd6d80058e22cd22b5619c910658a-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/4d02a4444de70eaeb10e96b1fcc0768d75b4c43e-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/267dc82eed8b3f53a6ffb5ba718355e4b7d284ee-718x299.png"
+                    },
+                    "trainers": null,
+                    "commitment": null,
+                    "duration": null,
+                    "itemCount": null,
+                    "level": null,
+                    "stamps": null,
+                    "categories": null,
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "pXdGMJsAgIJ7DBhBv3HYnI": {
+                    "_id": "pXdGMJsAgIJ7DBhBv3HYnI",
+                    "_type": "recipe",
+                    "slug": "pdp-i-love-snickerdoodle-cookbook",
+                    "brandCode": "NLP",
+                    "primaryParent": {
+                      "_id": "gAjyjR8IcIqVjU7DkPs6Js",
+                      "_type": "program",
+                      "slug": "nutrition"
+                    },
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=NLP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "I Love Snickerdoodle Cookbook",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5b771f0030f81f601e8fac0641fb7dc5c7788e6b-400x260.png"
+                    },
+                    "descriptionLong": "Delicious and creative snickerdoodle superfood dessert recipes.",
+                    "durationEstimate": null,
+                    "stamps": null,
+                    "music": null,
+                    "levels": null,
+                    "meals": null,
+                    "dishes": null,
+                    "ingredientsMain": null,
+                    "dietaryGroups": null,
+                    "nutritionPlanBucket": null,
+                    "containerQuantities": null,
+                    "containerQuantitiesVegan": null,
+                    "recipeLink": null,
+                    "recipeFile": {
+                      "extension": "pdf",
+                      "originalFilename": "SHK-EN_US-Digital_Recipe_Book_Snickerdoodle-09.14.23.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/ea09f93ebf8bc237da96c7543a772fb72cfe1fb1.pdf?file=SHK-EN_US-Digital_Recipe_Book_Snickerdoodle-09.14.23.pdf",
+                      "size": 18268835
+                    },
+                    "trainers": null,
+                    "video": null,
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223350864,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "nutrition",
+              "en-US"
+            ],
+            "queryHash": "[\"nutrition\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/nutrition/eating-plans",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "nutrition",
+      "eating-plans"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}

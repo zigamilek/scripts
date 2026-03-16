@@ -1,0 +1,2803 @@
+{
+  "props": {
+    "pageProps": {
+      "slug": "xb-stretch",
+      "icid": null,
+      "unificationUIConfiguration": null,
+      "reactQueryServerState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                "_type": "program",
+                "slug": "xb-stretch",
+                "title": "XB Stretch",
+                "subtitle": null,
+                "brandCode": "XBS",
+                "classification": [
+                  "fitness"
+                ],
+                "accessPolicies": [
+                  {
+                    "_id": "Q6j5eG7tj3PSUghmZ9ZWEd",
+                    "slug": "allaccess",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  },
+                  {
+                    "_id": "86cf2b74-5c2f-419f-be95-eda8613e4568",
+                    "slug": "bodi",
+                    "commerce": {
+                      "title": "BODi Membership Required",
+                      "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                      "purchaseAction": {
+                        "title": "Learn More",
+                        "url": "https://bodi.com/bodcheckout"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    }
+                  }
+                ],
+                "purchaseOptions": [
+                  {
+                    "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                    "slug": "po-bodi",
+                    "title": "BODi Membership Required",
+                    "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                    "purchaseAction": {
+                      "title": "Learn More",
+                      "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                    },
+                    "purchasePath": "subscription"
+                  }
+                ],
+                "seo": {
+                  "title": "XB Stretch - Full Body Stretch",
+                  "description": "XB Stretch led by certified instructor Andrea Rogers is a gentle stretching program that will help you release tension and improve flexibility. Sign up here!",
+                  "image": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a061331e96310f31941eec6a4d780eab8428cd32-1125x750.png"
+                  }
+                },
+                "trainers": [
+                  {
+                    "firstName": "Andrea",
+                    "lastName": "Rogers",
+                    "bioBodi": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                    "images": {
+                      "bubble": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cb24c0d8b6fc20b9278dd920c58cdd99597857f7-860x964.png"
+                      }
+                    }
+                  }
+                ],
+                "colorPrimary": "#f88379",
+                "colorPrimaryOptions": {
+                  "argb": "#f88379",
+                  "rgba": "#f88379"
+                },
+                "descriptionShort": "Stretch, relax and destress in 15 minutes or less.",
+                "descriptionLong": "Andrea makes adding stretching to your daily routine quick and easy. Improve your flexibility, posture and energy with total-body and targeting stretches you can do in as little as 5 to 15 minutes a day.",
+                "sampleWorkoutId": "jyITl2R0P6PN5zEcITleYR",
+                "trailerId": "A3jSdym3jf5hqTWanxLTsO",
+                "videoOverviewId": "jyITl2R0P6PN5zEcITleYR",
+                "descriptionOverview": null,
+                "share": {
+                  "url": "https://www.beachbodyondemand.com/programs/xb-stretch"
+                },
+                "commitment": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Mins/Day",
+                  "value": "5-15"
+                },
+                "duration": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Stretches",
+                  "value": "13"
+                },
+                "itemCount": {
+                  "imageDark": {
+                    "url": null
+                  },
+                  "imageLight": {
+                    "url": null
+                  },
+                  "title": "Stretches",
+                  "value": "13"
+                },
+                "commerce": {
+                  "title": null,
+                  "subtitle": null,
+                  "purchaseAction": {
+                    "title": null,
+                    "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                  },
+                  "purchasePaths": "subscription",
+                  "referralId": null
+                },
+                "equipmentRequired": null,
+                "equipmentRecommended": [
+                  {
+                    "title": "Pillow"
+                  },
+                  {
+                    "title": "Towel"
+                  },
+                  {
+                    "title": "Sturdy Chair"
+                  },
+                  {
+                    "title": "Yoga Mat"
+                  }
+                ],
+                "categories": [
+                  {
+                    "title": "Stretch"
+                  },
+                  {
+                    "title": "Recovery"
+                  }
+                ],
+                "level": {
+                  "title": "All Levels",
+                  "slug": "all-levels",
+                  "imageLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                  },
+                  "imageDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                  }
+                },
+                "artwork": {
+                  "theme": "light",
+                  "gradientOpacity": 70,
+                  "logoDark": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ea7dff701f5ad38e2d302b0ac955313ad87de6d5-550x375.png"
+                  },
+                  "logoLight": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f3a46a67ce2fa9606f264818220a217a4293312f-550x375.png"
+                  },
+                  "loopingVideoPanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/462a93cb912987f2cbf96f0530681da58c6a5ba6.mp4"
+                  },
+                  "loopingVideoPortrait": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/files/eonsdgcj/production/d9f0eaaf40022e27697dd5cf6cc9c7ed5fcbc95c.mp4"
+                  },
+                  "imageSquare": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a4ff2ee01443656c5008033af48f7a7c4fbce086-1600x1600.png"
+                  },
+                  "imagePortrait": {
+                    "url": null
+                  },
+                  "imageLandscape": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c2a50dd556b36430bf7da66e26701122a11f6b68-1920x652.png"
+                  },
+                  "imagePanoramic": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/391d105b5a4da2ae6e8acd477a73ac769297cb31-2732x800.png"
+                  },
+                  "thumbnailPortraitWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6017163a9abe9a8b72461a12331a5371b775b8c2-776x964.png"
+                  },
+                  "thumbnailLandscapeWithLogo": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a061331e96310f31941eec6a4d780eab8428cd32-1125x750.png"
+                  },
+                  "imageRichPreview": {
+                    "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a061331e96310f31941eec6a4d780eab8428cd32-1125x750.png"
+                  }
+                },
+                "sections": [
+                  {
+                    "title": "Start Here",
+                    "slug": "start-here",
+                    "modules": [
+                      {
+                        "_id": "6b6276d1-d366-4eff-aed2-64112a591cd7",
+                        "_type": "dynamicModule",
+                        "slug": "overview",
+                        "equipment": "Pillow*, Towel*, Sturdy Chair*, Yoga Mat*",
+                        "categories": "Stretch, Recovery",
+                        "colorPrimary": "#f88379",
+                        "colorPrimaryOptions": {
+                          "argb": "#f88379",
+                          "rgba": "#f88379"
+                        },
+                        "descriptionOverview": null,
+                        "media": {
+                          "_id": "jyITl2R0P6PN5zEcITleYR",
+                          "_type": "workout",
+                          "thumbnail": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b7d243b8d556f7b7d1b96dec6112b196e6305645-1310x698.png"
+                          },
+                          "videoId": "XBS0000",
+                          "title": "Sample Workout - Refresh",
+                          "subtitle": "15m",
+                          "catalog": "bod"
+                        },
+                        "statistics": [
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Stretches",
+                            "value": "13"
+                          },
+                          {
+                            "imageDark": {
+                              "url": null
+                            },
+                            "imageLight": {
+                              "url": null
+                            },
+                            "title": "Mins/Day",
+                            "value": "5-15"
+                          },
+                          {
+                            "imageDark": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/29119c26c9133a6b10cb5bbe63209f8bbf9bb116-240x250.svg"
+                            },
+                            "imageLight": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/6d4044ba9dd8ffea80c775a735ff7c5d4fde1f76-240x250.svg"
+                            },
+                            "title": "All Levels"
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvQl7mi",
+                        "_type": "collection",
+                        "slug": "xbs-get-started",
+                        "title": "Get Started",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "jyITl2R0P6PN5zEcITleYR",
+                          "NWOt1I2xWP7xm05A7w1W6b"
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7w1k7y",
+                        "_type": "collection",
+                        "slug": "xb-stretch-featured-guides",
+                        "title": "Stretch Calendars",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7w1fB5",
+                          "BoGK5VlBLllbPFYTvQl5ns"
+                        ]
+                      },
+                      {
+                        "_id": "NWOt1I2xWP7xm05A7w1hvC",
+                        "_type": "editorial",
+                        "slug": "xb-stretch-is-xb-stretch-right-for-me",
+                        "title": "Is XB Stretch Right For Me?",
+                        "subtitle": null,
+                        "content": "XB Stretch is for anyone who wants to feel and move better, with total-body, targeted stretching routines. Whether you\u2019re feeling tight in the hips from sitting in your chair all day, carrying stress in your neck and shoulders or you just need a moment to breathe and reconnect to your body, Andrea created something for you.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9096f30e3168270278ff1ec6c4b6d6df9371823e-1600x1600.png"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZKptCh",
+                        "_type": "editorial",
+                        "slug": "xb-stretch-what-is-xb-stretch-like",
+                        "title": "What Is XB Stretch Like?",
+                        "subtitle": null,
+                        "content": "Andrea provides all the practical and visual guidance you need, demonstrating every move in detail \u2014 right from her living room to yours. There are eight 15 minute routines each with a different focus, and five 5 targeted routines to help you feel more connected to your body, so you can move through your day with less pain, more energy and purpose.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0f8f3ebafc83ef29700ea89a1d708382cd1d70fb-1600x1600.png"
+                        },
+                        "action": {
+                          "title": "Workouts",
+                          "url": "https://www.beachbodyondemand.com/programs/xb-stretch/workouts"
+                        }
+                      },
+                      {
+                        "_id": "BoGK5VlBLllbPFYTvQl9g8",
+                        "_type": "editorial",
+                        "slug": "xb-stretch-tools-equipment",
+                        "title": "Tools + Equipment",
+                        "subtitle": null,
+                        "content": "All you need is a mat and 15 minutes or less to restore, realign and feel refreshed!",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/27d86d51fefbd97e290a30ca7184ded2afc17480-1600x1600.png"
+                        },
+                        "action": null
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZKpwPT",
+                        "_type": "editorial",
+                        "slug": "xb-stretch-nutrition-for-a-healthier-body-and-mind",
+                        "title": "Nutrition for a Healthier Body and Mind",
+                        "subtitle": null,
+                        "content": "Beachbody\u2019s nutrition programs have made it easier for millions of people to eat healthier and make simple lifestyle changes that are easy to stick with. Created by Autumn Calabrese, Portion Fix shows you how eating the right portions helps you reach your goals\u2014no counting calories or eliminating your favorite foods required. With 2B Mindset, creator Ilana Muhlstein, MS, RDN, helps you lose weight happily by focusing on what you can eat, instead of what you can\u2019t. You\u2019ll never feel hungry or deprived. Need help choosing the right nutrition program for you? To find the right program for your lifestyle, visit FindMyProgramTool.com.",
+                        "image": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/c7ac74e7d749295124eaba90dbcb06b65ac61d01-1600x1600.jpg"
+                        },
+                        "action": {
+                          "title": "Nutrition Center",
+                          "url": "https://www.beachbodyondemand.com/programs/introduction-to-nutrition/starthere"
+                        }
+                      },
+                      {
+                        "_id": "ed4a3868-46f6-4c42-b3dc-114bbd3908a2",
+                        "_type": "dynamicModule",
+                        "slug": "trainer",
+                        "trainers": [
+                          {
+                            "intro": "Meet Andrea",
+                            "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                            "image": {
+                              "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/cb24c0d8b6fc20b9278dd920c58cdd99597857f7-860x964.png"
+                            },
+                            "social": [
+                              {
+                                "url": "https://www.facebook.com/andrealeighrogers",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ba649704937d68f7c3e5653092100512e6ceb0e8-240x240.svg"
+                              },
+                              {
+                                "url": "https://www.instagram.com/andrealeighrogers/?hl=en",
+                                "icon": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b60b991719a3fd5e865ed5a93b91d9b2bfc6fe6d-240x240.svg"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdxkGf",
+                        "_type": "collection",
+                        "slug": "xbs-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPZOKG",
+                          "Q6j5eG7tj3PSUghmZGiE7P",
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "Q6j5eG7tj3PSUghmZHg52l"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Stretches",
+                    "slug": "workouts",
+                    "modules": [
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZKpmzj",
+                        "_type": "collection",
+                        "slug": "xbs-5-minutes",
+                        "title": "5 Minutes",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7w1WhM",
+                          "Q6j5eG7tj3PSUghmZKpOCN",
+                          "Q6j5eG7tj3PSUghmZKpQJD",
+                          "Q6j5eG7tj3PSUghmZKpSAx",
+                          "Q6j5eG7tj3PSUghmZKpTv9"
+                        ]
+                      },
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZKpoPn",
+                        "_type": "collection",
+                        "slug": "xbs-15-minutes",
+                        "title": "15 Minutes",
+                        "entityType": null,
+                        "collectionType": "default",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7w1a5e",
+                          "Q6j5eG7tj3PSUghmZKpY6J",
+                          "NWOt1I2xWP7xm05A7w1bRQ",
+                          "NWOt1I2xWP7xm05A7w1bvL",
+                          "Q6j5eG7tj3PSUghmZKpcP1",
+                          "Q6j5eG7tj3PSUghmZKpeGl",
+                          "Q6j5eG7tj3PSUghmZKpgaB",
+                          "NWOt1I2xWP7xm05A7w1eYc"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdxkGf",
+                        "_type": "collection",
+                        "slug": "xbs-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPZOKG",
+                          "Q6j5eG7tj3PSUghmZGiE7P",
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "Q6j5eG7tj3PSUghmZHg52l"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Stretch Calendars",
+                    "slug": "workout-calendar",
+                    "modules": [
+                      {
+                        "_id": "Q6j5eG7tj3PSUghmZKplyp",
+                        "_type": "collection",
+                        "slug": "xbsworkout-calendars",
+                        "title": "Stretch Calendars",
+                        "entityType": null,
+                        "collectionType": "resource",
+                        "entityIds": [
+                          "NWOt1I2xWP7xm05A7w1fB5",
+                          "BoGK5VlBLllbPFYTvQl5ns"
+                        ]
+                      },
+                      {
+                        "_id": "2Y1ZDDXEx3aLPbgAHdxkGf",
+                        "_type": "collection",
+                        "slug": "xbs-you-may-also-like",
+                        "title": "You May Also Like",
+                        "entityType": null,
+                        "collectionType": "showcase",
+                        "entityIds": [
+                          "BoGK5VlBLllbPFYTvPZOKG",
+                          "Q6j5eG7tj3PSUghmZGiE7P",
+                          "Q6j5eG7tj3PSUghmZDbc5D",
+                          "Q6j5eG7tj3PSUghmZHg52l"
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "entities": {
+                  "A3jSdym3jf5hqTWanxLTsO": {
+                    "_id": "A3jSdym3jf5hqTWanxLTsO",
+                    "_type": "promo",
+                    "slug": "xbs-xb-stretch-sizzle-xbs0001",
+                    "brandCode": "XBS",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2564165b7c411bf95e488c1af60fea2313ca0574-1306x888.jpg"
+                    },
+                    "title": "Introducing XB Stretch",
+                    "descriptionLong": null,
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0001",
+                      "durationActual": 42,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvPZOKG": {
+                    "_id": "BoGK5VlBLllbPFYTvPZOKG",
+                    "_type": "program",
+                    "slug": "xb-pilates",
+                    "brandCode": "XBP",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2022-04-01",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBP&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "XB Pilates",
+                    "description": "Get a Pilates body in 21 days!",
+                    "descriptionShort": "Get a Pilates body in 21 days!",
+                    "descriptionLong": "XB Pilates pairs traditional mat moves with reformer-inspired cardio sequences to sculpt your abs, tighten your booty, and build strength from head to toe.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/081c570bff0a4ac30396512682f7863b39355c70-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/abbfc91d7de3e97cd10f7e1cc9db8034d6efe1bb-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/abbfc91d7de3e97cd10f7e1cc9db8034d6efe1bb-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/081c570bff0a4ac30396512682f7863b39355c70-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/081c570bff0a4ac30396512682f7863b39355c70-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1f8340a604f8e8d193ccec32cc000a24325d2efa-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/960550b28b0399027d2d3092d6298892b7fcdb23-480x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "21"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Days",
+                      "value": "21"
+                    },
+                    "level": {
+                      "title": "Intermediate",
+                      "slug": "intermediate",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8c92e5aa451a48b4f1ad3040c88662d6463e8102-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9bdfc82d96b486e4ccea570c5b2a652f9bdc9183-240x250.svg"
+                      }
+                    },
+                    "stamps": [
+                      {
+                        "title": "Real Time",
+                        "image": {
+                          "url": null
+                        },
+                        "colors": {
+                          "foreground": "#ffffff",
+                          "foregroundOptions": {
+                            "argb": "#ffffff",
+                            "rgba": "#ffffff"
+                          },
+                          "background": "#16181980",
+                          "backgroundOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          },
+                          "stroke": "#16181980",
+                          "strokeOptions": {
+                            "argb": "#80161819",
+                            "rgba": "#16181980"
+                          }
+                        }
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Pilates",
+                        "slug": "pilates"
+                      },
+                      {
+                        "title": "Barre",
+                        "slug": "barre"
+                      },
+                      {
+                        "title": "Low Impact",
+                        "slug": "low-impact"
+                      },
+                      {
+                        "title": "Slim & Sculpt",
+                        "slug": "slim-sculpt"
+                      },
+                      {
+                        "title": "Weight Loss",
+                        "slug": "weight-loss"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Strength Slides"
+                      },
+                      {
+                        "title": "Resistance Loops"
+                      },
+                      {
+                        "title": "Dumbbells (Light)"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "BoGK5VlBLllbPFYTvQl5ns": {
+                    "_id": "BoGK5VlBLllbPFYTvQl5ns",
+                    "_type": "resource",
+                    "slug": "xbs-xtend-barre-xb-pilates-xb-stretch-30-day-calendar-3650980",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Xtend Barre + XB Pilates + XB Stretch 30-Day Calendar",
+                    "categories": null,
+                    "description": "This blended Xtend Barre + XB Pilates + XB Stretch 30-Day Calendar will help you slim, sculpt and stretch!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/0edf45aba07ccb96bb84bdb875fd27502b163875-400x260.png"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "OPF_XTST_Hybrid-Calendar_04062022.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/73cea8706b28857311fae5ba3cc7324667a9d950.pdf?file=OPF_XTST_Hybrid-Calendar_04062022.pdf",
+                      "size": 91919
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w1W6b": {
+                    "_id": "NWOt1I2xWP7xm05A7w1W6b",
+                    "_type": "promo",
+                    "slug": "xbs-welcome-to-xb-stretch-xbs0002",
+                    "brandCode": "XBS",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "durationEstimate": 120,
+                    "categories": null,
+                    "catalog": "bod",
+                    "stamps": null,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/70fd9020ca6e57701f8fb5543769c2ad094952d0-730x496.png"
+                    },
+                    "title": "Welcome to XB Stretch",
+                    "descriptionLong": "Andrea talks about the benefits of stretching and welcomes you to XB Stretch!",
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0002",
+                      "durationActual": 42,
+                      "spokenLanguage": "en-us"
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w1WhM": {
+                    "_id": "NWOt1I2xWP7xm05A7w1WhM",
+                    "_type": "workout",
+                    "slug": "total-body-flexibility-xbs0003",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Total Body Flexibility",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d64768da324385dd4ca529fb3c2a2bb2edb108fe-730x496.png"
+                    },
+                    "descriptionLong": "No need to stay trapped inside a tight body when this 5-minute flexibility routine can help release pent-up tension and maximize total-body mobility.",
+                    "durationEstimate": 360,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0003",
+                      "durationActual": 351,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w1a5e": {
+                    "_id": "NWOt1I2xWP7xm05A7w1a5e",
+                    "_type": "workout",
+                    "slug": "xbs-refresh-xbs0008",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Refresh",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b7d243b8d556f7b7d1b96dec6112b196e6305645-1310x698.png"
+                    },
+                    "descriptionLong": "The perfect way to start your day, this revitalizing morning stretch focuses on your breathing to help loosen up hips and spine, while setting a vital, energetic tone for the whole day.",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0008",
+                      "durationActual": 891,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w1bRQ": {
+                    "_id": "NWOt1I2xWP7xm05A7w1bRQ",
+                    "_type": "workout",
+                    "slug": "xbs-mobility-xbs0010",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Mobility",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/ff9b2822184ef3656615331c27e3c6aea7853a2c-730x496.png"
+                    },
+                    "descriptionLong": "Build strength and gain flexibility with this dynamic 15-minute routine designed specifically to open up your whole body and help you feel both stronger and longer.",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0010",
+                      "durationActual": 896,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w1bvL": {
+                    "_id": "NWOt1I2xWP7xm05A7w1bvL",
+                    "_type": "workout",
+                    "slug": "xbs-signature-stretch-xbs0011",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Signature Stretch",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5af92334c441c5509381086938dad383a74ba406-730x496.png"
+                    },
+                    "descriptionLong": "Take a moment to step away from your chair, couch, or daily commute, and help reset mind and body with Andrea\u2019s signature set of moves targeting flexibility, balance, and breath.",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Sturdy Chair"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0011",
+                      "durationActual": 927,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w1eYc": {
+                    "_id": "NWOt1I2xWP7xm05A7w1eYc",
+                    "_type": "workout",
+                    "slug": "xbs-unwind-xbs0015",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Unwind",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/5eb46dbea066e4abcaf77eed35230055092a24f6-730x496.png"
+                    },
+                    "descriptionLong": "The perfect antidote to a hectic, stressful day, this short routine can be a powerful way to help relax tight muscles, promote good posture, and de-stress.",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0015",
+                      "durationActual": 912,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "NWOt1I2xWP7xm05A7w1fB5": {
+                    "_id": "NWOt1I2xWP7xm05A7w1fB5",
+                    "_type": "resource",
+                    "slug": "xbs-xb-stretch-30-day-stretch-calendar-3650951",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "XB Stretch 30-Day Calendar",
+                    "categories": null,
+                    "description": "Feel the relief XB Stretch has to offer with this 30-Day Stretch Calendar!",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/462b2d43ec1a97a358615349f57ba8e7e50461e7-400x260.png"
+                    },
+                    "link": null,
+                    "file": {
+                      "extension": "pdf",
+                      "originalFilename": "OPF_XTST_Calendar_04062022.pdf",
+                      "url": "https://cdn.sanity.io/files/eonsdgcj/production/36f1f791134305421336546984660869d516dc12.pdf?file=OPF_XTST_Calendar_04062022.pdf",
+                      "size": 108145
+                    },
+                    "isFavoritable": false,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZDbc5D": {
+                    "_id": "Q6j5eG7tj3PSUghmZDbc5D",
+                    "_type": "program",
+                    "slug": "3-week-yoga-retreat",
+                    "brandCode": "3YR",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2016-08-31",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=3YR&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "3 Week Yoga Retreat",
+                    "description": "Want to learn Yoga? Master the fundamentals of yoga at home in just 21 days.",
+                    "descriptionShort": "Want to learn Yoga? Master the fundamentals of yoga at home in just 21 days.",
+                    "descriptionLong": "Created with beginners in mind, 3 Week Yoga Retreat will teach you simple, pure yoga for life-changing results. You'll build the skills you need to take any yoga class after these three weeks.\u200b",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5cbdbb898516c50bbaaceb8062c936fef4d548f-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/d5cbdbb898516c50bbaaceb8062c936fef4d548f-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/9aaa0ed394af4e26bae14d315027331a44a53bc2-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2770051c67445d05d085fbc573916e487f464040-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/1c5fcef36727497e17ad2cbbb770656baa6ae37c-480x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-32"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Weeks",
+                      "value": "3"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Workouts",
+                      "value": "39"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Yoga",
+                        "slug": "yoga"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Core",
+                        "slug": "core"
+                      },
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Blocks"
+                      },
+                      {
+                        "title": "Yoga Strap"
+                      },
+                      {
+                        "title": "Towel"
+                      },
+                      {
+                        "title": "Pillow"
+                      },
+                      {
+                        "title": "Yoga Blanket"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZGiE7P": {
+                    "_id": "Q6j5eG7tj3PSUghmZGiE7P",
+                    "_type": "program",
+                    "slug": "controlled-stretch",
+                    "brandCode": "9WCS",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2020-12-21",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=9WCS&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Controlled Stretch",
+                    "description": "Stretch your body and relax your mind with light, restorative routines.",
+                    "descriptionShort": "Stretch your body and relax your mind with light, restorative routines.",
+                    "descriptionLong": "Ease muscle tension, help boost blood flow, and reframe your mind with 10-minute restorative, light stretching and breathing routines to help you prepare for better sleep and recovery.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/76b5395ed8c13975c77c63183ad1253e06ccaf29-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f14c04e6104ca530c1c2dcd72f747faf194f69ad-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/f14c04e6104ca530c1c2dcd72f747faf194f69ad-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/76b5395ed8c13975c77c63183ad1253e06ccaf29-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/76b5395ed8c13975c77c63183ad1253e06ccaf29-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/898852b90969fa97860a7e7263bfb92fd7fded69-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8e75d8b0a57729dbc6daa5985e5970b1c720b370-482x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Minutes",
+                      "value": "5-10"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Stretches",
+                      "value": "45"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Stretches",
+                      "value": "45"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Mobility & Flexibility",
+                        "slug": "mobility-flexibility"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      },
+                      {
+                        "title": "Relaxation",
+                        "slug": "relaxation"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Core Ball"
+                      },
+                      {
+                        "title": "Mat"
+                      },
+                      {
+                        "title": "Towel"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZHg52l": {
+                    "_id": "Q6j5eG7tj3PSUghmZHg52l",
+                    "_type": "program",
+                    "slug": "relaxation-meditation",
+                    "brandCode": "RAM",
+                    "classification": [
+                      "fitness"
+                    ],
+                    "dateLaunch": "2020-08-27",
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=RAM&locale=en_us"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "title": "Relaxation & Meditation",
+                    "description": "Relax, reduce anxiety, and feel good through guided meditation.",
+                    "descriptionShort": "Relax, reduce anxiety, and feel good through guided meditation.",
+                    "descriptionLong": "Relax, reduce anxiety, and feel good through the power of guided meditation. Quick, easy sessions calm your mind to help you unwind and de-stress, leaving you inspired, focused, and empowered.",
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/aec1289f8a825ff931472a83c547254ee83c6870-1125x750.jpg"
+                    },
+                    "thumbnailPanoramic": {
+                      "url": null
+                    },
+                    "thumbnailPortrait": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e9399996b2568816c365872b5832077b22c9fafb-776x964.jpg"
+                    },
+                    "thumbnailPortraitWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/e9399996b2568816c365872b5832077b22c9fafb-776x964.jpg"
+                    },
+                    "thumbnailLandscape": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/aec1289f8a825ff931472a83c547254ee83c6870-1125x750.jpg"
+                    },
+                    "thumbnailLandscapeWithLogo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/aec1289f8a825ff931472a83c547254ee83c6870-1125x750.jpg"
+                    },
+                    "imageSquare": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b2d3e94baa3a39d208613f6582619714e54be821-1600x1600.jpg"
+                    },
+                    "logo": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/48787a13db8f7acccd519ef5232acc9f7786fff5-898x375.png"
+                    },
+                    "trainers": null,
+                    "commitment": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Mins/Day",
+                      "value": "10-30"
+                    },
+                    "duration": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Meditations",
+                      "value": "99"
+                    },
+                    "itemCount": {
+                      "imageDark": {
+                        "url": null
+                      },
+                      "imageLight": {
+                        "url": null
+                      },
+                      "title": "Meditations",
+                      "value": "99"
+                    },
+                    "level": {
+                      "title": "Beginner",
+                      "slug": "beginner",
+                      "imageLight": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                      },
+                      "imageDark": {
+                        "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                      }
+                    },
+                    "stamps": null,
+                    "categories": [
+                      {
+                        "title": "Meditation",
+                        "slug": "meditation"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Yoga Mat"
+                      }
+                    ],
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKpOCN": {
+                    "_id": "Q6j5eG7tj3PSUghmZKpOCN",
+                    "_type": "workout",
+                    "slug": "hips-glutes-xbs0004",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Hips & Glutes",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/85fb1ee753aa6e517abae24e150e03a75cb2550d-730x496.png"
+                    },
+                    "descriptionLong": "A quick 5-minute stretch focused on releasing any tightness in your hips and glutes, helping increase mobility, and leaving your whole body feeling great.",
+                    "durationEstimate": 420,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Mat"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0004",
+                      "durationActual": 410,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKpQJD": {
+                    "_id": "Q6j5eG7tj3PSUghmZKpQJD",
+                    "_type": "workout",
+                    "slug": "xbs-lower-body-flexibility-xbs0005",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Lower Body Flexibility",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/fe68012eb8b649c8ef59a468c1672085a117c822-730x496.png"
+                    },
+                    "descriptionLong": "Ever wish you could add flexibility and range of motion to your lower body? If so, this is the routine for you, focused on guiding you safely to mobility through proper activation.",
+                    "durationEstimate": 360,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Pillow"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0005",
+                      "durationActual": 336,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKpSAx": {
+                    "_id": "Q6j5eG7tj3PSUghmZKpSAx",
+                    "_type": "workout",
+                    "slug": "xbs-lower-back-xbs0006",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Lower Back",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/54fe2a75b0687a68fce6ef41e5405de3e2db2f14-730x496.png"
+                    },
+                    "descriptionLong": "Help dissolve tightness and tension in your lower back with this 5-minute stretch routine designed to leave you feeling more limber and mobile.",
+                    "durationEstimate": 360,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0006",
+                      "durationActual": 365,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKpTv9": {
+                    "_id": "Q6j5eG7tj3PSUghmZKpTv9",
+                    "_type": "workout",
+                    "slug": "xbs-upper-body-mobility-xbs0007",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Upper Body Mobility",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/68848c359d6c5f2fc2eaa2d3b304bba5aa4f7e8c-730x496.png"
+                    },
+                    "descriptionLong": "Here\u2019s your chance to take a moment, breathe, and help release the tension in your neck, head, and shoulders with a quick set of moves that can help you move better throughout the day.",
+                    "durationEstimate": 420,
+                    "focusAreas": [
+                      {
+                        "title": "Upper Body",
+                        "slug": "upper-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Strength",
+                        "slug": "strength"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0007",
+                      "durationActual": 402,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKpY6J": {
+                    "_id": "Q6j5eG7tj3PSUghmZKpY6J",
+                    "_type": "workout",
+                    "slug": "xbs-restore-xbs0009",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Restore",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b5b6d45f3c1d51547188cb3c10048b968c9cc982-730x496.png"
+                    },
+                    "descriptionLong": "In this soothing routine, Andrea helps ease your body toward rest, releasing accumulated tension and helping promote a better night\u2019s sleep.",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Sturdy Chair"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0009",
+                      "durationActual": 957,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKpcP1": {
+                    "_id": "Q6j5eG7tj3PSUghmZKpcP1",
+                    "_type": "workout",
+                    "slug": "xbs-mid-day-move-xbs0012",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Mid-Day Move",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/2199c0e566b4f1a77d8ba272f13cd4baeaa8b1c2-730x496.png"
+                    },
+                    "descriptionLong": "This 15-minute routine can be all it takes to release tension, reconnect with body and mind, and simply feel good, at any time of the day.",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0012",
+                      "durationActual": 924,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKpeGl": {
+                    "_id": "Q6j5eG7tj3PSUghmZKpeGl",
+                    "_type": "workout",
+                    "slug": "xbs-energize-xbs0013",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Energize",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/8f641b0078a64c1b93b263c34f96ceaa265eaaf5-730x496.png"
+                    },
+                    "descriptionLong": "Here\u2019s a routine designed to help fight that groggy feeling while reawakening mind and body, getting the blood pumping, and giving you more vitality throughout the day.",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Total Body",
+                        "slug": "total-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0013",
+                      "durationActual": 906,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "Q6j5eG7tj3PSUghmZKpgaB": {
+                    "_id": "Q6j5eG7tj3PSUghmZKpgaB",
+                    "_type": "workout",
+                    "slug": "xbs-realign-xbs0014",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": "https://bodi.com/bodcheckout?referralProgramId=BODi&locale=en_us&trainerName=AndreaRogers"
+                      },
+                      "purchasePaths": "subscription",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "5CRSzLt6xAbzM3VbXwJjjw",
+                        "slug": "po-bodi",
+                        "title": "BODi Membership Required",
+                        "subtitle": "Workouts that meet you where you are, keep you coming back, and empower you to reach your goals. Get BODi now to start your first block.",
+                        "purchaseAction": {
+                          "title": "Learn More",
+                          "url": "https://bodi.com/bodcheckout?referralProgramId=XBS&locale=en_us&trainerName=AndreaRogers"
+                        },
+                        "purchasePath": "subscription"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Realign",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/56e509d4605b6f8f4ed84c3b70b2c2fa55959fe9-730x496.png"
+                    },
+                    "descriptionLong": "A quick but powerful lower-body routine designed to help release tightness in the lower back, open up the hips, and create flexibility in the glutes and hamstrings.",
+                    "durationEstimate": 900,
+                    "focusAreas": [
+                      {
+                        "title": "Lower Body",
+                        "slug": "lower-body"
+                      }
+                    ],
+                    "categories": [
+                      {
+                        "title": "Stretch",
+                        "slug": "stretch"
+                      },
+                      {
+                        "title": "Recovery",
+                        "slug": "recovery"
+                      }
+                    ],
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": [
+                      {
+                        "title": "Yoga Strap"
+                      }
+                    ],
+                    "equipmentRecommended": null,
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0014",
+                      "durationActual": 966,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": false,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  },
+                  "jyITl2R0P6PN5zEcITleYR": {
+                    "_id": "jyITl2R0P6PN5zEcITleYR",
+                    "_type": "workout",
+                    "slug": "xbs-sample-workout-refresh-xbs0000",
+                    "brandCode": "XBS",
+                    "primaryParent": {
+                      "_id": "BoGK5VlBLllbPFYTvQlBIO",
+                      "_type": "program",
+                      "slug": "xb-stretch"
+                    },
+                    "commerce": {
+                      "title": null,
+                      "subtitle": null,
+                      "purchaseAction": {
+                        "title": null,
+                        "url": null
+                      },
+                      "purchasePaths": "none",
+                      "referralId": null
+                    },
+                    "purchaseOptions": [
+                      {
+                        "_id": "purchase-option-none",
+                        "slug": "po-none",
+                        "title": "None",
+                        "subtitle": null,
+                        "purchaseAction": null,
+                        "purchasePath": "none"
+                      }
+                    ],
+                    "catalog": "bod",
+                    "title": "Sample Workout - Refresh",
+                    "isPlaceholder": false,
+                    "thumbnail": {
+                      "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/b7d243b8d556f7b7d1b96dec6112b196e6305645-1310x698.png"
+                    },
+                    "descriptionLong": "The perfect way to start your day, this revitalizing morning stretch focuses on your breathing to help loosen up hips and spine, while setting an energetic tone for the whole day.",
+                    "durationEstimate": 900,
+                    "focusAreas": null,
+                    "categories": null,
+                    "subcategories": null,
+                    "stamps": null,
+                    "music": {
+                      "source": "embedded",
+                      "genre": null
+                    },
+                    "levels": [
+                      {
+                        "slug": "beginner",
+                        "title": "Beginner",
+                        "imageDark": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a66d39d0c13a6b0498773d66db5aafc742ee8345-240x250.svg"
+                        },
+                        "imageLight": {
+                          "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/31cf0611e6ce59a8e045a8a6e5dac254ddffad18-240x250.svg"
+                        }
+                      }
+                    ],
+                    "equipmentRequired": null,
+                    "equipmentRecommended": [
+                      {
+                        "title": "Pillow"
+                      }
+                    ],
+                    "trainers": [
+                      {
+                        "slug": "andrea-rogers",
+                        "firstName": "Andrea",
+                        "lastName": "Rogers",
+                        "bio": "As a Pilates instructor and former professional dancer, Andrea Rogers created Xtend Barre, XB Pilates, and XB Sweat + Sculpt by combining elements of barre and Pilates with high-energy cardio-dance. Her proven programs and techniques have helped thousands of people worldwide transform their bodies and gain strength and confidence.",
+                        "images": {
+                          "cutout": {
+                            "url": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/images/eonsdgcj/production/a8570a7076477f6d28d38e1a78d1a46f7a8cfddf-860x1164.png"
+                          }
+                        }
+                      }
+                    ],
+                    "video": {
+                      "videoId": "XBS0000",
+                      "durationActual": 891,
+                      "spokenLanguage": "en-us"
+                    },
+                    "share": {
+                      "url": "https://www.beachbodyondemand.com/"
+                    },
+                    "isFavoritable": true,
+                    "userData": {
+                      "isEntitled": true,
+                      "videoHistory": null,
+                      "isFavorited": false
+                    }
+                  }
+                },
+                "isFavoritable": true,
+                "userData": {
+                  "isEntitled": false,
+                  "isFavorited": false
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1738223239369,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "xb-stretch",
+              "en-US"
+            ],
+            "queryHash": "[\"xb-stretch\",\"en-US\"]"
+          }
+        ]
+      }
+    },
+    "pathname": "/programs/xb-stretch/start-here",
+    "__N_SSP": true
+  },
+  "page": "/programs/[...program-slug]",
+  "query": {
+    "program-slug": [
+      "xb-stretch",
+      "start-here"
+    ]
+  },
+  "buildId": "4txTrMMDpyPmYBhgzFkgn",
+  "isFallback": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}
