@@ -7,6 +7,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from dataclasses import dataclass
 from http.cookiejar import MozillaCookieJar
 from pathlib import Path
 from typing import Optional
@@ -16,6 +17,8 @@ from dotenv import load_dotenv
 
 
 RSS_BASE_URL = "https://broadcasthe.net/feeds.php"
+REQUEST_TIMEOUT_SECONDS = 30
+SCRIPT_DIR = Path(__file__).resolve().parent
 COMMON_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.13; ko; rv:1.9.1b2) Gecko/20081201 Firefox/60.0",
     "Accept": "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*",
@@ -30,8 +33,92 @@ ENV_VARS = (
 )
 
 
+@dataclass(frozen=True)
+class Credentials:
+    uid: str
+    passkey: str
+    auth: str
+    authkey: str
+
+
+@dataclass(frozen=True)
+class SetupConfig:
+    cookies: Path
+    inidb: Path
+    debug: bool
+
+
+@dataclass(frozen=True)
+class FilterRule:
+    name: str
+    path: Path
+    hot_pattern: str
+    hot_regex: re.Pattern[str]
+    not_pattern: str
+    not_regex: Optional[re.Pattern[str]]
+    min_size: float
+    max_size: float
+
+    def matches_title(self, title: str) -> bool:
+        return bool(self.hot_regex.search(title))
+
+    def excludes_title(self, title: str) -> bool:
+        return bool(self.not_regex and self.not_regex.search(title))
+
+    def matches_size(self, size_mb: float) -> bool:
+        return self.min_size < size_mb < self.max_size
+
+
+@dataclass(frozen=True)
+class FeedItem:
+    link: str
+    title: str
+    description: str
+
+
+@dataclass
+class FetchedDB:
+    path: Path
+    config: configparser.ConfigParser
+
+    @classmethod
+    def load(cls, path: Path, debug: bool) -> "FetchedDB":
+        path.parent.mkdir(parents=True, exist_ok=True)
+
+        config = configparser.ConfigParser(interpolation=None)
+        config.optionxform = str
+
+        if path.exists():
+            config.read(path)
+            debug_print(debug, f"DEBUG: {path} exists and is readable")
+        else:
+            debug_print(debug, f"DEBUG: initializing inidb {path}")
+            config["fetched"] = {}
+            instance = cls(path=path, config=config)
+            instance.save()
+            return instance
+
+        if "fetched" not in config:
+            config["fetched"] = {}
+
+        return cls(path=path, config=config)
+
+    def contains(self, filename: str) -> bool:
+        return self.config["fetched"].get(filename) is not None
+
+    def add(self, filename: str) -> None:
+        self.config["fetched"][filename] = str(int(time.time()))
+        self.save()
+
+    def save(self) -> None:
+        temp_path = self.path.with_name(f".{self.path.name}.tmp")
+        with temp_path.open("w", encoding="utf-8") as handle:
+            self.config.write(handle)
+        os.replace(temp_path, self.path)
+
+
 def load_repo_dotenv() -> None:
-    current_dir = Path(__file__).resolve().parent
+    current_dir = SCRIPT_DIR
     while True:
         env_file = current_dir / ".env"
         if env_file.exists():
@@ -43,28 +130,35 @@ def load_repo_dotenv() -> None:
 
 
 def resolve_config_path(cli_value: Optional[str]) -> Path:
-    script_dir = Path(__file__).resolve().parent
-
     if cli_value:
         path = Path(cli_value).expanduser()
         print(f"warning: using {path} from command line")
         return path
 
-    local_path = script_dir / "broadcasthenet.local.ini"
+    local_path = SCRIPT_DIR / "broadcasthenet.local.ini"
     if local_path.exists():
         print(f"warning: using {local_path} as default config file")
         return local_path
 
-    default_path = script_dir / "broadcasthenet.ini"
+    default_path = SCRIPT_DIR / "broadcasthenet.ini"
     print(f"warning: using {default_path} as default config file")
     return default_path
 
 
-def get_env(name: str) -> str:
-    value = os.getenv(name)
-    if not value:
-        raise RuntimeError(f"Missing {name} environment variable.")
-    return value
+def compile_regex(pattern: str, section: str, key: str) -> re.Pattern[str]:
+    try:
+        return re.compile(pattern, re.IGNORECASE)
+    except re.error as exc:
+        raise RuntimeError(f"Invalid regex for [{section}] {key}: {exc}") from exc
+
+
+def debug_print(enabled: bool, message: str) -> None:
+    if enabled:
+        print(message)
+
+
+def build_request(url: str) -> urllib.request.Request:
+    return urllib.request.Request(url, headers=COMMON_HEADERS)
 
 
 def load_config(path: Path) -> configparser.ConfigParser:
@@ -85,30 +179,65 @@ def load_config(path: Path) -> configparser.ConfigParser:
     return config
 
 
-def load_fetched_db(path: Path, debug: bool) -> configparser.ConfigParser:
-    path.parent.mkdir(parents=True, exist_ok=True)
-
-    db = configparser.ConfigParser(interpolation=None)
-    db.optionxform = str
-
-    if path.exists():
-        db.read(path)
-        debug_print(debug, f"DEBUG: {path} exists and is readable")
-    else:
-        debug_print(debug, f"DEBUG: initializing inidb {path}")
-        db["fetched"] = {}
-        with path.open("w", encoding="utf-8") as handle:
-            db.write(handle)
-
-    if "fetched" not in db:
-        db["fetched"] = {}
-
-    return db
+def load_setup_config(config: configparser.ConfigParser) -> SetupConfig:
+    setup = config["setup"]
+    return SetupConfig(
+        cookies=Path(setup["cookies"]).expanduser(),
+        inidb=Path(setup["inidb"]).expanduser(),
+        debug=setup.getboolean("debug", fallback=False),
+    )
 
 
-def save_fetched_db(db: configparser.ConfigParser, path: Path) -> None:
-    with path.open("w", encoding="utf-8") as handle:
-        db.write(handle)
+def load_credentials() -> Credentials:
+    values: dict[str, str] = {}
+    for name in ENV_VARS:
+        value = os.getenv(name)
+        if not value:
+            raise RuntimeError(f"Missing {name} environment variable.")
+        values[name] = value
+
+    return Credentials(
+        uid=values["BROADCASTHENET_UID"],
+        passkey=values["BROADCASTHENET_PASSKEY"],
+        auth=values["BROADCASTHENET_AUTH"],
+        authkey=values["BROADCASTHENET_AUTHKEY"],
+    )
+
+
+def load_filter_rules(
+    config: configparser.ConfigParser,
+    config_path: Path,
+) -> list[FilterRule]:
+    rules: list[FilterRule] = []
+
+    for section in config.sections():
+        if not section.lower().startswith("filter"):
+            continue
+
+        section_config = config[section]
+        hot_pattern = section_config.get("hot", "").strip()
+        if not hot_pattern:
+            continue
+
+        target_dir_value = section_config.get("path", "").strip()
+        if not target_dir_value:
+            raise RuntimeError(f"Missing path= in section [{section}] in configfile {config_path}")
+
+        not_pattern = section_config.get("not", "").strip()
+        rules.append(
+            FilterRule(
+                name=section,
+                path=Path(target_dir_value).expanduser(),
+                hot_pattern=hot_pattern,
+                hot_regex=compile_regex(hot_pattern, section, "hot"),
+                not_pattern=not_pattern,
+                not_regex=compile_regex(not_pattern, section, "not") if not_pattern else None,
+                min_size=float(section_config.get("min", "-1")),
+                max_size=float(section_config.get("max", "10000000")),
+            )
+        )
+
+    return rules
 
 
 def build_opener(cookie_file: Path) -> urllib.request.OpenerDirector:
@@ -120,38 +249,23 @@ def build_opener(cookie_file: Path) -> urllib.request.OpenerDirector:
     return urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cookie_jar))
 
 
-def fetch_url(
-    opener: urllib.request.OpenerDirector,
-    url: str,
-) -> tuple[bytes, urllib.response.addinfourl]:
-    request = urllib.request.Request(url, headers=COMMON_HEADERS)
-    response = opener.open(request)
-    try:
-        return response.read(), response
-    except Exception:
-        response.close()
-        raise
-
-
 def fetch_text(opener: urllib.request.OpenerDirector, url: str) -> str:
-    data, response = fetch_url(opener, url)
-    try:
+    with opener.open(build_request(url), timeout=REQUEST_TIMEOUT_SECONDS) as response:
+        data = response.read()
         charset = response.headers.get_content_charset() or "utf-8"
         return data.decode(charset, errors="replace")
-    finally:
-        response.close()
 
 
-def parse_items(xml_text: str) -> list[dict[str, str]]:
+def parse_items(xml_text: str) -> list[FeedItem]:
     root = ElementTree.fromstring(xml_text)
-    items: list[dict[str, str]] = []
+    items: list[FeedItem] = []
     for item in root.findall("./channel/item"):
         items.append(
-            {
-                "link": item.findtext("link", default=""),
-                "title": item.findtext("title", default=""),
-                "description": item.findtext("description", default=""),
-            }
+            FeedItem(
+                link=item.findtext("link", default=""),
+                title=item.findtext("title", default=""),
+                description=item.findtext("description", default=""),
+            )
         )
     return items
 
@@ -162,14 +276,13 @@ def parse_size_mb(description: str) -> float:
         return 0.0
 
     size = float(match.group(1))
-    unit = match.group(2).upper()
-    if unit == "GB":
+    if match.group(2).upper() == "GB":
         size *= 1024
     return size
 
 
-def extract_filename(response: urllib.response.addinfourl, fallback_url: str) -> str:
-    content_disposition = response.headers.get("Content-Disposition", "")
+def extract_filename(headers, fallback_url: str) -> str:
+    content_disposition = headers.get("Content-Disposition", "")
     match = re.search(r'filename="([^"]+)"', content_disposition, re.IGNORECASE)
     if match:
         return match.group(1)
@@ -187,111 +300,78 @@ def extract_filename(response: urllib.response.addinfourl, fallback_url: str) ->
 
 
 def get_torrent_filename(opener: urllib.request.OpenerDirector, url: str) -> str:
-    _, response = fetch_url(opener, url)
-    try:
-        return extract_filename(response, url)
-    finally:
-        response.close()
+    with opener.open(build_request(url), timeout=REQUEST_TIMEOUT_SECONDS) as response:
+        return extract_filename(response.headers, url)
 
 
 def download_torrent(opener: urllib.request.OpenerDirector, url: str, destination: Path) -> None:
     destination.parent.mkdir(parents=True, exist_ok=True)
-    request = urllib.request.Request(url, headers=COMMON_HEADERS)
-    with opener.open(request) as response, destination.open("wb") as handle:
+    with opener.open(build_request(url), timeout=REQUEST_TIMEOUT_SECONDS) as response, destination.open("wb") as handle:
         handle.write(response.read())
 
 
-def iter_filter_sections(config: configparser.ConfigParser) -> list[str]:
-    return [section for section in config.sections() if section.lower().startswith("filter")]
-
-
-def compile_regex(pattern: str, section: str, key: str) -> re.Pattern[str]:
-    try:
-        return re.compile(pattern, re.IGNORECASE)
-    except re.error as exc:
-        raise RuntimeError(f"Invalid regex for [{section}] {key}: {exc}") from exc
-
-
-def debug_print(enabled: bool, message: str) -> None:
-    if enabled:
-        print(message)
-
-
-def build_rss_url() -> str:
+def build_rss_url(credentials: Credentials) -> str:
     params = {
         "feed": "torrents_all",
-        "user": get_env("BROADCASTHENET_UID"),
-        "auth": get_env("BROADCASTHENET_AUTH"),
-        "passkey": get_env("BROADCASTHENET_PASSKEY"),
-        "authkey": get_env("BROADCASTHENET_AUTHKEY"),
+        "user": credentials.uid,
+        "auth": credentials.auth,
+        "passkey": credentials.passkey,
+        "authkey": credentials.authkey,
     }
     return f"{RSS_BASE_URL}?{urllib.parse.urlencode(params)}"
 
 
 def process_feed(config: configparser.ConfigParser, config_path: Path) -> None:
-    setup = config["setup"]
-    debug = setup.getboolean("debug", fallback=False)
-    cookie_file = Path(setup["cookies"]).expanduser()
-    fetched_db_path = Path(setup["inidb"]).expanduser()
-    fetched_db = load_fetched_db(fetched_db_path, debug)
-    opener = build_opener(cookie_file)
+    setup = load_setup_config(config)
+    credentials = load_credentials()
+    rules = load_filter_rules(config, config_path)
+    fetched_db = FetchedDB.load(setup.inidb, setup.debug)
+    opener = build_opener(setup.cookies)
 
-    debug_print(debug, f"DEBUG:============={int(time.time())}=============")
-    rss_url = build_rss_url()
-    xml_text = fetch_text(opener, rss_url)
-    items = parse_items(xml_text)
+    debug_print(setup.debug, f"DEBUG:============={int(time.time())}=============")
+    rss_url = build_rss_url(credentials)
+    items = parse_items(fetch_text(opener, rss_url))
 
     for item in items:
-        title = item["title"]
-        link = item["link"]
-        size_mb = parse_size_mb(item["description"])
+        title = item.title
+        size_mb = parse_size_mb(item.description)
+        resolved_filename: Optional[str] = None
 
-        debug_print(debug, f"DEBUG:        title | {title}")
+        debug_print(setup.debug, f"DEBUG:        title | {title}")
 
-        for section in iter_filter_sections(config):
-            section_config = config[section]
-            hot_pattern = section_config.get("hot", "").strip()
-            if not hot_pattern:
+        for rule in rules:
+            if not rule.matches_title(title):
                 continue
 
-            if not compile_regex(hot_pattern, section, "hot").search(title):
+            debug_print(setup.debug, f"DEBUG:                 {rule.name} | {title} | HOT: {rule.hot_pattern}")
+
+            if rule.excludes_title(title):
+                debug_print(setup.debug, f"DEBUG:                 {rule.name} | {title} | NOT: {rule.not_pattern}")
                 continue
 
-            debug_print(debug, f"DEBUG:                 {section} | {title} | HOT: {hot_pattern}")
+            if resolved_filename is None:
+                resolved_filename = get_torrent_filename(opener, item.link)
 
-            not_pattern = section_config.get("not", "").strip()
-            if not_pattern and compile_regex(not_pattern, section, "not").search(title):
-                debug_print(debug, f"DEBUG:                 {section} | {title} | NOT: {not_pattern}")
+            if fetched_db.contains(resolved_filename):
+                debug_print(setup.debug, f"DEBUG:                 already fetched {resolved_filename}")
                 continue
 
-            filename = get_torrent_filename(opener, link)
-            if fetched_db["fetched"].get(filename):
-                debug_print(debug, f"DEBUG:                 already fetched {filename}")
+            if not rule.matches_size(size_mb):
+                debug_print(
+                    setup.debug,
+                    f"DEBUG:                 size not {rule.min_size} < {size_mb} < {rule.max_size}",
+                )
                 continue
 
-            min_size = float(section_config.get("min", "-1"))
-            max_size = float(section_config.get("max", "10000000"))
-            if not (size_mb > min_size and size_mb < max_size):
-                debug_print(debug, f"DEBUG:                 size not {min_size} < {size_mb} < {max_size}")
-                continue
+            target_file = rule.path / resolved_filename
+            debug_print(setup.debug, f"DEBUG:                 Fetch {resolved_filename}")
+            debug_print(setup.debug, f"DEBUG:                Fetching {item.link}")
+            debug_print(setup.debug, f"DEBUG:                File destination {target_file}")
 
-            target_dir_value = section_config.get("path", "").strip()
-            if not target_dir_value:
-                raise RuntimeError(f"Missing path= in section [{section}] in configfile {config_path}")
+            download_torrent(opener, item.link, target_file)
+            fetched_db.add(resolved_filename)
 
-            target_dir = Path(target_dir_value).expanduser()
-            target_file = target_dir / filename
-
-            debug_print(debug, f"DEBUG:                 Fetch {filename}")
-            debug_print(debug, f"DEBUG:                Fetching {link}")
-            debug_print(debug, f"DEBUG:                File destination {target_file}")
-
-            download_torrent(opener, link, target_file)
-
-            fetched_db["fetched"][filename] = str(int(time.time()))
-            save_fetched_db(fetched_db, fetched_db_path)
-
-        debug_print(debug, "DEBUG: -------------------------")
+        debug_print(setup.debug, "DEBUG: -------------------------")
 
 
 def main() -> int:
