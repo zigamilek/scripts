@@ -1,6 +1,28 @@
 import os
 import argparse
 import openai
+from dotenv import load_dotenv
+
+
+def load_repo_dotenv():
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    while True:
+        env_file = os.path.join(current_dir, ".env")
+        if os.path.exists(env_file):
+            load_dotenv(env_file)
+            return
+        parent_dir = os.path.dirname(current_dir)
+        if parent_dir == current_dir:
+            return
+        current_dir = parent_dir
+
+
+load_repo_dotenv()
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+if not OPENAI_API_KEY:
+    raise RuntimeError("Missing OPENAI_API_KEY environment variable.")
 
 def split_text_into_paragraphs(text, word_limit=2900):
     sentences = text.split('. ')
@@ -60,7 +82,7 @@ def generate_markdown_and_summary(input_folder):
                     output_folder = os.path.join(root, 'output')
                     os.makedirs(output_folder, exist_ok=True)
 
-                    client = openai.OpenAI(api_key='YOUR_API_KEY')
+                    client = openai.OpenAI(api_key=OPENAI_API_KEY)
 
                     print(f"    Splitting the transcription into chunks.")
                     chunks = split_text_into_paragraphs(transcription)
