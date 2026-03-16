@@ -19,17 +19,12 @@ course_url = 'https://skillwave.training/courses/the-art-and-science-of-data-vis
 
 script_folder = os.path.dirname(os.path.realpath(__file__))
 
-cookies_file = script_folder + '/cookies.txt'
+cookies_file = os.path.join(script_folder, 'cookies.txt')
 
-output_folder = '/home/ziga/share/Business/0 Favorite Authors/Skillwave/' + course + '/'
-#output_folder = '/Volumes/eulerShare/Business/0 Favorite Authors/Skillwave/' + course + '/'
+output_folder = os.path.join('/home/ziga/share/Business/0 Favorite Authors/Skillwave/', course)
 
 # create the folder for the course
-try: 
-    os.mkdir(output_folder) 
-except FileExistsError as error:
-    #print(error)
-    pass
+os.makedirs(output_folder, exist_ok=True)
 
 def main():
     # set cookies and headers
@@ -56,7 +51,7 @@ def main():
         module_title = slugify(module.find("a")['title'])
         print(module_title)
         
-        module_folder = output_folder + str(m) + ' - ' + module_title + '/'
+        module_folder = os.path.join(output_folder, f"{m} - {module_title}")
 
         # create the folder for the module
         try: 
@@ -79,7 +74,7 @@ def main():
             lesson_title = slugify(lesson_soup.find("div", class_="lesson_player_info_bottom_left").find("h2").text)
             print("    " + lesson_title)
 
-            lesson_folder = module_folder + str(j) + ' - ' + lesson_title + '/'
+            lesson_folder = os.path.join(module_folder, f"{j} - {lesson_title}")
 
             # create the folder for the lesson
             try: 
@@ -93,7 +88,7 @@ def main():
 
             lesson_content = lesson_soup.find("div", class_="lesson_video_player")
 
-            lesson_output_file = lesson_folder + 'Lesson.html'
+            lesson_output_file = os.path.join(lesson_folder, 'Lesson.html')
 
             with open(lesson_output_file, 'w') as f:
                 f.write('<h1>' + lesson_title + '</h1>')
@@ -106,7 +101,7 @@ def main():
                 'cookiefile': cookies_file,
                 'restrictfilenames': True,
                 'windowsfilenames': True,
-                'outtmpl': lesson_folder + lesson_title + '.%(ext)s',
+                'outtmpl': os.path.join(lesson_folder, f"{lesson_title}.%(ext)s"),
                 'ignoreerrors': True
             }
 
@@ -120,7 +115,7 @@ def main():
             for file_link in file_links:
                 file_url = file_link['href']
                 # create the "Files" folder
-                files_folder = lesson_folder + 'Files/'
+                files_folder = os.path.join(lesson_folder, 'Files')
                 try: 
                     os.mkdir(files_folder) 
                 except FileExistsError as error:
