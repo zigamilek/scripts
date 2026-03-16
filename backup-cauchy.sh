@@ -51,7 +51,7 @@ export BackupThis="
 #	/etc/apcupsd/apcupsd.conf
 # tale fajl /etc/ddclient.conf se noce backupat (permissions), zato sem ga odstranil iz BackupThis. itak se ne spreminja, tako da je v redu. sem ga manualno prenesel.
 # Where to backup to
-export BackupTo="/home/ziga/git/homelab/configurations/linhartova/cauchy/"
+export BackupTo="/home/ziga/git/homelab/configurations/crnomelj/cauchy/"
 mkdir -p "$BackupTo"
 # rsync backup (keep the directory structure = '-R' option)
 rsync -RazvLh --delete --info=progress2 --no-inc-recursive --log-file=$logconf $BackupThis $BackupTo
