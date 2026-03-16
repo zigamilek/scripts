@@ -12,9 +12,13 @@ from requests.exceptions import ChunkedEncodingError
 tvmaze_grand_designs_url = "http://api.tvmaze.com/shows/3251/seasons"
 
 # TheTVDB
-thetvdb_username = "REMOVED_THETVDB_USERNAME"
-thetvdb_user_key = "REMOVED_THETVDB_USER_KEY"
-thetvdb_api_key = "REMOVED_THETVDB_API_KEY"
+thetvdb_username = os.getenv("THETVDB_USERNAME")
+thetvdb_user_key = os.getenv("THETVDB_USER_KEY")
+thetvdb_api_key = os.getenv("THETVDB_API_KEY")
+
+if not thetvdb_username or not thetvdb_user_key or not thetvdb_api_key:
+    raise RuntimeError("Missing THETVDB_USERNAME, THETVDB_USER_KEY, or THETVDB_API_KEY environment variable.")
+
 thetvdb_grand_designs_url = "https://api.thetvdb.com/series/79264/episodes"
 
 # Skip episodes
