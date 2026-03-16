@@ -1,7 +1,20 @@
 #!/bin/bash
 
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+ENV_FILE="$SCRIPT_DIR/.env"
+
 # Cloudflare API credentials
-CF_API_TOKEN="uBsTSdgcD2DbA2Cozfi752qvrnj2s__XatNY9BLL"
+if [ -z "${CLOUDFLARE_DNS_API_TOKEN:-}" ] && [ -f "$ENV_FILE" ]; then
+    set -a
+    . "$ENV_FILE"
+    set +a
+fi
+
+if [ -z "$CLOUDFLARE_DNS_API_TOKEN" ]; then
+    echo "Missing CLOUDFLARE_DNS_API_TOKEN environment variable." >&2
+    exit 1
+fi
+
 CF_ZONE_NAME="milek.org"
 #CF_ZONE_NAME="zigamilek.com"
 
@@ -31,7 +44,7 @@ echo $IP > $IP_FILE
 
 # Get the Zone ID for the domain
 CF_ZONE_ID=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones?name=$CF_ZONE_NAME" \
-     -H "Authorization: Bearer $CF_API_TOKEN" \
+     -H "Authorization: Bearer $CLOUDFLARE_DNS_API_TOKEN" \
      -H "Content-Type: application/json" | jq -r '.result[0].id')
 
 if [ -z "$CF_ZONE_ID" ] || [ "$CF_ZONE_ID" == "null" ]; then
@@ -41,7 +54,7 @@ fi
 
 # Get the DNS Record ID
 DNS_RECORD=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/dns_records?type=A&name=$SUBDOMAIN.$CF_ZONE_NAME" \
-     -H "Authorization: Bearer $CF_API_TOKEN" \
+     -H "Authorization: Bearer $CLOUDFLARE_DNS_API_TOKEN" \
      -H "Content-Type: application/json")
 
 RECORD_ID=$(echo $DNS_RECORD | jq -r '.result[0].id')
@@ -50,7 +63,7 @@ if [ -z "$RECORD_ID" ] || [ "$RECORD_ID" == "null" ]; then
     echo "DNS record for $SUBDOMAIN.$CF_ZONE_NAME not found. Creating a new one."
     # Create new DNS record
     CREATE_RECORD=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/dns_records" \
-         -H "Authorization: Bearer $CF_API_TOKEN" \
+         -H "Authorization: Bearer $CLOUDFLARE_DNS_API_TOKEN" \
          -H "Content-Type: application/json" \
          --data "{\"type\":\"A\",\"name\":\"$SUBDOMAIN.$CF_ZONE_NAME\",\"content\":\"$IP\",\"ttl\":1,\"proxied\":false}")
 
@@ -63,7 +76,7 @@ if [ -z "$RECORD_ID" ] || [ "$RECORD_ID" == "null" ]; then
 else
     # Update existing DNS record
     UPDATE_RECORD=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/dns_records/$RECORD_ID" \
-         -H "Authorization: Bearer $CF_API_TOKEN" \
+         -H "Authorization: Bearer $CLOUDFLARE_DNS_API_TOKEN" \
          -H "Content-Type: application/json" \
          --data "{\"type\":\"A\",\"name\":\"$SUBDOMAIN.$CF_ZONE_NAME\",\"content\":\"$IP\",\"ttl\":1,\"proxied\":false}")
 
