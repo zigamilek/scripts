@@ -39,7 +39,10 @@ api_key = os.getenv("RESCUETIME_API_KEY")
 if not api_key:
     raise RuntimeError("Missing RESCUETIME_API_KEY environment variable.")
 
-output_folder = "/home/ziga/Zigec/Programiranje/JavaScript/RescueTime/"
+output_folder = os.getenv(
+    "RESCUETIME_OUTPUT_DIR",
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "exports"),
+)
 
 
 def main():
@@ -60,7 +63,8 @@ def main():
     end_time = '{:04}-{:02}-{:02}'.format(get_y, get_m, get_d)
 
     # Define the output file path
-    output_file = output_folder + '{:04}-{:02}'.format(get_y, get_m) + '.json'
+    os.makedirs(output_folder, exist_ok=True)
+    output_file = os.path.join(output_folder, '{:04}-{:02}.json'.format(get_y, get_m))
 
     # Check if the file already exists
     if os.path.exists(output_file):
