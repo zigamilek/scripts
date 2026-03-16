@@ -15,9 +15,14 @@
 
 import urllib.request
 import datetime
+import os
 
 
-api_key = 'REMOVED_RESCUETIME_API_KEY'
+api_key = os.getenv("RESCUETIME_API_KEY")
+
+if not api_key:
+    raise RuntimeError("Missing RESCUETIME_API_KEY environment variable.")
+
 output_folder = "/home/ziga/Zigec/Programiranje/JavaScript/RescueTime/"
 
 
