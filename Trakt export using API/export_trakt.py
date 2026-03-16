@@ -88,6 +88,11 @@ def read_config(options):
         _configfile = os.path.join(work_dir, options.config)
         if os.path.exists(options.config):
                 _configfile = options.config
+        elif options.config == 'config.ini':
+                _configfile_local = os.path.join(work_dir, 'config.local.ini')
+                if os.path.exists(_configfile_local):
+                        _configfile = _configfile_local
+        options.config = _configfile
         if options.verbose:
                 print("Config file: {0}".format(_configfile))
         if os.path.exists(_configfile):
