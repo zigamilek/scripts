@@ -3,11 +3,42 @@
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 ENV_FILE="$SCRIPT_DIR/.env"
 
+read_env_value() {
+    local key="$1"
+    local file="$2"
+    local value
+
+    [ -f "$file" ] || return 1
+
+    value="$(
+        awk -v key="$key" '
+            /^[[:space:]]*#/ { next }
+            /^[[:space:]]*$/ { next }
+            {
+                line = $0
+                sub(/^[[:space:]]+/, "", line)
+                if (index(line, key "=") == 1) {
+                    print substr(line, length(key) + 2)
+                    exit
+                }
+            }
+        ' "$file"
+    )"
+
+    value="${value%$'\r'}"
+    value="${value#"${value%%[![:space:]]*}"}"
+    value="${value%"${value##*[![:space:]]}"}"
+
+    if [[ "$value" =~ ^\".*\"$ ]] || [[ "$value" =~ ^\'.*\'$ ]]; then
+        value="${value:1:${#value}-2}"
+    fi
+
+    printf '%s' "$value"
+}
+
 # Cloudflare API credentials
 if [ -z "${CLOUDFLARE_DNS_API_TOKEN:-}" ] && [ -f "$ENV_FILE" ]; then
-    set -a
-    . "$ENV_FILE"
-    set +a
+    CLOUDFLARE_DNS_API_TOKEN="$(read_env_value "CLOUDFLARE_DNS_API_TOKEN" "$ENV_FILE")"
 fi
 
 if [ -z "$CLOUDFLARE_DNS_API_TOKEN" ]; then
