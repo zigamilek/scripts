@@ -35,9 +35,12 @@ PROCESSED_VIDEO_IDS_FILENAME = "processed_video_ids.txt"
 # to leave comfortable headroom for prompts, metadata, and responses. They are
 # not direct copies of GPT-5.4's maximum context size, and they are not output
 # caps for the model response.
-TRANSCRIPT_CHUNK_TOKEN_LIMIT = 5_000
-NOTE_REDUCTION_TOKEN_LIMIT = 7_000
-FINAL_NOTES_TOKEN_LIMIT = 12_000
+#TRANSCRIPT_CHUNK_TOKEN_LIMIT = 5_000
+#NOTE_REDUCTION_TOKEN_LIMIT = 7_000
+#FINAL_NOTES_TOKEN_LIMIT = 12_000
+TRANSCRIPT_CHUNK_TOKEN_LIMIT = 12_000
+NOTE_REDUCTION_TOKEN_LIMIT = 24_000
+FINAL_NOTES_TOKEN_LIMIT = 40_000
 
 
 LOGGER = logging.getLogger(__name__)
