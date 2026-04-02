@@ -3,7 +3,7 @@
 Summarize YouTube videos into Markdown using the OpenAI API.
 
 The script:
-- accepts either a single YouTube URL or an input file with multiple URLs
+- accepts a single YouTube URL, an input file with multiple URLs, or a YouTube playlist URL
 - fetches YouTube captions first and fails clearly when captions are unavailable
 - writes one Markdown summary per video
 - uses `gpt-5.4` by default
@@ -37,7 +37,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Optional metadata enrichment:
+Optional metadata enrichment (required for playlist mode):
 
 ```bash
 pip install yt-dlp
@@ -93,6 +93,37 @@ Override the default system prompt file:
 
 ```bash
 python3 "youtube_summarizer.py" --url "https://youtu.be/dQw4w9WgXcQ" --system-prompt-file "/path/to/alternate_prompt.md"
+```
+
+Public playlist:
+
+```bash
+python3 "youtube_summarizer.py" --playlist-url "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH"
+```
+
+Private playlist (public videos) using browser cookies:
+
+```bash
+python3 "youtube_summarizer.py" \
+  --playlist-url "https://www.youtube.com/playlist?list=PLxxxxxxxxxxxxxxxx" \
+  --cookies-from-browser "firefox"
+```
+
+Private playlist using a cookies file:
+
+```bash
+python3 "youtube_summarizer.py" \
+  --playlist-url "https://www.youtube.com/playlist?list=PLxxxxxxxxxxxxxxxx" \
+  --cookies-file "/path/to/cookies.txt"
+```
+
+Playlist with Astro output for the digest site:
+
+```bash
+python3 "youtube_summarizer.py" \
+  --playlist-url "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH" \
+  --output-dir "/path/to/digest/src/content/youtube-video-summaries" \
+  --astro
 ```
 
 Astro output for the digest site:
@@ -151,9 +182,19 @@ Each output file contains:
 The summary body is always written in English, even when the transcript language is different.
 The `Important Takeaways` section uses an adaptive bullet count: longer, denser videos may have more takeaways than shorter ones, but the prompt is instructed not to pad with fluff.
 
+## Playlist Support
+
+The `--playlist-url` flag expands a YouTube playlist into individual video targets and processes them as a batch. This requires `yt-dlp`.
+
+- **Public playlists** work out of the box.
+- **Private playlists** whose videos are public can be accessed by supplying YouTube authentication cookies via `--cookies-from-browser` or `--cookies-file`. The cookies are only used for playlist enumeration; each video is then fetched and transcribed as a normal public video.
+- Private playlist support is best-effort: YouTube cookies can expire or behave inconsistently across environments. If expansion fails, try refreshing cookies or exporting a fresh `cookies.txt` from an incognito session.
+
+The `--cookies-file` and `--cookies-from-browser` flags are ignored when not using `--playlist-url`.
+
 ## Notes
 
-- `yt-dlp` is optional. Without it, the script still works, but title/channel/duration metadata may be less complete.
+- `yt-dlp` is optional for single-video and input-file modes but required for playlist mode. Without it, metadata enrichment may be less complete.
 - When metadata is available, the report includes both the channel name and channel URL.
 - The script uses YouTube captions only in this version. It does not download audio or run fallback transcription.
 - If captions are disabled, missing, or restricted, the script reports the failure clearly and moves on in batch mode.

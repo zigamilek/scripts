@@ -133,6 +133,19 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         help="Text file containing one YouTube URL per line. Blank lines and # comments are ignored.",
     )
+    source_group.add_argument(
+        "--playlist-url",
+        help="YouTube playlist URL. All videos in the playlist are expanded and processed as a batch. Requires yt-dlp.",
+    )
+    parser.add_argument(
+        "--cookies-file",
+        type=Path,
+        help="Path to a Netscape-format cookies.txt file for authenticated playlist access (e.g. private playlists).",
+    )
+    parser.add_argument(
+        "--cookies-from-browser",
+        help="Browser name to extract cookies from for authenticated playlist access (e.g. 'firefox', 'chrome').",
+    )
     parser.add_argument(
         "--output-dir",
         type=Path,
@@ -263,6 +276,12 @@ def build_log_file_name(args: argparse.Namespace) -> str:
         except ValueError:
             source_name = "single"
         return f"youtube_summarizer_{source_name}.log"
+    if getattr(args, "playlist_url", None):
+        try:
+            playlist_id = extract_playlist_id(args.playlist_url)
+            return f"youtube_summarizer_playlist_{playlist_id}.log"
+        except ValueError:
+            return "youtube_summarizer_playlist.log"
     return "youtube_summarizer.log"
 
 
@@ -309,6 +328,68 @@ def extract_video_id(value: str) -> str:
     raise ValueError(f"Could not extract a valid YouTube video ID from: {value}")
 
 
+def extract_playlist_id(value: str) -> str:
+    raw = value.strip()
+    parsed = urlparse(raw)
+    host = parsed.netloc.lower()
+    if "youtube.com" not in host:
+        raise ValueError(f"Not a YouTube playlist URL: {value}")
+    list_id = parse_qs(parsed.query).get("list", [None])[0]
+    if not list_id:
+        raise ValueError(f"Could not extract a playlist ID from: {value}")
+    return list_id
+
+
+def expand_playlist(
+    playlist_url: str,
+    cookies_file: Path | None = None,
+    cookies_from_browser: str | None = None,
+) -> tuple[list[str], str | None]:
+    """Expand a YouTube playlist into a list of canonical video URLs.
+
+    Returns (video_urls, playlist_title).
+    """
+    if yt_dlp is None:
+        raise RuntimeError(
+            "yt-dlp is required for playlist expansion but is not installed. "
+            "Install it with: pip install yt-dlp"
+        )
+
+    options: dict = {
+        "quiet": True,
+        "no_warnings": True,
+        "skip_download": True,
+        "extract_flat": "in_playlist",
+        "ignoreerrors": True,
+    }
+    if cookies_file:
+        options["cookiefile"] = str(resolve_path(cookies_file))
+    if cookies_from_browser:
+        options["cookiesfrombrowser"] = (cookies_from_browser,)
+
+    try:
+        with yt_dlp.YoutubeDL(options) as ydl:
+            info = ydl.extract_info(playlist_url, download=False)
+    except Exception as exc:
+        raise RuntimeError(f"Failed to expand playlist: {exc}") from exc
+
+    if info is None:
+        raise RuntimeError(f"yt-dlp returned no data for playlist: {playlist_url}")
+
+    playlist_title = info.get("title")
+    entries = info.get("entries") or []
+
+    video_urls: list[str] = []
+    for entry in entries:
+        if entry is None:
+            continue
+        video_id = entry.get("id")
+        if video_id and re.fullmatch(r"[A-Za-z0-9_-]{11}", video_id):
+            video_urls.append(canonical_url(video_id))
+
+    return video_urls, playlist_title
+
+
 def canonical_url(video_id: str) -> str:
     return f"https://www.youtube.com/watch?v={video_id}"
 
@@ -350,7 +431,22 @@ def read_input_file(input_file: Path) -> list[str]:
 
 def build_targets(args: argparse.Namespace) -> tuple[list[VideoTarget], list[str]]:
     failures: list[str] = []
-    raw_entries = [args.url] if args.url else read_input_file(args.input_file)
+
+    if getattr(args, "playlist_url", None):
+        raw_entries, playlist_title = expand_playlist(
+            args.playlist_url,
+            cookies_file=getattr(args, "cookies_file", None),
+            cookies_from_browser=getattr(args, "cookies_from_browser", None),
+        )
+        if playlist_title:
+            LOGGER.info(f"Playlist: {playlist_title} ({len(raw_entries)} video(s))")
+        else:
+            LOGGER.info(f"Playlist expanded to {len(raw_entries)} video(s)")
+    elif args.url:
+        raw_entries = [args.url]
+    else:
+        raw_entries = read_input_file(args.input_file)
+
     targets: list[VideoTarget] = []
     seen_video_ids: set[str] = set()
 
@@ -1102,13 +1198,19 @@ def main() -> int:
         encoder = get_encoder(args.model)
         client = OpenAI(api_key=api_key)
 
+    if getattr(args, "playlist_url", None) and yt_dlp is None:
+        raise RuntimeError(
+            "yt-dlp is required for playlist mode but is not installed. "
+            "Install it with: pip install yt-dlp"
+        )
+
     LOGGER.info(f"Using model: {args.model}")
     LOGGER.info(f"Using system prompt: {system_prompt_path}")
     LOGGER.debug(
         f"Loaded {len(processed_video_ids)} processed video IDs from "
         f"{processed_video_ids_path(output_dir)}"
     )
-    if not args.dry_run and yt_dlp is None:
+    if not args.dry_run and yt_dlp is None and not getattr(args, "playlist_url", None):
         LOGGER.info("Metadata enrichment note: optional package yt-dlp is not installed.")
 
     targets, initial_failures = build_targets(args)
