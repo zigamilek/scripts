@@ -943,12 +943,12 @@ def build_output_path(output_dir: Path, metadata: VideoMetadata) -> Path:
     return output_dir / build_output_directory_name(metadata) / build_output_filename(metadata)
 
 
-def processed_video_ids_path(output_dir: Path) -> Path:
-    return output_dir / PROCESSED_VIDEO_IDS_FILENAME
+def processed_video_ids_path() -> Path:
+    return Path(__file__).with_name(PROCESSED_VIDEO_IDS_FILENAME)
 
 
-def load_processed_video_ids(output_dir: Path) -> set[str]:
-    registry_path = processed_video_ids_path(output_dir)
+def load_processed_video_ids() -> set[str]:
+    registry_path = processed_video_ids_path()
     if not registry_path.exists():
         return set()
 
@@ -960,12 +960,11 @@ def load_processed_video_ids(output_dir: Path) -> set[str]:
     return {line.strip() for line in lines if line.strip()}
 
 
-def record_processed_video_id(output_dir: Path, processed_video_ids: set[str], video_id: str) -> None:
+def record_processed_video_id(processed_video_ids: set[str], video_id: str) -> None:
     if video_id in processed_video_ids:
         return
 
-    registry_path = processed_video_ids_path(output_dir)
-    registry_path.parent.mkdir(parents=True, exist_ok=True)
+    registry_path = processed_video_ids_path()
     try:
         with registry_path.open("a", encoding="utf-8") as handle:
             handle.write(f"{video_id}\n")
@@ -1090,14 +1089,14 @@ def process_video(
     if target.video_id in processed_video_ids:
         LOGGER.info(
             f"Skipping {target.canonical_url} because {target.video_id} is already listed in "
-            f"{processed_video_ids_path(output_dir).name}."
+            f"{processed_video_ids_path().name}."
         )
         return "skipped", None, UsageTotals()
 
     existing_output = find_existing_output(output_dir, target.video_id)
     if existing_output is not None:
         LOGGER.info(f"Skipping {target.canonical_url} because {existing_output.name} already exists.")
-        record_processed_video_id(output_dir, processed_video_ids, target.video_id)
+        record_processed_video_id(processed_video_ids, target.video_id)
         return "skipped", existing_output, UsageTotals()
 
     if dry_run:
@@ -1158,7 +1157,7 @@ def process_video(
         )
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(report, encoding="utf-8")
-    record_processed_video_id(output_dir, processed_video_ids, target.video_id)
+    record_processed_video_id(processed_video_ids, target.video_id)
 
     LOGGER.info(
         "    Tokens used: "
@@ -1174,7 +1173,7 @@ def main() -> int:
     load_repo_dotenv()
 
     output_dir = resolve_path(args.output_dir)
-    processed_video_ids = load_processed_video_ids(output_dir)
+    processed_video_ids = load_processed_video_ids()
     system_prompt, system_prompt_path = load_system_prompt(args.system_prompt_file)
 
     client: OpenAI | None = None
@@ -1208,7 +1207,7 @@ def main() -> int:
     LOGGER.info(f"Using system prompt: {system_prompt_path}")
     LOGGER.debug(
         f"Loaded {len(processed_video_ids)} processed video IDs from "
-        f"{processed_video_ids_path(output_dir)}"
+        f"{processed_video_ids_path()}"
     )
     if not args.dry_run and yt_dlp is None and not getattr(args, "playlist_url", None):
         LOGGER.info("Metadata enrichment note: optional package yt-dlp is not installed.")

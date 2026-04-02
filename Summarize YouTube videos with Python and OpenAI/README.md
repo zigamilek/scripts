@@ -27,7 +27,7 @@ Examples:
 
 The script sanitizes uploader and title names to stay filesystem-safe.
 It treats `videoId` as the deduplication key and skips a video if a matching summary file for that ID already exists anywhere under the output directory.
-It also keeps a persistent processed-ID registry at `processed_video_ids.txt` inside the output directory, so future runs can skip videos that were already summarized before.
+It also keeps a persistent processed-ID registry at `processed_video_ids.txt` next to the script (gitignored), so future runs can skip videos that were already summarized regardless of the output directory used.
 
 ## Install
 
@@ -199,5 +199,5 @@ The `--cookies-file` and `--cookies-from-browser` flags are ignored when not usi
 - The script uses YouTube captions only in this version. It does not download audio or run fallback transcription.
 - If captions are disabled, missing, or restricted, the script reports the failure clearly and moves on in batch mode.
 - Logging defaults to `INFO`, similar to your downloader scripts. The log file is written in the current working directory as `youtube_summarizer_<source>.log`.
-- The processed-ID registry lives in the chosen output directory. If you ever want to reprocess a video, remove its ID from `processed_video_ids.txt` or use a different output directory.
+- The processed-ID registry lives next to the script as `processed_video_ids.txt` (gitignored). If you ever want to reprocess a video, remove its ID from that file.
 - `--dry-run` validates inputs and shows what would be processed, but it does not fetch transcripts, call OpenAI, write Markdown reports, or update `processed_video_ids.txt`.
