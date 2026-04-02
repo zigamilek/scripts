@@ -160,6 +160,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Validate inputs and show what would be processed without fetching transcripts, calling OpenAI, or writing output files.",
     )
+    parser.add_argument(
+        "--astro",
+        action="store_true",
+        help="Emit Astro-ready Markdown with YAML frontmatter and flat <videoId>.md filenames.",
+    )
     return parser.parse_args()
 
 
@@ -217,6 +222,25 @@ def slugify(value: str, max_length: int = 80) -> str:
     if not slug:
         return "youtube_video"
     return slug[:max_length].rstrip("_") or "youtube_video"
+
+
+def slugify_hyphen(value: str, max_length: int = 80) -> str:
+    normalized = unicodedata.normalize("NFKD", value)
+    ascii_text = normalized.encode("ascii", "ignore").decode("ascii")
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", ascii_text.lower()).strip("-")
+    slug = re.sub(r"-+", "-", slug)
+    if not slug:
+        return "unknown"
+    return slug[:max_length].rstrip("-") or "unknown"
+
+
+def build_url_slug(metadata: VideoMetadata) -> str:
+    title_part = slugify_hyphen(metadata.title or "youtube-video", max_length=80)
+    return f"{title_part}-{metadata.video_id.lower()}"
+
+
+def build_channel_slug(channel: str | None) -> str:
+    return slugify_hyphen(channel or "unknown-channel", max_length=60)
 
 
 def sanitize_path_component(value: str | None, fallback: str, max_length: int = 180) -> str:
@@ -799,6 +823,9 @@ def reduce_notes_if_needed(
 
 
 def find_existing_output(output_dir: Path, video_id: str) -> Path | None:
+    flat_path = output_dir / f"{video_id}.md"
+    if flat_path.is_file():
+        return flat_path
     matches = sorted(path for path in output_dir.rglob(f"* - {video_id}.md") if path.is_file())
     if not matches:
         matches = sorted(path for path in output_dir.rglob(f"*{video_id}.md") if path.is_file())
@@ -872,6 +899,53 @@ def render_metadata_section(
     return "\n".join(lines)
 
 
+def _yaml_str(value: str) -> str:
+    if any(c in value for c in ':{}[],"\'|>&*!%#`@'):
+        escaped = value.replace("\\", "\\\\").replace('"', '\\"')
+        return f'"{escaped}"'
+    return f'"{value}"'
+
+
+def render_frontmatter(
+    metadata: VideoMetadata,
+    generation_timestamp: str,
+    model: str,
+) -> str:
+    slug = build_url_slug(metadata)
+    channel_slug = build_channel_slug(metadata.channel)
+
+    iso_timestamp = generation_timestamp
+    if "T" not in iso_timestamp:
+        try:
+            dt = datetime.strptime(generation_timestamp, "%Y-%m-%d %H:%M:%S")
+            iso_timestamp = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+        except ValueError:
+            pass
+
+    lines = [
+        "---",
+        "schemaVersion: 1",
+        f"title: {_yaml_str(metadata.display_title)}",
+        f"videoId: {_yaml_str(metadata.video_id)}",
+        f"slug: {_yaml_str(slug)}",
+        f"sourceUrl: {_yaml_str(metadata.original_url)}",
+        f"channel: {_yaml_str(metadata.channel or 'Unknown')}",
+        f"channelSlug: {_yaml_str(channel_slug)}",
+        f"channelUrl: {_yaml_str(metadata.channel_url or 'Unknown')}",
+        f"publishDate: {_yaml_str(metadata.publish_date or 'Unknown')}",
+        f"uploadDateRaw: {_yaml_str(metadata.upload_date_raw or 'unknown')}",
+        f"durationSeconds: {metadata.duration_seconds if metadata.duration_seconds is not None else 'null'}",
+        f"durationDisplay: {_yaml_str(metadata.duration_display or 'Unknown')}",
+        f"transcriptLanguage: {_yaml_str(metadata.transcript_language or 'Unknown')}",
+        f"transcriptLanguageCode: {_yaml_str(metadata.transcript_language_code or 'unknown')}",
+        f"transcriptIsGenerated: {str(metadata.transcript_is_generated).lower() if metadata.transcript_is_generated is not None else 'null'}",
+        f"generatedAt: {_yaml_str(iso_timestamp)}",
+        f"model: {_yaml_str(model)}",
+        "---",
+    ]
+    return "\n".join(lines)
+
+
 def assemble_report(
     metadata: VideoMetadata,
     body_markdown: str,
@@ -882,6 +956,20 @@ def assemble_report(
         f"# {metadata.display_title}",
         "",
         render_metadata_section(metadata, generation_timestamp, model),
+        "",
+        strip_markdown_fences(body_markdown).strip(),
+    ]
+    return "\n".join(parts).rstrip() + "\n"
+
+
+def assemble_astro_report(
+    metadata: VideoMetadata,
+    body_markdown: str,
+    generation_timestamp: str,
+    model: str,
+) -> str:
+    parts = [
+        render_frontmatter(metadata, generation_timestamp, model),
         "",
         strip_markdown_fences(body_markdown).strip(),
     ]
@@ -899,6 +987,7 @@ def process_video(
     system_prompt: str,
     encoder,
     dry_run: bool,
+    astro: bool = False,
 ) -> tuple[str, Path | None, UsageTotals]:
     LOGGER.info(f"Processing video {current_index}/{total_videos}: {target.canonical_url}")
 
@@ -954,13 +1043,23 @@ def process_video(
         encoder=encoder,
     )
 
-    output_path = build_output_path(output_dir, metadata)
-    report = assemble_report(
-        metadata=metadata,
-        body_markdown=body_markdown,
-        generation_timestamp=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        model=model,
-    )
+    generation_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    if astro:
+        output_path = output_dir / f"{metadata.video_id}.md"
+        report = assemble_astro_report(
+            metadata=metadata,
+            body_markdown=body_markdown,
+            generation_timestamp=generation_timestamp,
+            model=model,
+        )
+    else:
+        output_path = build_output_path(output_dir, metadata)
+        report = assemble_report(
+            metadata=metadata,
+            body_markdown=body_markdown,
+            generation_timestamp=generation_timestamp,
+            model=model,
+        )
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(report, encoding="utf-8")
     record_processed_video_id(output_dir, processed_video_ids, target.video_id)
@@ -1034,6 +1133,7 @@ def main() -> int:
                 system_prompt=system_prompt,
                 encoder=encoder,
                 dry_run=args.dry_run,
+                astro=args.astro,
             )
             usage_totals.add(usage)
             if status == "processed":

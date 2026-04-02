@@ -95,6 +95,17 @@ Override the default system prompt file:
 python3 "youtube_summarizer.py" --url "https://youtu.be/dQw4w9WgXcQ" --system-prompt-file "/path/to/alternate_prompt.md"
 ```
 
+Astro output for the digest site:
+
+```bash
+python3 "youtube_summarizer.py" \
+  --input-file "/path/to/youtube-links.txt" \
+  --output-dir "/path/to/digest/src/content/youtube-video-summaries" \
+  --astro
+```
+
+When `--astro` is set, the script emits YAML frontmatter instead of `# Title` and `## Metadata`, and uses flat `<videoId>.md` filenames instead of the nested uploader/date pattern.
+
 You can combine overrides:
 
 ```bash
