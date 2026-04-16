@@ -1,5 +1,7 @@
 # YouTube Summarizer CLI
 
+> **Note:** For automated digest site content generation (YouTube channels, playlists, RSS feeds, daily digests), use the [digest-pipeline](https://github.com/zigamilek/digest-pipeline) instead. This standalone script remains useful for one-off summarization outside the pipeline.
+
 Summarize YouTube videos into Markdown using the OpenAI API.
 
 The script:
